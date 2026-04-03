@@ -1,0 +1,74 @@
+---
+title: 一次関数（専門）
+description: "アフィン変換・線形写像・超平面"
+difficulty: 4
+tags: [math,functions,linear,professional]
+hierarchy:
+  - text: 数学
+    href: /math/index.html
+  - text: 関数
+    href: /math/functions/index.html
+  - text: 一次関数（専門）
+    href: /math/functions/linear/professional.html
+levels:
+  - text: 基礎
+    href: standard.html
+  - text: 発展
+    href: advanced.html
+  - text: 専門
+---
+
+
+
+
+
+
+
+# 一次関数（発展）
+アフィン写像・線形写像・$n$ 次元超平面を扱います。
+
+## このページで扱うこと
+- 線形写像とアフィン写像の違い
+- $n$ 次元での一次関数（超平面）
+- 最小二乗法との接続
+
+## 前提知識
+- [一次関数](../linear/standard.md)
+- [行列](../../linear-algebra/matrices/standard.md)
+- [ベクトル](../../linear-algebra/vectors/standard.md)
+
+---
+
+## 線形写像とアフィン写像
+
+**線形写像**: $f(\alpha x + \beta y) = \alpha f(x) + \beta f(y)$（原点を保つ）
+
+**アフィン写像**: $f(x) = Ax + b$（線形写像 + 平行移動）
+
+一次関数 $y = ax + b$ はアフィン写像（$b \neq 0$ のとき線形でない）。
+
+---
+
+## $n$ 次元超平面
+
+$$\boldsymbol{w}^\top \boldsymbol{x} + b = 0 \quad (\boldsymbol{w}, \boldsymbol{x} \in \mathbb{R}^n)$$
+
+点 $\boldsymbol{x}_0$ からの距離: $\dfrac{|\boldsymbol{w}^\top \boldsymbol{x}_0 + b|}{\|\boldsymbol{w}\|}$
+
+---
+
+## 最小二乗法
+
+データ点 $(x_i, y_i)$ への最良の一次近似を求める:
+
+$$\min_{a,b} \sum_i (y_i - ax_i - b)^2$$
+
+解は正規方程式 $X^\top X \boldsymbol{\beta} = X^\top \boldsymbol{y}$ から得られます。
+
+---
+
+## 関連ページ
+
+- [一次関数](../linear/standard.md)
+- [行列（専門）](../../linear-algebra/matrices/professional.md)
+- [確率（専門）](../../statistics/probability/professional.md)
