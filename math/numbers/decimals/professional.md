@@ -28,9 +28,10 @@ requires:
 
 
 
+
 ## このページで扱うこと
 
-実数の厳密な構成と完備性について扱います。  
+実数の厳密な構成と完備性について扱います。\
 基礎は[小数（入門）](introduction.md)を参照してください。
 
 - デデキント切断による実数の構成
@@ -43,7 +44,7 @@ requires:
 
 実数を「有理数の切断」として定義します。
 
-有理数の集合 $A, B$（$A \cup B = \mathbb{Q}$, $A \cap B = \emptyset$）で  
+有理数の集合 $A, B$（$A \cup B = \mathbb{Q}$, $A \cap B = \emptyset$）で\
 $a \in A, b \in B \Rightarrow a < b$ を満たすとき、組 $(A, B)$ を**デデキント切断**といいます。
 
 $$\sqrt{2} = (A, B),\quad A = \{q \in \mathbb{Q} \mid q < 0 \text{ または } q^2 < 2\}$$

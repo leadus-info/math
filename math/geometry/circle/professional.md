@@ -28,6 +28,7 @@ requires:
 
 
 
+
 ## このページで扱うこと
 
 反転幾何・リーマン球面・メビウス変換を扱います。
@@ -50,7 +51,7 @@ $$z \mapsto \frac{r^2}{\bar{z}}$$
 
 ## リーマン球面
 
-複素平面 $\mathbb{C}$ に無限遠点 $\infty$ を加えた $\hat{\mathbb{C}} = \mathbb{C} \cup \{\infty\}$。  
+複素平面 $\mathbb{C}$ に無限遠点 $\infty$ を加えた $\hat{\mathbb{C}} = \mathbb{C} \cup \{\infty\}$。\
 球面 $S^2$ と立体射影で同一視されます。
 
 ---

@@ -25,9 +25,10 @@ requires:
 
 
 
+
 ## このページで扱うこと
 
-波・振動・回転——周期的な変化を表す関数です。
+波・振動・回転——周期的な変化を表す関数です。\
 単位円（半径 1 の円）の上を動く点の座標として定義されます。
 
 - $\sin$・$\cos$・$\tan$ の定義と主要な値
@@ -71,7 +72,7 @@ $$\sin^2\theta + \cos^2\theta = 1$$
 
 **加法定理**：
 
-$$\sin(\alpha + \beta) = \sin\alpha\cos\beta + \cos\alpha\sin\beta$$
+$$\sin(\alpha + \beta) = \sin\alpha\cos\beta + \cos\alpha\sin\beta$$\
 $$\cos(\alpha + \beta) = \cos\alpha\cos\beta - \sin\alpha\sin\beta$$
 
 ---
