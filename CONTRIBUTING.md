@@ -17,12 +17,12 @@
 各トピックは以下の3段階で記事を作成します。
 レベルは「誰向けか」ではなく、**「どのようなアプローチで書くか」** で定義されています。
 
-### introduction（導入）
+### introduction（入門）
 そのトピックを初めて知る人が「何のことか」「なぜ重要か」を理解できることを目的とした記事。
 
 - 直感・比喩・具体例を優先する
 - 厳密さは犠牲にしてよい
-- 数式は原則使わない
+- 数式は極力使わない
 
 ### standard（標準）
 概念を把握した上で「どう動くか」「なぜそうなるか」を理解できることを目的とした記事。
@@ -30,7 +30,6 @@
 - 定義と論理の流れを明確に書く
 - 式や証明を含む
 - 曖昧さを許容しない
-- introductionへの参照リンクを含めること
 
 ### professional（専門）
 厳密な定義・例外・境界条件・一次資料への参照を含む記事。
@@ -39,7 +38,6 @@
 - ε-δ論法など厳密な記述を用いる
 - 例外・境界条件を明示する
 - 一次資料（論文・教科書）への参照を含める
-- standardへの参照リンクを含めること
 - 他のprofessional記事が前提条件になることがある
 
 ---
@@ -78,20 +76,20 @@
 ## 記事作成前のチェックリスト
 
 ### introduction
-- [ ] 数式なしで説明できているか
+- [ ] 数式は極力使わずに説明できているか
 - [ ] 具体的な例え話が含まれているか
 
 ### standard
 - [ ] 定義が明確に書かれているか
 - [ ] 論理の飛躍がないか
 - [ ] 曖昧な表現を使っていないか
-- [ ] introductionへの参照リンクがあるか
+- [ ] 前提となる記事を`requires`に記載しているか
 
 ### professional
 - [ ] 厳密な定義が書かれているか
 - [ ] 例外・境界条件を扱っているか
 - [ ] 一次資料への参照があるか
-- [ ] standardへの参照リンクがあるか
+- [ ] 前提となる記事を`requires`に記載しているか
 
 ---
 
@@ -122,18 +120,19 @@ hierarchy:
   - title: 数学
     url: /math/index.html
   - title: 関数の操作
-    url: /math/functions/calculus/index.html
+    url: /math/functions/index.html
   - title: 微分
-    url: /math/functions/calculus/derivatives/introduction.html
+    url: /math/functions/derivatives/introduction.html
 levels:
-  - level: introduction
-  - level: standard
+  - level: 入門
+  - level: 標準
     url: standard.html
-  - level: professional
+  - level: 専門
     url: professional.html
+
 requires:
   - title: 極限
-    url: /math/functions/calculus/limits/introduction
+    url: /math/functions/limits/introduction
 ---
 ```
 
