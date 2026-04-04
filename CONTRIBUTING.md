@@ -95,36 +95,45 @@
 
 ---
 
-## 前提知識の明示
+## 記載ルール
 
-記事のフロントマターに、その記事を読む上で必要な前提記事を明記してください。
-professionalは他のprofessional記事が前提になることがあります。
+1. 記事のフロントマターに、その記事を読む上で必要な前提記事を明記してください。professionalは他のprofessional記事が前提になることがあります。
+2. タイトルと前提条件はビルド時にフロントマターから自動生成されるため、bodyには書かないでください。
+3. H1タグ（`#`）も同様にフロントマターの`title`から自動生成されるため、bodyでは使用しないでください。なお、これらはGitHub上でのプレビューでは表示されませんが、ビルド後に確認してください。
+4. bodyはH2タグ（`##`）から書き始めてください。
 
-タイトルと前提条件はビルド時にフロントマターから自動生成されるため、bodyには書かないでください。
-H1タグ（`#`）も同様にフロントマターの`title`から自動生成されるため、bodyでは使用しないでください。
-GitHub上でのプレビューでは表示されませんが、ビルド後に確認してください。
+フロントマターには以下のフィールドを記載してください。
+
+- `title`：記事のタイトル
+- `description`：記事の簡潔な説明（一文程度）
+- `tags`：関連するキーワード
+- `level`：この記事のレベル（`introduction` / `standard` / `professional`）
+- `hierarchy`：パンくずリストの構造。上位階層から順に`title`と`url`を列挙する
+- `levels`：同じトピックの他レベルへのリンク。現在のレベルは`url`を省略する（UI上で現在地として非リンク表示される）
+- `requires`：前提となる記事。`title`と`url`を明記する
 
 ```yaml
 ---
 title: 微分
-level: standard
+description: "瞬間の変化率を求める操作"
+tags: [math,functions,calculus]
+level: introduction
+hierarchy:
+  - title: 数学
+    url: /math/index.html
+  - title: 関数の操作
+    url: /math/functions/calculus/index.html
+  - title: 微分
+    url: /math/functions/calculus/derivatives/introduction.html
+levels:
+  - level: introduction
+  - level: standard
+    url: standard.html
+  - level: professional
+    url: professional.html
 requires:
   - title: 極限
-    url: /math/limit/introduction
-  - title: 関数
-    url: /math/function/standard
----
-```
-
-```yaml
----
-title: ルベーグ積分
-level: professional
-requires:
-  - title: リーマン積分
-    url: /math/integral/professional
-  - title: 集合論
-    url: /math/set_theory/standard
+    url: /math/functions/calculus/limits/introduction
 ---
 ```
 

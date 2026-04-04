@@ -4,19 +4,18 @@ description: "瞬間の変化率を求める操作"
 tags: [math,functions,calculus]
 level: introduction
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 関数の操作
-    href: /math/functions/calculus/index.html
-  - text: 微分
-    href: /math/functions/calculus/derivatives/introduction.html
+  - title: 数学
+    url: /math/index.html
+  - title: 関数
+    url: /math/functions/index.html
+  - title: 微分
+    url: /math/functions/derivatives/introduction.html
 levels:
   - level: introduction
   - level: standard
     url: standard.html
   - level: professional
     url: professional.html
-
 requires:
   - title: 極限
     url: /math/functions/calculus/limits/introduction
