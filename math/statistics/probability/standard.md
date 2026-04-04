@@ -1,74 +1,60 @@
 ---
 title: 確率
-description: "起こりやすさを数で表す"
-difficulty: 2
+description: "起こりやすさを数値で表す"
 tags: [math,statistics,probability]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 統計・確率
-    href: /math/statistics/index.html
-  - text: 確率
-    href: /math/statistics/probability/standard.html
+  - title: 数学
+    path: /math/index.html
+  - title: 統計・確率
+    path: /math/statistics/index.html
+  - title: 確率
+    path: /math/statistics/probability/standard.html
 levels:
-  - text: 基礎
-  - text: 発展
-    href: advanced.html
-  - text: 専門
-    href: professional.html
+  - level: 入門
+    path: introduction.html
+  - level: 標準
+  - level: 専門
+    path: professional.html
+level: 標準
+requires:
+  - title: 場合の数
+    path: /math/statistics/counting/introduction
+  - title: 分数
+    path: /math/numbers/fractions/introduction
 ---
 
+## 確率の定義（古典的確率）
 
+起こりやすさを 0 から 1 の数値で表したものが確率です。
 
+同様に確からしい（等確率の）根元事象が $n$ 個あり、事象 $A$ が $m$ 個の根元事象からなるとき
 
+$$P(A) = \frac{m}{n}$$
 
+$0 \leq P(A) \leq 1$、$P(\text{全事象}) = 1$、$P(\emptyset) = 0$。
 
-# 確率
-コインを投げると表か裏が出ます。どちらが出るかは事前にわかりません。
-**確率**は「どれくらい起こりやすいか」を $0$ から $1$ の数で表したものです。
-
-## このページで扱うこと
-- 確率の定義と基本計算
-- 余事象（起きない確率）
-- 条件付き確率
-
-## 前提知識
-- [場合の数](../counting/standard.md)
-- [分数](../../numbers/fractions/standard.md)
-
----
-
-## 確率とは？
-
-$$P(A) = \frac{\text{事象 } A \text{ の場合の数}}{\text{全体の場合の数}}$$
-
-- $P(A) = 0$：絶対起きない
-- $P(A) = 1$：必ず起きる
-- $0 \leq P(A) \leq 1$：常に $0$ 以上 $1$ 以下
-
-**例**：サイコロで $3$ が出る確率 $= \dfrac{1}{6}$
+例：サイコロで偶数が出る確率：$P = \dfrac{3}{6} = \dfrac{1}{2}$
 
 ---
 
 ## 余事象
 
-「$A$ が起きない確率」を**余事象**といいます。
+$A$ が起きない事象を**余事象** $A^c$ といいます。
 
-$$P(\text{$A$ が起きない}) = 1 - P(A)$$
+$$P(A^c) = 1 - P(A)$$
 
-「少なくとも $1$ 回 $A$ が起きる」確率は、余事象「$1$ 回も起きない」を使うと楽です。
+「少なくとも1回以上」のような問題は余事象で考えると楽なことが多いです。
 
-**例**：コイン $3$ 回投げて少なくとも $1$ 回表が出る確率
-
-$$1 - P(\text{$3$ 回全部裏}) = 1 - \left(\frac{1}{2}\right)^3 = 1 - \frac{1}{8} = \frac{7}{8}$$
+例：コインを3回投げて少なくとも1回表が出る確率：
+$$1 - P(\text{3回全部裏}) = 1 - \left(\frac{1}{2}\right)^3 = \frac{7}{8}$$
 
 ---
 
-## 和の法則
+## 加法定理
 
 $$P(A \cup B) = P(A) + P(B) - P(A \cap B)$$
 
-$A$ と $B$ が同時に起きない（排反）なら：
+$A$ と $B$ が**排反**（同時に起きない、$A \cap B = \emptyset$）のとき：
 
 $$P(A \cup B) = P(A) + P(B)$$
 
@@ -76,26 +62,34 @@ $$P(A \cup B) = P(A) + P(B)$$
 
 ## 独立な事象
 
-一方が他方に影響しない場合：
+$A$ と $B$ が**独立**（一方の結果が他方に影響しない）とは
 
 $$P(A \cap B) = P(A) \times P(B)$$
 
-**例**：$2$ 枚のコインを投げるとき、両方表 $= \dfrac{1}{2} \times \dfrac{1}{2} = \dfrac{1}{4}$
+が成り立つことです。
+
+例：コインを2回投げるとき「1回目が表」と「2回目が表」は独立。
+両方表の確率 $= \dfrac{1}{2} \times \dfrac{1}{2} = \dfrac{1}{4}$
 
 ---
 
 ## 条件付き確率
 
-「$B$ が起きたとわかった上での $A$ の確率」：
+「$B$ が起きたとわかった上での $A$ の確率」を**条件付き確率**といいます。
 
-$$P(A \mid B) = \frac{P(A \cap B)}{P(B)}$$
+$$P(A \mid B) = \frac{P(A \cap B)}{P(B)} \quad (P(B) > 0)$$
 
-**例**：赤玉 $3$ 個・白玉 $2$ 個の袋から $1$ 個取り出して赤だったとき、
-次も赤が出る確率は（袋に戻さない場合）$\dfrac{2}{4} = \dfrac{1}{2}$
+---
+
+## ベイズの定理
+
+$$P(A \mid B) = \frac{P(B \mid A) \cdot P(A)}{P(B)}$$
+
+「結果 $B$ が観測されたとき、原因 $A$ の確率は？」という問いに答えます。
+医療検査の偽陽性・偽陰性の評価などで重要です。
 
 ---
 
 ## 関連ページ
 
-- [場合の数](../counting/standard.md)
-- [確率（発展）](../probability/advanced.md) — より詳しく学ぶ
+- [場合の数](../counting/introduction.md)

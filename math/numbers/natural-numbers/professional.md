@@ -1,43 +1,38 @@
 ---
-title: 自然数（専門）
+title: 自然数
 description: "自然数の厳密な構成・ペアノ公理・数論的性質"
-difficulty: 4
-tags: [math,numbers,natural-numbers,professional]
+tags: [math,numbers,natural-numbers]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 数
-    href: /math/numbers/index.html
-  - text: 自然数（専門）
-    href: /math/numbers/natural-numbers/professional.html
+  - title: 数学
+    path: /math/index.html
+  - title: 数
+    path: /math/numbers/index.html
+  - title: 自然数
+    path: /math/numbers/natural-numbers/professional.html
 levels:
-  - text: 基礎
-    href: standard.html
-  - text: 発展
-    href: advanced.html
-  - text: 専門
+  - level: 入門
+    path: introduction.html
+  - level: 標準
+    path: standard.html
+  - level: 専門
+level: 専門
+requires:
+  - title: 自然数
+    path: /math/numbers/natural-numbers/introduction
+  - title: 必要・十分条件
+    path: /math/math-language/conditions/introduction
+  - title: 集合
+    path: /math/math-language/sets/introduction
 ---
 
-
-
-
-
-
-
-
-# 自然数（発展）
-このページでは、自然数を公理から厳密に構築し、数論・整除論の基礎を扱います。  
-初等的な自然数の概念は[自然数（入門）](../natural-numbers/standard.md)を参照してください。
-
 ## このページで扱うこと
+
+このページでは、自然数を公理から厳密に構築し、数論・整除論の基礎を扱います。  
+初等的な自然数の概念は[自然数（入門）](introduction.md)を参照してください。
+
 - ペアノ公理による自然数の公理的定義
 - 整除・最大公約数・ユークリッドの互除法
 - 算術の基本定理（素因数分解の一意性）の証明
-
-## 前提知識
-- [自然数](../natural-numbers/standard.md)
-- [必要・十分条件](../../math-language/conditions/standard.md)
-- [集合](../../math-language/sets/standard.md)
 
 ---
 
@@ -99,7 +94,7 @@ $\therefore \gcd(48, 18) = 6$
 
 ## 関連ページ
 
-- [自然数](../natural-numbers/standard.md) — 入門編
-- [集合](../../math-language/sets/standard.md) — $\mathbb{N}$ の集合論的構成
+- [自然数](introduction.md) — 入門編
+- [集合](introduction.md) — $\mathbb{N}$ の集合論的構成
 - [必要・十分条件（専門）](../../math-language/conditions/professional.md) — 証明技法
 - [場合の数（専門）](../../statistics/counting/professional.md) — 整数の数え上げ

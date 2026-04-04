@@ -1,42 +1,37 @@
 ---
-title: 三角関数（専門）
+title: 三角関数
 description: "フーリエ級数・フーリエ変換・球面調和関数"
-difficulty: 6
-tags: [math,functions,trigonometric,professional]
+tags: [math,functions,trigonometric]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 関数
-    href: /math/functions/index.html
-  - text: 三角関数（専門）
-    href: /math/functions/trigonometric/professional.html
+  - title: 数学
+    path: /math/index.html
+  - title: 関数
+    path: /math/functions/index.html
+  - title: 三角関数
+    path: /math/functions/trigonometric/professional.html
 levels:
-  - text: 基礎
-    href: standard.html
-  - text: 発展
-    href: advanced.html
-  - text: 専門
+  - level: 入門
+    path: introduction.html
+  - level: 標準
+    path: standard.html
+  - level: 専門
+level: 専門
+requires:
+  - title: 三角関数
+    path: /math/functions/trigonometric/introduction
+  - title: 積分（専門）
+    path: ../../integrals/professional.md
+  - title: 複素関数
+    path: /math/functions/complex-functions/introduction
 ---
 
+## このページで扱うこと
 
-
-
-
-
-
-
-# 三角関数（発展）
 フーリエ解析・変換・球面調和関数を扱います。
 
-## このページで扱うこと
 - フーリエ級数展開
 - フーリエ変換とその性質
 - 球面調和関数の概要
-
-## 前提知識
-- [三角関数](../trigonometric/standard.md)
-- [積分（専門）](../calculus/integrals/professional.md)
-- [複素関数](../calculus/complex-functions/standard.md)
 
 ---
 
@@ -68,6 +63,6 @@ $S^2$ 上のラプラス方程式の固有関数 $Y_l^m(\theta, \varphi)$（量�
 
 ## 関連ページ
 
-- [三角関数](../trigonometric/standard.md)
-- [複素関数](../calculus/complex-functions/standard.md)
-- [積分（専門）](../calculus/integrals/professional.md)
+- [三角関数](introduction.md)
+- [複素関数](introduction.md)
+- [積分（専門）](../integrals/professional.md)

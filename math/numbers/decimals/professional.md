@@ -1,43 +1,38 @@
 ---
-title: 小数（専門）
+title: 小数
 description: "実数の完備性・デデキント切断・コーシー列"
-difficulty: 5
-tags: [math,numbers,decimals,professional]
+tags: [math,numbers,decimals]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 数
-    href: /math/numbers/index.html
-  - text: 小数（専門）
-    href: /math/numbers/decimals/professional.html
+  - title: 数学
+    path: /math/index.html
+  - title: 数
+    path: /math/numbers/index.html
+  - title: 小数
+    path: /math/numbers/decimals/professional.html
 levels:
-  - text: 基礎
-    href: standard.html
-  - text: 発展
-    href: advanced.html
-  - text: 専門
+  - level: 入門
+    path: introduction.html
+  - level: 標準
+    path: standard.html
+  - level: 専門
+level: 専門
+requires:
+  - title: 分数（専門）
+    path: ../fractions/professional.md
+  - title: 数列（専門）
+    path: ../../functions/sequences/professional.md
+  - title: 集合
+    path: /math/math-language/sets/introduction
 ---
 
-
-
-
-
-
-
-
-# 小数（発展）
-実数の厳密な構成と完備性について扱います。  
-基礎は[小数（入門）](../decimals/standard.md)を参照してください。
-
 ## このページで扱うこと
+
+実数の厳密な構成と完備性について扱います。  
+基礎は[小数（入門）](introduction.md)を参照してください。
+
 - デデキント切断による実数の構成
 - コーシー列による実数の構成
 - 実数の完備性と連続性
-
-## 前提知識
-- [分数（専門）](../fractions/professional.md)
-- [数列（専門）](../../functions/sequences/professional.md)
-- [集合](../../math-language/sets/standard.md)
 
 ---
 
@@ -72,6 +67,6 @@ $\mathbb{Q}$ ではこの性質が成り立ちません（$\sqrt{2} \notin \math
 
 ## 関連ページ
 
-- [小数](../decimals/standard.md)
-- [極限（専門）](../../functions/calculus/limits/professional.md)
+- [小数](introduction.md)
+- [極限（専門）](../../functions/limits/professional.md)
 - [数列（専門）](../../functions/sequences/professional.md)

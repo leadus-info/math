@@ -1,42 +1,37 @@
 ---
-title: 点（専門）
+title: 点
 description: "距離空間・位相空間・多様体上の点"
-difficulty: 6
-tags: [math,geometry,point,professional]
+tags: [math,geometry,point]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 幾何
-    href: /math/geometry/index.html
-  - text: 点（専門）
-    href: /math/geometry/point/professional.html
+  - title: 数学
+    path: /math/index.html
+  - title: 幾何
+    path: /math/geometry/index.html
+  - title: 点
+    path: /math/geometry/point/professional.html
 levels:
-  - text: 基礎
-    href: standard.html
-  - text: 発展
-    href: advanced.html
-  - text: 専門
+  - level: 入門
+    path: introduction.html
+  - level: 標準
+    path: standard.html
+  - level: 専門
+level: 専門
+requires:
+  - title: 点
+    path: /math/geometry/point/introduction
+  - title: 集合（専門）
+    path: ../../math-language/sets/professional.md
+  - title: 極限（専門）
+    path: ../../functions/limits/professional.md
 ---
 
+## このページで扱うこと
 
-
-
-
-
-
-
-# 点（発展）
 距離空間・位相空間・多様体を扱います。
 
-## このページで扱うこと
 - 距離空間の公理と例
 - 位相空間（開集合による定式化）
 - 多様体の定義の概要
-
-## 前提知識
-- [点](../point/standard.md)
-- [集合（専門）](../../math-language/sets/professional.md)
-- [極限（専門）](../../functions/calculus/limits/professional.md)
 
 ---
 
@@ -65,6 +60,6 @@ $$\mathcal{T} \text{ は } \emptyset, X \text{ を含み、有限交叉・任意
 
 ## 関連ページ
 
-- [点](../point/standard.md)
+- [点](introduction.md)
 - [集合（専門）](../../math-language/sets/professional.md)
 - [ベクトル（専門）](../../linear-algebra/vectors/professional.md)

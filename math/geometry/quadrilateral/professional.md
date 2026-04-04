@@ -1,41 +1,37 @@
 ---
-title: 四角形（専門）
+title: 四角形
 description: "双対多面体・四辺形の射影的性質"
-difficulty: 4
-tags: [math,geometry,quadrilateral,professional]
+tags: [math,geometry,quadrilateral]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 幾何
-    href: /math/geometry/index.html
-  - text: 四角形（専門）
-    href: /math/geometry/quadrilateral/professional.html
+  - title: 数学
+    path: /math/index.html
+  - title: 幾何
+    path: /math/geometry/index.html
+  - title: 四角形
+    path: /math/geometry/quadrilateral/professional.html
 levels:
-  - text: 基礎
-    href: standard.html
-  - text: 発展
-    href: advanced.html
-  - text: 専門
+  - level: 入門
+    path: introduction.html
+  - level: 標準
+    path: standard.html
+  - level: 専門
+level: 専門
+requires:
+  - title: 四角形
+    path: /math/geometry/quadrilateral/introduction
+  - title: 円
+    path: /math/geometry/circle/introduction
+  - title: 直線（専門）
+    path: ../line/professional.md
 ---
 
+## このページで扱うこと
 
-
-
-
-
-
-# 四角形（発展）
 双対多面体・調和共役・射影的性質を扱います。
 
-## このページで扱うこと
 - 調和共役と完全四点形
 - 内接四辺形・円に関する性質
 - 立体幾何への拡張（直方体・正多面体）
-
-## 前提知識
-- [四角形](../quadrilateral/standard.md)
-- [円](../circle/standard.md)
-- [直線（専門）](../line/professional.md)
 
 ---
 
@@ -61,6 +57,6 @@ $$AC \cdot BD = AB \cdot CD + AD \cdot BC$$
 
 ## 関連ページ
 
-- [四角形](../quadrilateral/standard.md)
+- [四角形](introduction.md)
 - [直線（専門）](../line/professional.md)
 - [行列（専門）](../../linear-algebra/matrices/professional.md)

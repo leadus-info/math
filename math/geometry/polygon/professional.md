@@ -1,41 +1,35 @@
 ---
-title: 多角形（専門）
+title: 多角形
 description: "多面体・オイラー標数・タイリング理論"
-difficulty: 5
-tags: [math,geometry,polygon,professional]
+tags: [math,geometry,polygon]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 幾何
-    href: /math/geometry/index.html
-  - text: 多角形（専門）
-    href: /math/geometry/polygon/professional.html
+  - title: 数学
+    path: /math/index.html
+  - title: 幾何
+    path: /math/geometry/index.html
+  - title: 多角形
+    path: /math/geometry/polygon/professional.html
 levels:
-  - text: 基礎
-    href: standard.html
-  - text: 発展
-    href: advanced.html
-  - text: 専門
+  - level: 入門
+    path: introduction.html
+  - level: 標準
+    path: standard.html
+  - level: 専門
+level: 専門
+requires:
+  - title: 多角形
+    path: /math/geometry/polygon/introduction
+  - title: 集合
+    path: /math/math-language/sets/introduction
 ---
 
+## このページで扱うこと
 
-
-
-
-
-
-
-# 多角形（発展）
 多面体・オイラー標数・タイリング理論を扱います。
 
-## このページで扱うこと
 - 多面体のオイラーの公式 $V - E + F = 2$
 - 正多面体が5種類しかない理由
 - 双曲幾何とタイリング
-
-## 前提知識
-- [多角形](../polygon/standard.md)
-- [集合](../../math-language/sets/standard.md)
 
 ---
 
@@ -65,6 +59,6 @@ $$V - E + F = 2$$
 
 ## 関連ページ
 
-- [多角形](../polygon/standard.md)
+- [多角形](introduction.md)
 - [点（専門）](../point/professional.md)
 - [集合（専門）](../../math-language/sets/professional.md)

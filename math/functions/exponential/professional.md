@@ -1,42 +1,37 @@
 ---
-title: 指数関数（専門）
+title: 指数関数
 description: "指数型分布族・母関数・行列指数関数"
-difficulty: 5
-tags: [math,functions,exponential,professional]
+tags: [math,functions,exponential]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 関数
-    href: /math/functions/index.html
-  - text: 指数関数（専門）
-    href: /math/functions/exponential/professional.html
+  - title: 数学
+    path: /math/index.html
+  - title: 関数
+    path: /math/functions/index.html
+  - title: 指数関数
+    path: /math/functions/exponential/professional.html
 levels:
-  - text: 基礎
-    href: standard.html
-  - text: 発展
-    href: advanced.html
-  - text: 専門
+  - level: 入門
+    path: introduction.html
+  - level: 標準
+    path: standard.html
+  - level: 専門
+level: 専門
+requires:
+  - title: 指数関数
+    path: /math/functions/exponential/introduction
+  - title: 行列
+    path: /math/linear-algebra/matrices/introduction
+  - title: 積分
+    path: /math/functions/integrals/introduction
 ---
 
+## このページで扱うこと
 
-
-
-
-
-
-
-# 指数関数（発展）
 行列指数関数・指数型分布族・ラプラス変換を扱います。
 
-## このページで扱うこと
 - 行列指数関数 $e^A$ と常微分方程式
 - 指数型分布族（統計）
 - ラプラス変換
-
-## 前提知識
-- [指数関数](../exponential/standard.md)
-- [行列](../../linear-algebra/matrices/standard.md)
-- [積分](../calculus/integrals/standard.md)
 
 ---
 
@@ -66,6 +61,6 @@ $$p(x;\theta) = h(x)\exp(\eta(\theta)T(x) - A(\theta))$$
 
 ## 関連ページ
 
-- [指数関数](../exponential/standard.md)
+- [指数関数](introduction.md)
 - [行列（専門）](../../linear-algebra/matrices/professional.md)
 - [確率（専門）](../../statistics/probability/professional.md)

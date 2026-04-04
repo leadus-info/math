@@ -1,50 +1,45 @@
 ---
 title: 二次関数
-description: "グラフが放物線になる関数"
-difficulty: 1
+description: "放物線を描く関数"
 tags: [math,functions,quadratic]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 関数
-    href: /math/functions/index.html
-  - text: 二次関数
-    href: /math/functions/quadratic/standard.html
+  - title: 数学
+    path: /math/index.html
+  - title: 関数
+    path: /math/functions/index.html
+  - title: 二次関数
+    path: /math/functions/quadratic/standard.html
 levels:
-  - text: 基礎
-  - text: 発展
-    href: advanced.html
-  - text: 専門
-    href: professional.html
+  - level: 入門
+    path: introduction.html
+  - level: 標準
+  - level: 専門
+    path: professional.html
+level: 標準
+requires:
+  - title: 一次関数
+    path: /math/functions/linear/introduction
+  - title: 代数
+    path: /math/math-language/algebra/introduction
 ---
-
-
-
-
-
-
-# 二次関数
-ボールを投げたときの軌跡、橋のアーチ——これらは**放物線**という曲線です。
-$x^2$ を含む関数のグラフがこの形になります。
 
 ## このページで扱うこと
-- 二次関数の基本形と頂点形式
-- グラフの特徴（開く向き・頂点・軸）
-- 判別式と $x$ 軸との交点
 
-## 前提知識
-- [一次関数](../linear/standard.md)
-- [代数](../../math-language/algebra/standard.md)
+$x^2$ を含む関数で、グラフは**放物線**になります。
+ボールの軌跡や橋のアーチがこの形です。
+
+- 二次関数の標準形と頂点形式
+- 放物線のグラフの特徴
+- 二次方程式との対応
 
 ---
 
-## 二次関数とは？
+## 定義
 
 $$f(x) = ax^2 + bx + c \quad (a \neq 0)$$
 
-- $a > 0$：下に開く放物線（$\cup$ の形）
-- $a < 0$：上に開く放物線（$\cap$ の形）
-- $|a|$ が大きいほど細い放物線
+- $a > 0$：下に開く（$\cup$ 形）
+- $a < 0$：上に開く（$\cap$ 形）
 
 ---
 
@@ -52,39 +47,44 @@ $$f(x) = ax^2 + bx + c \quad (a \neq 0)$$
 
 $$f(x) = a(x - p)^2 + q$$
 
-- **頂点**：$(p,\ q)$（山の頂上 or 谷の底）
-- **軸**：$x = p$（放物線の左右対称の直線）
+- **頂点**：$(p,\ q)$（最大値または最小値の点）
+- **軸**：$x = p$
 
 **平方完成の例**：
 
-$$x^2 + 4x + 1 = (x + 2)^2 - 4 + 1 = (x+2)^2 - 3$$
+$$x^2 + 4x + 1 = (x + 2)^2 - 3 \implies \text{頂点 }(-2,\ -3)$$
 
-→ 頂点は $(-2,\ -3)$
+---
 
-**頂点を公式で求めると**：$p = -\dfrac{b}{2a}$
+## 頂点の座標
+
+$$p = -\frac{b}{2a}, \qquad q = f(p)$$
 
 ---
 
 ## $x$ 軸との交点（判別式）
 
-$ax^2 + bx + c = 0$ の解の個数は**判別式** $D = b^2 - 4ac$ で決まります。
+$$D = b^2 - 4ac$$
 
-| $D$ | 意味 | グラフ |
-|-----|------|--------|
-| $D > 0$ | 実数解が $2$ 個 | $x$ 軸と $2$ 点で交わる |
-| $D = 0$ | 実数解が $1$ 個（重解） | $x$ 軸にちょうど接する |
-| $D < 0$ | 実数解なし | $x$ 軸と交わらない |
+| $D$ | $x$ 軸との関係 |
+|-----|--------------|
+| $D > 0$ | 2 点で交わる |
+| $D = 0$ | 1 点で接する |
+| $D < 0$ | 交わらない |
 
 ---
 
-## 解の公式
+## 二次不等式
 
-$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
+$a > 0$、$D > 0$（解を $\alpha < \beta$）のとき：
+
+$$f(x) < 0 \iff \alpha < x < \beta$$
+$$f(x) > 0 \iff x < \alpha \text{ または } x > \beta$$
 
 ---
 
 ## 関連ページ
 
-- [一次関数](../linear/standard.md)
-- [多項式](../polynomials/standard.md)
-- [二次関数（発展）](../quadratic/advanced.md) — より詳しく学ぶ
+- [多項式](professional.md)
+- [微分](professional.md) — 頂点は $f'(x) = 0$ の点
+- [二次関数（専門）](professional.md) — 二次形式・円錐曲線

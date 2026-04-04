@@ -1,42 +1,37 @@
 ---
-title: 確率（専門）
+title: 確率
 description: "測度論的確率論・確率過程・大数の法則"
-difficulty: 6
-tags: [math,statistics,probability,professional]
+tags: [math,statistics,probability]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 統計・確率
-    href: /math/statistics/index.html
-  - text: 確率（専門）
-    href: /math/statistics/probability/professional.html
+  - title: 数学
+    path: /math/index.html
+  - title: 統計・確率
+    path: /math/statistics/index.html
+  - title: 確率
+    path: /math/statistics/probability/professional.html
 levels:
-  - text: 基礎
-    href: standard.html
-  - text: 発展
-    href: advanced.html
-  - text: 専門
+  - level: 入門
+    path: introduction.html
+  - level: 標準
+    path: standard.html
+  - level: 専門
+level: 専門
+requires:
+  - title: 確率
+    path: /math/statistics/probability/introduction
+  - title: 積分（専門）
+    path: ../../functions/integrals/professional.md
+  - title: 数列（専門）
+    path: ../../functions/sequences/professional.md
 ---
 
+## このページで扱うこと
 
-
-
-
-
-
-
-# 確率（発展）
 測度論的確率論・確率過程・中心極限定理を扱います。
 
-## このページで扱うこと
 - 測度論的確率論（コルモゴロフの公理の完全版）
 - 大数の法則と中心極限定理
 - 確率過程（ブラウン運動・マルコフ連鎖）
-
-## 前提知識
-- [確率](../probability/standard.md)
-- [積分（専門）](../../functions/calculus/integrals/professional.md)
-- [数列（専門）](../../functions/sequences/professional.md)
 
 ---
 
@@ -70,6 +65,6 @@ $$\frac{S_n - n\mu}{\sqrt{n}\sigma} \xrightarrow{d} N(0,1)$$
 
 ## 関連ページ
 
-- [確率](../probability/standard.md)
-- [積分（専門）](../../functions/calculus/integrals/professional.md)
+- [確率](introduction.md)
+- [積分（専門）](../../functions/integrals/professional.md)
 - [行列（専門）](../../linear-algebra/matrices/professional.md)

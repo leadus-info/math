@@ -1,42 +1,37 @@
 ---
-title: 円（専門）
+title: 円
 description: "反転幾何・リーマン球面・複素平面上の円"
-difficulty: 5
-tags: [math,geometry,circle,professional]
+tags: [math,geometry,circle]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 幾何
-    href: /math/geometry/index.html
-  - text: 円（専門）
-    href: /math/geometry/circle/professional.html
+  - title: 数学
+    path: /math/index.html
+  - title: 幾何
+    path: /math/geometry/index.html
+  - title: 円
+    path: /math/geometry/circle/professional.html
 levels:
-  - text: 基礎
-    href: standard.html
-  - text: 発展
-    href: advanced.html
-  - text: 専門
+  - level: 入門
+    path: introduction.html
+  - level: 標準
+    path: standard.html
+  - level: 専門
+level: 専門
+requires:
+  - title: 円
+    path: /math/geometry/circle/introduction
+  - title: 複素数
+    path: /math/numbers/complex-numbers/introduction
+  - title: 直線（専門）
+    path: ../line/professional.md
 ---
 
+## このページで扱うこと
 
-
-
-
-
-
-
-# 円（発展）
 反転幾何・リーマン球面・メビウス変換を扱います。
 
-## このページで扱うこと
 - 反転（円反転）とその性質
 - リーマン球面（複素射影直線）
 - メビウス変換による円の変換
-
-## 前提知識
-- [円](../circle/standard.md)
-- [複素数](../../numbers/complex-numbers/standard.md)
-- [直線（専門）](../line/professional.md)
 
 ---
 
@@ -67,6 +62,6 @@ $\hat{\mathbb{C}}$ 上の全単射共形写像。円・直線を円・直線に�
 
 ## 関連ページ
 
-- [円](../circle/standard.md)
-- [複素関数](../../functions/calculus/complex-functions/standard.md)
+- [円](introduction.md)
+- [複素関数](introduction.md)
 - [点（専門）](../point/professional.md)

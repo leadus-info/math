@@ -1,40 +1,35 @@
 ---
-title: 集合（専門）
+title: 集合
 description: "公理的集合論・順序数・基数"
-difficulty: 6
-tags: [math,math-language,sets,professional]
+tags: [math,math-language,sets]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 数学の言語
-    href: /math/math-language/index.html
-  - text: 集合（専門）
-    href: /math/math-language/sets/professional.html
+  - title: 数学
+    path: /math/index.html
+  - title: 数学の言語
+    path: /math/math-language/index.html
+  - title: 集合
+    path: /math/math-language/sets/professional.html
 levels:
-  - text: 基礎
-    href: standard.html
-  - text: 発展
-    href: advanced.html
-  - text: 専門
+  - level: 入門
+    path: introduction.html
+  - level: 標準
+    path: standard.html
+  - level: 専門
+level: 専門
+requires:
+  - title: 集合
+    path: /math/math-language/sets/introduction
+  - title: 必要・十分条件（専門）
+    path: ../conditions/professional.md
 ---
 
+## このページで扱うこと
 
-
-
-
-
-
-# 集合（発展）
 ZFC公理系・順序数・基数・連続体仮説を扱います。
 
-## このページで扱うこと
 - ZFC公理系（ツェルメロ・フレンケル＋選択公理）
 - 順序数と超限帰納法
 - 基数と連続体仮説
-
-## 前提知識
-- [集合](../sets/standard.md)
-- [必要・十分条件（専門）](../conditions/professional.md)
 
 ---
 
@@ -69,6 +64,6 @@ $$|\mathbb{N}| = \aleph_0 < |\mathbb{R}| = 2^{\aleph_0}$$
 
 ## 関連ページ
 
-- [集合](../sets/standard.md)
+- [集合](introduction.md)
 - [必要・十分条件（専門）](../conditions/professional.md)
 - [自然数（専門）](../../numbers/natural-numbers/professional.md)

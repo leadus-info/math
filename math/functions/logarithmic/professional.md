@@ -1,42 +1,37 @@
 ---
-title: 対数関数（専門）
+title: 対数関数
 description: "情報エントロピー・複素対数・$p$-進対数"
-difficulty: 5
-tags: [math,functions,logarithmic,professional]
+tags: [math,functions,logarithmic]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 関数
-    href: /math/functions/index.html
-  - text: 対数関数（専門）
-    href: /math/functions/logarithmic/professional.html
+  - title: 数学
+    path: /math/index.html
+  - title: 関数
+    path: /math/functions/index.html
+  - title: 対数関数
+    path: /math/functions/logarithmic/professional.html
 levels:
-  - text: 基礎
-    href: standard.html
-  - text: 発展
-    href: advanced.html
-  - text: 専門
+  - level: 入門
+    path: introduction.html
+  - level: 標準
+    path: standard.html
+  - level: 専門
+level: 専門
+requires:
+  - title: 対数関数
+    path: /math/functions/logarithmic/introduction
+  - title: 複素数
+    path: /math/numbers/complex-numbers/introduction
+  - title: 確率
+    path: /math/statistics/probability/introduction
 ---
 
+## このページで扱うこと
 
-
-
-
-
-
-
-# 対数関数（発展）
 情報理論・複素対数・$p$-進対数を扱います。
 
-## このページで扱うこと
 - 情報エントロピーと対数
 - 複素対数（多価性とリーマン面）
 - KL ダイバージェンス
-
-## 前提知識
-- [対数関数](../logarithmic/standard.md)
-- [複素数](../../numbers/complex-numbers/standard.md)
-- [確率](../../statistics/probability/standard.md)
 
 ---
 
@@ -67,6 +62,6 @@ $$D_{KL}(P \| Q) = \sum_x P(x)\ln\frac{P(x)}{Q(x)} \geq 0$$
 
 ## 関連ページ
 
-- [対数関数](../logarithmic/standard.md)
-- [複素関数](../calculus/complex-functions/standard.md)
+- [対数関数](introduction.md)
+- [複素関数](introduction.md)
 - [確率（専門）](../../statistics/probability/professional.md)

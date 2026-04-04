@@ -1,65 +1,52 @@
 ---
 title: 集合
 description: "ものの集まりを数学で扱う"
-difficulty: 1
 tags: [math,math-language,sets]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 数学の言語
-    href: /math/math-language/index.html
-  - text: 集合
-    href: /math/math-language/sets/standard.html
+  - title: 数学
+    path: /math/index.html
+  - title: 数学の言語
+    path: /math/math-language/index.html
+  - title: 集合
+    path: /math/math-language/sets/standard.html
 levels:
-  - text: 基礎
-  - text: 発展
-    href: advanced.html
-  - text: 専門
-    href: professional.html
+  - level: 入門
+    path: introduction.html
+  - level: 標準
+  - level: 専門
+    path: professional.html
+level: 標準
+requires:
+  - title: 自然数
+    path: /math/numbers/natural-numbers/introduction
 ---
 
+## 集合の定義
 
+「ものの集まり」を数学的に扱う道具が集合です。
+現代数学のほぼすべての概念は集合の言葉で記述されます。
 
-
-
-
-# 集合
-「クラスの女子全員」「10 以下の偶数」——こういった「ものの集まり」を数学的に扱う道具が**集合**です。
-
-## このページで扱うこと
-- 集合の書き方
-- 部分集合（含まれる関係）
-- 和集合・共通部分・補集合
-
-## 前提知識
-- [自然数](../../numbers/natural-numbers/standard.md)
-
----
-
-## 集合の書き方
-
-要素を $\{\ \}$ で囲んで書きます。
+要素がはっきり決まる「ものの集まり」を**集合**といいます。
 
 $$A = \{1, 2, 3, 4, 5\}$$
+$$B = \{x \mid x \text{ は 10 以下の偶数}\} = \{2, 4, 6, 8, 10\}$$
 
-「$3$ は $A$ の要素」→ $3 \in A$
-「$6$ は $A$ の要素でない」→ $6 \notin A$
+$3 \in A$（3 は $A$ の要素）、$6 \notin A$（6 は $A$ の要素でない）。
 
-条件で書くこともできます。
-
-$$B = \{x \mid x \text{ は } 10 \text{ 以下の偶数}\} = \{2, 4, 6, 8, 10\}$$
+「背の高い人の集合」は要素が曖昧なので数学的な集合として扱えません。
+要素かどうかが明確に判定できることが条件です。
 
 ---
 
 ## よく使う集合
 
-| 記号 | 意味 |
+| 記号 | 内容 |
 |------|------|
-| $\mathbb{N}$ | 自然数全体 |
-| $\mathbb{Z}$ | 整数全体 |
-| $\mathbb{Q}$ | 有理数（分数）全体 |
+| $\mathbb{N}$ | 自然数全体 $\{1, 2, 3, \ldots\}$ |
+| $\mathbb{Z}$ | 整数全体 $\{\ldots, -2, -1, 0, 1, 2, \ldots\}$ |
+| $\mathbb{Q}$ | 有理数全体（分数で表せる数） |
 | $\mathbb{R}$ | 実数全体 |
-| $\emptyset$ | 何も入っていない集合（空集合） |
+| $\emptyset$ | 空集合（要素が一つもない集合） |
 
 $$\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}$$
 
@@ -67,17 +54,19 @@ $$\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}$$
 
 ## 集合の演算
 
-**和集合**（どちらかに入っている）：$A \cup B$
+**和集合**（少なくとも一方に属する）：
 
-$$A = \{1,2,3\},\ B = \{2,3,4\} \implies A \cup B = \{1,2,3,4\}$$
+$$A \cup B = \{x \mid x \in A \text{ または } x \in B\}$$
 
-**共通部分**（両方に入っている）：$A \cap B$
+**共通部分**（両方に属する）：
 
-$$A \cap B = \{2,3\}$$
+$$A \cap B = \{x \mid x \in A \text{ かつ } x \in B\}$$
 
-**補集合**（全体から $A$ を除いたもの）：$A^c$
+**補集合**（全体 $U$ のうち $A$ に属さない）：
 
-全体を $U = \{1,2,3,4,5\}$ とすると $A^c = \{4,5\}$
+$$A^c = \{x \in U \mid x \notin A\}$$
+
+**部分集合**：$A$ のすべての要素が $B$ にも属するとき $A \subset B$。
 
 ---
 
@@ -90,8 +79,28 @@ $$(A \cap B)^c = A^c \cup B^c$$
 
 ---
 
+## 写像
+
+集合 $A$ の各要素に集合 $B$ の要素をただ一つ対応させる規則を**写像**といいます。
+関数は写像の特別な場合（$A, B$ が数の集合）です。
+
+$$f: A \to B, \quad f(x) = x^2$$
+
+写像において「$A$ のすべての要素が対応先を持つ」ことが重要で、
+「$B$ のすべての要素が対応元を持つ」かどうかは別の話（全射）です。
+
+---
+
+## 集合と論理の対応
+
+「条件 $P(x)$」と「集合 $\{x \mid P(x)\}$」は対応します。
+
+- $P \Rightarrow Q$（「PならばQ」）$\Leftrightarrow$ $\{x \mid P(x)\} \subset \{x \mid Q(x)\}$
+- $P \Leftrightarrow Q$（同値）$\Leftrightarrow$ $\{x \mid P(x)\} = \{x \mid Q(x)\}$
+
+---
+
 ## 関連ページ
 
-- [必要・十分条件](../conditions/standard.md)
-- [場合の数](../../statistics/counting/standard.md)
-- [集合（発展）](../sets/advanced.md) — より詳しく学ぶ
+- [必要・十分条件](../conditions/introduction.md)
+- [場合の数](../../statistics/counting/introduction.md)

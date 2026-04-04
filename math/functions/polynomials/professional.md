@@ -1,42 +1,37 @@
 ---
-title: 多項式（専門）
+title: 多項式
 description: "多項式環・代数幾何の入口・シューア多項式"
-difficulty: 6
-tags: [math,functions,polynomials,professional]
+tags: [math,functions,polynomials]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 関数
-    href: /math/functions/index.html
-  - text: 多項式（専門）
-    href: /math/functions/polynomials/professional.html
+  - title: 数学
+    path: /math/index.html
+  - title: 関数
+    path: /math/functions/index.html
+  - title: 多項式
+    path: /math/functions/polynomials/professional.html
 levels:
-  - text: 基礎
-    href: standard.html
-  - text: 発展
-    href: advanced.html
-  - text: 専門
+  - level: 入門
+    path: introduction.html
+  - level: 標準
+    path: standard.html
+  - level: 専門
+level: 専門
+requires:
+  - title: 多項式
+    path: /math/functions/polynomials/introduction
+  - title: 代数（専門）
+    path: ../../math-language/algebra/professional.md
+  - title: 行列（専門）
+    path: ../../linear-algebra/matrices/professional.md
 ---
 
+## このページで扱うこと
 
-
-
-
-
-
-
-# 多項式（発展）
 多変数多項式・対称多項式・代数幾何の基礎を扱います。
 
-## このページで扱うこと
 - 多変数多項式と斉次多項式
 - 対称多項式とシューア多項式
 - 代数的多様体の入口
-
-## 前提知識
-- [多項式](../polynomials/standard.md)
-- [代数（専門）](../../math-language/algebra/professional.md)
-- [行列（専門）](../../linear-algebra/matrices/professional.md)
 
 ---
 
@@ -62,6 +57,6 @@ $$V(f_1, \ldots, f_k) = \{x \in \mathbb{A}^n : f_1(x) = \cdots = f_k(x) = 0\}$$
 
 ## 関連ページ
 
-- [多項式](../polynomials/standard.md)
+- [多項式](introduction.md)
 - [等号・等式（専門）](../../math-language/equations/professional.md)
 - [複素数（専門）](../../numbers/complex-numbers/professional.md)

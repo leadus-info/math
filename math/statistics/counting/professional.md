@@ -1,42 +1,37 @@
 ---
-title: 場合の数（専門）
+title: 場合の数
 description: "母関数・包除原理・ラムゼー理論"
-difficulty: 6
-tags: [math,statistics,counting,professional]
+tags: [math,statistics,counting]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 統計・確率
-    href: /math/statistics/index.html
-  - text: 場合の数（専門）
-    href: /math/statistics/counting/professional.html
+  - title: 数学
+    path: /math/index.html
+  - title: 統計・確率
+    path: /math/statistics/index.html
+  - title: 場合の数
+    path: /math/statistics/counting/professional.html
 levels:
-  - text: 基礎
-    href: standard.html
-  - text: 発展
-    href: advanced.html
-  - text: 専門
+  - level: 入門
+    path: introduction.html
+  - level: 標準
+    path: standard.html
+  - level: 専門
+level: 専門
+requires:
+  - title: 場合の数
+    path: /math/statistics/counting/introduction
+  - title: 数列（専門）
+    path: ../../functions/sequences/professional.md
+  - title: 集合（専門）
+    path: ../../math-language/sets/professional.md
 ---
 
+## このページで扱うこと
 
-
-
-
-
-
-
-# 場合の数（発展）
 母関数・包除原理・ラムゼー理論を扱います。
 
-## このページで扱うこと
 - 普通母関数・指数母関数
 - 包除原理とメビウス関数
 - ラムゼー数の概要
-
-## 前提知識
-- [場合の数](../counting/standard.md)
-- [数列（専門）](../../functions/sequences/professional.md)
-- [集合（専門）](../../math-language/sets/professional.md)
 
 ---
 
@@ -66,6 +61,6 @@ $R(3,3) = 6$（6人いれば3人の知人か3人の他人が必ず存在）
 
 ## 関連ページ
 
-- [場合の数](../counting/standard.md)
+- [場合の数](introduction.md)
 - [確率（専門）](../probability/professional.md)
 - [自然数（専門）](../../numbers/natural-numbers/professional.md)

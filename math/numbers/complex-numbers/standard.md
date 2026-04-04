@@ -1,40 +1,38 @@
 ---
 title: 複素数
-description: "$x^2=-1$ の解として生まれた数"
-difficulty: 2
+description: "実数を超えた数の体系"
 tags: [math,complex-numbers,complex-numbers]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 数
-    href: /math/numbers/index.html
-  - text: 複素数
-    href: /math/numbers/complex-numbers/standard.html
+  - title: 数学
+    path: /math/index.html
+  - title: 数
+    path: /math/numbers/index.html
+  - title: 複素数
+    path: /math/numbers/complex-numbers/standard.html
 levels:
-  - text: 基礎
-  - text: 発展
-    href: advanced.html
-  - text: 専門
-    href: professional.html
+  - level: 入門
+    path: introduction.html
+  - level: 標準
+  - level: 専門
+    path: professional.html
+level: 標準
+requires:
+  - title: 負数
+    path: /math/numbers/negative-numbers/introduction
+  - title: 三角関数
+    path: /math/functions/trigonometric/introduction
+  - title: 指数関数
+    path: /math/functions/exponential/introduction
 ---
 
-
-
-
-
-
-# 複素数
-$x^2 = -1$ を満たす数は実数の中にありません。
-「存在することにしてしまおう」と決めた数が**虚数単位** $i$ で、これを使って表す数が**複素数**です。
-
 ## このページで扱うこと
-- 虚数単位 $i$ と複素数の定義
-- 複素数の計算
-- 複素平面（ガウス平面）
 
-## 前提知識
-- [負数](../negative-numbers/standard.md) — 実数の限界
-- [三角関数](../../functions/trigonometric/standard.md) — 極形式に必要
+$x^2 = -1$ を満たす数は実数の中に存在しません。
+「存在することにしよう」と決めたのが虚数単位 $i$ であり、これを使って表す数が**複素数**です。
+
+- 虚数単位 $i$ と複素数の定義
+- 複素数の四則演算
+- 複素平面と極形式・オイラーの公式
 
 ---
 
@@ -42,44 +40,35 @@ $x^2 = -1$ を満たす数は実数の中にありません。
 
 $$i^2 = -1$$
 
-「$-1$ の平方根」として $i$ を定義します。
-$i$ 自体は実数ではありません。
-
 ---
 
 ## 複素数の定義
 
 $$z = a + bi \quad (a, b \in \mathbb{R})$$
 
-- $a$：**実部**（実数の部分）
-- $b$：**虚部**（$i$ の係数）
-- $b = 0$ なら実数、$a = 0$ かつ $b \neq 0$ なら純虚数
+- $a$：実部、$b$：虚部
 
 ---
 
-## 複素数の計算
+## 四則演算
 
-**足し算**：実部・虚部ごとに計算
+**足し算**：
 
 $$(3 + 2i) + (1 + 4i) = 4 + 6i$$
 
-**掛け算**：$i^2 = -1$ を使って展開
+**掛け算**（$i^2 = -1$ を使う）：
 
-$$(2 + i)(3 + 2i) = 6 + 4i + 3i + 2i^2 = 6 + 7i - 2 = 4 + 7i$$
+$$(1 + 2i)(3 + i) = 3 + i + 6i + 2i^2 = 1 + 7i$$
 
-**複素共役**：虚部の符号を反転
-
-$$\overline{3 + 2i} = 3 - 2i$$
+**複素共役**：$\overline{a + bi} = a - bi$
 
 ---
 
 ## 複素平面
 
 複素数 $a + bi$ を平面上の点 $(a, b)$ として表します。
-- 横軸：実部（**実軸**）
-- 縦軸：虚部（**虚軸**）
 
-**絶対値**（原点からの距離）：
+**絶対値**：原点からの距離
 
 $$|z| = \sqrt{a^2 + b^2}$$
 
@@ -89,19 +78,14 @@ $$|z| = \sqrt{a^2 + b^2}$$
 
 $$z = r(\cos\theta + i\sin\theta) = re^{i\theta}$$
 
-- $r = |z|$：絶対値
-- $\theta$：偏角（実軸からの角度）
-
-最も美しい等式：
+$$e^{i\theta} = \cos\theta + i\sin\theta$$
 
 $$e^{i\pi} + 1 = 0$$
-
-$e$、$i$、$\pi$、$1$、$0$ という $5$ つの数がひとつの式に収まります。
 
 ---
 
 ## 関連ページ
 
-- [複素関数](../../functions/calculus/complex-functions/standard.md)
-- [三角関数](../../functions/trigonometric/standard.md)
-- [複素数（発展）](../complex-numbers/advanced.md) — より詳しく学ぶ
+- [複素関数](professional.md)
+- [三角関数](professional.md)
+- [複素数（専門）](professional.md)

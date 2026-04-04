@@ -1,42 +1,37 @@
 ---
-title: 代数（専門）
+title: 代数
 description: "抽象代数・環論・多項式環"
-difficulty: 5
-tags: [math,math-language,algebra,professional]
+tags: [math,math-language,algebra]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 数学の言語
-    href: /math/math-language/index.html
-  - text: 代数（専門）
-    href: /math/math-language/algebra/professional.html
+  - title: 数学
+    path: /math/index.html
+  - title: 数学の言語
+    path: /math/math-language/index.html
+  - title: 代数
+    path: /math/math-language/algebra/professional.html
 levels:
-  - text: 基礎
-    href: standard.html
-  - text: 発展
-    href: advanced.html
-  - text: 専門
+  - level: 入門
+    path: introduction.html
+  - level: 標準
+    path: standard.html
+  - level: 専門
+level: 専門
+requires:
+  - title: 代数
+    path: /math/math-language/algebra/introduction
+  - title: 四則演算（専門）
+    path: ../../numbers/arithmetic/professional.md
+  - title: 行列
+    path: /math/linear-algebra/matrices/introduction
 ---
 
+## このページで扱うこと
 
-
-
-
-
-
-
-# 代数（発展）
 多項式環・加群・テンソル積など抽象代数の道具を扱います。
 
-## このページで扱うこと
 - 多項式環 $R[x]$ の構造
 - 加群と自由加群
 - テンソル積の定義と普遍性
-
-## 前提知識
-- [代数](../algebra/standard.md)
-- [四則演算（専門）](../../numbers/arithmetic/professional.md)
-- [行列](../../linear-algebra/matrices/standard.md)
 
 ---
 
@@ -65,6 +60,6 @@ $$\text{Hom}(M \otimes N, P) \cong \text{Bil}(M \times N, P)$$
 
 ## 関連ページ
 
-- [代数](../algebra/standard.md)
+- [代数](introduction.md)
 - [行列（専門）](../../linear-algebra/matrices/professional.md)
 - [複素数（専門）](../../numbers/complex-numbers/professional.md)

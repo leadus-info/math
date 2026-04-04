@@ -1,42 +1,37 @@
 ---
-title: ベクトル（専門）
+title: ベクトル
 description: "内積空間・ヒルベルト空間・双対空間"
-difficulty: 6
-tags: [math,linear-algebra,vectors,professional]
+tags: [math,linear-algebra,vectors]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 線形代数
-    href: /math/linear-algebra/index.html
-  - text: ベクトル（専門）
-    href: /math/linear-algebra/vectors/professional.html
+  - title: 数学
+    path: /math/index.html
+  - title: 線形代数
+    path: /math/linear-algebra/index.html
+  - title: ベクトル
+    path: /math/linear-algebra/vectors/professional.html
 levels:
-  - text: 基礎
-    href: standard.html
-  - text: 発展
-    href: advanced.html
-  - text: 専門
+  - level: 入門
+    path: introduction.html
+  - level: 標準
+    path: standard.html
+  - level: 専門
+level: 専門
+requires:
+  - title: ベクトル
+    path: /math/linear-algebra/vectors/introduction
+  - title: 極限（専門）
+    path: ../../functions/limits/professional.md
+  - title: 積分（専門）
+    path: ../../functions/integrals/professional.md
 ---
 
+## このページで扱うこと
 
-
-
-
-
-
-
-# ベクトル（発展）
 内積空間・ヒルベルト空間・双対空間を扱います。
 
-## このページで扱うこと
 - 内積空間の公理とグラム・シュミット直交化
 - ヒルベルト空間と完備性
 - 双対空間とリース表現定理
-
-## 前提知識
-- [ベクトル](../vectors/standard.md)
-- [極限（専門）](../../functions/calculus/limits/professional.md)
-- [積分（専門）](../../functions/calculus/integrals/professional.md)
 
 ---
 
@@ -74,6 +69,6 @@ $$f(v) = \langle v, u\rangle\quad \forall v \in H$$
 
 ## 関連ページ
 
-- [ベクトル](../vectors/standard.md)
+- [ベクトル](introduction.md)
 - [行列（専門）](../matrices/professional.md)
 - [三角関数（専門）](../../functions/trigonometric/professional.md)

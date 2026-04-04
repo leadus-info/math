@@ -1,42 +1,37 @@
 ---
-title: 数列（専門）
+title: 数列
 description: "級数の収束判定・べき級数・漸近展開"
-difficulty: 5
-tags: [math,functions,sequences,professional]
+tags: [math,functions,sequences]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 関数
-    href: /math/functions/index.html
-  - text: 数列（専門）
-    href: /math/functions/sequences/professional.html
+  - title: 数学
+    path: /math/index.html
+  - title: 関数
+    path: /math/functions/index.html
+  - title: 数列
+    path: /math/functions/sequences/professional.html
 levels:
-  - text: 基礎
-    href: standard.html
-  - text: 発展
-    href: advanced.html
-  - text: 専門
+  - level: 入門
+    path: introduction.html
+  - level: 標準
+    path: standard.html
+  - level: 専門
+level: 専門
+requires:
+  - title: 数列
+    path: /math/functions/sequences/introduction
+  - title: 極限（専門）
+    path: ../../limits/professional.md
+  - title: 微分
+    path: /math/functions/derivatives/introduction
 ---
 
+## このページで扱うこと
 
-
-
-
-
-
-
-# 数列（発展）
 級数の収束判定・べき級数・漸近展開を扱います。
 
-## このページで扱うこと
 - 収束判定法（比率・根・積分・交代）
 - べき級数と収束半径
 - 漸近展開と発散級数
-
-## 前提知識
-- [数列](../sequences/standard.md)
-- [極限（専門）](../calculus/limits/professional.md)
-- [微分](../calculus/derivatives/standard.md)
 
 ---
 
@@ -73,6 +68,6 @@ $$n! \sim \sqrt{2\pi n}\left(\frac{n}{e}\right)^n$$
 
 ## 関連ページ
 
-- [数列](../sequences/standard.md)
-- [複素関数](../calculus/complex-functions/standard.md)
+- [数列](introduction.md)
+- [複素関数](introduction.md)
 - [三角関数（専門）](../trigonometric/professional.md)

@@ -1,42 +1,37 @@
 ---
-title: 四則演算（専門）
+title: 四則演算
 description: "群・環・体の代数的構造"
-difficulty: 5
-tags: [math,operations,arithmetic,professional]
+tags: [math,operations,arithmetic]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 数
-    href: /math/numbers/index.html
-  - text: 乗法・べき乗（専門）
-    href: /math/numbers/arithmetic/professional.html
+  - title: 数学
+    path: /math/index.html
+  - title: 数
+    path: /math/numbers/index.html
+  - title: 乗法・べき乗
+    path: /math/numbers/arithmetic/professional.html
 levels:
-  - text: 基礎
-    href: standard.html
-  - text: 発展
-    href: advanced.html
-  - text: 専門
+  - level: 入門
+    path: introduction.html
+  - level: 標準
+    path: standard.html
+  - level: 専門
+level: 専門
+requires:
+  - title: 乗法・べき乗
+    path: /math/numbers/arithmetic/introduction
+  - title: 集合
+    path: /math/math-language/sets/introduction
+  - title: 負数（専門）
+    path: ../../numbers/negative-numbers/professional.md
 ---
 
+## このページで扱うこと
 
-
-
-
-
-
-
-# 四則演算（発展）
 演算を抽象化した代数的構造（群・環・体）を扱います。
 
-## このページで扱うこと
 - 群・環・体の定義と例
 - 準同型定理の概要
 - 体上の多項式環
-
-## 前提知識
-- [乗法・べき乗](../arithmetic/standard.md)
-- [集合](../../math-language/sets/standard.md)
-- [負数（専門）](../../numbers/negative-numbers/professional.md)
 
 ---
 
@@ -84,6 +79,6 @@ $$G / \ker(\varphi) \cong \text{Im}(\varphi)$$
 
 ## 関連ページ
 
-- [乗法・べき乗](../arithmetic/standard.md)
+- [乗法・べき乗](introduction.md)
 - [行列（専門）](../../linear-algebra/matrices/professional.md)
 - [複素数（専門）](../complex-numbers/professional.md)

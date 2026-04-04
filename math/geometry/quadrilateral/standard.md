@@ -1,64 +1,54 @@
 ---
 title: 四角形
 description: "4辺で囲まれた図形の種類と性質"
-difficulty: 1
 tags: [math,geometry,quadrilateral]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 幾何
-    href: /math/geometry/index.html
-  - text: 四角形
-    href: /math/geometry/quadrilateral/standard.html
+  - title: 数学
+    path: /math/index.html
+  - title: 幾何
+    path: /math/geometry/index.html
+  - title: 四角形
+    path: /math/geometry/quadrilateral/standard.html
 levels:
-  - text: 基礎
-  - text: 発展
-    href: advanced.html
-  - text: 専門
-    href: professional.html
+  - level: 入門
+    path: introduction.html
+  - level: 標準
+  - level: 専門
+    path: professional.html
+level: 標準
+requires:
+  - title: 三角形
+    path: /math/geometry/triangle/introduction
+  - title: 直線
+    path: /math/geometry/line/introduction
 ---
-
-
-
-
-# 四角形
-$4$ 本の辺で囲まれた多角形が**四角形**です。
-正方形・長方形・平行四辺形……種類によって使える性質が変わります。
 
 ## このページで扱うこと
+
+4 本の辺で囲まれた多角形が**四角形**です。
+
 - 内角の和
 - 種類と包含関係
-- 面積の公式
-
-## 前提知識
-- [三角形](../triangle/standard.md)
+- 各図形の面積
 
 ---
 
-## 内角の和は $360°$
+## 内角の和
 
-対角線で $2$ つの三角形に分割できるので $180° \times 2 = 360°$。
+$$360°$$
 
 ---
 
 ## 種類の包含関係
 
-- 四角形
-    - 台形（1 組の対辺が平行）
-        - 平行四辺形（2 組の対辺が平行）
-            - 長方形（4 角が直角）
-                - 正方形（4 辺等長かつ 4 角直角）
-            - ひし形（4 辺等長）
-                - 正方形
-
-上の図形の性質は、下の図形でも成り立ちます。
+四角形 > 台形 > 平行四辺形 > 長方形・ひし形 > 正方形
 
 ---
 
 ## 各図形の性質
 
-| 図形 | 対辺 | 対角線の特徴 |
-|------|------|-------------|
+| 図形 | 対辺 | 対角線 |
+|------|------|--------|
 | 平行四辺形 | 等長・平行 | 互いに二等分 |
 | 長方形 | 等長・平行 | 等長・互いに二等分 |
 | ひし形 | すべて等長 | 垂直に二等分 |
@@ -68,10 +58,10 @@ $4$ 本の辺で囲まれた多角形が**四角形**です。
 
 ## 面積
 
-| 図形 | 公式 |
+| 図形 | 面積 |
 |------|------|
-| 長方形 | 縦 $\times$ 横 |
-| 平行四辺形 | 底辺 $\times$ 高さ |
+| 長方形 | $\text{縦} \times \text{横}$ |
+| 平行四辺形 | $\text{底辺} \times \text{高さ}$ |
 | 台形 | $\dfrac{(\text{上底}+\text{下底}) \times \text{高さ}}{2}$ |
 | ひし形 | $\dfrac{\text{対角線}_1 \times \text{対角線}_2}{2}$ |
 
@@ -79,6 +69,6 @@ $4$ 本の辺で囲まれた多角形が**四角形**です。
 
 ## 関連ページ
 
-- [三角形](../triangle/standard.md)
-- [多角形](../polygon/standard.md)
-- [四角形（発展）](../quadrilateral/advanced.md) — より詳しく学ぶ
+- [三角形](professional.md)
+- [多角形](professional.md)
+- [四角形（専門）](professional.md)

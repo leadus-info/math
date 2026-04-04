@@ -1,60 +1,38 @@
 ---
 title: 場合の数
-description: "「何通りあるか」を数える"
-difficulty: 1
+description: "何通りあるかを数える"
 tags: [math,statistics,counting]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 統計・確率
-    href: /math/statistics/index.html
-  - text: 場合の数
-    href: /math/statistics/counting/standard.html
+  - title: 数学
+    path: /math/index.html
+  - title: 統計・確率
+    path: /math/statistics/index.html
+  - title: 場合の数
+    path: /math/statistics/counting/standard.html
 levels:
-  - text: 基礎
-  - text: 発展
-    href: advanced.html
-  - text: 専門
-    href: professional.html
+  - level: 入門
+    path: introduction.html
+  - level: 標準
+  - level: 専門
+    path: professional.html
+level: 標準
+requires:
+  - title: 自然数
+    path: /math/numbers/natural-numbers/introduction
+  - title: 四則演算
+    path: professional.md
 ---
 
+## 基本原理
 
+「何通りあるか」を数えるのが場合の数です。
+確率の計算の基礎になります。
 
+**積の法則**：操作 A が $m$ 通り、操作 B が $n$ 通りあるとき、AとBの組み合わせは $mn$ 通り。
 
+例：3種類の服と4本のズボンの組み合わせは $3 \times 4 = 12$ 通り。
 
-
-# 場合の数
-「服が $3$ 着、ズボンが $4$ 本あると、何通りの組み合わせができる？」
-こういった「何通りあるか」を数えるのが**場合の数**です。
-
-## このページで扱うこと
-- 樹形図・加法則・乗法則
-- 順列（並び方の数）
-- 組み合わせ（選び方の数）
-
-## 前提知識
-- [自然数](../../numbers/natural-numbers/standard.md)
-- [乗法・べき乗](../../numbers/arithmetic/standard.md)
-
----
-
-## 乗法則（積の法則）
-
-「服 $3$ 着 × ズボン $4$ 本」のように、$A$ と $B$ を組み合わせるとき：
-
-$$\text{A の数} \times \text{B の数}$$
-
-**例**：サイコロを $2$ 回振ると $6 \times 6 = 36$ 通り。
-
----
-
-## 加法則（和の法則）
-
-「A か B かどちらか（同時に起こらない）」のとき：
-
-$$\text{A の数} + \text{B の数}$$
-
-**例**：バスか電車で行く方法が $3$ 種類・$5$ 種類なら合計 $3 + 5 = 8$ 通り。
+**和の法則**：互いに排反（同時には起きない）な事象 A と B について、A が $m$ 通り、B が $n$ 通りなら合計 $m + n$ 通り。
 
 ---
 
@@ -62,42 +40,42 @@ $$\text{A の数} + \text{B の数}$$
 
 $$n! = n \times (n-1) \times \cdots \times 2 \times 1$$
 
-$$5! = 5 \times 4 \times 3 \times 2 \times 1 = 120, \quad 0! = 1$$
+$$0! = 1, \quad 1! = 1, \quad 5! = 120$$
 
 ---
 
-## 順列（並び方）
+## 順列
 
-$n$ 個から $r$ 個を**順番を区別して**並べる場合の数：
+$n$ 個の異なるものから $r$ 個を**順番を区別して**並べる場合の数。
 
-$$_nP_r = \frac{n!}{(n-r)!}$$
+$$_nP_r = \frac{n!}{(n-r)!} = n(n-1)\cdots(n-r+1)$$
 
-**例**：$5$ 人から $3$ 人を $1$・$2$・$3$ 位に選ぶ → $_5P_3 = 5 \times 4 \times 3 = 60$
-
----
-
-## 組み合わせ（選び方）
-
-$n$ 個から $r$ 個を**順番を区別せず**選ぶ場合の数：
-
-$$\binom{n}{r} = \frac{n!}{r!(n-r)!}$$
-
-**例**：$5$ 人から $3$ 人を選ぶ（チーム編成）→ $\dbinom{5}{3} = 10$
+例：5人から3人を選んで1・2・3位を決める：$_5P_3 = 5 \times 4 \times 3 = 60$
 
 ---
 
-## 順列 vs 組み合わせ
+## 組み合わせ
 
-$\{A, B, C\}$ から $2$ 人選ぶとき：
+$n$ 個の異なるものから $r$ 個を**順番を区別せず**選ぶ場合の数。
 
-- **順列**（順番あり）：AB・BA・AC・CA・BC・CB → $6$ 通り
-- **組み合わせ**（順番なし）：AB・AC・BC → $3$ 通り
+$$\binom{n}{r} = \frac{n!}{r!(n-r)!} = \frac{_nP_r}{r!}$$
 
-$$_nP_r = \binom{n}{r} \times r!$$
+例：5人から3人のチームを作る：$\binom{5}{3} = \dfrac{60}{6} = 10$
+
+順列を $r!$ で割るのは、$r$ 個の選択物の並べ方（$r!$ 通り）が同一視されるためです。
+
+---
+
+## 二項定理
+
+$(a + b)^n$ を展開すると
+
+$$(a + b)^n = \sum_{k=0}^n \binom{n}{k} a^{n-k} b^k$$
+
+例：$(a + b)^3 = a^3 + 3a^2b + 3ab^2 + b^3$（係数 1, 3, 3, 1 は $\binom{3}{0}, \binom{3}{1}, \binom{3}{2}, \binom{3}{3}$）
 
 ---
 
 ## 関連ページ
 
-- [確率](../probability/standard.md)
-- [場合の数（発展）](../counting/advanced.md) — より詳しく学ぶ
+- [確率](../probability/introduction.md)
