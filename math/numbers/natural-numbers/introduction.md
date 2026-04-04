@@ -15,7 +15,7 @@ levels:
   - level: 標準
     path: standard.html
   - level: 専門
-    path: professional.html
+    path: professional.md
 
 ---
 
