@@ -2,7 +2,6 @@
 title: 自然数
 description: "ものを数えるときに使う最も基本的な数"
 tags: [math,numbers,natural-numbers]
-level: 入門
 hierarchy:
   - title: 数学
     path: /math/index.md
@@ -10,16 +9,14 @@ hierarchy:
     path: /math/numbers/index.md
   - title: 自然数
     path: /math/numbers/natural-numbers/introduction.md
+level: 入門
 levels:
   - level: 入門
   - level: 標準
     path: standard.md
   - level: 専門
     path: professional.md
-
 ---
-
-
 
 ## 数えることの始まり
 
