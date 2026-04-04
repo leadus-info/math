@@ -1,7 +1,6 @@
 ---
 title: 学習コース
 description: "おすすめの学習順序"
-difficulty: 0
 tags: [math,course]
 hierarchy:
   - title: 数学
