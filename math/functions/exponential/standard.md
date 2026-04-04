@@ -20,8 +20,9 @@ requires:
   - title: 四則演算
     path: professional.md
   - title: 一次関数
-    path: /math/functions/linear/introduction
+    path: /math/functions/linear/introduction.html
 ---
+
 
 ## このページで扱うこと
 

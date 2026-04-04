@@ -18,12 +18,13 @@ levels:
 level: 専門
 requires:
   - title: 行列
-    path: /math/linear-algebra/matrices/introduction
+    path: /math/linear-algebra/matrices/introduction.html
   - title: ベクトル（専門）
     path: ../vectors/professional.md
   - title: 複素数
-    path: /math/numbers/complex-numbers/introduction
+    path: /math/numbers/complex-numbers/introduction.html
 ---
+
 
 ## このページで扱うこと
 

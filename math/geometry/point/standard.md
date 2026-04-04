@@ -20,8 +20,9 @@ requires:
   - title: 四則演算
     path: professional.md
   - title: 負数
-    path: /math/numbers/negative-numbers/introduction
+    path: /math/numbers/negative-numbers/introduction.html
 ---
+
 
 ## このページで扱うこと
 

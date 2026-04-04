@@ -19,10 +19,11 @@ levels:
 
 requires:
   - title: 二次関数
-    path: /math/functions/quadratic/introduction
+    path: /math/functions/quadratic/introduction.html
   - title: 代数
-    path: /math/math-language/algebra/introduction
+    path: /math/math-language/algebra/introduction.html
 ---
+
 
 ## 一次・二次の先へ
 

@@ -18,12 +18,13 @@ levels:
 level: 標準
 requires:
   - title: 点
-    path: /math/geometry/point/introduction
+    path: /math/geometry/point/introduction.html
   - title: 直線
-    path: /math/geometry/line/introduction
+    path: /math/geometry/line/introduction.html
   - title: 三角関数
-    path: /math/functions/trigonometric/introduction
+    path: /math/functions/trigonometric/introduction.html
 ---
+
 
 ## このページで扱うこと
 

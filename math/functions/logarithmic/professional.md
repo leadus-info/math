@@ -18,12 +18,13 @@ levels:
 level: 専門
 requires:
   - title: 対数関数
-    path: /math/functions/logarithmic/introduction
+    path: /math/functions/logarithmic/introduction.html
   - title: 複素数
-    path: /math/numbers/complex-numbers/introduction
+    path: /math/numbers/complex-numbers/introduction.html
   - title: 確率
-    path: /math/statistics/probability/introduction
+    path: /math/statistics/probability/introduction.html
 ---
+
 
 ## このページで扱うこと
 

@@ -18,10 +18,11 @@ levels:
 level: 標準
 requires:
   - title: 自然数
-    path: /math/numbers/natural-numbers/introduction
+    path: /math/numbers/natural-numbers/introduction.html
   - title: 極限
-    path: /math/functions/limits/introduction
+    path: /math/functions/limits/introduction.html
 ---
+
 
 ## このページで扱うこと
 

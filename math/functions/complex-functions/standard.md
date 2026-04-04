@@ -18,12 +18,13 @@ levels:
 level: 標準
 requires:
   - title: 複素数
-    path: /math/numbers/complex-numbers/introduction
+    path: /math/numbers/complex-numbers/introduction.html
   - title: 微分
-    path: /math/functions/derivatives/introduction
+    path: /math/functions/derivatives/introduction.html
   - title: 積分
-    path: /math/functions/integrals/introduction
+    path: /math/functions/integrals/introduction.html
 ---
+
 
 ## このページで扱うこと
 

@@ -18,12 +18,13 @@ levels:
 level: 専門
 requires:
   - title: 複素数
-    path: /math/numbers/complex-numbers/introduction
+    path: /math/numbers/complex-numbers/introduction.html
   - title: 行列（専門）
     path: ../../linear-algebra/matrices/professional.md
   - title: 四則演算（専門）
     path: ../arithmetic/professional.md
 ---
+
 
 ## このページで扱うこと
 

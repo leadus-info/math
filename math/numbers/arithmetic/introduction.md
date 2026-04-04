@@ -19,8 +19,9 @@ levels:
 
 requires:
   - title: 自然数
-    path: /math/numbers/natural-numbers/introduction
+    path: /math/numbers/natural-numbers/introduction.html
 ---
+
 
 ## 掛け算の復習
 

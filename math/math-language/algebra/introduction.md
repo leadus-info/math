@@ -19,10 +19,11 @@ levels:
 
 requires:
   - title: 乗法・べき乗
-    path: /math/numbers/arithmetic/introduction
+    path: /math/numbers/arithmetic/introduction.html
   - title: 等号・等式
-    path: /math/math-language/equations/introduction
+    path: /math/math-language/equations/introduction.html
 ---
+
 
 ## 文字は「何でも入れられる箱」
 

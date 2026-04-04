@@ -19,8 +19,9 @@ levels:
 
 requires:
   - title: 乗法・べき乗
-    path: /math/numbers/arithmetic/introduction
+    path: /math/numbers/arithmetic/introduction.html
 ---
+
 
 ## 足し算的な増加と掛け算的な増加の違い
 

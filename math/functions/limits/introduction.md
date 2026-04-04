@@ -19,8 +19,9 @@ levels:
 
 requires:
   - title: 数列
-    path: /math/functions/sequences/introduction
+    path: /math/functions/sequences/introduction.html
 ---
+
 
 ## 「近づく」と「等しい」は違う
 

@@ -18,12 +18,13 @@ levels:
 level: 専門
 requires:
   - title: 複素関数
-    path: /math/functions/complex-functions/introduction
+    path: /math/functions/complex-functions/introduction.html
   - title: 対数関数（専門）
     path: ../../logarithmic/professional.md
   - title: 点（専門）
     path: ../../../geometry/point/professional.md
 ---
+
 
 ## このページで扱うこと
 

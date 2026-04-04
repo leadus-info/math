@@ -18,12 +18,13 @@ levels:
 level: 専門
 requires:
   - title: 乗法・べき乗
-    path: /math/numbers/arithmetic/introduction
+    path: /math/numbers/arithmetic/introduction.html
   - title: 集合
-    path: /math/math-language/sets/introduction
+    path: /math/math-language/sets/introduction.html
   - title: 負数（専門）
     path: ../../numbers/negative-numbers/professional.md
 ---
+
 
 ## このページで扱うこと
 

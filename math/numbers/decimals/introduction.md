@@ -19,8 +19,9 @@ levels:
 
 requires:
   - title: 分数
-    path: /math/numbers/fractions/introduction
+    path: /math/numbers/fractions/introduction.html
 ---
+
 
 ## 小数点の意味
 

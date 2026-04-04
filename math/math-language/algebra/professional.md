@@ -18,12 +18,13 @@ levels:
 level: 専門
 requires:
   - title: 代数
-    path: /math/math-language/algebra/introduction
+    path: /math/math-language/algebra/introduction.html
   - title: 四則演算（専門）
     path: ../../numbers/arithmetic/professional.md
   - title: 行列
-    path: /math/linear-algebra/matrices/introduction
+    path: /math/linear-algebra/matrices/introduction.html
 ---
+
 
 ## このページで扱うこと
 

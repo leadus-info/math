@@ -18,12 +18,13 @@ levels:
 level: 専門
 requires:
   - title: ベクトル
-    path: /math/linear-algebra/vectors/introduction
+    path: /math/linear-algebra/vectors/introduction.html
   - title: 極限（専門）
     path: ../../functions/limits/professional.md
   - title: 積分（専門）
     path: ../../functions/integrals/professional.md
 ---
+
 
 ## このページで扱うこと
 

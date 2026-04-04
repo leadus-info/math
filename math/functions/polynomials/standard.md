@@ -18,12 +18,13 @@ levels:
 level: 標準
 requires:
   - title: 二次関数
-    path: /math/functions/quadratic/introduction
+    path: /math/functions/quadratic/introduction.html
   - title: 代数
-    path: /math/math-language/algebra/introduction
+    path: /math/math-language/algebra/introduction.html
   - title: 微分
-    path: /math/functions/derivatives/introduction
+    path: /math/functions/derivatives/introduction.html
 ---
+
 
 ## このページで扱うこと
 

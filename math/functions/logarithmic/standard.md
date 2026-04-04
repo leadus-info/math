@@ -18,8 +18,9 @@ levels:
 level: 標準
 requires:
   - title: 指数関数
-    path: /math/functions/exponential/introduction
+    path: /math/functions/exponential/introduction.html
 ---
+
 
 ## このページで扱うこと
 

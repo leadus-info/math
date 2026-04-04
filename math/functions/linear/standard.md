@@ -20,8 +20,9 @@ requires:
   - title: 四則演算
     path: professional.md
   - title: 等号・等式
-    path: /math/math-language/equations/introduction
+    path: /math/math-language/equations/introduction.html
 ---
+
 
 ## このページで扱うこと
 

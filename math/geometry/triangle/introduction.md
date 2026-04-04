@@ -19,10 +19,11 @@ levels:
 
 requires:
   - title: 直線
-    path: /math/geometry/line/introduction
+    path: /math/geometry/line/introduction.html
   - title: 三角関数
-    path: /math/functions/trigonometric/introduction
+    path: /math/functions/trigonometric/introduction.html
 ---
+
 
 ## 内角の和は180度
 

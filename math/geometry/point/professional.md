@@ -18,12 +18,13 @@ levels:
 level: 専門
 requires:
   - title: 点
-    path: /math/geometry/point/introduction
+    path: /math/geometry/point/introduction.html
   - title: 集合（専門）
     path: ../../math-language/sets/professional.md
   - title: 極限（専門）
     path: ../../functions/limits/professional.md
 ---
+
 
 ## このページで扱うこと
 

@@ -18,10 +18,11 @@ levels:
 level: 標準
 requires:
   - title: 乗法・べき乗
-    path: /math/numbers/arithmetic/introduction
+    path: /math/numbers/arithmetic/introduction.html
   - title: 分数
-    path: /math/numbers/fractions/introduction
+    path: /math/numbers/fractions/introduction.html
 ---
+
 
 ## 数列の極限
 

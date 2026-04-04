@@ -19,8 +19,9 @@ levels:
 
 requires:
   - title: 円
-    path: /math/geometry/circle/introduction
+    path: /math/geometry/circle/introduction.html
 ---
+
 
 ## 円から生まれる
 

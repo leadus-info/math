@@ -18,10 +18,11 @@ levels:
 level: 標準
 requires:
   - title: 自然数
-    path: /math/numbers/natural-numbers/introduction
+    path: /math/numbers/natural-numbers/introduction.html
   - title: 四則演算
     path: professional.md
 ---
+
 
 ## 基本原理
 

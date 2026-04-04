@@ -18,10 +18,11 @@ levels:
 level: 専門
 requires:
   - title: 多角形
-    path: /math/geometry/polygon/introduction
+    path: /math/geometry/polygon/introduction.html
   - title: 集合
-    path: /math/math-language/sets/introduction
+    path: /math/math-language/sets/introduction.html
 ---
+
 
 ## このページで扱うこと
 

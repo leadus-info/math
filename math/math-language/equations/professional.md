@@ -18,12 +18,13 @@ levels:
 level: 専門
 requires:
   - title: 等号・等式
-    path: /math/math-language/equations/introduction
+    path: /math/math-language/equations/introduction.html
   - title: 多項式（専門）
     path: ../../functions/polynomials/professional.md
   - title: 複素数
-    path: /math/numbers/complex-numbers/introduction
+    path: /math/numbers/complex-numbers/introduction.html
 ---
+
 
 ## このページで扱うこと
 

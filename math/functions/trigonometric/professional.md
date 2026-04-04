@@ -18,12 +18,13 @@ levels:
 level: 専門
 requires:
   - title: 三角関数
-    path: /math/functions/trigonometric/introduction
+    path: /math/functions/trigonometric/introduction.html
   - title: 積分（専門）
     path: ../../integrals/professional.md
   - title: 複素関数
-    path: /math/functions/complex-functions/introduction
+    path: /math/functions/complex-functions/introduction.html
 ---
+
 
 ## このページで扱うこと
 

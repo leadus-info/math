@@ -19,10 +19,11 @@ levels:
 
 requires:
   - title: 自然数
-    path: /math/numbers/natural-numbers/introduction
+    path: /math/numbers/natural-numbers/introduction.html
   - title: 必要・十分条件
-    path: /math/math-language/conditions/introduction
+    path: /math/math-language/conditions/introduction.html
 ---
+
 
 ## 集合とは
 

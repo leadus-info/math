@@ -18,12 +18,13 @@ levels:
 level: 専門
 requires:
   - title: 分数
-    path: /math/numbers/fractions/introduction
+    path: /math/numbers/fractions/introduction.html
   - title: 集合
-    path: /math/math-language/sets/introduction
+    path: /math/math-language/sets/introduction.html
   - title: 極限（専門）
     path: ../../functions/limits/professional.md
 ---
+
 
 ## このページで扱うこと
 

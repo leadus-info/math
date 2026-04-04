@@ -18,10 +18,11 @@ levels:
 level: 標準
 requires:
   - title: 三角形
-    path: /math/geometry/triangle/introduction
+    path: /math/geometry/triangle/introduction.html
   - title: 直線
-    path: /math/geometry/line/introduction
+    path: /math/geometry/line/introduction.html
 ---
+
 
 ## このページで扱うこと
 

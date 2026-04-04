@@ -19,8 +19,9 @@ levels:
 
 requires:
   - title: 点
-    path: /math/geometry/point/introduction
+    path: /math/geometry/point/introduction.html
 ---
+
 
 ## 円周率
 

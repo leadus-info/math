@@ -18,12 +18,13 @@ levels:
 level: 専門
 requires:
   - title: 不等号・不等式
-    path: /math/math-language/inequalities/introduction
+    path: /math/math-language/inequalities/introduction.html
   - title: 微分
-    path: /math/functions/derivatives/introduction
+    path: /math/functions/derivatives/introduction.html
   - title: 積分
-    path: /math/functions/integrals/introduction
+    path: /math/functions/integrals/introduction.html
 ---
+
 
 ## このページで扱うこと
 

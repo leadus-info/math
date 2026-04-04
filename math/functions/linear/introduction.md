@@ -19,10 +19,11 @@ levels:
 
 requires:
   - title: 等号・等式
-    path: /math/math-language/equations/introduction
+    path: /math/math-language/equations/introduction.html
   - title: 乗法・べき乗
-    path: /math/numbers/arithmetic/introduction
+    path: /math/numbers/arithmetic/introduction.html
 ---
+
 
 ## 関数とは
 

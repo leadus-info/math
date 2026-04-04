@@ -19,10 +19,11 @@ levels:
 
 requires:
   - title: ベクトル
-    path: /math/linear-algebra/vectors/introduction
+    path: /math/linear-algebra/vectors/introduction.html
   - title: 等号・等式
-    path: /math/math-language/equations/introduction
+    path: /math/math-language/equations/introduction.html
 ---
+
 
 ## 連立方程式と行列
 

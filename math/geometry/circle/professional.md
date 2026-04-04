@@ -18,12 +18,13 @@ levels:
 level: 専門
 requires:
   - title: 円
-    path: /math/geometry/circle/introduction
+    path: /math/geometry/circle/introduction.html
   - title: 複素数
-    path: /math/numbers/complex-numbers/introduction
+    path: /math/numbers/complex-numbers/introduction.html
   - title: 直線（専門）
     path: ../line/professional.md
 ---
+
 
 ## このページで扱うこと
 

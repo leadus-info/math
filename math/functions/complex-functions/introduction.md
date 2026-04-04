@@ -19,10 +19,11 @@ levels:
 
 requires:
   - title: 複素数
-    path: /math/numbers/complex-numbers/introduction
+    path: /math/numbers/complex-numbers/introduction.html
   - title: 微分
-    path: /math/functions/derivatives/introduction
+    path: /math/functions/derivatives/introduction.html
 ---
+
 
 ## 「複素微分できる」ことの意味
 

@@ -18,12 +18,13 @@ levels:
 level: 専門
 requires:
   - title: 数列
-    path: /math/functions/sequences/introduction
+    path: /math/functions/sequences/introduction.html
   - title: 極限（専門）
     path: ../../limits/professional.md
   - title: 微分
-    path: /math/functions/derivatives/introduction
+    path: /math/functions/derivatives/introduction.html
 ---
+
 
 ## このページで扱うこと
 

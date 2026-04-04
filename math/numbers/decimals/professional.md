@@ -22,8 +22,9 @@ requires:
   - title: 数列（専門）
     path: ../../functions/sequences/professional.md
   - title: 集合
-    path: /math/math-language/sets/introduction
+    path: /math/math-language/sets/introduction.html
 ---
+
 
 ## このページで扱うこと
 

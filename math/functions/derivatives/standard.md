@@ -18,10 +18,11 @@ levels:
 level: 標準
 requires:
   - title: 極限
-    path: /math/functions/limits/introduction
+    path: /math/functions/limits/introduction.html
   - title: 乗法・べき乗
-    path: /math/numbers/arithmetic/introduction
+    path: /math/numbers/arithmetic/introduction.html
 ---
+
 
 ## 平均の変化率
 

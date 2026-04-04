@@ -18,10 +18,11 @@ levels:
 level: 標準
 requires:
   - title: 一次関数
-    path: /math/functions/linear/introduction
+    path: /math/functions/linear/introduction.html
   - title: 代数
-    path: /math/math-language/algebra/introduction
+    path: /math/math-language/algebra/introduction.html
 ---
+
 
 ## このページで扱うこと
 

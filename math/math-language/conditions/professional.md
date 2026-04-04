@@ -18,10 +18,11 @@ levels:
 level: 専門
 requires:
   - title: 必要・十分条件
-    path: /math/math-language/conditions/introduction
+    path: /math/math-language/conditions/introduction.html
   - title: 集合（専門）
     path: ../sets/professional.md
 ---
+
 
 ## このページで扱うこと
 

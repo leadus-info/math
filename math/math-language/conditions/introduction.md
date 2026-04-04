@@ -19,8 +19,9 @@ levels:
 
 requires:
   - title: 等号・等式
-    path: /math/math-language/equations/introduction
+    path: /math/math-language/equations/introduction.html
 ---
+
 
 ## 「ならば」は一方通行
 

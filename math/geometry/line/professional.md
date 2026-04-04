@@ -18,12 +18,13 @@ levels:
 level: 専門
 requires:
   - title: 直線
-    path: /math/geometry/line/introduction
+    path: /math/geometry/line/introduction.html
   - title: ベクトル
-    path: /math/linear-algebra/vectors/introduction
+    path: /math/linear-algebra/vectors/introduction.html
   - title: 集合
-    path: /math/math-language/sets/introduction
+    path: /math/math-language/sets/introduction.html
 ---
+
 
 ## このページで扱うこと
 

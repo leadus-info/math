@@ -18,10 +18,11 @@ levels:
 level: 標準
 requires:
   - title: 点
-    path: /math/geometry/point/introduction
+    path: /math/geometry/point/introduction.html
   - title: 一次関数
-    path: /math/functions/linear/introduction
+    path: /math/functions/linear/introduction.html
 ---
+
 
 ## このページで扱うこと
 

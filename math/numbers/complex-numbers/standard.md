@@ -18,12 +18,13 @@ levels:
 level: 標準
 requires:
   - title: 負数
-    path: /math/numbers/negative-numbers/introduction
+    path: /math/numbers/negative-numbers/introduction.html
   - title: 三角関数
-    path: /math/functions/trigonometric/introduction
+    path: /math/functions/trigonometric/introduction.html
   - title: 指数関数
-    path: /math/functions/exponential/introduction
+    path: /math/functions/exponential/introduction.html
 ---
+
 
 ## このページで扱うこと
 

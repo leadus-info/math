@@ -19,8 +19,9 @@ levels:
 
 requires:
   - title: 極限
-    path: /math/functions/limits/introduction
+    path: /math/functions/limits/introduction.html
 ---
+
 
 ## 平均の速さから瞬間の速さへ
 

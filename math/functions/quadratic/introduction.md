@@ -19,10 +19,11 @@ levels:
 
 requires:
   - title: 一次関数
-    path: /math/functions/linear/introduction
+    path: /math/functions/linear/introduction.html
   - title: 代数
-    path: /math/math-language/algebra/introduction
+    path: /math/math-language/algebra/introduction.html
 ---
+
 
 ## 一次関数との違い
 

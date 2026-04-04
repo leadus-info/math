@@ -18,12 +18,13 @@ levels:
 level: 専門
 requires:
   - title: 四角形
-    path: /math/geometry/quadrilateral/introduction
+    path: /math/geometry/quadrilateral/introduction.html
   - title: 円
-    path: /math/geometry/circle/introduction
+    path: /math/geometry/circle/introduction.html
   - title: 直線（専門）
     path: ../line/professional.md
 ---
+
 
 ## このページで扱うこと
 

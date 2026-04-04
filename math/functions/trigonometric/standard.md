@@ -18,10 +18,11 @@ levels:
 level: 標準
 requires:
   - title: 円
-    path: /math/geometry/circle/introduction
+    path: /math/geometry/circle/introduction.html
   - title: 分数
-    path: /math/numbers/fractions/introduction
+    path: /math/numbers/fractions/introduction.html
 ---
+
 
 ## このページで扱うこと
 

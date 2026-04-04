@@ -18,12 +18,13 @@ levels:
 level: 専門
 requires:
   - title: 積分
-    path: /math/functions/integrals/introduction
+    path: /math/functions/integrals/introduction.html
   - title: 微分（専門）
     path: ../derivatives/professional.md
   - title: 集合（専門）
     path: ../../../math-language/sets/professional.md
 ---
+
 
 ## このページで扱うこと
 

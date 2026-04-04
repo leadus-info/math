@@ -18,10 +18,11 @@ levels:
 level: 標準
 requires:
   - title: 等号・等式
-    path: /math/math-language/equations/introduction
+    path: /math/math-language/equations/introduction.html
   - title: 負数
-    path: /math/numbers/negative-numbers/introduction
+    path: /math/numbers/negative-numbers/introduction.html
 ---
+
 
 ## このページで扱うこと
 

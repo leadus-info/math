@@ -18,12 +18,13 @@ levels:
 level: 専門
 requires:
   - title: 多項式
-    path: /math/functions/polynomials/introduction
+    path: /math/functions/polynomials/introduction.html
   - title: 代数（専門）
     path: ../../math-language/algebra/professional.md
   - title: 行列（専門）
     path: ../../linear-algebra/matrices/professional.md
 ---
+
 
 ## このページで扱うこと
 

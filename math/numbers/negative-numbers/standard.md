@@ -18,8 +18,9 @@ levels:
 level: 標準
 requires:
   - title: 自然数
-    path: /math/numbers/natural-numbers/introduction
+    path: /math/numbers/natural-numbers/introduction.html
 ---
+
 
 ## このページで扱うこと
 

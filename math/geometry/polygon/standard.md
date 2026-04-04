@@ -18,12 +18,13 @@ levels:
 level: 標準
 requires:
   - title: 三角形
-    path: /math/geometry/triangle/introduction
+    path: /math/geometry/triangle/introduction.html
   - title: 四角形
-    path: /math/geometry/quadrilateral/introduction
+    path: /math/geometry/quadrilateral/introduction.html
   - title: 三角関数
-    path: /math/functions/trigonometric/introduction
+    path: /math/functions/trigonometric/introduction.html
 ---
+
 
 ## このページで扱うこと
 

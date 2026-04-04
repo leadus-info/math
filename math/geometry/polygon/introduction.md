@@ -19,8 +19,9 @@ levels:
 
 requires:
   - title: 四角形
-    path: /math/geometry/quadrilateral/introduction
+    path: /math/geometry/quadrilateral/introduction.html
 ---
+
 
 ## 内角の和
 

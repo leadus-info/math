@@ -18,12 +18,13 @@ levels:
 level: 専門
 requires:
   - title: 場合の数
-    path: /math/statistics/counting/introduction
+    path: /math/statistics/counting/introduction.html
   - title: 数列（専門）
     path: ../../functions/sequences/professional.md
   - title: 集合（専門）
     path: ../../math-language/sets/professional.md
 ---
+
 
 ## このページで扱うこと
 

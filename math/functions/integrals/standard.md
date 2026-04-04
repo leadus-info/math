@@ -18,10 +18,11 @@ levels:
 level: 標準
 requires:
   - title: 微分
-    path: /math/functions/derivatives/introduction
+    path: /math/functions/derivatives/introduction.html
   - title: 極限
-    path: /math/functions/limits/introduction
+    path: /math/functions/limits/introduction.html
 ---
+
 
 ## 積分のアイデア
 

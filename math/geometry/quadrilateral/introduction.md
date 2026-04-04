@@ -19,8 +19,9 @@ levels:
 
 requires:
   - title: 三角形
-    path: /math/geometry/triangle/introduction
+    path: /math/geometry/triangle/introduction.html
 ---
+
 
 ## 種類と包含関係
 

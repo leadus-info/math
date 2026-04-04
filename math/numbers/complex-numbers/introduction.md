@@ -19,10 +19,11 @@ levels:
 
 requires:
   - title: 負数
-    path: /math/numbers/negative-numbers/introduction
+    path: /math/numbers/negative-numbers/introduction.html
   - title: 乗法・べき乗
-    path: /math/numbers/arithmetic/introduction
+    path: /math/numbers/arithmetic/introduction.html
 ---
+
 
 ## 数の歴史
 

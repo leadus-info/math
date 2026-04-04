@@ -18,12 +18,13 @@ levels:
 level: 専門
 requires:
   - title: 確率
-    path: /math/statistics/probability/introduction
+    path: /math/statistics/probability/introduction.html
   - title: 積分（専門）
     path: ../../functions/integrals/professional.md
   - title: 数列（専門）
     path: ../../functions/sequences/professional.md
 ---
+
 
 ## このページで扱うこと
 

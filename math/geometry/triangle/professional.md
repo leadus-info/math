@@ -18,10 +18,11 @@ levels:
 level: 専門
 requires:
   - title: 三角形
-    path: /math/geometry/triangle/introduction
+    path: /math/geometry/triangle/introduction.html
   - title: ベクトル
-    path: /math/linear-algebra/vectors/introduction
+    path: /math/linear-algebra/vectors/introduction.html
 ---
+
 
 ## このページで扱うこと
 

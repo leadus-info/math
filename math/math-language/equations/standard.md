@@ -18,8 +18,9 @@ levels:
 level: 標準
 requires:
   - title: 乗法・べき乗
-    path: /math/numbers/arithmetic/introduction
+    path: /math/numbers/arithmetic/introduction.html
 ---
+
 
 ## このページで扱うこと
 

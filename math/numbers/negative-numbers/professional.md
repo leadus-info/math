@@ -18,12 +18,13 @@ levels:
 level: 専門
 requires:
   - title: 負数
-    path: /math/numbers/negative-numbers/introduction
+    path: /math/numbers/negative-numbers/introduction.html
   - title: 自然数（専門）
     path: ../natural-numbers/professional.md
   - title: 集合
-    path: /math/math-language/sets/introduction
+    path: /math/math-language/sets/introduction.html
 ---
+
 
 ## このページで扱うこと
 

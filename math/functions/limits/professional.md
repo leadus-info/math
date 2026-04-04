@@ -18,12 +18,13 @@ levels:
 level: 専門
 requires:
   - title: 極限
-    path: /math/functions/limits/introduction
+    path: /math/functions/limits/introduction.html
   - title: 集合（専門）
     path: ../../../math-language/sets/professional.md
   - title: 小数（専門）
     path: ../../../numbers/decimals/professional.md
 ---
+
 
 ## このページで扱うこと
 

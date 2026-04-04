@@ -19,8 +19,9 @@ levels:
 
 requires:
   - title: 指数関数
-    path: /math/functions/exponential/introduction
+    path: /math/functions/exponential/introduction.html
 ---
+
 
 ## 指数の逆
 

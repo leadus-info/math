@@ -18,10 +18,11 @@ levels:
 level: 標準
 requires:
   - title: 場合の数
-    path: /math/statistics/counting/introduction
+    path: /math/statistics/counting/introduction.html
   - title: 分数
-    path: /math/numbers/fractions/introduction
+    path: /math/numbers/fractions/introduction.html
 ---
+
 
 ## 確率の定義（古典的確率）
 
