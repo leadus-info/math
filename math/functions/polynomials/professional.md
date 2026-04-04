@@ -4,26 +4,28 @@ description: "多項式環・代数幾何の入口・シューア多項式"
 tags: [math,functions,polynomials]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 関数
-    path: /math/functions/index.html
+    path: /math/functions/index.md
   - title: 多項式
-    path: /math/functions/polynomials/professional.html
+    path: /math/functions/polynomials/professional.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
 level: 専門
 requires:
   - title: 多項式
-    path: /math/functions/polynomials/introduction.html
+    path: /math/functions/polynomials/introduction.md
   - title: 代数（専門）
     path: ../../math-language/algebra/professional.md
   - title: 行列（専門）
     path: ../../linear-algebra/matrices/professional.md
 ---
+
+
 
 
 ## このページで扱うこと

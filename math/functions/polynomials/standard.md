@@ -4,26 +4,27 @@ description: "べき乗の和で表される関数"
 tags: [math,functions,polynomials]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 関数
-    path: /math/functions/index.html
+    path: /math/functions/index.md
   - title: 多項式
-    path: /math/functions/polynomials/standard.html
+    path: /math/functions/polynomials/standard.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
   - level: 専門
-    path: professional.html
+    path: professional.md
 level: 標準
 requires:
   - title: 二次関数
-    path: /math/functions/quadratic/introduction.html
+    path: /math/functions/quadratic/introduction.md
   - title: 代数
-    path: /math/math-language/algebra/introduction.html
+    path: /math/math-language/algebra/introduction.md
   - title: 微分
-    path: /math/functions/derivatives/introduction.html
+    path: /math/functions/derivatives/introduction.md
 ---
+
 
 
 ## このページで扱うこと

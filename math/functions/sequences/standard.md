@@ -4,24 +4,25 @@ description: "規則正しく並んだ数の列"
 tags: [math,functions,sequences]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 関数
-    path: /math/functions/index.html
+    path: /math/functions/index.md
   - title: 数列
-    path: /math/functions/sequences/standard.html
+    path: /math/functions/sequences/standard.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
   - level: 専門
-    path: professional.html
+    path: professional.md
 level: 標準
 requires:
   - title: 自然数
-    path: /math/numbers/natural-numbers/introduction.html
+    path: /math/numbers/natural-numbers/introduction.md
   - title: 極限
-    path: /math/functions/limits/introduction.html
+    path: /math/functions/limits/introduction.md
 ---
+
 
 
 ## このページで扱うこと

@@ -5,22 +5,23 @@ tags: [math,functions,sequences]
 level: 入門
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 関数
-    path: /math/functions/index.html
+    path: /math/functions/index.md
   - title: 数列
-    path: /math/functions/sequences/introduction.html
+    path: /math/functions/sequences/introduction.md
 levels:
   - level: 入門
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
-    path: professional.html
+    path: professional.md
 
 requires:
   - title: 自然数
-    path: /math/numbers/natural-numbers/introduction.html
+    path: /math/numbers/natural-numbers/introduction.md
 ---
+
 
 
 ## 等差数列——一定の差で増える

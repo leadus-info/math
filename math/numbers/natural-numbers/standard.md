@@ -4,19 +4,20 @@ description: "ものを数えるときに使う数"
 tags: [math,numbers,natural-numbers]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 数
-    path: /math/numbers/index.html
+    path: /math/numbers/index.md
   - title: 自然数
-    path: /math/numbers/natural-numbers/standard.html
+    path: /math/numbers/natural-numbers/standard.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
   - level: 専門
-    path: professional.html
+    path: professional.md
 level: 標準
 ---
+
 
 ## 自然数の定義
 

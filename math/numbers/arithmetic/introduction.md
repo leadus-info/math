@@ -5,22 +5,23 @@ tags: [math,numbers,arithmetic]
 level: 入門
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 数
-    path: /math/numbers/index.html
+    path: /math/numbers/index.md
   - title: 乗法・べき乗
-    path: /math/numbers/arithmetic/introduction.html
+    path: /math/numbers/arithmetic/introduction.md
 levels:
   - level: 入門
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
-    path: professional.html
+    path: professional.md
 
 requires:
   - title: 自然数
-    path: /math/numbers/natural-numbers/introduction.html
+    path: /math/numbers/natural-numbers/introduction.md
 ---
+
 
 
 ## 掛け算の復習

@@ -4,10 +4,11 @@ description: "変化と対応関係、および関数への操作"
 tags: [math,functions]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 関数
-    path: /math/functions/index.html
+    path: /math/functions/index.md
 ---
+
 
 > **入門**：直感・比喩・具体例を優先。数学の雰囲気をつかむのが目的。  
 > **標準**：定義と論理の流れを明確に。式や証明を含む。  

@@ -4,10 +4,11 @@ description: "図形の形・大きさ・位置関係"
 tags: [math,geometry]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 幾何
-    path: /math/geometry/index.html
+    path: /math/geometry/index.md
 ---
+
 
 > **入門**：直感・比喩・具体例を優先。数学の雰囲気をつかむのが目的。  
 > **標準**：定義と論理の流れを明確に。式や証明を含む。  

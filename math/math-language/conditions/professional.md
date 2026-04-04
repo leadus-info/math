@@ -4,24 +4,26 @@ description: "述語論理・証明論・モデル理論の入口"
 tags: [math,math-language,conditions]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 数学の言語
-    path: /math/math-language/index.html
+    path: /math/math-language/index.md
   - title: 必要・十分条件
-    path: /math/math-language/conditions/professional.html
+    path: /math/math-language/conditions/professional.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
 level: 専門
 requires:
   - title: 必要・十分条件
-    path: /math/math-language/conditions/introduction.html
+    path: /math/math-language/conditions/introduction.md
   - title: 集合（専門）
     path: ../sets/professional.md
 ---
+
+
 
 
 ## このページで扱うこと

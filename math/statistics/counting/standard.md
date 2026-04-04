@@ -4,24 +4,26 @@ description: "何通りあるかを数える"
 tags: [math,statistics,counting]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 統計・確率
-    path: /math/statistics/index.html
+    path: /math/statistics/index.md
   - title: 場合の数
-    path: /math/statistics/counting/standard.html
+    path: /math/statistics/counting/standard.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
   - level: 専門
-    path: professional.html
+    path: professional.md
 level: 標準
 requires:
   - title: 自然数
-    path: /math/numbers/natural-numbers/introduction.html
+    path: /math/numbers/natural-numbers/introduction.md
   - title: 四則演算
     path: professional.md
 ---
+
+
 
 
 ## 基本原理

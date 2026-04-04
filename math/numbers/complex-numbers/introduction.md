@@ -5,24 +5,25 @@ tags: [math,numbers,complex-numbers]
 level: 入門
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 数
-    path: /math/numbers/index.html
+    path: /math/numbers/index.md
   - title: 複素数
-    path: /math/numbers/complex-numbers/introduction.html
+    path: /math/numbers/complex-numbers/introduction.md
 levels:
   - level: 入門
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
-    path: professional.html
+    path: professional.md
 
 requires:
   - title: 負数
-    path: /math/numbers/negative-numbers/introduction.html
+    path: /math/numbers/negative-numbers/introduction.md
   - title: 乗法・べき乗
-    path: /math/numbers/arithmetic/introduction.html
+    path: /math/numbers/arithmetic/introduction.md
 ---
+
 
 
 ## 数の歴史

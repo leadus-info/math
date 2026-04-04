@@ -4,26 +4,27 @@ description: "自然数の厳密な構成・ペアノ公理・数論的性質"
 tags: [math,numbers,natural-numbers]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 数
-    path: /math/numbers/index.html
+    path: /math/numbers/index.md
   - title: 自然数
-    path: /math/numbers/natural-numbers/professional.html
+    path: /math/numbers/natural-numbers/professional.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
 level: 専門
 requires:
   - title: 自然数
-    path: /math/numbers/natural-numbers/introduction.html
+    path: /math/numbers/natural-numbers/introduction.md
   - title: 必要・十分条件
-    path: /math/math-language/conditions/introduction.html
+    path: /math/math-language/conditions/introduction.md
   - title: 集合
-    path: /math/math-language/sets/introduction.html
+    path: /math/math-language/sets/introduction.md
 ---
+
 
 
 ## このページで扱うこと

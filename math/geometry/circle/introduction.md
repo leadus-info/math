@@ -5,22 +5,23 @@ tags: [math,geometry]
 level: 入門
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 幾何
-    path: /math/geometry/index.html
+    path: /math/geometry/index.md
   - title: 円
-    path: /math/geometry/circle/introduction.html
+    path: /math/geometry/circle/introduction.md
 levels:
   - level: 入門
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
-    path: professional.html
+    path: professional.md
 
 requires:
   - title: 点
-    path: /math/geometry/point/introduction.html
+    path: /math/geometry/point/introduction.md
 ---
+
 
 
 ## 円周率

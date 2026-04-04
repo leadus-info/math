@@ -5,24 +5,25 @@ tags: [math,functions,linear]
 level: 入門
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 関数
-    path: /math/functions/index.html
+    path: /math/functions/index.md
   - title: 一次関数
-    path: /math/functions/linear/introduction.html
+    path: /math/functions/linear/introduction.md
 levels:
   - level: 入門
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
-    path: professional.html
+    path: professional.md
 
 requires:
   - title: 等号・等式
-    path: /math/math-language/equations/introduction.html
+    path: /math/math-language/equations/introduction.md
   - title: 乗法・べき乗
-    path: /math/numbers/arithmetic/introduction.html
+    path: /math/numbers/arithmetic/introduction.md
 ---
+
 
 
 ## 関数とは

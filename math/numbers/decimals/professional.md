@@ -4,16 +4,16 @@ description: "実数の完備性・デデキント切断・コーシー列"
 tags: [math,numbers,decimals]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 数
-    path: /math/numbers/index.html
+    path: /math/numbers/index.md
   - title: 小数
-    path: /math/numbers/decimals/professional.html
+    path: /math/numbers/decimals/professional.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
 level: 専門
 requires:
@@ -22,8 +22,10 @@ requires:
   - title: 数列（専門）
     path: ../../functions/sequences/professional.md
   - title: 集合
-    path: /math/math-language/sets/introduction.html
+    path: /math/math-language/sets/introduction.md
 ---
+
+
 
 
 ## このページで扱うこと

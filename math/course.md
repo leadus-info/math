@@ -5,10 +5,11 @@ difficulty: 0
 tags: [math,course]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 学習コース
-    path: /math/course.html
+    path: /math/course.md
 ---
+
 
 
 

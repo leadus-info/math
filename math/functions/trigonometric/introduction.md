@@ -5,22 +5,23 @@ tags: [math,functions,trigonometric]
 level: 入門
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 関数
-    path: /math/functions/index.html
+    path: /math/functions/index.md
   - title: 三角関数
-    path: /math/functions/trigonometric/introduction.html
+    path: /math/functions/trigonometric/introduction.md
 levels:
   - level: 入門
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
-    path: professional.html
+    path: professional.md
 
 requires:
   - title: 円
-    path: /math/geometry/circle/introduction.html
+    path: /math/geometry/circle/introduction.md
 ---
+
 
 
 ## 円から生まれる

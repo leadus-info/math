@@ -5,24 +5,25 @@ tags: [math,statistics]
 level: 入門
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 統計・確率
-    path: /math/statistics/index.html
+    path: /math/statistics/index.md
   - title: 確率
-    path: /math/statistics/probability/introduction.html
+    path: /math/statistics/probability/introduction.md
 levels:
   - level: 入門
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
-    path: professional.html
+    path: professional.md
 
 requires:
   - title: 場合の数
-    path: /math/statistics/counting/introduction.html
+    path: /math/statistics/counting/introduction.md
   - title: 分数
-    path: /math/numbers/fractions/introduction.html
+    path: /math/numbers/fractions/introduction.md
 ---
+
 
 
 ## 確率の意味

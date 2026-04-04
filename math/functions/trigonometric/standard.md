@@ -4,24 +4,25 @@ description: "角度と円から生まれる周期関数"
 tags: [math,functions,trigonometric]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 関数
-    path: /math/functions/index.html
+    path: /math/functions/index.md
   - title: 三角関数
-    path: /math/functions/trigonometric/standard.html
+    path: /math/functions/trigonometric/standard.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
   - level: 専門
-    path: professional.html
+    path: professional.md
 level: 標準
 requires:
   - title: 円
-    path: /math/geometry/circle/introduction.html
+    path: /math/geometry/circle/introduction.md
   - title: 分数
-    path: /math/numbers/fractions/introduction.html
+    path: /math/numbers/fractions/introduction.md
 ---
+
 
 
 ## このページで扱うこと

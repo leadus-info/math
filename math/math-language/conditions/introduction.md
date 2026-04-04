@@ -5,22 +5,23 @@ tags: [math,math-language,conditions]
 level: 入門
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 数学の言語
-    path: /math/math-language/index.html
+    path: /math/math-language/index.md
   - title: 必要・十分条件
-    path: /math/math-language/conditions/introduction.html
+    path: /math/math-language/conditions/introduction.md
 levels:
   - level: 入門
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
-    path: professional.html
+    path: professional.md
 
 requires:
   - title: 等号・等式
-    path: /math/math-language/equations/introduction.html
+    path: /math/math-language/equations/introduction.md
 ---
+
 
 
 ## 「ならば」は一方通行

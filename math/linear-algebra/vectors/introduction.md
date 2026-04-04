@@ -5,22 +5,23 @@ tags: [math,linear-algebra]
 level: 入門
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 線形代数
-    path: /math/linear-algebra/index.html
+    path: /math/linear-algebra/index.md
   - title: ベクトル
-    path: /math/linear-algebra/vectors/introduction.html
+    path: /math/linear-algebra/vectors/introduction.md
 levels:
   - level: 入門
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
-    path: professional.html
+    path: professional.md
 
 requires:
   - title: 点
-    path: /math/geometry/point/introduction.html
+    path: /math/geometry/point/introduction.md
 ---
+
 
 
 ## スカラーとベクトルの違い

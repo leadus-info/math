@@ -4,24 +4,26 @@ description: "位置を表す最も基本的な要素"
 tags: [math,geometry,point]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 幾何
-    path: /math/geometry/index.html
+    path: /math/geometry/index.md
   - title: 点
-    path: /math/geometry/point/standard.html
+    path: /math/geometry/point/standard.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
   - level: 専門
-    path: professional.html
+    path: professional.md
 level: 標準
 requires:
   - title: 四則演算
     path: professional.md
   - title: 負数
-    path: /math/numbers/negative-numbers/introduction.html
+    path: /math/numbers/negative-numbers/introduction.md
 ---
+
+
 
 
 ## このページで扱うこと

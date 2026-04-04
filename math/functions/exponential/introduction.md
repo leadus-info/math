@@ -5,22 +5,23 @@ tags: [math,functions,exponential]
 level: 入門
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 関数
-    path: /math/functions/index.html
+    path: /math/functions/index.md
   - title: 指数関数
-    path: /math/functions/exponential/introduction.html
+    path: /math/functions/exponential/introduction.md
 levels:
   - level: 入門
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
-    path: professional.html
+    path: professional.md
 
 requires:
   - title: 乗法・べき乗
-    path: /math/numbers/arithmetic/introduction.html
+    path: /math/numbers/arithmetic/introduction.md
 ---
+
 
 
 ## 足し算的な増加と掛け算的な増加の違い

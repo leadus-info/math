@@ -5,24 +5,25 @@ tags: [math,math-language,inequalities]
 level: 入門
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 数学の言語
-    path: /math/math-language/index.html
+    path: /math/math-language/index.md
   - title: 不等号・不等式
-    path: /math/math-language/inequalities/introduction.html
+    path: /math/math-language/inequalities/introduction.md
 levels:
   - level: 入門
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
-    path: professional.html
+    path: professional.md
 
 requires:
   - title: 等号・等式
-    path: /math/math-language/equations/introduction.html
+    path: /math/math-language/equations/introduction.md
   - title: 負数
-    path: /math/numbers/negative-numbers/introduction.html
+    path: /math/numbers/negative-numbers/introduction.md
 ---
+
 
 
 ## 不等号の種類

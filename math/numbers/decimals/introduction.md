@@ -5,22 +5,23 @@ tags: [math,numbers,decimals]
 level: 入門
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 数
-    path: /math/numbers/index.html
+    path: /math/numbers/index.md
   - title: 小数
-    path: /math/numbers/decimals/introduction.html
+    path: /math/numbers/decimals/introduction.md
 levels:
   - level: 入門
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
-    path: professional.html
+    path: professional.md
 
 requires:
   - title: 分数
-    path: /math/numbers/fractions/introduction.html
+    path: /math/numbers/fractions/introduction.md
 ---
+
 
 
 ## 小数点の意味

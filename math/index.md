@@ -4,8 +4,9 @@ description: "数学"
 tags: [math]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
 ---
+
 
 このサイトは、数学の概念を体系的にまとめた学習サイトです。
 

@@ -4,26 +4,27 @@ description: "複素数を変数にとる関数"
 tags: [math,complex-numbers,complex-functions]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 関数の操作
-    path: /math/functions/index.html
+    path: /math/functions/index.md
   - title: 複素関数
-    path: /math/functions/complex-functions/standard.html
+    path: /math/functions/complex-functions/standard.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
   - level: 専門
-    path: professional.html
+    path: professional.md
 level: 標準
 requires:
   - title: 複素数
-    path: /math/numbers/complex-numbers/introduction.html
+    path: /math/numbers/complex-numbers/introduction.md
   - title: 微分
-    path: /math/functions/derivatives/introduction.html
+    path: /math/functions/derivatives/introduction.md
   - title: 積分
-    path: /math/functions/integrals/introduction.html
+    path: /math/functions/integrals/introduction.md
 ---
+
 
 
 ## このページで扱うこと

@@ -4,24 +4,25 @@ description: "多面体・オイラー標数・タイリング理論"
 tags: [math,geometry,polygon]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 幾何
-    path: /math/geometry/index.html
+    path: /math/geometry/index.md
   - title: 多角形
-    path: /math/geometry/polygon/professional.html
+    path: /math/geometry/polygon/professional.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
 level: 専門
 requires:
   - title: 多角形
-    path: /math/geometry/polygon/introduction.html
+    path: /math/geometry/polygon/introduction.md
   - title: 集合
-    path: /math/math-language/sets/introduction.html
+    path: /math/math-language/sets/introduction.md
 ---
+
 
 
 ## このページで扱うこと

@@ -4,24 +4,25 @@ description: "関数の瞬間の変化率"
 tags: [math,operations,derivatives]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 関数の操作
-    path: /math/functions/index.html
+    path: /math/functions/index.md
   - title: 微分
-    path: /math/functions/derivatives/standard.html
+    path: /math/functions/derivatives/standard.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
   - level: 専門
-    path: professional.html
+    path: professional.md
 level: 標準
 requires:
   - title: 極限
-    path: /math/functions/limits/introduction.html
+    path: /math/functions/limits/introduction.md
   - title: 乗法・べき乗
-    path: /math/numbers/arithmetic/introduction.html
+    path: /math/numbers/arithmetic/introduction.md
 ---
+
 
 
 ## 平均の変化率

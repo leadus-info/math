@@ -5,24 +5,25 @@ tags: [math,geometry]
 level: 入門
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 幾何
-    path: /math/geometry/index.html
+    path: /math/geometry/index.md
   - title: 三角形
-    path: /math/geometry/triangle/introduction.html
+    path: /math/geometry/triangle/introduction.md
 levels:
   - level: 入門
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
-    path: professional.html
+    path: professional.md
 
 requires:
   - title: 直線
-    path: /math/geometry/line/introduction.html
+    path: /math/geometry/line/introduction.md
   - title: 三角関数
-    path: /math/functions/trigonometric/introduction.html
+    path: /math/functions/trigonometric/introduction.md
 ---
+
 
 
 ## 内角の和は180度

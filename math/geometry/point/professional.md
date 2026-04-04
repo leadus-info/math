@@ -4,26 +4,28 @@ description: "距離空間・位相空間・多様体上の点"
 tags: [math,geometry,point]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 幾何
-    path: /math/geometry/index.html
+    path: /math/geometry/index.md
   - title: 点
-    path: /math/geometry/point/professional.html
+    path: /math/geometry/point/professional.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
 level: 専門
 requires:
   - title: 点
-    path: /math/geometry/point/introduction.html
+    path: /math/geometry/point/introduction.md
   - title: 集合（専門）
     path: ../../math-language/sets/professional.md
   - title: 極限（専門）
     path: ../../functions/limits/professional.md
 ---
+
+
 
 
 ## このページで扱うこと

@@ -4,24 +4,25 @@ description: "放物線を描く関数"
 tags: [math,functions,quadratic]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 関数
-    path: /math/functions/index.html
+    path: /math/functions/index.md
   - title: 二次関数
-    path: /math/functions/quadratic/standard.html
+    path: /math/functions/quadratic/standard.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
   - level: 専門
-    path: professional.html
+    path: professional.md
 level: 標準
 requires:
   - title: 一次関数
-    path: /math/functions/linear/introduction.html
+    path: /math/functions/linear/introduction.md
   - title: 代数
-    path: /math/math-language/algebra/introduction.html
+    path: /math/math-language/algebra/introduction.md
 ---
+
 
 
 ## このページで扱うこと

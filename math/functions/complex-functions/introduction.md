@@ -5,24 +5,25 @@ tags: [math,functions,calculus]
 level: 入門
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 関数の操作
-    path: /math/functions/index.html
+    path: /math/functions/index.md
   - title: 複素関数
-    path: /math/functions/complex-functions/introduction.html
+    path: /math/functions/complex-functions/introduction.md
 levels:
   - level: 入門
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
-    path: professional.html
+    path: professional.md
 
 requires:
   - title: 複素数
-    path: /math/numbers/complex-numbers/introduction.html
+    path: /math/numbers/complex-numbers/introduction.md
   - title: 微分
-    path: /math/functions/derivatives/introduction.html
+    path: /math/functions/derivatives/introduction.md
 ---
+
 
 
 ## 「複素微分できる」ことの意味

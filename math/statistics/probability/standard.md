@@ -4,24 +4,25 @@ description: "起こりやすさを数値で表す"
 tags: [math,statistics,probability]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 統計・確率
-    path: /math/statistics/index.html
+    path: /math/statistics/index.md
   - title: 確率
-    path: /math/statistics/probability/standard.html
+    path: /math/statistics/probability/standard.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
   - level: 専門
-    path: professional.html
+    path: professional.md
 level: 標準
 requires:
   - title: 場合の数
-    path: /math/statistics/counting/introduction.html
+    path: /math/statistics/counting/introduction.md
   - title: 分数
-    path: /math/numbers/fractions/introduction.html
+    path: /math/numbers/fractions/introduction.md
 ---
+
 
 
 ## 確率の定義（古典的確率）

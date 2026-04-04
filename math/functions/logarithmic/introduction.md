@@ -5,22 +5,23 @@ tags: [math,functions,logarithmic]
 level: 入門
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 関数
-    path: /math/functions/index.html
+    path: /math/functions/index.md
   - title: 対数関数
-    path: /math/functions/logarithmic/introduction.html
+    path: /math/functions/logarithmic/introduction.md
 levels:
   - level: 入門
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
-    path: professional.html
+    path: professional.md
 
 requires:
   - title: 指数関数
-    path: /math/functions/exponential/introduction.html
+    path: /math/functions/exponential/introduction.md
 ---
+
 
 
 ## 指数の逆

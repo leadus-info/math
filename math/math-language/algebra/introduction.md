@@ -5,24 +5,25 @@ tags: [math,math-language,algebra]
 level: 入門
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 数学の言語
-    path: /math/math-language/index.html
+    path: /math/math-language/index.md
   - title: 代数
-    path: /math/math-language/algebra/introduction.html
+    path: /math/math-language/algebra/introduction.md
 levels:
   - level: 入門
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
-    path: professional.html
+    path: professional.md
 
 requires:
   - title: 乗法・べき乗
-    path: /math/numbers/arithmetic/introduction.html
+    path: /math/numbers/arithmetic/introduction.md
   - title: 等号・等式
-    path: /math/math-language/equations/introduction.html
+    path: /math/math-language/equations/introduction.md
 ---
+
 
 
 ## 文字は「何でも入れられる箱」

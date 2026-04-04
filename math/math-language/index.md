@@ -4,10 +4,11 @@ description: "数学を記述するための記号と論理"
 tags: [math,math-language]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 数学の言語
-    path: /math/math-language/index.html
+    path: /math/math-language/index.md
 ---
+
 
 > **入門**：直感・比喩・具体例を優先。数学の雰囲気をつかむのが目的。  
 > **標準**：定義と論理の流れを明確に。式や証明を含む。  

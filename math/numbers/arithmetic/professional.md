@@ -4,26 +4,28 @@ description: "群・環・体の代数的構造"
 tags: [math,operations,arithmetic]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 数
-    path: /math/numbers/index.html
+    path: /math/numbers/index.md
   - title: 乗法・べき乗
-    path: /math/numbers/arithmetic/professional.html
+    path: /math/numbers/arithmetic/professional.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
 level: 専門
 requires:
   - title: 乗法・べき乗
-    path: /math/numbers/arithmetic/introduction.html
+    path: /math/numbers/arithmetic/introduction.md
   - title: 集合
-    path: /math/math-language/sets/introduction.html
+    path: /math/math-language/sets/introduction.md
   - title: 負数（専門）
     path: ../../numbers/negative-numbers/professional.md
 ---
+
+
 
 
 ## このページで扱うこと

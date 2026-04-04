@@ -5,22 +5,23 @@ tags: [math,functions,calculus]
 level: 入門
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 関数の操作
-    path: /math/functions/index.html
+    path: /math/functions/index.md
   - title: 極限
-    path: /math/functions/limits/introduction.html
+    path: /math/functions/limits/introduction.md
 levels:
   - level: 入門
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
-    path: professional.html
+    path: professional.md
 
 requires:
   - title: 数列
-    path: /math/functions/sequences/introduction.html
+    path: /math/functions/sequences/introduction.md
 ---
+
 
 
 ## 「近づく」と「等しい」は違う

@@ -4,24 +4,25 @@ description: "大きさと向きを持つ量"
 tags: [math,linear-algebra,vectors]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 線形代数
-    path: /math/linear-algebra/index.html
+    path: /math/linear-algebra/index.md
   - title: ベクトル
-    path: /math/linear-algebra/vectors/standard.html
+    path: /math/linear-algebra/vectors/standard.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
   - level: 専門
-    path: professional.html
+    path: professional.md
 level: 標準
 requires:
   - title: 点
-    path: /math/geometry/point/introduction.html
+    path: /math/geometry/point/introduction.md
   - title: 三角関数
-    path: /math/functions/trigonometric/introduction.html
+    path: /math/functions/trigonometric/introduction.md
 ---
+
 
 
 ## ベクトルの定義

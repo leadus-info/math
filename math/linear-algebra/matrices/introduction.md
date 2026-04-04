@@ -5,24 +5,25 @@ tags: [math,linear-algebra]
 level: 入門
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 線形代数
-    path: /math/linear-algebra/index.html
+    path: /math/linear-algebra/index.md
   - title: 行列
-    path: /math/linear-algebra/matrices/introduction.html
+    path: /math/linear-algebra/matrices/introduction.md
 levels:
   - level: 入門
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
-    path: professional.html
+    path: professional.md
 
 requires:
   - title: ベクトル
-    path: /math/linear-algebra/vectors/introduction.html
+    path: /math/linear-algebra/vectors/introduction.md
   - title: 等号・等式
-    path: /math/math-language/equations/introduction.html
+    path: /math/math-language/equations/introduction.md
 ---
+
 
 
 ## 連立方程式と行列

@@ -5,22 +5,23 @@ tags: [math,geometry]
 level: 入門
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 幾何
-    path: /math/geometry/index.html
+    path: /math/geometry/index.md
   - title: 四角形
-    path: /math/geometry/quadrilateral/introduction.html
+    path: /math/geometry/quadrilateral/introduction.md
 levels:
   - level: 入門
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
-    path: professional.html
+    path: professional.md
 
 requires:
   - title: 三角形
-    path: /math/geometry/triangle/introduction.html
+    path: /math/geometry/triangle/introduction.md
 ---
+
 
 
 ## 種類と包含関係
