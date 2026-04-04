@@ -4,24 +4,25 @@ description: "何通りあるかを数える"
 tags: [math,statistics,counting]
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 統計・確率
-    url: /math/statistics/index.html
+    path: /math/statistics/index.html
   - title: 場合の数
-    url: /math/statistics/counting/standard.html
+    path: /math/statistics/counting/standard.html
 levels:
   - level: introduction
-    url: introduction.html
+    path: introduction.html
   - level: standard
   - level: professional
-    url: professional.html
+    path: professional.html
 level: standard
 requires:
   - title: 自然数
-    url: /math/numbers/natural-numbers/introduction
+    path: /math/numbers/natural-numbers/introduction
   - title: 四則演算
-    url: professional.md
+    path: professional.md
 ---
+
 
 
 「何通りあるか」を数えるのが場合の数です。

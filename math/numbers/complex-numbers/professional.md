@@ -4,26 +4,27 @@ description: "代数閉体・四元数・クリフォード代数"
 tags: [math,complex-numbers,complex-numbers]
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 数
-    url: /math/numbers/index.html
+    path: /math/numbers/index.html
   - title: 複素数
-    url: /math/numbers/complex-numbers/professional.html
+    path: /math/numbers/complex-numbers/professional.html
 levels:
   - level: introduction
-    url: introduction.html
+    path: introduction.html
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
 level: professional
 requires:
   - title: 複素数
-    url: /math/numbers/complex-numbers/introduction
+    path: /math/numbers/complex-numbers/introduction
   - title: 行列（専門）
-    url: ../../linear-algebra/matrices/professional.md
+    path: ../../linear-algebra/matrices/professional.md
   - title: 四則演算（専門）
-    url: ../arithmetic/professional.md
+    path: ../arithmetic/professional.md
 ---
+
 
 
 > この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。

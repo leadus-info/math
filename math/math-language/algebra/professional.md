@@ -4,26 +4,27 @@ description: "抽象代数・環論・多項式環"
 tags: [math,math-language,algebra]
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 数学の言語
-    url: /math/math-language/index.html
+    path: /math/math-language/index.html
   - title: 代数
-    url: /math/math-language/algebra/professional.html
+    path: /math/math-language/algebra/professional.html
 levels:
   - level: introduction
-    url: introduction.html
+    path: introduction.html
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
 level: professional
 requires:
   - title: 代数
-    url: /math/math-language/algebra/introduction
+    path: /math/math-language/algebra/introduction
   - title: 四則演算（専門）
-    url: ../../numbers/arithmetic/professional.md
+    path: ../../numbers/arithmetic/professional.md
   - title: 行列
-    url: /math/linear-algebra/matrices/introduction
+    path: /math/linear-algebra/matrices/introduction
 ---
+
 
 
 > この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。

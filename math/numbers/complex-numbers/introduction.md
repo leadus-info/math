@@ -5,24 +5,25 @@ tags: [math,numbers,complex-numbers]
 level: introduction
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 数
-    url: /math/numbers/index.html
+    path: /math/numbers/index.html
   - title: 複素数
-    url: /math/numbers/complex-numbers/introduction.html
+    path: /math/numbers/complex-numbers/introduction.html
 levels:
   - level: introduction
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
-    url: professional.html
+    path: professional.html
 
 requires:
   - title: 負数
-    url: /math/numbers/negative-numbers/introduction
+    path: /math/numbers/negative-numbers/introduction
   - title: 乗法・べき乗
-    url: /math/numbers/arithmetic/introduction
+    path: /math/numbers/arithmetic/introduction
 ---
+
 
 「2乗したらマイナス1になる数は？」
 

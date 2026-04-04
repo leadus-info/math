@@ -5,22 +5,23 @@ tags: [math,numbers,decimals]
 level: introduction
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 数
-    url: /math/numbers/index.html
+    path: /math/numbers/index.html
   - title: 小数
-    url: /math/numbers/decimals/introduction.html
+    path: /math/numbers/decimals/introduction.html
 levels:
   - level: introduction
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
-    url: professional.html
+    path: professional.html
 
 requires:
   - title: 分数
-    url: /math/numbers/fractions/introduction
+    path: /math/numbers/fractions/introduction
 ---
+
 
 0.5、3.14、0.333……
 小数点を使って表す数が小数です。

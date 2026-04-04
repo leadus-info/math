@@ -4,22 +4,23 @@ description: "「等しい」を記号で表す"
 tags: [math,math-language,equations]
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 数学の言語
-    url: /math/math-language/index.html
+    path: /math/math-language/index.html
   - title: 等号・等式
-    url: /math/math-language/equations/standard.html
+    path: /math/math-language/equations/standard.html
 levels:
   - level: introduction
-    url: introduction.html
+    path: introduction.html
   - level: standard
   - level: professional
-    url: professional.html
+    path: professional.html
 level: standard
 requires:
   - title: 乗法・べき乗
-    url: /math/numbers/arithmetic/introduction
+    path: /math/numbers/arithmetic/introduction
 ---
+
 
 
 > この記事は [入門](introduction.md) の続きです。先に入門を読むことを推奨します。

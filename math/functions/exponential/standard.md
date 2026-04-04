@@ -4,24 +4,25 @@ description: "倍々で増える関数"
 tags: [math,functions,exponential]
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 関数
-    url: /math/functions/index.html
+    path: /math/functions/index.html
   - title: 指数関数
-    url: /math/functions/exponential/standard.html
+    path: /math/functions/exponential/standard.html
 levels:
   - level: introduction
-    url: introduction.html
+    path: introduction.html
   - level: standard
   - level: professional
-    url: professional.html
+    path: professional.html
 level: standard
 requires:
   - title: 四則演算
-    url: professional.md
+    path: professional.md
   - title: 一次関数
-    url: /math/functions/linear/introduction
+    path: /math/functions/linear/introduction
 ---
+
 
 
 > この記事は [入門](introduction.md) の続きです。先に入門を読むことを推奨します。

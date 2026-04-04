@@ -5,19 +5,20 @@ tags: [math,numbers,natural-numbers]
 level: introduction
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 数
-    url: /math/numbers/index.html
+    path: /math/numbers/index.html
   - title: 自然数
-    url: /math/numbers/natural-numbers/introduction.html
+    path: /math/numbers/natural-numbers/introduction.html
 levels:
   - level: introduction
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
-    url: professional.html
+    path: professional.html
 
 ---
+
 
 「いち、に、さん……」とものを数えるときに使う数が自然数です。
 りんごの個数、階段の段数、クラスの出席番号——

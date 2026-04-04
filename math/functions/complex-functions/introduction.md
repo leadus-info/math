@@ -5,24 +5,25 @@ tags: [math,functions,calculus]
 level: introduction
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 関数の操作
-    url: /math/functions/index.html
+    path: /math/functions/index.html
   - title: 複素関数
-    url: /math/functions/complex-functions/introduction.html
+    path: /math/functions/complex-functions/introduction.html
 levels:
   - level: introduction
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
-    url: professional.html
+    path: professional.html
 
 requires:
   - title: 複素数
-    url: /math/numbers/complex-numbers/introduction
+    path: /math/numbers/complex-numbers/introduction
   - title: 微分
-    url: /math/functions/derivatives/introduction
+    path: /math/functions/derivatives/introduction
 ---
+
 
 実数の関数を複素数の世界に拡張したものが複素関数です。
 

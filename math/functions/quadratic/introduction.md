@@ -5,24 +5,25 @@ tags: [math,functions,quadratic]
 level: introduction
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 関数
-    url: /math/functions/index.html
+    path: /math/functions/index.html
   - title: 二次関数
-    url: /math/functions/quadratic/introduction.html
+    path: /math/functions/quadratic/introduction.html
 levels:
   - level: introduction
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
-    url: professional.html
+    path: professional.html
 
 requires:
   - title: 一次関数
-    url: /math/functions/linear/introduction
+    path: /math/functions/linear/introduction
   - title: 代数
-    url: /math/math-language/algebra/introduction
+    path: /math/math-language/algebra/introduction
 ---
+
 
 ボールを投げると放物線を描きます。
 橋のアーチ、パラボラアンテナ——

@@ -5,10 +5,11 @@ difficulty: 0
 tags: [math,math-language]
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 数学の言語
-    url: /math/math-language/index.html
+    path: /math/math-language/index.html
 ---
+
 
 
 

@@ -5,22 +5,23 @@ tags: [math,functions,calculus]
 level: introduction
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 関数の操作
-    url: /math/functions/index.html
+    path: /math/functions/index.html
   - title: 微分
-    url: /math/functions/derivatives/introduction.html
+    path: /math/functions/derivatives/introduction.html
 levels:
   - level: introduction
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
-    url: professional.html
+    path: professional.html
 
 requires:
   - title: 極限
-    url: /math/functions/limits/introduction
+    path: /math/functions/limits/introduction
 ---
+
 
 車のスピードメーターは「今この瞬間の速さ」を表しています。
 2時間で100km走ったとしても、ずっと同じ速さだったわけではありません。

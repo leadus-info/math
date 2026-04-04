@@ -4,24 +4,25 @@ description: "起こりやすさを数値で表す"
 tags: [math,statistics,probability]
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 統計・確率
-    url: /math/statistics/index.html
+    path: /math/statistics/index.html
   - title: 確率
-    url: /math/statistics/probability/standard.html
+    path: /math/statistics/probability/standard.html
 levels:
   - level: introduction
-    url: introduction.html
+    path: introduction.html
   - level: standard
   - level: professional
-    url: professional.html
+    path: professional.html
 level: standard
 requires:
   - title: 場合の数
-    url: /math/statistics/counting/introduction
+    path: /math/statistics/counting/introduction
   - title: 分数
-    url: /math/numbers/fractions/introduction
+    path: /math/numbers/fractions/introduction
 ---
+
 
 
 起こりやすさを 0 から 1 の数値で表したものが確率です。

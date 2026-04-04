@@ -5,22 +5,23 @@ tags: [math,functions,sequences]
 level: introduction
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 関数
-    url: /math/functions/index.html
+    path: /math/functions/index.html
   - title: 数列
-    url: /math/functions/sequences/introduction.html
+    path: /math/functions/sequences/introduction.html
 levels:
   - level: introduction
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
-    url: professional.html
+    path: professional.html
 
 requires:
   - title: 自然数
-    url: /math/numbers/natural-numbers/introduction
+    path: /math/numbers/natural-numbers/introduction
 ---
+
 
 1, 3, 5, 7, 9……
 1, 2, 4, 8, 16……

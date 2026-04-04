@@ -5,19 +5,20 @@ tags: [math,geometry]
 level: introduction
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 幾何
-    url: /math/geometry/index.html
+    path: /math/geometry/index.html
   - title: 点
-    url: /math/geometry/point/introduction.html
+    path: /math/geometry/point/introduction.html
 levels:
   - level: introduction
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
-    url: professional.html
+    path: professional.html
 
 ---
+
 
 「ここ」という場所——大きさを持たず、位置だけを持つものが点です。
 座標を使うと、点は数のペアとして扱えます。

@@ -5,24 +5,25 @@ tags: [math,math-language,algebra]
 level: introduction
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 数学の言語
-    url: /math/math-language/index.html
+    path: /math/math-language/index.html
   - title: 代数
-    url: /math/math-language/algebra/introduction.html
+    path: /math/math-language/algebra/introduction.html
 levels:
   - level: introduction
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
-    url: professional.html
+    path: professional.html
 
 requires:
   - title: 乗法・べき乗
-    url: /math/numbers/arithmetic/introduction
+    path: /math/numbers/arithmetic/introduction
   - title: 等号・等式
-    url: /math/math-language/equations/introduction
+    path: /math/math-language/equations/introduction
 ---
+
 
 「どんな数でも……」という一般的な関係を表すとき、具体的な数の代わりに文字を使います。
 これが代数の出発点です。

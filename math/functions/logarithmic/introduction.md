@@ -5,22 +5,23 @@ tags: [math,functions,logarithmic]
 level: introduction
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 関数
-    url: /math/functions/index.html
+    path: /math/functions/index.html
   - title: 対数関数
-    url: /math/functions/logarithmic/introduction.html
+    path: /math/functions/logarithmic/introduction.html
 levels:
   - level: introduction
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
-    url: professional.html
+    path: professional.html
 
 requires:
   - title: 指数関数
-    url: /math/functions/exponential/introduction
+    path: /math/functions/exponential/introduction
 ---
+
 
 「2を何乗すれば8になるか？」
 答えは3です（2の3乗は8）。

@@ -5,10 +5,11 @@ difficulty: 0
 tags: [math,statistics]
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 統計・確率
-    url: /math/statistics/index.html
+    path: /math/statistics/index.html
 ---
+
 
 
 

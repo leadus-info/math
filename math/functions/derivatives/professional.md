@@ -4,26 +4,27 @@ description: "多変数微分・フレシェ微分・微分形式"
 tags: [math,operations,derivatives]
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 関数の操作
-    url: /math/functions/index.html
+    path: /math/functions/index.html
   - title: 微分
-    url: /math/functions/derivatives/professional.html
+    path: /math/functions/derivatives/professional.html
 levels:
   - level: introduction
-    url: introduction.html
+    path: introduction.html
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
 level: professional
 requires:
   - title: 微分
-    url: /math/functions/derivatives/introduction
+    path: /math/functions/derivatives/introduction
   - title: 行列
-    url: /math/linear-algebra/matrices/introduction
+    path: /math/linear-algebra/matrices/introduction
   - title: ベクトル
-    url: /math/linear-algebra/vectors/introduction
+    path: /math/linear-algebra/vectors/introduction
 ---
+
 
 
 > この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。

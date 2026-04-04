@@ -5,22 +5,23 @@ tags: [math,functions,trigonometric]
 level: introduction
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 関数
-    url: /math/functions/index.html
+    path: /math/functions/index.html
   - title: 三角関数
-    url: /math/functions/trigonometric/introduction.html
+    path: /math/functions/trigonometric/introduction.html
 levels:
   - level: introduction
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
-    url: professional.html
+    path: professional.html
 
 requires:
   - title: 円
-    url: /math/geometry/circle/introduction
+    path: /math/geometry/circle/introduction
 ---
+
 
 波・振動・回転——
 周期的に繰り返す変化はすべて三角関数で表せます。

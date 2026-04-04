@@ -5,24 +5,25 @@ tags: [math,geometry]
 level: introduction
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 幾何
-    url: /math/geometry/index.html
+    path: /math/geometry/index.html
   - title: 三角形
-    url: /math/geometry/triangle/introduction.html
+    path: /math/geometry/triangle/introduction.html
 levels:
   - level: introduction
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
-    url: professional.html
+    path: professional.html
 
 requires:
   - title: 直線
-    url: /math/geometry/line/introduction
+    path: /math/geometry/line/introduction
   - title: 三角関数
-    url: /math/functions/trigonometric/introduction
+    path: /math/functions/trigonometric/introduction
 ---
+
 
 3本の辺で囲まれた多角形の中で最もシンプルなのが三角形です。
 どんな複雑な多角形も三角形に分割できるため、幾何学の基本単位といえます。

@@ -4,24 +4,25 @@ description: "面積・累積を求める操作"
 tags: [math,operations,integrals]
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 関数の操作
-    url: /math/functions/index.html
+    path: /math/functions/index.html
   - title: 積分
-    url: /math/functions/integrals/standard.html
+    path: /math/functions/integrals/standard.html
 levels:
   - level: introduction
-    url: introduction.html
+    path: introduction.html
   - level: standard
   - level: professional
-    url: professional.html
+    path: professional.html
 level: standard
 requires:
   - title: 微分
-    url: /math/functions/derivatives/introduction
+    path: /math/functions/derivatives/introduction
   - title: 極限
-    url: /math/functions/limits/introduction
+    path: /math/functions/limits/introduction
 ---
+
 
 
 グラフの下の面積を求める操作が積分です。微分の逆操作でもあります。

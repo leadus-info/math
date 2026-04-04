@@ -4,26 +4,27 @@ description: "実数を超えた数の体系"
 tags: [math,complex-numbers,complex-numbers]
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 数
-    url: /math/numbers/index.html
+    path: /math/numbers/index.html
   - title: 複素数
-    url: /math/numbers/complex-numbers/standard.html
+    path: /math/numbers/complex-numbers/standard.html
 levels:
   - level: introduction
-    url: introduction.html
+    path: introduction.html
   - level: standard
   - level: professional
-    url: professional.html
+    path: professional.html
 level: standard
 requires:
   - title: 負数
-    url: /math/numbers/negative-numbers/introduction
+    path: /math/numbers/negative-numbers/introduction
   - title: 三角関数
-    url: /math/functions/trigonometric/introduction
+    path: /math/functions/trigonometric/introduction
   - title: 指数関数
-    url: /math/functions/exponential/introduction
+    path: /math/functions/exponential/introduction
 ---
+
 
 
 > この記事は [入門](introduction.md) の続きです。先に入門を読むことを推奨します。

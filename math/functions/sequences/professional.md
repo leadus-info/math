@@ -4,26 +4,27 @@ description: "級数の収束判定・べき級数・漸近展開"
 tags: [math,functions,sequences]
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 関数
-    url: /math/functions/index.html
+    path: /math/functions/index.html
   - title: 数列
-    url: /math/functions/sequences/professional.html
+    path: /math/functions/sequences/professional.html
 levels:
   - level: introduction
-    url: introduction.html
+    path: introduction.html
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
 level: professional
 requires:
   - title: 数列
-    url: /math/functions/sequences/introduction
+    path: /math/functions/sequences/introduction
   - title: 極限（専門）
-    url: ../../limits/professional.md
+    path: ../../limits/professional.md
   - title: 微分
-    url: /math/functions/derivatives/introduction
+    path: /math/functions/derivatives/introduction
 ---
+
 
 
 > この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。

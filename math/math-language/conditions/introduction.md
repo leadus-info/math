@@ -5,22 +5,23 @@ tags: [math,math-language,conditions]
 level: introduction
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 数学の言語
-    url: /math/math-language/index.html
+    path: /math/math-language/index.html
   - title: 必要・十分条件
-    url: /math/math-language/conditions/introduction.html
+    path: /math/math-language/conditions/introduction.html
 levels:
   - level: introduction
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
-    url: professional.html
+    path: professional.html
 
 requires:
   - title: 等号・等式
-    url: /math/math-language/equations/introduction
+    path: /math/math-language/equations/introduction
 ---
+
 
 「もし雨が降るなら、地面が濡れる」——
 「ならば」という言葉の向きと強さを整理するのが必要・十分条件です。

@@ -5,24 +5,25 @@ tags: [math,functions,linear]
 level: introduction
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 関数
-    url: /math/functions/index.html
+    path: /math/functions/index.html
   - title: 一次関数
-    url: /math/functions/linear/introduction.html
+    path: /math/functions/linear/introduction.html
 levels:
   - level: introduction
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
-    url: professional.html
+    path: professional.html
 
 requires:
   - title: 等号・等式
-    url: /math/math-language/equations/introduction
+    path: /math/math-language/equations/introduction
   - title: 乗法・べき乗
-    url: /math/numbers/arithmetic/introduction
+    path: /math/numbers/arithmetic/introduction
 ---
+
 
 タクシーに乗ると「初乗り500円、以後1kmごとに100円」。
 走った距離が決まると料金が決まります。

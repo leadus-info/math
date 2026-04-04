@@ -4,26 +4,27 @@ description: "整数環の代数的構造・整域・Z上のモジュール"
 tags: [math,numbers,negative-numbers]
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 数
-    url: /math/numbers/index.html
+    path: /math/numbers/index.html
   - title: 負数
-    url: /math/numbers/negative-numbers/professional.html
+    path: /math/numbers/negative-numbers/professional.html
 levels:
   - level: introduction
-    url: introduction.html
+    path: introduction.html
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
 level: professional
 requires:
   - title: 負数
-    url: /math/numbers/negative-numbers/introduction
+    path: /math/numbers/negative-numbers/introduction
   - title: 自然数（専門）
-    url: ../natural-numbers/professional.md
+    path: ../natural-numbers/professional.md
   - title: 集合
-    url: /math/math-language/sets/introduction
+    path: /math/math-language/sets/introduction
 ---
+
 
 
 > この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。

@@ -4,19 +4,20 @@ description: "ものを数えるときに使う数"
 tags: [math,numbers,natural-numbers]
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 数
-    url: /math/numbers/index.html
+    path: /math/numbers/index.html
   - title: 自然数
-    url: /math/numbers/natural-numbers/standard.html
+    path: /math/numbers/natural-numbers/standard.html
 levels:
   - level: introduction
-    url: introduction.html
+    path: introduction.html
   - level: standard
   - level: professional
-    url: professional.html
+    path: professional.html
 level: standard
 ---
+
 
 自然数は $1, 2, 3, \ldots$ と続く、ものを数えるための数です。
 このページでは、自然数の構造を数学的に観察します。

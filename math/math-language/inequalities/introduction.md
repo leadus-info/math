@@ -5,24 +5,25 @@ tags: [math,math-language,inequalities]
 level: introduction
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 数学の言語
-    url: /math/math-language/index.html
+    path: /math/math-language/index.html
   - title: 不等号・不等式
-    url: /math/math-language/inequalities/introduction.html
+    path: /math/math-language/inequalities/introduction.html
 levels:
   - level: introduction
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
-    url: professional.html
+    path: professional.html
 
 requires:
   - title: 等号・等式
-    url: /math/math-language/equations/introduction
+    path: /math/math-language/equations/introduction
   - title: 負数
-    url: /math/numbers/negative-numbers/introduction
+    path: /math/numbers/negative-numbers/introduction
 ---
+
 
 「aはbより大きい」——この大小関係を記号で表すのが不等号です。
 

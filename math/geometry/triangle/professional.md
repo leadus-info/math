@@ -4,24 +4,25 @@ description: "重心座標・三角形の幾何学的定理・双曲幾何"
 tags: [math,geometry,triangle]
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 幾何
-    url: /math/geometry/index.html
+    path: /math/geometry/index.html
   - title: 三角形
-    url: /math/geometry/triangle/professional.html
+    path: /math/geometry/triangle/professional.html
 levels:
   - level: introduction
-    url: introduction.html
+    path: introduction.html
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
 level: professional
 requires:
   - title: 三角形
-    url: /math/geometry/triangle/introduction
+    path: /math/geometry/triangle/introduction
   - title: ベクトル
-    url: /math/linear-algebra/vectors/introduction
+    path: /math/linear-algebra/vectors/introduction
 ---
+
 
 
 > この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。

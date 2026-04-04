@@ -5,22 +5,23 @@ tags: [math,functions,exponential]
 level: introduction
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 関数
-    url: /math/functions/index.html
+    path: /math/functions/index.html
   - title: 指数関数
-    url: /math/functions/exponential/introduction.html
+    path: /math/functions/exponential/introduction.html
 levels:
   - level: introduction
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
-    url: professional.html
+    path: professional.html
 
 requires:
   - title: 乗法・べき乗
-    url: /math/numbers/arithmetic/introduction
+    path: /math/numbers/arithmetic/introduction
 ---
+
 
 「毎日2倍になる菌がいる。今日1匹なら、10日後は何匹？」
 1024匹——これが指数関数的な増加です。

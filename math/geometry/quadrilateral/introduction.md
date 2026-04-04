@@ -5,22 +5,23 @@ tags: [math,geometry]
 level: introduction
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 幾何
-    url: /math/geometry/index.html
+    path: /math/geometry/index.html
   - title: 四角形
-    url: /math/geometry/quadrilateral/introduction.html
+    path: /math/geometry/quadrilateral/introduction.html
 levels:
   - level: introduction
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
-    url: professional.html
+    path: professional.html
 
 requires:
   - title: 三角形
-    url: /math/geometry/triangle/introduction
+    path: /math/geometry/triangle/introduction
 ---
+
 
 4本の辺で囲まれた多角形が四角形です。
 窓、ドア、スマートフォンの画面——身の回りで最もよく見る形です。

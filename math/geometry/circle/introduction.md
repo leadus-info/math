@@ -5,22 +5,23 @@ tags: [math,geometry]
 level: introduction
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 幾何
-    url: /math/geometry/index.html
+    path: /math/geometry/index.html
   - title: 円
-    url: /math/geometry/circle/introduction.html
+    path: /math/geometry/circle/introduction.html
 levels:
   - level: introduction
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
-    url: professional.html
+    path: professional.html
 
 requires:
   - title: 点
-    url: /math/geometry/point/introduction
+    path: /math/geometry/point/introduction
 ---
+
 
 1点から同じ距離にある点をすべて集めた図形が円です。
 回転の対称性が最も高い形であり、数学のあらゆる場所に現れます。

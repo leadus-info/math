@@ -4,24 +4,25 @@ description: "「ならば」の向きを整理する"
 tags: [math,math-language,conditions]
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 数学の言語
-    url: /math/math-language/index.html
+    path: /math/math-language/index.html
   - title: 必要・十分条件
-    url: /math/math-language/conditions/standard.html
+    path: /math/math-language/conditions/standard.html
 levels:
   - level: introduction
-    url: introduction.html
+    path: introduction.html
   - level: standard
   - level: professional
-    url: professional.html
+    path: professional.html
 level: standard
 requires:
   - title: 等号・等式
-    url: /math/math-language/equations/introduction
+    path: /math/math-language/equations/introduction
   - title: 不等号・不等式
-    url: /math/math-language/inequalities/introduction
+    path: /math/math-language/inequalities/introduction
 ---
+
 
 
 > この記事は [入門](introduction.md) の続きです。先に入門を読むことを推奨します。

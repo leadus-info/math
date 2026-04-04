@@ -4,26 +4,27 @@ description: "射影空間・デザルグ定理・射影幾何"
 tags: [math,geometry,line]
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 幾何
-    url: /math/geometry/index.html
+    path: /math/geometry/index.html
   - title: 直線
-    url: /math/geometry/line/professional.html
+    path: /math/geometry/line/professional.html
 levels:
   - level: introduction
-    url: introduction.html
+    path: introduction.html
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
 level: professional
 requires:
   - title: 直線
-    url: /math/geometry/line/introduction
+    path: /math/geometry/line/introduction
   - title: ベクトル
-    url: /math/linear-algebra/vectors/introduction
+    path: /math/linear-algebra/vectors/introduction
   - title: 集合
-    url: /math/math-language/sets/introduction
+    path: /math/math-language/sets/introduction
 ---
+
 
 
 > この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。

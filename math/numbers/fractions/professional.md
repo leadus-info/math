@@ -4,26 +4,27 @@ description: "有理数の代数的構造・稠密性・実数との対比"
 tags: [math,numbers,fractions]
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 数
-    url: /math/numbers/index.html
+    path: /math/numbers/index.html
   - title: 分数
-    url: /math/numbers/fractions/professional.html
+    path: /math/numbers/fractions/professional.html
 levels:
   - level: introduction
-    url: introduction.html
+    path: introduction.html
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
 level: professional
 requires:
   - title: 分数
-    url: /math/numbers/fractions/introduction
+    path: /math/numbers/fractions/introduction
   - title: 集合
-    url: /math/math-language/sets/introduction
+    path: /math/math-language/sets/introduction
   - title: 極限（専門）
-    url: ../../functions/limits/professional.md
+    path: ../../functions/limits/professional.md
 ---
+
 
 
 > この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。

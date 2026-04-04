@@ -4,26 +4,27 @@ description: "ルベーグ積分・広義積分・多重積分"
 tags: [math,operations,integrals]
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 関数の操作
-    url: /math/functions/index.html
+    path: /math/functions/index.html
   - title: 積分
-    url: /math/functions/integrals/professional.html
+    path: /math/functions/integrals/professional.html
 levels:
   - level: introduction
-    url: introduction.html
+    path: introduction.html
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
 level: professional
 requires:
   - title: 積分
-    url: /math/functions/integrals/introduction
+    path: /math/functions/integrals/introduction
   - title: 微分（専門）
-    url: ../derivatives/professional.md
+    path: ../derivatives/professional.md
   - title: 集合（専門）
-    url: ../../../math-language/sets/professional.md
+    path: ../../../math-language/sets/professional.md
 ---
+
 
 
 > この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。

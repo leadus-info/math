@@ -5,8 +5,9 @@ difficulty: 0
 tags: [math]
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
 ---
+
 
 
 

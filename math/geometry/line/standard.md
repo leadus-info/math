@@ -4,24 +4,25 @@ description: "直線の方程式と位置関係"
 tags: [math,geometry,line]
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 幾何
-    url: /math/geometry/index.html
+    path: /math/geometry/index.html
   - title: 直線
-    url: /math/geometry/line/standard.html
+    path: /math/geometry/line/standard.html
 levels:
   - level: introduction
-    url: introduction.html
+    path: introduction.html
   - level: standard
   - level: professional
-    url: professional.html
+    path: professional.html
 level: standard
 requires:
   - title: 点
-    url: /math/geometry/point/introduction
+    path: /math/geometry/point/introduction
   - title: 一次関数
-    url: /math/functions/linear/introduction
+    path: /math/functions/linear/introduction
 ---
+
 
 
 > この記事は [入門](introduction.md) の続きです。先に入門を読むことを推奨します。

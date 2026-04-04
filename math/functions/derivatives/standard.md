@@ -4,24 +4,25 @@ description: "関数の瞬間の変化率"
 tags: [math,operations,derivatives]
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 関数の操作
-    url: /math/functions/index.html
+    path: /math/functions/index.html
   - title: 微分
-    url: /math/functions/derivatives/standard.html
+    path: /math/functions/derivatives/standard.html
 levels:
   - level: introduction
-    url: introduction.html
+    path: introduction.html
   - level: standard
   - level: professional
-    url: professional.html
+    path: professional.html
 level: standard
 requires:
   - title: 極限
-    url: /math/functions/limits/introduction
+    path: /math/functions/limits/introduction
   - title: 乗法・べき乗
-    url: /math/numbers/arithmetic/introduction
+    path: /math/numbers/arithmetic/introduction
 ---
+
 
 
 関数の「瞬間の変化の速さ」を求める操作が微分です。

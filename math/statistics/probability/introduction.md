@@ -5,24 +5,25 @@ tags: [math,statistics]
 level: introduction
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 統計・確率
-    url: /math/statistics/index.html
+    path: /math/statistics/index.html
   - title: 確率
-    url: /math/statistics/probability/introduction.html
+    path: /math/statistics/probability/introduction.html
 levels:
   - level: introduction
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
-    url: professional.html
+    path: professional.html
 
 requires:
   - title: 場合の数
-    url: /math/statistics/counting/introduction
+    path: /math/statistics/counting/introduction
   - title: 分数
-    url: /math/numbers/fractions/introduction
+    path: /math/numbers/fractions/introduction
 ---
+
 
 コインを投げると表か裏が出ます。
 どちらが出るかは事前にわかりません。

@@ -4,26 +4,27 @@ description: "掛け算の性質とべき乗・平方根"
 tags: [math,operations,arithmetic]
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 数
-    url: /math/numbers/index.html
+    path: /math/numbers/index.html
   - title: 乗法・べき乗
-    url: /math/numbers/arithmetic/standard.html
+    path: /math/numbers/arithmetic/standard.html
 levels:
   - level: introduction
-    url: introduction.html
+    path: introduction.html
   - level: standard
   - level: professional
-    url: professional.html
+    path: professional.html
 level: standard
 requires:
   - title: 自然数
-    url: /math/numbers/natural-numbers/introduction
+    path: /math/numbers/natural-numbers/introduction
   - title: 負数
-    url: /math/numbers/negative-numbers/introduction
+    path: /math/numbers/negative-numbers/introduction
   - title: 分数
-    url: /math/numbers/fractions/introduction
+    path: /math/numbers/fractions/introduction
 ---
+
 
 
 > この記事は [入門](introduction.md) の続きです。先に入門を読むことを推奨します。

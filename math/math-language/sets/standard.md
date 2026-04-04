@@ -4,22 +4,23 @@ description: "ものの集まりを数学で扱う"
 tags: [math,math-language,sets]
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 数学の言語
-    url: /math/math-language/index.html
+    path: /math/math-language/index.html
   - title: 集合
-    url: /math/math-language/sets/standard.html
+    path: /math/math-language/sets/standard.html
 levels:
   - level: introduction
-    url: introduction.html
+    path: introduction.html
   - level: standard
   - level: professional
-    url: professional.html
+    path: professional.html
 level: standard
 requires:
   - title: 自然数
-    url: /math/numbers/natural-numbers/introduction
+    path: /math/numbers/natural-numbers/introduction
 ---
+
 
 
 「ものの集まり」を数学的に扱う道具が集合です。

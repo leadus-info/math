@@ -5,24 +5,25 @@ tags: [math,functions,calculus]
 level: introduction
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 関数の操作
-    url: /math/functions/index.html
+    path: /math/functions/index.html
   - title: 積分
-    url: /math/functions/integrals/introduction.html
+    path: /math/functions/integrals/introduction.html
 levels:
   - level: introduction
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
-    url: professional.html
+    path: professional.html
 
 requires:
   - title: 微分
-    url: /math/functions/derivatives/introduction
+    path: /math/functions/derivatives/introduction
   - title: 極限
-    url: /math/functions/limits/introduction
+    path: /math/functions/limits/introduction
 ---
+
 
 曲線で囲まれた図形の面積を定規だけで測るのは難しい。
 積分は「細かく分割して足し合わせる」ことでこの面積を求める操作です。

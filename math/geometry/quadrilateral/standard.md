@@ -4,24 +4,25 @@ description: "4辺で囲まれた図形の種類と性質"
 tags: [math,geometry,quadrilateral]
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 幾何
-    url: /math/geometry/index.html
+    path: /math/geometry/index.html
   - title: 四角形
-    url: /math/geometry/quadrilateral/standard.html
+    path: /math/geometry/quadrilateral/standard.html
 levels:
   - level: introduction
-    url: introduction.html
+    path: introduction.html
   - level: standard
   - level: professional
-    url: professional.html
+    path: professional.html
 level: standard
 requires:
   - title: 三角形
-    url: /math/geometry/triangle/introduction
+    path: /math/geometry/triangle/introduction
   - title: 直線
-    url: /math/geometry/line/introduction
+    path: /math/geometry/line/introduction
 ---
+
 
 
 > この記事は [入門](introduction.md) の続きです。先に入門を読むことを推奨します。

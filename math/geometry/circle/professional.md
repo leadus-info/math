@@ -4,26 +4,27 @@ description: "反転幾何・リーマン球面・複素平面上の円"
 tags: [math,geometry,circle]
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 幾何
-    url: /math/geometry/index.html
+    path: /math/geometry/index.html
   - title: 円
-    url: /math/geometry/circle/professional.html
+    path: /math/geometry/circle/professional.html
 levels:
   - level: introduction
-    url: introduction.html
+    path: introduction.html
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
 level: professional
 requires:
   - title: 円
-    url: /math/geometry/circle/introduction
+    path: /math/geometry/circle/introduction
   - title: 複素数
-    url: /math/numbers/complex-numbers/introduction
+    path: /math/numbers/complex-numbers/introduction
   - title: 直線（専門）
-    url: ../line/professional.md
+    path: ../line/professional.md
 ---
+
 
 
 > この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。

@@ -4,26 +4,27 @@ description: "フーリエ級数・フーリエ変換・球面調和関数"
 tags: [math,functions,trigonometric]
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 関数
-    url: /math/functions/index.html
+    path: /math/functions/index.html
   - title: 三角関数
-    url: /math/functions/trigonometric/professional.html
+    path: /math/functions/trigonometric/professional.html
 levels:
   - level: introduction
-    url: introduction.html
+    path: introduction.html
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
 level: professional
 requires:
   - title: 三角関数
-    url: /math/functions/trigonometric/introduction
+    path: /math/functions/trigonometric/introduction
   - title: 積分（専門）
-    url: ../../integrals/professional.md
+    path: ../../integrals/professional.md
   - title: 複素関数
-    url: /math/functions/complex-functions/introduction
+    path: /math/functions/complex-functions/introduction
 ---
+
 
 
 > この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。

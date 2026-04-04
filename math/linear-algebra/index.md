@@ -5,10 +5,11 @@ difficulty: 0
 tags: [math,linear-algebra]
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 線形代数
-    url: /math/linear-algebra/index.html
+    path: /math/linear-algebra/index.html
 ---
+
 
 
 

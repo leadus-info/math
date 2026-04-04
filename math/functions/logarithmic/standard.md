@@ -4,22 +4,23 @@ description: "指数関数の逆の操作"
 tags: [math,functions,logarithmic]
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 関数
-    url: /math/functions/index.html
+    path: /math/functions/index.html
   - title: 対数関数
-    url: /math/functions/logarithmic/standard.html
+    path: /math/functions/logarithmic/standard.html
 levels:
   - level: introduction
-    url: introduction.html
+    path: introduction.html
   - level: standard
   - level: professional
-    url: professional.html
+    path: professional.html
 level: standard
 requires:
   - title: 指数関数
-    url: /math/functions/exponential/introduction
+    path: /math/functions/exponential/introduction
 ---
+
 
 
 > この記事は [入門](introduction.md) の続きです。先に入門を読むことを推奨します。

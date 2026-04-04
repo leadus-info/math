@@ -5,22 +5,23 @@ tags: [math,geometry]
 level: introduction
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 幾何
-    url: /math/geometry/index.html
+    path: /math/geometry/index.html
   - title: 多角形
-    url: /math/geometry/polygon/introduction.html
+    path: /math/geometry/polygon/introduction.html
 levels:
   - level: introduction
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
-    url: professional.html
+    path: professional.html
 
 requires:
   - title: 四角形
-    url: /math/geometry/quadrilateral/introduction
+    path: /math/geometry/quadrilateral/introduction
 ---
+
 
 三角形・四角形・五角形……
 n本の辺で囲まれた図形を多角形といいます。

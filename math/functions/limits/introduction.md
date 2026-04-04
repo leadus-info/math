@@ -5,22 +5,23 @@ tags: [math,functions,calculus]
 level: introduction
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 関数の操作
-    url: /math/functions/index.html
+    path: /math/functions/index.html
   - title: 極限
-    url: /math/functions/limits/introduction.html
+    path: /math/functions/limits/introduction.html
 levels:
   - level: introduction
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
-    url: professional.html
+    path: professional.html
 
 requires:
   - title: 数列
-    url: /math/functions/sequences/introduction
+    path: /math/functions/sequences/introduction
 ---
+
 
 「10分の1、100分の1、1000分の1……」
 どんどん0に近づいていきます。でも0にはなりません。

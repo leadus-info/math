@@ -4,24 +4,25 @@ description: "公理的集合論・順序数・基数"
 tags: [math,math-language,sets]
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 数学の言語
-    url: /math/math-language/index.html
+    path: /math/math-language/index.html
   - title: 集合
-    url: /math/math-language/sets/professional.html
+    path: /math/math-language/sets/professional.html
 levels:
   - level: introduction
-    url: introduction.html
+    path: introduction.html
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
 level: professional
 requires:
   - title: 集合
-    url: /math/math-language/sets/introduction
+    path: /math/math-language/sets/introduction
   - title: 必要・十分条件（専門）
-    url: ../conditions/professional.md
+    path: ../conditions/professional.md
 ---
+
 
 
 > この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。

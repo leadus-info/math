@@ -5,10 +5,11 @@ difficulty: 0
 tags: [math,geometry]
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 幾何
-    url: /math/geometry/index.html
+    path: /math/geometry/index.html
 ---
+
 
 
 

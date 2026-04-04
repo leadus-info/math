@@ -5,19 +5,20 @@ tags: [math,numbers,fractions]
 level: introduction
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 数
-    url: /math/numbers/index.html
+    path: /math/numbers/index.html
   - title: 分数
-    url: /math/numbers/fractions/introduction.html
+    path: /math/numbers/fractions/introduction.html
 levels:
   - level: introduction
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
-    url: professional.html
+    path: professional.html
 
 ---
+
 
 ピザを3人で等しく分けたとき、1人分はいくつでしょう？
 「1個」でも「2個」でもない——この「ぴったり割り切れない量」を表すのが分数です。

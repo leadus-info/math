@@ -5,22 +5,23 @@ tags: [math,numbers,arithmetic]
 level: introduction
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 数
-    url: /math/numbers/index.html
+    path: /math/numbers/index.html
   - title: 乗法・べき乗
-    url: /math/numbers/arithmetic/introduction.html
+    path: /math/numbers/arithmetic/introduction.html
 levels:
   - level: introduction
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
-    url: professional.html
+    path: professional.html
 
 requires:
   - title: 自然数
-    url: /math/numbers/natural-numbers/introduction
+    path: /math/numbers/natural-numbers/introduction
 ---
+
 
 「2の10乗はいくつ？」
 2を10回掛けると1024になります。

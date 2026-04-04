@@ -5,22 +5,23 @@ tags: [math,numbers,negative-numbers]
 level: introduction
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 数
-    url: /math/numbers/index.html
+    path: /math/numbers/index.html
   - title: 負数
-    url: /math/numbers/negative-numbers/introduction.html
+    path: /math/numbers/negative-numbers/introduction.html
 levels:
   - level: introduction
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
-    url: professional.html
+    path: professional.html
 
 requires:
   - title: 自然数
-    url: /math/numbers/natural-numbers/introduction
+    path: /math/numbers/natural-numbers/introduction
 ---
+
 
 冬の気温「マイナス5度」、銀行の残高「マイナス1000円（借金）」——
 0より小さい数を負数といいます。

@@ -5,10 +5,11 @@ difficulty: 0
 tags: [math,numbers]
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 数
-    url: /math/numbers/index.html
+    path: /math/numbers/index.html
 ---
+
 
 
 

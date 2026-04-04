@@ -5,22 +5,23 @@ tags: [math,statistics]
 level: introduction
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 統計・確率
-    url: /math/statistics/index.html
+    path: /math/statistics/index.html
   - title: 場合の数
-    url: /math/statistics/counting/introduction.html
+    path: /math/statistics/counting/introduction.html
 levels:
   - level: introduction
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
-    url: professional.html
+    path: professional.html
 
 requires:
   - title: 自然数
-    url: /math/numbers/natural-numbers/introduction
+    path: /math/numbers/natural-numbers/introduction
 ---
+
 
 コインを3回投げると、表裏の出方は何通りあるか？
 「何通りあるか」を数える技術が場合の数です。

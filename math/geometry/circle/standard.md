@@ -4,24 +4,25 @@ description: "中心から等距離な点の集合"
 tags: [math,geometry,circle]
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 幾何
-    url: /math/geometry/index.html
+    path: /math/geometry/index.html
   - title: 円
-    url: /math/geometry/circle/standard.html
+    path: /math/geometry/circle/standard.html
 levels:
   - level: introduction
-    url: introduction.html
+    path: introduction.html
   - level: standard
   - level: professional
-    url: professional.html
+    path: professional.html
 level: standard
 requires:
   - title: 点
-    url: /math/geometry/point/introduction
+    path: /math/geometry/point/introduction
   - title: 直線
-    url: /math/geometry/line/introduction
+    path: /math/geometry/line/introduction
 ---
+
 
 
 中心から等距離にある点の集合が円です。

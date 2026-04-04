@@ -4,24 +4,25 @@ description: "数を格子状に並べた構造"
 tags: [math,linear-algebra,matrices]
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 線形代数
-    url: /math/linear-algebra/index.html
+    path: /math/linear-algebra/index.html
   - title: 行列
-    url: /math/linear-algebra/matrices/standard.html
+    path: /math/linear-algebra/matrices/standard.html
 levels:
   - level: introduction
-    url: introduction.html
+    path: introduction.html
   - level: standard
   - level: professional
-    url: professional.html
+    path: professional.html
 level: standard
 requires:
   - title: ベクトル
-    url: /math/linear-algebra/vectors/introduction
+    path: /math/linear-algebra/vectors/introduction
   - title: 等号・等式
-    url: /math/math-language/equations/introduction
+    path: /math/math-language/equations/introduction
 ---
+
 
 
 数を格子状に並べたものが行列です。

@@ -5,24 +5,25 @@ tags: [math,functions,polynomials]
 level: introduction
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 関数
-    url: /math/functions/index.html
+    path: /math/functions/index.html
   - title: 多項式
-    url: /math/functions/polynomials/introduction.html
+    path: /math/functions/polynomials/introduction.html
 levels:
   - level: introduction
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
-    url: professional.html
+    path: professional.html
 
 requires:
   - title: 二次関数
-    url: /math/functions/quadratic/introduction
+    path: /math/functions/quadratic/introduction
   - title: 代数
-    url: /math/math-language/algebra/introduction
+    path: /math/math-language/algebra/introduction
 ---
+
 
 xの2乗、xの3乗……べき乗の足し合わせで書ける式を多項式といいます。
 一次関数・二次関数を一般化したものです。

@@ -5,24 +5,25 @@ tags: [math,linear-algebra]
 level: introduction
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 線形代数
-    url: /math/linear-algebra/index.html
+    path: /math/linear-algebra/index.html
   - title: 行列
-    url: /math/linear-algebra/matrices/introduction.html
+    path: /math/linear-algebra/matrices/introduction.html
 levels:
   - level: introduction
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
-    url: professional.html
+    path: professional.html
 
 requires:
   - title: ベクトル
-    url: /math/linear-algebra/vectors/introduction
+    path: /math/linear-algebra/vectors/introduction
   - title: 等号・等式
-    url: /math/math-language/equations/introduction
+    path: /math/math-language/equations/introduction
 ---
+
 
 数を格子状に並べたものが行列です。
 連立方程式をまとめて扱ったり、空間の変換（回転・拡大）を表したりできます。

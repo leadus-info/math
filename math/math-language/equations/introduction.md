@@ -5,19 +5,20 @@ tags: [math,math-language,equations]
 level: introduction
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 数学の言語
-    url: /math/math-language/index.html
+    path: /math/math-language/index.html
   - title: 等号・等式
-    url: /math/math-language/equations/introduction.html
+    path: /math/math-language/equations/introduction.html
 levels:
   - level: introduction
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
-    url: professional.html
+    path: professional.html
 
 ---
+
 
 「左と右が同じ」——これを記号で表したのが等号「＝」です。
 

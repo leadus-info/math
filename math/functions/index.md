@@ -5,10 +5,11 @@ difficulty: 0
 tags: [math,functions]
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 関数
-    url: /math/functions/index.html
+    path: /math/functions/index.html
 ---
+
 
 
 

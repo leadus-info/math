@@ -5,24 +5,25 @@ tags: [math,geometry]
 level: introduction
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 幾何
-    url: /math/geometry/index.html
+    path: /math/geometry/index.html
   - title: 直線
-    url: /math/geometry/line/introduction.html
+    path: /math/geometry/line/introduction.html
 levels:
   - level: introduction
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
-    url: professional.html
+    path: professional.html
 
 requires:
   - title: 点
-    url: /math/geometry/point/introduction
+    path: /math/geometry/point/introduction
   - title: 一次関数
-    url: /math/functions/linear/introduction
+    path: /math/functions/linear/introduction
 ---
+
 
 2点を結んで、両方向に限りなく伸ばしたものが直線です。
 座標平面では、一次方程式と1対1に対応します。

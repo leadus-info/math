@@ -5,24 +5,25 @@ tags: [math,math-language,sets]
 level: introduction
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 数学の言語
-    url: /math/math-language/index.html
+    path: /math/math-language/index.html
   - title: 集合
-    url: /math/math-language/sets/introduction.html
+    path: /math/math-language/sets/introduction.html
 levels:
   - level: introduction
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
-    url: professional.html
+    path: professional.html
 
 requires:
   - title: 自然数
-    url: /math/numbers/natural-numbers/introduction
+    path: /math/numbers/natural-numbers/introduction
   - title: 必要・十分条件
-    url: /math/math-language/conditions/introduction
+    path: /math/math-language/conditions/introduction
 ---
+
 
 「クラスの生徒全員」「10以下の偶数」——
 こういった「ものの集まり」を数学的に扱う道具が集合です。

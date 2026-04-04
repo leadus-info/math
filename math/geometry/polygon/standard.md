@@ -4,26 +4,27 @@ description: "n 辺で囲まれた図形の一般論"
 tags: [math,geometry,polygon]
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 幾何
-    url: /math/geometry/index.html
+    path: /math/geometry/index.html
   - title: 多角形
-    url: /math/geometry/polygon/standard.html
+    path: /math/geometry/polygon/standard.html
 levels:
   - level: introduction
-    url: introduction.html
+    path: introduction.html
   - level: standard
   - level: professional
-    url: professional.html
+    path: professional.html
 level: standard
 requires:
   - title: 三角形
-    url: /math/geometry/triangle/introduction
+    path: /math/geometry/triangle/introduction
   - title: 四角形
-    url: /math/geometry/quadrilateral/introduction
+    path: /math/geometry/quadrilateral/introduction
   - title: 三角関数
-    url: /math/functions/trigonometric/introduction
+    path: /math/functions/trigonometric/introduction
 ---
+
 
 
 > この記事は [入門](introduction.md) の続きです。先に入門を読むことを推奨します。

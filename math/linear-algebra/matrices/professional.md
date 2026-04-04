@@ -4,26 +4,27 @@ description: "スペクトル定理・特異値分解・リー代数"
 tags: [math,linear-algebra,matrices]
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 線形代数
-    url: /math/linear-algebra/index.html
+    path: /math/linear-algebra/index.html
   - title: 行列
-    url: /math/linear-algebra/matrices/professional.html
+    path: /math/linear-algebra/matrices/professional.html
 levels:
   - level: introduction
-    url: introduction.html
+    path: introduction.html
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
 level: professional
 requires:
   - title: 行列
-    url: /math/linear-algebra/matrices/introduction
+    path: /math/linear-algebra/matrices/introduction
   - title: ベクトル（専門）
-    url: ../vectors/professional.md
+    path: ../vectors/professional.md
   - title: 複素数
-    url: /math/numbers/complex-numbers/introduction
+    path: /math/numbers/complex-numbers/introduction
 ---
+
 
 
 > この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。

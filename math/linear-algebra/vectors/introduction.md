@@ -5,22 +5,23 @@ tags: [math,linear-algebra]
 level: introduction
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 線形代数
-    url: /math/linear-algebra/index.html
+    path: /math/linear-algebra/index.html
   - title: ベクトル
-    url: /math/linear-algebra/vectors/introduction.html
+    path: /math/linear-algebra/vectors/introduction.html
 levels:
   - level: introduction
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
-    url: professional.html
+    path: professional.html
 
 requires:
   - title: 点
-    url: /math/geometry/point/introduction
+    path: /math/geometry/point/introduction
 ---
+
 
 「北へ5km」——距離（大きさ）と方向（向き）の両方が必要です。
 大きさと向きの両方を持つ量がベクトルです。

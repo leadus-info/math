@@ -4,26 +4,27 @@ description: "二次形式・固有値との接続・円錐曲線"
 tags: [math,functions,quadratic]
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 関数
-    url: /math/functions/index.html
+    path: /math/functions/index.html
   - title: 二次関数
-    url: /math/functions/quadratic/professional.html
+    path: /math/functions/quadratic/professional.html
 levels:
   - level: introduction
-    url: introduction.html
+    path: introduction.html
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
 level: professional
 requires:
   - title: 二次関数
-    url: /math/functions/quadratic/introduction
+    path: /math/functions/quadratic/introduction
   - title: 行列
-    url: /math/linear-algebra/matrices/introduction
+    path: /math/linear-algebra/matrices/introduction
   - title: ベクトル
-    url: /math/linear-algebra/vectors/introduction
+    path: /math/linear-algebra/vectors/introduction
 ---
+
 
 
 > この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。

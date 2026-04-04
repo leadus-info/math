@@ -4,26 +4,27 @@ description: "情報エントロピー・複素対数・$p$-進対数"
 tags: [math,functions,logarithmic]
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 関数
-    url: /math/functions/index.html
+    path: /math/functions/index.html
   - title: 対数関数
-    url: /math/functions/logarithmic/professional.html
+    path: /math/functions/logarithmic/professional.html
 levels:
   - level: introduction
-    url: introduction.html
+    path: introduction.html
   - level: standard
-    url: standard.html
+    path: standard.html
   - level: professional
 level: professional
 requires:
   - title: 対数関数
-    url: /math/functions/logarithmic/introduction
+    path: /math/functions/logarithmic/introduction
   - title: 複素数
-    url: /math/numbers/complex-numbers/introduction
+    path: /math/numbers/complex-numbers/introduction
   - title: 確率
-    url: /math/statistics/probability/introduction
+    path: /math/statistics/probability/introduction
 ---
+
 
 
 > この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。
