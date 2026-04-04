@@ -1,18 +1,12 @@
 ---
 title: 数学
 description: "数学"
-difficulty: 0
 tags: [math]
 hierarchy:
   - title: 数学
     path: /math/index.html
 ---
 
-
-
-
-
-# 数学
 このサイトは、数学の概念を体系的にまとめた学習サイトです。
 
 どこから始めればいいかわからない方は、[学習コース](./course.md)をご覧ください。
