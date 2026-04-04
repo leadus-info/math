@@ -10,16 +10,17 @@ hierarchy:
   - title: 対数関数
     path: /math/functions/logarithmic/standard.html
 levels:
-  - level: introduction
+  - level: 入門
     path: introduction.html
-  - level: standard
-  - level: professional
+  - level: 標準
+  - level: 専門
     path: professional.html
-level: standard
+level: 標準
 requires:
   - title: 指数関数
     path: /math/functions/exponential/introduction
 ---
+
 
 
 

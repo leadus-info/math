@@ -10,18 +10,19 @@ hierarchy:
   - title: 確率
     path: /math/statistics/probability/standard.html
 levels:
-  - level: introduction
+  - level: 入門
     path: introduction.html
-  - level: standard
-  - level: professional
+  - level: 標準
+  - level: 専門
     path: professional.html
-level: standard
+level: 標準
 requires:
   - title: 場合の数
     path: /math/statistics/counting/introduction
   - title: 分数
     path: /math/numbers/fractions/introduction
 ---
+
 
 
 

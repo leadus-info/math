@@ -2,7 +2,7 @@
 title: 行列
 description: "数を格子状に並べた構造"
 tags: [math,linear-algebra]
-level: introduction
+level: 入門
 hierarchy:
   - title: 数学
     path: /math/index.html
@@ -11,10 +11,10 @@ hierarchy:
   - title: 行列
     path: /math/linear-algebra/matrices/introduction.html
 levels:
-  - level: introduction
-  - level: standard
+  - level: 入門
+  - level: 標準
     path: standard.html
-  - level: professional
+  - level: 専門
     path: professional.html
 
 requires:
@@ -23,6 +23,7 @@ requires:
   - title: 等号・等式
     path: /math/math-language/equations/introduction
 ---
+
 
 
 数を格子状に並べたものが行列です。

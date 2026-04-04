@@ -2,7 +2,7 @@
 title: 分数
 description: "割り切れないときに使う数"
 tags: [math,numbers,fractions]
-level: introduction
+level: 入門
 hierarchy:
   - title: 数学
     path: /math/index.html
@@ -11,13 +11,14 @@ hierarchy:
   - title: 分数
     path: /math/numbers/fractions/introduction.html
 levels:
-  - level: introduction
-  - level: standard
+  - level: 入門
+  - level: 標準
     path: standard.html
-  - level: professional
+  - level: 専門
     path: professional.html
 
 ---
+
 
 
 ピザを3人で等しく分けたとき、1人分はいくつでしょう？

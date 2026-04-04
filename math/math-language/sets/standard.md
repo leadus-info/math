@@ -10,16 +10,17 @@ hierarchy:
   - title: 集合
     path: /math/math-language/sets/standard.html
 levels:
-  - level: introduction
+  - level: 入門
     path: introduction.html
-  - level: standard
-  - level: professional
+  - level: 標準
+  - level: 専門
     path: professional.html
-level: standard
+level: 標準
 requires:
   - title: 自然数
     path: /math/numbers/natural-numbers/introduction
 ---
+
 
 
 

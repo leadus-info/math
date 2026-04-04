@@ -2,7 +2,7 @@
 title: 複素数
 description: "実数では解けない方程式から生まれた数"
 tags: [math,numbers,complex-numbers]
-level: introduction
+level: 入門
 hierarchy:
   - title: 数学
     path: /math/index.html
@@ -11,10 +11,10 @@ hierarchy:
   - title: 複素数
     path: /math/numbers/complex-numbers/introduction.html
 levels:
-  - level: introduction
-  - level: standard
+  - level: 入門
+  - level: 標準
     path: standard.html
-  - level: professional
+  - level: 専門
     path: professional.html
 
 requires:
@@ -23,6 +23,7 @@ requires:
   - title: 乗法・べき乗
     path: /math/numbers/arithmetic/introduction
 ---
+
 
 
 「2乗したらマイナス1になる数は？」

@@ -2,7 +2,7 @@
 title: 積分
 description: "細かく分けて足し合わせる操作"
 tags: [math,functions,calculus]
-level: introduction
+level: 入門
 hierarchy:
   - title: 数学
     path: /math/index.html
@@ -11,10 +11,10 @@ hierarchy:
   - title: 積分
     path: /math/functions/integrals/introduction.html
 levels:
-  - level: introduction
-  - level: standard
+  - level: 入門
+  - level: 標準
     path: standard.html
-  - level: professional
+  - level: 専門
     path: professional.html
 
 requires:
@@ -23,6 +23,7 @@ requires:
   - title: 極限
     path: /math/functions/limits/introduction
 ---
+
 
 
 曲線で囲まれた図形の面積を定規だけで測るのは難しい。

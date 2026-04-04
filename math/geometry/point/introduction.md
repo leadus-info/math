@@ -2,7 +2,7 @@
 title: 点
 description: "場所を表す最も基本的な要素"
 tags: [math,geometry]
-level: introduction
+level: 入門
 hierarchy:
   - title: 数学
     path: /math/index.html
@@ -11,13 +11,14 @@ hierarchy:
   - title: 点
     path: /math/geometry/point/introduction.html
 levels:
-  - level: introduction
-  - level: standard
+  - level: 入門
+  - level: 標準
     path: standard.html
-  - level: professional
+  - level: 専門
     path: professional.html
 
 ---
+
 
 
 「ここ」という場所——大きさを持たず、位置だけを持つものが点です。

@@ -10,18 +10,19 @@ hierarchy:
   - title: 直線
     path: /math/geometry/line/standard.html
 levels:
-  - level: introduction
+  - level: 入門
     path: introduction.html
-  - level: standard
-  - level: professional
+  - level: 標準
+  - level: 専門
     path: professional.html
-level: standard
+level: 標準
 requires:
   - title: 点
     path: /math/geometry/point/introduction
   - title: 一次関数
     path: /math/functions/linear/introduction
 ---
+
 
 
 

@@ -2,7 +2,7 @@
 title: 直線
 description: "2点を結んで両方向に伸ばした線"
 tags: [math,geometry]
-level: introduction
+level: 入門
 hierarchy:
   - title: 数学
     path: /math/index.html
@@ -11,10 +11,10 @@ hierarchy:
   - title: 直線
     path: /math/geometry/line/introduction.html
 levels:
-  - level: introduction
-  - level: standard
+  - level: 入門
+  - level: 標準
     path: standard.html
-  - level: professional
+  - level: 専門
     path: professional.html
 
 requires:
@@ -23,6 +23,7 @@ requires:
   - title: 一次関数
     path: /math/functions/linear/introduction
 ---
+
 
 
 2点を結んで、両方向に限りなく伸ばしたものが直線です。

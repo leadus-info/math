@@ -10,18 +10,19 @@ hierarchy:
   - title: 三角形
     path: /math/geometry/triangle/professional.html
 levels:
-  - level: introduction
+  - level: 入門
     path: introduction.html
-  - level: standard
+  - level: 標準
     path: standard.html
-  - level: professional
-level: professional
+  - level: 専門
+level: 専門
 requires:
   - title: 三角形
     path: /math/geometry/triangle/introduction
   - title: ベクトル
     path: /math/linear-algebra/vectors/introduction
 ---
+
 
 
 

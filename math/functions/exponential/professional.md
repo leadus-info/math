@@ -10,12 +10,12 @@ hierarchy:
   - title: 指数関数
     path: /math/functions/exponential/professional.html
 levels:
-  - level: introduction
+  - level: 入門
     path: introduction.html
-  - level: standard
+  - level: 標準
     path: standard.html
-  - level: professional
-level: professional
+  - level: 専門
+level: 専門
 requires:
   - title: 指数関数
     path: /math/functions/exponential/introduction
@@ -24,6 +24,7 @@ requires:
   - title: 積分
     path: /math/functions/integrals/introduction
 ---
+
 
 
 

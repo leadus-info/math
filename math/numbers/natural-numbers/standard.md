@@ -10,13 +10,14 @@ hierarchy:
   - title: 自然数
     path: /math/numbers/natural-numbers/standard.html
 levels:
-  - level: introduction
+  - level: 入門
     path: introduction.html
-  - level: standard
-  - level: professional
+  - level: 標準
+  - level: 専門
     path: professional.html
-level: standard
+level: 標準
 ---
+
 
 
 自然数は $1, 2, 3, \ldots$ と続く、ものを数えるための数です。

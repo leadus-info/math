@@ -2,7 +2,7 @@
 title: 対数関数
 description: "「何乗すれば？」という問いへの答え"
 tags: [math,functions,logarithmic]
-level: introduction
+level: 入門
 hierarchy:
   - title: 数学
     path: /math/index.html
@@ -11,16 +11,17 @@ hierarchy:
   - title: 対数関数
     path: /math/functions/logarithmic/introduction.html
 levels:
-  - level: introduction
-  - level: standard
+  - level: 入門
+  - level: 標準
     path: standard.html
-  - level: professional
+  - level: 専門
     path: professional.html
 
 requires:
   - title: 指数関数
     path: /math/functions/exponential/introduction
 ---
+
 
 
 「2を何乗すれば8になるか？」

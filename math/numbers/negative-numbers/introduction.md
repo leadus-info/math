@@ -2,7 +2,7 @@
 title: 負数
 description: "0より小さい数"
 tags: [math,numbers,negative-numbers]
-level: introduction
+level: 入門
 hierarchy:
   - title: 数学
     path: /math/index.html
@@ -11,16 +11,17 @@ hierarchy:
   - title: 負数
     path: /math/numbers/negative-numbers/introduction.html
 levels:
-  - level: introduction
-  - level: standard
+  - level: 入門
+  - level: 標準
     path: standard.html
-  - level: professional
+  - level: 専門
     path: professional.html
 
 requires:
   - title: 自然数
     path: /math/numbers/natural-numbers/introduction
 ---
+
 
 
 冬の気温「マイナス5度」、銀行の残高「マイナス1000円（借金）」——

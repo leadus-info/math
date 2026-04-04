@@ -2,7 +2,7 @@
 title: 四角形
 description: "4辺で囲まれた図形の種類と性質"
 tags: [math,geometry]
-level: introduction
+level: 入門
 hierarchy:
   - title: 数学
     path: /math/index.html
@@ -11,16 +11,17 @@ hierarchy:
   - title: 四角形
     path: /math/geometry/quadrilateral/introduction.html
 levels:
-  - level: introduction
-  - level: standard
+  - level: 入門
+  - level: 標準
     path: standard.html
-  - level: professional
+  - level: 専門
     path: professional.html
 
 requires:
   - title: 三角形
     path: /math/geometry/triangle/introduction
 ---
+
 
 
 4本の辺で囲まれた多角形が四角形です。

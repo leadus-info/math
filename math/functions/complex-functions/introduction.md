@@ -2,7 +2,7 @@
 title: 複素関数
 description: "複素数を変数にとる関数"
 tags: [math,functions,calculus]
-level: introduction
+level: 入門
 hierarchy:
   - title: 数学
     path: /math/index.html
@@ -11,10 +11,10 @@ hierarchy:
   - title: 複素関数
     path: /math/functions/complex-functions/introduction.html
 levels:
-  - level: introduction
-  - level: standard
+  - level: 入門
+  - level: 標準
     path: standard.html
-  - level: professional
+  - level: 専門
     path: professional.html
 
 requires:
@@ -23,6 +23,7 @@ requires:
   - title: 微分
     path: /math/functions/derivatives/introduction
 ---
+
 
 
 実数の関数を複素数の世界に拡張したものが複素関数です。

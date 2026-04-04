@@ -10,18 +10,19 @@ hierarchy:
   - title: 微分
     path: /math/functions/derivatives/standard.html
 levels:
-  - level: introduction
+  - level: 入門
     path: introduction.html
-  - level: standard
-  - level: professional
+  - level: 標準
+  - level: 専門
     path: professional.html
-level: standard
+level: 標準
 requires:
   - title: 極限
     path: /math/functions/limits/introduction
   - title: 乗法・べき乗
     path: /math/numbers/arithmetic/introduction
 ---
+
 
 
 

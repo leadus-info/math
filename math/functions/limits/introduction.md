@@ -2,7 +2,7 @@
 title: 極限
 description: "「限りなく近づく」とはどういうことか"
 tags: [math,functions,calculus]
-level: introduction
+level: 入門
 hierarchy:
   - title: 数学
     path: /math/index.html
@@ -11,16 +11,17 @@ hierarchy:
   - title: 極限
     path: /math/functions/limits/introduction.html
 levels:
-  - level: introduction
-  - level: standard
+  - level: 入門
+  - level: 標準
     path: standard.html
-  - level: professional
+  - level: 専門
     path: professional.html
 
 requires:
   - title: 数列
     path: /math/functions/sequences/introduction
 ---
+
 
 
 「10分の1、100分の1、1000分の1……」

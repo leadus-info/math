@@ -10,18 +10,19 @@ hierarchy:
   - title: 極限
     path: /math/functions/limits/standard.html
 levels:
-  - level: introduction
+  - level: 入門
     path: introduction.html
-  - level: standard
-  - level: professional
+  - level: 標準
+  - level: 専門
     path: professional.html
-level: standard
+level: 標準
 requires:
   - title: 乗法・べき乗
     path: /math/numbers/arithmetic/introduction
   - title: 分数
     path: /math/numbers/fractions/introduction
 ---
+
 
 
 

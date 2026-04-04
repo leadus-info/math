@@ -10,12 +10,12 @@ hierarchy:
   - title: 分数
     path: /math/numbers/fractions/professional.html
 levels:
-  - level: introduction
+  - level: 入門
     path: introduction.html
-  - level: standard
+  - level: 標準
     path: standard.html
-  - level: professional
-level: professional
+  - level: 専門
+level: 専門
 requires:
   - title: 分数
     path: /math/numbers/fractions/introduction
@@ -24,6 +24,7 @@ requires:
   - title: 極限（専門）
     path: ../../functions/limits/professional.md
 ---
+
 
 
 

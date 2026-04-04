@@ -2,7 +2,7 @@
 title: 二次関数
 description: "グラフが放物線になる関数"
 tags: [math,functions,quadratic]
-level: introduction
+level: 入門
 hierarchy:
   - title: 数学
     path: /math/index.html
@@ -11,10 +11,10 @@ hierarchy:
   - title: 二次関数
     path: /math/functions/quadratic/introduction.html
 levels:
-  - level: introduction
-  - level: standard
+  - level: 入門
+  - level: 標準
     path: standard.html
-  - level: professional
+  - level: 専門
     path: professional.html
 
 requires:
@@ -23,6 +23,7 @@ requires:
   - title: 代数
     path: /math/math-language/algebra/introduction
 ---
+
 
 
 ボールを投げると放物線を描きます。

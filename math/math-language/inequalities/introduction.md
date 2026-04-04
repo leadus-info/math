@@ -2,7 +2,7 @@
 title: 不等号・不等式
 description: "大小関係を記号で表す"
 tags: [math,math-language,inequalities]
-level: introduction
+level: 入門
 hierarchy:
   - title: 数学
     path: /math/index.html
@@ -11,10 +11,10 @@ hierarchy:
   - title: 不等号・不等式
     path: /math/math-language/inequalities/introduction.html
 levels:
-  - level: introduction
-  - level: standard
+  - level: 入門
+  - level: 標準
     path: standard.html
-  - level: professional
+  - level: 専門
     path: professional.html
 
 requires:
@@ -23,6 +23,7 @@ requires:
   - title: 負数
     path: /math/numbers/negative-numbers/introduction
 ---
+
 
 
 「aはbより大きい」——この大小関係を記号で表すのが不等号です。

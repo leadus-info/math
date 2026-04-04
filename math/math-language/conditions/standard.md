@@ -10,18 +10,19 @@ hierarchy:
   - title: 必要・十分条件
     path: /math/math-language/conditions/standard.html
 levels:
-  - level: introduction
+  - level: 入門
     path: introduction.html
-  - level: standard
-  - level: professional
+  - level: 標準
+  - level: 専門
     path: professional.html
-level: standard
+level: 標準
 requires:
   - title: 等号・等式
     path: /math/math-language/equations/introduction
   - title: 不等号・不等式
     path: /math/math-language/inequalities/introduction
 ---
+
 
 
 

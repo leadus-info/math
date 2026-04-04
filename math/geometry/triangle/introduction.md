@@ -2,7 +2,7 @@
 title: 三角形
 description: "3本の辺で囲まれた最も基本的な多角形"
 tags: [math,geometry]
-level: introduction
+level: 入門
 hierarchy:
   - title: 数学
     path: /math/index.html
@@ -11,10 +11,10 @@ hierarchy:
   - title: 三角形
     path: /math/geometry/triangle/introduction.html
 levels:
-  - level: introduction
-  - level: standard
+  - level: 入門
+  - level: 標準
     path: standard.html
-  - level: professional
+  - level: 専門
     path: professional.html
 
 requires:
@@ -23,6 +23,7 @@ requires:
   - title: 三角関数
     path: /math/functions/trigonometric/introduction
 ---
+
 
 
 3本の辺で囲まれた多角形の中で最もシンプルなのが三角形です。

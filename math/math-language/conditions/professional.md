@@ -10,18 +10,19 @@ hierarchy:
   - title: 必要・十分条件
     path: /math/math-language/conditions/professional.html
 levels:
-  - level: introduction
+  - level: 入門
     path: introduction.html
-  - level: standard
+  - level: 標準
     path: standard.html
-  - level: professional
-level: professional
+  - level: 専門
+level: 専門
 requires:
   - title: 必要・十分条件
     path: /math/math-language/conditions/introduction
   - title: 集合（専門）
     path: ../sets/professional.md
 ---
+
 
 
 

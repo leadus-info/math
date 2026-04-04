@@ -2,7 +2,7 @@
 title: 乗法・べき乗
 description: "掛け算を積み重ねるとべき乗になる"
 tags: [math,numbers,arithmetic]
-level: introduction
+level: 入門
 hierarchy:
   - title: 数学
     path: /math/index.html
@@ -11,16 +11,17 @@ hierarchy:
   - title: 乗法・べき乗
     path: /math/numbers/arithmetic/introduction.html
 levels:
-  - level: introduction
-  - level: standard
+  - level: 入門
+  - level: 標準
     path: standard.html
-  - level: professional
+  - level: 専門
     path: professional.html
 
 requires:
   - title: 自然数
     path: /math/numbers/natural-numbers/introduction
 ---
+
 
 
 「2の10乗はいくつ？」

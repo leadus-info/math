@@ -2,7 +2,7 @@
 title: 集合
 description: "ものの集まりを数学で扱う"
 tags: [math,math-language,sets]
-level: introduction
+level: 入門
 hierarchy:
   - title: 数学
     path: /math/index.html
@@ -11,10 +11,10 @@ hierarchy:
   - title: 集合
     path: /math/math-language/sets/introduction.html
 levels:
-  - level: introduction
-  - level: standard
+  - level: 入門
+  - level: 標準
     path: standard.html
-  - level: professional
+  - level: 専門
     path: professional.html
 
 requires:
@@ -23,6 +23,7 @@ requires:
   - title: 必要・十分条件
     path: /math/math-language/conditions/introduction
 ---
+
 
 
 「クラスの生徒全員」「10以下の偶数」——

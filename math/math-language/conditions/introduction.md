@@ -2,7 +2,7 @@
 title: 必要・十分条件
 description: "「ならば」の向きを整理する"
 tags: [math,math-language,conditions]
-level: introduction
+level: 入門
 hierarchy:
   - title: 数学
     path: /math/index.html
@@ -11,16 +11,17 @@ hierarchy:
   - title: 必要・十分条件
     path: /math/math-language/conditions/introduction.html
 levels:
-  - level: introduction
-  - level: standard
+  - level: 入門
+  - level: 標準
     path: standard.html
-  - level: professional
+  - level: 専門
     path: professional.html
 
 requires:
   - title: 等号・等式
     path: /math/math-language/equations/introduction
 ---
+
 
 
 「もし雨が降るなら、地面が濡れる」——

@@ -2,7 +2,7 @@
 title: 三角関数
 description: "角度と波をつなぐ関数"
 tags: [math,functions,trigonometric]
-level: introduction
+level: 入門
 hierarchy:
   - title: 数学
     path: /math/index.html
@@ -11,16 +11,17 @@ hierarchy:
   - title: 三角関数
     path: /math/functions/trigonometric/introduction.html
 levels:
-  - level: introduction
-  - level: standard
+  - level: 入門
+  - level: 標準
     path: standard.html
-  - level: professional
+  - level: 専門
     path: professional.html
 
 requires:
   - title: 円
     path: /math/geometry/circle/introduction
 ---
+
 
 
 波・振動・回転——

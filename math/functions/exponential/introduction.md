@@ -2,7 +2,7 @@
 title: 指数関数
 description: "倍々で増える変化を表す関数"
 tags: [math,functions,exponential]
-level: introduction
+level: 入門
 hierarchy:
   - title: 数学
     path: /math/index.html
@@ -11,16 +11,17 @@ hierarchy:
   - title: 指数関数
     path: /math/functions/exponential/introduction.html
 levels:
-  - level: introduction
-  - level: standard
+  - level: 入門
+  - level: 標準
     path: standard.html
-  - level: professional
+  - level: 専門
     path: professional.html
 
 requires:
   - title: 乗法・べき乗
     path: /math/numbers/arithmetic/introduction
 ---
+
 
 
 「毎日2倍になる菌がいる。今日1匹なら、10日後は何匹？」

@@ -2,7 +2,7 @@
 title: ベクトル
 description: "大きさと向きを持つ量"
 tags: [math,linear-algebra]
-level: introduction
+level: 入門
 hierarchy:
   - title: 数学
     path: /math/index.html
@@ -11,16 +11,17 @@ hierarchy:
   - title: ベクトル
     path: /math/linear-algebra/vectors/introduction.html
 levels:
-  - level: introduction
-  - level: standard
+  - level: 入門
+  - level: 標準
     path: standard.html
-  - level: professional
+  - level: 専門
     path: professional.html
 
 requires:
   - title: 点
     path: /math/geometry/point/introduction
 ---
+
 
 
 「北へ5km」——距離（大きさ）と方向（向き）の両方が必要です。

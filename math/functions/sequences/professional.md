@@ -10,12 +10,12 @@ hierarchy:
   - title: 数列
     path: /math/functions/sequences/professional.html
 levels:
-  - level: introduction
+  - level: 入門
     path: introduction.html
-  - level: standard
+  - level: 標準
     path: standard.html
-  - level: professional
-level: professional
+  - level: 専門
+level: 専門
 requires:
   - title: 数列
     path: /math/functions/sequences/introduction
@@ -24,6 +24,7 @@ requires:
   - title: 微分
     path: /math/functions/derivatives/introduction
 ---
+
 
 
 

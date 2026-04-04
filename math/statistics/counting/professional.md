@@ -10,12 +10,12 @@ hierarchy:
   - title: 場合の数
     path: /math/statistics/counting/professional.html
 levels:
-  - level: introduction
+  - level: 入門
     path: introduction.html
-  - level: standard
+  - level: 標準
     path: standard.html
-  - level: professional
-level: professional
+  - level: 専門
+level: 専門
 requires:
   - title: 場合の数
     path: /math/statistics/counting/introduction
@@ -24,6 +24,7 @@ requires:
   - title: 集合（専門）
     path: ../../math-language/sets/professional.md
 ---
+
 
 
 

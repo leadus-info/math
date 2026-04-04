@@ -2,7 +2,7 @@
 title: 多項式
 description: "べき乗の和で表される関数"
 tags: [math,functions,polynomials]
-level: introduction
+level: 入門
 hierarchy:
   - title: 数学
     path: /math/index.html
@@ -11,10 +11,10 @@ hierarchy:
   - title: 多項式
     path: /math/functions/polynomials/introduction.html
 levels:
-  - level: introduction
-  - level: standard
+  - level: 入門
+  - level: 標準
     path: standard.html
-  - level: professional
+  - level: 専門
     path: professional.html
 
 requires:
@@ -23,6 +23,7 @@ requires:
   - title: 代数
     path: /math/math-language/algebra/introduction
 ---
+
 
 
 xの2乗、xの3乗……べき乗の足し合わせで書ける式を多項式といいます。

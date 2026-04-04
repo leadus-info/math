@@ -10,18 +10,19 @@ hierarchy:
   - title: 場合の数
     path: /math/statistics/counting/standard.html
 levels:
-  - level: introduction
+  - level: 入門
     path: introduction.html
-  - level: standard
-  - level: professional
+  - level: 標準
+  - level: 専門
     path: professional.html
-level: standard
+level: 標準
 requires:
   - title: 自然数
     path: /math/numbers/natural-numbers/introduction
   - title: 四則演算
     path: professional.md
 ---
+
 
 
 

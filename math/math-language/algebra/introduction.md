@@ -2,7 +2,7 @@
 title: 代数
 description: "文字を使って一般的な関係を表す"
 tags: [math,math-language,algebra]
-level: introduction
+level: 入門
 hierarchy:
   - title: 数学
     path: /math/index.html
@@ -11,10 +11,10 @@ hierarchy:
   - title: 代数
     path: /math/math-language/algebra/introduction.html
 levels:
-  - level: introduction
-  - level: standard
+  - level: 入門
+  - level: 標準
     path: standard.html
-  - level: professional
+  - level: 専門
     path: professional.html
 
 requires:
@@ -23,6 +23,7 @@ requires:
   - title: 等号・等式
     path: /math/math-language/equations/introduction
 ---
+
 
 
 「どんな数でも……」という一般的な関係を表すとき、具体的な数の代わりに文字を使います。

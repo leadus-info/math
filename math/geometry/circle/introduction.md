@@ -2,7 +2,7 @@
 title: 円
 description: "中心から等距離にある点の集まり"
 tags: [math,geometry]
-level: introduction
+level: 入門
 hierarchy:
   - title: 数学
     path: /math/index.html
@@ -11,16 +11,17 @@ hierarchy:
   - title: 円
     path: /math/geometry/circle/introduction.html
 levels:
-  - level: introduction
-  - level: standard
+  - level: 入門
+  - level: 標準
     path: standard.html
-  - level: professional
+  - level: 専門
     path: professional.html
 
 requires:
   - title: 点
     path: /math/geometry/point/introduction
 ---
+
 
 
 1点から同じ距離にある点をすべて集めた図形が円です。

@@ -10,18 +10,19 @@ hierarchy:
   - title: 三角関数
     path: /math/functions/trigonometric/standard.html
 levels:
-  - level: introduction
+  - level: 入門
     path: introduction.html
-  - level: standard
-  - level: professional
+  - level: 標準
+  - level: 専門
     path: professional.html
-level: standard
+level: 標準
 requires:
   - title: 円
     path: /math/geometry/circle/introduction
   - title: 分数
     path: /math/numbers/fractions/introduction
 ---
+
 
 
 

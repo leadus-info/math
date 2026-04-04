@@ -10,12 +10,12 @@ hierarchy:
   - title: 三角関数
     path: /math/functions/trigonometric/professional.html
 levels:
-  - level: introduction
+  - level: 入門
     path: introduction.html
-  - level: standard
+  - level: 標準
     path: standard.html
-  - level: professional
-level: professional
+  - level: 専門
+level: 専門
 requires:
   - title: 三角関数
     path: /math/functions/trigonometric/introduction
@@ -24,6 +24,7 @@ requires:
   - title: 複素関数
     path: /math/functions/complex-functions/introduction
 ---
+
 
 
 

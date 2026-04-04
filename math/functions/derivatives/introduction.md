@@ -2,7 +2,7 @@
 title: 微分
 description: "瞬間の変化率を求める操作"
 tags: [math,functions,calculus]
-level: introduction
+level: 入門
 hierarchy:
   - title: 数学
     path: /math/index.html
@@ -11,16 +11,17 @@ hierarchy:
   - title: 微分
     path: /math/functions/derivatives/introduction.html
 levels:
-  - level: introduction
-  - level: standard
+  - level: 入門
+  - level: 標準
     path: standard.html
-  - level: professional
+  - level: 専門
     path: professional.html
 
 requires:
   - title: 極限
     path: /math/functions/limits/introduction
 ---
+
 
 
 車のスピードメーターは「今この瞬間の速さ」を表しています。

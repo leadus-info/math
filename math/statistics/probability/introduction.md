@@ -2,7 +2,7 @@
 title: 確率
 description: "起こりやすさを数値で表す"
 tags: [math,statistics]
-level: introduction
+level: 入門
 hierarchy:
   - title: 数学
     path: /math/index.html
@@ -11,10 +11,10 @@ hierarchy:
   - title: 確率
     path: /math/statistics/probability/introduction.html
 levels:
-  - level: introduction
-  - level: standard
+  - level: 入門
+  - level: 標準
     path: standard.html
-  - level: professional
+  - level: 専門
     path: professional.html
 
 requires:
@@ -23,6 +23,7 @@ requires:
   - title: 分数
     path: /math/numbers/fractions/introduction
 ---
+
 
 
 コインを投げると表か裏が出ます。

@@ -2,7 +2,7 @@
 title: 小数
 description: "分数を10進法で表す"
 tags: [math,numbers,decimals]
-level: introduction
+level: 入門
 hierarchy:
   - title: 数学
     path: /math/index.html
@@ -11,16 +11,17 @@ hierarchy:
   - title: 小数
     path: /math/numbers/decimals/introduction.html
 levels:
-  - level: introduction
-  - level: standard
+  - level: 入門
+  - level: 標準
     path: standard.html
-  - level: professional
+  - level: 専門
     path: professional.html
 
 requires:
   - title: 分数
     path: /math/numbers/fractions/introduction
 ---
+
 
 
 0.5、3.14、0.333……

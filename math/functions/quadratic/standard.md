@@ -10,18 +10,19 @@ hierarchy:
   - title: 二次関数
     path: /math/functions/quadratic/standard.html
 levels:
-  - level: introduction
+  - level: 入門
     path: introduction.html
-  - level: standard
-  - level: professional
+  - level: 標準
+  - level: 専門
     path: professional.html
-level: standard
+level: 標準
 requires:
   - title: 一次関数
     path: /math/functions/linear/introduction
   - title: 代数
     path: /math/math-language/algebra/introduction
 ---
+
 
 
 

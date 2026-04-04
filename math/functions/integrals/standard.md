@@ -10,18 +10,19 @@ hierarchy:
   - title: 積分
     path: /math/functions/integrals/standard.html
 levels:
-  - level: introduction
+  - level: 入門
     path: introduction.html
-  - level: standard
-  - level: professional
+  - level: 標準
+  - level: 専門
     path: professional.html
-level: standard
+level: 標準
 requires:
   - title: 微分
     path: /math/functions/derivatives/introduction
   - title: 極限
     path: /math/functions/limits/introduction
 ---
+
 
 
 

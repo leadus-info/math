@@ -2,7 +2,7 @@
 title: 自然数
 description: "ものを数えるときに使う最も基本的な数"
 tags: [math,numbers,natural-numbers]
-level: introduction
+level: 入門
 hierarchy:
   - title: 数学
     path: /math/index.html
@@ -11,13 +11,14 @@ hierarchy:
   - title: 自然数
     path: /math/numbers/natural-numbers/introduction.html
 levels:
-  - level: introduction
-  - level: standard
+  - level: 入門
+  - level: 標準
     path: standard.html
-  - level: professional
+  - level: 専門
     path: professional.html
 
 ---
+
 
 
 「いち、に、さん……」とものを数えるときに使う数が自然数です。

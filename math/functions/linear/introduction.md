@@ -2,7 +2,7 @@
 title: 一次関数
 description: "グラフが直線になる関数"
 tags: [math,functions,linear]
-level: introduction
+level: 入門
 hierarchy:
   - title: 数学
     path: /math/index.html
@@ -11,10 +11,10 @@ hierarchy:
   - title: 一次関数
     path: /math/functions/linear/introduction.html
 levels:
-  - level: introduction
-  - level: standard
+  - level: 入門
+  - level: 標準
     path: standard.html
-  - level: professional
+  - level: 専門
     path: professional.html
 
 requires:
@@ -23,6 +23,7 @@ requires:
   - title: 乗法・べき乗
     path: /math/numbers/arithmetic/introduction
 ---
+
 
 
 タクシーに乗ると「初乗り500円、以後1kmごとに100円」。

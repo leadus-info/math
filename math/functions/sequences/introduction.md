@@ -2,7 +2,7 @@
 title: 数列
 description: "規則正しく並んだ数の列"
 tags: [math,functions,sequences]
-level: introduction
+level: 入門
 hierarchy:
   - title: 数学
     path: /math/index.html
@@ -11,16 +11,17 @@ hierarchy:
   - title: 数列
     path: /math/functions/sequences/introduction.html
 levels:
-  - level: introduction
-  - level: standard
+  - level: 入門
+  - level: 標準
     path: standard.html
-  - level: professional
+  - level: 専門
     path: professional.html
 
 requires:
   - title: 自然数
     path: /math/numbers/natural-numbers/introduction
 ---
+
 
 
 1, 3, 5, 7, 9……
