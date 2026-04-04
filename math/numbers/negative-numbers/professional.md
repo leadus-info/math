@@ -18,14 +18,15 @@ levels:
 level: professional
 requires:
   - title: 負数
-    url: \1/introduction.md
+    url: /math/numbers/negative-numbers/introduction
   - title: 自然数（専門）
     url: ../natural-numbers/professional.md
   - title: 集合
-    url: \1/introduction.md
+    url: /math/math-language/sets/introduction
 ---
 
 
+> この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。
 
 整数の代数的構造（整域・単項イデアル整域）について扱います。
 

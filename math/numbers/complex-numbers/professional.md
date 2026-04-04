@@ -18,7 +18,7 @@ levels:
 level: professional
 requires:
   - title: 複素数
-    url: \1/introduction.md
+    url: /math/numbers/complex-numbers/introduction
   - title: 行列（専門）
     url: ../../linear-algebra/matrices/professional.md
   - title: 四則演算（専門）
@@ -26,6 +26,7 @@ requires:
 ---
 
 
+> この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。
 
 代数的閉包性・四元数・クリフォード代数を扱います。
 

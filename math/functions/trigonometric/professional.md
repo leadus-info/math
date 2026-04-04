@@ -18,15 +18,15 @@ levels:
 level: professional
 requires:
   - title: 三角関数
-    url: \1/introduction.md
+    url: /math/functions/trigonometric/introduction
   - title: 積分（専門）
     url: ../../integrals/professional.md
   - title: 複素関数
-    url: \1/introduction.md
+    url: /math/functions/complex-functions/introduction
 ---
 
 
-
+> この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。
 
 フーリエ解析・変換・球面調和関数を扱います。
 

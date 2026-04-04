@@ -18,12 +18,13 @@ levels:
 level: standard
 requires:
   - title: 自然数
-    url: professional.md
+    url: /math/numbers/natural-numbers/introduction
   - title: 負数
-    url: professional.md
+    url: /math/numbers/negative-numbers/introduction
 ---
 
 
+> この記事は [入門](introduction.md) の続きです。先に入門を読むことを推奨します。
 
 1 個のケーキを 3 人で等しく分けると、1 人の分は「3 分の 1」です。  
 [自然数](professional.md)の章で見たように、「5 割る 2」は自然数の中では答えが出ません。  

@@ -18,12 +18,13 @@ levels:
 level: standard
 requires:
   - title: 点
-    url: professional.md
+    url: /math/geometry/point/introduction
   - title: 一次関数
-    url: professional.md
+    url: /math/functions/linear/introduction
 ---
 
 
+> この記事は [入門](introduction.md) の続きです。先に入門を読むことを推奨します。
 
 2 点を結んで両方向に無限に延ばしたものが**直線**です。
 

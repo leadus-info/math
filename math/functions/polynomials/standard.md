@@ -18,14 +18,15 @@ levels:
 level: standard
 requires:
   - title: 二次関数
-    url: professional.md
+    url: /math/functions/quadratic/introduction
   - title: 代数
-    url: professional.md
+    url: /math/math-language/algebra/introduction
   - title: 微分
-    url: professional.md
+    url: /math/functions/derivatives/introduction
 ---
 
 
+> この記事は [入門](introduction.md) の続きです。先に入門を読むことを推奨します。
 
 $x^2 + 3x - 2$ のように $x$ のべき乗の和で書ける関数が**多項式**です。
 一次関数・二次関数を一般化したものです。

@@ -22,10 +22,11 @@ requires:
   - title: 数列（専門）
     url: ../../functions/sequences/professional.md
   - title: 集合
-    url: \1/introduction.md
+    url: /math/math-language/sets/introduction
 ---
 
 
+> この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。
 
 実数の厳密な構成と完備性について扱います。  
 基礎は[小数（入門）](introduction.md)を参照してください。

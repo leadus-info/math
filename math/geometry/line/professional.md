@@ -18,14 +18,15 @@ levels:
 level: professional
 requires:
   - title: 直線
-    url: \1/introduction.md
+    url: /math/geometry/line/introduction
   - title: ベクトル
-    url: \1/introduction.md
+    url: /math/linear-algebra/vectors/introduction
   - title: 集合
-    url: \1/introduction.md
+    url: /math/math-language/sets/introduction
 ---
 
 
+> この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。
 
 射影幾何学・デザルグの定理・双対性を扱います。
 

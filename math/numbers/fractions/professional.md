@@ -18,14 +18,15 @@ levels:
 level: professional
 requires:
   - title: 分数
-    url: \1/introduction.md
+    url: /math/numbers/fractions/introduction
   - title: 集合
-    url: \1/introduction.md
+    url: /math/math-language/sets/introduction
   - title: 極限（専門）
     url: ../../functions/limits/professional.md
 ---
 
 
+> この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。
 
 有理数の代数的構造・稠密性・実数との距離について扱います。  
 基礎は[分数（入門）](introduction.md)を参照してください。

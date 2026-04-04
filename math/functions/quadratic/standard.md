@@ -18,12 +18,13 @@ levels:
 level: standard
 requires:
   - title: 一次関数
-    url: professional.md
+    url: /math/functions/linear/introduction
   - title: 代数
-    url: professional.md
+    url: /math/math-language/algebra/introduction
 ---
 
 
+> この記事は [入門](introduction.md) の続きです。先に入門を読むことを推奨します。
 
 $x^2$ を含む関数で、グラフは**放物線**になります。
 ボールの軌跡や橋のアーチがこの形です。

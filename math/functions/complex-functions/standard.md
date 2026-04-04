@@ -18,14 +18,15 @@ levels:
 level: standard
 requires:
   - title: 複素数
-    url: professional.md
+    url: /math/numbers/complex-numbers/introduction
   - title: 微分
-    url: professional.md
+    url: /math/functions/derivatives/introduction
   - title: 積分
-    url: professional.md
+    url: /math/functions/integrals/introduction
 ---
 
 
+> この記事は [入門](introduction.md) の続きです。先に入門を読むことを推奨します。
 
 複素数を変数にとる関数が**複素関数**です。
 「複素数で微分できる」という条件が、実数のときより強い制約を生みます。

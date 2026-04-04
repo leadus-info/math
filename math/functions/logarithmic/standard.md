@@ -18,10 +18,11 @@ levels:
 level: standard
 requires:
   - title: 指数関数
-    url: professional.md
+    url: /math/functions/exponential/introduction
 ---
 
 
+> この記事は [入門](introduction.md) の続きです。先に入門を読むことを推奨します。
 
 「2 を何乗すれば 8 になるか？」——この問いの答えが**対数**です。
 指数関数の逆の操作です。

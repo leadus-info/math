@@ -18,7 +18,7 @@ levels:
 level: professional
 requires:
   - title: 場合の数
-    url: \1/introduction.md
+    url: /math/statistics/counting/introduction
   - title: 数列（専門）
     url: ../../functions/sequences/professional.md
   - title: 集合（専門）
@@ -26,6 +26,7 @@ requires:
 ---
 
 
+> この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。
 
 母関数・包除原理・ラムゼー理論を扱います。
 

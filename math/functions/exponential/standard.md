@@ -20,10 +20,11 @@ requires:
   - title: 四則演算
     url: professional.md
   - title: 一次関数
-    url: professional.md
+    url: /math/functions/linear/introduction
 ---
 
 
+> この記事は [入門](introduction.md) の続きです。先に入門を読むことを推奨します。
 
 1、2、4、8、16……倍々で増えていく変化を表す関数です。
 

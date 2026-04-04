@@ -18,12 +18,13 @@ levels:
 level: professional
 requires:
   - title: 多角形
-    url: \1/introduction.md
+    url: /math/geometry/polygon/introduction
   - title: 集合
-    url: \1/introduction.md
+    url: /math/math-language/sets/introduction
 ---
 
 
+> この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。
 
 多面体・オイラー標数・タイリング理論を扱います。
 

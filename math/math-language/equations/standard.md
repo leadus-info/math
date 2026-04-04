@@ -18,10 +18,11 @@ levels:
 level: standard
 requires:
   - title: 乗法・べき乗
-    url: professional.md
+    url: /math/numbers/arithmetic/introduction
 ---
 
 
+> この記事は [入門](introduction.md) の続きです。先に入門を読むことを推奨します。
 
 「左と右が同じ量である」ことを $=$ という記号で表します。
 これが**等号**、$=$ を含む式が**等式**です。

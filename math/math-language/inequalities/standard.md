@@ -18,12 +18,13 @@ levels:
 level: standard
 requires:
   - title: 等号・等式
-    url: professional.md
+    url: /math/math-language/equations/introduction
   - title: 負数
-    url: professional.md
+    url: /math/numbers/negative-numbers/introduction
 ---
 
 
+> この記事は [入門](introduction.md) の続きです。先に入門を読むことを推奨します。
 
 「$a$ は $b$ より大きい」——この大小関係を表す記号が**不等号**です。
 

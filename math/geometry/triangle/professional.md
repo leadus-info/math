@@ -18,12 +18,13 @@ levels:
 level: professional
 requires:
   - title: 三角形
-    url: \1/introduction.md
+    url: /math/geometry/triangle/introduction
   - title: ベクトル
-    url: \1/introduction.md
+    url: /math/linear-algebra/vectors/introduction
 ---
 
 
+> この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。
 
 重心座標・メネラウスの定理・チェバの定理・双曲幾何を扱います。
 

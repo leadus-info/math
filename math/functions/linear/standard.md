@@ -20,10 +20,11 @@ requires:
   - title: 四則演算
     url: professional.md
   - title: 等号・等式
-    url: professional.md
+    url: /math/math-language/equations/introduction
 ---
 
 
+> この記事は [入門](introduction.md) の続きです。先に入門を読むことを推奨します。
 
 $x$ が 1 増えるたびに $y$ が一定量だけ変化する——それが**一次関数**です。
 グラフは必ず直線になります。

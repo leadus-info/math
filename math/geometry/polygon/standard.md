@@ -18,14 +18,15 @@ levels:
 level: standard
 requires:
   - title: 三角形
-    url: professional.md
+    url: /math/geometry/triangle/introduction
   - title: 四角形
-    url: professional.md
+    url: /math/geometry/quadrilateral/introduction
   - title: 三角関数
-    url: professional.md
+    url: /math/functions/trigonometric/introduction
 ---
 
 
+> この記事は [入門](introduction.md) の続きです。先に入門を読むことを推奨します。
 
 3 辺以上の直線で囲まれた図形が**多角形**です。
 

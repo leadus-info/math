@@ -18,7 +18,7 @@ levels:
 level: professional
 requires:
   - title: 極限
-    url: \1/introduction.md
+    url: /math/functions/limits/introduction
   - title: 集合（専門）
     url: ../../../math-language/sets/professional.md
   - title: 小数（専門）
@@ -26,7 +26,7 @@ requires:
 ---
 
 
-
+> この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。
 
 $\varepsilon$-$\delta$ 論法・一様収束・位相的な極限の定式化を扱います。
 

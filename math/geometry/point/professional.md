@@ -18,7 +18,7 @@ levels:
 level: professional
 requires:
   - title: 点
-    url: \1/introduction.md
+    url: /math/geometry/point/introduction
   - title: 集合（専門）
     url: ../../math-language/sets/professional.md
   - title: 極限（専門）
@@ -26,6 +26,7 @@ requires:
 ---
 
 
+> この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。
 
 距離空間・位相空間・多様体を扱います。
 

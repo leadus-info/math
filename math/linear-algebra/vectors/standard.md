@@ -18,27 +18,21 @@ levels:
 level: standard
 requires:
   - title: 点
-    url: professional.md
+    url: /math/geometry/point/introduction
   - title: 三角関数
-    url: professional.md
+    url: /math/functions/trigonometric/introduction
 ---
 
 
+大きさと向きの両方を持つ量がベクトルです。
 
-風の強さと向き、力の大きさと方向——「大きさ」と「向き」の両方を持つ量を**ベクトル**といいます。
+## ベクトルの定義
 
-## このページで扱うこと
-- ベクトルの書き方と基本演算
-- 大きさ（ノルム）と単位ベクトル
-- 内積と角度・直交
+$n$ 次元のベクトルは実数を $n$ 個並べた組で表します。
 
----
+$$\boldsymbol{a} = (a_1, a_2, \ldots, a_n) \in \mathbb{R}^n$$
 
-## ベクトルとは
-
-矢印で表します。長さが「大きさ」、矢の向きが「方向」です。
-
-2 次元：$\boldsymbol{a} = (a_1, a_2)$
+2次元の例：$\boldsymbol{a} = (3, 4)$（右に3、上に4という移動を表す）
 
 ---
 
@@ -48,30 +42,55 @@ requires:
 
 $$\boldsymbol{a} + \boldsymbol{b} = (a_1 + b_1,\ a_2 + b_2)$$
 
-**スカラー倍**：全成分に掛けます。
+**スカラー倍**：すべての成分に定数を掛けます。
 
 $$c\boldsymbol{a} = (ca_1,\ ca_2)$$
+
+$c > 1$ なら同じ向きで長さが伸び、$c < 0$ なら向きが逆になります。
 
 ---
 
 ## 大きさ（ノルム）
 
-$$\|\boldsymbol{a}\| = \sqrt{a_1^2 + a_2^2}$$
+ベクトルの「長さ」を大きさまたは**ノルム**といいます。
 
-大きさが 1 の**単位ベクトル**：$\hat{\boldsymbol{a}} = \dfrac{\boldsymbol{a}}{\|\boldsymbol{a}\|}$
+$$\|\boldsymbol{a}\| = \sqrt{a_1^2 + a_2^2 + \cdots + a_n^2}$$
+
+例：$\boldsymbol{a} = (3, 4)$ のとき $\|\boldsymbol{a}\| = \sqrt{9 + 16} = 5$
+
+大きさが 1 のベクトルを**単位ベクトル**といい、$\hat{\boldsymbol{a}} = \dfrac{\boldsymbol{a}}{\|\boldsymbol{a}\|}$ で作れます。
 
 ---
 
 ## 内積
 
-$$\boldsymbol{a} \cdot \boldsymbol{b} = a_1 b_1 + a_2 b_2 = \|\boldsymbol{a}\|\|\boldsymbol{b}\|\cos\theta$$
+2つのベクトルの「方向の一致具合」を表す量が**内積**です。
 
-$$\boldsymbol{a} \cdot \boldsymbol{b} = 0 \iff \text{直交（垂直）}$$
+$$\boldsymbol{a} \cdot \boldsymbol{b} = a_1 b_1 + a_2 b_2 + \cdots + a_n b_n$$
+
+幾何学的には
+
+$$\boldsymbol{a} \cdot \boldsymbol{b} = \|\boldsymbol{a}\|\|\boldsymbol{b}\|\cos\theta$$
+
+（$\theta$ は2つのベクトルのなす角）。
+
+**直交条件**：$\boldsymbol{a} \cdot \boldsymbol{b} = 0 \Leftrightarrow \boldsymbol{a} \perp \boldsymbol{b}$
+
+例：$(1, 0) \cdot (0, 1) = 0$（$x$ 軸方向と $y$ 軸方向は直交）
+
+---
+
+## 線形独立
+
+ベクトルの組 $\{\boldsymbol{v}_1, \ldots, \boldsymbol{v}_k\}$ が**線形独立**とは、
+
+$$c_1\boldsymbol{v}_1 + c_2\boldsymbol{v}_2 + \cdots + c_k\boldsymbol{v}_k = \boldsymbol{0} \implies c_1 = c_2 = \cdots = c_k = 0$$
+
+が成り立つことです。「どのベクトルも、他のベクトルの組み合わせでは表せない」という意味です。
 
 ---
 
 ## 関連ページ
 
-- [行列](professional.md)
-- [点](professional.md)
-- [ベクトル（専門）](professional.md)
+- [行列](../matrices/introduction.md) — ベクトルを変換する操作
+- [点](../../geometry/point/introduction.md) — 座標とベクトルの関係

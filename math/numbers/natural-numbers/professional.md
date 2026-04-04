@@ -18,14 +18,15 @@ levels:
 level: professional
 requires:
   - title: 自然数
-    url: \1/introduction.md
+    url: /math/numbers/natural-numbers/introduction
   - title: 必要・十分条件
-    url: \1/introduction.md
+    url: /math/math-language/conditions/introduction
   - title: 集合
-    url: \1/introduction.md
+    url: /math/math-language/sets/introduction
 ---
 
 
+> この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。
 
 このページでは、自然数を公理から厳密に構築し、数論・整除論の基礎を扱います。  
 初等的な自然数の概念は[自然数（入門）](introduction.md)を参照してください。

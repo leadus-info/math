@@ -18,14 +18,15 @@ levels:
 level: professional
 requires:
   - title: 数列
-    url: \1/introduction.md
+    url: /math/functions/sequences/introduction
   - title: 極限（専門）
     url: ../../limits/professional.md
   - title: 微分
-    url: \1/introduction.md
+    url: /math/functions/derivatives/introduction
 ---
 
 
+> この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。
 
 級数の収束判定・べき級数・漸近展開を扱います。
 

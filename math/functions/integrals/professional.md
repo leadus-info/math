@@ -18,7 +18,7 @@ levels:
 level: professional
 requires:
   - title: 積分
-    url: \1/introduction.md
+    url: /math/functions/integrals/introduction
   - title: 微分（専門）
     url: ../derivatives/professional.md
   - title: 集合（専門）
@@ -26,6 +26,7 @@ requires:
 ---
 
 
+> この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。
 
 ルベーグ積分・多重積分・線積分・曲面積分を扱います。
 

@@ -18,14 +18,15 @@ levels:
 level: professional
 requires:
   - title: 乗法・べき乗
-    url: \1/introduction.md
+    url: /math/numbers/arithmetic/introduction
   - title: 集合
-    url: \1/introduction.md
+    url: /math/math-language/sets/introduction
   - title: 負数（専門）
     url: ../../numbers/negative-numbers/professional.md
 ---
 
 
+> この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。
 
 演算を抽象化した代数的構造（群・環・体）を扱います。
 

@@ -18,14 +18,15 @@ levels:
 level: professional
 requires:
   - title: 不等号・不等式
-    url: \1/introduction.md
+    url: /math/math-language/inequalities/introduction
   - title: 微分
-    url: \1/introduction.md
+    url: /math/functions/derivatives/introduction
   - title: 積分
-    url: \1/introduction.md
+    url: /math/functions/integrals/introduction
 ---
 
 
+> この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。
 
 凸関数・イェンセン不等式・最適化理論との接続を扱います。
 

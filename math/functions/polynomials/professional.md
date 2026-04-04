@@ -18,7 +18,7 @@ levels:
 level: professional
 requires:
   - title: 多項式
-    url: \1/introduction.md
+    url: /math/functions/polynomials/introduction
   - title: 代数（専門）
     url: ../../math-language/algebra/professional.md
   - title: 行列（専門）
@@ -26,6 +26,7 @@ requires:
 ---
 
 
+> この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。
 
 多変数多項式・対称多項式・代数幾何の基礎を扱います。
 

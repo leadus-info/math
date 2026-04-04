@@ -18,15 +18,15 @@ levels:
 level: professional
 requires:
   - title: 微分
-    url: \1/introduction.md
+    url: /math/functions/derivatives/introduction
   - title: 行列
-    url: \1/introduction.md
+    url: /math/linear-algebra/matrices/introduction
   - title: ベクトル
-    url: \1/introduction.md
+    url: /math/linear-algebra/vectors/introduction
 ---
 
 
-
+> この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。
 
 多変数微分・フレシェ微分・微分形式を扱います。
 

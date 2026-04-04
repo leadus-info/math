@@ -18,12 +18,13 @@ levels:
 level: standard
 requires:
   - title: 円
-    url: professional.md
+    url: /math/geometry/circle/introduction
   - title: 分数
-    url: professional.md
+    url: /math/numbers/fractions/introduction
 ---
 
 
+> この記事は [入門](introduction.md) の続きです。先に入門を読むことを推奨します。
 
 波・振動・回転——周期的な変化を表す関数です。
 単位円（半径 1 の円）の上を動く点の座標として定義されます。

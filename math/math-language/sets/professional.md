@@ -18,12 +18,13 @@ levels:
 level: professional
 requires:
   - title: 集合
-    url: \1/introduction.md
+    url: /math/math-language/sets/introduction
   - title: 必要・十分条件（専門）
     url: ../conditions/professional.md
 ---
 
 
+> この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。
 
 ZFC公理系・順序数・基数・連続体仮説を扱います。
 

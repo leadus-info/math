@@ -18,12 +18,13 @@ levels:
 level: standard
 requires:
   - title: 自然数
-    url: professional.md
+    url: /math/numbers/natural-numbers/introduction
   - title: 分数
-    url: professional.md
+    url: /math/numbers/fractions/introduction
 ---
 
 
+> この記事は [入門](introduction.md) の続きです。先に入門を読むことを推奨します。
 
 「0.5」や「3.14」——小数点を使って表す数が**小数**です。
 分数と同じ量を、別の書き方で表したものです。

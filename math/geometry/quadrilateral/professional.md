@@ -18,14 +18,15 @@ levels:
 level: professional
 requires:
   - title: 四角形
-    url: \1/introduction.md
+    url: /math/geometry/quadrilateral/introduction
   - title: 円
-    url: \1/introduction.md
+    url: /math/geometry/circle/introduction
   - title: 直線（専門）
     url: ../line/professional.md
 ---
 
 
+> この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。
 
 双対多面体・調和共役・射影的性質を扱います。
 

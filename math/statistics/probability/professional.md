@@ -18,7 +18,7 @@ levels:
 level: professional
 requires:
   - title: 確率
-    url: \1/introduction.md
+    url: /math/statistics/probability/introduction
   - title: 積分（専門）
     url: ../../functions/integrals/professional.md
   - title: 数列（専門）
@@ -26,6 +26,7 @@ requires:
 ---
 
 
+> この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。
 
 測度論的確率論・確率過程・中心極限定理を扱います。
 

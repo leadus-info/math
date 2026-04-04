@@ -18,14 +18,15 @@ levels:
 level: standard
 requires:
   - title: 負数
-    url: professional.md
+    url: /math/numbers/negative-numbers/introduction
   - title: 三角関数
-    url: professional.md
+    url: /math/functions/trigonometric/introduction
   - title: 指数関数
-    url: professional.md
+    url: /math/functions/exponential/introduction
 ---
 
 
+> この記事は [入門](introduction.md) の続きです。先に入門を読むことを推奨します。
 
 $x^2 = -1$ を満たす数は実数の中に存在しません。
 「存在することにしよう」と決めたのが虚数単位 $i$ であり、これを使って表す数が**複素数**です。

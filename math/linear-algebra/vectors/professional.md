@@ -18,7 +18,7 @@ levels:
 level: professional
 requires:
   - title: ベクトル
-    url: \1/introduction.md
+    url: /math/linear-algebra/vectors/introduction
   - title: 極限（専門）
     url: ../../functions/limits/professional.md
   - title: 積分（専門）
@@ -26,6 +26,7 @@ requires:
 ---
 
 
+> この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。
 
 内積空間・ヒルベルト空間・双対空間を扱います。
 

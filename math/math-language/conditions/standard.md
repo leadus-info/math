@@ -18,12 +18,13 @@ levels:
 level: standard
 requires:
   - title: 等号・等式
-    url: professional.md
+    url: /math/math-language/equations/introduction
   - title: 不等号・不等式
-    url: professional.md
+    url: /math/math-language/inequalities/introduction
 ---
 
 
+> この記事は [入門](introduction.md) の続きです。先に入門を読むことを推奨します。
 
 「$P$ ならば $Q$」——この「ならば」の向きと強さを整理するのが必要・十分条件です。
 

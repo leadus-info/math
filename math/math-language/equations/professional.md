@@ -18,14 +18,15 @@ levels:
 level: professional
 requires:
   - title: 等号・等式
-    url: \1/introduction.md
+    url: /math/math-language/equations/introduction
   - title: 多項式（専門）
     url: ../../functions/polynomials/professional.md
   - title: 複素数
-    url: \1/introduction.md
+    url: /math/numbers/complex-numbers/introduction
 ---
 
 
+> この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。
 
 代数方程式の根の理論とガロア理論の入口を扱います。
 

@@ -18,7 +18,7 @@ levels:
 level: professional
 requires:
   - title: 複素関数
-    url: \1/introduction.md
+    url: /math/functions/complex-functions/introduction
   - title: 対数関数（専門）
     url: ../../logarithmic/professional.md
   - title: 点（専門）
@@ -26,7 +26,7 @@ requires:
 ---
 
 
-
+> この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。
 
 リーマン面・解析接続・モジュラー形式を扱います。
 

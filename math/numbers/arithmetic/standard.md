@@ -18,14 +18,15 @@ levels:
 level: standard
 requires:
   - title: 自然数
-    url: professional.md
+    url: /math/numbers/natural-numbers/introduction
   - title: 負数
-    url: professional.md
+    url: /math/numbers/negative-numbers/introduction
   - title: 分数
-    url: professional.md
+    url: /math/numbers/fractions/introduction
 ---
 
 
+> この記事は [入門](introduction.md) の続きです。先に入門を読むことを推奨します。
 
 掛け算は[自然数](professional.md)のページで導入しました。  
 このページでは、掛け算をさらに発展させた**べき乗**と**平方根**を扱います。

@@ -18,12 +18,13 @@ levels:
 level: standard
 requires:
   - title: 乗法・べき乗
-    url: professional.md
+    url: /math/numbers/arithmetic/introduction
   - title: 等号・等式
-    url: professional.md
+    url: /math/math-language/equations/introduction
 ---
 
 
+> この記事は [入門](introduction.md) の続きです。先に入門を読むことを推奨します。
 
 「どんな数でも……」という一般的な関係を表すとき、文字を使います。
 文字を使った式の操作を扱う分野が**代数**です。

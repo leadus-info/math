@@ -18,14 +18,15 @@ levels:
 level: professional
 requires:
   - title: 代数
-    url: \1/introduction.md
+    url: /math/math-language/algebra/introduction
   - title: 四則演算（専門）
     url: ../../numbers/arithmetic/professional.md
   - title: 行列
-    url: \1/introduction.md
+    url: /math/linear-algebra/matrices/introduction
 ---
 
 
+> この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。
 
 多項式環・加群・テンソル積など抽象代数の道具を扱います。
 

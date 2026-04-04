@@ -18,14 +18,15 @@ levels:
 level: standard
 requires:
   - title: 点
-    url: professional.md
+    url: /math/geometry/point/introduction
   - title: 直線
-    url: professional.md
+    url: /math/geometry/line/introduction
   - title: 三角関数
-    url: professional.md
+    url: /math/functions/trigonometric/introduction
 ---
 
 
+> この記事は [入門](introduction.md) の続きです。先に入門を読むことを推奨します。
 
 3 本の直線で囲まれた最もシンプルな多角形が**三角形**です。
 

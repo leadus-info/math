@@ -18,12 +18,13 @@ levels:
 level: professional
 requires:
   - title: 必要・十分条件
-    url: \1/introduction.md
+    url: /math/math-language/conditions/introduction
   - title: 集合（専門）
     url: ../sets/professional.md
 ---
 
 
+> この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。
 
 述語論理・公理系・証明論の基礎を扱います。
 

@@ -20,10 +20,11 @@ requires:
   - title: 四則演算
     url: professional.md
   - title: 負数
-    url: professional.md
+    url: /math/numbers/negative-numbers/introduction
 ---
 
 
+> この記事は [入門](introduction.md) の続きです。先に入門を読むことを推奨します。
 
 「場所」だけを持ち、大きさを持たないものが**点**です。
 座標を使うと、点を数のペア $(x, y)$ として扱えます。

@@ -18,14 +18,15 @@ levels:
 level: professional
 requires:
   - title: 行列
-    url: \1/introduction.md
+    url: /math/linear-algebra/matrices/introduction
   - title: ベクトル（専門）
     url: ../vectors/professional.md
   - title: 複素数
-    url: \1/introduction.md
+    url: /math/numbers/complex-numbers/introduction
 ---
 
 
+> この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。
 
 スペクトル定理・特異値分解・リー代数を扱います。
 

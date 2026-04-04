@@ -18,14 +18,15 @@ levels:
 level: professional
 requires:
   - title: 指数関数
-    url: \1/introduction.md
+    url: /math/functions/exponential/introduction
   - title: 行列
-    url: \1/introduction.md
+    url: /math/linear-algebra/matrices/introduction
   - title: 積分
-    url: \1/introduction.md
+    url: /math/functions/integrals/introduction
 ---
 
 
+> この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。
 
 行列指数関数・指数型分布族・ラプラス変換を扱います。
 

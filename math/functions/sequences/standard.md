@@ -18,12 +18,13 @@ levels:
 level: standard
 requires:
   - title: 自然数
-    url: professional.md
+    url: /math/numbers/natural-numbers/introduction
   - title: 極限
-    url: professional.md
+    url: /math/functions/limits/introduction
 ---
 
 
+> この記事は [入門](introduction.md) の続きです。先に入門を読むことを推奨します。
 
 1、3、5、7、9……のように、規則に従って並んだ数の列が**数列**です。
 

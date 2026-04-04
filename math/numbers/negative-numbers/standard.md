@@ -18,10 +18,11 @@ levels:
 level: standard
 requires:
   - title: 自然数
-    url: professional.md
+    url: /math/numbers/natural-numbers/introduction
 ---
 
 
+> この記事は [入門](introduction.md) の続きです。先に入門を読むことを推奨します。
 
 気温 $-5$ 度、残高 $-1000$ 円——0 より小さい数を**負数**といいます。  
 [自然数](professional.md)の章で見たように、「3 引く 5」は自然数の中では答えが出ません。  

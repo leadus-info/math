@@ -18,14 +18,15 @@ levels:
 level: professional
 requires:
   - title: 対数関数
-    url: \1/introduction.md
+    url: /math/functions/logarithmic/introduction
   - title: 複素数
-    url: \1/introduction.md
+    url: /math/numbers/complex-numbers/introduction
   - title: 確率
-    url: \1/introduction.md
+    url: /math/statistics/probability/introduction
 ---
 
 
+> この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。
 
 情報理論・複素対数・$p$-進対数を扱います。
 

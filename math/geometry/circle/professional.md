@@ -18,14 +18,15 @@ levels:
 level: professional
 requires:
   - title: 円
-    url: \1/introduction.md
+    url: /math/geometry/circle/introduction
   - title: 複素数
-    url: \1/introduction.md
+    url: /math/numbers/complex-numbers/introduction
   - title: 直線（専門）
     url: ../line/professional.md
 ---
 
 
+> この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。
 
 反転幾何・リーマン球面・メビウス変換を扱います。
 

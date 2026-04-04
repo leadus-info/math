@@ -18,14 +18,15 @@ levels:
 level: professional
 requires:
   - title: 二次関数
-    url: \1/introduction.md
+    url: /math/functions/quadratic/introduction
   - title: 行列
-    url: \1/introduction.md
+    url: /math/linear-algebra/matrices/introduction
   - title: ベクトル
-    url: \1/introduction.md
+    url: /math/linear-algebra/vectors/introduction
 ---
 
 
+> この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。
 
 二次形式・円錐曲線・行列の固有値との関係を扱います。
 
