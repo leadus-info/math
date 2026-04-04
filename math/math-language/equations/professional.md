@@ -4,26 +4,29 @@ description: "方程式論・代数方程式の根の構造"
 tags: [math,math-language,equations]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 数学の言語
-    path: /math/math-language/index.html
+    path: /math/math-language/index.md
   - title: 等号・等式
-    path: /math/math-language/equations/professional.html
+    path: /math/math-language/equations/professional.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
 level: 専門
 requires:
   - title: 等号・等式
-    path: /math/math-language/equations/introduction
+    path: /math/math-language/equations/introduction.md
   - title: 多項式（専門）
     path: ../../functions/polynomials/professional.md
   - title: 複素数
-    path: /math/numbers/complex-numbers/introduction
+    path: /math/numbers/complex-numbers/introduction.md
 ---
+
+
+
 
 ## このページで扱うこと
 

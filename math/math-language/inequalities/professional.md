@@ -4,26 +4,28 @@ description: "凸不等式・関数不等式・最適化理論との接続"
 tags: [math,math-language,inequalities]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 数学の言語
-    path: /math/math-language/index.html
+    path: /math/math-language/index.md
   - title: 不等号・不等式
-    path: /math/math-language/inequalities/professional.html
+    path: /math/math-language/inequalities/professional.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
 level: 専門
 requires:
   - title: 不等号・不等式
-    path: /math/math-language/inequalities/introduction
+    path: /math/math-language/inequalities/introduction.md
   - title: 微分
-    path: /math/functions/derivatives/introduction
+    path: /math/functions/derivatives/introduction.md
   - title: 積分
-    path: /math/functions/integrals/introduction
+    path: /math/functions/integrals/introduction.md
 ---
+
+
 
 ## このページで扱うこと
 

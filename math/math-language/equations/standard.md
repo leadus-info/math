@@ -4,26 +4,29 @@ description: "「等しい」を記号で表す"
 tags: [math,math-language,equations]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 数学の言語
-    path: /math/math-language/index.html
+    path: /math/math-language/index.md
   - title: 等号・等式
-    path: /math/math-language/equations/standard.html
+    path: /math/math-language/equations/standard.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
   - level: 専門
-    path: professional.html
+    path: professional.md
 level: 標準
 requires:
   - title: 乗法・べき乗
-    path: /math/numbers/arithmetic/introduction
+    path: /math/numbers/arithmetic/introduction.md
 ---
+
+
+
 
 ## このページで扱うこと
 
-「左と右が同じ量である」ことを $=$ という記号で表します。
+「左と右が同じ量である」ことを $=$ という記号で表します。\
 これが**等号**、$=$ を含む式が**等式**です。
 
 - 等号の意味と性質
@@ -50,7 +53,7 @@ $$3 + 4 = 7$$
 
 両辺に同じ操作をしても等号は保たれます。
 
-$$a = b \Rightarrow a + c = b + c$$
+$$a = b \Rightarrow a + c = b + c$$\
 $$a = b \Rightarrow a \times c = b \times c$$
 
 ---

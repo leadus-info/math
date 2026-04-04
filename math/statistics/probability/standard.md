@@ -4,24 +4,27 @@ description: "起こりやすさを数値で表す"
 tags: [math,statistics,probability]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 統計・確率
-    path: /math/statistics/index.html
+    path: /math/statistics/index.md
   - title: 確率
-    path: /math/statistics/probability/standard.html
+    path: /math/statistics/probability/standard.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
   - level: 専門
-    path: professional.html
+    path: professional.md
 level: 標準
 requires:
   - title: 場合の数
-    path: /math/statistics/counting/introduction
+    path: /math/statistics/counting/introduction.md
   - title: 分数
-    path: /math/numbers/fractions/introduction
+    path: /math/numbers/fractions/introduction.md
 ---
+
+
+
 
 ## 確率の定義（古典的確率）
 
@@ -45,7 +48,7 @@ $$P(A^c) = 1 - P(A)$$
 
 「少なくとも1回以上」のような問題は余事象で考えると楽なことが多いです。
 
-例：コインを3回投げて少なくとも1回表が出る確率：
+例：コインを3回投げて少なくとも1回表が出る確率：\
 $$1 - P(\text{3回全部裏}) = 1 - \left(\frac{1}{2}\right)^3 = \frac{7}{8}$$
 
 ---
@@ -68,7 +71,7 @@ $$P(A \cap B) = P(A) \times P(B)$$
 
 が成り立つことです。
 
-例：コインを2回投げるとき「1回目が表」と「2回目が表」は独立。
+例：コインを2回投げるとき「1回目が表」と「2回目が表」は独立。\
 両方表の確率 $= \dfrac{1}{2} \times \dfrac{1}{2} = \dfrac{1}{4}$
 
 ---
@@ -85,7 +88,7 @@ $$P(A \mid B) = \frac{P(A \cap B)}{P(B)} \quad (P(B) > 0)$$
 
 $$P(A \mid B) = \frac{P(B \mid A) \cdot P(A)}{P(B)}$$
 
-「結果 $B$ が観測されたとき、原因 $A$ の確率は？」という問いに答えます。
+「結果 $B$ が観測されたとき、原因 $A$ の確率は？」という問いに答えます。\
 医療検査の偽陽性・偽陰性の評価などで重要です。
 
 ---

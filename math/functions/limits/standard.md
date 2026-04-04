@@ -4,42 +4,45 @@ description: "限りなく近づくとはどういうことか"
 tags: [math,operations,limits]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 関数の操作
-    path: /math/functions/index.html
+    path: /math/functions/index.md
   - title: 極限
-    path: /math/functions/limits/standard.html
+    path: /math/functions/limits/standard.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
   - level: 専門
-    path: professional.html
+    path: professional.md
 level: 標準
 requires:
   - title: 乗法・べき乗
-    path: /math/numbers/arithmetic/introduction
+    path: /math/numbers/arithmetic/introduction.md
   - title: 分数
-    path: /math/numbers/fractions/introduction
+    path: /math/numbers/fractions/introduction.md
 ---
+
+
+
 
 ## 数列の極限
 
-「限りなく近づくとどこへ向かうか」——これが極限です。
+「限りなく近づくとどこへ向かうか」——これが極限です。\
 微分も積分も、この概念の上に成り立っています。
 
 $n$ を大きくしていくにつれて $\dfrac{1}{n}$ がどう変化するか見てみます。
 
 $$\frac{1}{1} = 1, \quad \frac{1}{2} = 0.5, \quad \frac{1}{10} = 0.1, \quad \frac{1}{100} = 0.01, \quad \ldots$$
 
-$n$ が大きくなるほど $\dfrac{1}{n}$ は 0 に近づきます。
+$n$ が大きくなるほど $\dfrac{1}{n}$ は 0 に近づきます。\
 「$n$ を限りなく大きくしたとき $\dfrac{1}{n}$ は 0 に収束する」といい、
 
 $$\lim_{n \to \infty} \frac{1}{n} = 0$$
 
 と書きます。
 
-一般に、数列 $\{a_n\}$ が値 $L$ に収束するとは、$n$ を大きくしたとき $a_n$ が $L$ に限りなく近づくことです。
+一般に、数列 $\{a_n\}$ が値 $L$ に収束するとは、$n$ を大きくしたとき $a_n$ が $L$ に限りなく近づくことです。\
 収束先がない場合（$n^2$ のように限りなく大きくなる場合など）を**発散**といいます。
 
 ---
@@ -59,7 +62,7 @@ $x$ が 2 に近づくほど $f(x)$ は 7 に近づきます。これを
 
 $$\lim_{x \to 2}(3x + 1) = 7$$
 
-と書きます。注意：「$x$ を**2に近づける**」であって「$x = 2$ を代入する」ではありません。
+と書きます。注意：「$x$ を**2に近づける**」であって「$x = 2$ を代入する」ではありません。\
 近づく過程が重要です（$x = 2$ で定義されていない関数でも極限が存在することがあります）。
 
 ---
@@ -68,8 +71,8 @@ $$\lim_{x \to 2}(3x + 1) = 7$$
 
 $\lim_{x \to a} f(x) = L$、$\lim_{x \to a} g(x) = M$ のとき：
 
-$$\lim_{x \to a} (f + g)(x) = L + M$$
-$$\lim_{x \to a} (f \cdot g)(x) = L \cdot M$$
+$$\lim_{x \to a} (f + g)(x) = L + M$$\
+$$\lim_{x \to a} (f \cdot g)(x) = L \cdot M$$\
 $$\lim_{x \to a} \frac{f(x)}{g(x)} = \frac{L}{M} \quad (M \neq 0)$$
 
 つまり、極限と四則演算は交換できます。

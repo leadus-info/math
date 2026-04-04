@@ -4,26 +4,29 @@ description: "指数関数の逆の操作"
 tags: [math,functions,logarithmic]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 関数
-    path: /math/functions/index.html
+    path: /math/functions/index.md
   - title: 対数関数
-    path: /math/functions/logarithmic/standard.html
+    path: /math/functions/logarithmic/standard.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
   - level: 専門
-    path: professional.html
+    path: professional.md
 level: 標準
 requires:
   - title: 指数関数
-    path: /math/functions/exponential/introduction
+    path: /math/functions/exponential/introduction.md
 ---
+
+
+
 
 ## このページで扱うこと
 
-「2 を何乗すれば 8 になるか？」——この問いの答えが**対数**です。
+「2 を何乗すれば 8 になるか？」——この問いの答えが**対数**です。\
 指数関数の逆の操作です。
 
 - 対数の定義と読み方
@@ -42,9 +45,9 @@ $$\log_2 8 = 3 \quad (\text{なぜなら } 2^3 = 8)$$
 
 ## 計算規則
 
-$$\log_a (M \times N) = \log_a M + \log_a N$$
-$$\log_a \frac{M}{N} = \log_a M - \log_a N$$
-$$\log_a M^r = r \log_a M$$
+$$\log_a (M \times N) = \log_a M + \log_a N$$\
+$$\log_a \frac{M}{N} = \log_a M - \log_a N$$\
+$$\log_a M^r = r \log_a M$$\
 $$\log_a 1 = 0, \quad \log_a a = 1$$
 
 掛け算が足し算になるのがポイントです。

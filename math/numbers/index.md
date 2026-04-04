@@ -4,13 +4,15 @@ description: "数の種類と性質"
 tags: [math,numbers]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 数
-    path: /math/numbers/index.html
+    path: /math/numbers/index.md
 ---
 
-> **入門**：直感・比喩・具体例を優先。数学の雰囲気をつかむのが目的。  
-> **標準**：定義と論理の流れを明確に。式や証明を含む。  
+
+
+> **入門**：直感・比喩・具体例を優先。数学の雰囲気をつかむのが目的。\
+> **標準**：定義と論理の流れを明確に。式や証明を含む。\
 > **専門**：厳密な定義・例外・境界条件・一次資料への参照を含む。
 
 「いくつあるか」を表す自然数から出発し、演算の限界を超えるたびに数の世界が広がります。

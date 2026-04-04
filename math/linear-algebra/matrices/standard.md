@@ -4,28 +4,31 @@ description: "数を格子状に並べた構造"
 tags: [math,linear-algebra,matrices]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 線形代数
-    path: /math/linear-algebra/index.html
+    path: /math/linear-algebra/index.md
   - title: 行列
-    path: /math/linear-algebra/matrices/standard.html
+    path: /math/linear-algebra/matrices/standard.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
   - level: 専門
-    path: professional.html
+    path: professional.md
 level: 標準
 requires:
   - title: ベクトル
-    path: /math/linear-algebra/vectors/introduction
+    path: /math/linear-algebra/vectors/introduction.md
   - title: 等号・等式
-    path: /math/math-language/equations/introduction
+    path: /math/math-language/equations/introduction.md
 ---
+
+
+
 
 ## 行列の定義
 
-数を格子状に並べたものが行列です。
+数を格子状に並べたものが行列です。\
 ベクトルの変換や連立方程式を統一的に扱えます。
 
 $m$ 行 $n$ 列の**行列**は $mn$ 個の数を $m \times n$ の格子状に並べたものです。
@@ -94,7 +97,7 @@ $ad - bc = 0$ のとき逆行列は存在しません（この値を**行列式*
 
 $$\det\begin{pmatrix}a&b\\c&d\end{pmatrix} = ad - bc$$
 
-行列式の幾何学的な意味：「行列 $A$ が表す線形変換で面積が何倍になるか」。
+行列式の幾何学的な意味：「行列 $A$ が表す線形変換で面積が何倍になるか」。\
 $\det(A) = 0$ のとき変換は次元を下げる（逆変換が存在しない）。
 
 ---

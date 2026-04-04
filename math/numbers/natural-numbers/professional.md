@@ -4,30 +4,33 @@ description: "自然数の厳密な構成・ペアノ公理・数論的性質"
 tags: [math,numbers,natural-numbers]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 数
-    path: /math/numbers/index.html
+    path: /math/numbers/index.md
   - title: 自然数
-    path: /math/numbers/natural-numbers/professional.html
+    path: /math/numbers/natural-numbers/professional.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
 level: 専門
 requires:
   - title: 自然数
-    path: /math/numbers/natural-numbers/introduction
+    path: /math/numbers/natural-numbers/introduction.md
   - title: 必要・十分条件
-    path: /math/math-language/conditions/introduction
+    path: /math/math-language/conditions/introduction.md
   - title: 集合
-    path: /math/math-language/sets/introduction
+    path: /math/math-language/sets/introduction.md
 ---
+
+
+
 
 ## このページで扱うこと
 
-このページでは、自然数を公理から厳密に構築し、数論・整除論の基礎を扱います。  
+このページでは、自然数を公理から厳密に構築し、数論・整除論の基礎を扱います。\
 初等的な自然数の概念は[自然数（入門）](introduction.md)を参照してください。
 
 - ペアノ公理による自然数の公理的定義

@@ -4,26 +4,28 @@ description: "指数型分布族・母関数・行列指数関数"
 tags: [math,functions,exponential]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 関数
-    path: /math/functions/index.html
+    path: /math/functions/index.md
   - title: 指数関数
-    path: /math/functions/exponential/professional.html
+    path: /math/functions/exponential/professional.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
 level: 専門
 requires:
   - title: 指数関数
-    path: /math/functions/exponential/introduction
+    path: /math/functions/exponential/introduction.md
   - title: 行列
-    path: /math/linear-algebra/matrices/introduction
+    path: /math/linear-algebra/matrices/introduction.md
   - title: 積分
-    path: /math/functions/integrals/introduction
+    path: /math/functions/integrals/introduction.md
 ---
+
+
 
 ## このページで扱うこと
 

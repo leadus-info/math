@@ -4,24 +4,27 @@ description: "直線の方程式と位置関係"
 tags: [math,geometry,line]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 幾何
-    path: /math/geometry/index.html
+    path: /math/geometry/index.md
   - title: 直線
-    path: /math/geometry/line/standard.html
+    path: /math/geometry/line/standard.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
   - level: 専門
-    path: professional.html
+    path: professional.md
 level: 標準
 requires:
   - title: 点
-    path: /math/geometry/point/introduction
+    path: /math/geometry/point/introduction.md
   - title: 一次関数
-    path: /math/functions/linear/introduction
+    path: /math/functions/linear/introduction.md
 ---
+
+
+
 
 ## このページで扱うこと
 
@@ -51,7 +54,7 @@ $$a = \frac{y_2 - y_1}{x_2 - x_1}$$
 
 ## 平行・垂直の条件
 
-$$\text{平行} \iff a_1 = a_2 \quad (\text{切片は異なる})$$
+$$\text{平行} \iff a_1 = a_2 \quad (\text{切片は異なる})$$\
 $$\text{垂直} \iff a_1 \times a_2 = -1$$
 
 ---

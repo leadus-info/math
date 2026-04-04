@@ -4,26 +4,30 @@ description: "反転幾何・リーマン球面・複素平面上の円"
 tags: [math,geometry,circle]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 幾何
-    path: /math/geometry/index.html
+    path: /math/geometry/index.md
   - title: 円
-    path: /math/geometry/circle/professional.html
+    path: /math/geometry/circle/professional.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
 level: 専門
 requires:
   - title: 円
-    path: /math/geometry/circle/introduction
+    path: /math/geometry/circle/introduction.md
   - title: 複素数
-    path: /math/numbers/complex-numbers/introduction
+    path: /math/numbers/complex-numbers/introduction.md
   - title: 直線（専門）
     path: ../line/professional.md
 ---
+
+
+
+
 
 ## このページで扱うこと
 
@@ -47,7 +51,7 @@ $$z \mapsto \frac{r^2}{\bar{z}}$$
 
 ## リーマン球面
 
-複素平面 $\mathbb{C}$ に無限遠点 $\infty$ を加えた $\hat{\mathbb{C}} = \mathbb{C} \cup \{\infty\}$。  
+複素平面 $\mathbb{C}$ に無限遠点 $\infty$ を加えた $\hat{\mathbb{C}} = \mathbb{C} \cup \{\infty\}$。\
 球面 $S^2$ と立体射影で同一視されます。
 
 ---

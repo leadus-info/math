@@ -4,26 +4,29 @@ description: "リーマン面・解析接続・モジュラー形式"
 tags: [math,complex-numbers,complex-functions]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 関数の操作
-    path: /math/functions/index.html
+    path: /math/functions/index.md
   - title: 複素関数
-    path: /math/functions/complex-functions/professional.html
+    path: /math/functions/complex-functions/professional.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
 level: 専門
 requires:
   - title: 複素関数
-    path: /math/functions/complex-functions/introduction
+    path: /math/functions/complex-functions/introduction.md
   - title: 対数関数（専門）
     path: ../../logarithmic/professional.md
   - title: 点（専門）
     path: ../../../geometry/point/professional.md
 ---
+
+
+
 
 ## このページで扱うこと
 

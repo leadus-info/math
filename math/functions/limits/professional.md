@@ -4,26 +4,29 @@ description: "ε-δ論法・一様収束・位相的極限"
 tags: [math,operations,limits]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 関数の操作
-    path: /math/functions/index.html
+    path: /math/functions/index.md
   - title: 極限
-    path: /math/functions/limits/professional.html
+    path: /math/functions/limits/professional.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
 level: 専門
 requires:
   - title: 極限
-    path: /math/functions/limits/introduction
+    path: /math/functions/limits/introduction.md
   - title: 集合（専門）
     path: ../../../math-language/sets/professional.md
   - title: 小数（専門）
     path: ../../../numbers/decimals/professional.md
 ---
+
+
+
 
 ## このページで扱うこと
 

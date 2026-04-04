@@ -4,36 +4,39 @@ description: "ものの集まりを数学で扱う"
 tags: [math,math-language,sets]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 数学の言語
-    path: /math/math-language/index.html
+    path: /math/math-language/index.md
   - title: 集合
-    path: /math/math-language/sets/standard.html
+    path: /math/math-language/sets/standard.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
   - level: 専門
-    path: professional.html
+    path: professional.md
 level: 標準
 requires:
   - title: 自然数
-    path: /math/numbers/natural-numbers/introduction
+    path: /math/numbers/natural-numbers/introduction.md
 ---
+
+
+
 
 ## 集合の定義
 
-「ものの集まり」を数学的に扱う道具が集合です。
+「ものの集まり」を数学的に扱う道具が集合です。\
 現代数学のほぼすべての概念は集合の言葉で記述されます。
 
 要素がはっきり決まる「ものの集まり」を**集合**といいます。
 
-$$A = \{1, 2, 3, 4, 5\}$$
+$$A = \{1, 2, 3, 4, 5\}$$\
 $$B = \{x \mid x \text{ は 10 以下の偶数}\} = \{2, 4, 6, 8, 10\}$$
 
 $3 \in A$（3 は $A$ の要素）、$6 \notin A$（6 は $A$ の要素でない）。
 
-「背の高い人の集合」は要素が曖昧なので数学的な集合として扱えません。
+「背の高い人の集合」は要素が曖昧なので数学的な集合として扱えません。\
 要素かどうかが明確に判定できることが条件です。
 
 ---
@@ -72,7 +75,7 @@ $$A^c = \{x \in U \mid x \notin A\}$$
 
 ## ド・モルガンの法則
 
-$$(A \cup B)^c = A^c \cap B^c$$
+$$(A \cup B)^c = A^c \cap B^c$$\
 $$(A \cap B)^c = A^c \cup B^c$$
 
 「AまたはBでない」＝「Aでない かつ Bでない」という直感に対応します。
@@ -81,12 +84,12 @@ $$(A \cap B)^c = A^c \cup B^c$$
 
 ## 写像
 
-集合 $A$ の各要素に集合 $B$ の要素をただ一つ対応させる規則を**写像**といいます。
+集合 $A$ の各要素に集合 $B$ の要素をただ一つ対応させる規則を**写像**といいます。\
 関数は写像の特別な場合（$A, B$ が数の集合）です。
 
 $$f: A \to B, \quad f(x) = x^2$$
 
-写像において「$A$ のすべての要素が対応先を持つ」ことが重要で、
+写像において「$A$ のすべての要素が対応先を持つ」ことが重要で、\
 「$B$ のすべての要素が対応元を持つ」かどうかは別の話（全射）です。
 
 ---

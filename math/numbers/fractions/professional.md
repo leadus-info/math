@@ -4,30 +4,34 @@ description: "有理数の代数的構造・稠密性・実数との対比"
 tags: [math,numbers,fractions]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 数
-    path: /math/numbers/index.html
+    path: /math/numbers/index.md
   - title: 分数
-    path: /math/numbers/fractions/professional.html
+    path: /math/numbers/fractions/professional.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
 level: 専門
 requires:
   - title: 分数
-    path: /math/numbers/fractions/introduction
+    path: /math/numbers/fractions/introduction.md
   - title: 集合
-    path: /math/math-language/sets/introduction
+    path: /math/math-language/sets/introduction.md
   - title: 極限（専門）
     path: ../../functions/limits/professional.md
 ---
 
+
+
+
+
 ## このページで扱うこと
 
-有理数の代数的構造・稠密性・実数との距離について扱います。  
+有理数の代数的構造・稠密性・実数との距離について扱います。\
 基礎は[分数（入門）](introduction.md)を参照してください。
 
 - 同値類による $\mathbb{Q}$ の厳密な構成
@@ -62,7 +66,7 @@ $$\frac{p + q}{2} \in \mathbb{Q}, \quad p < \frac{p+q}{2} < q$$
 
 ## カントールの対角線論法と $|\mathbb{Q}| = |\mathbb{N}|$
 
-$\mathbb{Q}$ は**可算**（$\mathbb{N}$ と1対1対応が存在）です。  
+$\mathbb{Q}$ は**可算**（$\mathbb{N}$ と1対1対応が存在）です。\
 一方 $\mathbb{R}$ は非可算であるため $\mathbb{R} \setminus \mathbb{Q}$（無理数）は非可算。
 
 **証明の概略**: $\mathbb{Q}$ を格子 $\mathbb{Z} \times \mathbb{N}$ の要素として表し、ジグザグに列挙します。

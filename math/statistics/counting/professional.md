@@ -4,26 +4,29 @@ description: "母関数・包除原理・ラムゼー理論"
 tags: [math,statistics,counting]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 統計・確率
-    path: /math/statistics/index.html
+    path: /math/statistics/index.md
   - title: 場合の数
-    path: /math/statistics/counting/professional.html
+    path: /math/statistics/counting/professional.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
 level: 専門
 requires:
   - title: 場合の数
-    path: /math/statistics/counting/introduction
+    path: /math/statistics/counting/introduction.md
   - title: 数列（専門）
     path: ../../functions/sequences/professional.md
   - title: 集合（専門）
     path: ../../math-language/sets/professional.md
 ---
+
+
+
 
 ## このページで扱うこと
 

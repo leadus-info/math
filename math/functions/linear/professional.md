@@ -4,26 +4,28 @@ description: "アフィン変換・線形写像・超平面"
 tags: [math,functions,linear]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 関数
-    path: /math/functions/index.html
+    path: /math/functions/index.md
   - title: 一次関数
-    path: /math/functions/linear/professional.html
+    path: /math/functions/linear/professional.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
 level: 専門
 requires:
   - title: 一次関数
-    path: /math/functions/linear/introduction
+    path: /math/functions/linear/introduction.md
   - title: 行列
-    path: /math/linear-algebra/matrices/introduction
+    path: /math/linear-algebra/matrices/introduction.md
   - title: ベクトル
-    path: /math/linear-algebra/vectors/introduction
+    path: /math/linear-algebra/vectors/introduction.md
 ---
+
+
 
 ## このページで扱うこと
 

@@ -4,24 +4,27 @@ description: "関数の瞬間の変化率"
 tags: [math,operations,derivatives]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 関数の操作
-    path: /math/functions/index.html
+    path: /math/functions/index.md
   - title: 微分
-    path: /math/functions/derivatives/standard.html
+    path: /math/functions/derivatives/standard.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
   - level: 専門
-    path: professional.html
+    path: professional.md
 level: 標準
 requires:
   - title: 極限
-    path: /math/functions/limits/introduction
+    path: /math/functions/limits/introduction.md
   - title: 乗法・べき乗
-    path: /math/numbers/arithmetic/introduction
+    path: /math/numbers/arithmetic/introduction.md
 ---
+
+
+
 
 ## 平均の変化率
 
@@ -43,8 +46,8 @@ $$f'(x) = \lim_{h \to 0} \frac{f(x+h) - f(x)}{h}$$
 
 この $f'(x)$ を $f$ の**導関数**といいます。「$f$ を微分する」とはこの操作のことです。
 
-$f'(a) > 0$ のとき $x = a$ 付近でグラフは右上がり、
-$f'(a) < 0$ のとき右下がり、
+$f'(a) > 0$ のとき $x = a$ 付近でグラフは右上がり、\
+$f'(a) < 0$ のとき右下がり、\
 $f'(a) = 0$ のとき水平（山の頂上か谷の底の候補）。
 
 ---

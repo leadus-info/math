@@ -5,45 +5,48 @@ tags: [math,functions,calculus]
 level: 入門
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 関数の操作
-    path: /math/functions/index.html
+    path: /math/functions/index.md
   - title: 複素関数
-    path: /math/functions/complex-functions/introduction.html
+    path: /math/functions/complex-functions/introduction.md
 levels:
   - level: 入門
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
-    path: professional.html
+    path: professional.md
 
 requires:
   - title: 複素数
-    path: /math/numbers/complex-numbers/introduction
+    path: /math/numbers/complex-numbers/introduction.md
   - title: 微分
-    path: /math/functions/derivatives/introduction
+    path: /math/functions/derivatives/introduction.md
 ---
+
+
+
 
 ## 「複素微分できる」ことの意味
 
-実数の微分では「左から近づいても右から近づいても同じ」で十分でした。
+実数の微分では「左から近づいても右から近づいても同じ」で十分でした。\
 複素数では近づく方向が平面上に無数にあります。
 
-どの方向から近づいても同じ値になる——この条件を満たす関数は、
+どの方向から近づいても同じ値になる——この条件を満たす関数は、\
 驚くほど良い性質を持ちます。
 
 ---
 
 ## 部分から全体が決まる
 
-正則関数の驚くべき性質は、ある範囲での振る舞いから関数全体が決まることです。
+正則関数の驚くべき性質は、ある範囲での振る舞いから関数全体が決まることです。\
 「一部を知れば全部わかる」という、実数の関数にはない強力な性質です。
 
 ---
 
 ## 積分計算が劇的に簡単に
 
-実数では難しい積分を、複素関数の「特異点の周りの振る舞い」だけから計算できます。
+実数では難しい積分を、複素関数の「特異点の周りの振る舞い」だけから計算できます。\
 物理・工学の計算でよく使われる強力な方法です。
 
 ---

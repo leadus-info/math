@@ -4,26 +4,29 @@ description: "測度論的確率論・確率過程・大数の法則"
 tags: [math,statistics,probability]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 統計・確率
-    path: /math/statistics/index.html
+    path: /math/statistics/index.md
   - title: 確率
-    path: /math/statistics/probability/professional.html
+    path: /math/statistics/probability/professional.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
 level: 専門
 requires:
   - title: 確率
-    path: /math/statistics/probability/introduction
+    path: /math/statistics/probability/introduction.md
   - title: 積分（専門）
     path: ../../functions/integrals/professional.md
   - title: 数列（専門）
     path: ../../functions/sequences/professional.md
 ---
+
+
+
 
 ## このページで扱うこと
 

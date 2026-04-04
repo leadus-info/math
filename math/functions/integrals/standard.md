@@ -4,24 +4,27 @@ description: "面積・累積を求める操作"
 tags: [math,operations,integrals]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 関数の操作
-    path: /math/functions/index.html
+    path: /math/functions/index.md
   - title: 積分
-    path: /math/functions/integrals/standard.html
+    path: /math/functions/integrals/standard.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
   - level: 専門
-    path: professional.html
+    path: professional.md
 level: 標準
 requires:
   - title: 微分
-    path: /math/functions/derivatives/introduction
+    path: /math/functions/derivatives/introduction.md
   - title: 極限
-    path: /math/functions/limits/introduction
+    path: /math/functions/limits/introduction.md
 ---
+
+
+
 
 ## 積分のアイデア
 
@@ -40,7 +43,7 @@ $$\int_a^b f(x)\,dx = \lim_{n \to \infty} \sum_{k=1}^n f(x_k)\,\Delta x$$
 
 ## 不定積分
 
-微分の逆操作を**不定積分**といいます。
+微分の逆操作を**不定積分**といいます。\
 $F'(x) = f(x)$ を満たす $F(x)$ を $f(x)$ の**原始関数**といい、
 
 $$\int f(x)\,dx = F(x) + C$$

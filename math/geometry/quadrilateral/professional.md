@@ -4,26 +4,29 @@ description: "双対多面体・四辺形の射影的性質"
 tags: [math,geometry,quadrilateral]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 幾何
-    path: /math/geometry/index.html
+    path: /math/geometry/index.md
   - title: 四角形
-    path: /math/geometry/quadrilateral/professional.html
+    path: /math/geometry/quadrilateral/professional.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
 level: 専門
 requires:
   - title: 四角形
-    path: /math/geometry/quadrilateral/introduction
+    path: /math/geometry/quadrilateral/introduction.md
   - title: 円
-    path: /math/geometry/circle/introduction
+    path: /math/geometry/circle/introduction.md
   - title: 直線（専門）
     path: ../line/professional.md
 ---
+
+
+
 
 ## このページで扱うこと
 

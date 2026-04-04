@@ -5,20 +5,22 @@ difficulty: 0
 tags: [math,course]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 学習コース
-    path: /math/course.html
+    path: /math/course.md
 ---
 
 
 
 
 
+
+
 # 学習コース
-このサイトのページは自由な順序で読めますが、
+このサイトのページは自由な順序で読めますが、\
 初めて学ぶ方向けに、つながりのよい順序をまとめました。
 
-各トピックには **標準・発展・専門** の3つのレベルがあります。
+各トピックには **標準・発展・専門** の3つのレベルがあります。\
 まずはすべて **標準** を読み進めることを推奨します。
 
 ---

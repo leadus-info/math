@@ -4,26 +4,30 @@ description: "抽象代数・環論・多項式環"
 tags: [math,math-language,algebra]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 数学の言語
-    path: /math/math-language/index.html
+    path: /math/math-language/index.md
   - title: 代数
-    path: /math/math-language/algebra/professional.html
+    path: /math/math-language/algebra/professional.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
 level: 専門
 requires:
   - title: 代数
-    path: /math/math-language/algebra/introduction
+    path: /math/math-language/algebra/introduction.md
   - title: 四則演算（専門）
     path: ../../numbers/arithmetic/professional.md
   - title: 行列
-    path: /math/linear-algebra/matrices/introduction
+    path: /math/linear-algebra/matrices/introduction.md
 ---
+
+
+
+
 
 ## このページで扱うこと
 
@@ -45,7 +49,7 @@ $\mathbb{Z}[x]$: 整数係数多項式、$\mathbb{Q}[x]$: 有理数係数多項�
 
 ## 加群
 
-アーベル群 $M$ に環 $R$ が左から作用する構造。  
+アーベル群 $M$ に環 $R$ が左から作用する構造。\
 ベクトル空間は体上の加群。
 
 ---

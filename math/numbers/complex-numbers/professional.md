@@ -4,26 +4,30 @@ description: "代数閉体・四元数・クリフォード代数"
 tags: [math,complex-numbers,complex-numbers]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 数
-    path: /math/numbers/index.html
+    path: /math/numbers/index.md
   - title: 複素数
-    path: /math/numbers/complex-numbers/professional.html
+    path: /math/numbers/complex-numbers/professional.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
 level: 専門
 requires:
   - title: 複素数
-    path: /math/numbers/complex-numbers/introduction
+    path: /math/numbers/complex-numbers/introduction.md
   - title: 行列（専門）
     path: ../../linear-algebra/matrices/professional.md
   - title: 四則演算（専門）
     path: ../arithmetic/professional.md
 ---
+
+
+
+
 
 ## このページで扱うこと
 
@@ -55,7 +59,7 @@ $$\mathbb{H} = \{a+bi+cj+dk : i^2=j^2=k^2=ijk=-1\}$$
 
 ## クリフォード代数
 
-ベクトル空間 $V$ と二次形式 $Q$ から構成される代数。  
+ベクトル空間 $V$ と二次形式 $Q$ から構成される代数。\
 $n=1$: $\mathbb{C}$、$n=2$: $\mathbb{H}$、スピノルの数学的基盤。
 
 ---

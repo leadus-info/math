@@ -5,28 +5,31 @@ tags: [math,geometry]
 level: 入門
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 幾何
-    path: /math/geometry/index.html
+    path: /math/geometry/index.md
   - title: 直線
-    path: /math/geometry/line/introduction.html
+    path: /math/geometry/line/introduction.md
 levels:
   - level: 入門
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
-    path: professional.html
+    path: professional.md
 
 requires:
   - title: 点
-    path: /math/geometry/point/introduction
+    path: /math/geometry/point/introduction.md
   - title: 一次関数
-    path: /math/functions/linear/introduction
+    path: /math/functions/linear/introduction.md
 ---
+
+
+
 
 ## 傾き——直線の「急さ」
 
-坂道の急さを数値で表したものが傾きです。
+坂道の急さを数値で表したものが傾きです。\
 右に1進んだとき上に何進むかで表します。
 
 急な上り坂は傾きが大きく、水平な道は傾きゼロ、下り坂は傾きが負です。
@@ -41,7 +44,7 @@ requires:
 
 ## 平行と垂直
 
-平行な2直線は傾きが同じです。
+平行な2直線は傾きが同じです。\
 垂直な2直線は、傾きの積がマイナス1になります。
 
 ---

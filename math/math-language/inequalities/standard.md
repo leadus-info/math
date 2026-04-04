@@ -4,24 +4,26 @@ description: "大小関係を表す記号"
 tags: [math,math-language,inequalities]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 数学の言語
-    path: /math/math-language/index.html
+    path: /math/math-language/index.md
   - title: 不等号・不等式
-    path: /math/math-language/inequalities/standard.html
+    path: /math/math-language/inequalities/standard.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
   - level: 専門
-    path: professional.html
+    path: professional.md
 level: 標準
 requires:
   - title: 等号・等式
-    path: /math/math-language/equations/introduction
+    path: /math/math-language/equations/introduction.md
   - title: 負数
-    path: /math/numbers/negative-numbers/introduction
+    path: /math/numbers/negative-numbers/introduction.md
 ---
+
+
 
 ## このページで扱うこと
 

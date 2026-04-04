@@ -4,34 +4,37 @@ description: "掛け算の性質とべき乗・平方根"
 tags: [math,operations,arithmetic]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 数
-    path: /math/numbers/index.html
+    path: /math/numbers/index.md
   - title: 乗法・べき乗
-    path: /math/numbers/arithmetic/standard.html
+    path: /math/numbers/arithmetic/standard.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
   - level: 専門
-    path: professional.html
+    path: professional.md
 level: 標準
 requires:
   - title: 自然数
-    path: /math/numbers/natural-numbers/introduction
+    path: /math/numbers/natural-numbers/introduction.md
   - title: 負数
-    path: /math/numbers/negative-numbers/introduction
+    path: /math/numbers/negative-numbers/introduction.md
   - title: 分数
-    path: /math/numbers/fractions/introduction
+    path: /math/numbers/fractions/introduction.md
 ---
+
+
+
 
 ## このページで扱うこと
 
-掛け算は[自然数](professional.md)のページで導入しました。  
+掛け算は[自然数](professional.md)のページで導入しました。\
 このページでは、掛け算をさらに発展させた**べき乗**と**平方根**を扱います。
 
-加法（足し算）は[自然数](professional.md)、  
-減法（引き算）は[負数](professional.md)、  
+加法（足し算）は[自然数](professional.md)、\
+減法（引き算）は[負数](professional.md)、\
 除法（割り算）は[分数](professional.md)でそれぞれ導入しています。
 
 - 乗法の性質のまとめ（交換・結合・分配）
@@ -63,7 +66,7 @@ $$a \times (b + c) = a \times b + a \times c$$
 
 同じ数を何度も掛けることを**べき乗**（累乗）といいます。
 
-$$2^3 = 2 \times 2 \times 2 = 8$$
+$$2^3 = 2 \times 2 \times 2 = 8$$\
 $$a^n = \underbrace{a \times a \times \cdots \times a}_{n \text{ 個}}$$
 
 特別な場合：
@@ -97,7 +100,7 @@ $$a^{-n} = \frac{1}{a^n}, \quad a^{-1} = \frac{1}{a}$$
 
 $x^2 = a$ になる $x$（$x \geq 0$）を $\sqrt{a}$（ルート $a$）と書きます。
 
-$$\sqrt{9} = 3 \quad (3^2 = 9), \quad \sqrt{4} = 2 \quad (2^2 = 4)$$
+$$\sqrt{9} = 3 \quad (3^2 = 9), \quad \sqrt{4} = 2 \quad (2^2 = 4)$$\
 $$\sqrt{2} = 1.414\ldots \quad \text{（割り切れない）}$$
 
 より一般に、$x^n = a$ になる $x$（$x \geq 0$）を $\sqrt[n]{a} = a^{1/n}$ と書きます。

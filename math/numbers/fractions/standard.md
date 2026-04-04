@@ -4,29 +4,32 @@ description: "割り切れないときに使う数と割り算"
 tags: [math,numbers,fractions]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 数
-    path: /math/numbers/index.html
+    path: /math/numbers/index.md
   - title: 分数
-    path: /math/numbers/fractions/standard.html
+    path: /math/numbers/fractions/standard.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
   - level: 専門
-    path: professional.html
+    path: professional.md
 level: 標準
 requires:
   - title: 自然数
-    path: /math/numbers/natural-numbers/introduction
+    path: /math/numbers/natural-numbers/introduction.md
   - title: 負数
-    path: /math/numbers/negative-numbers/introduction
+    path: /math/numbers/negative-numbers/introduction.md
 ---
+
+
+
 
 ## このページで扱うこと
 
-1 個のケーキを 3 人で等しく分けると、1 人の分は「3 分の 1」です。  
-[自然数](professional.md)の章で見たように、「5 割る 2」は自然数の中では答えが出ません。  
+1 個のケーキを 3 人で等しく分けると、1 人の分は「3 分の 1」です。\
+[自然数](professional.md)の章で見たように、「5 割る 2」は自然数の中では答えが出ません。\
 この「割り切れない」を解決するために分数を導入します。
 
 - 割り算（除法）の定義
@@ -56,7 +59,7 @@ $$5 \div 2 = \frac{5}{2}$$
 
 $$\frac{a}{b} \quad (b \neq 0)$$
 
-上の数 $a$ を**分子**、下の数 $b$ を**分母**といいます。  
+上の数 $a$ を**分子**、下の数 $b$ を**分母**といいます。\
 $\frac{3}{4}$ は「4 等分したうちの 3 つ分」、つまり $3 \div 4$ の答えです。
 
 ---
@@ -97,7 +100,7 @@ $$\frac{a}{b} \div \frac{c}{d} = \frac{a}{b} \times \frac{d}{c} = \frac{a \times
 
 $$\frac{3}{4} = 0.75, \quad \frac{1}{3} = 0.333\ldots$$
 
-$\frac{1}{3}$ のように割り切れない場合、小数は永遠に続きます（**循環小数**）。  
+$\frac{1}{3}$ のように割り切れない場合、小数は永遠に続きます（**循環小数**）。\
 詳しくは[小数](professional.md)で扱います。
 
 ---

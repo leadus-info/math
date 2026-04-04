@@ -4,27 +4,30 @@ description: "0 より小さい数と引き算"
 tags: [math,numbers,negative-numbers]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 数
-    path: /math/numbers/index.html
+    path: /math/numbers/index.md
   - title: 負数
-    path: /math/numbers/negative-numbers/standard.html
+    path: /math/numbers/negative-numbers/standard.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
   - level: 専門
-    path: professional.html
+    path: professional.md
 level: 標準
 requires:
   - title: 自然数
-    path: /math/numbers/natural-numbers/introduction
+    path: /math/numbers/natural-numbers/introduction.md
 ---
+
+
+
 
 ## このページで扱うこと
 
-気温 $-5$ 度、残高 $-1000$ 円——0 より小さい数を**負数**といいます。  
-[自然数](professional.md)の章で見たように、「3 引く 5」は自然数の中では答えが出ません。  
+気温 $-5$ 度、残高 $-1000$ 円——0 より小さい数を**負数**といいます。\
+[自然数](professional.md)の章で見たように、「3 引く 5」は自然数の中では答えが出ません。\
 この「引けない」を解決するために負数を導入します。
 
 - 負数の意味と数直線
@@ -39,7 +42,7 @@ requires:
 0 より左が負数、右が正の数です。
 
 ```
-<----- 負の数 ------- 0 ------- 正の数 ----->
+<----- 負の数 ------- 0 ------- 正の数 ----->\
   -5  -4  -3  -2  -1  0   1   2   3   4   5
 ```
 
@@ -65,8 +68,8 @@ $$a - b = a + (-b)$$
 
 **例**：
 
-$$5 - 3 = 5 + (-3) = 2$$
-$$3 - 5 = 3 + (-5) = -2 \quad \text{（負数が登場）}$$
+$$5 - 3 = 5 + (-3) = 2$$\
+$$3 - 5 = 3 + (-5) = -2 \quad \text{（負数が登場）}$$\
 $$5 - (-3) = 5 + 3 = 8 \quad \text{（マイナスのマイナスはプラス）}$$
 
 ---
@@ -85,7 +88,7 @@ $$(-3) + 5 = 2, \quad 3 + (-7) = -4$$
 
 ## 掛け算・割り算の符号ルール
 
-負数が加わっても、掛け算・割り算の仕組み自体は変わりません。  
+負数が加わっても、掛け算・割り算の仕組み自体は変わりません。\
 変わるのは**符号の扱い**だけです。
 
 | 組み合わせ | 結果の符号 |

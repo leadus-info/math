@@ -4,26 +4,30 @@ description: "整数環の代数的構造・整域・Z上のモジュール"
 tags: [math,numbers,negative-numbers]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 数
-    path: /math/numbers/index.html
+    path: /math/numbers/index.md
   - title: 負数
-    path: /math/numbers/negative-numbers/professional.html
+    path: /math/numbers/negative-numbers/professional.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
 level: 専門
 requires:
   - title: 負数
-    path: /math/numbers/negative-numbers/introduction
+    path: /math/numbers/negative-numbers/introduction.md
   - title: 自然数（専門）
     path: ../natural-numbers/professional.md
   - title: 集合
-    path: /math/math-language/sets/introduction
+    path: /math/math-language/sets/introduction.md
 ---
+
+
+
+
 
 ## このページで扱うこと
 
@@ -37,7 +41,7 @@ requires:
 
 ## 整数環 $\mathbb{Z}$
 
-$\mathbb{Z}$ は加算・減算・乗算について閉じた**環（ring）**です。  
+$\mathbb{Z}$ は加算・減算・乗算について閉じた**環（ring）**です。\
 さらに零因子を持たない**整域（integral domain）**でもあります。
 
 $$ab = 0 \implies a = 0 \text{ または } b = 0$$

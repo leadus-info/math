@@ -5,24 +5,27 @@ tags: [math,math-language,inequalities]
 level: 入門
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 数学の言語
-    path: /math/math-language/index.html
+    path: /math/math-language/index.md
   - title: 不等号・不等式
-    path: /math/math-language/inequalities/introduction.html
+    path: /math/math-language/inequalities/introduction.md
 levels:
   - level: 入門
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
-    path: professional.html
+    path: professional.md
 
 requires:
   - title: 等号・等式
-    path: /math/math-language/equations/introduction
+    path: /math/math-language/equations/introduction.md
   - title: 負数
-    path: /math/numbers/negative-numbers/introduction
+    path: /math/numbers/negative-numbers/introduction.md
 ---
+
+
+
 
 ## 不等号の種類
 
@@ -34,17 +37,17 @@ requires:
 
 ## 不等式と方程式の違い
 
-方程式の解は特定の値（例：xは5）ですが、
+方程式の解は特定の値（例：xは5）ですが、\
 不等式の解は範囲（例：xは4より大きい）になります。
 
 ---
 
 ## 不等式を変形するときの注意点
 
-両辺に同じ数を足したり引いたりしても、大小関係は変わりません。
+両辺に同じ数を足したり引いたりしても、大小関係は変わりません。\
 正の数を掛けても変わりません。
 
-しかし負の数を掛けると、向きが逆になります。
+しかし負の数を掛けると、向きが逆になります。\
 数直線をイメージすると、負の数を掛けるとすべての数の左右が入れ替わるためです。
 
 ---

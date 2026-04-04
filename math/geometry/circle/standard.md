@@ -4,24 +4,27 @@ description: "中心から等距離な点の集合"
 tags: [math,geometry,circle]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 幾何
-    path: /math/geometry/index.html
+    path: /math/geometry/index.md
   - title: 円
-    path: /math/geometry/circle/standard.html
+    path: /math/geometry/circle/standard.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
   - level: 専門
-    path: professional.html
+    path: professional.md
 level: 標準
 requires:
   - title: 点
-    path: /math/geometry/point/introduction
+    path: /math/geometry/point/introduction.md
   - title: 直線
-    path: /math/geometry/line/introduction
+    path: /math/geometry/line/introduction.md
 ---
+
+
+
 
 ## 円の方程式
 
@@ -31,7 +34,7 @@ requires:
 
 $$(x - a)^2 + (y - b)^2 = r^2$$
 
-これは「中心 $(a, b)$ からの距離が $r$ の点全体」という定義を式にしたものです。
+これは「中心 $(a, b)$ からの距離が $r$ の点全体」という定義を式にしたものです。\
 原点中心のとき $x^2 + y^2 = r^2$。
 
 ---

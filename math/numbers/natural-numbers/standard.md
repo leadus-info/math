@@ -4,32 +4,34 @@ description: "ものを数えるときに使う数"
 tags: [math,numbers,natural-numbers]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 数
-    path: /math/numbers/index.html
+    path: /math/numbers/index.md
   - title: 自然数
-    path: /math/numbers/natural-numbers/standard.html
+    path: /math/numbers/natural-numbers/standard.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
   - level: 専門
-    path: professional.html
+    path: professional.md
 level: 標準
 ---
 
+
+
 ## 自然数の定義
 
-自然数は $1, 2, 3, \ldots$ と続く、ものを数えるための数です。
+自然数は $1, 2, 3, \ldots$ と続く、ものを数えるための数です。\
 このページでは、自然数の構造を数学的に観察します。
 
 $$\mathbb{N} = \{1, 2, 3, 4, 5, \ldots\}$$
 
-「$\ldots$」は「この先も同じように続く」という意味です。
+「$\ldots$」は「この先も同じように続く」という意味です。\
 自然数には最大値が存在しません——どんな自然数 $n$ に対しても、$n+1$ という自然数が必ず存在します。
 
-> **0を含めるかどうか？**
-> 流儀によって異なります。このサイトでは $\mathbb{N} = \{1,2,3,\ldots\}$（0を含まない）を基本とし、
+> **0を含めるかどうか？**\
+> 流儀によって異なります。このサイトでは $\mathbb{N} = \{1,2,3,\ldots\}$（0を含まない）を基本とし、\
 > 必要に応じて $\mathbb{N}_0 = \{0,1,2,3,\ldots\}$ と区別します。
 
 ---
@@ -48,7 +50,7 @@ $$m < n \quad \text{または} \quad m = n \quad \text{または} \quad m > n$$
 
 ## 足し算（加法）
 
-$a, b \in \mathbb{N}$ に対して $a + b \in \mathbb{N}$ が定まります。
+$a, b \in \mathbb{N}$ に対して $a + b \in \mathbb{N}$ が定まります。\
 自然数どうしの和は必ず自然数になります（**加法について閉じている**）。
 
 **交換法則**：$a + b = b + a$
@@ -73,17 +75,17 @@ $$a \times n = \underbrace{a + a + \cdots + a}_{n \text{ 回}}$$
 
 **分配法則**：$a \times (b + c) = a \times b + a \times c$
 
-分配法則は足し算と掛け算をつなぐ最も重要な性質です。
+分配法則は足し算と掛け算をつなぐ最も重要な性質です。\
 例：$3 \times (4 + 5) = 3 \times 4 + 3 \times 5 = 12 + 15 = 27$
 
-**計算の優先順位**：掛け算は足し算より先に計算します。
+**計算の優先順位**：掛け算は足し算より先に計算します。\
 $(2 + 3) \times 4 = 20$ ですが $2 + 3 \times 4 = 14$ です。
 
 ---
 
 ## 引き算の限界
 
-$a - b$ が自然数として存在するのは $a > b$ のときだけです。
+$a - b$ が自然数として存在するのは $a > b$ のときだけです。\
 $3 - 5$ のように $a < b$ の場合、自然数の中に答えがありません。
 
 この限界を解決するために**負数**が導入されます。
@@ -92,10 +94,10 @@ $3 - 5$ のように $a < b$ の場合、自然数の中に答えがありませ
 
 ## 割り算の限界
 
-$a \div b$ が自然数として存在するのは「$b$ が $a$ を割り切る」場合だけです。
+$a \div b$ が自然数として存在するのは「$b$ が $a$ を割り切る」場合だけです。\
 $5 \div 2$ のように割り切れない場合、自然数の中に答えがありません。
 
-余りを使えば自然数の中で表せます：$5 = 2 \times 2 + 1$（商2、余り1）。
+余りを使えば自然数の中で表せます：$5 = 2 \times 2 + 1$（商2、余り1）。\
 割り切れない場合に完全な答えを与えるために**分数**が導入されます。
 
 ---

@@ -4,24 +4,28 @@ description: "述語論理・証明論・モデル理論の入口"
 tags: [math,math-language,conditions]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 数学の言語
-    path: /math/math-language/index.html
+    path: /math/math-language/index.md
   - title: 必要・十分条件
-    path: /math/math-language/conditions/professional.html
+    path: /math/math-language/conditions/professional.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
 level: 専門
 requires:
   - title: 必要・十分条件
-    path: /math/math-language/conditions/introduction
+    path: /math/math-language/conditions/introduction.md
   - title: 集合（専門）
     path: ../sets/professional.md
 ---
+
+
+
+
 
 ## このページで扱うこと
 
@@ -43,7 +47,7 @@ $$\forall x\,\exists y\,(x < y) \quad \text{（自然数について真）}$$
 
 ## 健全性・完全性定理
 
-**健全性**: 証明可能 $\Rightarrow$ 恒真  
+**健全性**: 証明可能 $\Rightarrow$ 恒真\
 **完全性**（ゲーデル）: 恒真 $\Rightarrow$ 証明可能
 
 ---

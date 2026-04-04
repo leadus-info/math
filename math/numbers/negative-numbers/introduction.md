@@ -5,29 +5,32 @@ tags: [math,numbers,negative-numbers]
 level: 入門
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 数
-    path: /math/numbers/index.html
+    path: /math/numbers/index.md
   - title: 負数
-    path: /math/numbers/negative-numbers/introduction.html
+    path: /math/numbers/negative-numbers/introduction.md
 levels:
   - level: 入門
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
-    path: professional.html
+    path: professional.md
 
 requires:
   - title: 自然数
-    path: /math/numbers/natural-numbers/introduction
+    path: /math/numbers/natural-numbers/introduction.md
 ---
+
+
+
 
 ## なぜ負数が必要になったのか
 
-「3から5を引く」——自然数の中には答えがありません。
+「3から5を引く」——自然数の中には答えがありません。\
 でも現実の世界では「持っている以上のものを失う」ことがあります。
 
-借金、赤字、海面より低い土地の標高。
+借金、赤字、海面より低い土地の標高。\
 こういったものを表すために、0より左の数が必要になりました。
 
 ---
@@ -42,14 +45,14 @@ requires:
 
 ## 絶対値——0からの距離
 
-マイナス5と5は符号が違いますが、0からの距離は同じ「5」です。
+マイナス5と5は符号が違いますが、0からの距離は同じ「5」です。\
 この「0からどれだけ離れているか」を絶対値といいます。
 
 ---
 
 ## 符号の計算
 
-負の数が絡む計算で最も大切な規則は、
+負の数が絡む計算で最も大切な規則は、\
 「マイナスとマイナスを掛けるとプラスになる」ことです。
 
 方向を2回反転させるともとに戻るイメージです。

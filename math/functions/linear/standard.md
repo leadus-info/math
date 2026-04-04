@@ -4,28 +4,32 @@ description: "直線のグラフと傾き"
 tags: [math,functions,linear]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 関数
-    path: /math/functions/index.html
+    path: /math/functions/index.md
   - title: 一次関数
-    path: /math/functions/linear/standard.html
+    path: /math/functions/linear/standard.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
   - level: 専門
-    path: professional.html
+    path: professional.md
 level: 標準
 requires:
   - title: 四則演算
     path: professional.md
   - title: 等号・等式
-    path: /math/math-language/equations/introduction
+    path: /math/math-language/equations/introduction.md
 ---
+
+
+
+
 
 ## このページで扱うこと
 
-$x$ が 1 増えるたびに $y$ が一定量だけ変化する——それが**一次関数**です。
+$x$ が 1 増えるたびに $y$ が一定量だけ変化する——それが**一次関数**です。\
 グラフは必ず直線になります。
 
 - 一次関数の定義（傾き・切片）

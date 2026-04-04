@@ -4,28 +4,31 @@ description: "分数を 10 の積み重ねで表す"
 tags: [math,numbers,decimals]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 数
-    path: /math/numbers/index.html
+    path: /math/numbers/index.md
   - title: 小数
-    path: /math/numbers/decimals/standard.html
+    path: /math/numbers/decimals/standard.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
   - level: 専門
-    path: professional.html
+    path: professional.md
 level: 標準
 requires:
   - title: 自然数
-    path: /math/numbers/natural-numbers/introduction
+    path: /math/numbers/natural-numbers/introduction.md
   - title: 分数
-    path: /math/numbers/fractions/introduction
+    path: /math/numbers/fractions/introduction.md
 ---
+
+
+
 
 ## このページで扱うこと
 
-「0.5」や「3.14」——小数点を使って表す数が**小数**です。
+「0.5」や「3.14」——小数点を使って表す数が**小数**です。\
 分数と同じ量を、別の書き方で表したものです。
 
 - 小数の仕組み
@@ -50,7 +53,7 @@ $$3.14 = 3 + \frac{1}{10} + \frac{4}{100}$$
 | 循環小数 | $0.333\ldots$ | 同じ数字が繰り返す |
 | 無限不循環小数 | $3.14159\ldots$ (円周率) | 永遠に繰り返さない |
 
-有限小数と循環小数は分数で表せます。
+有限小数と循環小数は分数で表せます。\
 円周率 $\pi$ や $\sqrt{2}$ は分数では表せません（**無理数**）。
 
 ---

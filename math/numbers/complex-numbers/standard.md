@@ -4,30 +4,33 @@ description: "実数を超えた数の体系"
 tags: [math,complex-numbers,complex-numbers]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 数
-    path: /math/numbers/index.html
+    path: /math/numbers/index.md
   - title: 複素数
-    path: /math/numbers/complex-numbers/standard.html
+    path: /math/numbers/complex-numbers/standard.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
   - level: 専門
-    path: professional.html
+    path: professional.md
 level: 標準
 requires:
   - title: 負数
-    path: /math/numbers/negative-numbers/introduction
+    path: /math/numbers/negative-numbers/introduction.md
   - title: 三角関数
-    path: /math/functions/trigonometric/introduction
+    path: /math/functions/trigonometric/introduction.md
   - title: 指数関数
-    path: /math/functions/exponential/introduction
+    path: /math/functions/exponential/introduction.md
 ---
+
+
+
 
 ## このページで扱うこと
 
-$x^2 = -1$ を満たす数は実数の中に存在しません。
+$x^2 = -1$ を満たす数は実数の中に存在しません。\
 「存在することにしよう」と決めたのが虚数単位 $i$ であり、これを使って表す数が**複素数**です。
 
 - 虚数単位 $i$ と複素数の定義

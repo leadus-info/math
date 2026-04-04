@@ -4,28 +4,31 @@ description: "角度と円から生まれる周期関数"
 tags: [math,functions,trigonometric]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 関数
-    path: /math/functions/index.html
+    path: /math/functions/index.md
   - title: 三角関数
-    path: /math/functions/trigonometric/standard.html
+    path: /math/functions/trigonometric/standard.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
   - level: 専門
-    path: professional.html
+    path: professional.md
 level: 標準
 requires:
   - title: 円
-    path: /math/geometry/circle/introduction
+    path: /math/geometry/circle/introduction.md
   - title: 分数
-    path: /math/numbers/fractions/introduction
+    path: /math/numbers/fractions/introduction.md
 ---
+
+
+
 
 ## このページで扱うこと
 
-波・振動・回転——周期的な変化を表す関数です。
+波・振動・回転——周期的な変化を表す関数です。\
 単位円（半径 1 の円）の上を動く点の座標として定義されます。
 
 - $\sin$・$\cos$・$\tan$ の定義と主要な値
@@ -69,7 +72,7 @@ $$\sin^2\theta + \cos^2\theta = 1$$
 
 **加法定理**：
 
-$$\sin(\alpha + \beta) = \sin\alpha\cos\beta + \cos\alpha\sin\beta$$
+$$\sin(\alpha + \beta) = \sin\alpha\cos\beta + \cos\alpha\sin\beta$$\
 $$\cos(\alpha + \beta) = \cos\alpha\cos\beta - \sin\alpha\sin\beta$$
 
 ---

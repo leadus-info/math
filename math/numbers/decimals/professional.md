@@ -4,16 +4,16 @@ description: "実数の完備性・デデキント切断・コーシー列"
 tags: [math,numbers,decimals]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 数
-    path: /math/numbers/index.html
+    path: /math/numbers/index.md
   - title: 小数
-    path: /math/numbers/decimals/professional.html
+    path: /math/numbers/decimals/professional.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
 level: 専門
 requires:
@@ -22,12 +22,16 @@ requires:
   - title: 数列（専門）
     path: ../../functions/sequences/professional.md
   - title: 集合
-    path: /math/math-language/sets/introduction
+    path: /math/math-language/sets/introduction.md
 ---
+
+
+
+
 
 ## このページで扱うこと
 
-実数の厳密な構成と完備性について扱います。  
+実数の厳密な構成と完備性について扱います。\
 基礎は[小数（入門）](introduction.md)を参照してください。
 
 - デデキント切断による実数の構成
@@ -40,7 +44,7 @@ requires:
 
 実数を「有理数の切断」として定義します。
 
-有理数の集合 $A, B$（$A \cup B = \mathbb{Q}$, $A \cap B = \emptyset$）で  
+有理数の集合 $A, B$（$A \cup B = \mathbb{Q}$, $A \cap B = \emptyset$）で\
 $a \in A, b \in B \Rightarrow a < b$ を満たすとき、組 $(A, B)$ を**デデキント切断**といいます。
 
 $$\sqrt{2} = (A, B),\quad A = \{q \in \mathbb{Q} \mid q < 0 \text{ または } q^2 < 2\}$$

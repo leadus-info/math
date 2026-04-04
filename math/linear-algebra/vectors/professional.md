@@ -4,26 +4,29 @@ description: "内積空間・ヒルベルト空間・双対空間"
 tags: [math,linear-algebra,vectors]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 線形代数
-    path: /math/linear-algebra/index.html
+    path: /math/linear-algebra/index.md
   - title: ベクトル
-    path: /math/linear-algebra/vectors/professional.html
+    path: /math/linear-algebra/vectors/professional.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
 level: 専門
 requires:
   - title: ベクトル
-    path: /math/linear-algebra/vectors/introduction
+    path: /math/linear-algebra/vectors/introduction.md
   - title: 極限（専門）
     path: ../../functions/limits/professional.md
   - title: 積分（専門）
     path: ../../functions/integrals/professional.md
 ---
+
+
+
 
 ## このページで扱うこと
 

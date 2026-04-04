@@ -4,26 +4,29 @@ description: "情報エントロピー・複素対数・$p$-進対数"
 tags: [math,functions,logarithmic]
 hierarchy:
   - title: 数学
-    path: /math/index.html
+    path: /math/index.md
   - title: 関数
-    path: /math/functions/index.html
+    path: /math/functions/index.md
   - title: 対数関数
-    path: /math/functions/logarithmic/professional.html
+    path: /math/functions/logarithmic/professional.md
 levels:
   - level: 入門
-    path: introduction.html
+    path: introduction.md
   - level: 標準
-    path: standard.html
+    path: standard.md
   - level: 専門
 level: 専門
 requires:
   - title: 対数関数
-    path: /math/functions/logarithmic/introduction
+    path: /math/functions/logarithmic/introduction.md
   - title: 複素数
-    path: /math/numbers/complex-numbers/introduction
+    path: /math/numbers/complex-numbers/introduction.md
   - title: 確率
-    path: /math/statistics/probability/introduction
+    path: /math/statistics/probability/introduction.md
 ---
+
+
+
 
 ## このページで扱うこと
 
@@ -47,7 +50,7 @@ $$H(X) = -\sum_x p(x)\log_2 p(x)$$
 
 $$\ln z = \ln|z| + i\arg(z)$$
 
-$\arg(z)$ は $2\pi$ の不定性を持つため多価関数。  
+$\arg(z)$ は $2\pi$ の不定性を持つため多価関数。\
 主値を選ぶと（$-\pi < \arg \leq \pi$）単価になります。
 
 ---
