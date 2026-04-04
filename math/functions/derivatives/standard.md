@@ -23,12 +23,9 @@ requires:
     path: /math/numbers/arithmetic/introduction
 ---
 
-
-
+## 平均の変化率
 
 関数の「瞬間の変化の速さ」を求める操作が微分です。
-
-## 平均の変化率
 
 関数 $f(x)$ において、$x$ が $a$ から $b$ まで変化するとき
 

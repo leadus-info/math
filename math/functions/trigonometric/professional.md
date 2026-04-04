@@ -25,14 +25,10 @@ requires:
     path: /math/functions/complex-functions/introduction
 ---
 
-
-
-
-> この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。
+## このページで扱うこと
 
 フーリエ解析・変換・球面調和関数を扱います。
 
-## このページで扱うこと
 - フーリエ級数展開
 - フーリエ変換とその性質
 - 球面調和関数の概要

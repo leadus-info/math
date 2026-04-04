@@ -24,12 +24,6 @@ requires:
     path: /math/numbers/negative-numbers/introduction
 ---
 
-
-
-「aはbより大きい」——この大小関係を記号で表すのが不等号です。
-
----
-
 ## 不等号の種類
 
 「より小さい」「より大きい」「以下」「以上」の4種類があります。

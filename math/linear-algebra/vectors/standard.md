@@ -23,12 +23,9 @@ requires:
     path: /math/functions/trigonometric/introduction
 ---
 
-
-
+## ベクトルの定義
 
 大きさと向きの両方を持つ量がベクトルです。
-
-## ベクトルの定義
 
 $n$ 次元のベクトルは実数を $n$ 個並べた組で表します。
 

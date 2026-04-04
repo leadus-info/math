@@ -22,13 +22,6 @@ requires:
     path: /math/geometry/circle/introduction
 ---
 
-
-
-波・振動・回転——
-周期的に繰り返す変化はすべて三角関数で表せます。
-
----
-
 ## 円から生まれる
 
 半径1の円の上を点が動くとします。

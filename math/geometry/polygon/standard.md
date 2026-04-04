@@ -25,14 +25,10 @@ requires:
     path: /math/functions/trigonometric/introduction
 ---
 
-
-
-
-> この記事は [入門](introduction.md) の続きです。先に入門を読むことを推奨します。
+## このページで扱うこと
 
 3 辺以上の直線で囲まれた図形が**多角形**です。
 
-## このページで扱うこと
 - 内角・外角の和
 - 対角線の本数
 - 正多角形の面積

@@ -25,14 +25,10 @@ requires:
     path: ../../../numbers/decimals/professional.md
 ---
 
-
-
-
-> この記事は [標準](standard.md) の続きです。先に標準を読むことを推奨します。
+## このページで扱うこと
 
 $\varepsilon$-$\delta$ 論法・一様収束・位相的な極限の定式化を扱います。
 
-## このページで扱うこと
 - $\varepsilon$-$\delta$ による厳密な定義と証明例
 - 点収束と一様収束の違い
 - 位相空間における極限

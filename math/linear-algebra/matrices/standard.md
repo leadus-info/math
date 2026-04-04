@@ -23,13 +23,10 @@ requires:
     path: /math/math-language/equations/introduction
 ---
 
-
-
+## 行列の定義
 
 数を格子状に並べたものが行列です。
 ベクトルの変換や連立方程式を統一的に扱えます。
-
-## 行列の定義
 
 $m$ 行 $n$ 列の**行列**は $mn$ 個の数を $m \times n$ の格子状に並べたものです。
 

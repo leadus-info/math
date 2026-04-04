@@ -23,12 +23,9 @@ requires:
     path: /math/geometry/line/introduction
 ---
 
-
-
+## 円の方程式
 
 中心から等距離にある点の集合が円です。
-
-## 円の方程式
 
 中心 $(a, b)$、半径 $r$ の円は
 

@@ -22,13 +22,6 @@ requires:
     path: /math/geometry/quadrilateral/introduction
 ---
 
-
-
-三角形・四角形・五角形……
-n本の辺で囲まれた図形を多角形といいます。
-
----
-
 ## 内角の和
 
 n角形の内角の和は、nが増えるにつれて180度ずつ大きくなります。

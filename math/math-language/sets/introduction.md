@@ -24,13 +24,6 @@ requires:
     path: /math/math-language/conditions/introduction
 ---
 
-
-
-「クラスの生徒全員」「10以下の偶数」——
-こういった「ものの集まり」を数学的に扱う道具が集合です。
-
----
-
 ## 集合とは
 
 要素がはっきり決まる「ものの集まり」が集合です。

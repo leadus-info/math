@@ -23,12 +23,9 @@ requires:
     path: /math/functions/limits/introduction
 ---
 
-
-
+## 積分のアイデア
 
 グラフの下の面積を求める操作が積分です。微分の逆操作でもあります。
-
-## 積分のアイデア
 
 $y = f(x)$ のグラフと $x$ 軸で囲まれた $a \leq x \leq b$ の面積を求めたいとします。
 
