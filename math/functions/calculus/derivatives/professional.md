@@ -1,22 +1,31 @@
 ---
-title: 微分（専門）
+title: 微分
 description: "多変数微分・フレシェ微分・微分形式"
-difficulty: 6
-tags: [math,operations,derivatives,professional]
+tags: [math,operations,derivatives]
 hierarchy:
   - text: 数学
     href: /math/index.html
   - text: 関数の操作
     href: /math/functions/calculus/index.html
-  - text: 微分（専門）
+  - text: 微分
     href: /math/functions/calculus/derivatives/professional.html
 levels:
-  - text: 基礎
-    href: standard.html
-  - text: 発展
-    href: advanced.html
-  - text: 専門
+  - level: introduction
+    url: introduction.html
+  - level: standard
+    url: standard.html
+  - level: professional
+level: professional
+requires:
+  - title: 微分
+    url: \1/introduction.md
+  - title: 行列
+    url: \1/introduction.md
+  - title: ベクトル
+    url: \1/introduction.md
 ---
+
+
 
 
 
@@ -32,11 +41,6 @@ levels:
 - 偏微分・全微分・ヤコビ行列
 - フレシェ微分（バナッハ空間上の微分）
 - 微分形式と外微分
-
-## 前提知識
-- [微分](../derivatives/standard.md)
-- [行列](../../../linear-algebra/matrices/standard.md)
-- [ベクトル](../../../linear-algebra/vectors/standard.md)
 
 ---
 
@@ -80,7 +84,7 @@ $k$-形式: $\omega = \sum_{i_1 < \cdots < i_k} a_{i_1\ldots i_k}\,dx_{i_1} \wed
 
 ## 関連ページ
 
-- [微分](../derivatives/standard.md)
+- [微分](introduction.md)
 - [積分（専門）](../integrals/professional.md)
 - [行列（専門）](../../../linear-algebra/matrices/professional.md)
-- [複素関数](../complex-functions/standard.md)
+- [複素関数](introduction.md)

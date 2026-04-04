@@ -1,22 +1,31 @@
 ---
-title: 指数関数（専門）
+title: 指数関数
 description: "指数型分布族・母関数・行列指数関数"
-difficulty: 5
-tags: [math,functions,exponential,professional]
+tags: [math,functions,exponential]
 hierarchy:
   - text: 数学
     href: /math/index.html
   - text: 関数
     href: /math/functions/index.html
-  - text: 指数関数（専門）
+  - text: 指数関数
     href: /math/functions/exponential/professional.html
 levels:
-  - text: 基礎
-    href: standard.html
-  - text: 発展
-    href: advanced.html
-  - text: 専門
+  - level: introduction
+    url: introduction.html
+  - level: standard
+    url: standard.html
+  - level: professional
+level: professional
+requires:
+  - title: 指数関数
+    url: \1/introduction.md
+  - title: 行列
+    url: \1/introduction.md
+  - title: 積分
+    url: \1/introduction.md
 ---
+
+
 
 
 
@@ -32,11 +41,6 @@ levels:
 - 行列指数関数 $e^A$ と常微分方程式
 - 指数型分布族（統計）
 - ラプラス変換
-
-## 前提知識
-- [指数関数](../exponential/standard.md)
-- [行列](../../linear-algebra/matrices/standard.md)
-- [積分](../calculus/integrals/standard.md)
 
 ---
 
@@ -66,6 +70,6 @@ $$p(x;\theta) = h(x)\exp(\eta(\theta)T(x) - A(\theta))$$
 
 ## 関連ページ
 
-- [指数関数](../exponential/standard.md)
+- [指数関数](introduction.md)
 - [行列（専門）](../../linear-algebra/matrices/professional.md)
 - [確率（専門）](../../statistics/probability/professional.md)

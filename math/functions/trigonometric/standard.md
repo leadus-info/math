@@ -1,7 +1,6 @@
 ---
 title: 三角関数
-description: "角度から波を作る関数"
-difficulty: 2
+description: "角度と円から生まれる周期関数"
 tags: [math,functions,trigonometric]
 hierarchy:
   - text: 数学
@@ -11,12 +10,21 @@ hierarchy:
   - text: 三角関数
     href: /math/functions/trigonometric/standard.html
 levels:
-  - text: 基礎
-  - text: 発展
-    href: advanced.html
-  - text: 専門
-    href: professional.html
+  - level: introduction
+    url: introduction.html
+  - level: standard
+  - level: professional
+    url: professional.html
+level: standard
+requires:
+  - title: 円
+    url: professional.md
+  - title: 分数
+    url: professional.md
 ---
+
+
+
 
 
 
@@ -24,28 +32,23 @@ levels:
 
 
 # 三角関数
-波・振動・回転——周期的に繰り返す変化を表す関数が**三角関数**です。
-単位円（半径 $1$ の円）の上の点の座標として定義します。
+波・振動・回転——周期的な変化を表す関数です。
+単位円（半径 1 の円）の上を動く点の座標として定義されます。
 
 ## このページで扱うこと
-- $\sin$・$\cos$・$\tan$ の定義
-- 主要な角度の値
-- グラフの形・周期
-
-## 前提知識
-- [円](../../geometry/circle/standard.md) — 単位円
-- [分数](../../numbers/fractions/standard.md)
+- $\sin$・$\cos$・$\tan$ の定義と主要な値
+- グラフの周期と振幅
+- 加法定理
 
 ---
 
-## 単位円で定義する
+## 定義（単位円）
 
-半径 $1$ の円の上を動く点を考えます。
-$x$ 軸の正方向から角度 $\theta$ の点の座標が $(\cos\theta,\ \sin\theta)$ です。
+半径 1 の円の上の点 $(\cos\theta,\ \sin\theta)$ で定義します。
 
-$$\cos\theta = x \text{ 座標}, \quad \sin\theta = y \text{ 座標}$$
-
-$$\tan\theta = \frac{\sin\theta}{\cos\theta} = \frac{y \text{ 座標}}{x \text{ 座標}}$$
+- $\cos\theta$：$x$ 座標
+- $\sin\theta$：$y$ 座標
+- $\tan\theta = \dfrac{\sin\theta}{\cos\theta}$
 
 ---
 
@@ -55,25 +58,22 @@ $$\tan\theta = \frac{\sin\theta}{\cos\theta} = \frac{y \text{ 座標}}{x \text{ 
 |------|------|-------|-------|-------|-------|
 | $\sin$ | $0$ | $\frac{1}{2}$ | $\frac{\sqrt{2}}{2}$ | $\frac{\sqrt{3}}{2}$ | $1$ |
 | $\cos$ | $1$ | $\frac{\sqrt{3}}{2}$ | $\frac{\sqrt{2}}{2}$ | $\frac{1}{2}$ | $0$ |
-| $\tan$ | $0$ | $\frac{1}{\sqrt{3}}$ | $1$ | $\sqrt{3}$ | 定義なし |
 
 ---
 
-## グラフと周期
+## グラフの性質
 
 | 関数 | 周期 | 値の範囲 |
 |------|------|---------|
-| $\sin x$ | $360°$（$= 2\pi$ ラジアン） | $-1$ から $1$ |
+| $\sin x$ | $360°$ | $-1$ から $1$ |
 | $\cos x$ | $360°$ | $-1$ から $1$ |
-| $\tan x$ | $180°$（$= \pi$ ラジアン） | すべての実数 |
-
-$\sin$ と $\cos$ は波のような形、$\tan$ は周期ごとに $-\infty$ から $+\infty$ に飛びます。
+| $\tan x$ | $180°$ | すべての実数 |
 
 ---
 
 ## 基本公式
 
-$$\sin^2\theta + \cos^2\theta = 1 \quad \text{（ピタゴラスの定理から）}$$
+$$\sin^2\theta + \cos^2\theta = 1$$
 
 **加法定理**：
 
@@ -90,5 +90,6 @@ $$(\sin x)' = \cos x, \quad (\cos x)' = -\sin x$$
 
 ## 関連ページ
 
-- [円](../../geometry/circle/standard.md)
-- [三角関数（発展）](../trigonometric/advanced.md) — より詳しく学ぶ
+- [円](professional.md)
+- [複素数](professional.md) — オイラーの公式
+- [三角関数（専門）](professional.md) — フーリエ解析

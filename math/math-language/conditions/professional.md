@@ -1,22 +1,29 @@
 ---
-title: 必要・十分条件（専門）
+title: 必要・十分条件
 description: "述語論理・証明論・モデル理論の入口"
-difficulty: 6
-tags: [math,math-language,conditions,professional]
+tags: [math,math-language,conditions]
 hierarchy:
   - text: 数学
     href: /math/index.html
   - text: 数学の言語
     href: /math/math-language/index.html
-  - text: 必要・十分条件（専門）
+  - text: 必要・十分条件
     href: /math/math-language/conditions/professional.html
 levels:
-  - text: 基礎
-    href: standard.html
-  - text: 発展
-    href: advanced.html
-  - text: 専門
+  - level: introduction
+    url: introduction.html
+  - level: standard
+    url: standard.html
+  - level: professional
+level: professional
+requires:
+  - title: 必要・十分条件
+    url: \1/introduction.md
+  - title: 集合（専門）
+    url: ../sets/professional.md
 ---
+
+
 
 
 
@@ -30,10 +37,6 @@ levels:
 - 一階述語論理の構文と意味論
 - 健全性・完全性定理
 - ゲーデルの不完全性定理の概要
-
-## 前提知識
-- [必要・十分条件](../conditions/standard.md)
-- [集合（専門）](../sets/professional.md)
 
 ---
 
@@ -63,5 +66,5 @@ $$\forall x\,\exists y\,(x < y) \quad \text{（自然数について真）}$$
 
 ## 関連ページ
 
-- [必要・十分条件](../conditions/standard.md)
+- [必要・十分条件](introduction.md)
 - [集合（専門）](../sets/professional.md)

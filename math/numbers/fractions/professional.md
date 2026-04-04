@@ -1,22 +1,31 @@
 ---
-title: 分数（専門）
+title: 分数
 description: "有理数の代数的構造・稠密性・実数との対比"
-difficulty: 4
-tags: [math,numbers,fractions,professional]
+tags: [math,numbers,fractions]
 hierarchy:
   - text: 数学
     href: /math/index.html
   - text: 数
     href: /math/numbers/index.html
-  - text: 分数（専門）
+  - text: 分数
     href: /math/numbers/fractions/professional.html
 levels:
-  - text: 基礎
-    href: standard.html
-  - text: 発展
-    href: advanced.html
-  - text: 専門
+  - level: introduction
+    url: introduction.html
+  - level: standard
+    url: standard.html
+  - level: professional
+level: professional
+requires:
+  - title: 分数
+    url: \1/introduction.md
+  - title: 集合
+    url: \1/introduction.md
+  - title: 極限（専門）
+    url: ../../functions/calculus/limits/professional.md
 ---
+
+
 
 
 
@@ -27,17 +36,12 @@ levels:
 
 # 分数（発展）
 有理数の代数的構造・稠密性・実数との距離について扱います。  
-基礎は[分数（入門）](../fractions/standard.md)を参照してください。
+基礎は[分数（入門）](introduction.md)を参照してください。
 
 ## このページで扱うこと
 - 同値類による $\mathbb{Q}$ の厳密な構成
 - 有理数の稠密性と実数との差（$\mathbb{R} \setminus \mathbb{Q}$ の非可算性）
 - $p$-進数への入口
-
-## 前提知識
-- [分数](../fractions/standard.md)
-- [集合](../../math-language/sets/standard.md)
-- [極限（専門）](../../functions/calculus/limits/professional.md)
 
 ---
 
@@ -86,6 +90,6 @@ $$|a - b|_p = p^{-v_p(a-b)}$$
 
 ## 関連ページ
 
-- [分数](../fractions/standard.md)
+- [分数](introduction.md)
 - [集合（専門）](../../math-language/sets/professional.md)
 - [数列（専門）](../../functions/sequences/professional.md) — コーシー列による実数の構成

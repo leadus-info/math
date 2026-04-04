@@ -1,7 +1,6 @@
 ---
 title: 代数
-description: "文字を使って数の関係を一般的に表す"
-difficulty: 1
+description: "文字を使って関係を表す"
 tags: [math,math-language,algebra]
 hierarchy:
   - text: 数学
@@ -11,12 +10,21 @@ hierarchy:
   - text: 代数
     href: /math/math-language/algebra/standard.html
 levels:
-  - text: 基礎
-  - text: 発展
-    href: advanced.html
-  - text: 専門
-    href: professional.html
+  - level: introduction
+    url: introduction.html
+  - level: standard
+  - level: professional
+    url: professional.html
+level: standard
+requires:
+  - title: 乗法・べき乗
+    url: professional.md
+  - title: 等号・等式
+    url: professional.md
 ---
+
+
+
 
 
 
@@ -24,75 +32,56 @@ levels:
 
 
 # 代数
-「どんな数でも……」という一般的な関係を表すとき、数の代わりに**文字**を使います。
-この文字を使った数学を**代数**といいます。
+「どんな数でも……」という一般的な関係を表すとき、文字を使います。
+文字を使った式の操作を扱う分野が**代数**です。
 
 ## このページで扱うこと
 - 文字式の意味
-- 展開（括弧を外す）
-- 因数分解（掛け算の形に戻す）
-
-## 前提知識
-- [乗法・べき乗](../../numbers/arithmetic/standard.md)
-- [等号・等式](../equations/standard.md)
+- 展開と因数分解
+- 剰余定理・因数定理
 
 ---
 
-## 文字式とはなに？
+## 文字式
 
-$$2x = 6$$
-
-$x$ は「何かわからない数」を表す文字（**変数**）です。
-$x = 3$ のとき $2 \times 3 = 6$ が成り立ちます。
-
-文字を使うと「どんな数でも成り立つルール」を一行で書けます。
-
-$$a + b = b + a \quad \text{（どんな数でも足す順番を変えてよい）}$$
+$2x$ は「2 に何かを掛けた結果」を一般的に表します。
+$x$ は「どんな数でも入れられる箱」です。
 
 ---
 
-## 展開（括弧を外す）
+## 展開
 
 括弧を外して計算することを**展開**といいます。
 
-$$3(x + 4) = 3x + 12 \quad \text{（分配法則）}$$
-
-### よく使う展開の公式
-
 $$(a + b)^2 = a^2 + 2ab + b^2$$
-
-確認：$(a+b)^2 = (a+b)(a+b) = a^2 + ab + ba + b^2 = a^2 + 2ab + b^2$
-
-$$(a - b)^2 = a^2 - 2ab + b^2$$
-
 $$(a + b)(a - b) = a^2 - b^2$$
+$$(a + b)^3 = a^3 + 3a^2 b + 3ab^2 + b^3$$
 
 ---
 
-## 因数分解（掛け算の形に戻す）
+## 因数分解
 
-展開の逆——式を掛け算の形に変形することを**因数分解**といいます。
+展開の逆——掛け算の形に変形することです。
 
 $$x^2 + 5x + 6 = (x + 2)(x + 3)$$
-
-確認：右辺を展開すると $x^2 + 3x + 2x + 6 = x^2 + 5x + 6$ ○
-
-**コツ**：「足すと $5$、掛けると $6$ になる二つの数」を探す → $2$ と $3$
+$$x^2 - 9 = (x + 3)(x - 3)$$
 
 ---
 
 ## 剰余定理・因数定理
 
-多項式 $f(x)$ を $(x - a)$ で割った余りは $f(a)$ です。
+多項式 $f(x)$ を $(x - a)$ で割ったときの余りは $f(a)$ です。
 
-特に $f(a) = 0$ のとき、$(x - a)$ は $f(x)$ を割り切れます（因数定理）。
+特に $f(a) = 0$ なら $(x - a)$ は $f(x)$ の因数です。
 
-**例**：$f(x) = x^2 - 5x + 6$ で $f(2) = 4 - 10 + 6 = 0$
-→ $(x - 2)$ は因数 → $f(x) = (x-2)(x-3)$
+**例**：$f(x) = x^2 - 5x + 6$
+
+$f(2) = 0$ なので $(x-2)$ は因数 → $f(x) = (x-2)(x-3)$
 
 ---
 
 ## 関連ページ
 
-- [多項式](../../functions/polynomials/standard.md)
-- [代数（発展）](../algebra/advanced.md) — より詳しく学ぶ
+- [多項式](professional.md)
+- [行列](professional.md)
+- [代数（専門）](professional.md)

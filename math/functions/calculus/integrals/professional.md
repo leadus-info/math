@@ -1,22 +1,31 @@
 ---
-title: 積分（専門）
+title: 積分
 description: "ルベーグ積分・広義積分・多重積分"
-difficulty: 6
-tags: [math,operations,integrals,professional]
+tags: [math,operations,integrals]
 hierarchy:
   - text: 数学
     href: /math/index.html
   - text: 関数の操作
     href: /math/functions/calculus/index.html
-  - text: 積分（専門）
+  - text: 積分
     href: /math/functions/calculus/integrals/professional.html
 levels:
-  - text: 基礎
-    href: standard.html
-  - text: 発展
-    href: advanced.html
-  - text: 専門
+  - level: introduction
+    url: introduction.html
+  - level: standard
+    url: standard.html
+  - level: professional
+level: professional
+requires:
+  - title: 積分
+    url: \1/introduction.md
+  - title: 微分（専門）
+    url: ../derivatives/professional.md
+  - title: 集合（専門）
+    url: ../../../math-language/sets/professional.md
 ---
+
+
 
 
 
@@ -32,11 +41,6 @@ levels:
 - ルベーグ積分の動機と構成
 - 多重積分とフビニの定理
 - 線積分・曲面積分とストークスの定理
-
-## 前提知識
-- [積分](../integrals/standard.md)
-- [微分（専門）](../derivatives/professional.md)
-- [集合（専門）](../../../math-language/sets/professional.md)
 
 ---
 
@@ -76,6 +80,6 @@ $$\int_{\partial M}\omega = \int_M d\omega$$
 
 ## 関連ページ
 
-- [積分](../integrals/standard.md)
+- [積分](introduction.md)
 - [微分（専門）](../derivatives/professional.md)
-- [複素関数](../complex-functions/standard.md)
+- [複素関数](introduction.md)

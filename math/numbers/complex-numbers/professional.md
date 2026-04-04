@@ -1,22 +1,31 @@
 ---
-title: 複素数（専門）
+title: 複素数
 description: "代数閉体・四元数・クリフォード代数"
-difficulty: 5
-tags: [math,complex-numbers,complex-numbers,professional]
+tags: [math,complex-numbers,complex-numbers]
 hierarchy:
   - text: 数学
     href: /math/index.html
   - text: 数
     href: /math/numbers/index.html
-  - text: 複素数（専門）
+  - text: 複素数
     href: /math/numbers/complex-numbers/professional.html
 levels:
-  - text: 基礎
-    href: standard.html
-  - text: 発展
-    href: advanced.html
-  - text: 専門
+  - level: introduction
+    url: introduction.html
+  - level: standard
+    url: standard.html
+  - level: professional
+level: professional
+requires:
+  - title: 複素数
+    url: \1/introduction.md
+  - title: 行列（専門）
+    url: ../../linear-algebra/matrices/professional.md
+  - title: 四則演算（専門）
+    url: ../arithmetic/professional.md
 ---
+
+
 
 
 
@@ -32,11 +41,6 @@ levels:
 - $\mathbb{C}$ が代数的閉体である意味
 - 四元数 $\mathbb{H}$ と3次元回転
 - クリフォード代数の概要
-
-## 前提知識
-- [複素数](../complex-numbers/standard.md)
-- [行列（専門）](../../linear-algebra/matrices/professional.md)
-- [四則演算（専門）](../arithmetic/professional.md)
 
 ---
 
@@ -67,6 +71,6 @@ $n=1$: $\mathbb{C}$、$n=2$: $\mathbb{H}$、スピノルの数学的基盤。
 
 ## 関連ページ
 
-- [複素数](../complex-numbers/standard.md)
+- [複素数](introduction.md)
 - [行列（専門）](../../linear-algebra/matrices/professional.md)
 - [四則演算（専門）](../arithmetic/professional.md)

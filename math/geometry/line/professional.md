@@ -1,22 +1,31 @@
 ---
-title: 直線（専門）
+title: 直線
 description: "射影空間・デザルグ定理・射影幾何"
-difficulty: 5
-tags: [math,geometry,line,professional]
+tags: [math,geometry,line]
 hierarchy:
   - text: 数学
     href: /math/index.html
   - text: 幾何
     href: /math/geometry/index.html
-  - text: 直線（専門）
+  - text: 直線
     href: /math/geometry/line/professional.html
 levels:
-  - text: 基礎
-    href: standard.html
-  - text: 発展
-    href: advanced.html
-  - text: 専門
+  - level: introduction
+    url: introduction.html
+  - level: standard
+    url: standard.html
+  - level: professional
+level: professional
+requires:
+  - title: 直線
+    url: \1/introduction.md
+  - title: ベクトル
+    url: \1/introduction.md
+  - title: 集合
+    url: \1/introduction.md
 ---
+
+
 
 
 
@@ -32,11 +41,6 @@ levels:
 - 射影空間と無限遠点
 - 双対原理（点と直線の対称性）
 - デザルグの定理
-
-## 前提知識
-- [直線](../line/standard.md)
-- [ベクトル](../../linear-algebra/vectors/standard.md)
-- [集合](../../math-language/sets/standard.md)
 
 ---
 
@@ -62,6 +66,6 @@ $\mathbb{P}^2$ では「点」と「直線」を入れ替えても定理が成�
 
 ## 関連ページ
 
-- [直線](../line/standard.md)
+- [直線](introduction.md)
 - [行列（専門）](../../linear-algebra/matrices/professional.md)
 - [複素数（専門）](../../numbers/complex-numbers/professional.md)

@@ -1,7 +1,6 @@
 ---
 title: 円
-description: "中心から等距離にある点の集まり"
-difficulty: 1
+description: "中心から等距離な点の集合"
 tags: [math,geometry,circle]
 hierarchy:
   - text: 数学
@@ -11,29 +10,34 @@ hierarchy:
   - text: 円
     href: /math/geometry/circle/standard.html
 levels:
-  - text: 基礎
-  - text: 発展
-    href: advanced.html
-  - text: 専門
-    href: professional.html
+  - level: introduction
+    url: introduction.html
+  - level: standard
+  - level: professional
+    url: professional.html
+level: standard
+requires:
+  - title: 点
+    url: professional.md
+  - title: 直線
+    url: professional.md
 ---
 
 
 
 
 
+
+
+
+
 # 円
-$1$ つの点（中心）から同じ距離にある点をすべて集めた図形が**円**です。
-三角関数の定義にも使われます。
+1 点から等しい距離にある点をすべて集めた図形が**円**です。
 
 ## このページで扱うこと
 - 円の方程式
-- 円周・面積・弧長
-- 円と直線の関係
-
-## 前提知識
-- [点](../point/standard.md)
-- [直線](../line/standard.md)
+- 円周・面積・弧長・扇形の面積
+- 円と直線の位置関係・接線
 
 ---
 
@@ -43,21 +47,17 @@ $1$ つの点（中心）から同じ距離にある点をすべて集めた図�
 
 $$(x - a)^2 + (y - b)^2 = r^2$$
 
-これは「中心からの距離が $r$」という距離の式 $\sqrt{(x-a)^2+(y-b)^2} = r$ を $2$ 乗したものです。
-
 ---
 
 ## 円周と面積
 
 $$\text{円周} = 2\pi r, \qquad \text{面積} = \pi r^2$$
 
-$\pi = 3.14159\ldots$（円周率）は無理数で、分数では表せません。
-
 ---
 
 ## 弧長と扇形の面積
 
-中心角が $\theta$（ラジアン）のとき：
+中心角 $\theta$（ラジアン）のとき：
 
 $$\text{弧長} = r\theta, \qquad \text{扇形の面積} = \frac{1}{2}r^2\theta$$
 
@@ -65,27 +65,32 @@ $$\text{弧長} = r\theta, \qquad \text{扇形の面積} = \frac{1}{2}r^2\theta$
 
 ## 円と直線の位置関係
 
-中心から直線までの距離 $d$ と半径 $r$ を比べます：
+中心から直線までの距離 $d$ と半径 $r$ の比較：
 
-| $d$ と $r$ の関係 | 直線との関係 |
-|------------------|-------------|
-| $d < r$ | $2$ 点で交わる |
-| $d = r$ | $1$ 点で接する（接線） |
+| 条件 | 関係 |
+|------|------|
+| $d < r$ | 2 点で交わる |
+| $d = r$ | 接する（接線） |
 | $d > r$ | 交わらない |
 
 ---
 
-## 単位円
+## 接線の方程式
 
-中心が原点、半径 $1$ の円を**単位円**といいます。
-$x^2 + y^2 = 1$
+円 $x^2 + y^2 = r^2$ 上の点 $(x_0, y_0)$ での接線：
 
-この円の上の点が三角関数 $(\cos\theta, \sin\theta)$ の定義になっています。
+$$x_0 x + y_0 y = r^2$$
+
+---
+
+## 単位円と三角関数
+
+$$\cos^2\theta + \sin^2\theta = 1$$
 
 ---
 
 ## 関連ページ
 
-- [三角関数](../../functions/trigonometric/standard.md)
-- [三角形](../triangle/standard.md)
-- [円（発展）](../circle/advanced.md) — より詳しく学ぶ
+- [三角関数](professional.md)
+- [三角形](professional.md)
+- [円（専門）](professional.md)

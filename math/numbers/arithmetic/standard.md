@@ -1,7 +1,6 @@
 ---
 title: 乗法・べき乗
-description: "掛け算を積み重ねるとべき乗になる"
-difficulty: 1
+description: "掛け算の性質とべき乗・平方根"
 tags: [math,operations,arithmetic]
 hierarchy:
   - text: 数学
@@ -11,115 +10,112 @@ hierarchy:
   - text: 乗法・べき乗
     href: /math/numbers/arithmetic/standard.html
 levels:
-  - text: 基礎
-  - text: 発展
-    href: advanced.html
-  - text: 専門
-    href: professional.html
+  - level: introduction
+    url: introduction.html
+  - level: standard
+  - level: professional
+    url: professional.html
+level: standard
+requires:
+  - title: 自然数
+    url: professional.md
+  - title: 負数
+    url: professional.md
+  - title: 分数
+    url: professional.md
 ---
+
+
+
+
 
 
 
 
 
 # 乗法・べき乗
-[自然数](../../numbers/natural-numbers/standard.md)では足し算と掛け算を学びました。
-このページでは掛け算をさらに積み重ねた**べき乗**と、その逆操作の**平方根**を扱います。
+掛け算は[自然数](professional.md)のページで導入しました。  
+このページでは、掛け算をさらに発展させた**べき乗**と**平方根**を扱います。
+
+加法（足し算）は[自然数](professional.md)、  
+減法（引き算）は[負数](professional.md)、  
+除法（割り算）は[分数](professional.md)でそれぞれ導入しています。
 
 ## このページで扱うこと
-- べき乗とは（同じ数を繰り返し掛ける）
-- 指数の計算ルール
-- 平方根（ルート）
-
-## 前提知識
-- [自然数](../../numbers/natural-numbers/standard.md) — 掛け算の基礎
-- [分数](../../numbers/fractions/standard.md) — 分数のべき乗
+- 乗法の性質のまとめ（交換・結合・分配）
+- べき乗（同じ数を繰り返し掛ける）
+- 指数法則
+- 平方根・累乗根
 
 ---
 
-## べき乗とは？
+## 乗法の性質まとめ
 
-$2$ を $3$ 回掛けることを $2^3$ と書きます。
+掛け算には次の三つの重要な性質があります。
+
+**交換法則**：順番を入れ替えてよい
+
+$$a \times b = b \times a$$
+
+**結合法則**：まとめ方を変えてよい
+
+$$(a \times b) \times c = a \times (b \times c)$$
+
+**分配法則**：足し算と掛け算をつなぐ
+
+$$a \times (b + c) = a \times b + a \times c$$
+
+---
+
+## べき乗
+
+同じ数を何度も掛けることを**べき乗**（累乗）といいます。
 
 $$2^3 = 2 \times 2 \times 2 = 8$$
+$$a^n = \underbrace{a \times a \times \cdots \times a}_{n \text{ 個}}$$
 
-$3$ のことを**指数**（または**累乗の指数**）といいます。
+特別な場合：
 
-$$\underbrace{a \times a \times \cdots \times a}_{n \text{ 回}} = a^n$$
-
-| 式 | 読み方 | 計算 |
-|----|--------|------|
-| $2^1$ | $2$ の $1$ 乗 | $2$ |
-| $2^2$ | $2$ の $2$ 乗（$2$ の二乗） | $4$ |
-| $2^3$ | $2$ の $3$ 乗（$2$ の三乗） | $8$ |
-| $2^4$ | $2$ の $4$ 乗 | $16$ |
-| $2^{10}$ | $2$ の $10$ 乗 | $1024$ |
+$$a^1 = a, \quad a^0 = 1 \quad (a \neq 0)$$
 
 ---
 
-## 特別なべき乗
+## 指数法則
 
-$$a^1 = a, \qquad a^0 = 1 \quad (a \neq 0)$$
-
-「$0$ 乗は $1$」は最初は不思議に感じますが、
-指数の計算ルールから自然に決まります。
-
----
-
-## 指数の計算ルール
-
-**同じ底を掛けるとき**：指数を足します。
-
-$$2^3 \times 2^4 = \underbrace{2 \times 2 \times 2}_{3} \times \underbrace{2 \times 2 \times 2 \times 2}_{4} = 2^7$$
-
-$$a^m \times a^n = a^{m+n}$$
-
-**べき乗のべき乗**：指数を掛けます。
-
-$$(2^3)^2 = (2 \times 2 \times 2) \times (2 \times 2 \times 2) = 2^6$$
-
-$$(a^m)^n = a^{m \times n}$$
-
-**負の指数**（分数への拡張）：
-
-$$2^{-1} = \frac{1}{2}, \quad 2^{-3} = \frac{1}{2^3} = \frac{1}{8}$$
-
-$$a^{-n} = \frac{1}{a^n}$$
+| 法則 | 式 | 例 |
+|------|----|----|
+| 掛け算 | $a^m \times a^n = a^{m+n}$ | $2^3 \times 2^4 = 2^7$ |
+| 割り算 | $a^m \div a^n = a^{m-n}$ | $2^5 \div 2^3 = 2^2$ |
+| 累乗の累乗 | $(a^m)^n = a^{mn}$ | $(2^3)^2 = 2^6$ |
+| 積のべき乗 | $(ab)^n = a^n b^n$ | $(2 \times 3)^2 = 4 \times 9$ |
 
 ---
 
-## 平方根（ルート）
+## 負の指数
 
-「$x^2 = 9$ を満たす $x$ は？」——つまりべき乗の逆を求めることがあります。
+$a^{-n}$ は $a^n$ の逆数として定義します。
 
-$3^2 = 9$ なので、答えは $x = 3$ です。
-これを $\sqrt{9} = 3$（$9$ の**平方根**は $3$）と書きます。
+$$a^{-n} = \frac{1}{a^n}, \quad a^{-1} = \frac{1}{a}$$
 
-$$\sqrt{1} = 1, \quad \sqrt{4} = 2, \quad \sqrt{9} = 3, \quad \sqrt{16} = 4, \quad \sqrt{25} = 5$$
-
-$$\sqrt{2} = 1.414\ldots \quad \text{（分数で表せない！）}$$
-
-$\sqrt{2}$ は有限小数でも分数でも表せない数（**無理数**）です。
+これにより指数法則がすべての整数に対して成り立ちます。
 
 ---
 
-## べき乗で見る小数の仕組み
+## 平方根・累乗根
 
-べき乗を学んだ今、[小数](../../numbers/decimals/standard.md)の仕組みをより簡潔に書き直せます。
+$x^2 = a$ になる $x$（$x \geq 0$）を $\sqrt{a}$（ルート $a$）と書きます。
 
-$$0.1 = 10^{-1}, \quad 0.01 = 10^{-2}, \quad 0.001 = 10^{-3}$$
+$$\sqrt{9} = 3 \quad (3^2 = 9), \quad \sqrt{4} = 2 \quad (2^2 = 4)$$
+$$\sqrt{2} = 1.414\ldots \quad \text{（割り切れない）}$$
 
-なので、
+より一般に、$x^n = a$ になる $x$（$x \geq 0$）を $\sqrt[n]{a} = a^{1/n}$ と書きます。
 
-$$3.14 = 3 	imes 10^0 + 1 	imes 10^{-1} + 4 	imes 10^{-2}$$
-
-小数点以下の各桁は「$10$ の負のべき乗」の係数です。
-これは $10$ 進数という記数法の構造そのものです。
+$$\sqrt[3]{8} = 2 \quad (2^3 = 8)$$
 
 ---
 
 ## 関連ページ
 
-- [指数関数](../../functions/exponential/standard.md) — べき乗を関数として見る
-- [等号・等式](../../math-language/equations/standard.md)
-- [乗法・べき乗（発展）](../arithmetic/advanced.md) — より詳しく学ぶ
+- [等号・等式](professional.md) — 計算結果を式で表す
+- [指数関数](professional.md) — べき乗を関数として見る
+- [乗法・べき乗（専門）](professional.md) — 群・環・体の代数的構造

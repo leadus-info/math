@@ -1,22 +1,31 @@
 ---
-title: 不等号・不等式（専門）
+title: 不等号・不等式
 description: "凸不等式・関数不等式・最適化理論との接続"
-difficulty: 5
-tags: [math,math-language,inequalities,professional]
+tags: [math,math-language,inequalities]
 hierarchy:
   - text: 数学
     href: /math/index.html
   - text: 数学の言語
     href: /math/math-language/index.html
-  - text: 不等号・不等式（専門）
+  - text: 不等号・不等式
     href: /math/math-language/inequalities/professional.html
 levels:
-  - text: 基礎
-    href: standard.html
-  - text: 発展
-    href: advanced.html
-  - text: 専門
+  - level: introduction
+    url: introduction.html
+  - level: standard
+    url: standard.html
+  - level: professional
+level: professional
+requires:
+  - title: 不等号・不等式
+    url: \1/introduction.md
+  - title: 微分
+    url: \1/introduction.md
+  - title: 積分
+    url: \1/introduction.md
 ---
+
+
 
 
 
@@ -32,11 +41,6 @@ levels:
 - 凸関数とイェンセン不等式
 - ヘルダー不等式・ミンコフスキー不等式
 - KKT条件と最適化
-
-## 前提知識
-- [不等号・不等式](../inequalities/standard.md)
-- [微分](../../functions/calculus/derivatives/standard.md)
-- [積分](../../functions/calculus/integrals/standard.md)
 
 ---
 
@@ -74,6 +78,6 @@ $$\sum_i |a_i b_i| \leq \left(\sum_i |a_i|^p\right)^{1/p}\left(\sum_i |b_i|^q\ri
 
 ## 関連ページ
 
-- [不等号・不等式](../inequalities/standard.md)
+- [不等号・不等式](introduction.md)
 - [積分（専門）](../../functions/calculus/integrals/professional.md)
 - [確率（専門）](../../statistics/probability/professional.md)

@@ -1,22 +1,31 @@
 ---
-title: 行列（専門）
+title: 行列
 description: "スペクトル定理・特異値分解・リー代数"
-difficulty: 6
-tags: [math,linear-algebra,matrices,professional]
+tags: [math,linear-algebra,matrices]
 hierarchy:
   - text: 数学
     href: /math/index.html
   - text: 線形代数
     href: /math/linear-algebra/index.html
-  - text: 行列（専門）
+  - text: 行列
     href: /math/linear-algebra/matrices/professional.html
 levels:
-  - text: 基礎
-    href: standard.html
-  - text: 発展
-    href: advanced.html
-  - text: 専門
+  - level: introduction
+    url: introduction.html
+  - level: standard
+    url: standard.html
+  - level: professional
+level: professional
+requires:
+  - title: 行列
+    url: \1/introduction.md
+  - title: ベクトル（専門）
+    url: ../vectors/professional.md
+  - title: 複素数
+    url: \1/introduction.md
 ---
+
+
 
 
 
@@ -32,11 +41,6 @@ levels:
 - スペクトル定理（対称行列の対角化）
 - 特異値分解（SVD）
 - 行列のリー群・リー代数
-
-## 前提知識
-- [行列](../matrices/standard.md)
-- [ベクトル（専門）](../vectors/professional.md)
-- [複素数](../../numbers/complex-numbers/standard.md)
 
 ---
 
@@ -72,6 +76,6 @@ $U$: $m\times m$ 直交, $\Sigma$: 対角（特異値）, $V$: $n\times n$ 直�
 
 ## 関連ページ
 
-- [行列](../matrices/standard.md)
+- [行列](introduction.md)
 - [ベクトル（専門）](../vectors/professional.md)
 - [複素数（専門）](../../numbers/complex-numbers/professional.md)

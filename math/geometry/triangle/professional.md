@@ -1,22 +1,29 @@
 ---
-title: 三角形（専門）
+title: 三角形
 description: "重心座標・三角形の幾何学的定理・双曲幾何"
-difficulty: 5
-tags: [math,geometry,triangle,professional]
+tags: [math,geometry,triangle]
 hierarchy:
   - text: 数学
     href: /math/index.html
   - text: 幾何
     href: /math/geometry/index.html
-  - text: 三角形（専門）
+  - text: 三角形
     href: /math/geometry/triangle/professional.html
 levels:
-  - text: 基礎
-    href: standard.html
-  - text: 発展
-    href: advanced.html
-  - text: 専門
+  - level: introduction
+    url: introduction.html
+  - level: standard
+    url: standard.html
+  - level: professional
+level: professional
+requires:
+  - title: 三角形
+    url: \1/introduction.md
+  - title: ベクトル
+    url: \1/introduction.md
 ---
+
+
 
 
 
@@ -31,10 +38,6 @@ levels:
 - 重心座標系
 - メネラウスの定理・チェバの定理
 - 非ユークリッド幾何（双曲幾何の三角形）
-
-## 前提知識
-- [三角形](../triangle/standard.md)
-- [ベクトル](../../linear-algebra/vectors/standard.md)
 
 ---
 
@@ -72,6 +75,6 @@ $$S = K(\pi - \alpha - \beta - \gamma)\quad (K>0)$$
 
 ## 関連ページ
 
-- [三角形](../triangle/standard.md)
+- [三角形](introduction.md)
 - [直線（専門）](../line/professional.md)
 - [点（専門）](../point/professional.md)

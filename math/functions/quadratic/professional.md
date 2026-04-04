@@ -1,22 +1,31 @@
 ---
-title: 二次関数（専門）
+title: 二次関数
 description: "二次形式・固有値との接続・円錐曲線"
-difficulty: 5
-tags: [math,functions,quadratic,professional]
+tags: [math,functions,quadratic]
 hierarchy:
   - text: 数学
     href: /math/index.html
   - text: 関数
     href: /math/functions/index.html
-  - text: 二次関数（専門）
+  - text: 二次関数
     href: /math/functions/quadratic/professional.html
 levels:
-  - text: 基礎
-    href: standard.html
-  - text: 発展
-    href: advanced.html
-  - text: 専門
+  - level: introduction
+    url: introduction.html
+  - level: standard
+    url: standard.html
+  - level: professional
+level: professional
+requires:
+  - title: 二次関数
+    url: \1/introduction.md
+  - title: 行列
+    url: \1/introduction.md
+  - title: ベクトル
+    url: \1/introduction.md
 ---
+
+
 
 
 
@@ -31,11 +40,6 @@ levels:
 - 二次形式と正値性
 - 円錐曲線（楕円・双曲線・放物線）の統一的な扱い
 - 最適化との接続（ヘッセ行列）
-
-## 前提知識
-- [二次関数](../quadratic/standard.md)
-- [行列](../../linear-algebra/matrices/standard.md)
-- [ベクトル](../../linear-algebra/vectors/standard.md)
 
 ---
 
@@ -73,6 +77,6 @@ $H_f$ が正定値 → 極小、負定値 → 極大
 
 ## 関連ページ
 
-- [二次関数](../quadratic/standard.md)
+- [二次関数](introduction.md)
 - [行列（専門）](../../linear-algebra/matrices/professional.md)
 - [多項式（専門）](../polynomials/professional.md)

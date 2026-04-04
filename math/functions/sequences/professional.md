@@ -1,22 +1,31 @@
 ---
-title: 数列（専門）
+title: 数列
 description: "級数の収束判定・べき級数・漸近展開"
-difficulty: 5
-tags: [math,functions,sequences,professional]
+tags: [math,functions,sequences]
 hierarchy:
   - text: 数学
     href: /math/index.html
   - text: 関数
     href: /math/functions/index.html
-  - text: 数列（専門）
+  - text: 数列
     href: /math/functions/sequences/professional.html
 levels:
-  - text: 基礎
-    href: standard.html
-  - text: 発展
-    href: advanced.html
-  - text: 専門
+  - level: introduction
+    url: introduction.html
+  - level: standard
+    url: standard.html
+  - level: professional
+level: professional
+requires:
+  - title: 数列
+    url: \1/introduction.md
+  - title: 極限（専門）
+    url: ../calculus/limits/professional.md
+  - title: 微分
+    url: \1/introduction.md
 ---
+
+
 
 
 
@@ -32,11 +41,6 @@ levels:
 - 収束判定法（比率・根・積分・交代）
 - べき級数と収束半径
 - 漸近展開と発散級数
-
-## 前提知識
-- [数列](../sequences/standard.md)
-- [極限（専門）](../calculus/limits/professional.md)
-- [微分](../calculus/derivatives/standard.md)
 
 ---
 
@@ -73,6 +77,6 @@ $$n! \sim \sqrt{2\pi n}\left(\frac{n}{e}\right)^n$$
 
 ## 関連ページ
 
-- [数列](../sequences/standard.md)
-- [複素関数](../calculus/complex-functions/standard.md)
+- [数列](introduction.md)
+- [複素関数](introduction.md)
 - [三角関数（専門）](../trigonometric/professional.md)

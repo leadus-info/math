@@ -1,22 +1,31 @@
 ---
-title: 一次関数（専門）
+title: 一次関数
 description: "アフィン変換・線形写像・超平面"
-difficulty: 4
-tags: [math,functions,linear,professional]
+tags: [math,functions,linear]
 hierarchy:
   - text: 数学
     href: /math/index.html
   - text: 関数
     href: /math/functions/index.html
-  - text: 一次関数（専門）
+  - text: 一次関数
     href: /math/functions/linear/professional.html
 levels:
-  - text: 基礎
-    href: standard.html
-  - text: 発展
-    href: advanced.html
-  - text: 専門
+  - level: introduction
+    url: introduction.html
+  - level: standard
+    url: standard.html
+  - level: professional
+level: professional
+requires:
+  - title: 一次関数
+    url: \1/introduction.md
+  - title: 行列
+    url: \1/introduction.md
+  - title: ベクトル
+    url: \1/introduction.md
 ---
+
+
 
 
 
@@ -31,11 +40,6 @@ levels:
 - 線形写像とアフィン写像の違い
 - $n$ 次元での一次関数（超平面）
 - 最小二乗法との接続
-
-## 前提知識
-- [一次関数](../linear/standard.md)
-- [行列](../../linear-algebra/matrices/standard.md)
-- [ベクトル](../../linear-algebra/vectors/standard.md)
 
 ---
 
@@ -69,6 +73,6 @@ $$\min_{a,b} \sum_i (y_i - ax_i - b)^2$$
 
 ## 関連ページ
 
-- [一次関数](../linear/standard.md)
+- [一次関数](introduction.md)
 - [行列（専門）](../../linear-algebra/matrices/professional.md)
 - [確率（専門）](../../statistics/probability/professional.md)

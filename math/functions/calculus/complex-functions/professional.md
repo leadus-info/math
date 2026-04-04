@@ -1,22 +1,31 @@
 ---
-title: 複素関数（専門）
+title: 複素関数
 description: "リーマン面・解析接続・モジュラー形式"
-difficulty: 6
-tags: [math,complex-numbers,complex-functions,professional]
+tags: [math,complex-numbers,complex-functions]
 hierarchy:
   - text: 数学
     href: /math/index.html
   - text: 関数の操作
     href: /math/functions/calculus/index.html
-  - text: 複素関数（専門）
+  - text: 複素関数
     href: /math/functions/calculus/complex-functions/professional.html
 levels:
-  - text: 基礎
-    href: standard.html
-  - text: 発展
-    href: advanced.html
-  - text: 専門
+  - level: introduction
+    url: introduction.html
+  - level: standard
+    url: standard.html
+  - level: professional
+level: professional
+requires:
+  - title: 複素関数
+    url: \1/introduction.md
+  - title: 対数関数（専門）
+    url: ../../logarithmic/professional.md
+  - title: 点（専門）
+    url: ../../../geometry/point/professional.md
 ---
+
+
 
 
 
@@ -32,11 +41,6 @@ levels:
 - リーマン面（多価関数の定義域）
 - 解析接続とモノドロミー
 - モジュラー形式の概要
-
-## 前提知識
-- [複素関数](../complex-functions/standard.md)
-- [対数関数（専門）](../../logarithmic/professional.md)
-- [点（専門）](../../../geometry/point/professional.md)
 
 ---
 
@@ -74,6 +78,6 @@ $$f\left(\frac{az+b}{cz+d}\right) = (cz+d)^k f(z)$$
 
 ## 関連ページ
 
-- [複素関数](../complex-functions/standard.md)
+- [複素関数](introduction.md)
 - [複素数（専門）](../../../numbers/complex-numbers/professional.md)
 - [等号・等式（専門）](../../../math-language/equations/professional.md)

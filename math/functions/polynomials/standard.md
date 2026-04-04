@@ -1,7 +1,6 @@
 ---
 title: 多項式
 description: "べき乗の和で表される関数"
-difficulty: 2
 tags: [math,functions,polynomials]
 hierarchy:
   - text: 数学
@@ -11,12 +10,23 @@ hierarchy:
   - text: 多項式
     href: /math/functions/polynomials/standard.html
 levels:
-  - text: 基礎
-  - text: 発展
-    href: advanced.html
-  - text: 専門
-    href: professional.html
+  - level: introduction
+    url: introduction.html
+  - level: standard
+  - level: professional
+    url: professional.html
+level: standard
+requires:
+  - title: 二次関数
+    url: professional.md
+  - title: 代数
+    url: professional.md
+  - title: 微分
+    url: professional.md
 ---
+
+
+
 
 
 
@@ -24,62 +34,55 @@ levels:
 
 
 # 多項式
-$x^3 - 2x + 1$ のような、$x$ のべき乗の足し合わせで表される関数が**多項式**です。
-一次関数・二次関数の自然な拡張です。
+$x^2 + 3x - 2$ のように $x$ のべき乗の和で書ける関数が**多項式**です。
+一次関数・二次関数を一般化したものです。
 
 ## このページで扱うこと
 - 多項式の次数と係数
-- 根（$y = 0$ になる $x$ の値）
-- グラフの大まかな形
-
-## 前提知識
-- [二次関数](../quadratic/standard.md)
-- [代数](../../math-language/algebra/standard.md)
+- 根と因数の関係
+- 微分・積分・グラフの概形
 
 ---
 
-## 多項式とは？
+## 定義
 
-$$f(x) = x^3 - 2x + 1$$
+$$f(x) = a_n x^n + \cdots + a_1 x + a_0 \quad (a_n \neq 0)$$
 
-$x^3$、$-2x$、$1$ という各項の和です。
-
-$$f(x) = a_n x^n + a_{n-1}x^{n-1} + \cdots + a_1 x + a_0$$
-
-- **次数**：最も大きいべき乗の数（例：$x^3$ なら $3$ 次）
-- **係数**：各項の数の部分（$a_n,\ a_{n-1},\ \ldots$）
+$n$ が**次数**です。
 
 ---
 
-## 根（零点）
+## 根と因数定理
 
-$f(x) = 0$ となる $x$ の値を**根**（または**零点**）といいます。
+$f(\alpha) = 0$ となる $\alpha$ を**根**（零点）といいます。
 
-**因数定理**：$f(\alpha) = 0$ なら $(x - \alpha)$ で割り切れます。
+$$f(\alpha) = 0 \iff f(x) = (x - \alpha) \cdot g(x)$$
 
-$$f(x) = x^2 - 5x + 6 \text{ で } f(2) = 0 \text{、} f(3) = 0$$
-$$\implies f(x) = (x-2)(x-3)$$
+**例**：$f(x) = x^2 - 5x + 6$
+
+$f(2) = 0$、$f(3) = 0$ なので：
+
+$$f(x) = (x-2)(x-3)$$
 
 ---
 
 ## 微分・積分
 
-べき乗則を各項に適用します。
-
-$$(x^n)' = nx^{n-1}, \quad \int x^n\,dx = \frac{x^{n+1}}{n+1} + C$$
+$$\frac{d}{dx}x^n = nx^{n-1}, \qquad \int x^n\,dx = \frac{x^{n+1}}{n+1} + C$$
 
 ---
 
 ## グラフの概形
 
-- **偶数次・最高次係数が正**：両端が上に向く（$\cup$ 型）
-- **奇数次・最高次係数が正**：左端が下、右端が上に向く
+- 次数が偶数・最高次係数が正 → 両端が上（$\cup$ 型）
+- 次数が奇数・最高次係数が正 → 左下・右上に伸びる
 
-根の位置でグラフが $x$ 軸と交わります。
+根の場所でグラフが $x$ 軸と交わります。
 
 ---
 
 ## 関連ページ
 
-- [二次関数](../quadratic/standard.md)
-- [多項式（発展）](../polynomials/advanced.md) — より詳しく学ぶ
+- [二次関数](professional.md)
+- [複素数](professional.md)
+- [多項式（専門）](professional.md)

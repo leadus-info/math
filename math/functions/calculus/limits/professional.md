@@ -1,22 +1,31 @@
 ---
-title: 極限（専門）
+title: 極限
 description: "ε-δ論法・一様収束・位相的極限"
-difficulty: 6
-tags: [math,operations,limits,professional]
+tags: [math,operations,limits]
 hierarchy:
   - text: 数学
     href: /math/index.html
   - text: 関数の操作
     href: /math/functions/calculus/index.html
-  - text: 極限（専門）
+  - text: 極限
     href: /math/functions/calculus/limits/professional.html
 levels:
-  - text: 基礎
-    href: standard.html
-  - text: 発展
-    href: advanced.html
-  - text: 専門
+  - level: introduction
+    url: introduction.html
+  - level: standard
+    url: standard.html
+  - level: professional
+level: professional
+requires:
+  - title: 極限
+    url: \1/introduction.md
+  - title: 集合（専門）
+    url: ../../../math-language/sets/professional.md
+  - title: 小数（専門）
+    url: ../../../numbers/decimals/professional.md
 ---
+
+
 
 
 
@@ -32,11 +41,6 @@ $\varepsilon$-$\delta$ 論法・一様収束・位相的な極限の定式化を
 - $\varepsilon$-$\delta$ による厳密な定義と証明例
 - 点収束と一様収束の違い
 - 位相空間における極限
-
-## 前提知識
-- [極限](../limits/standard.md)
-- [集合（専門）](../../../math-language/sets/professional.md)
-- [小数（専門）](../../../numbers/decimals/professional.md)
 
 ---
 
@@ -80,6 +84,6 @@ $$\forall \varepsilon > 0,\ \exists N \text{ s.t. } m,n > N \Rightarrow |a_m - a
 
 ## 関連ページ
 
-- [極限](../limits/standard.md)
+- [極限](introduction.md)
 - [微分（専門）](../derivatives/professional.md)
 - [小数（専門）](../../../numbers/decimals/professional.md)

@@ -13,6 +13,7 @@ hierarchy:
 
 
 
+
 # 数
 
 > **標準**：初めて学ぶ人向け　**発展**：高校〜大学入門　**専門**：大学以上
@@ -22,35 +23,35 @@ hierarchy:
 ## 自然数
 ものを数える最も基本的な数。足し算・掛け算と、その限界（引けない・割り切れない）を扱います。
 
-[標準](./natural-numbers/standard.md) / [発展](./natural-numbers/advanced.md) / [専門](./natural-numbers/professional.md)
+[入門](natural-numbers/introduction.md) / [標準](natural-numbers/standard.md) / [専門](natural-numbers/professional.md)
 
 
 ## 分数
 割り算が割り切れないときに生まれる数。有理数の性質を扱います。
 
-[標準](./fractions/standard.md) / [発展](./fractions/advanced.md) / [専門](./fractions/professional.md)
+[入門](fractions/introduction.md) / [標準](fractions/standard.md) / [専門](fractions/professional.md)
 
 
 ## 小数
 分数を10進法で表す記法。有限小数・循環小数・無理数を扱います。
 
-[標準](./decimals/standard.md) / [発展](./decimals/advanced.md) / [専門](./decimals/professional.md)
+[入門](decimals/introduction.md) / [標準](decimals/standard.md) / [専門](decimals/professional.md)
 
 
 ## 負数
 引き算が閉じないことから生まれる0より小さい数。整数全体を扱います。
 
-[標準](./negative-numbers/standard.md) / [発展](./negative-numbers/advanced.md) / [専門](./negative-numbers/professional.md)
+[入門](negative-numbers/introduction.md) / [標準](negative-numbers/standard.md) / [専門](negative-numbers/professional.md)
 
 
 ## 乗法・べき乗
 掛け算の積み重ねとしてのべき乗と平方根を扱います。
 
-[標準](./arithmetic/standard.md) / [発展](./arithmetic/advanced.md) / [専門](./arithmetic/professional.md)
+[入門](arithmetic/introduction.md) / [標準](arithmetic/standard.md) / [専門](arithmetic/professional.md)
 
 
 ## 複素数
 平方根が負になるときに生まれる数。実数を超えた数の体系を扱います。
 
-[標準](./complex-numbers/standard.md) / [発展](./complex-numbers/advanced.md) / [専門](./complex-numbers/professional.md)
+[入門](complex-numbers/introduction.md) / [標準](complex-numbers/standard.md) / [専門](complex-numbers/professional.md)
 

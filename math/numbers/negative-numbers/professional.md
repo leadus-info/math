@@ -1,22 +1,31 @@
 ---
-title: 負数（専門）
+title: 負数
 description: "整数環の代数的構造・整域・Z上のモジュール"
-difficulty: 4
-tags: [math,numbers,negative-numbers,professional]
+tags: [math,numbers,negative-numbers]
 hierarchy:
   - text: 数学
     href: /math/index.html
   - text: 数
     href: /math/numbers/index.html
-  - text: 負数（専門）
+  - text: 負数
     href: /math/numbers/negative-numbers/professional.html
 levels:
-  - text: 基礎
-    href: standard.html
-  - text: 発展
-    href: advanced.html
-  - text: 専門
+  - level: introduction
+    url: introduction.html
+  - level: standard
+    url: standard.html
+  - level: professional
+level: professional
+requires:
+  - title: 負数
+    url: \1/introduction.md
+  - title: 自然数（専門）
+    url: ../natural-numbers/professional.md
+  - title: 集合
+    url: \1/introduction.md
 ---
+
+
 
 
 
@@ -32,11 +41,6 @@ levels:
 - 整数環 $\mathbb{Z}$ の代数的性質
 - イデアルと剰余環
 - $\mathbb{Z}/n\mathbb{Z}$（合同算術）の構造
-
-## 前提知識
-- [負数](../negative-numbers/standard.md)
-- [自然数（専門）](../natural-numbers/professional.md)
-- [集合](../../math-language/sets/standard.md)
 
 ---
 
@@ -72,6 +76,6 @@ $$\mathbb{Z}/n\mathbb{Z} = \{[0], [1], \ldots, [n-1]\}$$
 
 ## 関連ページ
 
-- [負数](../negative-numbers/standard.md)
+- [負数](introduction.md)
 - [集合（専門）](../../math-language/sets/professional.md)
 - [複素数（専門）](../complex-numbers/professional.md)

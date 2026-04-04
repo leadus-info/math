@@ -1,22 +1,31 @@
 ---
-title: 等号・等式（専門）
+title: 等号・等式
 description: "方程式論・代数方程式の根の構造"
-difficulty: 5
-tags: [math,math-language,equations,professional]
+tags: [math,math-language,equations]
 hierarchy:
   - text: 数学
     href: /math/index.html
   - text: 数学の言語
     href: /math/math-language/index.html
-  - text: 等号・等式（専門）
+  - text: 等号・等式
     href: /math/math-language/equations/professional.html
 levels:
-  - text: 基礎
-    href: standard.html
-  - text: 発展
-    href: advanced.html
-  - text: 専門
+  - level: introduction
+    url: introduction.html
+  - level: standard
+    url: standard.html
+  - level: professional
+level: professional
+requires:
+  - title: 等号・等式
+    url: \1/introduction.md
+  - title: 多項式（専門）
+    url: ../../functions/polynomials/professional.md
+  - title: 複素数
+    url: \1/introduction.md
 ---
+
+
 
 
 
@@ -32,11 +41,6 @@ levels:
 - 代数方程式の根と係数の関係（ヴィエタの公式）
 - 根の存在（代数学の基本定理）
 - ガロア理論の概観
-
-## 前提知識
-- [等号・等式](../equations/standard.md)
-- [多項式（専門）](../../functions/polynomials/professional.md)
-- [複素数](../../numbers/complex-numbers/standard.md)
 
 ---
 
@@ -66,6 +70,6 @@ $$\sum_i \alpha_i = -\frac{a_{n-1}}{a_n},\quad \prod_i \alpha_i = (-1)^n \frac{a
 
 ## 関連ページ
 
-- [等号・等式](../equations/standard.md)
+- [等号・等式](introduction.md)
 - [多項式（専門）](../../functions/polynomials/professional.md)
 - [複素数（専門）](../../numbers/complex-numbers/professional.md)
