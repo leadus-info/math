@@ -106,9 +106,9 @@
 - `description`：記事の簡潔な説明（一文程度）
 - `tags`：関連するキーワード
 - `level`：この記事のレベル（`introduction` / `standard` / `professional`）
-- `hierarchy`：パンくずリストの構造。上位階層から順に`title`と`url`を列挙する
-- `levels`：同じトピックの他レベルへのリンク。現在のレベルは`url`を省略する（UI上で現在地として非リンク表示される）
-- `requires`：前提となる記事。`title`と`url`を明記する
+- `hierarchy`：パンくずリストの構造。上位階層から順に`title`と`path`を列挙する
+- `levels`：同じトピックの他レベルへのリンク。現在のレベルは`path`を省略する（UI上で現在地として非リンク表示される）
+- `requires`：前提となる記事。`title`と`path`を明記する
 
 ```yaml
 ---
@@ -118,21 +118,21 @@ tags: [math,functions,calculus]
 level: introduction
 hierarchy:
   - title: 数学
-    url: /math/index.html
+    path: /math/index.html
   - title: 関数の操作
-    url: /math/functions/index.html
+    path: /math/functions/index.html
   - title: 微分
-    url: /math/functions/derivatives/introduction.html
+    path: /math/functions/derivatives/introduction.html
 levels:
   - level: 入門
   - level: 標準
-    url: standard.html
+    path: standard.html
   - level: 専門
-    url: professional.html
+    path: professional.html
 
 requires:
   - title: 極限
-    url: /math/functions/limits/introduction
+    path: /math/functions/limits/introduction
 ---
 ```
 
