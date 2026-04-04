@@ -4,12 +4,12 @@ description: "「限りなく近づく」とはどういうことか"
 tags: [math,functions,calculus]
 level: introduction
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 関数の操作
-    href: /math/functions/calculus/index.html
-  - text: 極限
-    href: /math/functions/calculus/limits/introduction.html
+  - title: 数学
+    url: /math/index.html
+  - title: 関数の操作
+    url: /math/functions/index.html
+  - title: 極限
+    url: /math/functions/limits/introduction.html
 levels:
   - level: introduction
   - level: standard
@@ -22,7 +22,9 @@ requires:
     url: /math/functions/sequences/introduction
 ---
 
-# 極限
+
+
+
 「$\dfrac{1}{n}$ を $n=1, 2, 3 \ldots$ と大きくしていくと？」
 
 $1, 0.5, 0.333\ldots, 0.25 \ldots$
@@ -58,4 +60,4 @@ $n^2 = 1, 4, 9, 16 \ldots$ は限りなく大きくなって、行き着く先�
 ## 関連ページ
 
 - [微分](../derivatives/introduction.md)
-- [数列](../../sequences/introduction.md)
+- [数列](../sequences/introduction.md)

@@ -3,12 +3,12 @@ title: 指数関数
 description: "倍々で増える関数"
 tags: [math,functions,exponential]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 関数
-    href: /math/functions/index.html
-  - text: 指数関数
-    href: /math/functions/exponential/standard.html
+  - title: 数学
+    url: /math/index.html
+  - title: 関数
+    url: /math/functions/index.html
+  - title: 指数関数
+    url: /math/functions/exponential/standard.html
 levels:
   - level: introduction
     url: introduction.html
@@ -25,13 +25,6 @@ requires:
 
 
 
-
-
-
-
-
-
-# 指数関数
 1、2、4、8、16……倍々で増えていく変化を表す関数です。
 
 ## このページで扱うこと

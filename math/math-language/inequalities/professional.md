@@ -3,12 +3,12 @@ title: 不等号・不等式
 description: "凸不等式・関数不等式・最適化理論との接続"
 tags: [math,math-language,inequalities]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 数学の言語
-    href: /math/math-language/index.html
-  - text: 不等号・不等式
-    href: /math/math-language/inequalities/professional.html
+  - title: 数学
+    url: /math/index.html
+  - title: 数学の言語
+    url: /math/math-language/index.html
+  - title: 不等号・不等式
+    url: /math/math-language/inequalities/professional.html
 levels:
   - level: introduction
     url: introduction.html
@@ -27,14 +27,6 @@ requires:
 
 
 
-
-
-
-
-
-
-
-# 不等号・不等式（発展）
 凸関数・イェンセン不等式・最適化理論との接続を扱います。
 
 ## このページで扱うこと
@@ -79,5 +71,5 @@ $$\sum_i |a_i b_i| \leq \left(\sum_i |a_i|^p\right)^{1/p}\left(\sum_i |b_i|^q\ri
 ## 関連ページ
 
 - [不等号・不等式](introduction.md)
-- [積分（専門）](../../functions/calculus/integrals/professional.md)
+- [積分（専門）](../../functions/integrals/professional.md)
 - [確率（専門）](../../statistics/probability/professional.md)

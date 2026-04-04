@@ -4,12 +4,12 @@ description: "角度と波をつなぐ関数"
 tags: [math,functions,trigonometric]
 level: introduction
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 関数
-    href: /math/functions/index.html
-  - text: 三角関数
-    href: /math/functions/trigonometric/introduction.html
+  - title: 数学
+    url: /math/index.html
+  - title: 関数
+    url: /math/functions/index.html
+  - title: 三角関数
+    url: /math/functions/trigonometric/introduction.html
 levels:
   - level: introduction
   - level: standard
@@ -22,7 +22,8 @@ requires:
     url: /math/geometry/circle/introduction
 ---
 
-# 三角関数
+
+
 波・振動・回転——
 周期的に繰り返す現象はすべて三角関数で表せます。
 

@@ -3,12 +3,12 @@ title: 多角形
 description: "多面体・オイラー標数・タイリング理論"
 tags: [math,geometry,polygon]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 幾何
-    href: /math/geometry/index.html
-  - text: 多角形
-    href: /math/geometry/polygon/professional.html
+  - title: 数学
+    url: /math/index.html
+  - title: 幾何
+    url: /math/geometry/index.html
+  - title: 多角形
+    url: /math/geometry/polygon/professional.html
 levels:
   - level: introduction
     url: introduction.html
@@ -25,14 +25,6 @@ requires:
 
 
 
-
-
-
-
-
-
-
-# 多角形（発展）
 多面体・オイラー標数・タイリング理論を扱います。
 
 ## このページで扱うこと

@@ -4,11 +4,13 @@ description: "おすすめの学習順序"
 difficulty: 0
 tags: [math,course]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 学習コース
-    href: /math/course.html
+  - title: 数学
+    url: /math/index.html
+  - title: 学習コース
+    url: /math/course.html
 ---
+
+
 
 
 # 学習コース
@@ -52,9 +54,9 @@ hierarchy:
 微積分・線形代数を初めて学ぶ方向けです。
 
 1. [数列](functions/sequences/introduction.md) — 規則正しく並ぶ数
-2. [極限](functions/calculus/limits/introduction.md) — 限りなく近づく
-3. [微分](functions/calculus/derivatives/introduction.md) — 瞬間の変化率
-4. [積分](functions/calculus/integrals/introduction.md) — 面積を求める
+2. [極限](functions/limits/introduction.md) — 限りなく近づく
+3. [微分](functions/derivatives/introduction.md) — 瞬間の変化率
+4. [積分](functions/integrals/introduction.md) — 面積を求める
 5. [多項式](functions/polynomials/introduction.md) — べき乗の和
 6. [ベクトル](linear-algebra/vectors/introduction.md) — 大きさと向き
 7. [行列](linear-algebra/matrices/introduction.md) — 線形変換の表現
@@ -67,7 +69,7 @@ hierarchy:
 より深く解析学を学びたい方向けです。
 
 1. [複素数](numbers/complex-numbers/introduction.md) — 実数を超えた数
-2. [複素関数](functions/calculus/complex-functions/introduction.md) — 複素数の微積分
+2. [複素関数](functions/complex-functions/introduction.md) — 複素数の微積分
 
 ---
 

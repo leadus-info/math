@@ -3,12 +3,12 @@ title: 一次関数
 description: "アフィン変換・線形写像・超平面"
 tags: [math,functions,linear]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 関数
-    href: /math/functions/index.html
-  - text: 一次関数
-    href: /math/functions/linear/professional.html
+  - title: 数学
+    url: /math/index.html
+  - title: 関数
+    url: /math/functions/index.html
+  - title: 一次関数
+    url: /math/functions/linear/professional.html
 levels:
   - level: introduction
     url: introduction.html
@@ -27,13 +27,6 @@ requires:
 
 
 
-
-
-
-
-
-
-# 一次関数（発展）
 アフィン写像・線形写像・$n$ 次元超平面を扱います。
 
 ## このページで扱うこと

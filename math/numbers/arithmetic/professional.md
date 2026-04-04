@@ -3,12 +3,12 @@ title: 四則演算
 description: "群・環・体の代数的構造"
 tags: [math,operations,arithmetic]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 数
-    href: /math/numbers/index.html
-  - text: 乗法・べき乗
-    href: /math/numbers/arithmetic/professional.html
+  - title: 数学
+    url: /math/index.html
+  - title: 数
+    url: /math/numbers/index.html
+  - title: 乗法・べき乗
+    url: /math/numbers/arithmetic/professional.html
 levels:
   - level: introduction
     url: introduction.html
@@ -27,14 +27,6 @@ requires:
 
 
 
-
-
-
-
-
-
-
-# 四則演算（発展）
 演算を抽象化した代数的構造（群・環・体）を扱います。
 
 ## このページで扱うこと

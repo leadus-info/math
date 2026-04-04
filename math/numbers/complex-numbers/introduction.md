@@ -4,12 +4,12 @@ description: "実数では解けない方程式から生まれた数"
 tags: [math,numbers,complex-numbers]
 level: introduction
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 数
-    href: /math/numbers/index.html
-  - text: 複素数
-    href: /math/numbers/complex-numbers/introduction.html
+  - title: 数学
+    url: /math/index.html
+  - title: 数
+    url: /math/numbers/index.html
+  - title: 複素数
+    url: /math/numbers/complex-numbers/introduction.html
 levels:
   - level: introduction
   - level: standard
@@ -24,7 +24,8 @@ requires:
     url: /math/numbers/arithmetic/introduction
 ---
 
-# 複素数
+
+
 「2乗したら$-1$になる数は？」
 
 正の数を2乗しても負の数を2乗しても、答えは必ず正になります。
@@ -77,4 +78,4 @@ $e$・$i$・$\pi$・$1$・$0$ という5つの数がひとつの式に現れる�
 ## 関連ページ
 
 - [負数](../negative-numbers/introduction.md)
-- [複素関数](../../functions/calculus/complex-functions/introduction.md)
+- [複素関数](../../functions/complex-functions/introduction.md)

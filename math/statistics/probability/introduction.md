@@ -4,12 +4,12 @@ description: "起こりやすさを数値で表す"
 tags: [math,statistics]
 level: introduction
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 統計・確率
-    href: /math/statistics/index.html
-  - text: 確率
-    href: /math/statistics/probability/introduction.html
+  - title: 数学
+    url: /math/index.html
+  - title: 統計・確率
+    url: /math/statistics/index.html
+  - title: 確率
+    url: /math/statistics/probability/introduction.html
 levels:
   - level: introduction
   - level: standard
@@ -24,7 +24,8 @@ requires:
     url: /math/numbers/fractions/introduction
 ---
 
-# 確率
+
+
 コインを投げると表か裏が出ます。
 どちらが出るかは事前にわかりません。
 でも「どれくらいの割合で表が出るか」は言えます——$\dfrac{1}{2}$（50%）。

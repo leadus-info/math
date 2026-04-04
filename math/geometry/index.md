@@ -4,11 +4,13 @@ description: "図形の形・大きさ・位置関係"
 difficulty: 0
 tags: [math,geometry]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 幾何
-    href: /math/geometry/index.html
+  - title: 数学
+    url: /math/index.html
+  - title: 幾何
+    url: /math/geometry/index.html
 ---
+
+
 
 
 

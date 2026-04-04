@@ -3,12 +3,12 @@ title: 複素関数
 description: "複素数を変数にとる関数"
 tags: [math,complex-numbers,complex-functions]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 関数の操作
-    href: /math/functions/calculus/index.html
-  - text: 複素関数
-    href: /math/functions/calculus/complex-functions/standard.html
+  - title: 数学
+    url: /math/index.html
+  - title: 関数の操作
+    url: /math/functions/index.html
+  - title: 複素関数
+    url: /math/functions/complex-functions/standard.html
 levels:
   - level: introduction
     url: introduction.html
@@ -27,13 +27,6 @@ requires:
 
 
 
-
-
-
-
-
-
-# 複素関数
 複素数を変数にとる関数が**複素関数**です。
 「複素数で微分できる」という条件が、実数のときより強い制約を生みます。
 

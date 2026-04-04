@@ -3,12 +3,12 @@ title: 指数関数
 description: "指数型分布族・母関数・行列指数関数"
 tags: [math,functions,exponential]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 関数
-    href: /math/functions/index.html
-  - text: 指数関数
-    href: /math/functions/exponential/professional.html
+  - title: 数学
+    url: /math/index.html
+  - title: 関数
+    url: /math/functions/index.html
+  - title: 指数関数
+    url: /math/functions/exponential/professional.html
 levels:
   - level: introduction
     url: introduction.html
@@ -27,14 +27,6 @@ requires:
 
 
 
-
-
-
-
-
-
-
-# 指数関数（発展）
 行列指数関数・指数型分布族・ラプラス変換を扱います。
 
 ## このページで扱うこと

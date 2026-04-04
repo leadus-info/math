@@ -4,11 +4,13 @@ description: "数の種類と性質"
 difficulty: 0
 tags: [math,numbers]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 数
-    href: /math/numbers/index.html
+  - title: 数学
+    url: /math/index.html
+  - title: 数
+    url: /math/numbers/index.html
 ---
+
+
 
 
 

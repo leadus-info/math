@@ -3,12 +3,12 @@ title: 積分
 description: "ルベーグ積分・広義積分・多重積分"
 tags: [math,operations,integrals]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 関数の操作
-    href: /math/functions/calculus/index.html
-  - text: 積分
-    href: /math/functions/calculus/integrals/professional.html
+  - title: 数学
+    url: /math/index.html
+  - title: 関数の操作
+    url: /math/functions/index.html
+  - title: 積分
+    url: /math/functions/integrals/professional.html
 levels:
   - level: introduction
     url: introduction.html
@@ -27,14 +27,6 @@ requires:
 
 
 
-
-
-
-
-
-
-
-# 積分（発展）
 ルベーグ積分・多重積分・線積分・曲面積分を扱います。
 
 ## このページで扱うこと

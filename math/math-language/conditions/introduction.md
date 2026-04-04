@@ -4,12 +4,12 @@ description: "「ならば」の向きを整理する"
 tags: [math,math-language,conditions]
 level: introduction
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 数学の言語
-    href: /math/math-language/index.html
-  - text: 必要・十分条件
-    href: /math/math-language/conditions/introduction.html
+  - title: 数学
+    url: /math/index.html
+  - title: 数学の言語
+    url: /math/math-language/index.html
+  - title: 必要・十分条件
+    url: /math/math-language/conditions/introduction.html
 levels:
   - level: introduction
   - level: standard
@@ -22,7 +22,8 @@ requires:
     url: /math/math-language/equations/introduction
 ---
 
-# 必要・十分条件
+
+
 「もし雨が降るなら、地面が濡れる」
 「ならば」という言葉の向きと強さを整理するのが必要・十分条件です。
 

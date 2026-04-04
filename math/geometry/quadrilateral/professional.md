@@ -3,12 +3,12 @@ title: 四角形
 description: "双対多面体・四辺形の射影的性質"
 tags: [math,geometry,quadrilateral]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 幾何
-    href: /math/geometry/index.html
-  - text: 四角形
-    href: /math/geometry/quadrilateral/professional.html
+  - title: 数学
+    url: /math/index.html
+  - title: 幾何
+    url: /math/geometry/index.html
+  - title: 四角形
+    url: /math/geometry/quadrilateral/professional.html
 levels:
   - level: introduction
     url: introduction.html
@@ -27,13 +27,6 @@ requires:
 
 
 
-
-
-
-
-
-
-# 四角形（発展）
 双対多面体・調和共役・射影的性質を扱います。
 
 ## このページで扱うこと

@@ -3,12 +3,12 @@ title: 代数
 description: "抽象代数・環論・多項式環"
 tags: [math,math-language,algebra]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 数学の言語
-    href: /math/math-language/index.html
-  - text: 代数
-    href: /math/math-language/algebra/professional.html
+  - title: 数学
+    url: /math/index.html
+  - title: 数学の言語
+    url: /math/math-language/index.html
+  - title: 代数
+    url: /math/math-language/algebra/professional.html
 levels:
   - level: introduction
     url: introduction.html
@@ -27,14 +27,6 @@ requires:
 
 
 
-
-
-
-
-
-
-
-# 代数（発展）
 多項式環・加群・テンソル積など抽象代数の道具を扱います。
 
 ## このページで扱うこと

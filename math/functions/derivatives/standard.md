@@ -3,12 +3,12 @@ title: 微分
 description: "関数の瞬間の変化率"
 tags: [math,operations,derivatives]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 関数の操作
-    href: /math/functions/calculus/index.html
-  - text: 微分
-    href: /math/functions/calculus/derivatives/standard.html
+  - title: 数学
+    url: /math/index.html
+  - title: 関数の操作
+    url: /math/functions/index.html
+  - title: 微分
+    url: /math/functions/derivatives/standard.html
 levels:
   - level: introduction
     url: introduction.html
@@ -25,13 +25,6 @@ requires:
 
 
 
-
-
-
-
-
-
-# 微分
 車のスピードメーターは「今この瞬間の速さ」を示します。
 **微分**は、関数の「その瞬間の変化の速さ」を求める操作です。
 

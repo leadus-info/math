@@ -4,12 +4,12 @@ description: "掛け算を積み重ねるとべき乗になる"
 tags: [math,numbers,arithmetic]
 level: introduction
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 数
-    href: /math/numbers/index.html
-  - text: 乗法・べき乗
-    href: /math/numbers/arithmetic/introduction.html
+  - title: 数学
+    url: /math/index.html
+  - title: 数
+    url: /math/numbers/index.html
+  - title: 乗法・べき乗
+    url: /math/numbers/arithmetic/introduction.html
 levels:
   - level: introduction
   - level: standard
@@ -22,7 +22,8 @@ requires:
     url: /math/numbers/natural-numbers/introduction
 ---
 
-# 乗法・べき乗
+
+
 「2の10乗はいくつ？」
 $2 	imes 2 	imes 2 	imes \ldots$ を10回繰り返すと $1024$。
 同じ数を何度も掛ける操作を短く書いたのが**べき乗**です。

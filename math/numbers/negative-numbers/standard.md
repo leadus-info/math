@@ -3,12 +3,12 @@ title: 負数
 description: "0 より小さい数と引き算"
 tags: [math,numbers,negative-numbers]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 数
-    href: /math/numbers/index.html
-  - text: 負数
-    href: /math/numbers/negative-numbers/standard.html
+  - title: 数学
+    url: /math/index.html
+  - title: 数
+    url: /math/numbers/index.html
+  - title: 負数
+    url: /math/numbers/negative-numbers/standard.html
 levels:
   - level: introduction
     url: introduction.html
@@ -23,13 +23,6 @@ requires:
 
 
 
-
-
-
-
-
-
-# 負数
 気温 $-5$ 度、残高 $-1000$ 円——0 より小さい数を**負数**といいます。  
 [自然数](professional.md)の章で見たように、「3 引く 5」は自然数の中では答えが出ません。  
 この「引けない」を解決するために負数を導入します。

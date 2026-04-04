@@ -3,12 +3,12 @@ title: 対数関数
 description: "指数関数の逆の操作"
 tags: [math,functions,logarithmic]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 関数
-    href: /math/functions/index.html
-  - text: 対数関数
-    href: /math/functions/logarithmic/standard.html
+  - title: 数学
+    url: /math/index.html
+  - title: 関数
+    url: /math/functions/index.html
+  - title: 対数関数
+    url: /math/functions/logarithmic/standard.html
 levels:
   - level: introduction
     url: introduction.html
@@ -23,13 +23,6 @@ requires:
 
 
 
-
-
-
-
-
-
-# 対数関数
 「2 を何乗すれば 8 になるか？」——この問いの答えが**対数**です。
 指数関数の逆の操作です。
 

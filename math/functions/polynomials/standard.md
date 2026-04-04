@@ -3,12 +3,12 @@ title: 多項式
 description: "べき乗の和で表される関数"
 tags: [math,functions,polynomials]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 関数
-    href: /math/functions/index.html
-  - text: 多項式
-    href: /math/functions/polynomials/standard.html
+  - title: 数学
+    url: /math/index.html
+  - title: 関数
+    url: /math/functions/index.html
+  - title: 多項式
+    url: /math/functions/polynomials/standard.html
 levels:
   - level: introduction
     url: introduction.html
@@ -27,13 +27,6 @@ requires:
 
 
 
-
-
-
-
-
-
-# 多項式
 $x^2 + 3x - 2$ のように $x$ のべき乗の和で書ける関数が**多項式**です。
 一次関数・二次関数を一般化したものです。
 

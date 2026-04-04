@@ -3,12 +3,12 @@ title: 小数
 description: "実数の完備性・デデキント切断・コーシー列"
 tags: [math,numbers,decimals]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 数
-    href: /math/numbers/index.html
-  - text: 小数
-    href: /math/numbers/decimals/professional.html
+  - title: 数学
+    url: /math/index.html
+  - title: 数
+    url: /math/numbers/index.html
+  - title: 小数
+    url: /math/numbers/decimals/professional.html
 levels:
   - level: introduction
     url: introduction.html
@@ -27,14 +27,6 @@ requires:
 
 
 
-
-
-
-
-
-
-
-# 小数（発展）
 実数の厳密な構成と完備性について扱います。  
 基礎は[小数（入門）](introduction.md)を参照してください。
 
@@ -77,5 +69,5 @@ $\mathbb{Q}$ ではこの性質が成り立ちません（$\sqrt{2} \notin \math
 ## 関連ページ
 
 - [小数](introduction.md)
-- [極限（専門）](../../functions/calculus/limits/professional.md)
+- [極限（専門）](../../functions/limits/professional.md)
 - [数列（専門）](../../functions/sequences/professional.md)

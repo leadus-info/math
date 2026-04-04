@@ -3,12 +3,12 @@ title: 四角形
 description: "4辺で囲まれた図形の種類と性質"
 tags: [math,geometry,quadrilateral]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 幾何
-    href: /math/geometry/index.html
-  - text: 四角形
-    href: /math/geometry/quadrilateral/standard.html
+  - title: 数学
+    url: /math/index.html
+  - title: 幾何
+    url: /math/geometry/index.html
+  - title: 四角形
+    url: /math/geometry/quadrilateral/standard.html
 levels:
   - level: introduction
     url: introduction.html
@@ -25,13 +25,6 @@ requires:
 
 
 
-
-
-
-
-
-
-# 四角形
 4 本の辺で囲まれた多角形が**四角形**です。
 
 ## このページで扱うこと

@@ -3,12 +3,12 @@ title: 直線
 description: "直線の方程式と位置関係"
 tags: [math,geometry,line]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 幾何
-    href: /math/geometry/index.html
-  - text: 直線
-    href: /math/geometry/line/standard.html
+  - title: 数学
+    url: /math/index.html
+  - title: 幾何
+    url: /math/geometry/index.html
+  - title: 直線
+    url: /math/geometry/line/standard.html
 levels:
   - level: introduction
     url: introduction.html
@@ -25,13 +25,6 @@ requires:
 
 
 
-
-
-
-
-
-
-# 直線
 2 点を結んで両方向に無限に延ばしたものが**直線**です。
 
 ## このページで扱うこと

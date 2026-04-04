@@ -4,12 +4,12 @@ description: "大小関係を記号で表す"
 tags: [math,math-language,inequalities]
 level: introduction
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 数学の言語
-    href: /math/math-language/index.html
-  - text: 不等号・不等式
-    href: /math/math-language/inequalities/introduction.html
+  - title: 数学
+    url: /math/index.html
+  - title: 数学の言語
+    url: /math/math-language/index.html
+  - title: 不等号・不等式
+    url: /math/math-language/inequalities/introduction.html
 levels:
   - level: introduction
   - level: standard
@@ -24,7 +24,8 @@ requires:
     url: /math/numbers/negative-numbers/introduction
 ---
 
-# 不等号・不等式
+
+
 「$a$ は $b$ より大きい」——この大小関係を記号で表すのが不等号です。
 
 ---

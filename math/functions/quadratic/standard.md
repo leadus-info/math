@@ -3,12 +3,12 @@ title: 二次関数
 description: "放物線を描く関数"
 tags: [math,functions,quadratic]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 関数
-    href: /math/functions/index.html
-  - text: 二次関数
-    href: /math/functions/quadratic/standard.html
+  - title: 数学
+    url: /math/index.html
+  - title: 関数
+    url: /math/functions/index.html
+  - title: 二次関数
+    url: /math/functions/quadratic/standard.html
 levels:
   - level: introduction
     url: introduction.html
@@ -25,13 +25,6 @@ requires:
 
 
 
-
-
-
-
-
-
-# 二次関数
 $x^2$ を含む関数で、グラフは**放物線**になります。
 ボールの軌跡や橋のアーチがこの形です。
 

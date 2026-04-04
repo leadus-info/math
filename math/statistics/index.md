@@ -4,11 +4,13 @@ description: "不確実な事象を数学的に扱う"
 difficulty: 0
 tags: [math,statistics]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 統計・確率
-    href: /math/statistics/index.html
+  - title: 数学
+    url: /math/index.html
+  - title: 統計・確率
+    url: /math/statistics/index.html
 ---
+
+
 
 
 

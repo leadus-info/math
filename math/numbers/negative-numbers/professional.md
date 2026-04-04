@@ -3,12 +3,12 @@ title: 負数
 description: "整数環の代数的構造・整域・Z上のモジュール"
 tags: [math,numbers,negative-numbers]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 数
-    href: /math/numbers/index.html
-  - text: 負数
-    href: /math/numbers/negative-numbers/professional.html
+  - title: 数学
+    url: /math/index.html
+  - title: 数
+    url: /math/numbers/index.html
+  - title: 負数
+    url: /math/numbers/negative-numbers/professional.html
 levels:
   - level: introduction
     url: introduction.html
@@ -27,14 +27,6 @@ requires:
 
 
 
-
-
-
-
-
-
-
-# 負数（発展）
 整数の代数的構造（整域・単項イデアル整域）について扱います。
 
 ## このページで扱うこと

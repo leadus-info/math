@@ -3,12 +3,12 @@ title: 数列
 description: "級数の収束判定・べき級数・漸近展開"
 tags: [math,functions,sequences]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 関数
-    href: /math/functions/index.html
-  - text: 数列
-    href: /math/functions/sequences/professional.html
+  - title: 数学
+    url: /math/index.html
+  - title: 関数
+    url: /math/functions/index.html
+  - title: 数列
+    url: /math/functions/sequences/professional.html
 levels:
   - level: introduction
     url: introduction.html
@@ -20,21 +20,13 @@ requires:
   - title: 数列
     url: \1/introduction.md
   - title: 極限（専門）
-    url: ../calculus/limits/professional.md
+    url: ../../limits/professional.md
   - title: 微分
     url: \1/introduction.md
 ---
 
 
 
-
-
-
-
-
-
-
-# 数列（発展）
 級数の収束判定・べき級数・漸近展開を扱います。
 
 ## このページで扱うこと

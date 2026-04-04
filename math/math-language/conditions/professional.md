@@ -3,12 +3,12 @@ title: 必要・十分条件
 description: "述語論理・証明論・モデル理論の入口"
 tags: [math,math-language,conditions]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 数学の言語
-    href: /math/math-language/index.html
-  - text: 必要・十分条件
-    href: /math/math-language/conditions/professional.html
+  - title: 数学
+    url: /math/index.html
+  - title: 数学の言語
+    url: /math/math-language/index.html
+  - title: 必要・十分条件
+    url: /math/math-language/conditions/professional.html
 levels:
   - level: introduction
     url: introduction.html
@@ -25,12 +25,6 @@ requires:
 
 
 
-
-
-
-
-
-# 必要・十分条件（発展）
 述語論理・公理系・証明論の基礎を扱います。
 
 ## このページで扱うこと

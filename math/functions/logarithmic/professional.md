@@ -3,12 +3,12 @@ title: 対数関数
 description: "情報エントロピー・複素対数・$p$-進対数"
 tags: [math,functions,logarithmic]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 関数
-    href: /math/functions/index.html
-  - text: 対数関数
-    href: /math/functions/logarithmic/professional.html
+  - title: 数学
+    url: /math/index.html
+  - title: 関数
+    url: /math/functions/index.html
+  - title: 対数関数
+    url: /math/functions/logarithmic/professional.html
 levels:
   - level: introduction
     url: introduction.html
@@ -27,14 +27,6 @@ requires:
 
 
 
-
-
-
-
-
-
-
-# 対数関数（発展）
 情報理論・複素対数・$p$-進対数を扱います。
 
 ## このページで扱うこと

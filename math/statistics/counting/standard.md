@@ -3,12 +3,12 @@ title: 場合の数
 description: "何通りあるかを数える"
 tags: [math,statistics,counting]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 統計・確率
-    href: /math/statistics/index.html
-  - text: 場合の数
-    href: /math/statistics/counting/standard.html
+  - title: 数学
+    url: /math/index.html
+  - title: 統計・確率
+    url: /math/statistics/index.html
+  - title: 場合の数
+    url: /math/statistics/counting/standard.html
 levels:
   - level: introduction
     url: introduction.html
@@ -25,13 +25,6 @@ requires:
 
 
 
-
-
-
-
-
-
-# 場合の数
 「何通りあるか」を数えるのが**場合の数**です。
 確率の計算の基礎になります。
 

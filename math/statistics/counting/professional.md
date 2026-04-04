@@ -3,12 +3,12 @@ title: 場合の数
 description: "母関数・包除原理・ラムゼー理論"
 tags: [math,statistics,counting]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 統計・確率
-    href: /math/statistics/index.html
-  - text: 場合の数
-    href: /math/statistics/counting/professional.html
+  - title: 数学
+    url: /math/index.html
+  - title: 統計・確率
+    url: /math/statistics/index.html
+  - title: 場合の数
+    url: /math/statistics/counting/professional.html
 levels:
   - level: introduction
     url: introduction.html
@@ -27,14 +27,6 @@ requires:
 
 
 
-
-
-
-
-
-
-
-# 場合の数（発展）
 母関数・包除原理・ラムゼー理論を扱います。
 
 ## このページで扱うこと

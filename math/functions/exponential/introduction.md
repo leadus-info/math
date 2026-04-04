@@ -4,12 +4,12 @@ description: "倍々で増える変化を表す関数"
 tags: [math,functions,exponential]
 level: introduction
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 関数
-    href: /math/functions/index.html
-  - text: 指数関数
-    href: /math/functions/exponential/introduction.html
+  - title: 数学
+    url: /math/index.html
+  - title: 関数
+    url: /math/functions/index.html
+  - title: 指数関数
+    url: /math/functions/exponential/introduction.html
 levels:
   - level: introduction
   - level: standard
@@ -22,7 +22,8 @@ requires:
     url: /math/numbers/arithmetic/introduction
 ---
 
-# 指数関数
+
+
 「毎日2倍になる菌がいる。今日1匹なら、10日後は何匹？」
 $2^{10} = 1024$匹。
 

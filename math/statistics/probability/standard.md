@@ -3,12 +3,12 @@ title: 確率
 description: "起こりやすさを数値で表す"
 tags: [math,statistics,probability]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 統計・確率
-    href: /math/statistics/index.html
-  - text: 確率
-    href: /math/statistics/probability/standard.html
+  - title: 数学
+    url: /math/index.html
+  - title: 統計・確率
+    url: /math/statistics/index.html
+  - title: 確率
+    url: /math/statistics/probability/standard.html
 levels:
   - level: introduction
     url: introduction.html
@@ -25,13 +25,6 @@ requires:
 
 
 
-
-
-
-
-
-
-# 確率
 コインを投げると表か裏が出る——どちらが出るかはわかりません。
 **確率**は「起こりやすさ」を 0 から 1 の数値で表す道具です。
 

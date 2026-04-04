@@ -3,12 +3,12 @@ title: 二次関数
 description: "二次形式・固有値との接続・円錐曲線"
 tags: [math,functions,quadratic]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 関数
-    href: /math/functions/index.html
-  - text: 二次関数
-    href: /math/functions/quadratic/professional.html
+  - title: 数学
+    url: /math/index.html
+  - title: 関数
+    url: /math/functions/index.html
+  - title: 二次関数
+    url: /math/functions/quadratic/professional.html
 levels:
   - level: introduction
     url: introduction.html
@@ -27,13 +27,6 @@ requires:
 
 
 
-
-
-
-
-
-
-# 二次関数（発展）
 二次形式・円錐曲線・行列の固有値との関係を扱います。
 
 ## このページで扱うこと

@@ -3,12 +3,12 @@ title: 確率
 description: "測度論的確率論・確率過程・大数の法則"
 tags: [math,statistics,probability]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 統計・確率
-    href: /math/statistics/index.html
-  - text: 確率
-    href: /math/statistics/probability/professional.html
+  - title: 数学
+    url: /math/index.html
+  - title: 統計・確率
+    url: /math/statistics/index.html
+  - title: 確率
+    url: /math/statistics/probability/professional.html
 levels:
   - level: introduction
     url: introduction.html
@@ -20,21 +20,13 @@ requires:
   - title: 確率
     url: \1/introduction.md
   - title: 積分（専門）
-    url: ../../functions/calculus/integrals/professional.md
+    url: ../../functions/integrals/professional.md
   - title: 数列（専門）
     url: ../../functions/sequences/professional.md
 ---
 
 
 
-
-
-
-
-
-
-
-# 確率（発展）
 測度論的確率論・確率過程・中心極限定理を扱います。
 
 ## このページで扱うこと
@@ -75,5 +67,5 @@ $$\frac{S_n - n\mu}{\sqrt{n}\sigma} \xrightarrow{d} N(0,1)$$
 ## 関連ページ
 
 - [確率](introduction.md)
-- [積分（専門）](../../functions/calculus/integrals/professional.md)
+- [積分（専門）](../../functions/integrals/professional.md)
 - [行列（専門）](../../linear-algebra/matrices/professional.md)

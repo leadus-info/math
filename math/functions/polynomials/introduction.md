@@ -4,12 +4,12 @@ description: "べき乗の和で表される関数"
 tags: [math,functions,polynomials]
 level: introduction
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 関数
-    href: /math/functions/index.html
-  - text: 多項式
-    href: /math/functions/polynomials/introduction.html
+  - title: 数学
+    url: /math/index.html
+  - title: 関数
+    url: /math/functions/index.html
+  - title: 多項式
+    url: /math/functions/polynomials/introduction.html
 levels:
   - level: introduction
   - level: standard
@@ -24,7 +24,8 @@ requires:
     url: /math/math-language/algebra/introduction
 ---
 
-# 多項式
+
+
 $x^3 - 2x + 1$、$x^2 + 5x + 6$——
 $x$ のべき乗の足し合わせで書ける式を**多項式**といいます。
 

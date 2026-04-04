@@ -3,12 +3,12 @@ title: 円
 description: "中心から等距離な点の集合"
 tags: [math,geometry,circle]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 幾何
-    href: /math/geometry/index.html
-  - text: 円
-    href: /math/geometry/circle/standard.html
+  - title: 数学
+    url: /math/index.html
+  - title: 幾何
+    url: /math/geometry/index.html
+  - title: 円
+    url: /math/geometry/circle/standard.html
 levels:
   - level: introduction
     url: introduction.html
@@ -25,13 +25,6 @@ requires:
 
 
 
-
-
-
-
-
-
-# 円
 1 点から等しい距離にある点をすべて集めた図形が**円**です。
 
 ## このページで扱うこと

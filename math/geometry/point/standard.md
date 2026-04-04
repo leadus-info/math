@@ -3,12 +3,12 @@ title: 点
 description: "位置を表す最も基本的な要素"
 tags: [math,geometry,point]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 幾何
-    href: /math/geometry/index.html
-  - text: 点
-    href: /math/geometry/point/standard.html
+  - title: 数学
+    url: /math/index.html
+  - title: 幾何
+    url: /math/geometry/index.html
+  - title: 点
+    url: /math/geometry/point/standard.html
 levels:
   - level: introduction
     url: introduction.html
@@ -25,13 +25,6 @@ requires:
 
 
 
-
-
-
-
-
-
-# 点
 「場所」だけを持ち、大きさを持たないものが**点**です。
 座標を使うと、点を数のペア $(x, y)$ として扱えます。
 

@@ -3,12 +3,12 @@ title: 等号・等式
 description: "「等しい」を記号で表す"
 tags: [math,math-language,equations]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 数学の言語
-    href: /math/math-language/index.html
-  - text: 等号・等式
-    href: /math/math-language/equations/standard.html
+  - title: 数学
+    url: /math/index.html
+  - title: 数学の言語
+    url: /math/math-language/index.html
+  - title: 等号・等式
+    url: /math/math-language/equations/standard.html
 levels:
   - level: introduction
     url: introduction.html
@@ -23,13 +23,6 @@ requires:
 
 
 
-
-
-
-
-
-
-# 等号・等式
 「左と右が同じ量である」ことを $=$ という記号で表します。
 これが**等号**、$=$ を含む式が**等式**です。
 

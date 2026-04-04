@@ -4,12 +4,12 @@ description: "文字を使って一般的な関係を表す"
 tags: [math,math-language,algebra]
 level: introduction
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 数学の言語
-    href: /math/math-language/index.html
-  - text: 代数
-    href: /math/math-language/algebra/introduction.html
+  - title: 数学
+    url: /math/index.html
+  - title: 数学の言語
+    url: /math/math-language/index.html
+  - title: 代数
+    url: /math/math-language/algebra/introduction.html
 levels:
   - level: introduction
   - level: standard
@@ -24,7 +24,8 @@ requires:
     url: /math/math-language/equations/introduction
 ---
 
-# 代数
+
+
 「どんな数でも……」という一般的な関係を表すとき、具体的な数の代わりに文字を使います。
 これが代数の出発点です。
 

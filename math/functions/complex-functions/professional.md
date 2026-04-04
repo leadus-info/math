@@ -3,12 +3,12 @@ title: 複素関数
 description: "リーマン面・解析接続・モジュラー形式"
 tags: [math,complex-numbers,complex-functions]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 関数の操作
-    href: /math/functions/calculus/index.html
-  - text: 複素関数
-    href: /math/functions/calculus/complex-functions/professional.html
+  - title: 数学
+    url: /math/index.html
+  - title: 関数の操作
+    url: /math/functions/index.html
+  - title: 複素関数
+    url: /math/functions/complex-functions/professional.html
 levels:
   - level: introduction
     url: introduction.html
@@ -28,13 +28,6 @@ requires:
 
 
 
-
-
-
-
-
-
-# 複素関数（発展）
 リーマン面・解析接続・モジュラー形式を扱います。
 
 ## このページで扱うこと
@@ -79,5 +72,5 @@ $$f\left(\frac{az+b}{cz+d}\right) = (cz+d)^k f(z)$$
 ## 関連ページ
 
 - [複素関数](introduction.md)
-- [複素数（専門）](../../../numbers/complex-numbers/professional.md)
-- [等号・等式（専門）](../../../math-language/equations/professional.md)
+- [複素数（専門）](../../numbers/complex-numbers/professional.md)
+- [等号・等式（専門）](../../math-language/equations/professional.md)

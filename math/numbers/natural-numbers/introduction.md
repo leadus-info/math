@@ -4,12 +4,12 @@ description: "ものを数えるときに使う最も基本的な数"
 tags: [math,numbers,natural-numbers]
 level: introduction
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 数
-    href: /math/numbers/index.html
-  - text: 自然数
-    href: /math/numbers/natural-numbers/introduction.html
+  - title: 数学
+    url: /math/index.html
+  - title: 数
+    url: /math/numbers/index.html
+  - title: 自然数
+    url: /math/numbers/natural-numbers/introduction.html
 levels:
   - level: introduction
   - level: standard
@@ -19,7 +19,8 @@ levels:
 
 ---
 
-# 自然数
+
+
 「いち、に、さん、し……」
 りんごを数えるとき、階段を上るとき、クラスの出席番号——
 私たちは生まれたときから自然数を使っています。

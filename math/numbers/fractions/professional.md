@@ -3,12 +3,12 @@ title: 分数
 description: "有理数の代数的構造・稠密性・実数との対比"
 tags: [math,numbers,fractions]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 数
-    href: /math/numbers/index.html
-  - text: 分数
-    href: /math/numbers/fractions/professional.html
+  - title: 数学
+    url: /math/index.html
+  - title: 数
+    url: /math/numbers/index.html
+  - title: 分数
+    url: /math/numbers/fractions/professional.html
 levels:
   - level: introduction
     url: introduction.html
@@ -22,19 +22,11 @@ requires:
   - title: 集合
     url: \1/introduction.md
   - title: 極限（専門）
-    url: ../../functions/calculus/limits/professional.md
+    url: ../../functions/limits/professional.md
 ---
 
 
 
-
-
-
-
-
-
-
-# 分数（発展）
 有理数の代数的構造・稠密性・実数との距離について扱います。  
 基礎は[分数（入門）](introduction.md)を参照してください。
 

@@ -3,12 +3,12 @@ title: 数列
 description: "規則正しく並んだ数の列"
 tags: [math,functions,sequences]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 関数
-    href: /math/functions/index.html
-  - text: 数列
-    href: /math/functions/sequences/standard.html
+  - title: 数学
+    url: /math/index.html
+  - title: 関数
+    url: /math/functions/index.html
+  - title: 数列
+    url: /math/functions/sequences/standard.html
 levels:
   - level: introduction
     url: introduction.html
@@ -25,13 +25,6 @@ requires:
 
 
 
-
-
-
-
-
-
-# 数列
 1、3、5、7、9……のように、規則に従って並んだ数の列が**数列**です。
 
 ## このページで扱うこと

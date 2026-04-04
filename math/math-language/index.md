@@ -4,11 +4,13 @@ description: "数学を記述するための記号と論理"
 difficulty: 0
 tags: [math,math-language]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 数学の言語
-    href: /math/math-language/index.html
+  - title: 数学
+    url: /math/index.html
+  - title: 数学の言語
+    url: /math/math-language/index.html
 ---
+
+
 
 
 

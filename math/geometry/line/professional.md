@@ -3,12 +3,12 @@ title: 直線
 description: "射影空間・デザルグ定理・射影幾何"
 tags: [math,geometry,line]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 幾何
-    href: /math/geometry/index.html
-  - text: 直線
-    href: /math/geometry/line/professional.html
+  - title: 数学
+    url: /math/index.html
+  - title: 幾何
+    url: /math/geometry/index.html
+  - title: 直線
+    url: /math/geometry/line/professional.html
 levels:
   - level: introduction
     url: introduction.html
@@ -27,14 +27,6 @@ requires:
 
 
 
-
-
-
-
-
-
-
-# 直線（発展）
 射影幾何学・デザルグの定理・双対性を扱います。
 
 ## このページで扱うこと

@@ -3,12 +3,12 @@ title: 三角関数
 description: "フーリエ級数・フーリエ変換・球面調和関数"
 tags: [math,functions,trigonometric]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 関数
-    href: /math/functions/index.html
-  - text: 三角関数
-    href: /math/functions/trigonometric/professional.html
+  - title: 数学
+    url: /math/index.html
+  - title: 関数
+    url: /math/functions/index.html
+  - title: 三角関数
+    url: /math/functions/trigonometric/professional.html
 levels:
   - level: introduction
     url: introduction.html
@@ -20,7 +20,7 @@ requires:
   - title: 三角関数
     url: \1/introduction.md
   - title: 積分（専門）
-    url: ../calculus/integrals/professional.md
+    url: ../../integrals/professional.md
   - title: 複素関数
     url: \1/introduction.md
 ---
@@ -28,13 +28,6 @@ requires:
 
 
 
-
-
-
-
-
-
-# 三角関数（発展）
 フーリエ解析・変換・球面調和関数を扱います。
 
 ## このページで扱うこと
@@ -74,4 +67,4 @@ $S^2$ 上のラプラス方程式の固有関数 $Y_l^m(\theta, \varphi)$（量�
 
 - [三角関数](introduction.md)
 - [複素関数](introduction.md)
-- [積分（専門）](../calculus/integrals/professional.md)
+- [積分（専門）](../integrals/professional.md)

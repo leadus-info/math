@@ -4,12 +4,12 @@ description: "複素数を変数にとる関数"
 tags: [math,functions,calculus]
 level: introduction
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 関数の操作
-    href: /math/functions/calculus/index.html
-  - text: 複素関数
-    href: /math/functions/calculus/complex-functions/introduction.html
+  - title: 数学
+    url: /math/index.html
+  - title: 関数の操作
+    url: /math/functions/index.html
+  - title: 複素関数
+    url: /math/functions/complex-functions/introduction.html
 levels:
   - level: introduction
   - level: standard
@@ -21,10 +21,12 @@ requires:
   - title: 複素数
     url: /math/numbers/complex-numbers/introduction
   - title: 微分
-    url: /math/functions/calculus/derivatives/introduction
+    url: /math/functions/derivatives/introduction
 ---
 
-# 複素関数
+
+
+
 実数の関数を複素数の世界に拡張したものが**複素関数**です。
 
 実数での微分より「複素数での微分」の方が、ずっと強い条件になります。
@@ -60,6 +62,6 @@ requires:
 
 ## 関連ページ
 
-- [複素数](../../../numbers/complex-numbers/introduction.md)
+- [複素数](../../numbers/complex-numbers/introduction.md)
 - [微分](../derivatives/introduction.md)
 - [積分](../integrals/introduction.md)

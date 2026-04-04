@@ -3,12 +3,12 @@ title: 自然数
 description: "自然数の厳密な構成・ペアノ公理・数論的性質"
 tags: [math,numbers,natural-numbers]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 数
-    href: /math/numbers/index.html
-  - text: 自然数
-    href: /math/numbers/natural-numbers/professional.html
+  - title: 数学
+    url: /math/index.html
+  - title: 数
+    url: /math/numbers/index.html
+  - title: 自然数
+    url: /math/numbers/natural-numbers/professional.html
 levels:
   - level: introduction
     url: introduction.html
@@ -27,14 +27,6 @@ requires:
 
 
 
-
-
-
-
-
-
-
-# 自然数（発展）
 このページでは、自然数を公理から厳密に構築し、数論・整除論の基礎を扱います。  
 初等的な自然数の概念は[自然数（入門）](introduction.md)を参照してください。
 

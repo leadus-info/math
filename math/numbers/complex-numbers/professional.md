@@ -3,12 +3,12 @@ title: 複素数
 description: "代数閉体・四元数・クリフォード代数"
 tags: [math,complex-numbers,complex-numbers]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 数
-    href: /math/numbers/index.html
-  - text: 複素数
-    href: /math/numbers/complex-numbers/professional.html
+  - title: 数学
+    url: /math/index.html
+  - title: 数
+    url: /math/numbers/index.html
+  - title: 複素数
+    url: /math/numbers/complex-numbers/professional.html
 levels:
   - level: introduction
     url: introduction.html
@@ -27,14 +27,6 @@ requires:
 
 
 
-
-
-
-
-
-
-
-# 複素数（発展）
 代数的閉包性・四元数・クリフォード代数を扱います。
 
 ## このページで扱うこと

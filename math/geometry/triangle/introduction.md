@@ -4,12 +4,12 @@ description: "3本の辺で囲まれた最も基本的な多角形"
 tags: [math,geometry]
 level: introduction
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 幾何
-    href: /math/geometry/index.html
-  - text: 三角形
-    href: /math/geometry/triangle/introduction.html
+  - title: 数学
+    url: /math/index.html
+  - title: 幾何
+    url: /math/geometry/index.html
+  - title: 三角形
+    url: /math/geometry/triangle/introduction.html
 levels:
   - level: introduction
   - level: standard
@@ -24,7 +24,8 @@ requires:
     url: /math/functions/trigonometric/introduction
 ---
 
-# 三角形
+
+
 3本の辺で囲まれた多角形の中で最もシンプルなのが**三角形**です。
 どんな複雑な多角形も三角形に分割できるため、幾何学の基本単位といえます。
 

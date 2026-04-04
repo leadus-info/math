@@ -4,11 +4,15 @@ description: "変化と対応関係、および関数への操作"
 difficulty: 0
 tags: [math,functions]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 関数
-    href: /math/functions/index.html
+  - title: 数学
+    url: /math/index.html
+  - title: 関数
+    url: /math/functions/index.html
 ---
+
+
+
+
 
 
 
@@ -66,28 +70,28 @@ hierarchy:
 [入門](sequences/introduction.md) / [標準](sequences/standard.md) / [専門](sequences/professional.md)
 
 
-## [関数の操作（微積分）](./calculus/index.md)
+## 関数の操作
 
 ### 極限
 「限りなく近づく」という概念。微積分の土台です。
 
-[入門](calculus/limits/introduction.md) / [標準](calculus/limits/standard.md) / [専門](calculus/limits/professional.md)
+[入門](limits/introduction.md) / [標準](limits/standard.md) / [専門](limits/professional.md)
 
 
 ### 微分
 瞬間の変化率を求める操作。
 
-[入門](calculus/derivatives/introduction.md) / [標準](calculus/derivatives/standard.md) / [専門](calculus/derivatives/professional.md)
+[入門](derivatives/introduction.md) / [標準](derivatives/standard.md) / [専門](derivatives/professional.md)
 
 
 ### 積分
 面積・累積を求める操作。微分の逆操作です。
 
-[入門](calculus/integrals/introduction.md) / [標準](calculus/integrals/standard.md) / [専門](calculus/integrals/professional.md)
+[入門](integrals/introduction.md) / [標準](integrals/standard.md) / [専門](integrals/professional.md)
 
 
 ### 複素関数
 複素数を変数にとる関数。正則性・留数定理を扱います。
 
-[入門](calculus/complex-functions/introduction.md) / [標準](calculus/complex-functions/standard.md) / [専門](calculus/complex-functions/professional.md)
+[入門](complex-functions/introduction.md) / [標準](complex-functions/standard.md) / [専門](complex-functions/professional.md)
 

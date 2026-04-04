@@ -3,12 +3,12 @@ title: 極限
 description: "限りなく近づくとはどういうことか"
 tags: [math,operations,limits]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 関数の操作
-    href: /math/functions/calculus/index.html
-  - text: 極限
-    href: /math/functions/calculus/limits/standard.html
+  - title: 数学
+    url: /math/index.html
+  - title: 関数の操作
+    url: /math/functions/index.html
+  - title: 極限
+    url: /math/functions/limits/standard.html
 levels:
   - level: introduction
     url: introduction.html
@@ -25,13 +25,6 @@ requires:
 
 
 
-
-
-
-
-
-
-# 極限
 「どんどん近づいていくと、最終的にどこに向かうのか」——これが**極限**です。
 微分も積分も、極限という考え方の上に成り立っています。
 

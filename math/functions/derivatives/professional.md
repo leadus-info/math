@@ -3,12 +3,12 @@ title: 微分
 description: "多変数微分・フレシェ微分・微分形式"
 tags: [math,operations,derivatives]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 関数の操作
-    href: /math/functions/calculus/index.html
-  - text: 微分
-    href: /math/functions/calculus/derivatives/professional.html
+  - title: 数学
+    url: /math/index.html
+  - title: 関数の操作
+    url: /math/functions/index.html
+  - title: 微分
+    url: /math/functions/derivatives/professional.html
 levels:
   - level: introduction
     url: introduction.html
@@ -28,13 +28,6 @@ requires:
 
 
 
-
-
-
-
-
-
-# 微分（発展）
 多変数微分・フレシェ微分・微分形式を扱います。
 
 ## このページで扱うこと
@@ -86,5 +79,5 @@ $k$-形式: $\omega = \sum_{i_1 < \cdots < i_k} a_{i_1\ldots i_k}\,dx_{i_1} \wed
 
 - [微分](introduction.md)
 - [積分（専門）](../integrals/professional.md)
-- [行列（専門）](../../../linear-algebra/matrices/professional.md)
+- [行列（専門）](../../linear-algebra/matrices/professional.md)
 - [複素関数](introduction.md)

@@ -4,12 +4,12 @@ description: "割り切れないときに使う数"
 tags: [math,numbers,fractions]
 level: introduction
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 数
-    href: /math/numbers/index.html
-  - text: 分数
-    href: /math/numbers/fractions/introduction.html
+  - title: 数学
+    url: /math/index.html
+  - title: 数
+    url: /math/numbers/index.html
+  - title: 分数
+    url: /math/numbers/fractions/introduction.html
 levels:
   - level: introduction
   - level: standard
@@ -19,7 +19,8 @@ levels:
 
 ---
 
-# 分数
+
+
 ピザを3人で等しく分けたとき、1人分はいくつでしょう？
 「1個」でも「2個」でもない——この「ぴったり割り切れない量」を表すのが分数です。
 

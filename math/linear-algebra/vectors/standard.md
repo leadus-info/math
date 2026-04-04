@@ -3,12 +3,12 @@ title: ベクトル
 description: "大きさと向きを持つ量"
 tags: [math,linear-algebra,vectors]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 線形代数
-    href: /math/linear-algebra/index.html
-  - text: ベクトル
-    href: /math/linear-algebra/vectors/standard.html
+  - title: 数学
+    url: /math/index.html
+  - title: 線形代数
+    url: /math/linear-algebra/index.html
+  - title: ベクトル
+    url: /math/linear-algebra/vectors/standard.html
 levels:
   - level: introduction
     url: introduction.html
@@ -25,13 +25,6 @@ requires:
 
 
 
-
-
-
-
-
-
-# ベクトル
 風の強さと向き、力の大きさと方向——「大きさ」と「向き」の両方を持つ量を**ベクトル**といいます。
 
 ## このページで扱うこと

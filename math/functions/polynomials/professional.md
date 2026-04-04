@@ -3,12 +3,12 @@ title: 多項式
 description: "多項式環・代数幾何の入口・シューア多項式"
 tags: [math,functions,polynomials]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 関数
-    href: /math/functions/index.html
-  - text: 多項式
-    href: /math/functions/polynomials/professional.html
+  - title: 数学
+    url: /math/index.html
+  - title: 関数
+    url: /math/functions/index.html
+  - title: 多項式
+    url: /math/functions/polynomials/professional.html
 levels:
   - level: introduction
     url: introduction.html
@@ -27,14 +27,6 @@ requires:
 
 
 
-
-
-
-
-
-
-
-# 多項式（発展）
 多変数多項式・対称多項式・代数幾何の基礎を扱います。
 
 ## このページで扱うこと

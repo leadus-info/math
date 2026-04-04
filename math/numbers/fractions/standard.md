@@ -3,12 +3,12 @@ title: 分数
 description: "割り切れないときに使う数と割り算"
 tags: [math,numbers,fractions]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 数
-    href: /math/numbers/index.html
-  - text: 分数
-    href: /math/numbers/fractions/standard.html
+  - title: 数学
+    url: /math/index.html
+  - title: 数
+    url: /math/numbers/index.html
+  - title: 分数
+    url: /math/numbers/fractions/standard.html
 levels:
   - level: introduction
     url: introduction.html
@@ -25,13 +25,6 @@ requires:
 
 
 
-
-
-
-
-
-
-# 分数
 1 個のケーキを 3 人で等しく分けると、1 人の分は「3 分の 1」です。  
 [自然数](professional.md)の章で見たように、「5 割る 2」は自然数の中では答えが出ません。  
 この「割り切れない」を解決するために分数を導入します。

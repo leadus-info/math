@@ -3,12 +3,12 @@ title: 自然数
 description: "ものを数えるときに使う数"
 tags: [math,numbers,natural-numbers]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 数
-    href: /math/numbers/index.html
-  - text: 自然数
-    href: /math/numbers/natural-numbers/standard.html
+  - title: 数学
+    url: /math/index.html
+  - title: 数
+    url: /math/numbers/index.html
+  - title: 自然数
+    url: /math/numbers/natural-numbers/standard.html
 levels:
   - level: introduction
     url: introduction.html
@@ -20,13 +20,6 @@ level: standard
 
 
 
-
-
-
-
-
-
-# 自然数
 1、2、3、4……ものを数えるときに使う数が**自然数**です。
 「りんごが3個ある」「列の5番目」——日常のあらゆる場面で自然数を使っています。
 

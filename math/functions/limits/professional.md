@@ -3,12 +3,12 @@ title: 極限
 description: "ε-δ論法・一様収束・位相的極限"
 tags: [math,operations,limits]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 関数の操作
-    href: /math/functions/calculus/index.html
-  - text: 極限
-    href: /math/functions/calculus/limits/professional.html
+  - title: 数学
+    url: /math/index.html
+  - title: 関数の操作
+    url: /math/functions/index.html
+  - title: 極限
+    url: /math/functions/limits/professional.html
 levels:
   - level: introduction
     url: introduction.html
@@ -28,13 +28,6 @@ requires:
 
 
 
-
-
-
-
-
-
-# 極限（発展）
 $\varepsilon$-$\delta$ 論法・一様収束・位相的な極限の定式化を扱います。
 
 ## このページで扱うこと
@@ -86,4 +79,4 @@ $$\forall \varepsilon > 0,\ \exists N \text{ s.t. } m,n > N \Rightarrow |a_m - a
 
 - [極限](introduction.md)
 - [微分（専門）](../derivatives/professional.md)
-- [小数（専門）](../../../numbers/decimals/professional.md)
+- [小数（専門）](../../numbers/decimals/professional.md)

@@ -4,12 +4,12 @@ description: "中心から等距離にある点の集まり"
 tags: [math,geometry]
 level: introduction
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 幾何
-    href: /math/geometry/index.html
-  - text: 円
-    href: /math/geometry/circle/introduction.html
+  - title: 数学
+    url: /math/index.html
+  - title: 幾何
+    url: /math/geometry/index.html
+  - title: 円
+    url: /math/geometry/circle/introduction.html
 levels:
   - level: introduction
   - level: standard
@@ -22,7 +22,8 @@ requires:
     url: /math/geometry/point/introduction
 ---
 
-# 円
+
+
 1点（中心）から同じ距離にある点をすべて集めた図形が**円**です。
 回転の対称性が最も高い図形であり、数学のあらゆる場所に現れます。
 

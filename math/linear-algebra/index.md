@@ -4,11 +4,13 @@ description: "ベクトルと行列"
 difficulty: 0
 tags: [math,linear-algebra]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 線形代数
-    href: /math/linear-algebra/index.html
+  - title: 数学
+    url: /math/index.html
+  - title: 線形代数
+    url: /math/linear-algebra/index.html
 ---
+
+
 
 
 

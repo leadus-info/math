@@ -4,12 +4,12 @@ description: "数を格子状に並べた構造"
 tags: [math,linear-algebra]
 level: introduction
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 線形代数
-    href: /math/linear-algebra/index.html
-  - text: 行列
-    href: /math/linear-algebra/matrices/introduction.html
+  - title: 数学
+    url: /math/index.html
+  - title: 線形代数
+    url: /math/linear-algebra/index.html
+  - title: 行列
+    url: /math/linear-algebra/matrices/introduction.html
 levels:
   - level: introduction
   - level: standard
@@ -24,7 +24,8 @@ requires:
     url: /math/math-language/equations/introduction
 ---
 
-# 行列
+
+
 $egin{pmatrix}1 & 2 \ 3 & 4\end{pmatrix}$
 
 数を格子状に並べたものが**行列**です。

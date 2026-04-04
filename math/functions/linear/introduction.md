@@ -4,12 +4,12 @@ description: "グラフが直線になる関数"
 tags: [math,functions,linear]
 level: introduction
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 関数
-    href: /math/functions/index.html
-  - text: 一次関数
-    href: /math/functions/linear/introduction.html
+  - title: 数学
+    url: /math/index.html
+  - title: 関数
+    url: /math/functions/index.html
+  - title: 一次関数
+    url: /math/functions/linear/introduction.html
 levels:
   - level: introduction
   - level: standard
@@ -24,7 +24,8 @@ requires:
     url: /math/numbers/arithmetic/introduction
 ---
 
-# 一次関数
+
+
 タクシーに乗ると「初乗り500円、以後1kmごとに100円」。
 走った距離 $x$ に対して料金 $y$ が決まります。
 これが一次関数の典型的な例です。

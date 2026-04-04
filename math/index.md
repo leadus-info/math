@@ -4,9 +4,11 @@ description: "数学"
 difficulty: 0
 tags: [math]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
+  - title: 数学
+    url: /math/index.html
 ---
+
+
 
 
 # 数学

@@ -3,12 +3,12 @@ title: 乗法・べき乗
 description: "掛け算の性質とべき乗・平方根"
 tags: [math,operations,arithmetic]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 数
-    href: /math/numbers/index.html
-  - text: 乗法・べき乗
-    href: /math/numbers/arithmetic/standard.html
+  - title: 数学
+    url: /math/index.html
+  - title: 数
+    url: /math/numbers/index.html
+  - title: 乗法・べき乗
+    url: /math/numbers/arithmetic/standard.html
 levels:
   - level: introduction
     url: introduction.html
@@ -27,13 +27,6 @@ requires:
 
 
 
-
-
-
-
-
-
-# 乗法・べき乗
 掛け算は[自然数](professional.md)のページで導入しました。  
 このページでは、掛け算をさらに発展させた**べき乗**と**平方根**を扱います。
 

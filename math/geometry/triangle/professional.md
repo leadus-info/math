@@ -3,12 +3,12 @@ title: 三角形
 description: "重心座標・三角形の幾何学的定理・双曲幾何"
 tags: [math,geometry,triangle]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 幾何
-    href: /math/geometry/index.html
-  - text: 三角形
-    href: /math/geometry/triangle/professional.html
+  - title: 数学
+    url: /math/index.html
+  - title: 幾何
+    url: /math/geometry/index.html
+  - title: 三角形
+    url: /math/geometry/triangle/professional.html
 levels:
   - level: introduction
     url: introduction.html
@@ -25,13 +25,6 @@ requires:
 
 
 
-
-
-
-
-
-
-# 三角形（発展）
 重心座標・メネラウスの定理・チェバの定理・双曲幾何を扱います。
 
 ## このページで扱うこと

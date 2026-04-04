@@ -3,12 +3,12 @@ title: 三角関数
 description: "角度と円から生まれる周期関数"
 tags: [math,functions,trigonometric]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 関数
-    href: /math/functions/index.html
-  - text: 三角関数
-    href: /math/functions/trigonometric/standard.html
+  - title: 数学
+    url: /math/index.html
+  - title: 関数
+    url: /math/functions/index.html
+  - title: 三角関数
+    url: /math/functions/trigonometric/standard.html
 levels:
   - level: introduction
     url: introduction.html
@@ -25,13 +25,6 @@ requires:
 
 
 
-
-
-
-
-
-
-# 三角関数
 波・振動・回転——周期的な変化を表す関数です。
 単位円（半径 1 の円）の上を動く点の座標として定義されます。
 

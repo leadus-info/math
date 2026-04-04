@@ -4,12 +4,12 @@ description: "場所を表す最も基本的な要素"
 tags: [math,geometry]
 level: introduction
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 幾何
-    href: /math/geometry/index.html
-  - text: 点
-    href: /math/geometry/point/introduction.html
+  - title: 数学
+    url: /math/index.html
+  - title: 幾何
+    url: /math/geometry/index.html
+  - title: 点
+    url: /math/geometry/point/introduction.html
 levels:
   - level: introduction
   - level: standard
@@ -19,7 +19,8 @@ levels:
 
 ---
 
-# 点
+
+
 「ここ」という場所——大きさを持たず、位置だけを持つものが**点**です。
 座標を使うと、点は数のペア $(x, y)$ として扱えます。
 

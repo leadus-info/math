@@ -3,12 +3,12 @@ title: 行列
 description: "数を格子状に並べた構造"
 tags: [math,linear-algebra,matrices]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 線形代数
-    href: /math/linear-algebra/index.html
-  - text: 行列
-    href: /math/linear-algebra/matrices/standard.html
+  - title: 数学
+    url: /math/index.html
+  - title: 線形代数
+    url: /math/linear-algebra/index.html
+  - title: 行列
+    url: /math/linear-algebra/matrices/standard.html
 levels:
   - level: introduction
     url: introduction.html
@@ -25,13 +25,6 @@ requires:
 
 
 
-
-
-
-
-
-
-# 行列
 数を格子状に並べたものが**行列**です。
 連立方程式をまとめて扱ったり、空間の変換を表したりします。
 

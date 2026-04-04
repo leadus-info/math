@@ -3,12 +3,12 @@ title: ベクトル
 description: "内積空間・ヒルベルト空間・双対空間"
 tags: [math,linear-algebra,vectors]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 線形代数
-    href: /math/linear-algebra/index.html
-  - text: ベクトル
-    href: /math/linear-algebra/vectors/professional.html
+  - title: 数学
+    url: /math/index.html
+  - title: 線形代数
+    url: /math/linear-algebra/index.html
+  - title: ベクトル
+    url: /math/linear-algebra/vectors/professional.html
 levels:
   - level: introduction
     url: introduction.html
@@ -20,21 +20,13 @@ requires:
   - title: ベクトル
     url: \1/introduction.md
   - title: 極限（専門）
-    url: ../../functions/calculus/limits/professional.md
+    url: ../../functions/limits/professional.md
   - title: 積分（専門）
-    url: ../../functions/calculus/integrals/professional.md
+    url: ../../functions/integrals/professional.md
 ---
 
 
 
-
-
-
-
-
-
-
-# ベクトル（発展）
 内積空間・ヒルベルト空間・双対空間を扱います。
 
 ## このページで扱うこと

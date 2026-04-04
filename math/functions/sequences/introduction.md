@@ -4,12 +4,12 @@ description: "規則正しく並んだ数の列"
 tags: [math,functions,sequences]
 level: introduction
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 関数
-    href: /math/functions/index.html
-  - text: 数列
-    href: /math/functions/sequences/introduction.html
+  - title: 数学
+    url: /math/index.html
+  - title: 関数
+    url: /math/functions/index.html
+  - title: 数列
+    url: /math/functions/sequences/introduction.html
 levels:
   - level: introduction
   - level: standard
@@ -22,7 +22,9 @@ requires:
     url: /math/numbers/natural-numbers/introduction
 ---
 
-# 数列
+
+
+
 $1, 3, 5, 7, 9, \ldots$
 $1, 2, 4, 8, 16, \ldots$
 
@@ -60,4 +62,4 @@ $\dfrac{1}{2}, \dfrac{1}{4}, \dfrac{1}{8}, \dfrac{1}{16}, \ldots$
 
 ## 関連ページ
 
-- [極限](../calculus/limits/introduction.md)
+- [極限](../limits/introduction.md)

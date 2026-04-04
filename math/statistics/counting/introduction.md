@@ -4,12 +4,12 @@ description: "「何通りあるか」を数える"
 tags: [math,statistics]
 level: introduction
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 統計・確率
-    href: /math/statistics/index.html
-  - text: 場合の数
-    href: /math/statistics/counting/introduction.html
+  - title: 数学
+    url: /math/index.html
+  - title: 統計・確率
+    url: /math/statistics/index.html
+  - title: 場合の数
+    url: /math/statistics/counting/introduction.html
 levels:
   - level: introduction
   - level: standard
@@ -22,7 +22,8 @@ requires:
     url: /math/numbers/natural-numbers/introduction
 ---
 
-# 場合の数
+
+
 コインを3回投げると、表裏の出方は何通り？
 パスワードに使える文字の組み合わせは何通り？
 

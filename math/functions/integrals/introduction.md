@@ -4,12 +4,12 @@ description: "細かく分けて足し合わせる操作"
 tags: [math,functions,calculus]
 level: introduction
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 関数の操作
-    href: /math/functions/calculus/index.html
-  - text: 積分
-    href: /math/functions/calculus/integrals/introduction.html
+  - title: 数学
+    url: /math/index.html
+  - title: 関数の操作
+    url: /math/functions/index.html
+  - title: 積分
+    url: /math/functions/integrals/introduction.html
 levels:
   - level: introduction
   - level: standard
@@ -19,12 +19,13 @@ levels:
 
 requires:
   - title: 微分
-    url: /math/functions/calculus/derivatives/introduction
+    url: /math/functions/derivatives/introduction
   - title: 極限
-    url: /math/functions/calculus/limits/introduction
+    url: /math/functions/limits/introduction
 ---
 
-# 積分
+
+
 曲線で囲まれた図形の面積を定規だけで測るのは難しい。
 **積分**は「細かく分割して足し合わせる」ことでこの面積を求める操作です。
 

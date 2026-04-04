@@ -3,12 +3,12 @@ title: 一次関数
 description: "直線のグラフと傾き"
 tags: [math,functions,linear]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 関数
-    href: /math/functions/index.html
-  - text: 一次関数
-    href: /math/functions/linear/standard.html
+  - title: 数学
+    url: /math/index.html
+  - title: 関数
+    url: /math/functions/index.html
+  - title: 一次関数
+    url: /math/functions/linear/standard.html
 levels:
   - level: introduction
     url: introduction.html
@@ -25,13 +25,6 @@ requires:
 
 
 
-
-
-
-
-
-
-# 一次関数
 $x$ が 1 増えるたびに $y$ が一定量だけ変化する——それが**一次関数**です。
 グラフは必ず直線になります。
 

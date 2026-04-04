@@ -4,12 +4,12 @@ description: "0より小さい数"
 tags: [math,numbers,negative-numbers]
 level: introduction
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 数
-    href: /math/numbers/index.html
-  - text: 負数
-    href: /math/numbers/negative-numbers/introduction.html
+  - title: 数学
+    url: /math/index.html
+  - title: 数
+    url: /math/numbers/index.html
+  - title: 負数
+    url: /math/numbers/negative-numbers/introduction.html
 levels:
   - level: introduction
   - level: standard
@@ -22,7 +22,8 @@ requires:
     url: /math/numbers/natural-numbers/introduction
 ---
 
-# 負数
+
+
 冬の気温「マイナス5度」、銀行の残高「マイナス1000円（借金）」。
 0より小さい数を**負数**といいます。
 

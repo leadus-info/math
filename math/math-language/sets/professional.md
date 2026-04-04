@@ -3,12 +3,12 @@ title: 集合
 description: "公理的集合論・順序数・基数"
 tags: [math,math-language,sets]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 数学の言語
-    href: /math/math-language/index.html
-  - text: 集合
-    href: /math/math-language/sets/professional.html
+  - title: 数学
+    url: /math/index.html
+  - title: 数学の言語
+    url: /math/math-language/index.html
+  - title: 集合
+    url: /math/math-language/sets/professional.html
 levels:
   - level: introduction
     url: introduction.html
@@ -25,13 +25,6 @@ requires:
 
 
 
-
-
-
-
-
-
-# 集合（発展）
 ZFC公理系・順序数・基数・連続体仮説を扱います。
 
 ## このページで扱うこと

@@ -3,12 +3,12 @@ title: 行列
 description: "スペクトル定理・特異値分解・リー代数"
 tags: [math,linear-algebra,matrices]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 線形代数
-    href: /math/linear-algebra/index.html
-  - text: 行列
-    href: /math/linear-algebra/matrices/professional.html
+  - title: 数学
+    url: /math/index.html
+  - title: 線形代数
+    url: /math/linear-algebra/index.html
+  - title: 行列
+    url: /math/linear-algebra/matrices/professional.html
 levels:
   - level: introduction
     url: introduction.html
@@ -27,14 +27,6 @@ requires:
 
 
 
-
-
-
-
-
-
-
-# 行列（発展）
 スペクトル定理・特異値分解・リー代数を扱います。
 
 ## このページで扱うこと

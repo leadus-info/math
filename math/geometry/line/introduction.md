@@ -4,12 +4,12 @@ description: "2点を結んで両方向に伸ばした線"
 tags: [math,geometry]
 level: introduction
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 幾何
-    href: /math/geometry/index.html
-  - text: 直線
-    href: /math/geometry/line/introduction.html
+  - title: 数学
+    url: /math/index.html
+  - title: 幾何
+    url: /math/geometry/index.html
+  - title: 直線
+    url: /math/geometry/line/introduction.html
 levels:
   - level: introduction
   - level: standard
@@ -24,7 +24,8 @@ requires:
     url: /math/functions/linear/introduction
 ---
 
-# 直線
+
+
 2点を結んで、両方向に限りなく伸ばしたものが**直線**です。
 座標平面では、一次方程式と1対1に対応します。
 

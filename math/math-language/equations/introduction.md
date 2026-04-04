@@ -4,12 +4,12 @@ description: "「等しい」を記号で表す"
 tags: [math,math-language,equations]
 level: introduction
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 数学の言語
-    href: /math/math-language/index.html
-  - text: 等号・等式
-    href: /math/math-language/equations/introduction.html
+  - title: 数学
+    url: /math/index.html
+  - title: 数学の言語
+    url: /math/math-language/index.html
+  - title: 等号・等式
+    url: /math/math-language/equations/introduction.html
 levels:
   - level: introduction
   - level: standard
@@ -19,7 +19,8 @@ levels:
 
 ---
 
-# 等号・等式
+
+
 「左と右が同じ」——これを記号で表したのが等号 $=$ です。
 
 ---

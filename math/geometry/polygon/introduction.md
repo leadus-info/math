@@ -4,12 +4,12 @@ description: "n辺で囲まれた図形"
 tags: [math,geometry]
 level: introduction
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 幾何
-    href: /math/geometry/index.html
-  - text: 多角形
-    href: /math/geometry/polygon/introduction.html
+  - title: 数学
+    url: /math/index.html
+  - title: 幾何
+    url: /math/geometry/index.html
+  - title: 多角形
+    url: /math/geometry/polygon/introduction.html
 levels:
   - level: introduction
   - level: standard
@@ -22,7 +22,8 @@ requires:
     url: /math/geometry/quadrilateral/introduction
 ---
 
-# 多角形
+
+
 三角形・四角形・五角形……$n$ 本の辺で囲まれた図形が**多角形**です。
 
 ---

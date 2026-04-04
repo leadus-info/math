@@ -3,12 +3,12 @@ title: 多角形
 description: "n 辺で囲まれた図形の一般論"
 tags: [math,geometry,polygon]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 幾何
-    href: /math/geometry/index.html
-  - text: 多角形
-    href: /math/geometry/polygon/standard.html
+  - title: 数学
+    url: /math/index.html
+  - title: 幾何
+    url: /math/geometry/index.html
+  - title: 多角形
+    url: /math/geometry/polygon/standard.html
 levels:
   - level: introduction
     url: introduction.html
@@ -27,13 +27,6 @@ requires:
 
 
 
-
-
-
-
-
-
-# 多角形
 3 辺以上の直線で囲まれた図形が**多角形**です。
 
 ## このページで扱うこと

@@ -3,12 +3,12 @@ title: 積分
 description: "面積・累積を求める操作"
 tags: [math,operations,integrals]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 関数の操作
-    href: /math/functions/calculus/index.html
-  - text: 積分
-    href: /math/functions/calculus/integrals/standard.html
+  - title: 数学
+    url: /math/index.html
+  - title: 関数の操作
+    url: /math/functions/index.html
+  - title: 積分
+    url: /math/functions/integrals/standard.html
 levels:
   - level: introduction
     url: introduction.html
@@ -25,13 +25,6 @@ requires:
 
 
 
-
-
-
-
-
-
-# 積分
 グラフと横軸で囲まれた面積を求める——それが**積分**の出発点です。
 細かく刻んで足し合わせることで、曲線で囲まれた面積も計算できます。
 

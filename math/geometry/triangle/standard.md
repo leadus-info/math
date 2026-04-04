@@ -3,12 +3,12 @@ title: 三角形
 description: "三点で定まる基本図形"
 tags: [math,geometry,triangle]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 幾何
-    href: /math/geometry/index.html
-  - text: 三角形
-    href: /math/geometry/triangle/standard.html
+  - title: 数学
+    url: /math/index.html
+  - title: 幾何
+    url: /math/geometry/index.html
+  - title: 三角形
+    url: /math/geometry/triangle/standard.html
 levels:
   - level: introduction
     url: introduction.html
@@ -27,13 +27,6 @@ requires:
 
 
 
-
-
-
-
-
-
-# 三角形
 3 本の直線で囲まれた最もシンプルな多角形が**三角形**です。
 
 ## このページで扱うこと

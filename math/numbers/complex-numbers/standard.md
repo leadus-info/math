@@ -3,12 +3,12 @@ title: 複素数
 description: "実数を超えた数の体系"
 tags: [math,complex-numbers,complex-numbers]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 数
-    href: /math/numbers/index.html
-  - text: 複素数
-    href: /math/numbers/complex-numbers/standard.html
+  - title: 数学
+    url: /math/index.html
+  - title: 数
+    url: /math/numbers/index.html
+  - title: 複素数
+    url: /math/numbers/complex-numbers/standard.html
 levels:
   - level: introduction
     url: introduction.html
@@ -27,13 +27,6 @@ requires:
 
 
 
-
-
-
-
-
-
-# 複素数
 $x^2 = -1$ を満たす数は実数の中に存在しません。
 「存在することにしよう」と決めたのが虚数単位 $i$ であり、これを使って表す数が**複素数**です。
 

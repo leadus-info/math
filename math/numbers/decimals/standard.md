@@ -3,12 +3,12 @@ title: 小数
 description: "分数を 10 の積み重ねで表す"
 tags: [math,numbers,decimals]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 数
-    href: /math/numbers/index.html
-  - text: 小数
-    href: /math/numbers/decimals/standard.html
+  - title: 数学
+    url: /math/index.html
+  - title: 数
+    url: /math/numbers/index.html
+  - title: 小数
+    url: /math/numbers/decimals/standard.html
 levels:
   - level: introduction
     url: introduction.html
@@ -25,13 +25,6 @@ requires:
 
 
 
-
-
-
-
-
-
-# 小数
 「0.5」や「3.14」——小数点を使って表す数が**小数**です。
 分数と同じ量を、別の書き方で表したものです。
 

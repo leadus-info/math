@@ -3,12 +3,12 @@ title: 点
 description: "距離空間・位相空間・多様体上の点"
 tags: [math,geometry,point]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 幾何
-    href: /math/geometry/index.html
-  - text: 点
-    href: /math/geometry/point/professional.html
+  - title: 数学
+    url: /math/index.html
+  - title: 幾何
+    url: /math/geometry/index.html
+  - title: 点
+    url: /math/geometry/point/professional.html
 levels:
   - level: introduction
     url: introduction.html
@@ -22,19 +22,11 @@ requires:
   - title: 集合（専門）
     url: ../../math-language/sets/professional.md
   - title: 極限（専門）
-    url: ../../functions/calculus/limits/professional.md
+    url: ../../functions/limits/professional.md
 ---
 
 
 
-
-
-
-
-
-
-
-# 点（発展）
 距離空間・位相空間・多様体を扱います。
 
 ## このページで扱うこと

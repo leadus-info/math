@@ -4,12 +4,12 @@ description: "4辺で囲まれた図形の種類と性質"
 tags: [math,geometry]
 level: introduction
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 幾何
-    href: /math/geometry/index.html
-  - text: 四角形
-    href: /math/geometry/quadrilateral/introduction.html
+  - title: 数学
+    url: /math/index.html
+  - title: 幾何
+    url: /math/geometry/index.html
+  - title: 四角形
+    url: /math/geometry/quadrilateral/introduction.html
 levels:
   - level: introduction
   - level: standard
@@ -22,7 +22,8 @@ requires:
     url: /math/geometry/triangle/introduction
 ---
 
-# 四角形
+
+
 4本の辺で囲まれた多角形が**四角形**です。
 身の回りで最もよく見る図形——窓、ドア、スマートフォンの画面。
 

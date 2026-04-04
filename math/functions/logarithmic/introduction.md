@@ -4,12 +4,12 @@ description: "「何乗すれば？」という問いへの答え"
 tags: [math,functions,logarithmic]
 level: introduction
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 関数
-    href: /math/functions/index.html
-  - text: 対数関数
-    href: /math/functions/logarithmic/introduction.html
+  - title: 数学
+    url: /math/index.html
+  - title: 関数
+    url: /math/functions/index.html
+  - title: 対数関数
+    url: /math/functions/logarithmic/introduction.html
 levels:
   - level: introduction
   - level: standard
@@ -22,7 +22,8 @@ requires:
     url: /math/functions/exponential/introduction
 ---
 
-# 対数関数
+
+
 「2を何乗すれば8になるか？」
 答えは3です（$2^3 = 8$）。
 

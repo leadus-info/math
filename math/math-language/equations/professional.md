@@ -3,12 +3,12 @@ title: 等号・等式
 description: "方程式論・代数方程式の根の構造"
 tags: [math,math-language,equations]
 hierarchy:
-  - text: 数学
-    href: /math/index.html
-  - text: 数学の言語
-    href: /math/math-language/index.html
-  - text: 等号・等式
-    href: /math/math-language/equations/professional.html
+  - title: 数学
+    url: /math/index.html
+  - title: 数学の言語
+    url: /math/math-language/index.html
+  - title: 等号・等式
+    url: /math/math-language/equations/professional.html
 levels:
   - level: introduction
     url: introduction.html
@@ -27,14 +27,6 @@ requires:
 
 
 
-
-
-
-
-
-
-
-# 等号・等式（発展）
 代数方程式の根の理論とガロア理論の入口を扱います。
 
 ## このページで扱うこと
