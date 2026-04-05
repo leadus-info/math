@@ -25,23 +25,32 @@ requires:
     path: /math/functions/integrals/introduction.md
 ---
 
+## 行列指数関数
 
+正方行列 $A$ に対して**行列指数関数**を定義します：
 
-## このページで扱うこと
+$$e^A = \sum_{n=0}^{\infty}\frac{A^n}{n!} = I + A + \frac{A^2}{2!} + \frac{A^3}{3!} + \cdots$$
 
-行列指数関数・指数型分布族・ラプラス変換を扱います。
+この級数はすべての正方行列に対して収束します。
 
-- 行列指数関数 $e^A$ と常微分方程式
-- 指数型分布族（統計）
-- ラプラス変換
+**主な性質**：
+- $e^0 = I$（単位行列）
+- $AB = BA$ ならば $e^{A+B} = e^A e^B$（非可換の場合は成立しない）
+- $e^A$ は常に可逆で $(e^A)^{-1} = e^{-A}$
 
 ---
 
-## 行列指数関数
+## 常微分方程式への応用
 
-$$e^A = \sum_{n=0}^{\infty}\frac{A^n}{n!}$$
+線形常微分方程式系 $\dot{\boldsymbol{x}} = A\boldsymbol{x}$（$A$ は定数行列）の解：
 
-線形常微分方程式 $\dot{x} = Ax$ の解: $x(t) = e^{At}x(0)$
+$$\boldsymbol{x}(t) = e^{At}\boldsymbol{x}(0)$$
+
+これは1次元の場合 $\dot{x} = ax$ の解 $x(t) = e^{at}x(0)$ の自然な行列版です。
+
+**例**：調和振動子 $\ddot{u} = -\omega^2 u$ は\
+$\dot{\boldsymbol{x}} = \begin{pmatrix}0&1\\-\omega^2&0\end{pmatrix}\boldsymbol{x}$ と書け、\
+解は $e^{At}$ で表されます。これが $\sin$、$\cos$ と結びつきます。
 
 ---
 
@@ -49,20 +58,19 @@ $$e^A = \sum_{n=0}^{\infty}\frac{A^n}{n!}$$
 
 $$\mathcal{L}\{f(t)\}(s) = \int_0^{\infty} f(t)e^{-st}\,dt$$
 
-微分・積分を代数的操作に変換します（工学での制御理論に必須）。
+微分・積分の操作が代数的演算に変換されます：
 
----
+$$\mathcal{L}\{f'(t)\}(s) = s\mathcal{L}\{f\}(s) - f(0)$$
 
-## 指数型分布族
+常微分方程式の初期値問題を代数方程式に変換し、逆変換で解を復元します。\
+制御工学・信号処理で広く使われます。
 
-$$p(x;\theta) = h(x)\exp(\eta(\theta)T(x) - A(\theta))$$
-
-正規分布・ポアソン分布・ベルヌーイ分布を統一する枠組み。
+**参考文献**：Hirsch, M. W., Smale, S., & Devaney, R. L. (2013). *Differential Equations, Dynamical Systems, and an Introduction to Chaos* (3rd ed.). Academic Press.
 
 ---
 
 ## 関連ページ
 
-- [指数関数](introduction.md)
+- [指数関数](standard.md)
 - [行列（専門）](../../linear-algebra/matrices/professional.md)
 - [確率（専門）](../../statistics/probability/professional.md)

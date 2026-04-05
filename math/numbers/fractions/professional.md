@@ -25,21 +25,6 @@ requires:
     path: ../../functions/limits/professional.md
 ---
 
-
-
-
-
-## このページで扱うこと
-
-有理数の代数的構造・稠密性・実数との距離について扱います。\
-基礎は[分数（入門）](introduction.md)を参照してください。
-
-- 同値類による $\mathbb{Q}$ の厳密な構成
-- 有理数の稠密性と実数との差（$\mathbb{R} \setminus \mathbb{Q}$ の非可算性）
-- $p$-進数への入口
-
----
-
 ## 同値類による $\mathbb{Q}$ の構成
 
 整数の順序対 $(a, b)$（$b \neq 0$）に対して同値関係を定義します。

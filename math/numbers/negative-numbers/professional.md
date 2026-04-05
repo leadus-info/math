@@ -25,20 +25,6 @@ requires:
     path: /math/math-language/sets/introduction.md
 ---
 
-
-
-
-
-## このページで扱うこと
-
-整数の代数的構造（整域・単項イデアル整域）について扱います。
-
-- 整数環 $\mathbb{Z}$ の代数的性質
-- イデアルと剰余環
-- $\mathbb{Z}/n\mathbb{Z}$（合同算術）の構造
-
----
-
 ## 整数環 $\mathbb{Z}$
 
 $\mathbb{Z}$ は加算・減算・乗算について閉じた**環（ring）**です。\

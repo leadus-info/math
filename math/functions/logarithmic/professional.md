@@ -25,19 +25,6 @@ requires:
     path: /math/statistics/probability/introduction.md
 ---
 
-
-
-
-## このページで扱うこと
-
-情報理論・複素対数・$p$-進対数を扱います。
-
-- 情報エントロピーと対数
-- 複素対数（多価性とリーマン面）
-- KL ダイバージェンス
-
----
-
 ## 情報エントロピー
 
 $$H(X) = -\sum_x p(x)\log_2 p(x)$$

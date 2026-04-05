@@ -25,18 +25,6 @@ requires:
     path: /math/functions/integrals/introduction.md
 ---
 
-
-
-## このページで扱うこと
-
-凸関数・イェンセン不等式・最適化理論との接続を扱います。
-
-- 凸関数とイェンセン不等式
-- ヘルダー不等式・ミンコフスキー不等式
-- KKT条件と最適化
-
----
-
 ## 凸関数
 
 $f$ が凸 $\iff$ $f(\lambda x + (1-\lambda)y) \leq \lambda f(x) + (1-\lambda)f(y)$

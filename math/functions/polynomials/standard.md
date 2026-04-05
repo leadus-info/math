@@ -25,20 +25,6 @@ requires:
     path: /math/functions/derivatives/introduction.md
 ---
 
-
-
-
-## このページで扱うこと
-
-$x^2 + 3x - 2$ のように $x$ のべき乗の和で書ける関数が**多項式**です。\
-一次関数・二次関数を一般化したものです。
-
-- 多項式の次数と係数
-- 根と因数の関係
-- 微分・積分・グラフの概形
-
----
-
 ## 定義
 
 $$f(x) = a_n x^n + \cdots + a_1 x + a_0 \quad (a_n \neq 0)$$
