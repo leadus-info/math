@@ -22,6 +22,11 @@ hierarchy:
 
 [入門](natural-numbers/introduction.md) / [標準](natural-numbers/standard.md) / [専門](natural-numbers/professional.md)
 
+## 負数
+引き算が閉じないことから生まれる0より小さい数。整数全体を扱います。
+
+[入門](negative-numbers/introduction.md) / [標準](negative-numbers/standard.md) / [専門](negative-numbers/professional.md)
+
 
 ## 分数
 割り算が割り切れないときに生まれる数。有理数の性質を扱います。
@@ -33,12 +38,6 @@ hierarchy:
 分数を10進法で表す記法。有限小数・循環小数・無理数を扱います。
 
 [入門](decimals/introduction.md) / [標準](decimals/standard.md) / [専門](decimals/professional.md)
-
-
-## 負数
-引き算が閉じないことから生まれる0より小さい数。整数全体を扱います。
-
-[入門](negative-numbers/introduction.md) / [標準](negative-numbers/standard.md) / [専門](negative-numbers/professional.md)
 
 
 ## 乗法・べき乗

@@ -6,9 +6,9 @@
 - 基礎(basics)
   - 数(numbers)
     - 自然数
+    - 負数
     - 分数
     - 小数
-    - 負数
   - 演算(operations)
     - 四則演算(arithmetic)
     - 極限(limits)
