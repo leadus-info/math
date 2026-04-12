@@ -18,17 +18,17 @@ levels:
   - level: 専門
 level: 専門
 requires:
-  - title: 自然数
+  - title: 自然数（標準）
     path: /math/numbers/natural-numbers/standard.md
-  - title: 必要・十分条件
+  - title: 必要・十分条件（入門）
     path: /math/math-language/conditions/introduction.md
-  - title: 集合
+  - title: 集合（入門）
     path: /math/math-language/sets/introduction.md
 ---
 
 ## ペアノ公理系
 
-標準レベルでは自然数の演算法則を「成り立つもの」として扱いました。ここでは、なぜそれらが成り立つのかを、公理から出発して構成します。
+自然数（標準）では演算法則を「成り立つもの」として扱いました。ここでは、なぜそれらが成り立つのかを公理から構成します。
 
 以下の **ペアノの公理（PA）** を満たす集合 $\mathbb{N}$、元 $1 \in \mathbb{N}$、写像 $S: \mathbb{N} \to \mathbb{N}$（後者写像）の組を**自然数系**と呼びます。
 
@@ -39,6 +39,8 @@ requires:
 5. **帰納公理**：$M \subset \mathbb{N}$ が $1 \in M$ かつ $n \in M \Rightarrow S(n) \in M$ を満たすならば $M = \mathbb{N}$
 
 公理5が数学的帰納法の根拠です。「$1$ で成り立ち、$n$ で成り立てば $S(n)$ でも成り立つ」性質は、すべての自然数で成り立ちます。
+
+**参考文献**：Peano, G. (1889). *Arithmetices principia, nova methodo exposita*. Bocca.
 
 ---
 
@@ -52,13 +54,39 @@ $$a + 1 := S(a), \quad a + S(n) := S(a + n)$$
 
 $$a \times 1 := a, \quad a \times S(n) := (a \times n) + a$$
 
-これらの定義から、標準レベルで前提とした交換法則・結合法則・分配法則がすべて証明できます。例として加法の交換法則を示します。
+これらの定義から、自然数（標準）で前提とした交換法則・結合法則・分配法則がすべて証明できます。例として加法の交換法則を示します。
 
 **定理**：$a + b = b + a$
 
 証明：$b$ に関する帰納法。$b = 1$ のとき $a + 1 = S(a)$ であり、$1 + a = a$（$a$ に関する帰納法で別途示す）の後者なので $a + 1 = 1 + a$。$b = n$ で成立を仮定すると $a + S(n) = S(a + n) = S(n + a) = n + S(a) = n + (a + 1) = n + (1 + a) = (n + 1) + a = S(n) + a$。$\square$
 
-**参考文献**：Peano, G. (1889). *Arithmetices principia, nova methodo exposita*. Bocca.
+---
+
+## 閉包性
+
+自然数（標準）では「自然数同士の足し算・掛け算の答えは必ず自然数になる」ことを前提として述べましたが、これもペアノ公理から証明できます。
+
+**定理**：$a, b \in \mathbb{N}$ に対して $a + b \in \mathbb{N}$、$a \times b \in \mathbb{N}$。
+
+証明（加法）：$b$ に関する帰納法。$b = 1$ のとき $a + 1 = S(a) \in \mathbb{N}$（公理2）。$a + n \in \mathbb{N}$ を仮定すると $a + S(n) = S(a + n) \in \mathbb{N}$（再び公理2）。$\square$
+
+減法と除法は閉じていません。$a - b$ は $a > b$ のときのみ $\mathbb{N}$ に属し、$a \div b$ は $b \mid a$ のときのみ $\mathbb{N}$ に属します。
+
+---
+
+## 全順序
+
+自然数の大小関係を厳密に定義します。
+
+**定義**：$a < b$ とは、$b = a + k$ を満たす $k \in \mathbb{N}$ が存在することです。
+
+**定理（三分律）**：任意の $m, n \in \mathbb{N}$ について、$m < n$、$m = n$、$m > n$ のうちちょうど一つが成り立つ。
+
+**定理（推移律）**：$a < b$ かつ $b < c$ ならば $a < c$。
+
+証明：$b = a + k$、$c = b + l$（$k, l \in \mathbb{N}$）とすると $c = a + (k + l)$。$k + l \in \mathbb{N}$（閉包性）より $a < c$。$\square$
+
+三分律と推移律から、$\mathbb{N}$ 上の $<$ は**全順序**です。
 
 ---
 
@@ -69,6 +97,8 @@ $$a \times 1 := a, \quad a \times S(n) := (a \times n) + a$$
 整列原理は帰納公理（公理5）と同値であり、以降の証明で繰り返し用います。
 
 **定理（除法の定理）**：任意の $a \in \mathbb{N}_0$、$b \in \mathbb{N}$ に対して、$a = bq + r$、$0 \leq r < b$ を満たす $q, r \in \mathbb{N}_0$ の組がただ一つ存在する。
+
+自然数（標準）では商と余りの一意性を前提としていましたが、ここで厳密に証明します。
 
 存在の証明：$S = \{a - bk \mid k \in \mathbb{N}_0,\ a - bk \geq 0\}$ は空でない（$k = 0$ で $a \in S$）。整列原理より $S$ は最小元 $r$ を持ちます。対応する $k$ を $q$ とすれば $a = bq + r$。$r \geq b$ と仮定すると $r - b \geq 0$ で $r - b \in S$ となり $r$ の最小性に矛盾。よって $0 \leq r < b$。
 
@@ -93,6 +123,8 @@ $$a = bq_1 + r_1, \quad b = r_1 q_2 + r_2, \quad r_1 = r_2 q_3 + r_3, \quad \ldo
 ---
 
 ## 算術の基本定理
+
+自然数（標準）で述べた「素因数分解は一通りに決まる」という性質を厳密に証明します。
 
 **定理**：$n > 1$ の任意の自然数は素数の積として順序を除いて一意に表せる。
 
