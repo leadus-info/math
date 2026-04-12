@@ -25,19 +25,6 @@ requires:
     path: /math/numbers/complex-numbers/introduction.md
 ---
 
-
-
-
-## このページで扱うこと
-
-代数方程式の根の理論とガロア理論の入口を扱います。
-
-- 代数方程式の根と係数の関係（ヴィエタの公式）
-- 根の存在（代数学の基本定理）
-- ガロア理論の概観
-
----
-
 ## ヴィエタの公式
 
 $n$ 次方程式 $a_n x^n + \cdots + a_0 = 0$ の根 $\alpha_1, \ldots, \alpha_n$ について:

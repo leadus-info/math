@@ -25,18 +25,6 @@ requires:
     path: /math/linear-algebra/vectors/introduction.md
 ---
 
-
-
-## このページで扱うこと
-
-二次形式・円錐曲線・行列の固有値との関係を扱います。
-
-- 二次形式と正値性
-- 円錐曲線（楕円・双曲線・放物線）の統一的な扱い
-- 最適化との接続（ヘッセ行列）
-
----
-
 ## 二次形式
 
 $$Q(\boldsymbol{x}) = \boldsymbol{x}^\top A \boldsymbol{x} = \sum_{i,j} a_{ij} x_i x_j$$

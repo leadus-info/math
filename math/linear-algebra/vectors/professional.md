@@ -25,19 +25,6 @@ requires:
     path: ../../functions/integrals/professional.md
 ---
 
-
-
-
-## このページで扱うこと
-
-内積空間・ヒルベルト空間・双対空間を扱います。
-
-- 内積空間の公理とグラム・シュミット直交化
-- ヒルベルト空間と完備性
-- 双対空間とリース表現定理
-
----
-
 ## 内積空間
 
 $\langle \cdot, \cdot \rangle: V \times V \to \mathbb{F}$ が線形性・対称性・正定値性を満たす。

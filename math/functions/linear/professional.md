@@ -25,18 +25,6 @@ requires:
     path: /math/linear-algebra/vectors/introduction.md
 ---
 
-
-
-## このページで扱うこと
-
-アフィン写像・線形写像・$n$ 次元超平面を扱います。
-
-- 線形写像とアフィン写像の違い
-- $n$ 次元での一次関数（超平面）
-- 最小二乗法との接続
-
----
-
 ## 線形写像とアフィン写像
 
 **線形写像**: $f(\alpha x + \beta y) = \alpha f(x) + \beta f(y)$（原点を保つ）

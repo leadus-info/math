@@ -25,19 +25,6 @@ requires:
     path: ../../../numbers/decimals/professional.md
 ---
 
-
-
-
-## このページで扱うこと
-
-$\varepsilon$-$\delta$ 論法・一様収束・位相的な極限の定式化を扱います。
-
-- $\varepsilon$-$\delta$ による厳密な定義と証明例
-- 点収束と一様収束の違い
-- 位相空間における極限
-
----
-
 ## $\varepsilon$-$\delta$ 定義
 
 $$\lim_{x \to a}f(x) = L \iff \forall \varepsilon > 0,\ \exists \delta > 0 \text{ s.t. } 0 < |x-a| < \delta \Rightarrow |f(x)-L| < \varepsilon$$

@@ -23,45 +23,65 @@ requires:
     path: ../sets/professional.md
 ---
 
+## 命題論理
 
+**命題**とは真偽が定まる文です。\
+命題 $P$、$Q$ から複合命題を構成します。
 
+| 記号 | 読み方 | 真になる条件 |
+|------|--------|------------|
+| $\neg P$ | Pでない | $P$ が偽のとき |
+| $P \wedge Q$ | PかつQ | $P$ も $Q$ も真のとき |
+| $P \vee Q$ | PまたはQ | 少なくとも一方が真のとき |
+| $P \Rightarrow Q$ | PならばQ | $P$ が真かつ $Q$ が偽でないとき |
+| $P \Leftrightarrow Q$ | PとQは同値 | 真偽が一致するとき |
 
+**真理値表（$P \Rightarrow Q$）**：
 
-## このページで扱うこと
+| $P$ | $Q$ | $P \Rightarrow Q$ |
+|-----|-----|-------------------|
+| T | T | T |
+| T | F | **F** |
+| F | T | T |
+| F | F | T |
 
-述語論理・公理系・証明論の基礎を扱います。
-
-- 一階述語論理の構文と意味論
-- 健全性・完全性定理
-- ゲーデルの不完全性定理の概要
+「$P$ が偽のとき $P \Rightarrow Q$ は真」——これは「偽からは何でも導ける」という論理的慣習です。
 
 ---
 
 ## 一階述語論理
 
-命題論理を拡張し、$\forall$（全称）・$\exists$（存在）量化子を導入します。
+命題論理を拡張し、変数と量化子を導入します。
 
-$$\forall x\,\exists y\,(x < y) \quad \text{（自然数について真）}$$
+- $\forall x\, P(x)$：「すべての $x$ について $P(x)$ が成り立つ」
+- $\exists x\, P(x)$：「$P(x)$ が成り立つ $x$ が存在する」
 
----
+**例**：
 
-## 健全性・完全性定理
+$$\forall x \in \mathbb{R},\ x^2 \geq 0 \quad \text{（真）}$$
+$$\exists x \in \mathbb{R},\ x^2 = -1 \quad \text{（偽）}$$
 
-**健全性**: 証明可能 $\Rightarrow$ 恒真\
-**完全性**（ゲーデル）: 恒真 $\Rightarrow$ 証明可能
+**量化子の否定**：
+
+$$\neg(\forall x\, P(x)) \iff \exists x\, \neg P(x)$$
+$$\neg(\exists x\, P(x)) \iff \forall x\, \neg P(x)$$
 
 ---
 
 ## ゲーデルの不完全性定理
 
-十分強い公理系（ペアノ算術など）において:
+**第一不完全性定理**：ペアノ算術（PA）を含む十分強い無矛盾な公理系には、\
+「その公理系では証明も反証もできない命題」が存在します。
 
-1. 証明も反証もできない命題が存在する
-2. 自身の無矛盾性を証明できない
+**第二不完全性定理**：そのような公理系は自身の無矛盾性を証明できません。
+
+これは「数学は完全に形式化できない」ことを示す20世紀数学の最重要結果の一つです。
+
+**参考文献**：Gödel, K. (1931). "Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I." *Monatshefte für Mathematik und Physik*, 38, 173–198.
 
 ---
 
 ## 関連ページ
 
-- [必要・十分条件](introduction.md)
+- [必要・十分条件](standard.md)
 - [集合（専門）](../sets/professional.md)

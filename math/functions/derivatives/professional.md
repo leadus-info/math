@@ -25,18 +25,6 @@ requires:
     path: /math/linear-algebra/vectors/introduction.md
 ---
 
-
-
-## このページで扱うこと
-
-多変数微分・フレシェ微分・微分形式を扱います。
-
-- 偏微分・全微分・ヤコビ行列
-- フレシェ微分（バナッハ空間上の微分）
-- 微分形式と外微分
-
----
-
 ## 偏微分と全微分
 
 $f: \mathbb{R}^n \to \mathbb{R}$ に対して:

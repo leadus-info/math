@@ -23,18 +23,6 @@ requires:
     path: /math/linear-algebra/vectors/introduction.md
 ---
 
-
-
-## このページで扱うこと
-
-重心座標・メネラウスの定理・チェバの定理・双曲幾何を扱います。
-
-- 重心座標系
-- メネラウスの定理・チェバの定理
-- 非ユークリッド幾何（双曲幾何の三角形）
-
----
-
 ## 重心座標
 
 点 $P$ を $P = \alpha A + \beta B + \gamma C$（$\alpha+\beta+\gamma=1$）と表す座標系。
