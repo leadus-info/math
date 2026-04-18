@@ -1,6 +1,7 @@
 ---
 title: 円
-description: "中心から等距離な点の集合"
+description: "円の方程式・弧長・接線・単位円"
+goal: "円の方程式を書き、円と直線の位置関係・接線の方程式を求め、単位円と三角関数の関係を説明できるようになる"
 tags: [math,geometry,circle]
 hierarchy:
   - title: 数学
@@ -17,47 +18,39 @@ levels:
     path: professional.md
 level: 標準
 requires:
-  - title: 点
-    path: /math/geometry/point/introduction.md
-  - title: 直線
-    path: /math/geometry/line/introduction.md
+  - title: 円（入門）
+    path: /math/geometry/circle/introduction.md
+  - title: 点（標準）
+    path: /math/geometry/point/standard.md
+  - title: 三角関数（標準）
+    path: /math/functions/trigonometric/standard.md
 ---
-
 
 ## 円の方程式
 
-中心から等距離にある点の集合が円です。
-
-中心 $(a, b)$、半径 $r$ の円は
+中心 $(a, b)$、半径 $r$ の円は「中心からの距離が $r$ の点の集合」なので：
 
 $$(x - a)^2 + (y - b)^2 = r^2$$
 
-これは「中心 $(a, b)$ からの距離が $r$ の点全体」という定義を式にしたものです。\
 原点中心のとき $x^2 + y^2 = r^2$。
 
----
-
-## 円周と面積
-
-$$\text{円周} = 2\pi r, \qquad \text{面積} = \pi r^2$$
-
-$\pi = 3.14159\ldots$ は円周率で、無理数です。
+**例**：中心 $(1, -2)$、半径 $3$ の円：$(x-1)^2 + (y+2)^2 = 9$
 
 ---
 
-## 弧長と扇形
+## 弧長と扇形の面積
 
 中心角 $\theta$（ラジアン）のとき：
 
-$$\text{弧長} = r\theta, \qquad \text{扇形の面積} = \frac{1}{2}r^2\theta$$
+$$\text{弧長} = r\theta, \quad \text{扇形の面積} = \frac{1}{2}r^2\theta$$
 
-ラジアンとは「弧長 = 半径」となる角度。$360° = 2\pi$ ラジアン、$180° = \pi$ ラジアン。
+ラジアンは「弧長 $=$ 半径」となる角度（$360° = 2\pi$ ラジアン）。
 
 ---
 
 ## 円と直線の位置関係
 
-中心 $(a, b)$、半径 $r$ の円と直線の距離を $d$ とすると：
+中心から直線までの距離を $d$、半径を $r$ とすると：
 
 | 条件 | 関係 |
 |------|------|
@@ -73,21 +66,25 @@ $$\text{弧長} = r\theta, \qquad \text{扇形の面積} = \frac{1}{2}r^2\theta$
 
 $$x_0 x + y_0 y = r^2$$
 
-これは「接線は接点での半径と垂直」という事実から導けます。
+この公式は「接線は接点での半径と垂直」から導けます。接点でのベクトル $(x_0, y_0)$ と接線方向 $(x-x_0, y-y_0)$ の内積が $0$。
+
+**例**：$x^2 + y^2 = 25$ 上の点 $(3, 4)$ での接線：$3x + 4y = 25$
 
 ---
 
 ## 単位円と三角関数
 
-半径 1、中心が原点の円（**単位円**）上の点を角度 $\theta$ で表すと $(\cos\theta, \sin\theta)$。
+半径 $1$、中心が原点の円を**単位円**といいます。
+
+角度 $\theta$ の点の座標を $(\cos\theta, \sin\theta)$ と定義すると、単位円の方程式 $x^2 + y^2 = 1$ から：
 
 $$\cos^2\theta + \sin^2\theta = 1$$
 
-これは単位円の方程式 $x^2 + y^2 = 1$ そのものです。
+が直ちに従います。これが三角関数の最重要公式の幾何学的な意味です。
 
 ---
 
 ## 関連ページ
 
-- [三角関数](../../functions/trigonometric/introduction.md)
-- [三角形](../triangle/introduction.md)
+- [三角関数（標準）](../../functions/trigonometric/standard.md)
+- [三角形（標準）](../triangle/standard.md)

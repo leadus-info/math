@@ -1,6 +1,7 @@
 ---
 title: 三角関数
 description: "角度と円から生まれる周期関数"
+goal: "三角関数の定義・主要な定理・代表的な計算を理解し、後続のトピックに進める基礎を身につける"
 tags: [math,functions,trigonometric]
 hierarchy:
   - title: 数学
@@ -25,30 +26,20 @@ requires:
 
 ## 定義（単位円）
 
-半径 1 の円の上の点 $(\cos\theta,\ \sin\theta)$ で定義します。
+半径1の単位円上で、原点から角度 $\theta$（反時計回りを正とするラジアン）の点の座標を $(\cos\theta, \sin\theta)$ と定義します。
 
-- $\cos\theta$：$x$ 座標
-- $\sin\theta$：$y$ 座標
-- $\tan\theta = \dfrac{\sin\theta}{\cos\theta}$
+$$\tan\theta = \frac{\sin\theta}{\cos\theta} \quad (\cos\theta \neq 0)$$
 
 ---
 
 ## 主要な値
 
-| 角度 | $0°$ | $30°$ | $45°$ | $60°$ | $90°$ |
-|------|------|-------|-------|-------|-------|
-| $\sin$ | $0$ | $\frac{1}{2}$ | $\frac{\sqrt{2}}{2}$ | $\frac{\sqrt{3}}{2}$ | $1$ |
-| $\cos$ | $1$ | $\frac{\sqrt{3}}{2}$ | $\frac{\sqrt{2}}{2}$ | $\frac{1}{2}$ | $0$ |
+| $\theta$ | $0$ | $\pi/6$ | $\pi/4$ | $\pi/3$ | $\pi/2$ |
+|---------|-----|--------|--------|--------|--------|
+| $\sin$ | $0$ | $\dfrac{1}{2}$ | $\dfrac{\sqrt{2}}{2}$ | $\dfrac{\sqrt{3}}{2}$ | $1$ |
+| $\cos$ | $1$ | $\dfrac{\sqrt{3}}{2}$ | $\dfrac{\sqrt{2}}{2}$ | $\dfrac{1}{2}$ | $0$ |
 
----
-
-## グラフの性質
-
-| 関数 | 周期 | 値の範囲 |
-|------|------|---------|
-| $\sin x$ | $360°$ | $-1$ から $1$ |
-| $\cos x$ | $360°$ | $-1$ から $1$ |
-| $\tan x$ | $180°$ | すべての実数 |
+ラジアン：$\pi = 180°$、$2\pi = 360°$。
 
 ---
 
@@ -58,8 +49,10 @@ $$\sin^2\theta + \cos^2\theta = 1$$
 
 **加法定理**：
 
-$$\sin(\alpha + \beta) = \sin\alpha\cos\beta + \cos\alpha\sin\beta$$\
+$$\sin(\alpha + \beta) = \sin\alpha\cos\beta + \cos\alpha\sin\beta$$
 $$\cos(\alpha + \beta) = \cos\alpha\cos\beta - \sin\alpha\sin\beta$$
+
+加法定理から、2倍角・半角の公式が導かれます。
 
 ---
 
@@ -67,10 +60,19 @@ $$\cos(\alpha + \beta) = \cos\alpha\cos\beta - \sin\alpha\sin\beta$$
 
 $$(\sin x)' = \cos x, \quad (\cos x)' = -\sin x$$
 
+証明は $\displaystyle\lim_{h\to 0}\frac{\sin h}{h} = 1$ を用います。
+
+---
+
+## 例題
+
+$\sin 75° = \sin(45° + 30°)$ を加法定理で計算します。
+
+$$= \sin 45°\cos 30° + \cos 45°\sin 30° = \frac{\sqrt{2}}{2} \cdot \frac{\sqrt{3}}{2} + \frac{\sqrt{2}}{2} \cdot \frac{1}{2} = \frac{\sqrt{6}+\sqrt{2}}{4}$$
+
 ---
 
 ## 関連ページ
 
-- [円](professional.md)
-- [複素数](professional.md) — オイラーの公式
-- [三角関数（専門）](professional.md) — フーリエ解析
+- [三角関数（入門）](introduction.md)
+- [複素数（標準）](../../numbers/complex-numbers/standard.md) — オイラーの公式

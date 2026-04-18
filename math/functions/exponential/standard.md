@@ -1,6 +1,7 @@
 ---
 title: 指数関数
 description: "倍々で増える関数"
+goal: "指数関数の定義・主要な定理・代表的な計算を理解し、後続のトピックに進める基礎を身につける"
 tags: [math,functions,exponential]
 hierarchy:
   - title: 数学
@@ -23,14 +24,9 @@ requires:
     path: /math/functions/linear/introduction.md
 ---
 
-## 定義
+## 指数関数の定義
 
-底 $a > 0$、$a \neq 1$ の**指数関数**：
-
-$$f(x) = a^x$$
-
-$x$ が整数のとき $a^n = a \times a \times \cdots \times a$（$n$ 回掛ける）が原点的な意味ですが、\
-有理数・実数へと自然に拡張されます。
+**定義**：底 $a > 0$、$a \neq 1$ の**指数関数**を $f(x) = a^x$ とします。
 
 ---
 
@@ -38,56 +34,40 @@ $x$ が整数のとき $a^n = a \times a \times \cdots \times a$（$n$ 回掛け
 
 | | $a > 1$ | $0 < a < 1$ |
 |--|---------|-------------|
-| 形 | 右上がり（指数的増加） | 右下がり（指数的減衰） |
-| $y$ 切片 | $(0, 1)$ | $(0, 1)$ |
+| 形状 | 右上がり（増加） | 右下がり（減少） |
+| $y$ 切片 | $(0, 1)$（どちらも） | $(0, 1)$（どちらも） |
 | 漸近線 | $y = 0$（$x \to -\infty$） | $y = 0$（$x \to +\infty$） |
 
-**共通の性質**：
-- すべての $x$ で $a^x > 0$（決して負にならない）
-- $a^0 = 1$（底が何であれ $y$ 切片は 1）
+$a^0 = 1$ なので $y$ 切片は常に1。$a^x > 0$ なので $x$ 軸と交わりません。
 
 ---
 
 ## 指数法則
 
-$$a^m \times a^n = a^{m+n}$$
-$$(a^m)^n = a^{mn}$$
-$$a^{-n} = \frac{1}{a^n}$$
-$$a^{1/n} = \sqrt[n]{a}$$
-
-**例**：$2^3 \times 2^4 = 2^7 = 128$、$(2^3)^2 = 2^6 = 64$
+$$a^m \cdot a^n = a^{m+n}, \quad (a^m)^n = a^{mn}, \quad a^{-n} = \frac{1}{a^n}, \quad a^{1/n} = \sqrt[n]{a}$$
 
 ---
 
 ## ネイピア数 $e$
 
-$$e = \lim_{n\to\infty}\left(1 + \frac{1}{n}\right)^n \approx 2.71828\ldots$$
+$$e = \lim_{n\to\infty}\left(1+\frac{1}{n}\right)^n \approx 2.71828\ldots$$
 
-$e$ は**微分しても変わらない**という特別な性質を持ちます：
-
-$$\frac{d}{dx} e^x = e^x$$
-
-これが自然現象（成長・減衰）の数理モデルで $e$ が頻繁に登場する理由です。
+$e$ は「微分しても変わらない」という特別な性質を持ちます：$(e^x)' = e^x$。この性質から自然界の成長・減衰の記述に自然に登場します。
 
 ---
 
-## 指数方程式と不等式
+## 指数方程式
 
-**底を揃えて解く**：
+底を揃えて指数を比較します。
 
-$$4^x = 8 \implies (2^2)^x = 2^3 \implies 2x = 3 \implies x = \frac{3}{2}$$
+$$4^x = 8 \Rightarrow (2^2)^x = 2^3 \Rightarrow 2x = 3 \Rightarrow x = \frac{3}{2}$$
 
-**底が $1$ より大きいとき不等号の向きはそのまま**：
-
-$$2^x > 2^3 \iff x > 3$$
-
-**底が $0$ と $1$ の間のとき不等号の向きが逆**：
-
-$$\left(\frac{1}{2}\right)^x > \left(\frac{1}{2}\right)^3 \iff x < 3$$
+底が1より大きいとき、$a^x > a^y \iff x > y$。底が0と1の間なら不等号が逆転します。
 
 ---
 
 ## 関連ページ
 
-- [対数関数](../logarithmic/introduction.md)
-- [微分](../derivatives/introduction.md)
+- [指数関数（入門）](introduction.md)
+- [対数関数（標準）](../logarithmic/standard.md)
+- [微分（標準）](../derivatives/standard.md)

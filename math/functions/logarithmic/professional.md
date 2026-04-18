@@ -1,6 +1,7 @@
 ---
 title: 対数関数
 description: "情報エントロピー・複素対数・$p$-進対数"
+goal: "対数関数を厳密に定義し、主要な定理を証明できるようになる"
 tags: [math,functions,logarithmic]
 hierarchy:
   - title: 数学
@@ -25,33 +26,45 @@ requires:
     path: /math/statistics/probability/introduction.md
 ---
 
-## 情報エントロピー
+## 複素対数
 
-$$H(X) = -\sum_x p(x)\log_2 p(x)$$
+実数では $\ln x$（$x > 0$）は一価関数でしたが、複素数に拡張すると多価になります。
 
-不確実性の定量的な尺度。対数の底を変えることで単位が変わります（ビット、ナット）。
+$$\log z = \ln|z| + i\arg(z)$$
+
+$\arg(z)$ は $2\pi$ の不定性があるため**多価関数**です。$-\pi < \arg(z) \leq \pi$（主値）を選ぶと、主値対数 $\mathrm{Log}\,z$ として一価になります。
+
+リーマン面を使うと多価性を一価に「解きほぐす」ことができます。
 
 ---
 
-## 複素対数
+## 情報エントロピー
 
-$$\ln z = \ln|z| + i\arg(z)$$
+離散確率分布 $\{p_i\}$ の**シャノン情報量（エントロピー）**：
 
-$\arg(z)$ は $2\pi$ の不定性を持つため多価関数。\
-主値を選ぶと（$-\pi < \arg \leq \pi$）単価になります。
+$$H = -\sum_i p_i \log_2 p_i$$
+
+対数の底を変えると単位が変わります（ビット：底2、ナット：底$e$）。
 
 ---
 
 ## KL ダイバージェンス
 
+分布 $P$ と $Q$ の「ずれ」の非対称な尺度：
+
 $$D_{KL}(P \| Q) = \sum_x P(x)\ln\frac{P(x)}{Q(x)} \geq 0$$
 
-確率分布間の「距離」（非対称）。
+等号は $P = Q$ のとき。距離の公理を満たしません（非対称・三角不等式不成立）。
+
+---
+
+## 参考文献
+
+Rudin, W. (1987). *Real and Complex Analysis* (3rd ed.). McGraw-Hill.
 
 ---
 
 ## 関連ページ
 
-- [対数関数](introduction.md)
-- [複素関数](introduction.md)
-- [確率（専門）](../../statistics/probability/professional.md)
+- [対数関数（標準）](standard.md)
+- [複素関数（専門）](../complex-functions/professional.md)

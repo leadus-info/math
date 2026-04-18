@@ -1,6 +1,7 @@
 ---
 title: ベクトル
-description: "大きさと向きを持つ量"
+description: "ベクトルの演算・内積・線形独立"
+goal: "ベクトルの成分表示・内積の計算と幾何学的意味・線形独立の概念を理解し、基本的な計算ができるようになる"
 tags: [math,linear-algebra,vectors]
 hierarchy:
   - title: 数学
@@ -17,80 +18,71 @@ levels:
     path: professional.md
 level: 標準
 requires:
-  - title: 点
-    path: /math/geometry/point/introduction.md
-  - title: 三角関数
-    path: /math/functions/trigonometric/introduction.md
+  - title: ベクトル（入門）
+    path: /math/linear-algebra/vectors/introduction.md
+  - title: 点（標準）
+    path: /math/geometry/point/standard.md
+  - title: 乗法・べき乗（標準）
+    path: /math/numbers/arithmetic/standard.md
 ---
 
+## 成分表示
 
-## ベクトルの定義
-
-大きさと向きの両方を持つ量がベクトルです。
-
-$n$ 次元のベクトルは実数を $n$ 個並べた組で表します。
+$n$ 次元ベクトルは実数を $n$ 個並べた組で表します。
 
 $$\boldsymbol{a} = (a_1, a_2, \ldots, a_n) \in \mathbb{R}^n$$
 
-2次元の例：$\boldsymbol{a} = (3, 4)$（右に3、上に4という移動を表す）
+**加法**：
+
+$$\boldsymbol{a} + \boldsymbol{b} = (a_1+b_1, a_2+b_2, \ldots, a_n+b_n)$$
+
+**スカラー倍**：
+
+$$c\boldsymbol{a} = (ca_1, ca_2, \ldots, ca_n)$$
 
 ---
 
-## 基本演算
-
-**足し算**：成分ごとに足します。
-
-$$\boldsymbol{a} + \boldsymbol{b} = (a_1 + b_1,\ a_2 + b_2)$$
-
-**スカラー倍**：すべての成分に定数を掛けます。
-
-$$c\boldsymbol{a} = (ca_1,\ ca_2)$$
-
-$c > 1$ なら同じ向きで長さが伸び、$c < 0$ なら向きが逆になります。
-
----
-
-## 大きさ（ノルム）
-
-ベクトルの「長さ」を大きさまたは**ノルム**といいます。
+## ノルム（大きさ）
 
 $$\|\boldsymbol{a}\| = \sqrt{a_1^2 + a_2^2 + \cdots + a_n^2}$$
 
-例：$\boldsymbol{a} = (3, 4)$ のとき $\|\boldsymbol{a}\| = \sqrt{9 + 16} = 5$
+**例**：$\boldsymbol{a} = (3, 4)$ のとき $\|\boldsymbol{a}\| = \sqrt{9+16} = 5$
 
-大きさが 1 のベクトルを**単位ベクトル**といい、$\hat{\boldsymbol{a}} = \dfrac{\boldsymbol{a}}{\|\boldsymbol{a}\|}$ で作れます。
+大きさが1のベクトルを**単位ベクトル**といいます。$\hat{\boldsymbol{a}} = \frac{\boldsymbol{a}}{\|\boldsymbol{a}\|}$
 
 ---
 
 ## 内積
 
-2つのベクトルの「方向の一致具合」を表す量が**内積**です。
-
 $$\boldsymbol{a} \cdot \boldsymbol{b} = a_1 b_1 + a_2 b_2 + \cdots + a_n b_n$$
 
-幾何学的には
+**幾何学的意味**：
 
-$$\boldsymbol{a} \cdot \boldsymbol{b} = \|\boldsymbol{a}\|\|\boldsymbol{b}\|\cos\theta$$
+$$\boldsymbol{a} \cdot \boldsymbol{b} = \|\boldsymbol{a}\| \|\boldsymbol{b}\| \cos\theta$$
 
-（$\theta$ は2つのベクトルのなす角）。
+（$\theta$ は2ベクトルのなす角）
 
-**直交条件**：$\boldsymbol{a} \cdot \boldsymbol{b} = 0 \Leftrightarrow \boldsymbol{a} \perp \boldsymbol{b}$
+**直交条件**：$\boldsymbol{a} \cdot \boldsymbol{b} = 0 \iff \boldsymbol{a} \perp \boldsymbol{b}$
 
-例：$(1, 0) \cdot (0, 1) = 0$（$x$ 軸方向と $y$ 軸方向は直交）
+**例**：$\boldsymbol{a} = (1, 2)$、$\boldsymbol{b} = (3, -1)$ のとき $\boldsymbol{a} \cdot \boldsymbol{b} = 3 - 2 = 1$
 
 ---
 
 ## 線形独立
 
-ベクトルの組 $\{\boldsymbol{v}_1, \ldots, \boldsymbol{v}_k\}$ が**線形独立**とは、
+ベクトルの組 $\{\boldsymbol{v}_1, \ldots, \boldsymbol{v}_k\}$ が**線形独立**とは：
 
-$$c_1\boldsymbol{v}_1 + c_2\boldsymbol{v}_2 + \cdots + c_k\boldsymbol{v}_k = \boldsymbol{0} \implies c_1 = c_2 = \cdots = c_k = 0$$
+$$c_1\boldsymbol{v}_1 + \cdots + c_k\boldsymbol{v}_k = \boldsymbol{0} \implies c_1 = \cdots = c_k = 0$$
 
-が成り立つことです。「どのベクトルも、他のベクトルの組み合わせでは表せない」という意味です。
+「どのベクトルも他のベクトルの組み合わせでは表せない」という意味です。
+
+**例**：$(1, 0)$ と $(0, 1)$ は線形独立（$x$ 軸方向と $y$ 軸方向）。$(1, 2)$ と $(2, 4)$ は線形従属（$(2,4) = 2(1,2)$）。
+
+$\mathbb{R}^n$ では、線形独立なベクトルは最大 $n$ 個です。
 
 ---
 
 ## 関連ページ
 
-- [行列](../matrices/introduction.md) — ベクトルを変換する操作
-- [点](../../geometry/point/introduction.md) — 座標とベクトルの関係
+- [行列（標準）](../matrices/standard.md)
+- [点（標準）](../../geometry/point/standard.md)

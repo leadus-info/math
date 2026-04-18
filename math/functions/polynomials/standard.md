@@ -1,6 +1,7 @@
 ---
 title: 多項式
 description: "べき乗の和で表される関数"
+goal: "多項式の定義・主要な定理・代表的な計算を理解し、後続のトピックに進める基礎を身につける"
 tags: [math,functions,polynomials]
 hierarchy:
   - title: 数学
@@ -25,45 +26,48 @@ requires:
     path: /math/functions/derivatives/introduction.md
 ---
 
-## 定義
+## 多項式の定義
 
-$$f(x) = a_n x^n + \cdots + a_1 x + a_0 \quad (a_n \neq 0)$$
-
-$n$ が**次数**です。
+**定義**：$a_n x^n + a_{n-1} x^{n-1} + \cdots + a_1 x + a_0$（$a_n \neq 0$）を**$n$ 次多項式**といいます。$n$ を**次数**、$a_k$ を**係数**、$a_n$ を**最高次係数**といいます。
 
 ---
 
 ## 根と因数定理
 
-$f(\alpha) = 0$ となる $\alpha$ を**根**（零点）といいます。
+$f(\alpha) = 0$ となる $\alpha$ を $f$ の**根**（零点）といいます。
 
-$$f(\alpha) = 0 \iff f(x) = (x - \alpha) \cdot g(x)$$
+**定理（因数定理）**：$f(\alpha) = 0 \iff f(x) = (x - \alpha) \cdot g(x)$ となる多項式 $g(x)$ が存在する。
 
-**例**：$f(x) = x^2 - 5x + 6$
+**例**：$f(x) = x^2 - 5x + 6$ において $f(2) = 4-10+6 = 0$、$f(3) = 9-15+6 = 0$。
 
-$f(2) = 0$、$f(3) = 0$ なので：
+よって $f(x) = (x-2)(x-3)$。
 
-$$f(x) = (x-2)(x-3)$$
+---
+
+## 代数学の基本定理
+
+**定理**：複素数係数の $n$ 次多項式（$n \geq 1$）は、$\mathbb{C}$ 内に重複を込めてちょうど $n$ 個の根を持つ。
+
+実係数多項式の実数根は「$n$ 個以下」ですが、複素数まで含めると必ず $n$ 個あります。これが「根は複素数の世界で完結する」理由です。
 
 ---
 
 ## 微分・積分
 
-$$\frac{d}{dx}x^n = nx^{n-1}, \qquad \int x^n\,dx = \frac{x^{n+1}}{n+1} + C$$
+$$\frac{d}{dx}x^n = nx^{n-1}, \qquad \int x^n\,dx = \frac{x^{n+1}}{n+1} + C \quad (n \neq -1)$$
 
 ---
 
 ## グラフの概形
 
-- 次数が偶数・最高次係数が正 → 両端が上（$\cup$ 型）
-- 次数が奇数・最高次係数が正 → 左下・右上に伸びる
-
-根の場所でグラフが $x$ 軸と交わります。
+- 次数 $n$ が偶数・最高次係数が正 → 両端が上（$\cup$ 形）
+- 次数 $n$ が奇数・最高次係数が正 → 左下から右上へ
+- 根の場所でグラフが $x$ 軸と交わる（奇数重根）または接する（偶数重根）
 
 ---
 
 ## 関連ページ
 
-- [二次関数](professional.md)
-- [複素数](professional.md)
-- [多項式（専門）](professional.md)
+- [多項式（入門）](introduction.md)
+- [代数（標準）](../../math-language/algebra/standard.md)
+- [複素数（標準）](../../numbers/complex-numbers/standard.md)

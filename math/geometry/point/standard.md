@@ -1,6 +1,7 @@
 ---
 title: 点
-description: "位置を表す最も基本的な要素"
+description: "座標・距離公式・内分点"
+goal: "2点間の距離公式・中点・内分点の公式を導出し、座標平面上の図形問題に応用できるようになる"
 tags: [math,geometry,point]
 hierarchy:
   - title: 数学
@@ -17,66 +18,65 @@ levels:
     path: professional.md
 level: 標準
 requires:
-  - title: 四則演算
-    path: professional.md
-  - title: 負数
-    path: /math/numbers/negative-numbers/introduction.md
+  - title: 点（入門）
+    path: /math/geometry/point/introduction.md
+  - title: 負数（標準）
+    path: /math/numbers/negative-numbers/standard.md
+  - title: 乗法・べき乗（標準）
+    path: /math/numbers/arithmetic/standard.md
 ---
 
 ## 座標平面
 
-縦軸（$y$ 軸）と横軸（$x$ 軸）が原点 $O(0, 0)$ で交わる平面が**座標平面**です。\
-点の位置を $(x, y)$ という数のペアで表します。
+縦軸（$y$ 軸）と横軸（$x$ 軸）が交わる点を**原点** $O(0, 0)$ とし、点の位置を $(x, y)$ で表します。
 
-各軸の向き：$x$ 軸は右が正、$y$ 軸は上が正。
+$x$ 軸は右が正、$y$ 軸は上が正。4つの領域を**象限**といいます（右上が第1象限、反時計回りに第2, 3, 4象限）。
 
 ---
 
 ## 2点間の距離
 
-点 $A(x_1, y_1)$ と $B(x_2, y_2)$ の距離は、三平方の定理から求まります。
+点 $A(x_1, y_1)$ と $B(x_2, y_2)$ の距離は、三平方の定理から：
 
 $$|AB| = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$
 
-**導出**：$A$ から $x$ 軸方向に $|x_2 - x_1|$、$y$ 軸方向に $|y_2 - y_1|$ 進んで $B$ に至る直角三角形を考えます。\
-斜辺の長さが $|AB|$ です。
+**導出**：$A$ から $B$ へ「横 $|x_2 - x_1|$、縦 $|y_2 - y_1|$」進む直角三角形の斜辺が $|AB|$ です。
 
-**例**：$A(1, 2)$、$B(4, 6)$ の距離 $= \sqrt{9 + 16} = 5$
-
----
-
-## 中点と内分点
-
-**中点**：線分 $AB$ の真ん中の点
-
-$$M = \left(\frac{x_1 + x_2}{2},\ \frac{y_1 + y_2}{2}\right)$$
-
-**内分点**：線分 $AB$ を $m : n$ に内分する点（内側の点）
-
-$$P = \left(\frac{nx_1 + mx_2}{m + n},\ \frac{ny_1 + my_2}{m + n}\right)$$
-
-中点は $m = n = 1$ の特別な場合です。
-
-**例**：$A(0, 0)$、$B(6, 9)$ を $2 : 1$ に内分する点：
-
-$$P = \left(\frac{1 \cdot 0 + 2 \cdot 6}{3},\ \frac{1 \cdot 0 + 2 \cdot 9}{3}\right) = (4, 6)$$
+**例**：$A(1, 2)$, $B(4, 6)$ の距離 $= \sqrt{(4-1)^2+(6-2)^2} = \sqrt{9+16} = 5$
 
 ---
 
-## 座標と図形
+## 中点
 
-座標を使うことで、図形の性質を計算で確認できます。
+線分 $AB$ の中点 $M$ の座標：
 
-**例**：三角形の重心\
-3頂点 $A(x_1, y_1)$、$B(x_2, y_2)$、$C(x_3, y_3)$ の重心：
+$$M = \left(\frac{x_1+x_2}{2}, \frac{y_1+y_2}{2}\right)$$
 
-$$G = \left(\frac{x_1+x_2+x_3}{3},\ \frac{y_1+y_2+y_3}{3}\right)$$
+---
 
-これは3本の中線の交点に一致します。
+## 内分点・外分点
+
+線分 $AB$ を $m : n$ に**内分**する点 $P$（$A$ と $B$ の間に位置）：
+
+$$P = \left(\frac{nx_1+mx_2}{m+n}, \frac{ny_1+my_2}{m+n}\right)$$
+
+**例**：$A(0,0)$, $B(6,9)$ を $2:1$ に内分する点：$\left(\frac{1\cdot0+2\cdot6}{3}, \frac{1\cdot0+2\cdot9}{3}\right) = (4, 6)$
+
+中点は $m=n=1$ の特別な場合です。
+
+---
+
+## 三角形の重心
+
+3頂点 $A(x_1,y_1)$, $B(x_2,y_2)$, $C(x_3,y_3)$ の重心 $G$：
+
+$$G = \left(\frac{x_1+x_2+x_3}{3}, \frac{y_1+y_2+y_3}{3}\right)$$
+
+**例題**：$A(1,2)$, $B(5,4)$, $C(3,9)$ の重心は $\left(\frac{9}{3}, \frac{15}{3}\right) = (3, 5)$。
 
 ---
 
 ## 関連ページ
 
-- [直線](../line/introduction.md)
-- [ベクトル](../../linear-algebra/vectors/introduction.md)
+- [直線（標準）](../line/standard.md)
+- [ベクトル（標準）](../../linear-algebra/vectors/standard.md)
