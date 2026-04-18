@@ -1,6 +1,7 @@
 ---
 title: 二次関数
 description: "放物線を描く関数"
+goal: "二次関数の定義・主要な定理・代表的な計算を理解し、後続のトピックに進める基礎を身につける"
 tags: [math,functions,quadratic]
 hierarchy:
   - title: 数学
@@ -23,57 +24,55 @@ requires:
     path: /math/math-language/algebra/introduction.md
 ---
 
-## 定義
+## 二次関数の定義
 
-$$f(x) = ax^2 + bx + c \quad (a \neq 0)$$
+**定義**：$f(x) = ax^2 + bx + c$（$a \neq 0$）を**二次関数**といいます。
 
 - $a > 0$：下に開く（$\cup$ 形）
 - $a < 0$：上に開く（$\cap$ 形）
 
 ---
 
-## 頂点形式（平方完成）
+## 平方完成と頂点
 
-$$f(x) = a(x - p)^2 + q$$
+$$f(x) = a\left(x + \frac{b}{2a}\right)^2 - \frac{b^2 - 4ac}{4a}$$
 
-- **頂点**：$(p,\ q)$（最大値または最小値の点）
-- **軸**：$x = p$
+頂点は $\left(-\dfrac{b}{2a},\ -\dfrac{b^2-4ac}{4a}\right)$ です。
 
-**平方完成の例**：
+**例題**：$f(x) = x^2 + 4x + 1$ を平方完成します。
 
-$$x^2 + 4x + 1 = (x + 2)^2 - 3 \implies \text{頂点 }(-2,\ -3)$$
+$$f(x) = (x+2)^2 - 4 + 1 = (x+2)^2 - 3$$
 
----
-
-## 頂点の座標
-
-$$p = -\frac{b}{2a}, \qquad q = f(p)$$
+頂点は $(-2, -3)$。
 
 ---
 
-## $x$ 軸との交点（判別式）
+## 判別式
 
-$$D = b^2 - 4ac$$
+二次方程式 $ax^2 + bx + c = 0$ の解の公式：
 
-| $D$ | $x$ 軸との関係 |
-|-----|--------------|
-| $D > 0$ | 2 点で交わる |
-| $D = 0$ | 1 点で接する |
+$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
+
+判別式 $D = b^2 - 4ac$ の符号でグラフの $x$ 軸との交点が決まります。
+
+| $D > 0$ | 2点で交わる |
+| $D = 0$ | 1点で接する（重解） |
 | $D < 0$ | 交わらない |
+
+**例題**：$x^2 - 5x + 6 = 0$。$D = 25 - 24 = 1 > 0$。$x = \dfrac{5 \pm 1}{2}$ より $x = 3, 2$。
 
 ---
 
 ## 二次不等式
 
-$a > 0$、$D > 0$（解を $\alpha < \beta$）のとき：
+$a > 0$、解 $\alpha < \beta$ のとき：
 
-$$f(x) < 0 \iff \alpha < x < \beta$$\
-$$f(x) > 0 \iff x < \alpha \text{ または } x > \beta$$
+$$ax^2 + bx + c < 0 \iff \alpha < x < \beta$$
+$$ax^2 + bx + c > 0 \iff x < \alpha \text{ または } x > \beta$$
 
 ---
 
 ## 関連ページ
 
-- [多項式](professional.md)
-- [微分](professional.md) — 頂点は $f'(x) = 0$ の点
-- [二次関数（専門）](professional.md) — 二次形式・円錐曲線
+- [二次関数（入門）](introduction.md)
+- [多項式（標準）](../polynomials/standard.md)

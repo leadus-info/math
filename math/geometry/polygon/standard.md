@@ -1,6 +1,7 @@
 ---
 title: 多角形
-description: "n 辺で囲まれた図形の一般論"
+description: "内角・外角・対角線・正多角形の面積"
+goal: "n角形の内角の和・外角の和・対角線の本数を公式で求め、正多角形の面積を計算できるようになる"
 tags: [math,geometry,polygon]
 hierarchy:
   - title: 数学
@@ -17,44 +18,33 @@ levels:
     path: professional.md
 level: 標準
 requires:
-  - title: 三角形
-    path: /math/geometry/triangle/introduction.md
-  - title: 四角形
-    path: /math/geometry/quadrilateral/introduction.md
-  - title: 三角関数
-    path: /math/functions/trigonometric/introduction.md
----
-
-## 多角形の定義
-
-$n$ 本の直線で囲まれた図形が **$n$ 角形**（多角形）です。
-
-$n \geq 3$ であり、$n = 3$（三角形）、$n = 4$（四角形）が基本的な例です。
-
+  - title: 多角形（入門）
+    path: /math/geometry/polygon/introduction.md
+  - title: 三角関数（標準）
+    path: /math/functions/trigonometric/standard.md
 ---
 
 ## 内角の和
 
-**定理**：凸 $n$ 角形の内角の和は $(n-2) \times 180°$
+$n$ 角形の内角の和：$(n-2) \times 180°$
 
-**証明**：$n$ 角形を 1 つの頂点から対角線で引くと $(n-2)$ 個の三角形に分割されます。\
-それぞれの三角形の内角の和が $180°$ なので、合計は $(n-2) \times 180°$。
+**導出**：1頂点から対角線を引くと $(n-2)$ 個の三角形に分割されます。
 
-| $n$ | 内角の和 |
-|-----|---------|
-| 3 | $180°$ |
-| 4 | $360°$ |
-| 5 | $540°$ |
-| 6 | $720°$ |
+| $n$ | 内角の和 | 1つの内角（正多角形） |
+|-----|---------|---------------------|
+| 3 | $180°$ | $60°$ |
+| 4 | $360°$ | $90°$ |
+| 5 | $540°$ | $108°$ |
+| 6 | $720°$ | $120°$ |
+| $n$ | $(n-2) \times 180°$ | $\frac{(n-2) \times 180°}{n}$ |
 
 ---
 
 ## 外角の和
 
-**定理**：任意の凸多角形の外角の和は $360°$
+**定理**：凸多角形の外角の和は $360°$（$n$ に依らず一定）
 
-**証明**：各頂点で「内角 + 外角 $= 180°$」が成り立ちます。\
-$n$ 個の頂点での合計は $180n°$。内角の和 $(n-2) \times 180°$ を引くと $360°$。
+**証明**：各頂点で「内角 + 外角 $= 180°$」が成り立ちます。$n$ 頂点での合計 $180n°$ から内角の和 $(n-2) \times 180° = 180n° - 360°$ を引くと $360°$。$\square$
 
 ---
 
@@ -64,29 +54,23 @@ $n$ 角形の対角線の本数：
 
 $$\frac{n(n-3)}{2}$$
 
-**導出**：$n$ 個の頂点から 2 点を選ぶ組み合わせ $\binom{n}{2}$ から、隣接する $n$ 辺を引きます。\
-$\frac{n(n-1)}{2} - n = \frac{n(n-3)}{2}$
+**導出**：$n$ 頂点から2点を選ぶ $\binom{n}{2} = \frac{n(n-1)}{2}$ 通りから、隣接する辺 $n$ 本を引くと $\frac{n(n-1)}{2} - n = \frac{n(n-3)}{2}$。
 
 ---
 
-## 正多角形
+## 正多角形の面積
 
-すべての辺が等長で、すべての内角が等しい多角形が**正多角形**です。
+外接円の半径 $R$、辺の数 $n$ の正多角形の面積：
 
-**1つの内角の大きさ**：
+$$S = \frac{1}{2} n R^2 \sin\frac{2\pi}{n}$$
 
-$$\frac{(n-2) \times 180°}{n}$$
+$n \to \infty$ で $S \to \pi R^2$（円の面積）に収束します。
 
-**外接円の半径 $R$ と面積**：
-
-$$S = \frac{1}{2}nR^2\sin\frac{2\pi}{n}$$
-
-$n \to \infty$ でこの式は $\pi R^2$（円の面積）に収束します——これは多角形が円に近づくことを反映しています。
+**例**：正六角形（$n=6$、$R=2$）：$S = \frac{1}{2} \times 6 \times 4 \times \sin 60° = 12 \times \frac{\sqrt{3}}{2} = 6\sqrt{3}$
 
 ---
 
 ## 関連ページ
 
-- [三角形](../triangle/introduction.md)
-- [四角形](../quadrilateral/introduction.md)
-- [円](../circle/introduction.md)
+- [円（標準）](../circle/standard.md)
+- [三角関数（標準）](../../functions/trigonometric/standard.md)

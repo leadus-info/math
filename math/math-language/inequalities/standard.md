@@ -1,6 +1,7 @@
 ---
 title: 不等号・不等式
-description: "大小関係を表す記号"
+description: "不等式の解法と重要不等式"
+goal: "一次・二次不等式・絶対値不等式を解き、AM-GM不等式などの重要不等式を使えるようになる"
 tags: [math,math-language,inequalities]
 hierarchy:
   - title: 数学
@@ -17,76 +18,75 @@ levels:
     path: professional.md
 level: 標準
 requires:
-  - title: 等号・等式
-    path: /math/math-language/equations/introduction.md
-  - title: 負数
-    path: /math/numbers/negative-numbers/introduction.md
+  - title: 不等号・不等式（入門）
+    path: /math/math-language/inequalities/introduction.md
+  - title: 負数（標準）
+    path: /math/numbers/negative-numbers/standard.md
+  - title: 二次関数（標準）
+    path: /math/functions/quadratic/standard.md
 ---
 
-## 不等号の定義
+## 一次不等式
 
-**定義**：実数 $a, b$ に対して：
+一次不等式は等式と同じ手順で解けます。ただし負の数で割るとき不等号が逆転します。
 
-- $a < b$：数直線上で $a$ が $b$ より左にある（$b - a > 0$）
-- $a \leq b$：$a < b$ または $a = b$
+**例題**：$-2x + 1 > 5$ を解いてください。
 
----
+$-2x > 4$。両辺を $-2$ で割ると（逆転）$x < -2$。
 
-## 不等式の変形ルール
+**連立一次不等式**：複数の不等式を同時に満たす範囲を求めます。
 
-**定理**：次の変形をしても不等号の向きは変わりません。
-1. 両辺に同じ数を加える（引く）：$a < b \Rightarrow a + c < b + c$
-2. 両辺に**正の数**を掛ける（割る）：$a < b$、$c > 0 \Rightarrow ac < bc$
+**例題**：$\begin{cases} 2x - 1 > 3 \\ x + 4 < 10 \end{cases}$ を解いてください。
 
-**定理**：次の変形では不等号の向きが**逆になります**。
-3. 両辺に**負の数**を掛ける（割る）：$a < b$、$c < 0 \Rightarrow ac > bc$
-
-**なぜ負の数を掛けると逆転するか**：\
-数直線上で $-1$ 倍すると左右が入れ替わるためです。\
-$3 < 5$ の両辺を $-1$ 倍すると $-3 > -5$（$-5$ の方が左にある）。
+上：$x > 2$。下：$x < 6$。共通範囲：$2 < x < 6$。
 
 ---
 
-## 一次不等式の解き方
+## 二次不等式
 
-$$-2x + 1 > 5$$
-$$-2x > 4$$
-$$x < -2 \quad \text{（$-2$ で割るので向き逆転）}$$
+$ax^2 + bx + c > 0$ の形の不等式です。二次関数のグラフを使って解きます。
 
-解は「$x$ が満たすべき範囲」です。$x < -2$ は数直線上の半直線で表せます。
+$a > 0$ のとき、$f(x) = ax^2 + bx + c$ のグラフは下に開く放物線です。
+
+- $D > 0$（解 $\alpha < \beta$）：$f(x) > 0$ の解は $x < \alpha$ または $x > \beta$
+- $D = 0$（解 $\alpha$）：$f(x) > 0$ の解は $\alpha$ 以外のすべての実数
+- $D < 0$：$f(x) > 0$ の解はすべての実数
+
+**例題**：$x^2 - 3x + 2 > 0$ を解いてください。
+
+$x^2 - 3x + 2 = (x-1)(x-2)$。解は $x = 1, 2$。よって不等式の解は $x < 1$ または $x > 2$。
 
 ---
 
 ## 絶対値不等式
 
-**定理**：$k > 0$ のとき
+$|x - a| < r$ は「$x$ と $a$ の距離が $r$ 未満」を意味します。
 
-$$|x - a| < k \iff a - k < x < a + k$$
+$$|x - a| < r \iff a - r < x < a + r$$
 
-「$x$ と $a$ の距離が $k$ 未満」という意味です。
+**例**：$|x - 3| < 2 \iff 1 < x < 5$
 
-**例**：$|x - 2| < 3 \iff -1 < x < 5$
+$|x - a| > r$ の場合は：
 
-**例題**：$|2x - 1| \leq 5$ を解きます。\
-$-5 \leq 2x - 1 \leq 5$\
-$-4 \leq 2x \leq 6$\
-$-2 \leq x \leq 3$
+$$|x - a| > r \iff x < a - r \text{ または } x > a + r$$
 
 ---
 
-## 連立不等式
+## AM-GM 不等式
 
-複数の不等式を同時に満たす範囲を求めます。
+$a, b > 0$ のとき、
 
-**例題**：$\begin{cases} x + 1 > 3 \\ 2x - 4 < 6 \end{cases}$ を解きます。
+$$\frac{a + b}{2} \geq \sqrt{ab}$$
 
-上：$x > 2$\
-下：$x < 5$\
-共通部分：$2 < x < 5$
+（等号は $a = b$ のとき）。「算術平均 $\geq$ 幾何平均」です。
+
+**証明**：$(\sqrt{a} - \sqrt{b})^2 \geq 0$ を展開すると $a - 2\sqrt{ab} + b \geq 0$、整理して $\frac{a+b}{2} \geq \sqrt{ab}$。$\square$
+
+**応用例**：$x > 0$ のとき $x + \frac{1}{x} \geq 2$（$a = x$、$b = \frac{1}{x}$ とすると $\frac{x + 1/x}{2} \geq \sqrt{x \cdot 1/x} = 1$）。
 
 ---
 
 ## 関連ページ
 
-- [等号・等式](../equations/introduction.md)
-- [必要・十分条件](../conditions/introduction.md)
+- [二次関数（標準）](../../functions/quadratic/standard.md)
+- [不等号・不等式（専門）](professional.md)

@@ -1,6 +1,7 @@
 ---
 title: 極限
 description: "限りなく近づくとはどういうことか"
+goal: "極限の定義・主要な定理・代表的な計算を理解し、後続のトピックに進める基礎を身につける"
 tags: [math,operations,limits]
 hierarchy:
   - title: 数学
@@ -25,18 +26,17 @@ requires:
 
 ## 数列の極限
 
-数列 $\{a_n\}$ が値 $L$ に**収束**するとは、\
-$n$ を大きくするにつれて $a_n$ が $L$ に限りなく近づくことです。
+数列 $\{a_n\}$ が値 $L$ に**収束する**とは、$n$ を大きくするにつれて $a_n$ が $L$ に限りなく近づくことです。
 
 $$\lim_{n \to \infty} a_n = L$$
+
+と書きます。収束しない（発散する）場合もあります。$a_n = n^2$ のように限りなく大きくなる場合は $\lim_{n\to\infty} a_n = \infty$ と書きます。
 
 **例**：
 
 $$\lim_{n \to \infty} \frac{1}{n} = 0, \quad \lim_{n \to \infty} \frac{n}{n+1} = 1, \quad \lim_{n \to \infty} \frac{n^2+1}{2n^2-3} = \frac{1}{2}$$
 
-最後の例：分子・分母を $n^2$ で割ると $\frac{1 + 1/n^2}{2 - 3/n^2} \to \frac{1}{2}$。
-
-収束しない場合を**発散**といいます。$\lim_{n\to\infty} n^2 = \infty$（正の無限大に発散）。
+最後の例：分子・分母を $n^2$ で割ると $\dfrac{1 + 1/n^2}{2 - 3/n^2} \to \dfrac{1}{2}$。
 
 ---
 
@@ -46,65 +46,50 @@ $x$ を $a$ に近づけたとき $f(x)$ が $L$ に近づくことを
 
 $$\lim_{x \to a} f(x) = L$$
 
-と書きます。「$x = a$ を代入する」のではなく「$a$ に近づける」という点が重要です。\
-$x = a$ で $f$ が定義されていなくても極限は存在しうります。
+と書きます。「$x = a$ を代入する」のではなく「$a$ に近づける」という点が重要で、$x = a$ で $f$ が定義されていなくても極限は存在しえます。
 
-**例**：$\displaystyle\lim_{x \to 2}(3x+1) = 7$（$x=2$ を代入した値と一致）
+**例**：$f(x) = \dfrac{x^2 - 1}{x - 1}$ は $x = 1$ で定義されませんが、
 
-**例**（定義域外での極限）：$f(x) = \frac{x^2-1}{x-1}$ は $x=1$ で定義されませんが、\
-$\frac{x^2-1}{x-1} = \frac{(x-1)(x+1)}{x-1} = x+1$（$x \neq 1$）\
-なので $\displaystyle\lim_{x \to 1} \frac{x^2-1}{x-1} = 2$。
+$$\frac{x^2-1}{x-1} = \frac{(x-1)(x+1)}{x-1} = x+1 \quad (x \neq 1)$$
+
+なので $\lim_{x \to 1} \dfrac{x^2-1}{x-1} = 2$。
 
 ---
 
 ## 極限の計算規則
 
-$\lim f = L$、$\lim g = M$ のとき（$x \to a$ または $n \to \infty$）：
+$\lim f = L$、$\lim g = M$ のとき：
 
-$$\lim (f + g) = L + M$$
-$$\lim (f \times g) = L \times M$$
-$$\lim \frac{f}{g} = \frac{L}{M} \quad (M \neq 0)$$
-
-これらを使って複雑な極限を分解して計算できます。
+$$\lim (f + g) = L + M, \quad \lim (fg) = LM, \quad \lim \frac{f}{g} = \frac{L}{M} \; (M \neq 0)$$
 
 ---
 
 ## 片側極限と連続
 
-右から近づく**右側極限** $\lim_{x\to a^+} f(x)$ と\
-左から近づく**左側極限** $\lim_{x\to a^-} f(x)$ が両方存在して等しいとき、\
-（両側）極限 $\lim_{x\to a} f(x)$ が存在します。
+右から近づく**右側極限** $\displaystyle\lim_{x\to a^+} f(x)$ と、左から近づく**左側極限** $\displaystyle\lim_{x\to a^-} f(x)$ が一致するとき、両側極限 $\displaystyle\lim_{x\to a} f(x)$ が存在します。
 
-**定義**：$\lim_{x\to a} f(x) = f(a)$ が成り立つとき $f$ は $x=a$ で**連続**であるといいます。
-
-**例**（不連続な点）：$f(x) = \frac{1}{x}$ は $x=0$ で連続でありません（極限が存在しない）。
+**定義（連続性）**：$\displaystyle\lim_{x\to a} f(x) = f(a)$ が成り立つとき、$f$ は $x = a$ で**連続**です。
 
 ---
 
-## よく使う極限
+## 重要な極限
 
 $$\lim_{n \to \infty} r^n = 0 \quad (|r| < 1)$$
 
-**例**：$0.9^n \to 0$、$(-0.5)^n \to 0$、しかし $1.1^n \to \infty$。
-
 $$\lim_{x \to 0} \frac{\sin x}{x} = 1 \quad \text{（ラジアン単位）}$$
-
-この極限は三角関数の微分の計算で重要です。
 
 ---
 
 ## 例題
 
-**例題**：$\displaystyle\lim_{n\to\infty} \frac{3n^2 + 2n - 1}{n^2 - 5}$ を求めてください。
+$\displaystyle\lim_{n\to\infty} \frac{3n^2 + 2n - 1}{n^2 - 5}$ を求めます。
 
-分子・分母を $n^2$ で割ると：
-
-$$\frac{3 + 2/n - 1/n^2}{1 - 5/n^2} \to \frac{3}{1} = 3$$
+分子・分母を $n^2$ で割ると $\dfrac{3 + 2/n - 1/n^2}{1 - 5/n^2} \to \dfrac{3}{1} = 3$。
 
 ---
 
 ## 関連ページ
 
-- [数列](../sequences/introduction.md)
-- [微分](../derivatives/introduction.md)
-- [積分](../integrals/introduction.md)
+- [極限（入門）](introduction.md)
+- [微分（標準）](../derivatives/standard.md)
+- [数列（標準）](../sequences/standard.md)

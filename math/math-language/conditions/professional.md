@@ -1,6 +1,7 @@
 ---
 title: 必要・十分条件
-description: "述語論理・証明論・モデル理論の入口"
+description: "一階述語論理と証明論"
+goal: "一階述語論理の構文・意味論を理解し、健全性・完全性定理の内容と、ゲーデルの不完全性定理の帰結を説明できるようになる"
 tags: [math,math-language,conditions]
 hierarchy:
   - title: 数学
@@ -17,65 +18,53 @@ levels:
   - level: 専門
 level: 専門
 requires:
-  - title: 必要・十分条件
-    path: /math/math-language/conditions/introduction.md
+  - title: 必要・十分条件（標準）
+    path: /math/math-language/conditions/standard.md
   - title: 集合（専門）
-    path: ../sets/professional.md
----
-
-## 命題論理
-
-**命題**とは真偽が定まる文です。\
-命題 $P$、$Q$ から複合命題を構成します。
-
-| 記号 | 読み方 | 真になる条件 |
-|------|--------|------------|
-| $\neg P$ | Pでない | $P$ が偽のとき |
-| $P \wedge Q$ | PかつQ | $P$ も $Q$ も真のとき |
-| $P \vee Q$ | PまたはQ | 少なくとも一方が真のとき |
-| $P \Rightarrow Q$ | PならばQ | $P$ が真かつ $Q$ が偽でないとき |
-| $P \Leftrightarrow Q$ | PとQは同値 | 真偽が一致するとき |
-
-**真理値表（$P \Rightarrow Q$）**：
-
-| $P$ | $Q$ | $P \Rightarrow Q$ |
-|-----|-----|-------------------|
-| T | T | T |
-| T | F | **F** |
-| F | T | T |
-| F | F | T |
-
-「$P$ が偽のとき $P \Rightarrow Q$ は真」——これは「偽からは何でも導ける」という論理的慣習です。
-
+    path: /math/math-language/sets/professional.md
 ---
 
 ## 一階述語論理
 
-命題論理を拡張し、変数と量化子を導入します。
+**命題論理**では $P, Q$ を原子命題として扱いましたが、**一階述語論理（FOL）** では個体と述語を導入します。
 
-- $\forall x\, P(x)$：「すべての $x$ について $P(x)$ が成り立つ」
-- $\exists x\, P(x)$：「$P(x)$ が成り立つ $x$ が存在する」
+- 個体変数：$x, y, z, \ldots$
+- 述語記号：$P(x)$（「$x$ は偶数」など）
+- 量化子：$\forall$（全称）、$\exists$（存在）
 
-**例**：
+$$\forall x \in \mathbb{N},\ \exists y \in \mathbb{N},\ y > x \quad \text{（自然数には最大値がない）}$$
 
-$$\forall x \in \mathbb{R},\ x^2 \geq 0 \quad \text{（真）}$$
-$$\exists x \in \mathbb{R},\ x^2 = -1 \quad \text{（偽）}$$
+量化子の否定：
 
-**量化子の否定**：
+$$\neg (\forall x\, P(x)) \equiv \exists x\, \neg P(x)$$
+$$\neg (\exists x\, P(x)) \equiv \forall x\, \neg P(x)$$
 
-$$\neg(\forall x\, P(x)) \iff \exists x\, \neg P(x)$$
-$$\neg(\exists x\, P(x)) \iff \forall x\, \neg P(x)$$
+---
+
+## 健全性と完全性
+
+公理系 $T$ と論理的推論規則の下で、
+
+- **健全性**（soundness）：$T \vdash \varphi \Rightarrow T \models \varphi$（証明できれば恒真）
+- **完全性**（completeness）：$T \models \varphi \Rightarrow T \vdash \varphi$（恒真なら証明できる）
+
+ゲーデルの完全性定理（1930）：一階述語論理の自然な公理系は健全かつ完全です。すなわち「論理的に真な文はすべて証明できる」。
+
+**参考文献**：Gödel, K. (1930). "Die Vollständigkeit der Axiome des logischen Funktionenkalküls." *Monatshefte für Mathematik und Physik*, 37, 349–360.
 
 ---
 
 ## ゲーデルの不完全性定理
 
-**第一不完全性定理**：ペアノ算術（PA）を含む十分強い無矛盾な公理系には、\
-「その公理系では証明も反証もできない命題」が存在します。
+自然数の算術を含む「十分強い」無矛盾な公理系 $T$ について（1931）：
 
-**第二不完全性定理**：そのような公理系は自身の無矛盾性を証明できません。
+**第一不完全性定理**：$T$ には証明も反証もできない命題が存在します。
 
-これは「数学は完全に形式化できない」ことを示す20世紀数学の最重要結果の一つです。
+**第二不完全性定理**：$T$ は自身の無矛盾性を $T$ の中で証明できません。
+
+「十分強い」とは、ペアノ算術（PA）程度の表現力を持つという意味です。この定理は「数学は完全に形式化できない」ことを示し、20世紀数学に深遠な影響を与えました。
+
+証明の核心はゲーデル数（命題を自然数にエンコードする技法）と、「この命題は証明できない」を表す自己言及的命題の構成にあります。
 
 **参考文献**：Gödel, K. (1931). "Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I." *Monatshefte für Mathematik und Physik*, 38, 173–198.
 
@@ -83,5 +72,6 @@ $$\neg(\exists x\, P(x)) \iff \forall x\, \neg P(x)$$
 
 ## 関連ページ
 
-- [必要・十分条件](standard.md)
+- [必要・十分条件（標準）](standard.md)
 - [集合（専門）](../sets/professional.md)
+- [自然数（専門）](../../numbers/natural-numbers/professional.md)

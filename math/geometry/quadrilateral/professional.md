@@ -1,6 +1,7 @@
 ---
 title: 四角形
-description: "双対多面体・四辺形の射影的性質"
+description: "ブレーシュナイダーの公式・調和共役・射影的性質"
+goal: "一般四角形の面積公式（ブレーシュナイダー）とトレミーの定理の証明を説明できるようになる"
 tags: [math,geometry,quadrilateral]
 hierarchy:
   - title: 数学
@@ -17,66 +18,52 @@ levels:
   - level: 専門
 level: 専門
 requires:
-  - title: 四角形
-    path: /math/geometry/quadrilateral/introduction.md
-  - title: 円
-    path: /math/geometry/circle/introduction.md
-  - title: 直線（専門）
-    path: ../line/professional.md
----
-
-## 内接四辺形の性質
-
-円に内接する四辺形（内接四辺形）には特別な性質があります。
-
-**定理**：円に内接する四辺形の対角の和は $180°$。
-
-**証明**：円周角の定理から、同じ弧に対する円周角は等しいため、\
-対角 $\angle A$ と $\angle C$ を足すと中心角 $360°$ の半分 $= 180°$ になります。
-
----
-
-## トレミーの定理
-
-内接四辺形 $ABCD$ において：
-
-$$AC \cdot BD = AB \cdot CD + AD \cdot BC$$
-
-対角線の積は、向かい合う辺の積の和に等しい。
-
-**証明の概略**：$BD$ 上に $\angle BAE = \angle CAD$ となる点 $E$ をとり、\
-相似な三角形の関係から導きます。
-
----
-
-## 四辺形の面積の一般公式
-
-一般の四辺形（内接・外接でなくてよい）の面積は対角線を使って表せます。
-
-対角線が $d_1$、$d_2$、交角が $\theta$ のとき：
-
-$$S = \frac{1}{2} d_1 d_2 \sin\theta$$
-
-ひし形は $\theta = 90°$ の特別な場合（$S = \frac{d_1 d_2}{2}$）。
-
+  - title: 四角形（標準）
+    path: /math/geometry/quadrilateral/standard.md
+  - title: 三角形（専門）
+    path: /math/geometry/triangle/professional.md
 ---
 
 ## ブレーシュナイダーの公式
 
-辺の長さ $a, b, c, d$ と対角の和の半分 $s = \frac{a+b+c+d}{2}$ を使った一般四辺形の面積：
+辺 $a, b, c, d$、対角の和の半角 $\sigma = \frac{A+C}{2}$ を持つ一般四辺形の面積：
 
-$$S = \sqrt{(s-a)(s-b)(s-c)(s-d) - abcd\cos^2\frac{A+C}{2}}$$
+$$S = \sqrt{(s-a)(s-b)(s-c)(s-d) - abcd\cos^2\sigma}$$
 
-内接四辺形（$A + C = 180°$）のときはブラーマグプタの公式：
+（$s = \frac{a+b+c+d}{2}$）
+
+**内接四辺形**（$A + C = 180°$、$\sigma = 90°$、$\cos\sigma = 0$）の場合、**ブラーマグプタの公式**：
 
 $$S = \sqrt{(s-a)(s-b)(s-c)(s-d)}$$
 
-**参考文献**：Pedoe, D. (1988). *Geometry: A Comprehensive Course*. Dover.
+ヘロンの公式（三角形（専門）参照）は $d = 0$ の特殊ケースです。
+
+**参考文献**：Coolidge, J. L. (1939). "A historically interesting formula for the area of a quadrilateral." *American Mathematical Monthly*, 46(6), 345–347.
+
+---
+
+## トレミーの定理の証明
+
+**定理**：円に内接する四辺形 $ABCD$ において $AC \cdot BD = AB \cdot CD + AD \cdot BC$
+
+**証明**：$BD$ 上に $\angle BAP = \angle CAD$ となる点 $P$ をとります。$\angle ABP = \angle ACD$（同弧に対する円周角）なので $\triangle ABP \sim \triangle ACD$。よって $\frac{BP}{CD} = \frac{AB}{AC}$、$BP = \frac{AB \cdot CD}{AC}$。
+
+同様に $\triangle ABC \sim \triangle APD$ から $PD = \frac{AD \cdot BC}{AC}$。
+
+$BD = BP + PD = \frac{AB \cdot CD + AD \cdot BC}{AC}$ より $AC \cdot BD = AB \cdot CD + AD \cdot BC$。$\square$
+
+---
+
+## 調和共役と完全四点形
+
+直線上の4点 $A, B, C, D$ の交比 $(A,B;C,D) = -1$ のとき $C$ と $D$ は**調和共役**といいます。
+
+完全四点形（4直線の6交点からなる図形）において、対角3点のそれぞれが残りの辺から調和共役の対を作ります。これは射影幾何の基本的な構成です。
 
 ---
 
 ## 関連ページ
 
-- [四角形](standard.md)
-- [三角形（専門）](../triangle/professional.md)
+- [四角形（標準）](standard.md)
 - [円（専門）](../circle/professional.md)
+- [直線（専門）](../line/professional.md)

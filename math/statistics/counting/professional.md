@@ -1,6 +1,7 @@
 ---
 title: 場合の数
 description: "母関数・包除原理・ラムゼー理論"
+goal: "母関数・包除原理を使って数列や計数問題を解き、ラムゼー数 R(3,3)=6 を証明できるようになる"
 tags: [math,statistics,counting]
 hierarchy:
   - title: 数学
@@ -17,32 +18,25 @@ levels:
   - level: 専門
 level: 専門
 requires:
-  - title: 場合の数
-    path: /math/statistics/counting/introduction.md
-  - title: 数列（専門）
-    path: ../../functions/sequences/professional.md
-  - title: 集合（専門）
-    path: ../../math-language/sets/professional.md
+  - title: 場合の数（標準）
+    path: /math/statistics/counting/standard.md
+  - title: 自然数（専門）
+    path: /math/numbers/natural-numbers/professional.md
 ---
 
 ## 母関数
 
-数列 $\{a_n\}$ に対する**普通母関数**：
+数列 $\{a_n\}$ に対する**普通母関数**：$G(x) = \sum_{n=0}^\infty a_n x^n$
 
-$$G(x) = \sum_{n=0}^{\infty} a_n x^n$$
+数列の情報を形式的べき級数に「圧縮」し、代数的操作で数列の性質を調べます。
 
-母関数は数列の情報を関数の形に「圧縮」します。\
-数列の演算が母関数上の代数的操作に対応します。
+**二項係数の母関数**（二項定理）：$\sum_{k=0}^n \binom{n}{k} x^k = (1+x)^n$
 
-**例（二項係数の母関数）**：
+**カタラン数** $C_n$（$n$ 組の括弧の正しい組み合わせ数など）：
 
-$$\sum_{k=0}^{n}\binom{n}{k}x^k = (1+x)^n$$
+$$C_0=1,\ C_1=1,\ C_2=2,\ C_3=5,\ C_4=14,\ldots,\quad C_n = \frac{1}{n+1}\binom{2n}{n}$$
 
-これは二項定理そのものです。
-
-**カタラン数**：$C_n = \frac{1}{n+1}\binom{2n}{n}$（括弧の正しい入れ方の数など）の母関数：
-
-$$G(x) = \frac{1 - \sqrt{1-4x}}{2x}$$
+母関数：$G(x) = \frac{1 - \sqrt{1-4x}}{2x}$（$G = 1 + xG^2$ から導く）
 
 ---
 
@@ -50,29 +44,30 @@ $$G(x) = \frac{1 - \sqrt{1-4x}}{2x}$$
 
 **定理**：有限集合 $A_1, \ldots, A_n$ について：
 
-$$\left|A_1 \cup \cdots \cup A_n\right| = \sum_i |A_i| - \sum_{i<j}|A_i \cap A_j| + \sum_{i<j<k}|A_i \cap A_j \cap A_k| - \cdots$$
+$$\left|\bigcup_{i=1}^n A_i\right| = \sum_i |A_i| - \sum_{i<j} |A_i \cap A_j| + \sum_{i<j<k} |A_i \cap A_j \cap A_k| - \cdots$$
 
-**撹乱順列（完全順列）**：$n$ 要素の順列で、どの要素も元の位置にないものの個数：
+**撹乱順列**（不動点を持たない順列）の個数：
 
-$$D_n = n!\sum_{k=0}^{n}\frac{(-1)^k}{k!}$$
+$$D_n = n! \sum_{k=0}^n \frac{(-1)^k}{k!}$$
 
 $$D_1=0,\ D_2=1,\ D_3=2,\ D_4=9,\ D_5=44,\ldots$$
 
-$n \to \infty$ で $D_n/n! \to 1/e \approx 0.368$。
+$n \to \infty$ で $D_n / n! \to 1/e \approx 0.368$。
 
 ---
 
 ## ラムゼー理論
 
-**ラムゼーの定理（$R(3,3) = 6$）**：\
-6人の中には「互いに知り合い3人」または「互いに知らない3人」が必ず存在します。
+$R(m, n)$：$m$ クリーク（完全部分グラフ）または $n$ 独立集合を必ず含む最小頂点数のグラフ。
 
-**証明**：任意の1人（$X$）に注目します。残り5人との関係は知り合い・他人の2種類。\
-鳩の巣原理から少なくとも3人は同じ関係にあります。\
-その3人の中に知り合いのペアがあればその3人で「知り合い3人組」が完成し、\
-なければその3人全員が互いに他人です。
+**定理**：$R(3, 3) = 6$（6人いれば「互いに知り合い3人」または「互いに他人3人」が必ず存在）
 
-$R(3,3) = 6$ は厳密に最小で、5人では保証されません（グラフで反例が作れます）。
+**証明**：任意の1人 $X$ を選びます。残り5人との関係は「知り合い」または「他人」。鳩の巣原理より少なくとも3人は同じ関係にあります。
+
+- 「知り合い3人 $\{A,B,C\}$」の場合：$A, B$ が知り合いなら $\{X, A, B\}$ が求める3人。$A, B$ が他人なら $\{A, B, C\}$ 内に「他人3人」を探せる（帰納的に確認）。
+- 「他人3人」の場合も同様。
+
+5人では成立しません（反例グラフ：5頂点のペンタゴン $C_5$）。
 
 **参考文献**：Graham, R. L., Rothschild, B. L., & Spencer, J. H. (1990). *Ramsey Theory* (2nd ed.). Wiley.
 
@@ -80,5 +75,5 @@ $R(3,3) = 6$ は厳密に最小で、5人では保証されません（グラフ
 
 ## 関連ページ
 
-- [場合の数](standard.md)
+- [場合の数（標準）](standard.md)
 - [確率（専門）](../probability/professional.md)

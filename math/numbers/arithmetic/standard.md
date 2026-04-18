@@ -1,7 +1,8 @@
 ---
 title: 乗法・べき乗
-description: "掛け算の性質とべき乗・平方根"
-tags: [math,operations,arithmetic]
+description: "指数法則と累乗根の体系的な扱い"
+goal: "指数法則を整数・有理数の指数に拡張し、累乗根との関係を理解して計算できるようになる"
+tags: [math,numbers,arithmetic]
 hierarchy:
   - title: 数学
     path: /math/index.md
@@ -17,81 +18,80 @@ levels:
     path: professional.md
 level: 標準
 requires:
-  - title: 自然数
-    path: /math/numbers/natural-numbers/introduction.md
-  - title: 負数
-    path: /math/numbers/negative-numbers/introduction.md
-  - title: 分数
-    path: /math/numbers/fractions/introduction.md
+  - title: 乗法・べき乗（入門）
+    path: /math/numbers/arithmetic/introduction.md
+  - title: 自然数（標準）
+    path: /math/numbers/natural-numbers/standard.md
+  - title: 負数（標準）
+    path: /math/numbers/negative-numbers/standard.md
+  - title: 分数（標準）
+    path: /math/numbers/fractions/standard.md
 ---
 
-## 乗法の性質まとめ
+## 自然数の指数から始める
 
-掛け算には次の三つの重要な性質があります。
-
-**交換法則**：順番を入れ替えてよい
-
-$$a \times b = b \times a$$
-
-**結合法則**：まとめ方を変えてよい
-
-$$(a \times b) \times c = a \times (b \times c)$$
-
-**分配法則**：足し算と掛け算をつなぐ
-
-$$a \times (b + c) = a \times b + a \times c$$
-
----
-
-## べき乗
-
-同じ数を何度も掛けることを**べき乗**（累乗）といいます。
-
-$$2^3 = 2 \times 2 \times 2 = 8$$\
-$$a^n = \underbrace{a \times a \times \cdots \times a}_{n \text{ 個}}$$
-
-特別な場合：
-
-$$a^1 = a, \quad a^0 = 1 \quad (a \neq 0)$$
+乗法・べき乗（入門）で、$a^n$ を「$a$ を $n$ 回掛ける」として定義しました。ここでは指数を整数・有理数へ拡張します。
 
 ---
 
 ## 指数法則
 
-| 法則 | 式 | 例 |
-|------|----|----|
-| 掛け算 | $a^m \times a^n = a^{m+n}$ | $2^3 \times 2^4 = 2^7$ |
-| 割り算 | $a^m \div a^n = a^{m-n}$ | $2^5 \div 2^3 = 2^2$ |
-| 累乗の累乗 | $(a^m)^n = a^{mn}$ | $(2^3)^2 = 2^6$ |
-| 積のべき乗 | $(ab)^n = a^n b^n$ | $(2 \times 3)^2 = 4 \times 9$ |
+$a > 0$、$m, n$ が自然数のとき、以下の法則が成り立ちます。
+
+$$a^m \times a^n = a^{m+n}$$
+$$a^m \div a^n = a^{m-n}$$
+$$(a^m)^n = a^{mn}$$
+$$(ab)^n = a^n b^n$$
+
+**例**：$2^5 \div 2^3 = 2^{5-3} = 2^2 = 4$、$(3^2)^4 = 3^8 = 6561$
 
 ---
 
-## 負の指数
+## 指数を0と負の整数に拡張する
 
-$a^{-n}$ は $a^n$ の逆数として定義します。
+$a^3 \div a^3 = 1$ ですが、指数法則を使うと $a^{3-3} = a^0$ になります。この矛盾を避けるために定義します。
 
-$$a^{-n} = \frac{1}{a^n}, \quad a^{-1} = \frac{1}{a}$$
+$$a^0 = 1 \quad (a \neq 0)$$
 
-これにより指数法則がすべての整数に対して成り立ちます。
+さらに $a^1 \div a^3 = \frac{1}{a^2}$ ですが、指数法則では $a^{1-3} = a^{-2}$ なので、
+
+$$a^{-n} = \frac{1}{a^n} \quad (a \neq 0)$$
+
+と定義します。これにより指数法則が整数全体で成り立ちます。
+
+**例**：$2^{-3} = \frac{1}{8}$、$10^{-2} = \frac{1}{100} = 0.01$
 
 ---
 
-## 平方根・累乗根
+## 指数を有理数に拡張する
 
-$x^2 = a$ になる $x$（$x \geq 0$）を $\sqrt{a}$（ルート $a$）と書きます。
+$a^{1/2}$ はどう定義すればよいでしょうか。指数法則 $(a^{1/2})^2 = a^1 = a$ から、$a^{1/2}$ は「2乗すると $a$ になる数」、つまり $\sqrt{a}$ です。
 
-$$\sqrt{9} = 3 \quad (3^2 = 9), \quad \sqrt{4} = 2 \quad (2^2 = 4)$$\
-$$\sqrt{2} = 1.414\ldots \quad \text{（割り切れない）}$$
+$$a^{1/n} = \sqrt[n]{a} \quad (a \geq 0, n \in \mathbb{N})$$
 
-より一般に、$x^n = a$ になる $x$（$x \geq 0$）を $\sqrt[n]{a} = a^{1/n}$ と書きます。
+$$a^{m/n} = (a^{1/n})^m = (\sqrt[n]{a})^m \quad (a \geq 0)$$
 
-$$\sqrt[3]{8} = 2 \quad (2^3 = 8)$$
+**例**：$8^{2/3} = (\sqrt[3]{8})^2 = 2^2 = 4$、$4^{3/2} = (\sqrt{4})^3 = 2^3 = 8$
+
+---
+
+## 累乗根の計算規則
+
+$$\sqrt[n]{ab} = \sqrt[n]{a} \cdot \sqrt[n]{b}$$
+$$\sqrt[n]{\frac{a}{b}} = \frac{\sqrt[n]{a}}{\sqrt[n]{b}}$$
+$$\sqrt[m]{\sqrt[n]{a}} = \sqrt[mn]{a}$$
+
+**例題**：$\sqrt{12}$ を簡単にしてください。
+
+$\sqrt{12} = \sqrt{4 \times 3} = \sqrt{4} \cdot \sqrt{3} = 2\sqrt{3}$
+
+**例題**：$\frac{\sqrt{18}}{\sqrt{2}}$ を計算してください。
+
+$\frac{\sqrt{18}}{\sqrt{2}} = \sqrt{\frac{18}{2}} = \sqrt{9} = 3$
 
 ---
 
 ## 関連ページ
 
-- [等号・等式](professional.md) — 計算結果を式で表す
-- [指数関数](professional.md) — べき乗を関数として見る
-- [乗法・べき乗（専門）](professional.md) — 群・環・体の代数的構造
+- [指数関数（標準）](../../functions/exponential/standard.md)
+- [対数関数（標準）](../../functions/logarithmic/standard.md)

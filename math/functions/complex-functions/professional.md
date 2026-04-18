@@ -1,6 +1,7 @@
 ---
 title: 複素関数
 description: "リーマン面・解析接続・モジュラー形式"
+goal: "複素関数を厳密に定義し、主要な定理を証明できるようになる"
 tags: [math,complex-numbers,complex-functions]
 hierarchy:
   - title: 数学
@@ -27,38 +28,39 @@ requires:
 
 ## リーマン面
 
-多価関数（$\log z$, $\sqrt{z}$）を一価にするための被覆空間。
+多価関数（$\log z$、$\sqrt{z}$ など）を一価関数として扱うための「複数枚重なった面」が**リーマン面**です。
 
-$\log z$ のリーマン面は無限に重なった螺旋状のシート。
+$\log z = \ln|z| + i\arg(z)$ は $\arg(z)$ が $2\pi$ の不定性を持つため多価。$\log z$ のリーマン面は無限枚のシートが階段状にらせんをなす構造です。
 
 ---
 
 ## 解析接続
 
-正則関数を定義域の外に一意に拡張する操作。
+$f$ が領域 $D$ で正則なとき、より大きな領域 $D' \supset D$ への正則な拡張がただ一つ存在することがあります（**一意性定理**）。
 
-**例**: $\zeta(s) = \sum n^{-s}$（$\text{Re}(s)>1$ で定義）を全複素平面に解析接続 → リーマンゼータ関数
+**例**：$\zeta(s) = \sum_{n=1}^\infty n^{-s}$（$\mathrm{Re}(s) > 1$ で定義）をリーマンゼータ関数として全複素平面（$s = 1$ を除く）に解析接続できます。
 
 ---
 
 ## モノドロミー
 
-解析接続して一周したとき関数値がどう変化するかを追跡する群論的構造。
+解析接続して閉曲線を一周したとき、関数値がどう変化するかを追跡する群論的構造です。$\log z$ を原点を囲む閉曲線に沿って解析接続すると $2\pi i$ だけずれます。
 
 ---
 
 ## モジュラー形式
 
-上半平面 $\mathbb{H}$ 上の正則関数で、$SL(2,\mathbb{Z})$ の変換に対してほぼ不変:
+上半平面 $\mathbb{H} = \{z : \mathrm{Im}(z) > 0\}$ 上の正則関数で、
 
-$$f\left(\frac{az+b}{cz+d}\right) = (cz+d)^k f(z)$$
+$$f\left(\frac{az+b}{cz+d}\right) = (cz+d)^k f(z) \quad \left(\begin{pmatrix}a&b\\c&d\end{pmatrix} \in SL(2,\mathbb{Z})\right)$$
 
-整数論・弦理論との深い関係（谷山・志村予想とフェルマーの最終定理）。
+を満たすものが**重さ $k$ のモジュラー形式**。谷山・志村予想（ワイルズによる証明）を通じてフェルマーの最終定理の証明に使われました。
+
+**参考文献**：Ahlfors, L. V. (1979). *Complex Analysis* (3rd ed.). McGraw-Hill.
 
 ---
 
 ## 関連ページ
 
-- [複素関数](introduction.md)
-- [複素数（専門）](../../numbers/complex-numbers/professional.md)
-- [等号・等式（専門）](../../math-language/equations/professional.md)
+- [複素関数（標準）](standard.md)
+- [対数関数（専門）](../logarithmic/professional.md)

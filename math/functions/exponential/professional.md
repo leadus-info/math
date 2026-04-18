@@ -1,6 +1,7 @@
 ---
 title: 指数関数
 description: "指数型分布族・母関数・行列指数関数"
+goal: "指数関数を厳密に定義し、主要な定理を証明できるようになる"
 tags: [math,functions,exponential]
 hierarchy:
   - title: 数学
@@ -27,43 +28,44 @@ requires:
 
 ## 行列指数関数
 
-正方行列 $A$ に対して**行列指数関数**を定義します：
+**定義**：正方行列 $A$ に対して、
 
-$$e^A = \sum_{n=0}^{\infty}\frac{A^n}{n!} = I + A + \frac{A^2}{2!} + \frac{A^3}{3!} + \cdots$$
+$$e^A = \sum_{n=0}^\infty \frac{A^n}{n!} = I + A + \frac{A^2}{2!} + \cdots$$
 
 この級数はすべての正方行列に対して収束します。
 
-**主な性質**：
-- $e^0 = I$（単位行列）
-- $AB = BA$ ならば $e^{A+B} = e^A e^B$（非可換の場合は成立しない）
-- $e^A$ は常に可逆で $(e^A)^{-1} = e^{-A}$
+**性質**：
+- $e^0 = I$
+- $AB = BA$ のとき $e^{A+B} = e^A e^B$（非可換では一般に成立しない）
+- $(e^A)^{-1} = e^{-A}$
 
 ---
 
-## 常微分方程式への応用
+## 線形常微分方程式への応用
 
-線形常微分方程式系 $\dot{\boldsymbol{x}} = A\boldsymbol{x}$（$A$ は定数行列）の解：
+$\dot{\boldsymbol{x}} = A\boldsymbol{x}$（$A$ は定数行列）の解：
 
 $$\boldsymbol{x}(t) = e^{At}\boldsymbol{x}(0)$$
 
-これは1次元の場合 $\dot{x} = ax$ の解 $x(t) = e^{at}x(0)$ の自然な行列版です。
-
-**例**：調和振動子 $\ddot{u} = -\omega^2 u$ は\
-$\dot{\boldsymbol{x}} = \begin{pmatrix}0&1\\-\omega^2&0\end{pmatrix}\boldsymbol{x}$ と書け、\
-解は $e^{At}$ で表されます。これが $\sin$、$\cos$ と結びつきます。
+$A$ が対角化可能なら $e^{At}$ は固有値・固有ベクトルで明示的に計算できます。
 
 ---
 
 ## ラプラス変換
 
-$$\mathcal{L}\{f(t)\}(s) = \int_0^{\infty} f(t)e^{-st}\,dt$$
-
-微分・積分の操作が代数的演算に変換されます：
+**定義**：$\mathcal{L}\{f(t)\}(s) = \displaystyle\int_0^\infty f(t)e^{-st}\,dt$
 
 $$\mathcal{L}\{f'(t)\}(s) = s\mathcal{L}\{f\}(s) - f(0)$$
 
-常微分方程式の初期値問題を代数方程式に変換し、逆変換で解を復元します。\
-制御工学・信号処理で広く使われます。
+微分・積分を代数演算に変換し、常微分方程式の初期値問題を代数方程式に帰着させます。制御工学・信号処理で広く使われます。
+
+---
+
+## 指数型分布族
+
+$$p(x; \theta) = h(x)\exp(\eta(\theta)T(x) - A(\theta))$$
+
+正規分布・ポアソン分布・ガンマ分布などを統一する枠組み。$A(\theta)$ は規格化のための関数（対数分配関数）。
 
 **参考文献**：Hirsch, M. W., Smale, S., & Devaney, R. L. (2013). *Differential Equations, Dynamical Systems, and an Introduction to Chaos* (3rd ed.). Academic Press.
 
@@ -71,6 +73,5 @@ $$\mathcal{L}\{f'(t)\}(s) = s\mathcal{L}\{f\}(s) - f(0)$$
 
 ## 関連ページ
 
-- [指数関数](standard.md)
+- [指数関数（標準）](standard.md)
 - [行列（専門）](../../linear-algebra/matrices/professional.md)
-- [確率（専門）](../../statistics/probability/professional.md)

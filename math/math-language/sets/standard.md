@@ -1,6 +1,7 @@
 ---
 title: 集合
-description: "ものの集まりを数学で扱う"
+description: "集合の演算・写像・主な集合"
+goal: "集合の記法・演算法則・写像の概念を理解し、数の集合の包含関係を説明できるようになる"
 tags: [math,math-language,sets]
 hierarchy:
   - title: 数学
@@ -17,91 +18,74 @@ levels:
     path: professional.md
 level: 標準
 requires:
-  - title: 自然数
-    path: /math/numbers/natural-numbers/introduction.md
+  - title: 集合（入門）
+    path: /math/math-language/sets/introduction.md
+  - title: 自然数（標準）
+    path: /math/numbers/natural-numbers/standard.md
 ---
 
+## 集合の記法
 
-## 集合の定義
+集合を表す記法は2種類あります。
 
-「ものの集まり」を数学的に扱う道具が集合です。\
-現代数学のほぼすべての概念は集合の言葉で記述されます。
+**列挙記法**：要素を直接並べる。$A = \{1, 2, 3, 4, 5\}$
 
-要素がはっきり決まる「ものの集まり」を**集合**といいます。
+**内包記法**：条件で定義する。$B = \{x \mid x \text{ は10以下の偶数}\} = \{2, 4, 6, 8, 10\}$
 
-$$A = \{1, 2, 3, 4, 5\}$$\
-$$B = \{x \mid x \text{ は 10 以下の偶数}\} = \{2, 4, 6, 8, 10\}$$
-
-$3 \in A$（3 は $A$ の要素）、$6 \notin A$（6 は $A$ の要素でない）。
-
-「背の高い人の集合」は要素が曖昧なので数学的な集合として扱えません。\
-要素かどうかが明確に判定できることが条件です。
+$3 \in A$（3は $A$ の要素）、$6 \notin A$（6は $A$ の要素でない）。
 
 ---
 
 ## よく使う集合
 
-| 記号 | 内容 |
-|------|------|
-| $\mathbb{N}$ | 自然数全体 $\{1, 2, 3, \ldots\}$ |
-| $\mathbb{Z}$ | 整数全体 $\{\ldots, -2, -1, 0, 1, 2, \ldots\}$ |
-| $\mathbb{Q}$ | 有理数全体（分数で表せる数） |
-| $\mathbb{R}$ | 実数全体 |
-| $\emptyset$ | 空集合（要素が一つもない集合） |
+| 記号 | 集合 | 例 |
+|------|------|----|
+| $\mathbb{N}$ | 自然数全体 | $\{1, 2, 3, \ldots\}$ |
+| $\mathbb{Z}$ | 整数全体 | $\{\ldots, -2, -1, 0, 1, 2, \ldots\}$ |
+| $\mathbb{Q}$ | 有理数全体 | $\frac{p}{q}$（$q \neq 0$）の形 |
+| $\mathbb{R}$ | 実数全体 | 数直線上のすべての点 |
+| $\emptyset$ | 空集合 | 要素が1つもない集合 |
 
-$$\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}$$
-
----
-
-## 集合の演算
-
-**和集合**（少なくとも一方に属する）：
-
-$$A \cup B = \{x \mid x \in A \text{ または } x \in B\}$$
-
-**共通部分**（両方に属する）：
-
-$$A \cap B = \{x \mid x \in A \text{ かつ } x \in B\}$$
-
-**補集合**（全体 $U$ のうち $A$ に属さない）：
-
-$$A^c = \{x \in U \mid x \notin A\}$$
-
-**部分集合**：$A$ のすべての要素が $B$ にも属するとき $A \subset B$。
+包含関係：$\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}$
 
 ---
 
-## ド・モルガンの法則
+## 演算の法則
 
-$$(A \cup B)^c = A^c \cap B^c$$\
-$$(A \cap B)^c = A^c \cup B^c$$
+集合の演算には以下の法則が成り立ちます。
 
-「AまたはBでない」＝「Aでない かつ Bでない」という直感に対応します。
+**交換律**：$A \cup B = B \cup A$、$A \cap B = B \cap A$
+
+**結合律**：$(A \cup B) \cup C = A \cup (B \cup C)$
+
+**分配律**：$A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$
+
+**ド・モルガンの法則**：
+
+$$(A \cup B)^c = A^c \cap B^c, \quad (A \cap B)^c = A^c \cup B^c$$
+
+「AまたはBでない」$=$ 「Aでない かつ Bでない」という直感に対応します。
 
 ---
 
 ## 写像
 
-集合 $A$ の各要素に集合 $B$ の要素をただ一つ対応させる規則を**写像**といいます。\
-関数は写像の特別な場合（$A, B$ が数の集合）です。
+集合 $A$ の各要素に集合 $B$ の要素をただ一つ対応させる規則を**写像**といいます。
 
-$$f: A \to B, \quad f(x) = x^2$$
+$$f: A \to B, \quad a \mapsto f(a)$$
 
-写像において「$A$ のすべての要素が対応先を持つ」ことが重要で、\
-「$B$ のすべての要素が対応元を持つ」かどうかは別の話（全射）です。
+- $A$：**定義域**、$B$：**終域**
+- $\{f(a) \mid a \in A\}$：**値域**（終域の部分集合）
 
----
+**単射**（一対一）：$f(a) = f(b) \Rightarrow a = b$（異なる入力は異なる出力）
 
-## 集合と論理の対応
+**全射**（上への写像）：任意の $b \in B$ に対して $f(a) = b$ となる $a \in A$ が存在する
 
-「条件 $P(x)$」と「集合 $\{x \mid P(x)\}$」は対応します。
-
-- $P \Rightarrow Q$（「PならばQ」）$\Leftrightarrow$ $\{x \mid P(x)\} \subset \{x \mid Q(x)\}$
-- $P \Leftrightarrow Q$（同値）$\Leftrightarrow$ $\{x \mid P(x)\} = \{x \mid Q(x)\}$
+**全単射**（両方）：単射かつ全射——$A$ と $B$ の間に完全な1対1対応がある
 
 ---
 
 ## 関連ページ
 
-- [必要・十分条件](../conditions/introduction.md)
-- [場合の数](../../statistics/counting/introduction.md)
+- [必要・十分条件（標準）](../conditions/standard.md)
+- [集合（専門）](professional.md)
