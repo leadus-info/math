@@ -96,4 +96,4 @@ $$\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R}$$
 ## 関連ページ
 
 - [分数（標準）](../fractions/standard.md)
-- [負数（標準）](../negative-numbers/standard.md)
+- [負数（標準）](../integers/standard.md)

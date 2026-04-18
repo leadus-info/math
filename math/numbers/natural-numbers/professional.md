@@ -21,9 +21,9 @@ requires:
   - title: 自然数（標準）
     path: /math/numbers/natural-numbers/standard.md
   - title: 必要・十分条件（入門）
-    path: /math/math-language/conditions/introduction.md
+    path: /math/foundations/logic/introduction.md
   - title: 集合（入門）
-    path: /math/math-language/sets/introduction.md
+    path: /math/foundations/sets/introduction.md
 ---
 
 ## ペアノ公理系
@@ -145,5 +145,5 @@ $$a = bq_1 + r_1, \quad b = r_1 q_2 + r_2, \quad r_1 = r_2 q_3 + r_3, \quad \ldo
 ## 関連ページ
 
 - [自然数（標準）](standard.md)
-- [集合（専門）](../../math-language/sets/professional.md)
-- [必要・十分条件（専門）](../../math-language/conditions/professional.md)
+- [集合（専門）](../../foundations/sets/professional.md)
+- [必要・十分条件（専門）](../../foundations/logic/professional.md)

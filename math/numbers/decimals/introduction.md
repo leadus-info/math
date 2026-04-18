@@ -80,4 +80,4 @@ $$\frac{1}{2} = 1 \div 2 = 0.5$$
 ## 関連ページ
 
 - [分数（入門）](../fractions/introduction.md)
-- [負数（入門）](../negative-numbers/introduction.md)
+- [負数（入門）](../integers/introduction.md)

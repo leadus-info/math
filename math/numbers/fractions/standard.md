@@ -21,7 +21,7 @@ requires:
   - title: 自然数（標準）
     path: /math/numbers/natural-numbers/standard.md
   - title: 負数（入門）
-    path: /math/numbers/negative-numbers/introduction.md
+    path: /math/numbers/integers/introduction.md
   - title: 分数（入門）
     path: /math/numbers/fractions/introduction.md
 ---
@@ -121,4 +121,4 @@ $$\frac{1}{3} = 0.333\ldots = 0.\overline{3} \quad \text{（循環小数）}$$
 
 - [自然数（標準）](../natural-numbers/standard.md) — 約数・倍数・最大公約数
 - [小数（入門）](../decimals/introduction.md)
-- [負数（標準）](../negative-numbers/standard.md)
+- [負数（標準）](../integers/standard.md)

@@ -105,4 +105,4 @@ $\frac{3}{4}$ は $0.75$ と書くこともできます。分数と小数は、�
 
 - [自然数（入門）](../natural-numbers/introduction.md)
 - [小数（入門）](../decimals/introduction.md)
-- [負数（入門）](../negative-numbers/introduction.md)
+- [負数（入門）](../integers/introduction.md)

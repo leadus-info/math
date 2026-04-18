@@ -179,5 +179,5 @@ $12 = 2 \times 6 = 3 \times 4$ のように途中の分解の仕方は色々あ�
 ## 関連ページ
 
 - [四則演算（入門）](../arithmetic/introduction.md) — 演算の体系的な扱い
-- [負数（入門）](../negative-numbers/introduction.md) — 引き算の限界から生まれる数
+- [負数（入門）](../integers/introduction.md) — 引き算の限界から生まれる数
 - [分数（入門）](../fractions/introduction.md) — 割り算の限界から生まれる数

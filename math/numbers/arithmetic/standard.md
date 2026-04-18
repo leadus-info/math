@@ -23,7 +23,7 @@ requires:
   - title: 自然数（標準）
     path: /math/numbers/natural-numbers/standard.md
   - title: 負数（標準）
-    path: /math/numbers/negative-numbers/standard.md
+    path: /math/numbers/integers/standard.md
   - title: 分数（標準）
     path: /math/numbers/fractions/standard.md
 ---
@@ -93,5 +93,5 @@ $\frac{\sqrt{18}}{\sqrt{2}} = \sqrt{\frac{18}{2}} = \sqrt{9} = 3$
 
 ## 関連ページ
 
-- [指数関数（標準）](../../functions/exponential/standard.md)
-- [対数関数（標準）](../../functions/logarithmic/standard.md)
+- [指数関数（標準）](../../specific-functions/exponential/standard.md)
+- [対数関数（標準）](../../specific-functions/logarithmic/standard.md)

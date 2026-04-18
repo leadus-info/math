@@ -20,7 +20,7 @@ hierarchy:
 ## 負数
 引き算がいつでもできるように数の世界を広げます。整数の演算と符号規則を扱います。
 
-[入門](negative-numbers/introduction.md) / [標準](negative-numbers/standard.md) / [専門](negative-numbers/professional.md)
+[入門](integers/introduction.md) / [標準](integers/standard.md) / [専門](integers/professional.md)
 
 
 ## 分数

@@ -6,7 +6,7 @@ hierarchy:
   - title: 数学
     path: /math/index.md
   - title: 統計・確率
-    path: /math/statistics/index.md
+    path: /math/probability/index.md
 ---
 
 
@@ -21,11 +21,11 @@ hierarchy:
 ## 場合の数
 順列・組み合わせ——「何通りあるか」を数えます。
 
-[入門](counting/introduction.md) / [標準](counting/standard.md) / [専門](counting/professional.md)
+[入門](../probability/counting/introduction.md) / [標準](../probability/counting/standard.md) / [専門](../probability/counting/professional.md)
 
 
 ## 確率
 起こりやすさを 0 から 1 の数値で表す理論。条件付き確率・ベイズの定理を扱います。
 
-[入門](probability/introduction.md) / [標準](probability/standard.md) / [専門](probability/professional.md)
+[入門](../probability/probability/introduction.md) / [標準](../probability/probability/standard.md) / [専門](../probability/probability/professional.md)
 

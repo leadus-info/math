@@ -21,9 +21,9 @@ requires:
   - title: 分数（標準）
     path: /math/numbers/fractions/standard.md
   - title: 負数（専門）
-    path: /math/numbers/negative-numbers/professional.md
+    path: /math/numbers/integers/professional.md
   - title: 集合（入門）
-    path: /math/math-language/sets/introduction.md
+    path: /math/foundations/sets/introduction.md
 ---
 
 ## 同値類による $\mathbb{Q}$ の構成
@@ -92,6 +92,6 @@ $\mathbb{Z}$ は整域でしたが体ではありません（$2$ の乗法逆元
 ## 関連ページ
 
 - [分数（標準）](standard.md)
-- [負数（専門）](../negative-numbers/professional.md)
-- [集合（専門）](../../math-language/sets/professional.md)
-- [数列（専門）](../../functions/sequences/professional.md) — コーシー列による実数の構成
+- [負数（専門）](../integers/professional.md)
+- [集合（専門）](../../foundations/sets/professional.md)
+- [数列（専門）](../../analysis/sequences/professional.md) — コーシー列による実数の構成

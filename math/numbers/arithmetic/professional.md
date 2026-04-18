@@ -23,7 +23,7 @@ requires:
   - title: 自然数（専門）
     path: /math/numbers/natural-numbers/professional.md
   - title: 集合（標準）
-    path: /math/math-language/sets/standard.md
+    path: /math/foundations/sets/standard.md
 ---
 
 ## 群

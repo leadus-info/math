@@ -80,4 +80,4 @@ $\sqrt{2}$ はどうでしょう。$1^2 = 1$、$2^2 = 4$ なので1と2の間の
 ## 関連ページ
 
 - [自然数（標準）](../natural-numbers/standard.md) — べき乗の法則の詳細
-- [指数関数（入門）](../../functions/exponential/introduction.md) — べき乗を関数として見る
+- [指数関数（入門）](../../specific-functions/exponential/introduction.md) — べき乗を関数として見る

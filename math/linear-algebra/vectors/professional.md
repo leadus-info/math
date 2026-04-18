@@ -23,7 +23,7 @@ requires:
   - title: 行列（専門）
     path: /math/linear-algebra/matrices/professional.md
   - title: 極限（専門）
-    path: /math/functions/limits/professional.md
+    path: /math/analysis/limits/professional.md
 ---
 
 ## 内積空間
@@ -74,4 +74,4 @@ $$f(v) = \langle v, u \rangle \quad \forall v \in H$$
 
 - [ベクトル（標準）](standard.md)
 - [行列（専門）](../matrices/professional.md)
-- [積分（専門）](../../functions/integrals/professional.md)
+- [積分（専門）](../../analysis/integrals/professional.md)

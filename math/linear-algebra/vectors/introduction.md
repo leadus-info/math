@@ -20,7 +20,7 @@ levels:
 
 requires:
   - title: 点（入門）
-    path: /math/geometry/point/introduction.md
+    path: /math/geometry/coordinate/point/introduction.md
 ---
 
 ## 大きさだけでは足りない
@@ -64,4 +64,4 @@ requires:
 ## 関連ページ
 
 - [行列（入門）](../matrices/introduction.md)
-- [点（入門）](../../geometry/point/introduction.md)
+- [点（入門）](../../geometry/coordinate/point/introduction.md)

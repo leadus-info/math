@@ -21,9 +21,9 @@ requires:
   - title: 分数（専門）
     path: /math/numbers/fractions/professional.md
   - title: 数列（専門）
-    path: /math/functions/sequences/professional.md
+    path: /math/analysis/sequences/professional.md
   - title: 集合（入門）
-    path: /math/math-language/sets/introduction.md
+    path: /math/foundations/sets/introduction.md
 ---
 
 ## 実数の構成の動機
@@ -102,5 +102,5 @@ $\mathbb{Q}$ ではこの性質が成り立ちません。$A' = \{q \in \mathbb{
 
 - [小数（標準）](standard.md)
 - [分数（専門）](../fractions/professional.md)
-- [極限（専門）](../../functions/limits/professional.md)
-- [数列（専門）](../../functions/sequences/professional.md)
+- [極限（専門）](../../analysis/limits/professional.md)
+- [数列（専門）](../../analysis/sequences/professional.md)

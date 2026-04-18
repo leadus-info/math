@@ -21,9 +21,9 @@ requires:
   - title: 複素数（標準）
     path: /math/numbers/complex-numbers/standard.md
   - title: 負数（専門）
-    path: /math/numbers/negative-numbers/professional.md
+    path: /math/numbers/integers/professional.md
   - title: 集合（入門）
-    path: /math/math-language/sets/introduction.md
+    path: /math/foundations/sets/introduction.md
 ---
 
 ## $\mathbb{C}$ の代数的構成
@@ -79,5 +79,5 @@ $p(z)$ を $n \geq 1$ 次多項式とし、$p(z) \neq 0$（$\forall z \in \mathb
 ## 関連ページ
 
 - [複素数（標準）](standard.md)
-- [負数（専門）](../negative-numbers/professional.md)
-- [複素関数（専門）](../../functions/complex-functions/professional.md)
+- [負数（専門）](../integers/professional.md)
+- [複素関数（専門）](../../analysis/complex-analysis/professional.md)

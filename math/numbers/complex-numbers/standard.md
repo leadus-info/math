@@ -21,7 +21,7 @@ requires:
   - title: 複素数（入門）
     path: /math/numbers/complex-numbers/introduction.md
   - title: 三角関数（入門）
-    path: /math/functions/trigonometric/introduction.md
+    path: /math/geometry/trigonometry/introduction.md
 ---
 
 ## 複素数の定義
@@ -105,5 +105,5 @@ $$r_1(\cos\theta_1 + i\sin\theta_1) \times r_2(\cos\theta_2 + i\sin\theta_2) = r
 
 ## 関連ページ
 
-- [三角関数（入門）](../../functions/trigonometric/introduction.md)
-- [複素関数（入門）](../../functions/complex-functions/introduction.md)
+- [三角関数（入門）](../../geometry/trigonometry/introduction.md)
+- [複素関数（入門）](../../analysis/complex-analysis/introduction.md)
