@@ -2,12 +2,12 @@
 title: 積分
 description: "細かく分けて足し合わせる操作"
 goal: "積分の基本的なアイデアと必要性を日常的な例を使って説明できるようになる"
-tags: [math,functions,calculus]
+tags: [math,analysis]
 level: 入門
 hierarchy:
   - title: 数学
     path: /math/index.md
-  - title: 関数の操作
+  - title: 解析
     path: /math/analysis/index.md
   - title: 積分
     path: /math/analysis/integrals/introduction.md

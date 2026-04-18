@@ -2,7 +2,7 @@
 title: 数列
 description: "規則正しく並んだ数の列"
 goal: "数列の定義・主要な定理・代表的な計算を理解し、後続のトピックに進める基礎を身につける"
-tags: [math,functions,sequences]
+tags: [math,analysis,sequences]
 hierarchy:
   - title: 数学
     path: /math/index.md

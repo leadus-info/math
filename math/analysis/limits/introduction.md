@@ -2,12 +2,12 @@
 title: 極限
 description: "「限りなく近づく」とはどういうことか"
 goal: "極限の基本的なアイデアと必要性を日常的な例を使って説明できるようになる"
-tags: [math,functions,calculus]
+tags: [math,analysis]
 level: 入門
 hierarchy:
   - title: 数学
     path: /math/index.md
-  - title: 関数の操作
+  - title: 解析
     path: /math/analysis/index.md
   - title: 極限
     path: /math/analysis/limits/introduction.md

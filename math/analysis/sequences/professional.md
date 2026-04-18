@@ -2,7 +2,7 @@
 title: 数列
 description: "級数の収束判定・べき級数・漸近展開"
 goal: "数列を厳密に定義し、主要な定理を証明できるようになる"
-tags: [math,functions,sequences]
+tags: [math,analysis,sequences]
 hierarchy:
   - title: 数学
     path: /math/index.md

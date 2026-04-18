@@ -6,7 +6,7 @@ tags: [math,complex-numbers,complex-functions]
 hierarchy:
   - title: 数学
     path: /math/index.md
-  - title: 関数の操作
+  - title: 解析
     path: /math/analysis/index.md
   - title: 複素関数
     path: /math/analysis/complex-analysis/standard.md

@@ -2,7 +2,7 @@
 title: 数列
 description: "規則正しく並んだ数の列"
 goal: "数列の基本的なアイデアと必要性を日常的な例を使って説明できるようになる"
-tags: [math,functions,sequences]
+tags: [math,analysis,sequences]
 level: 入門
 hierarchy:
   - title: 数学

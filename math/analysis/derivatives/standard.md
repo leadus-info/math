@@ -2,11 +2,11 @@
 title: 微分
 description: "関数の瞬間の変化率"
 goal: "微分の定義・主要な定理・代表的な計算を理解し、後続のトピックに進める基礎を身につける"
-tags: [math,operations,derivatives]
+tags: [math,analysis,derivatives]
 hierarchy:
   - title: 数学
     path: /math/index.md
-  - title: 関数の操作
+  - title: 解析
     path: /math/analysis/index.md
   - title: 微分
     path: /math/analysis/derivatives/standard.md

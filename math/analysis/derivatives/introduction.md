@@ -2,12 +2,12 @@
 title: 微分
 description: "瞬間の変化率を求める操作"
 goal: "微分の基本的なアイデアと必要性を日常的な例を使って説明できるようになる"
-tags: [math,functions,calculus]
+tags: [math,analysis]
 level: 入門
 hierarchy:
   - title: 数学
     path: /math/index.md
-  - title: 関数の操作
+  - title: 解析
     path: /math/analysis/index.md
   - title: 微分
     path: /math/analysis/derivatives/introduction.md

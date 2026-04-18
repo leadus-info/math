@@ -2,11 +2,11 @@
 title: 極限
 description: "限りなく近づくとはどういうことか"
 goal: "極限の定義・主要な定理・代表的な計算を理解し、後続のトピックに進める基礎を身につける"
-tags: [math,operations,limits]
+tags: [math,analysis,limits]
 hierarchy:
   - title: 数学
     path: /math/index.md
-  - title: 関数の操作
+  - title: 解析
     path: /math/analysis/index.md
   - title: 極限
     path: /math/analysis/limits/standard.md

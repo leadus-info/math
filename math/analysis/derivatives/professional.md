@@ -2,11 +2,11 @@
 title: 微分
 description: "多変数微分・フレシェ微分・微分形式"
 goal: "微分を厳密に定義し、主要な定理を証明できるようになる"
-tags: [math,operations,derivatives]
+tags: [math,analysis,derivatives]
 hierarchy:
   - title: 数学
     path: /math/index.md
-  - title: 関数の操作
+  - title: 解析
     path: /math/analysis/index.md
   - title: 微分
     path: /math/analysis/derivatives/professional.md

@@ -2,11 +2,11 @@
 title: 積分
 description: "ルベーグ積分・広義積分・多重積分"
 goal: "積分を厳密に定義し、主要な定理を証明できるようになる"
-tags: [math,operations,integrals]
+tags: [math,analysis,integrals]
 hierarchy:
   - title: 数学
     path: /math/index.md
-  - title: 関数の操作
+  - title: 解析
     path: /math/analysis/index.md
   - title: 積分
     path: /math/analysis/integrals/professional.md

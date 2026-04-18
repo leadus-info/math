@@ -2,11 +2,11 @@
 title: 極限
 description: "ε-δ論法・一様収束・位相的極限"
 goal: "極限を厳密に定義し、主要な定理を証明できるようになる"
-tags: [math,operations,limits]
+tags: [math,analysis,limits]
 hierarchy:
   - title: 数学
     path: /math/index.md
-  - title: 関数の操作
+  - title: 解析
     path: /math/analysis/index.md
   - title: 極限
     path: /math/analysis/limits/professional.md

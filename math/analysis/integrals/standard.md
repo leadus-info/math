@@ -2,11 +2,11 @@
 title: 積分
 description: "面積・累積を求める操作"
 goal: "積分の定義・主要な定理・代表的な計算を理解し、後続のトピックに進める基礎を身につける"
-tags: [math,operations,integrals]
+tags: [math,analysis,integrals]
 hierarchy:
   - title: 数学
     path: /math/index.md
-  - title: 関数の操作
+  - title: 解析
     path: /math/analysis/index.md
   - title: 積分
     path: /math/analysis/integrals/standard.md
