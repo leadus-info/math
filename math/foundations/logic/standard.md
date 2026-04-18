@@ -2,12 +2,12 @@
 title: 必要・十分条件
 description: "論理記号と対偶・証明技法"
 goal: "命題論理の記号を使って必要条件・十分条件・同値を表し、対偶や背理法による証明の仕組みを説明できるようになる"
-tags: [math,math-language,conditions]
+tags: [math,foundations,logic]
 hierarchy:
   - title: 数学
     path: /math/index.md
-  - title: 数学の言語
-    path: /math/algebra/index.md
+  - title: 基礎
+    path: /math/foundations/index.md
   - title: 必要・十分条件
     path: /math/foundations/logic/standard.md
 levels:

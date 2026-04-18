@@ -2,13 +2,13 @@
 title: 必要・十分条件
 description: "「ならば」の向きと強さ"
 goal: "「ならば」が一方向であることを理解し、必要条件・十分条件・同値の違いを具体例を使って説明できるようになる"
-tags: [math,math-language,conditions]
+tags: [math,foundations,logic]
 level: 入門
 hierarchy:
   - title: 数学
     path: /math/index.md
-  - title: 数学の言語
-    path: /math/algebra/index.md
+  - title: 基礎
+    path: /math/foundations/index.md
   - title: 必要・十分条件
     path: /math/foundations/logic/introduction.md
 levels:

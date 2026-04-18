@@ -2,12 +2,12 @@
 title: 集合
 description: "集合の演算・写像・主な集合"
 goal: "集合の記法・演算法則・写像の概念を理解し、数の集合の包含関係を説明できるようになる"
-tags: [math,math-language,sets]
+tags: [math,foundations,sets]
 hierarchy:
   - title: 数学
     path: /math/index.md
-  - title: 数学の言語
-    path: /math/algebra/index.md
+  - title: 基礎
+    path: /math/foundations/index.md
   - title: 集合
     path: /math/foundations/sets/standard.md
 levels:

@@ -2,12 +2,12 @@
 title: 必要・十分条件
 description: "一階述語論理と証明論"
 goal: "一階述語論理の構文・意味論を理解し、健全性・完全性定理の内容と、ゲーデルの不完全性定理の帰結を説明できるようになる"
-tags: [math,math-language,conditions]
+tags: [math,foundations,logic]
 hierarchy:
   - title: 数学
     path: /math/index.md
-  - title: 数学の言語
-    path: /math/algebra/index.md
+  - title: 基礎
+    path: /math/foundations/index.md
   - title: 必要・十分条件
     path: /math/foundations/logic/professional.md
 levels:

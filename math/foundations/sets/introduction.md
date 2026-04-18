@@ -2,13 +2,13 @@
 title: 集合
 description: "ものの集まりを数学で扱う"
 goal: "集合の意味を理解し、和集合・共通部分・補集合を具体例で説明できるようになる"
-tags: [math,math-language,sets]
+tags: [math,foundations,sets]
 level: 入門
 hierarchy:
   - title: 数学
     path: /math/index.md
-  - title: 数学の言語
-    path: /math/algebra/index.md
+  - title: 基礎
+    path: /math/foundations/index.md
   - title: 集合
     path: /math/foundations/sets/introduction.md
 levels:

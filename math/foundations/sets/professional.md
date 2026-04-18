@@ -2,12 +2,12 @@
 title: 集合
 description: "ZFC公理系・濃度・順序数"
 goal: "ZFC公理系の主要公理を述べ、可算・非可算の区別とカントールの定理を説明できるようになる"
-tags: [math,math-language,sets]
+tags: [math,foundations,sets]
 hierarchy:
   - title: 数学
     path: /math/index.md
-  - title: 数学の言語
-    path: /math/algebra/index.md
+  - title: 基礎
+    path: /math/foundations/index.md
   - title: 集合
     path: /math/foundations/sets/professional.md
 levels:
