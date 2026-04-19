@@ -21,9 +21,9 @@ requires:
   - title: 多項式
     path: /math/algebra/polynomials/introduction.md
   - title: 代数（専門）
-    path: ../../math-language/algebra/professional.md
+    path: /math/algebra/expressions/professional.md
   - title: 行列（専門）
-    path: ../../linear-algebra/matrices/professional.md
+    path: /math/linear-algebra/matrices/professional.md
 ---
 
 ## 多項式環 $F[x]$

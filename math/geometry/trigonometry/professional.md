@@ -21,7 +21,7 @@ requires:
   - title: 三角関数
     path: /math/geometry/trigonometry/introduction.md
   - title: 積分（専門）
-    path: ../../integrals/professional.md
+    path: /math/analysis/integrals/professional.md
   - title: 複素関数
     path: /math/analysis/complex-analysis/introduction.md
 ---

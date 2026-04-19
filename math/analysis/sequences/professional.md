@@ -21,7 +21,7 @@ requires:
   - title: 数列
     path: /math/analysis/sequences/introduction.md
   - title: 極限（専門）
-    path: ../../limits/professional.md
+    path: /math/analysis/limits/professional.md
   - title: 微分
     path: /math/analysis/derivatives/introduction.md
 ---

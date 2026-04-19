@@ -21,9 +21,9 @@ requires:
   - title: 積分
     path: /math/analysis/integrals/introduction.md
   - title: 微分（専門）
-    path: ../derivatives/professional.md
+    path: /math/analysis/derivatives/professional.md
   - title: 集合（専門）
-    path: ../../../math-language/sets/professional.md
+    path: /math/foundations/sets/professional.md
 ---
 
 ## リーマン積分の定義

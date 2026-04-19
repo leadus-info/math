@@ -19,7 +19,7 @@ levels:
 level: 標準
 requires:
   - title: 四則演算
-    path: professional.md
+    path: /math/specific-functions/exponential/professional.md
   - title: 一次関数
     path: /math/specific-functions/linear/introduction.md
 ---

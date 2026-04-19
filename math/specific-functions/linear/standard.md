@@ -19,7 +19,7 @@ levels:
 level: 標準
 requires:
   - title: 四則演算
-    path: professional.md
+    path: /math/specific-functions/linear/professional.md
   - title: 等号・等式
     path: /math/algebra/equations/introduction.md
 ---

@@ -21,9 +21,9 @@ requires:
   - title: 極限
     path: /math/analysis/limits/introduction.md
   - title: 集合（専門）
-    path: ../../../math-language/sets/professional.md
+    path: /math/foundations/sets/professional.md
   - title: 小数（専門）
-    path: ../../../numbers/decimals/professional.md
+    path: /math/numbers/decimals/professional.md
 ---
 
 ## $\varepsilon$-$\delta$ による厳密な定義

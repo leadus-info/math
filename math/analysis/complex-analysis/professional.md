@@ -21,9 +21,9 @@ requires:
   - title: 複素関数
     path: /math/analysis/complex-analysis/introduction.md
   - title: 対数関数（専門）
-    path: ../../logarithmic/professional.md
+    path: /math/specific-functions/logarithmic/professional.md
   - title: 点（専門）
-    path: ../../../geometry/point/professional.md
+    path: /math/geometry/coordinate/point/professional.md
 ---
 
 ## リーマン面
