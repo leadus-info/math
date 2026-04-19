@@ -2,11 +2,11 @@
 title: 確率
 description: "測度論的確率・大数の法則・中心極限定理"
 goal: "コルモゴロフの公理から確率空間を構成し、大数の法則と中心極限定理の内容を正確に述べられるようになる"
-tags: [math,statistics,probability]
+tags: [math,probability]
 hierarchy:
   - title: 数学
     path: /math/index.md
-  - title: 統計・確率
+  - title: 確率
     path: /math/probability/index.md
   - title: 確率
     path: /math/probability/probability/professional.md

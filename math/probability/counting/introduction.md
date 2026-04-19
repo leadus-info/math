@@ -2,12 +2,12 @@
 title: 場合の数
 description: "何通りあるかを数える"
 goal: "積の法則・和の法則を使って場合の数を求め、順列と組み合わせの違いを説明できるようになる"
-tags: [math,statistics,counting]
+tags: [math,probability,counting]
 level: 入門
 hierarchy:
   - title: 数学
     path: /math/index.md
-  - title: 統計・確率
+  - title: 確率
     path: /math/probability/index.md
   - title: 場合の数
     path: /math/probability/counting/introduction.md

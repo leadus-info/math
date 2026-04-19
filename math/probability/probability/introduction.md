@@ -2,12 +2,12 @@
 title: 確率
 description: "起こりやすさを数値で表す"
 goal: "確率の意味を理解し、基本的な確率の計算と余事象の考え方を説明できるようになる"
-tags: [math,statistics,probability]
+tags: [math,probability]
 level: 入門
 hierarchy:
   - title: 数学
     path: /math/index.md
-  - title: 統計・確率
+  - title: 確率
     path: /math/probability/index.md
   - title: 確率
     path: /math/probability/probability/introduction.md

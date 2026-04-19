@@ -2,11 +2,11 @@
 title: 場合の数
 description: "順列・組み合わせ・二項定理"
 goal: "順列・組み合わせの公式を導出し、二項定理を使って場合の数を計算できるようになる"
-tags: [math,statistics,counting]
+tags: [math,probability,counting]
 hierarchy:
   - title: 数学
     path: /math/index.md
-  - title: 統計・確率
+  - title: 確率
     path: /math/probability/index.md
   - title: 場合の数
     path: /math/probability/counting/standard.md

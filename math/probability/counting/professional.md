@@ -2,11 +2,11 @@
 title: 場合の数
 description: "母関数・包除原理・ラムゼー理論"
 goal: "母関数・包除原理を使って数列や計数問題を解き、ラムゼー数 R(3,3)=6 を証明できるようになる"
-tags: [math,statistics,counting]
+tags: [math,probability,counting]
 hierarchy:
   - title: 数学
     path: /math/index.md
-  - title: 統計・確率
+  - title: 確率
     path: /math/probability/index.md
   - title: 場合の数
     path: /math/probability/counting/professional.md

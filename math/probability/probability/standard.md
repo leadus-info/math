@@ -2,11 +2,11 @@
 title: 確率
 description: "確率の定義・条件付き確率・ベイズの定理"
 goal: "確率の基本法則・独立・条件付き確率・ベイズの定理を使って確率を計算できるようになる"
-tags: [math,statistics,probability]
+tags: [math,probability]
 hierarchy:
   - title: 数学
     path: /math/index.md
-  - title: 統計・確率
+  - title: 確率
     path: /math/probability/index.md
   - title: 確率
     path: /math/probability/probability/standard.md
