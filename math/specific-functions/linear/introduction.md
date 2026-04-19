@@ -2,13 +2,13 @@
 title: 一次関数
 description: "グラフが直線になる関数"
 goal: "一次関数の基本的なアイデアと必要性を日常的な例を使って説明できるようになる"
-tags: [math,functions,linear]
+tags: [math,specific-functions,linear]
 level: 入門
 hierarchy:
   - title: 数学
     path: /math/index.md
-  - title: 関数
-    path: /math/analysis/index.md
+  - title: 具体的な関数
+    path: /math/specific-functions/index.md
   - title: 一次関数
     path: /math/specific-functions/linear/introduction.md
 levels:

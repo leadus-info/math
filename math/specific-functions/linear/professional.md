@@ -2,12 +2,12 @@
 title: 一次関数
 description: "アフィン変換・線形写像・超平面"
 goal: "一次関数を厳密に定義し、主要な定理を証明できるようになる"
-tags: [math,functions,linear]
+tags: [math,specific-functions,linear]
 hierarchy:
   - title: 数学
     path: /math/index.md
-  - title: 関数
-    path: /math/analysis/index.md
+  - title: 具体的な関数
+    path: /math/specific-functions/index.md
   - title: 一次関数
     path: /math/specific-functions/linear/professional.md
 levels:

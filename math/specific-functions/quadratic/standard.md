@@ -2,12 +2,12 @@
 title: 二次関数
 description: "放物線を描く関数"
 goal: "二次関数の定義・主要な定理・代表的な計算を理解し、後続のトピックに進める基礎を身につける"
-tags: [math,functions,quadratic]
+tags: [math,specific-functions,quadratic]
 hierarchy:
   - title: 数学
     path: /math/index.md
-  - title: 関数
-    path: /math/analysis/index.md
+  - title: 具体的な関数
+    path: /math/specific-functions/index.md
   - title: 二次関数
     path: /math/specific-functions/quadratic/standard.md
 levels:

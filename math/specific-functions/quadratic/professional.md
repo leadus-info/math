@@ -2,12 +2,12 @@
 title: 二次関数
 description: "二次形式・固有値との接続・円錐曲線"
 goal: "二次関数を厳密に定義し、主要な定理を証明できるようになる"
-tags: [math,functions,quadratic]
+tags: [math,specific-functions,quadratic]
 hierarchy:
   - title: 数学
     path: /math/index.md
-  - title: 関数
-    path: /math/analysis/index.md
+  - title: 具体的な関数
+    path: /math/specific-functions/index.md
   - title: 二次関数
     path: /math/specific-functions/quadratic/professional.md
 levels:

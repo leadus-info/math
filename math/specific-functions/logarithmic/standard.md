@@ -2,12 +2,12 @@
 title: 対数関数
 description: "指数関数の逆の操作"
 goal: "対数関数の定義・主要な定理・代表的な計算を理解し、後続のトピックに進める基礎を身につける"
-tags: [math,functions,logarithmic]
+tags: [math,specific-functions,logarithmic]
 hierarchy:
   - title: 数学
     path: /math/index.md
-  - title: 関数
-    path: /math/analysis/index.md
+  - title: 具体的な関数
+    path: /math/specific-functions/index.md
   - title: 対数関数
     path: /math/specific-functions/logarithmic/standard.md
 levels:

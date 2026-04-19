@@ -2,12 +2,12 @@
 title: 指数関数
 description: "指数型分布族・母関数・行列指数関数"
 goal: "指数関数を厳密に定義し、主要な定理を証明できるようになる"
-tags: [math,functions,exponential]
+tags: [math,specific-functions,exponential]
 hierarchy:
   - title: 数学
     path: /math/index.md
-  - title: 関数
-    path: /math/analysis/index.md
+  - title: 具体的な関数
+    path: /math/specific-functions/index.md
   - title: 指数関数
     path: /math/specific-functions/exponential/professional.md
 levels:

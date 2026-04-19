@@ -2,13 +2,13 @@
 title: 指数関数
 description: "倍々で増える変化を表す関数"
 goal: "指数関数の基本的なアイデアと必要性を日常的な例を使って説明できるようになる"
-tags: [math,functions,exponential]
+tags: [math,specific-functions,exponential]
 level: 入門
 hierarchy:
   - title: 数学
     path: /math/index.md
-  - title: 関数
-    path: /math/analysis/index.md
+  - title: 具体的な関数
+    path: /math/specific-functions/index.md
   - title: 指数関数
     path: /math/specific-functions/exponential/introduction.md
 levels:

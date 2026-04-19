@@ -2,13 +2,13 @@
 title: 対数関数
 description: "「何乗すれば？」という問いへの答え"
 goal: "対数関数の基本的なアイデアと必要性を日常的な例を使って説明できるようになる"
-tags: [math,functions,logarithmic]
+tags: [math,specific-functions,logarithmic]
 level: 入門
 hierarchy:
   - title: 数学
     path: /math/index.md
-  - title: 関数
-    path: /math/analysis/index.md
+  - title: 具体的な関数
+    path: /math/specific-functions/index.md
   - title: 対数関数
     path: /math/specific-functions/logarithmic/introduction.md
 levels:
