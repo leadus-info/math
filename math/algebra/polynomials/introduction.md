@@ -2,7 +2,7 @@
 title: 多項式
 description: "べき乗の和で表される関数"
 goal: "多項式の基本的なアイデアと必要性を日常的な例を使って説明できるようになる"
-tags: [math,functions,polynomials]
+tags: [math,algebra,polynomials]
 level: 入門
 hierarchy:
   - title: 数学

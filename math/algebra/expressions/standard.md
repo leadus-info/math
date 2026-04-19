@@ -2,11 +2,11 @@
 title: 代数
 description: "展開公式・因数分解・剰余定理"
 goal: "主要な展開公式と因数分解の手法を使いこなし、剰余定理・因数定理を適用できるようになる"
-tags: [math,math-language,algebra]
+tags: [math,algebra,expressions]
 hierarchy:
   - title: 数学
     path: /math/index.md
-  - title: 数学の言語
+  - title: 代数
     path: /math/algebra/index.md
   - title: 代数
     path: /math/algebra/expressions/standard.md

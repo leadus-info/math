@@ -2,11 +2,11 @@
 title: 代数
 description: "抽象代数——群・環・体・多項式環"
 goal: "群・環・体の定義と基本的な性質を述べ、準同型定理を適用できるようになる"
-tags: [math,math-language,algebra]
+tags: [math,algebra,expressions]
 hierarchy:
   - title: 数学
     path: /math/index.md
-  - title: 数学の言語
+  - title: 代数
     path: /math/algebra/index.md
   - title: 代数
     path: /math/algebra/expressions/professional.md

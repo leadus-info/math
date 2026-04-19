@@ -2,12 +2,12 @@
 title: 等号・等式
 description: "「等しい」を記号で表す"
 goal: "等号の意味を理解し、等式の変形と方程式・恒等式の違いを説明できるようになる"
-tags: [math,math-language,equations]
+tags: [math,algebra,equations]
 level: 入門
 hierarchy:
   - title: 数学
     path: /math/index.md
-  - title: 数学の言語
+  - title: 代数
     path: /math/algebra/index.md
   - title: 等号・等式
     path: /math/algebra/equations/introduction.md

@@ -2,12 +2,12 @@
 title: 不等号・不等式
 description: "大小関係を記号で表す"
 goal: "不等号の意味を理解し、不等式が「範囲」を表すことと、負の数を掛けると向きが逆転する理由を説明できるようになる"
-tags: [math,math-language,inequalities]
+tags: [math,algebra,inequalities]
 level: 入門
 hierarchy:
   - title: 数学
     path: /math/index.md
-  - title: 数学の言語
+  - title: 代数
     path: /math/algebra/index.md
   - title: 不等号・不等式
     path: /math/algebra/inequalities/introduction.md

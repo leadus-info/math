@@ -2,11 +2,11 @@
 title: 不等号・不等式
 description: "不等式の解法と重要不等式"
 goal: "一次・二次不等式・絶対値不等式を解き、AM-GM不等式などの重要不等式を使えるようになる"
-tags: [math,math-language,inequalities]
+tags: [math,algebra,inequalities]
 hierarchy:
   - title: 数学
     path: /math/index.md
-  - title: 数学の言語
+  - title: 代数
     path: /math/algebra/index.md
   - title: 不等号・不等式
     path: /math/algebra/inequalities/standard.md

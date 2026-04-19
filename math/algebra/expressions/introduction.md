@@ -2,12 +2,12 @@
 title: 代数
 description: "文字式の計算と変形"
 goal: "文字式の整理・展開・因数分解の基本を理解し、式を目的に応じた形に変形できるようになる"
-tags: [math,math-language,algebra]
+tags: [math,algebra,expressions]
 level: 入門
 hierarchy:
   - title: 数学
     path: /math/index.md
-  - title: 数学の言語
+  - title: 代数
     path: /math/algebra/index.md
   - title: 代数
     path: /math/algebra/expressions/introduction.md

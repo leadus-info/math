@@ -2,11 +2,11 @@
 title: 等号・等式
 description: "等号の性質と方程式の解法"
 goal: "等号の性質を正確に述べ、一次方程式・二次方程式・連立方程式を解けるようになる"
-tags: [math,math-language,equations]
+tags: [math,algebra,equations]
 hierarchy:
   - title: 数学
     path: /math/index.md
-  - title: 数学の言語
+  - title: 代数
     path: /math/algebra/index.md
   - title: 等号・等式
     path: /math/algebra/equations/standard.md

@@ -2,7 +2,7 @@
 title: 多項式
 description: "多項式環・代数幾何の入口・シューア多項式"
 goal: "多項式を厳密に定義し、主要な定理を証明できるようになる"
-tags: [math,functions,polynomials]
+tags: [math,algebra,polynomials]
 hierarchy:
   - title: 数学
     path: /math/index.md

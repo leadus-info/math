@@ -2,11 +2,11 @@
 title: 等号・等式
 description: "方程式論・代数方程式の根の構造"
 goal: "ヴィエタの公式を導出でき、代数学の基本定理と5次方程式の非可解性の意味を説明できるようになる"
-tags: [math,math-language,equations]
+tags: [math,algebra,equations]
 hierarchy:
   - title: 数学
     path: /math/index.md
-  - title: 数学の言語
+  - title: 代数
     path: /math/algebra/index.md
   - title: 等号・等式
     path: /math/algebra/equations/professional.md

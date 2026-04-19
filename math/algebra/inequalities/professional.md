@@ -2,11 +2,11 @@
 title: 不等号・不等式
 description: "凸関数・重要不等式・最適化"
 goal: "凸関数の定義とイェンセン不等式を理解し、ヘルダー不等式・コーシー＝シュワルツ不等式を証明できるようになる"
-tags: [math,math-language,inequalities]
+tags: [math,algebra,inequalities]
 hierarchy:
   - title: 数学
     path: /math/index.md
-  - title: 数学の言語
+  - title: 代数
     path: /math/algebra/index.md
   - title: 不等号・不等式
     path: /math/algebra/inequalities/professional.md
