@@ -29,3 +29,12 @@ hierarchy:
 
 [入門](matrices/introduction.md) / [標準](matrices/standard.md) / [専門](matrices/professional.md)
 
+## 線形写像（大学）
+線形写像の定義・核・像・次元定理。行列と写像の対応を扱います。
+
+[入門](linear-maps/introduction.md) / [標準](linear-maps/standard.md) / [専門](linear-maps/professional.md)
+
+## 固有値（大学）
+固有値・固有ベクトル・対角化・スペクトル定理・特異値分解を扱います。
+
+[入門](eigenvalues/introduction.md) / [標準](eigenvalues/standard.md) / [専門](eigenvalues/professional.md)

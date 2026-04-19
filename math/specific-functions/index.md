@@ -35,3 +35,8 @@ $y = a^x$——倍々で増える（または減る）変化を表す関数。
 $y = \log_a x$——「何乗すれば？」という問いに答える関数。指数関数の逆です。
 
 [入門](logarithmic/introduction.md) / [標準](logarithmic/standard.md) / [専門](logarithmic/professional.md)
+
+## 三角関数
+$\sin$・$\cos$・$\tan$——角度と波を表す周期関数。加法定理・フーリエ解析まで扱います。
+
+[入門](trigonometric/introduction.md) / [標準](trigonometric/standard.md) / [専門](trigonometric/professional.md)

@@ -53,3 +53,7 @@ $n$ 辺で囲まれた図形の一般論を扱います。
 
 [入門](euclidean/circles/introduction.md) / [標準](euclidean/circles/standard.md) / [専門](euclidean/circles/professional.md)
 
+## 位相幾何学（大学）
+連続変形で変わらない性質を研究します。基本群・ホモロジー・コンパクト性を扱います。
+
+[入門](topology/introduction.md) / [標準](topology/standard.md) / [専門](topology/professional.md)
