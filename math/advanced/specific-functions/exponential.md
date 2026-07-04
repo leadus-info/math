@@ -16,7 +16,7 @@ requires:
   - title: 累乗
     path: /math/intermediate/numbers/arithmetic.md
   - title: 一次関数
-    path: /math/advanced/specific-functions/linear.md
+    path: /math/intermediate/functions/linear.md
 ---
 
 ## 倍々で増える

@@ -2,21 +2,21 @@
 title: 一次関数
 description: "グラフが直線になる関数"
 goal: "一次関数の定義を述べ、傾きと切片から式を求め、連立方程式と交点の関係を説明できるようになる"
-tags: [math, specific-functions, linear]
-stage: 応用編
-subject: 具体的な関数
+tags: [math, functions, linear]
+stage: 中級編
+subject: 関数
 hierarchy:
   - title: 数学
     path: /math/index.md
-  - title: 応用編
-    path: /math/advanced/index.md
+  - title: 中級編
+    path: /math/intermediate/index.md
   - title: 一次関数
-    path: /math/advanced/specific-functions/linear.md
+    path: /math/intermediate/functions/linear.md
 requires:
-  - title: 等号・等式
-    path: /math/intermediate/algebra/equations.md
-  - title: 累乗
-    path: /math/intermediate/numbers/arithmetic.md
+  - title: 関数とは
+    path: functions.md
+  - title: 連立方程式
+    path: /math/intermediate/algebra/equations-simultaneous.md
 ---
 
 ## 比例——均等に変わる関係
@@ -33,14 +33,24 @@ requires:
 
 ## 一次関数の定義
 
-**定義**：$f(x) = ax + b$（$a, b$ は定数）を**一次関数**といいます。
+**定義**：$y = ax + b$（$a, b$ は定数）を**一次関数**といいます。比例 $y=ax$ は、$b=0$ の特別な場合です。
 
 - $a$：**傾き**（$x$ が1増えると $y$ が $a$ 増える）
 - $b$：**$y$ 切片**（$x = 0$ のときの値）
 
-$a > 0$ なら右上がり、$a < 0$ なら右下がり、$a = 0$ なら水平線（定数関数）になります。
+$a > 0$ なら右上がり、$a < 0$ なら右下がりの直線になります。
 
 タクシー料金（初乗り500円、以後1kmごとに100円）を例にすると、傾きは100、切片は500です。一次関数は傾きと切片の2つで完全に決まります。
+
+---
+
+## 変化の割合
+
+$x$ の増加量に対する $y$ の増加量の割合を**変化の割合**といいます。
+
+$$\text{変化の割合} = \frac{y \text{の増加量}}{x \text{の増加量}}$$
+
+一次関数 $y=ax+b$ では、この変化の割合はどこで計算してもいつも一定で、傾き $a$ に等しくなります。
 
 ---
 
@@ -56,9 +66,11 @@ $a > 0$ なら右上がり、$a < 0$ なら右下がり、$a = 0$ なら水平�
 
 ---
 
-## 連立方程式と交点
+## 二元一次方程式との関係
 
-2つの一次関数のグラフを描くと、多くの場合1点で交わります。この交点は、2つの関係を同時に満たす値——連立方程式の解に対応します。
+$ax+by+c=0$（$b \neq 0$）の形の方程式は、$y$ について解くと $y = -\dfrac{a}{b}x - \dfrac{c}{b}$ となり、一次関数とみなせます。
+
+2つの一次関数のグラフを描くと、多くの場合1点で交わります。この交点の座標は、2つの式を連立方程式（中級編）として解いた解に対応します。
 
 **例**：$\begin{cases}y = 2x + 1 \\ y = -x + 4\end{cases}$
 
@@ -66,19 +78,15 @@ $2x + 1 = -x + 4 \Rightarrow x = 1$、$y = 3$。交点は $(1, 3)$ です。
 
 ---
 
-## 傾きと変化率
-
-一次関数では傾き $a$ が「$x$ の変化量あたりの $y$ の変化量」を表します。一次関数の場合、この変化率はグラフ上のどこでも一定で、常に $a$ です。この「変化率」という考え方は、後で学ぶ微分の出発点になります。
-
----
-
 ## まとめ
 
-一次関数 $f(x) = ax + b$ は「$x$ が1増えるたびに $y$ が一定量変わる」関係で、グラフは直線になります。傾き $a$ と切片 $b$ の2つで完全に決まり、2直線の交点は連立方程式の解に対応します。
+一次関数 $y = ax + b$ は「$x$ が1増えるたびに $y$ が一定量変わる」関係で、グラフは直線になります。傾き $a$ と切片 $b$ の2つで完全に決まり、2直線の交点は連立方程式の解に対応します。
 
 ---
 
 ## 関連ページ
 
+- [関数とは（中級編）](functions.md)
+- [連立方程式（中級編）](/math/intermediate/algebra/equations-simultaneous.md)
+- [関数y=ax²（中級編）](quadratic.md)
 - [二次関数（応用編）](/math/advanced/specific-functions/quadratic.md)
-- [微分（応用編）](/math/advanced/analysis/derivatives.md)

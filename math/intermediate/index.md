@@ -67,6 +67,19 @@ hierarchy:
 - [一次不等式](algebra/inequalities-linear.md)
 - [連立不等式](algebra/inequalities-simultaneous.md)
 
+## 関数
+
+### 関数
+一方が決まればもう一方がただ1つに決まる関係。座標と、比例・反比例を関数として捉え直す視点を扱います。
+
+- [関数とは](functions/functions.md)
+
+### 一次関数・関数y=ax²
+グラフが直線になる一次関数と、xの2乗に比例する関数y=ax²を扱います。
+
+- [一次関数](functions/linear.md)
+- [関数y=ax²](functions/quadratic.md)
+
 ## 幾何
 
 ### 多角形

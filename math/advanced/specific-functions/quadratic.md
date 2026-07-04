@@ -13,8 +13,8 @@ hierarchy:
   - title: 二次関数
     path: /math/advanced/specific-functions/quadratic.md
 requires:
-  - title: 一次関数
-    path: /math/advanced/specific-functions/linear.md
+  - title: 関数y=ax²
+    path: /math/intermediate/functions/quadratic.md
   - title: 展開・因数分解
     path: /math/intermediate/algebra/expressions-expansion-factoring.md
 ---
@@ -79,5 +79,6 @@ $$ax^2 + bx + c > 0 \iff x < \alpha \text{ または } x > \beta$$
 
 ## 関連ページ
 
-- [一次関数（応用編）](linear.md)
+- [一次関数（中級編）](/math/intermediate/functions/linear.md)
+- [関数y=ax²（中級編）](/math/intermediate/functions/quadratic.md)
 - [多項式（応用編）](/math/advanced/algebra/polynomials.md)
