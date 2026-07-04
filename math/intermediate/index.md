@@ -16,7 +16,10 @@ hierarchy:
 ### 負数
 0より小さい数。数直線・符号の規則・絶対値を扱います。
 
-- [負数](numbers/integers.md)
+- [負数とは](numbers/integers.md)
+- [足し算・引き算](numbers/integers-addition-subtraction.md)
+- [掛け算・割り算](numbers/integers-multiplication-division.md)
+- [絶対値](numbers/integers-absolute-value.md)
 
 ### 乗法・べき乗
 掛け算の繰り返しとしてのべき乗と、その逆操作である平方根を扱います。
@@ -38,12 +41,17 @@ hierarchy:
 ### 等号・等式
 等式の変形規則と、一次方程式・連立方程式・二次方程式の解き方を扱います。
 
-- [等号・等式](algebra/equations.md)
+- [等号・等式とは](algebra/equations.md)
+- [一次方程式](algebra/equations-linear.md)
+- [連立方程式](algebra/equations-simultaneous.md)
+- [二次方程式](algebra/equations-quadratic.md)
 
 ### 不等号・不等式
 大小関係を表す記号と、一次不等式・連立不等式の解き方を扱います。
 
-- [不等号・不等式](algebra/inequalities.md)
+- [不等号・不等式とは](algebra/inequalities.md)
+- [一次不等式](algebra/inequalities-linear.md)
+- [連立不等式](algebra/inequalities-simultaneous.md)
 
 ## 幾何
 

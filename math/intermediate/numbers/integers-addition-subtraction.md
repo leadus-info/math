@@ -1,0 +1,49 @@
+---
+title: 負の数の足し算・引き算
+description: "数直線を使った整数の加減算"
+goal: "負の数を含む足し算・引き算を、数直線のイメージと符号反転の考え方で計算できるようになる"
+tags: [math, numbers, integers]
+stage: 中級編
+subject: 数
+hierarchy:
+  - title: 数学
+    path: /math/index.md
+  - title: 中級編
+    path: /math/intermediate/index.md
+  - title: 負の数の足し算・引き算
+    path: /math/intermediate/numbers/integers-addition-subtraction.md
+requires:
+  - title: 負数
+    path: integers.md
+---
+
+## 数直線を使って考える
+
+数直線を使って考えてみましょう。足し算は「右に進む」、負の数を足すのは「左に進む」ことに対応します。
+
+$$5 + (-3) = 2, \quad 3 + (-5) = -2$$
+
+---
+
+## 引き算を足し算に直す
+
+一般に、引き算は「符号を反転した数を足す操作」として書き直せます。
+
+$$a - b = a + (-b)$$
+
+**例**：$3 - 5 = 3 + (-5) = -2$、$-4 - (-7) = -4 + 7 = 3$、$5 - (-3) = 5 + 3 = 8$
+
+この定義により、整数の世界では引き算がいつでも可能です。負数（中級編）の冒頭の問題も $3 - 5 = -2$ と計算できます。
+
+---
+
+## まとめ
+
+負の数を足すことは数直線上で左に進むことに対応します。引き算は「符号を反転した数を足す操作」として捉え直せるため、整数の世界では引き算がいつでも計算できます。
+
+---
+
+## 関連ページ
+
+- [負数（中級編）](integers.md)
+- [掛け算・割り算（中級編）](integers-multiplication-division.md)
