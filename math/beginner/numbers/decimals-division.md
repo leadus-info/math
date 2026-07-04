@@ -13,7 +13,7 @@ hierarchy:
   - title: 小数の割り算
     path: /math/beginner/numbers/decimals-division.md
 requires:
-  - title: 掛け算
+  - title: 小数の掛け算
     path: decimals-multiplication.md
 ---
 

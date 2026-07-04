@@ -13,7 +13,7 @@ hierarchy:
   - title: 分数の引き算
     path: /math/beginner/numbers/fractions-subtraction.md
 requires:
-  - title: 足し算
+  - title: 分数の足し算
     path: fractions-addition.md
 ---
 

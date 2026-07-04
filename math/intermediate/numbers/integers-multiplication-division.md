@@ -13,7 +13,7 @@ hierarchy:
   - title: 負の数の掛け算・割り算
     path: /math/intermediate/numbers/integers-multiplication-division.md
 requires:
-  - title: 足し算・引き算
+  - title: 負の数の足し算・引き算
     path: integers-addition-subtraction.md
 ---
 

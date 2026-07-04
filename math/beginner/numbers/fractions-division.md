@@ -13,7 +13,7 @@ hierarchy:
   - title: 分数の割り算
     path: /math/beginner/numbers/fractions-division.md
 requires:
-  - title: 掛け算
+  - title: 分数の掛け算
     path: fractions-multiplication.md
 ---
 

@@ -13,7 +13,7 @@ hierarchy:
   - title: 小数の引き算
     path: /math/beginner/numbers/decimals-subtraction.md
 requires:
-  - title: 足し算
+  - title: 小数の足し算
     path: decimals-addition.md
 ---
 
