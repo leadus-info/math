@@ -86,5 +86,5 @@ $2x + 1 = -x + 4 \Rightarrow x = 1$、$y = 3$。交点は $(1, 3)$ です。
 
 ## 関連ページ
 
-- [関数y=ax²（中級編）](quadratic.md)
+- [二次関数（中級編）](quadratic.md)
 - [二次関数（応用編）](/math/advanced/specific-functions/quadratic.md)

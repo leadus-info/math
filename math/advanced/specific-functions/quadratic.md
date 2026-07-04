@@ -13,7 +13,7 @@ hierarchy:
   - title: 二次関数
     path: /math/advanced/specific-functions/quadratic.md
 requires:
-  - title: 関数y=ax²
+  - title: 二次関数
     path: /math/intermediate/functions/quadratic.md
   - title: 展開・因数分解
     path: /math/intermediate/algebra/expressions-expansion-factoring.md
