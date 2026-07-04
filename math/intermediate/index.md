@@ -16,43 +16,43 @@ hierarchy:
 ### 負数
 0より小さい数。数直線・符号の規則・絶対値を扱います。
 
-[負数](numbers/integers.md)
+- [負数](numbers/integers.md)
 
 ### 乗法・べき乗
 掛け算の繰り返しとしてのべき乗と、その逆操作である平方根を扱います。
 
-[乗法・べき乗](numbers/arithmetic.md)
+- [乗法・べき乗](numbers/arithmetic.md)
 
 ### 有理数と無理数
 循環小数を分数に変換する方法と、平方根を例にした無理数の存在を扱います。
 
-[有理数と無理数](numbers/rational-irrational.md)
+- [有理数と無理数](numbers/rational-irrational.md)
 
 ## 代数
 
 ### 代数
 文字を使った式の計算。同類項・展開・因数分解を扱います。
 
-[代数](algebra/expressions.md)
+- [代数](algebra/expressions.md)
 
 ### 等号・等式
 等式の変形規則と、一次方程式・連立方程式・二次方程式の解き方を扱います。
 
-[等号・等式](algebra/equations.md)
+- [等号・等式](algebra/equations.md)
 
 ### 不等号・不等式
 大小関係を表す記号と、一次不等式・連立不等式の解き方を扱います。
 
-[不等号・不等式](algebra/inequalities.md)
+- [不等号・不等式](algebra/inequalities.md)
 
 ## 幾何
 
 ### 四角形
 4辺で囲まれた図形の種類と性質。平行四辺形・長方形・ひし形・正方形の包含関係を扱います。
 
-[四角形](geometry/quadrilaterals.md)
+- [四角形](geometry/quadrilaterals.md)
 
 ### 多角形
 3辺以上の直線で囲まれた図形の一般論。内角の和・外角の和を扱います。
 
-[多角形](geometry/polygons.md)
+- [多角形](geometry/polygons.md)

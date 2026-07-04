@@ -210,6 +210,7 @@ requires:
 - H3見出しは、1つのまとまりに複数の記事が対応してもよい（`1 H3 = 1記事`ではない）。
 - 1つの記事しか含まないまとまりも、同じ形式でH3見出しを立てる。
 - 見出しの粒度は、学習指導要領などが示す「内容のまとまり」を参考にする。
+- 記事へのリンクは、記事数に関わらず必ず箇条書き（`- [タイトル](path)`）で列挙する。改行のみで区切ると、Markdownのレンダリング結果が1行に詰まってしまうため。
 
 ```markdown
 ## 数
@@ -217,15 +218,15 @@ requires:
 ### 自然数
 ものを数える最も基本的な数と、四則演算の基礎を扱います。
 
-[自然数とは](numbers/natural-numbers.md)
-[足し算](numbers/addition.md)
-[引き算](numbers/subtraction.md)
-[掛け算](numbers/multiplication.md)
-[割り算](numbers/division.md)
-[倍数と約数](numbers/multiples-divisors.md)
+- [自然数とは](numbers/natural-numbers.md)
+- [足し算](numbers/addition.md)
+- [引き算](numbers/subtraction.md)
+- [掛け算](numbers/multiplication.md)
+- [割り算](numbers/division.md)
+- [倍数と約数](numbers/multiples-divisors.md)
 
 ### 分数
-[分数](numbers/fractions.md)
+- [分数](numbers/fractions.md)
 ```
 
 ---
