@@ -3,61 +3,50 @@
 ## 概要
 
 ## 構成
+
+記事は学習順序を表す5段階（初級編・中級編・応用編・発展編・探求編）で構成されています。各段階が最上位のディレクトリになり、その下に科目・トピックが続きます。
+
 ```
 math/
-├── foundations/          # 基礎（集合・論理・証明）
-│   ├── sets/
-│   ├── logic/            # 条件→論理に拡張
-│   └── proofs/           # 証明法（帰納法、背理法など）
+├── beginner/             # 初級編（小学校相当）
+│   └── numbers/
+│       ├── natural-numbers.md
+│       ├── fractions.md
+│       └── decimals.md
 │
-├── numbers/              # 数の体系（現状とほぼ同じ）
-│   ├── natural-numbers/
-│   ├── integers/         # negative-numbers → integers に改名
-│   ├── fractions/
-│   ├── decimals/
-│   ├── real-numbers/     # 実数論（小数のprofessionalの内容を独立）
-│   └── complex-numbers/
+├── intermediate/         # 中級編（中学校相当）
+│   ├── numbers/
+│   │   ├── integers.md
+│   │   └── arithmetic.md
+│   ├── algebra/
+│   │   ├── expressions.md
+│   │   ├── equations.md
+│   │   └── inequalities.md
+│   └── geometry/
+│       ├── quadrilaterals.md
+│       └── polygons.md
 │
-├── algebra/              # 代数（math-language から独立）
-│   ├── expressions/      # 文字式・展開・因数分解
-│   ├── equations/        # 等式・方程式
-│   ├── inequalities/     # 不等式
-│   ├── polynomials/      # 多項式（functions から移動）
-│   └── abstract/         # 群・環・体（大学）
+├── advanced/             # 応用編（高校相当）
+│   ├── numbers/          # complex-numbers.md
+│   ├── algebra/          # polynomials.md
+│   ├── foundations/      # sets.md, logic.md, proofs.md
+│   ├── specific-functions/ # linear/quadratic/exponential/logarithmic/trigonometric.md
+│   ├── geometry/         # point/line/triangles/circles.md
+│   ├── analysis/         # functions/sequences/limits/derivatives/integrals.md
+│   └── probability/      # counting.md, probability.md
 │
-├── analysis/             # 解析（functions を再編）
-│   ├── functions/        # 関数の一般論
-│   ├── sequences/        # 数列
-│   ├── limits/           # 極限
-│   ├── derivatives/      # 微分
-│   ├── integrals/        # 積分
-│   └── complex-analysis/ # 複素解析（大学）
+├── bachelor/             # 発展編（大学相当）
+│   ├── numbers/          # real-numbers.md
+│   ├── algebra/          # abstract.md
+│   ├── geometry/         # topology.md
+│   ├── analysis/         # epsilon-delta/differentiability/riemann-integral/complex-analysis.md
+│   ├── linear-algebra/   # vectors/matrices/linear-maps/eigenvalues.md
+│   └── probability/      # distributions.md, statistics.md
 │
-├── linear-algebra/       # 線形代数（現状を拡張）
-│   ├── vectors/
-│   ├── matrices/
-│   ├── linear-maps/      # 線形写像（大学）
-│   └── eigenvalues/      # 固有値（大学）
-│
-├── geometry/             # 幾何（現状を拡張）
-│   ├── euclidean/        # ユークリッド幾何（点・直線・図形をまとめる）
-│   ├── coordinate/       # 座標幾何
-│   ├── trigonometry/     # 三角法（functions から移動）
-│   └── topology/         # 位相（大学）
-│
-├── probability/          # 確率・統計（現状を拡張）
-│   ├── counting/
-│   ├── probability/
-│   ├── distributions/    # 確率分布（大学）
-│   └── statistics/       # 統計（大学）
-│
-├── specific-functions/   # 具体的な関数
-│   ├── linear/
-│   ├── quadratic/
-│   ├── exponential/
-│   ├── logarithmic/
-│   └── trigonometric/
+└── master/               # 探求編（研究レベル相当、現時点では記事なし）
 ```
+
+トピック本体は`<段階>/<科目>/<トピック>.md`というフラットファイルで、図版などの副次資材は記事と同名のディレクトリ（例：`<トピック>/images/`）に配置します。詳細は[CONTRIBUTING.md](/CONTRIBUTING.md)を参照してください。
 
 ## ライセンス
 
