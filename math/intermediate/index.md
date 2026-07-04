@@ -116,3 +116,22 @@ hierarchy:
 - [相似](geometry/similarity.md)
 - [円周角の定理](geometry/circle-angles.md)
 - [三平方の定理](geometry/pythagorean-theorem.md)
+
+## 確率
+
+### データの分布
+ヒストグラムによる分布の可視化と、相対度数・四分位範囲・箱ひげ図を扱います。
+
+- [ヒストグラムと相対度数](probability/data-distribution.md)
+- [四分位範囲と箱ひげ図](probability/box-plot.md)
+
+### 確率の求め方
+多数回の試行による確率と、場合の数を基にした確率の2つの求め方を扱います。
+
+- [多数回の試行による確率](probability/empirical-probability.md)
+- [場合の数を基にした確率](probability/basic-probability.md)
+
+### 標本調査
+母集団の一部から全体の傾向を推定する方法を扱います。
+
+- [標本調査](probability/sampling.md)
