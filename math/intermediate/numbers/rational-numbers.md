@@ -13,8 +13,8 @@ hierarchy:
   - title: 有理数
     path: /math/intermediate/numbers/rational-numbers.md
 requires:
-  - title: 有理数と無理数
-    path: rational-irrational.md
+  - title: 小数
+    path: /math/beginner/numbers/decimals.md
 ---
 
 ## 有理数の定義
@@ -51,5 +51,4 @@ $$x = \frac{27}{99} = \frac{3}{11}$$
 
 ## 関連ページ
 
-- [有理数と無理数（中級編）](rational-irrational.md)
 - [無理数（中級編）](irrational-numbers.md)

@@ -30,7 +30,6 @@ hierarchy:
 ### 有理数と無理数
 循環小数を分数に変換する方法と、平方根を例にした無理数の存在を扱います。
 
-- [有理数と無理数とは](numbers/rational-irrational.md)
 - [有理数](numbers/rational-numbers.md)
 - [無理数](numbers/irrational-numbers.md)
 

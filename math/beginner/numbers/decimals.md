@@ -67,7 +67,7 @@ $$\frac{1}{2} = 1 \div 2 = 0.5$$
 
 ## 割り切れない小数
 
-$\frac{1}{3} = 0.333\ldots$ のように、割り算が終わらず同じ数字が繰り返し続く小数もあります（**循環小数**）。また、円周率 $\pi = 3.14159\ldots$ のように、繰り返しのパターンもなく永遠に続く小数もあります。これらの詳しい性質は、有理数と無理数（中級編）で扱います。
+$\frac{1}{3} = 0.333\ldots$ のように、割り算が終わらず同じ数字が繰り返し続く小数もあります（**循環小数**）。また、円周率 $\pi = 3.14159\ldots$ のように、繰り返しのパターンもなく永遠に続く小数もあります。これらの詳しい性質は、[有理数](/math/intermediate/numbers/rational-numbers.md)や[無理数](/math/intermediate/numbers/irrational-numbers.md)（中級編）で扱います。
 
 ---
 
@@ -84,4 +84,5 @@ $\frac{1}{3} = 0.333\ldots$ のように、割り算が終わらず同じ数字�
 - [引き算（初級編）](decimals-subtraction.md)
 - [掛け算（初級編）](decimals-multiplication.md)
 - [割り算（初級編）](decimals-division.md)
-- [有理数と無理数（中級編）](/math/intermediate/numbers/rational-irrational.md)
+- [有理数（中級編）](/math/intermediate/numbers/rational-numbers.md)
+- [無理数（中級編）](/math/intermediate/numbers/irrational-numbers.md)
