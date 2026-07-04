@@ -49,7 +49,37 @@ hierarchy:
 
 [一次関数](specific-functions/linear.md)
 
+### 二次関数
+グラフが放物線になる関数。頂点・判別式・二次不等式を扱います。
+
+[二次関数](specific-functions/quadratic.md)
+
+### 指数関数
+倍々で増える変化を表す関数。ネイピア数 $e$ の意味を扱います。
+
+[指数関数](specific-functions/exponential.md)
+
+### 対数関数
+「何乗すれば？」という問いに答える関数。指数関数の逆です。
+
+[対数関数](specific-functions/logarithmic.md)
+
+### 三角関数
+単位円から生まれる周期関数。波・振動・回転のモデルです。
+
+[三角関数](specific-functions/trigonometric.md)
+
 ## 幾何
+
+### 点
+位置だけを持つ最も基本的な要素。座標・距離・中点を扱います。
+
+[点](geometry/point.md)
+
+### 直線
+2点を結んで伸ばした線。方程式・平行・垂直・距離を扱います。
+
+[直線](geometry/line.md)
 
 ## 解析
 
