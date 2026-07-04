@@ -24,14 +24,22 @@ hierarchy:
 [倍数と約数](numbers/multiples-divisors.md)
 
 ### 分数
-割り算がぴったりいかないときに生まれる数。分数の意味・大小・通分による足し算引き算を扱います。
+割り算がぴったりいかないときに生まれる数と、その四則演算を扱います。
 
-[分数](numbers/fractions.md)
+[分数とは](numbers/fractions.md)
+[足し算](numbers/fractions-addition.md)
+[引き算](numbers/fractions-subtraction.md)
+[掛け算](numbers/fractions-multiplication.md)
+[割り算](numbers/fractions-division.md)
 
 ### 小数
-分数を10進法で表す記法。位取りの仕組みと四則計算を扱います。
+分数を10進法で表す記法と、その四則演算を扱います。
 
-[小数](numbers/decimals.md)
+[小数とは](numbers/decimals.md)
+[足し算](numbers/decimals-addition.md)
+[引き算](numbers/decimals-subtraction.md)
+[掛け算](numbers/decimals-multiplication.md)
+[割り算](numbers/decimals-division.md)
 
 ### 測定
 長さ・広さ・かさ・重さ・時間を単位を使って測定する方法を扱います。
