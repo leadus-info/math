@@ -59,5 +59,6 @@ requires:
 - [広さ・かさ（初級編）](measurement-area.md)
 - [重さ（初級編）](measurement-weight.md)
 - [時間（初級編）](measurement-time.md)
+- [体積（初級編）](measurement-volume.md)
 - [図形（初級編）](/math/beginner/geometry/shapes.md)
-- [割合と比例（初級編）](ratio.md)
+- [割合（初級編）](ratio.md)

@@ -1,0 +1,60 @@
+---
+title: 体積
+description: "立体の大きさを数で表す"
+goal: "体積の単位を理解し、直方体・立方体・角柱・円柱の体積を公式で求められるようになる"
+tags: [math, numbers, measurement, volume]
+stage: 初級編
+subject: 数
+hierarchy:
+  - title: 数学
+    path: /math/index.md
+  - title: 初級編
+    path: /math/beginner/index.md
+  - title: 体積
+    path: /math/beginner/numbers/measurement-volume.md
+requires:
+  - title: 広さ・かさ
+    path: measurement-area.md
+  - title: 立体図形
+    path: /math/beginner/geometry/shapes-solids.md
+---
+
+## 立体の大きさを数で表す
+
+入れ物の大きさや、ものが占める空間の大きさを**体積**といいます。体積は、1辺が1cmの立方体がいくつ分あるかで数値に表せます。この1辺1cmの立方体の体積を**1立方センチメートル**（$1\text{cm}^3$）といいます。大きな体積には、1辺1mの立方体の体積である**立方メートル**（$\text{m}^3$）も使います。
+
+---
+
+## 直方体・立方体の体積
+
+直方体の体積は、たて・よこ・高さの3つの長さの積で求められます。
+
+$$\text{直方体の体積} = \text{たて} \times \text{よこ} \times \text{高さ}$$
+
+これは、底面（たて×よこの長方形）に敷き詰められる1cm³の個数に、高さの分だけ段数をかけている、と考えられます。立方体は、たて・よこ・高さがすべて等しい直方体なので、1辺の長さを3回掛け合わせれば体積が求まります。
+
+**例題**：たて3cm、よこ4cm、高さ5cmの直方体の体積を求める。$3\times4\times5=60\text{cm}^3$。
+
+---
+
+## 角柱・円柱の体積
+
+角柱・円柱（初級編）の体積も、直方体と同じ考え方——「底面の広さ×高さ」——で求められます。
+
+$$\text{角柱・円柱の体積} = \text{底面積} \times \text{高さ}$$
+
+直方体は、底面が長方形の角柱だと考えれば、同じ公式の特別な場合になっています。
+
+**例題**：底面積が20cm²、高さが6cmの三角柱の体積を求める。$20\times6=120\text{cm}^3$。
+
+---
+
+## まとめ
+
+体積は立体の大きさを表す量で、$\text{cm}^3$や$\text{m}^3$という単位を使います。直方体の体積は「たて×よこ×高さ」、角柱・円柱の体積は「底面積×高さ」で求められ、どちらも同じ考え方でつながっています。
+
+---
+
+## 関連ページ
+
+- [空間図形の計量（中級編）](/math/intermediate/geometry/solids-measurement.md)
