@@ -1,7 +1,7 @@
 # 数学 科目別補足
 
 この補足は、数学分野の記事を執筆する際の追加ルールです。\
-共通ルールは [CONTRIBUTING.md](../CONTRIBUTING.md) を参照してください。
+共通ルールは [CONTRIBUTING.md](CONTRIBUTING.md) を参照してください。
 
 ---
 

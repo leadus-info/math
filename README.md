@@ -9,44 +9,38 @@
 ```
 math/
 ├── beginner/             # 初級編（小学校相当）
-│   └── numbers/
-│       ├── natural-numbers.md
-│       ├── fractions.md
-│       └── decimals.md
+│   ├── numbers/          # natural-numbers/fractions/decimals/measurement/ratio.md ...
+│   ├── geometry/         # shapes/shapes-triangle/shapes-quadrilateral/shapes-circle.md ...
+│   └── probability/      # data.md
 │
 ├── intermediate/         # 中級編（中学校相当）
-│   ├── numbers/
-│   │   ├── integers.md
-│   │   └── arithmetic.md
-│   ├── algebra/
-│   │   ├── expressions.md
-│   │   ├── equations.md
-│   │   └── inequalities.md
-│   └── geometry/
-│       ├── quadrilaterals.md
-│       └── polygons.md
+│   ├── numbers/          # integers/arithmetic/rational-numbers/irrational-numbers.md ...
+│   ├── algebra/          # expressions/equations/inequalities.md ...
+│   ├── functions/        # functions/linear/quadratic.md
+│   ├── geometry/         # polygons/angles/congruence/quadrilaterals/similarity.md ...
+│   └── probability/      # data-distribution/box-plot/sampling.md ...
 │
 ├── advanced/             # 応用編（高校相当）
-│   ├── numbers/          # complex-numbers.md
-│   ├── algebra/          # polynomials.md
-│   ├── foundations/      # sets.md, logic.md, proofs.md
-│   ├── specific-functions/ # linear/quadratic/exponential/logarithmic/trigonometric.md
-│   ├── geometry/         # point/line/triangles/circles.md
-│   ├── analysis/         # functions/sequences/limits/derivatives/integrals.md
-│   └── probability/      # counting.md, probability.md
+│   ├── numbers/          # complex-numbers/euclidean-algorithm/number-systems.md
+│   ├── algebra/          # polynomials/polynomial-division/cubic-expansion/inequality-proofs.md
+│   ├── foundations/      # sets/logic/proofs.md ...
+│   ├── specific-functions/ # quadratic/exponential/logarithmic/trigonometric.md ...
+│   ├── geometry/         # point/line/trigonometry/triangles/circles/vectors.md ...
+│   ├── analysis/         # functions/sequences/limits/derivatives/integrals.md ...
+│   └── probability/      # counting/probability/data-analysis.md ...
 │
 ├── bachelor/             # 発展編（大学相当）
 │   ├── numbers/          # real-numbers.md
-│   ├── algebra/          # abstract.md
+│   ├── algebra/          # abstract.md ...
 │   ├── geometry/         # topology.md
 │   ├── analysis/         # epsilon-delta/differentiability/riemann-integral/complex-analysis.md
-│   ├── linear-algebra/   # vectors/matrices/linear-maps/eigenvalues.md
-│   └── probability/      # distributions.md, statistics.md
+│   ├── linear-algebra/   # vectors/matrices/linear-maps/eigenvalues.md ...
+│   └── probability/      # distributions.md, statistics.md ...
 │
 └── master/               # 探求編（研究レベル相当、現時点では記事なし）
 ```
 
-トピック本体は`<段階>/<科目>/<トピック>.md`というフラットファイルで、図版などの副次資材は記事と同名のディレクトリ（例：`<トピック>/images/`）に配置します。詳細は[CONTRIBUTING.md](/CONTRIBUTING.md)を参照してください。
+トピック本体は`<段階>/<科目>/<トピック>.md`というフラットファイルで、図版などの副次資材は記事と同名のディレクトリ（例：`<トピック>/images/`）に配置します。詳細は[CONTRIBUTING.md](CONTRIBUTING.md)を参照してください。
 
 ## ライセンス
 
@@ -61,4 +55,4 @@ math/
 
 
 ## コントリビュータへ
-[こちら](/CONTRIBUTING.md)をお読みください。
+[こちら](CONTRIBUTING.md)をお読みください。
