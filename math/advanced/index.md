@@ -24,6 +24,13 @@ hierarchy:
 べき乗の和で表される関数。根・因数定理・代数学の基本定理を扱います。
 
 - [多項式](algebra/polynomials.md)
+- [整式の除法と剰余の定理](algebra/polynomial-division.md)
+
+### 三次の乗法公式・等式不等式の証明
+2次の乗法公式を3次に拡張し、恒等式・相加相乗平均を用いた証明を扱います。
+
+- [三次の乗法公式](algebra/cubic-expansion.md)
+- [等式・不等式の証明](algebra/inequality-proofs.md)
 
 ## 基礎
 
@@ -90,6 +97,11 @@ hierarchy:
 中心から等距離にある点の集合。方程式・接線・弧長を扱います。
 
 - [円](geometry/circles.md)
+
+### 軌跡と領域
+条件を満たす点の集まりを方程式で表し、不等式が表す領域を図示します。
+
+- [軌跡と領域](geometry/locus-and-regions.md)
 
 ## 解析
 

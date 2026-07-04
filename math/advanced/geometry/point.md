@@ -55,6 +55,12 @@ $$P = \left(\frac{nx_1+mx_2}{m+n}, \frac{ny_1+my_2}{m+n}\right)$$
 
 中点は $m=n=1$ の特別な場合です。
 
+線分 $AB$ を $m:n$ に**外分**する点は、$A$、$B$ の外側（延長線上）にあり、内分点の公式で $n$ を $-n$ に置き換えると求まります。
+
+$$Q = \left(\frac{-nx_1+mx_2}{m-n}, \frac{-ny_1+my_2}{m-n}\right) \quad (m \neq n)$$
+
+**例**：$A(0,0)$, $B(6,9)$ を $2:1$ に外分する点：$\left(\frac{-1\cdot0+2\cdot6}{1}, \frac{-1\cdot0+2\cdot9}{1}\right) = (12, 18)$
+
 ---
 
 ## 三角形の重心
