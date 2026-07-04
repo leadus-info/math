@@ -44,7 +44,11 @@ hierarchy:
 ### 測定
 長さ・広さ・かさ・重さ・時間を単位を使って測定する方法を扱います。
 
-- [測定](numbers/measurement.md)
+- [測定とは](numbers/measurement.md)
+- [長さ](numbers/measurement-length.md)
+- [広さ・かさ](numbers/measurement-area.md)
+- [重さ](numbers/measurement-weight.md)
+- [時間](numbers/measurement-time.md)
 
 ### 割合と比例
 2つの数量の関係を比べる考え方。割合・百分率・比・比例を扱います。
@@ -56,7 +60,14 @@ hierarchy:
 ### 図形
 身の回りの形の特徴。三角形・四角形・円・立体の性質と、合同・対称・縮図拡大図を扱います。
 
-- [図形](geometry/shapes.md)
+- [図形とは](geometry/shapes.md)
+- [直線](geometry/shapes-line.md)
+- [三角形](geometry/shapes-triangle.md)
+- [四角形](geometry/shapes-quadrilateral.md)
+- [円](geometry/shapes-circle.md)
+- [合同](geometry/shapes-congruence.md)
+- [対称](geometry/shapes-symmetry.md)
+- [相似](geometry/shapes-similarity.md)
 
 ## 確率
 
