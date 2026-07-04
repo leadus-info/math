@@ -20,7 +20,7 @@ levels:
 
 requires:
   - title: 負数（入門）
-    path: /math/numbers/negative-numbers/introduction.md
+    path: /math/numbers/integers/introduction.md
 ---
 
 ## 2乗の壁
@@ -91,5 +91,5 @@ $$3 + i + 6i - 2 = 1 + 7i$$
 
 ## 関連ページ
 
-- [負数（入門）](../negative-numbers/introduction.md)
-- [複素関数（入門）](../../functions/complex-functions/introduction.md)
+- [負数（入門）](../integers/introduction.md)
+- [複素関数（入門）](../../analysis/complex-analysis/introduction.md)

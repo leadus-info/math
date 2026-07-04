@@ -21,7 +21,7 @@ requires:
   - title: ベクトル（入門）
     path: /math/linear-algebra/vectors/introduction.md
   - title: 点（標準）
-    path: /math/geometry/point/standard.md
+    path: /math/geometry/coordinate/point/standard.md
   - title: 乗法・べき乗（標準）
     path: /math/numbers/arithmetic/standard.md
 ---
@@ -85,4 +85,4 @@ $\mathbb{R}^n$ では、線形独立なベクトルは最大 $n$ 個です。
 ## 関連ページ
 
 - [行列（標準）](../matrices/standard.md)
-- [点（標準）](../../geometry/point/standard.md)
+- [点（標準）](../../geometry/coordinate/point/standard.md)

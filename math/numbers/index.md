@@ -20,7 +20,7 @@ hierarchy:
 ## 負数
 引き算がいつでもできるように数の世界を広げます。整数の演算と符号規則を扱います。
 
-[入門](negative-numbers/introduction.md) / [標準](negative-numbers/standard.md) / [専門](negative-numbers/professional.md)
+[入門](integers/introduction.md) / [標準](integers/standard.md) / [専門](integers/professional.md)
 
 
 ## 分数
@@ -40,6 +40,11 @@ hierarchy:
 
 [入門](arithmetic/introduction.md) / [標準](arithmetic/standard.md) / [専門](arithmetic/professional.md)
 
+
+## 実数
+有理数と無理数を合わせた数直線上のすべての数。完備性と上限の存在を扱います。
+
+[入門](real-numbers/introduction.md) / [標準](real-numbers/standard.md) / [専門](real-numbers/professional.md)
 
 ## 複素数
 2乗して負になる数は実数にはありません。この壁を超えて生まれる数の体系を扱います。

@@ -3,48 +3,61 @@
 ## 概要
 
 ## 構成
-- 基礎(basics)
-  - 数(numbers)
-    - 自然数
-    - 負数
-    - 分数
-    - 小数
-  - 演算(operations)
-    - 四則演算(arithmetic)
-    - 極限(limits)
-    - 微分(derivatives)
-    - 積分(integrals)
-  - 基礎言語(math-language)
-    - 等号・等式(equations)
-    - 不等号・不等式(inequalities)
-    - 必要・十分条件(conditions)
-    - 代数(algebra)
-    - 集合(sets)
-- 関数(functions)
-  - 一次関数
-  - 二次関数
-  - 指数関数
-  - 対数関数
-  - 三角関数
-  - 多項式
-  - 数列
-- 幾何(geometry)
-  - 点
-  - 直線
-  - 三角形
-  - 四角形
-  - 多角形
-  - 円
-- 統計(statistics)
-  - 場合の数
-  - 確率
-- 線形代数(linear-algebra)
-  - ベクトル
-  - 行列
-- 複素数(complex-numbers)
-  - 複素数
-  - 複素関数
-
+```
+math/
+├── foundations/          # 基礎（集合・論理・証明）
+│   ├── sets/
+│   ├── logic/            # 条件→論理に拡張
+│   └── proofs/           # 証明法（帰納法、背理法など）
+│
+├── numbers/              # 数の体系（現状とほぼ同じ）
+│   ├── natural-numbers/
+│   ├── integers/         # negative-numbers → integers に改名
+│   ├── fractions/
+│   ├── decimals/
+│   ├── real-numbers/     # 実数論（小数のprofessionalの内容を独立）
+│   └── complex-numbers/
+│
+├── algebra/              # 代数（math-language から独立）
+│   ├── expressions/      # 文字式・展開・因数分解
+│   ├── equations/        # 等式・方程式
+│   ├── inequalities/     # 不等式
+│   ├── polynomials/      # 多項式（functions から移動）
+│   └── abstract/         # 群・環・体（大学）
+│
+├── analysis/             # 解析（functions を再編）
+│   ├── functions/        # 関数の一般論
+│   ├── sequences/        # 数列
+│   ├── limits/           # 極限
+│   ├── derivatives/      # 微分
+│   ├── integrals/        # 積分
+│   └── complex-analysis/ # 複素解析（大学）
+│
+├── linear-algebra/       # 線形代数（現状を拡張）
+│   ├── vectors/
+│   ├── matrices/
+│   ├── linear-maps/      # 線形写像（大学）
+│   └── eigenvalues/      # 固有値（大学）
+│
+├── geometry/             # 幾何（現状を拡張）
+│   ├── euclidean/        # ユークリッド幾何（点・直線・図形をまとめる）
+│   ├── coordinate/       # 座標幾何
+│   ├── trigonometry/     # 三角法（functions から移動）
+│   └── topology/         # 位相（大学）
+│
+├── probability/          # 確率・統計（現状を拡張）
+│   ├── counting/
+│   ├── probability/
+│   ├── distributions/    # 確率分布（大学）
+│   └── statistics/       # 統計（大学）
+│
+├── specific-functions/   # 具体的な関数
+│   ├── linear/
+│   ├── quadratic/
+│   ├── exponential/
+│   ├── logarithmic/
+│   └── trigonometric/
+```
 
 ## ライセンス
 

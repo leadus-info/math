@@ -22,7 +22,7 @@ requires:
   - title: ベクトル（入門）
     path: /math/linear-algebra/vectors/introduction.md
   - title: 等号・等式（入門）
-    path: /math/math-language/equations/introduction.md
+    path: /math/algebra/equations/introduction.md
 ---
 
 ## 数を格子状に並べる
@@ -70,4 +70,4 @@ $$\begin{pmatrix} 2 & 1 \\ 1 & -1 \end{pmatrix} \begin{pmatrix} x \\ y \end{pmat
 ## 関連ページ
 
 - [ベクトル（入門）](../vectors/introduction.md)
-- [等号・等式（入門）](../../math-language/equations/introduction.md)
+- [等号・等式（入門）](../../algebra/equations/introduction.md)
