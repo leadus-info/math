@@ -82,4 +82,4 @@ $$G = \left(\frac{x_1+x_2+x_3}{3}, \frac{y_1+y_2+y_3}{3}\right)$$
 ## 関連ページ
 
 - [直線（応用編）](line.md)
-- [ベクトル（発展編）](/math/bachelor/linear-algebra/vectors.md)
+- [ベクトル（応用編）](vectors.md)

@@ -13,8 +13,8 @@ hierarchy:
   - title: ベクトル
     path: /math/bachelor/linear-algebra/vectors.md
 requires:
-  - title: 点
-    path: /math/advanced/geometry/point.md
+  - title: 空間座標とベクトル
+    path: /math/advanced/geometry/space-vectors.md
 ---
 
 ## 大きさだけでは足りない

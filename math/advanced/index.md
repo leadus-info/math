@@ -116,6 +116,17 @@ hierarchy:
 
 - [軌跡と領域](geometry/locus-and-regions.md)
 
+### 二次曲線
+放物線・楕円・双曲線と、媒介変数表示・極座標を扱います。
+
+- [二次曲線](geometry/conic-sections.md)
+
+### ベクトル
+向きと大きさを持つ量。平面・空間のベクトルと内積、図形への応用を扱います。
+
+- [ベクトル](geometry/vectors.md)
+- [空間座標とベクトル](geometry/space-vectors.md)
+
 ## 解析
 
 ### 関数とは
