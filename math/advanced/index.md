@@ -18,6 +18,12 @@ hierarchy:
 
 - [複素数](numbers/complex-numbers.md)
 
+### 整数の性質・n進法
+ユークリッドの互除法・1次不定方程式と、10以外を底とする位取り記数法を扱います。
+
+- [ユークリッドの互除法](numbers/euclidean-algorithm.md)
+- [n進法](numbers/number-systems.md)
+
 ## 代数
 
 ### 多項式
@@ -97,11 +103,13 @@ hierarchy:
 
 - [三角比](geometry/trigonometry.md)
 - [三角形](geometry/triangles.md)
+- [三角形の性質の応用](geometry/triangle-theorems.md)
 
 ### 円
 中心から等距離にある点の集合。方程式・接線・弧長を扱います。
 
 - [円](geometry/circles.md)
+- [円の性質の応用](geometry/circle-theorems.md)
 
 ### 軌跡と領域
 条件を満たす点の集まりを方程式で表し、不等式が表す領域を図示します。
