@@ -23,7 +23,10 @@ hierarchy:
 ### 抽象代数
 群・環・体・ガロア理論——演算の構造を公理から分析します。
 
-- [抽象代数](algebra/abstract.md)
+- [抽象代数とは](algebra/abstract.md)
+- [群](algebra/abstract-groups.md)
+- [環と体](algebra/abstract-rings-fields.md)
+- [準同型・同型](algebra/abstract-homomorphisms.md)
 
 ## 幾何
 
@@ -64,7 +67,10 @@ hierarchy:
 ### 行列
 数を格子状に並べた構造。積・逆行列・行列式を扱います。
 
-- [行列](linear-algebra/matrices.md)
+- [行列とは](linear-algebra/matrices.md)
+- [行列の積](linear-algebra/matrices-product.md)
+- [行列式](linear-algebra/matrices-determinant.md)
+- [逆行列](linear-algebra/matrices-inverse.md)
 
 ### 線形写像
 線形写像の定義・核・像・次元定理。行列と写像の対応を扱います。
@@ -81,7 +87,11 @@ hierarchy:
 ### 確率分布
 確率変数の分布——正規分布・二項分布・ポアソン分布などを扱います。
 
-- [確率分布](probability/distributions.md)
+- [確率分布とは](probability/distributions.md)
+- [二項分布](probability/distributions-binomial.md)
+- [ポアソン分布](probability/distributions-poisson.md)
+- [正規分布](probability/distributions-normal.md)
+- [指数分布](probability/distributions-exponential.md)
 
 ### 統計
 データから母集団の性質を推測する。推定・検定・回帰分析を扱います。
