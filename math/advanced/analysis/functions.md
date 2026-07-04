@@ -13,8 +13,8 @@ hierarchy:
   - title: 関数とは
     path: /math/advanced/analysis/functions.md
 requires:
-  - title: 等号・等式
-    path: /math/intermediate/algebra/equations.md
+  - title: 関数とは
+    path: /math/intermediate/functions/functions.md
   - title: 集合
     path: /math/advanced/foundations/sets.md
 ---

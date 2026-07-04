@@ -86,4 +86,4 @@ $$\text{割合} = \text{比べる大きさ} \div \text{もとにする大きさ}
 ## 関連ページ
 
 - [測定（初級編）](measurement.md)
-- [一次関数（応用編）](/math/advanced/specific-functions/linear.md)
+- [関数とは（中級編）](/math/intermediate/functions/functions.md)

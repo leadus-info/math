@@ -12,6 +12,9 @@ hierarchy:
     path: /math/intermediate/index.md
   - title: 四角形
     path: /math/intermediate/geometry/quadrilaterals.md
+requires:
+  - title: 合同と証明
+    path: congruence.md
 ---
 
 ## 4辺で囲まれた図形
@@ -54,6 +57,21 @@ $$180° + 180° = 360°$$
 
 ---
 
+## 平行四辺形になるための条件
+
+四角形が平行四辺形であることは、定義（2組の対辺がそれぞれ平行）を直接確かめなくても、次のいずれかを示せば合同と証明（中級編）の考え方から証明できます。
+
+- 2組の対辺がそれぞれ等しい
+- 2組の対角がそれぞれ等しい
+- 対角線がそれぞれの中点で交わる
+- 1組の対辺が平行でかつ等しい
+
+**例題**：四角形 $ABCD$ の対角線 $AC$、$BD$ が点 $O$ で交わり、$AO=CO$、$BO=DO$ であるとき、$ABCD$ が平行四辺形であることを証明する。
+
+三角形 $AOB$ と三角形 $COD$ に注目すると、$AO=CO$、$BO=DO$（仮定）、$\angle AOB = \angle COD$（対頂角）より、2組の辺とその間の角がそれぞれ等しく、三角形 $AOB \equiv$ 三角形 $COD$ です。よって $\angle OAB = \angle OCD$ となり、これは辺 $AC$ に対する錯角にあたるので、$AB \parallel DC$ がいえます。同様に $AD \parallel BC$ もいえるので、$ABCD$ は平行四辺形です。
+
+---
+
 ## 面積の求め方
 
 **平行四辺形**：長方形から三角形を移動することで、底辺 × 高さとなります。
@@ -75,4 +93,5 @@ $$180° + 180° = 360°$$
 ## 関連ページ
 
 - [多角形（中級編）](polygons.md)
+- [合同と証明（中級編）](congruence.md)
 - [三角形（応用編）](/math/advanced/geometry/triangles.md)

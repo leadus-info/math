@@ -13,6 +13,8 @@ hierarchy:
   - title: 三角関数
     path: /math/advanced/specific-functions/trigonometric.md
 requires:
+  - title: 三角比
+    path: /math/advanced/geometry/trigonometry.md
   - title: 円
     path: /math/advanced/geometry/circles.md
 ---

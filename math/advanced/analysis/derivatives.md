@@ -15,7 +15,7 @@ hierarchy:
 requires:
   - title: 極限
     path: /math/advanced/analysis/limits.md
-  - title: 乗法・べき乗
+  - title: 累乗
     path: /math/intermediate/numbers/arithmetic.md
 ---
 
@@ -99,5 +99,6 @@ $f'(a) > 0$ なら $x = a$ 付近で増加、$f'(a) < 0$ なら減少、$f'(a) =
 ## 関連ページ
 
 - [極限（応用編）](limits.md)
+- [微分の応用（応用編）](derivatives-applications.md)
 - [積分（応用編）](integrals.md)
 - [微分の厳密な定義（発展編）](/math/bachelor/analysis/differentiability.md)

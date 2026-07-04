@@ -1,0 +1,85 @@
+---
+title: 三角比
+description: "直角三角形の辺の比から角度と長さを結びつける"
+goal: "鋭角の三角比を定義し、鈍角まで拡張して、相互関係を使えるようになる"
+tags: [math, geometry, trigonometry]
+stage: 応用編
+subject: 幾何
+hierarchy:
+  - title: 数学
+    path: /math/index.md
+  - title: 応用編
+    path: /math/advanced/index.md
+  - title: 三角比
+    path: /math/advanced/geometry/trigonometry.md
+requires:
+  - title: 三平方の定理
+    path: /math/intermediate/geometry/pythagorean-theorem.md
+---
+
+## 直角三角形の辺の比
+
+階段の傾き、坂道の急さ——これらは「角度」と「辺の比」の関係で決まります。直角三角形の1つの鋭角 $A$ に注目すると、$A$ の大きさが決まれば、3辺の長さの比もただ1通りに決まります。三角形の大きさが違っても、角 $A$ が同じなら比は変わりません（相似だからです）。
+
+直角三角形 $ABC$（$\angle C = 90°$）で、角 $A$ に対する3辺の比を、それぞれ次のように定義します。
+
+$$\sin A = \frac{BC}{AB}\ \text{（対辺／斜辺）}, \quad \cos A = \frac{AC}{AB}\ \text{（隣辺／斜辺）}, \quad \tan A = \frac{BC}{AC}\ \text{（対辺／隣辺）}$$
+
+これらをまとめて**三角比**（正弦・余弦・正接）といいます。
+
+---
+
+## 三角比の相互関係
+
+3つの三角比は独立ではなく、互いに関係し合っています。
+
+$$\sin A = \cos(90° - A), \qquad \tan A = \frac{\sin A}{\cos A}$$
+
+$$\sin^2 A + \cos^2 A = 1$$
+
+この関係は、三平方の定理（中級編）を斜辺の長さ1の直角三角形にあてはめたものです。ここから、次の関係も導けます。
+
+$$1 + \tan^2 A = \frac{1}{\cos^2 A}$$
+
+**例**：$\sin A = \dfrac{3}{5}$ のとき、$\cos^2 A = 1 - \dfrac{9}{25} = \dfrac{16}{25}$ より $\cos A = \dfrac{4}{5}$（$A$ が鋭角なら正）、$\tan A = \dfrac{3/5}{4/5} = \dfrac{3}{4}$。
+
+---
+
+## 鈍角への拡張
+
+鋭角しか扱えない直角三角形の定義を、鈍角（さらに $180°$ まで）に広げましょう。
+
+原点を中心とする半径1の半円を考え、$x$ 軸の正の向きから反時計回りに角 $\theta$（$0° \leq \theta \leq 180°$）だけ進んだ円周上の点を $P$ とします。この点 $P$ の座標を $(\cos\theta, \sin\theta)$ と**定義し直す**ことで、鈍角でも三角比が意味を持つようになります。$\tan\theta$ は $\dfrac{\sin\theta}{\cos\theta}$ のまま定義します（$\theta=90°$ では定義されません）。
+
+この定義は鋭角のときの直角三角形による定義と矛盾せず、自然な拡張になっています。相互関係もそのまま成り立ちます。
+
+$$\sin\theta = \sin(180°-\theta), \qquad \cos\theta = -\cos(180°-\theta)$$
+
+| 角度 | $0°$ | $30°$ | $45°$ | $60°$ | $90°$ | $120°$ | $135°$ | $150°$ | $180°$ |
+|------|------|-------|-------|-------|-------|--------|--------|--------|--------|
+| $\sin$ | $0$ | $\frac{1}{2}$ | $\frac{\sqrt2}{2}$ | $\frac{\sqrt3}{2}$ | $1$ | $\frac{\sqrt3}{2}$ | $\frac{\sqrt2}{2}$ | $\frac{1}{2}$ | $0$ |
+| $\cos$ | $1$ | $\frac{\sqrt3}{2}$ | $\frac{\sqrt2}{2}$ | $\frac{1}{2}$ | $0$ | $-\frac{1}{2}$ | $-\frac{\sqrt2}{2}$ | $-\frac{\sqrt3}{2}$ | $-1$ |
+
+---
+
+## 三角形の面積
+
+2辺 $a, b$ とその間の角 $C$ がわかれば、三角形の面積を三角比だけで求められます。
+
+$$S = \frac{1}{2}ab\sin C$$
+
+底辺 $a$ に対する高さが $b\sin C$ になることから導けます。
+
+---
+
+## まとめ
+
+三角比は直角三角形の辺の比として定義され、$\sin^2\theta+\cos^2\theta=1$ という相互関係で結びついています。半径1の半円を使うことで、鋭角だけでなく鈍角まで自然に定義を拡張できます。三角比を使うと、2辺と間の角から三角形の面積を求めることもできます。
+
+---
+
+## 関連ページ
+
+- [三平方の定理（中級編）](/math/intermediate/geometry/pythagorean-theorem.md)
+- [三角形（応用編）](triangles.md)
+- [三角関数（応用編）](/math/advanced/specific-functions/trigonometric.md)

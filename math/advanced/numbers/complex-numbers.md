@@ -83,6 +83,50 @@ $$r_1(\cos\theta_1 + i\sin\theta_1) \times r_2(\cos\theta_2 + i\sin\theta_2) = r
 
 ---
 
+## 複素数と二次方程式
+
+二次方程式 $ax^2+bx+c=0$ の解の公式（中級編）に複素数を認めると、判別式 $D=b^2-4ac$ が負の場合も「解なし」ではなく、複素数の解を持つと考えられます。
+
+$$x = \frac{-b \pm \sqrt{D}}{2a}$$
+
+$D<0$ のときは $\sqrt{D} = \sqrt{-1}\sqrt{-D} = i\sqrt{-D}$ と考えて計算します。
+
+**例**：$x^2+x+1=0$ を解く。$D = 1-4=-3$。$x = \dfrac{-1\pm\sqrt{-3}}{2} = \dfrac{-1\pm\sqrt3 i}{2}$。
+
+複素数まで解を認めると、二次方程式は（重解を2つと数えれば）常にちょうど2つの解を持ちます。
+
+**解と係数の関係**：二次方程式 $ax^2+bx+c=0$ の2つの解を $\alpha, \beta$ とすると、
+
+$$\alpha+\beta = -\frac{b}{a}, \qquad \alpha\beta = \frac{c}{a}$$
+
+これは $ax^2+bx+c = a(x-\alpha)(x-\beta)$ を展開して係数を比べることで導けます。解を実際に求めなくても、和や積が必要な計算ならこの関係だけで済みます。
+
+---
+
+## ド・モアブルの定理
+
+極形式で表した複素数の掛け算は「絶対値を掛け合わせ、偏角を足し合わせる」ことでした。これを同じ複素数どうしの掛け算（累乗）に使うと、次の関係が得られます。
+
+**ド・モアブルの定理**：整数 $n$ について、
+
+$$(\cos\theta+i\sin\theta)^n = \cos n\theta + i\sin n\theta$$
+
+**例**：$\left(\cos\dfrac{\pi}{6}+i\sin\dfrac{\pi}{6}\right)^{12} = \cos2\pi+i\sin2\pi = 1$。
+
+---
+
+## 累乗根
+
+$z^n=1$ を満たす複素数 $z$ を、**1の$n$乗根**といいます。$z=\cos\theta+i\sin\theta$ とおいてド・モアブルの定理を使うと、$\cos n\theta+i\sin n\theta=1$ より $n\theta = 2k\pi$（$k$ は整数）、$\theta=\dfrac{2k\pi}{n}$。
+
+$$z_k = \cos\frac{2k\pi}{n}+i\sin\frac{2k\pi}{n} \quad (k=0,1,\ldots,n-1)$$
+
+これらは複素平面上で、単位円周上に等間隔に並ぶ $n$ 個の点——点 $1$ を1つの頂点とする正 $n$ 角形の頂点になります。
+
+**例**：$z^3=1$ の解は $z=1,\ \cos120°+i\sin120°,\ \cos240°+i\sin240°$ の3つで、複素平面上で正三角形をなします。
+
+---
+
 ## まとめ
 
 2乗して負になる数は実数の中にはありません。この壁を超えるために、$i^2=-1$ を満たす虚数単位 $i$ を導入し、複素数 $a+bi$ を作りました。複素数は複素平面上の点として幾何的に扱うことができ、掛け算は極形式で「回転と拡大」として理解できます。
@@ -92,4 +136,5 @@ $$r_1(\cos\theta_1 + i\sin\theta_1) \times r_2(\cos\theta_2 + i\sin\theta_2) = r
 ## 関連ページ
 
 - [負数（中級編）](/math/intermediate/numbers/integers.md)
+- [二次方程式（中級編）](/math/intermediate/algebra/equations-quadratic.md)
 - [複素解析（発展編）](/math/bachelor/analysis/complex-analysis.md)

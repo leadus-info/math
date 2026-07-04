@@ -76,5 +76,5 @@ $$\text{平均} = \frac{\text{データの合計}}{\text{データの個数}}$$
 ## 関連ページ
 
 - [自然数（初級編）](/math/beginner/numbers/natural-numbers.md)
-- [場合の数（応用編）](/math/advanced/probability/counting.md)
-- [統計（発展編）](/math/bachelor/probability/statistics.md)
+- [ヒストグラムと相対度数（中級編）](/math/intermediate/probability/data-distribution.md)
+- [場合の数を基にした確率（中級編）](/math/intermediate/probability/basic-probability.md)

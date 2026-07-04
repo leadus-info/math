@@ -81,6 +81,16 @@ $$\lim_{x \to 0} \frac{\sin x}{x} = 1 \quad \text{（ラジアン単位）}$$
 
 ---
 
+## はさみうちの原理
+
+極限が直接計算しづらいとき、その数列（関数）を上下から挟む2つの数列（関数）の極限が一致すれば、間の極限も同じ値に定まります。
+
+**はさみうちの原理**：$a_n \leq b_n \leq c_n$ が成り立ち、$\displaystyle\lim_{n\to\infty} a_n = \lim_{n\to\infty} c_n = L$ ならば、$\displaystyle\lim_{n\to\infty} b_n = L$。
+
+**例**：$\displaystyle\lim_{n\to\infty} \frac{\sin n}{n}$ を求める。$-1 \leq \sin n \leq 1$ より $-\dfrac1n \leq \dfrac{\sin n}{n} \leq \dfrac1n$。両端が0に収束するので、はさみうちの原理より極限も0。
+
+---
+
 ## まとめ
 
 極限とは「ある値に限りなく近づいていく先」のことです。数列でも関数でも定義でき、和・積・商について計算規則が成り立ちます。連続性は「極限と実際の値が一致する」性質として定義され、微分・積分の土台になります。

@@ -15,6 +15,8 @@ hierarchy:
 requires:
   - title: 確率分布
     path: /math/bachelor/probability/distributions.md
+  - title: 統計的な推測
+    path: /math/advanced/probability/statistical-inference.md
 ---
 
 ## データから「全体」を知りたい

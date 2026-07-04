@@ -1,0 +1,67 @@
+---
+title: 空間座標とベクトル
+description: "平面のベクトルを3次元に拡張する"
+goal: "空間座標の意味を理解し、空間ベクトルの成分・内積を平面からの拡張として使えるようになる"
+tags: [math, geometry, vectors]
+stage: 応用編
+subject: 幾何
+hierarchy:
+  - title: 数学
+    path: /math/index.md
+  - title: 応用編
+    path: /math/advanced/index.md
+  - title: 空間座標とベクトル
+    path: /math/advanced/geometry/space-vectors.md
+requires:
+  - title: ベクトル
+    path: vectors.md
+---
+
+## 空間座標
+
+平面上の点の位置を2本の数直線（$x$軸、$y$軸）で表したように、空間内の点の位置は、原点で互いに垂直な3本の数直線（$x$軸、$y$軸、$z$軸）を使って、3つの数の組 $(x,y,z)$ で表せます。
+
+---
+
+## 空間ベクトルの成分と演算
+
+空間ベクトルも、平面のベクトル（応用編）と同じように成分で表せます。
+
+$$\vec{a} = (a_1, a_2, a_3)$$
+
+和・差・実数倍は、成分ごとに計算する点も平面のときと同じです。
+
+$$\vec{a}+\vec{b} = (a_1+b_1,\ a_2+b_2,\ a_3+b_3)$$
+
+大きさは、三平方の定理を2回使う形で求まります。
+
+$$|\vec{a}| = \sqrt{a_1^2+a_2^2+a_3^2}$$
+
+---
+
+## 空間ベクトルの内積
+
+内積も平面と同じ考え方で定義されます。
+
+$$\vec{a}\cdot\vec{b} = |\vec{a}||\vec{b}|\cos\theta = a_1b_1+a_2b_2+a_3b_3$$
+
+$\vec{a}\cdot\vec{b}=0$ が垂直を意味することも変わりません。
+
+**例題**：正四面体 $OABC$（すべての辺の長さが等しい四面体）で、辺 $OA$ と辺 $BC$ が垂直であることを示す。$\overrightarrow{OA}=\vec{a}$、$\overrightarrow{OB}=\vec{b}$、$\overrightarrow{OC}=\vec{c}$（$|\vec{a}|=|\vec{b}|=|\vec{c}|=1$、どの2つも内積は $\dfrac12$）とすると、
+
+$$\overrightarrow{OA}\cdot\overrightarrow{BC} = \vec{a}\cdot(\vec{c}-\vec{b}) = \vec{a}\cdot\vec{c}-\vec{a}\cdot\vec{b} = \frac12-\frac12=0$$
+
+よって $OA \perp BC$ が示せます。座標を使わずに、正四面体の対称性から直接この結論を導けるのがベクトルの強みです。
+
+---
+
+## まとめ
+
+空間座標は、平面の座標を3本目の軸に拡張したものです。空間ベクトルの成分表示・演算・内積は、いずれも平面のベクトルの自然な拡張として理解でき、空間図形の垂直性などの性質を座標に頼らず証明する道具になります。
+
+---
+
+## 関連ページ
+
+- [ベクトル（応用編）](vectors.md)
+- [空間図形（中級編）](/math/intermediate/geometry/solids.md)

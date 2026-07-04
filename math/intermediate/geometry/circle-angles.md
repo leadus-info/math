@@ -1,0 +1,68 @@
+---
+title: 円周角の定理
+description: "同じ弧に対する円周角はいつも等しい"
+goal: "円周角の定理とその逆を理解し、円に関する角度の問題に活用できるようになる"
+tags: [math, geometry, circle]
+stage: 中級編
+subject: 幾何
+hierarchy:
+  - title: 数学
+    path: /math/index.md
+  - title: 中級編
+    path: /math/intermediate/index.md
+  - title: 円周角の定理
+    path: /math/intermediate/geometry/circle-angles.md
+requires:
+  - title: 相似
+    path: similarity.md
+  - title: 円
+    path: /math/beginner/geometry/shapes-circle.md
+---
+
+## 中心角と円周角
+
+円周上の2点 $A$、$B$ と、円の中心 $O$ を結んでできる角 $\angle AOB$ を、弧 $AB$ に対する**中心角**といいます。一方、円周上の $A$、$B$ 以外の点 $P$ から $A$、$B$ を見込む角 $\angle APB$ を、弧 $AB$ に対する**円周角**といいます。
+
+---
+
+## 円周角の定理
+
+**円周角の定理**：1つの弧に対する円周角の大きさは、その弧に対する中心角の大きさの半分で一定です。
+
+$$\angle APB = \frac{1}{2} \angle AOB$$
+
+同じ弧に対する円周角は、点 $P$ をどこにとっても等しくなります。
+
+この定理は、二等辺三角形の底角の性質（$OA=OB=OP$ はすべて半径なので、三角形 $OAP$、$OBP$ はそれぞれ二等辺三角形になる）と、三角形の外角の性質（外角は隣り合わない2つの内角の和に等しい）を根拠に証明できます。
+
+---
+
+## 円周角の定理の逆
+
+**円周角の定理の逆**：2点 $P$、$Q$ が直線 $AB$ について同じ側にあり、$\angle APB = \angle AQB$ ならば、4点 $A$、$B$、$P$、$Q$ は1つの円周上にあります。
+
+この逆を使うと、4点が同一円周上にあるかどうかを、角度を調べるだけで判定できます。
+
+---
+
+## 半円の弧に対する円周角
+
+直径 $AB$ に対する中心角は $180°$（一直線）なので、円周角の定理より、直径に対する円周角はいつも次のようになります。
+
+$$\angle APB = \frac{1}{2} \times 180° = 90°$$
+
+半円の弧に対する円周角は、いつも直角です。
+
+---
+
+## まとめ
+
+同じ弧に対する円周角は、中心角の半分でいつも一定です。この定理の逆を使うと、角度から4点が同一円周上にあるかどうかを判定できます。特に、直径に対する円周角はいつも直角になります。
+
+---
+
+## 関連ページ
+
+- [相似（中級編）](similarity.md)
+- [円（初級編）](/math/beginner/geometry/shapes-circle.md)
+- [三平方の定理（中級編）](pythagorean-theorem.md)
