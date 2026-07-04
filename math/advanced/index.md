@@ -80,9 +80,10 @@ hierarchy:
 
 - [直線](geometry/line.md)
 
-### 三角形
-3辺で囲まれた基本図形。面積・正弦定理・余弦定理・五心を扱います。
+### 三角比・三角形
+直角三角形の辺の比から始まる三角比と、正弦定理・余弦定理・五心を扱います。
 
+- [三角比](geometry/trigonometry.md)
 - [三角形](geometry/triangles.md)
 
 ### 円
@@ -132,3 +133,8 @@ hierarchy:
 
 - [確率とは](probability/probability.md)
 - [条件付き確率とベイズの定理](probability/probability-conditional.md)
+
+### データの分析
+分散・標準偏差・相関係数でデータの特徴を数値化し、仮説検定の考え方を扱います。
+
+- [データの分析](probability/data-analysis.md)
