@@ -75,6 +75,11 @@ hierarchy:
 
 - [三角関数](specific-functions/trigonometric.md)
 
+### 分数関数・無理関数
+反比例・平方根のグラフを平行移動した関数。漸近線と定義域を扱います。
+
+- [分数関数・無理関数](specific-functions/rational-irrational-functions.md)
+
 ## 幾何
 
 ### 点
@@ -124,6 +129,7 @@ hierarchy:
 瞬間の変化率を求める操作。
 
 - [微分](analysis/derivatives.md)
+- [微分の応用](analysis/derivatives-applications.md)
 
 ### 積分
 面積・累積を求める操作。微分の逆操作です。
