@@ -96,3 +96,10 @@ hierarchy:
 
 - [空間図形](geometry/solids.md)
 - [空間図形の計量](geometry/solids-measurement.md)
+
+### 相似・円・三平方の定理
+相似な図形の性質と、円周角の定理・三平方の定理という2つの重要な定理を扱います。
+
+- [相似](geometry/similarity.md)
+- [円周角の定理](geometry/circle-angles.md)
+- [三平方の定理](geometry/pythagorean-theorem.md)

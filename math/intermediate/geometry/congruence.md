@@ -71,3 +71,4 @@ requires:
 
 - [平行線と角（中級編）](angles.md)
 - [四角形（中級編）](quadrilaterals.md)
+- [相似（中級編）](similarity.md)
