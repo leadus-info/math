@@ -13,8 +13,8 @@ hierarchy:
   - title: 乗法・べき乗
     path: /math/intermediate/numbers/arithmetic.md
 requires:
-  - title: 自然数
-    path: /math/beginner/numbers/natural-numbers.md
+  - title: 掛け算
+    path: /math/beginner/numbers/multiplication.md
 ---
 
 ## 同じ数を何度も掛ける

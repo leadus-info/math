@@ -13,13 +13,13 @@ hierarchy:
   - title: 負数
     path: /math/intermediate/numbers/integers.md
 requires:
-  - title: 自然数
-    path: /math/beginner/numbers/natural-numbers.md
+  - title: 引き算
+    path: /math/beginner/numbers/subtraction.md
 ---
 
 ## 引き算の壁をもう一度見てみる
 
-自然数（初級編）で、こんな問題に出会いました。
+引き算（初級編）で、こんな問題に出会いました。
 
 $$\boxed{?} + 5 = 3$$
 

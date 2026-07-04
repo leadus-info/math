@@ -13,13 +13,13 @@ hierarchy:
   - title: 分数
     path: /math/beginner/numbers/fractions.md
 requires:
-  - title: 自然数
-    path: /math/beginner/numbers/natural-numbers.md
+  - title: 割り算
+    path: division.md
 ---
 
 ## 割り算の壁をもう一度見てみる
 
-自然数（初級編）で、こんな場面がありました。7個のクッキーを3人に配ると、1人2個ずつで1個余ります。
+割り算（初級編）で、こんな場面がありました。7個のクッキーを3人に配ると、1人2個ずつで1個余ります。
 
 $$\boxed{?} \times 3 = 7$$
 

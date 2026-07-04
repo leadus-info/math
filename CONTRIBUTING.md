@@ -203,6 +203,33 @@ requires:
 
 ---
 
+## 段階indexページの構成ルール
+
+各段階の`index.md`（例：`math/beginner/index.md`）は、科目（H2）の下に、内容のまとまりを表すH3見出しを置き、その下に関連する記事へのリンクを列挙する形式で構成します。
+
+- H3見出しは、1つのまとまりに複数の記事が対応してもよい（`1 H3 = 1記事`ではない）。
+- 1つの記事しか含まないまとまりも、同じ形式でH3見出しを立てる。
+- 見出しの粒度は、学習指導要領などが示す「内容のまとまり」を参考にする。
+
+```markdown
+## 数
+
+### 自然数
+ものを数える最も基本的な数と、四則演算の基礎を扱います。
+
+[自然数とは](numbers/natural-numbers.md)
+[足し算](numbers/addition.md)
+[引き算](numbers/subtraction.md)
+[掛け算](numbers/multiplication.md)
+[割り算](numbers/division.md)
+[倍数と約数](numbers/multiples-divisors.md)
+
+### 分数
+[分数](numbers/fractions.md)
+```
+
+---
+
 ## 科目別補足
 
 本ガイドはすべての科目に共通するルールです。科目固有の記述ルール（記法、出典の扱い、表記の慣習など）がある場合は、各科目ディレクトリの `GUIDE.md` に記載します。

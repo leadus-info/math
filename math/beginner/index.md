@@ -14,17 +14,22 @@ hierarchy:
 ## 数
 
 ### 自然数
-ものを数える最も基本的な数。足し算・掛け算と、その限界（引けない・割り切れない）、倍数・約数を扱います。
+ものを数える最も基本的な数と、四則演算・倍数約数を扱います。
 
-[自然数](numbers/natural-numbers.md)
+[自然数とは](numbers/natural-numbers.md)
+[足し算](numbers/addition.md)
+[引き算](numbers/subtraction.md)
+[掛け算](numbers/multiplication.md)
+[割り算](numbers/division.md)
+[倍数と約数](numbers/multiples-divisors.md)
 
 ### 分数
-割り算がぴったりいかないときに生まれる数。分数の意味と分母が同じ分数の足し算を扱います。
+割り算がぴったりいかないときに生まれる数。分数の意味・大小・通分による足し算引き算を扱います。
 
 [分数](numbers/fractions.md)
 
 ### 小数
-分数を10進法で表す記法。有限小数と、割り切れずに続く小数を扱います。
+分数を10進法で表す記法。位取りの仕組みと四則計算を扱います。
 
 [小数](numbers/decimals.md)
 
