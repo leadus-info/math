@@ -40,7 +40,11 @@ hierarchy:
 ### 証明法
 数学的命題を正しく示す方法。直接証明・対偶証明・背理法・数学的帰納法を扱います。
 
-- [証明法](foundations/proofs.md)
+- [証明法とは](foundations/proofs.md)
+- [直接証明](foundations/proofs-direct.md)
+- [対偶証明](foundations/proofs-contrapositive.md)
+- [背理法](foundations/proofs-contradiction.md)
+- [数学的帰納法](foundations/proofs-induction.md)
 
 ## 具体的な関数
 
@@ -123,9 +127,13 @@ hierarchy:
 ### 場合の数
 順列・組み合わせ——「何通りあるか」を数えます。
 
-- [場合の数](probability/counting.md)
+- [場合の数とは](probability/counting.md)
+- [順列](probability/counting-permutations.md)
+- [組み合わせ](probability/counting-combinations.md)
+- [二項定理](probability/counting-binomial-theorem.md)
 
 ### 確率
 起こりやすさを0から1の数値で表す理論。条件付き確率・ベイズの定理を扱います。
 
-- [確率](probability/probability.md)
+- [確率とは](probability/probability.md)
+- [条件付き確率とベイズの定理](probability/probability-conditional.md)

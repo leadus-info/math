@@ -78,5 +78,5 @@ $$(2m)^2 = 2q^2 \implies 4m^2 = 2q^2 \implies q^2 = 2m^2$$
 ## 関連ページ
 
 - [小数（初級編）](/math/beginner/numbers/decimals.md)
-- [証明法（応用編）](/math/advanced/foundations/proofs.md)
+- [背理法（応用編）](/math/advanced/foundations/proofs-contradiction.md)
 - [実数（発展編）](/math/bachelor/numbers/real-numbers.md)

@@ -1,0 +1,50 @@
+---
+title: 数学的帰納法
+description: "基底と帰納段階で、すべての自然数について示す"
+goal: "数学的帰納法の仕組みを理解し、自然数に関する命題を証明できるようになる"
+tags: [math, foundations, proofs]
+stage: 応用編
+subject: 基礎
+hierarchy:
+  - title: 数学
+    path: /math/index.md
+  - title: 応用編
+    path: /math/advanced/index.md
+  - title: 数学的帰納法
+    path: /math/advanced/foundations/proofs-induction.md
+requires:
+  - title: 証明法
+    path: proofs.md
+---
+
+## ドミノ倒しの仕組み
+
+「すべての自然数 $n$ で成り立つ」ことを示す方法です。
+
+1. **基底**：$n = 1$ で成り立つことを示す
+2. **帰納段階**：$n = k$ で成り立つと仮定して $n = k+1$ でも成り立つことを示す
+
+ドミノ倒しのイメージ——1枚目が倒れ（基底）、どの牌も次を倒す（帰納段階）なら、すべてが倒れます。
+
+**例題**：$1 + 2 + \cdots + n = \dfrac{n(n+1)}{2}$ を示す。
+
+基底：$n=1$ のとき左辺 $=1$、右辺 $=1$。✓
+
+帰納段階：$n=k$ で成立を仮定すると、$n=k+1$ のとき
+
+$$1 + \cdots + k + (k+1) = \frac{k(k+1)}{2} + (k+1) = \frac{(k+1)(k+2)}{2}$$
+
+$\square$
+
+---
+
+## まとめ
+
+数学的帰納法は、$n=1$ で成り立つこと（基底）と、$n=k$ での成立が $n=k+1$ での成立を導くこと（帰納段階）の2つを示すことで、すべての自然数について命題が成り立つことを証明する方法です。
+
+---
+
+## 関連ページ
+
+- [証明法（応用編）](proofs.md)
+- [背理法（応用編）](proofs-contradiction.md)
