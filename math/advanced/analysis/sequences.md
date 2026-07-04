@@ -7,14 +7,14 @@ stage: 応用編
 subject: 解析
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 数列
-    path: /math/advanced/analysis/sequences.md
+    path: sequences.md
 requires:
   - title: 自然数
-    path: /math/beginner/numbers/natural-numbers.md
+    path: ../../beginner/numbers/natural-numbers.md
 ---
 
 ## 規則正しく並んだ数
@@ -120,4 +120,4 @@ $|r| \geq 1$ のときは発散します。
 ## 関連ページ
 
 - [極限（応用編）](limits.md)
-- [数学的帰納法（応用編）](/math/advanced/foundations/proofs-induction.md)
+- [数学的帰納法（応用編）](../foundations/proofs-induction.md)

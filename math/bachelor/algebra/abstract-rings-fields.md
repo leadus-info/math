@@ -7,11 +7,11 @@ stage: 発展編
 subject: 代数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 発展編
-    path: /math/bachelor/index.md
+    path: ../index.md
   - title: 環と体
-    path: /math/bachelor/algebra/abstract-rings-fields.md
+    path: abstract-rings-fields.md
 requires:
   - title: 群
     path: abstract-groups.md
@@ -21,7 +21,7 @@ requires:
 
 群に2つ目の演算（掛け算）を加えた構造が**環**、さらに $0$ 以外の全要素に乗法逆元がある可換環が**体**です。
 
-**環** $(R, +, \cdot)$：$(R, +)$ が可換群、$\cdot$ について結合律・分配律が成立。
+**環** $(R, +, \cdot)$：$(R, +)$ が可換群、$\cdot$ について結合律・分配律が成立し、乗法の単位元 $1$（$1 \cdot a = a \cdot 1 = a$）を持つ（この単位元の存在を仮定しない流儀もありますが、ここでは単位的環として扱います）。
 
 **整域**：零因子を持たない可換単位環（$ab=0 \Rightarrow a=0$ または $b=0$）。
 
@@ -39,5 +39,4 @@ $$\text{体} \subset \text{整域} \subset \text{可換環} \subset \text{環}$$
 
 ## 関連ページ
 
-- [群（発展編）](abstract-groups.md)
 - [準同型・同型（発展編）](abstract-homomorphisms.md)

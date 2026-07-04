@@ -7,14 +7,14 @@ stage: 中級編
 subject: 確率
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 中級編
-    path: /math/intermediate/index.md
+    path: ../index.md
   - title: ヒストグラムと相対度数
-    path: /math/intermediate/probability/data-distribution.md
+    path: data-distribution.md
 requires:
   - title: データの活用
-    path: /math/beginner/probability/data.md
+    path: ../../beginner/probability/data.md
 ---
 
 ## ヒストグラム
@@ -59,6 +59,5 @@ $$\text{範囲} = \text{最大値} - \text{最小値}$$
 
 ## 関連ページ
 
-- [データの活用（初級編）](/math/beginner/probability/data.md)
 - [四分位範囲と箱ひげ図（中級編）](box-plot.md)
 - [多数回の試行による確率（中級編）](empirical-probability.md)

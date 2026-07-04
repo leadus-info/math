@@ -7,11 +7,11 @@ stage: 応用編
 subject: 具体的な関数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 分数関数・無理関数
-    path: /math/advanced/specific-functions/rational-irrational-functions.md
+    path: rational-irrational-functions.md
 requires:
   - title: 二次関数
     path: quadratic.md
@@ -35,7 +35,7 @@ $$y = \frac{k}{x-p} + q$$
 
 $$y = \sqrt{a(x-p)} + q$$
 
-根号の中は0以上でなければならないため、定義域は $a(x-p)\geq0$ を満たす範囲に限られます。$y=\sqrt{x}$ のグラフは、$y=x^2$（$x\geq0$）のグラフを $x$ 軸と $y$ 軸を入れ替えるように裏返した形（後述の逆関数の考え方に対応）になります。
+根号の中は0以上でなければならないため、定義域は $a(x-p)\geq0$ を満たす範囲に限られます。$y=\sqrt{x}$ のグラフは、$y=x^2$（$x\geq0$）のグラフを $x$ 軸と $y$ 軸を入れ替えるように裏返した形（[逆関数](../analysis/functions.md)の考え方に対応）になります。
 
 **例**：$y=\sqrt{x+1}$ のグラフは $y=\sqrt{x}$ を $x$ 軸方向に $-1$ だけ平行移動したもので、定義域は $x\geq-1$。
 
@@ -55,5 +55,4 @@ $$y = \sqrt{a(x-p)} + q$$
 
 ## 関連ページ
 
-- [二次関数（応用編）](quadratic.md)
-- [極限（応用編）](/math/advanced/analysis/limits.md)
+- [極限（応用編）](../analysis/limits.md)

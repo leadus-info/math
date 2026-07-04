@@ -7,16 +7,16 @@ stage: 中級編
 subject: 関数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 中級編
-    path: /math/intermediate/index.md
+    path: ../index.md
   - title: 一次関数
-    path: /math/intermediate/functions/linear.md
+    path: linear.md
 requires:
   - title: 関数とは
     path: functions.md
   - title: 連立方程式
-    path: /math/intermediate/algebra/equations-simultaneous.md
+    path: ../algebra/equations-simultaneous.md
 ---
 
 ## 比例——均等に変わる関係
@@ -86,7 +86,5 @@ $2x + 1 = -x + 4 \Rightarrow x = 1$、$y = 3$。交点は $(1, 3)$ です。
 
 ## 関連ページ
 
-- [関数とは（中級編）](functions.md)
-- [連立方程式（中級編）](/math/intermediate/algebra/equations-simultaneous.md)
-- [関数y=ax²（中級編）](quadratic.md)
-- [二次関数（応用編）](/math/advanced/specific-functions/quadratic.md)
+- [二次関数（中級編）](quadratic.md)
+- [二次関数（応用編）](../../advanced/specific-functions/quadratic.md)

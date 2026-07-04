@@ -7,16 +7,16 @@ stage: 発展編
 subject: 解析
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 発展編
-    path: /math/bachelor/index.md
+    path: ../index.md
   - title: 複素解析
-    path: /math/bachelor/analysis/complex-analysis.md
+    path: complex-analysis.md
 requires:
   - title: 複素数
-    path: /math/advanced/numbers/complex-numbers.md
+    path: ../../advanced/numbers/complex-numbers.md
   - title: 微分の厳密な定義
-    path: /math/bachelor/analysis/differentiability.md
+    path: differentiability.md
 ---
 
 ## 関数の「入力」を複素数にする
@@ -83,5 +83,4 @@ $z_k$ は $C$ の内側の特異点、$\mathrm{Res}$ は留数（特異点近傍
 
 ## 関連ページ
 
-- [複素数（応用編）](/math/advanced/numbers/complex-numbers.md)
-- [微分の厳密な定義（発展編）](differentiability.md)
+- [リーマン積分（発展編）](riemann-integral.md)

@@ -7,14 +7,14 @@ stage: 中級編
 subject: 幾何
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 中級編
-    path: /math/intermediate/index.md
+    path: ../index.md
   - title: 図形の移動
-    path: /math/intermediate/geometry/transformations.md
+    path: transformations.md
 requires:
   - title: 対称
-    path: /math/beginner/geometry/shapes-symmetry.md
+    path: ../../beginner/geometry/shapes-symmetry.md
 ---
 
 ## 図形を動かして考える
@@ -57,5 +57,4 @@ requires:
 
 ## 関連ページ
 
-- [対称（初級編）](/math/beginner/geometry/shapes-symmetry.md)
 - [基本の作図（中級編）](constructions.md)

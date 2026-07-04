@@ -7,11 +7,11 @@ stage: 中級編
 subject: 確率
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 中級編
-    path: /math/intermediate/index.md
+    path: ../index.md
   - title: 四分位範囲と箱ひげ図
-    path: /math/intermediate/probability/box-plot.md
+    path: box-plot.md
 requires:
   - title: ヒストグラムと相対度数
     path: data-distribution.md
@@ -55,5 +55,4 @@ $$\text{四分位範囲} = \text{第3四分位数} - \text{第1四分位数}$$
 
 ## 関連ページ
 
-- [ヒストグラムと相対度数（中級編）](data-distribution.md)
 - [標本調査（中級編）](sampling.md)

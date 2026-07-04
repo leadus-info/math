@@ -7,11 +7,11 @@ stage: 応用編
 subject: 確率
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 順列
-    path: /math/advanced/probability/counting-permutations.md
+    path: counting-permutations.md
 requires:
   - title: 場合の数
     path: counting.md
@@ -27,13 +27,34 @@ $$_nP_r = \frac{n!}{(n-r)!} = n(n-1)\cdots(n-r+1)$$
 
 ---
 
+## 円順列
+
+$n$ 個のものを円形に並べる場合の数を**円順列**といいます。回転して同じ並びになるものは1通りとみなすため、1つを固定して残りを並べる数を数えます。
+
+$$(n-1)!$$
+
+**例**：5人が円卓に座る座り方は $(5-1)! = 4! = 24$ 通り。
+
+---
+
+## 同じものを含む順列
+
+$n$ 個の中に同じものが $p$ 個、別の同じものが $q$ 個、……含まれるとき（$p+q+\cdots=n$）、それらを1列に並べる場合の数は次のようになります。
+
+$$\frac{n!}{p!\,q!\,\cdots}$$
+
+区別できないものどうしの入れ替え（$p!$ 通り、$q!$ 通り……）を、全体の並べ方 $n!$ から割ることで、重複した数え方を取り除いています。
+
+**例**：「a, a, a, b, b」の5文字を並べる場合の数は $\dfrac{5!}{3!\,2!} = 10$ 通り。
+
+---
+
 ## まとめ
 
-順列は、順番を区別して$n$個から$r$個を選ぶ場合の数で、$_nP_r = \dfrac{n!}{(n-r)!}$ で求められます。
+順列は、順番を区別して$n$個から$r$個を選ぶ場合の数で、$_nP_r = \dfrac{n!}{(n-r)!}$ で求められます。円形に並べる円順列は $(n-1)!$、同じものを含む順列は、重複する並べ方の分を割って求めます。
 
 ---
 
 ## 関連ページ
 
-- [場合の数（応用編）](counting.md)
 - [組み合わせ（応用編）](counting-combinations.md)

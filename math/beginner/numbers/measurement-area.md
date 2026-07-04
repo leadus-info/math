@@ -7,11 +7,11 @@ stage: 初級編
 subject: 数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 初級編
-    path: /math/beginner/index.md
+    path: ../index.md
   - title: 広さ・かさ
-    path: /math/beginner/numbers/measurement-area.md
+    path: measurement-area.md
 requires:
   - title: 長さ
     path: measurement-length.md
@@ -41,6 +41,5 @@ $$1\text{L} = 10\text{dL} = 1000\text{mL}$$
 
 ## 関連ページ
 
-- [長さ（初級編）](measurement-length.md)
 - [重さ（初級編）](measurement-weight.md)
-- [図形（初級編）](/math/beginner/geometry/shapes.md)
+- [図形（初級編）](../geometry/shapes.md)

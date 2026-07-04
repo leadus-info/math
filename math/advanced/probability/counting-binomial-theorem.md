@@ -7,11 +7,11 @@ stage: 応用編
 subject: 確率
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 二項定理
-    path: /math/advanced/probability/counting-binomial-theorem.md
+    path: counting-binomial-theorem.md
 requires:
   - title: 組み合わせ
     path: counting-combinations.md
@@ -25,13 +25,33 @@ $$(a + b)^n = \sum_{k=0}^n \binom{n}{k} a^{n-k} b^k$$
 
 ---
 
+## パスカルの三角形
+
+二項係数を $n$ の値ごとに三角形状に並べたものを**パスカルの三角形**といいます。各段の両端は $1$ で、内側の数はその左上と右上の数の和になっています。
+
+$$\binom{n}{k} = \binom{n-1}{k-1} + \binom{n-1}{k}$$
+
+これは「$n$個からk個選ぶとき、特定の1個を選ぶ場合（残り$n-1$個からk-1個選ぶ）と選ばない場合（残り$n-1$個からk個選ぶ）に分けて数える」ことに対応しています。
+
+---
+
+## 確率とのつながり
+
+二項定理で $a=p$、$b=1-p$ とおくと、
+
+$$1 = (p+(1-p))^n = \sum_{k=0}^n \binom{n}{k}p^k(1-p)^{n-k}$$
+
+右辺の各項 $\binom{n}{k}p^k(1-p)^{n-k}$ は、この後の確率（応用編）で学ぶ反復試行の確率と同じ形です。二項定理が成り立つことは、反復試行で起こりうるすべての回数 $k=0,1,\ldots,n$ についての確率を合計すると、ちょうど1になることを保証しています。
+
+---
+
 ## まとめ
 
-二項定理は、$(a+b)^n$ の展開の各項の係数が組み合わせ $\binom{n}{k}$ で表せることを示す定理です。
+二項定理は、$(a+b)^n$ の展開の各項の係数が組み合わせ $\binom{n}{k}$ で表せることを示す定理です。係数はパスカルの三角形の漸化式でも求められ、$a+b=1$ の形で考えると反復試行の確率がちょうど1になることの裏付けにもなります。
 
 ---
 
 ## 関連ページ
 
-- [組み合わせ（応用編）](counting-combinations.md)
-- [多項式（応用編）](/math/advanced/algebra/polynomials.md)
+- [多項式（応用編）](../algebra/polynomials.md)
+- [確率（応用編）](probability.md)

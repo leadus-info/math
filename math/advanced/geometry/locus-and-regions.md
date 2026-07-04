@@ -7,14 +7,16 @@ stage: 応用編
 subject: 幾何
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 軌跡と領域
-    path: /math/advanced/geometry/locus-and-regions.md
+    path: locus-and-regions.md
 requires:
   - title: 円
     path: circles.md
+  - title: 直線
+    path: line.md
 ---
 
 ## 軌跡とは
@@ -71,5 +73,4 @@ $$x^2+y^2 < r^2$$
 
 ## 関連ページ
 
-- [円（応用編）](circles.md)
-- [直線（応用編）](line.md)
+- [二次曲線（応用編）](conic-sections.md)

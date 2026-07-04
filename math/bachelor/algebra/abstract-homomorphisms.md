@@ -7,14 +7,16 @@ stage: 発展編
 subject: 代数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 発展編
-    path: /math/bachelor/index.md
+    path: ../index.md
   - title: 準同型・同型
-    path: /math/bachelor/algebra/abstract-homomorphisms.md
+    path: abstract-homomorphisms.md
 requires:
   - title: 環と体
     path: abstract-rings-fields.md
+  - title: 多項式
+    path: ../../advanced/algebra/polynomials.md
 ---
 
 ## 準同型・同型・巡回群
@@ -52,5 +54,4 @@ $$\{K/F \text{ の中間体}\} \xleftrightarrow{1:1} \{\mathrm{Gal}(K/F) \text{ 
 
 ## 関連ページ
 
-- [環と体（発展編）](abstract-rings-fields.md)
 - [抽象代数（発展編）](abstract.md)

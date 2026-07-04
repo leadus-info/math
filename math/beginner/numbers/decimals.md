@@ -7,14 +7,14 @@ stage: 初級編
 subject: 数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 初級編
-    path: /math/beginner/index.md
+    path: ../index.md
   - title: 小数
-    path: /math/beginner/numbers/decimals.md
+    path: decimals.md
 requires:
   - title: 分数
-    path: /math/beginner/numbers/fractions.md
+    path: fractions.md
 ---
 
 ## 整数と整数の隙間
@@ -67,7 +67,7 @@ $$\frac{1}{2} = 1 \div 2 = 0.5$$
 
 ## 割り切れない小数
 
-$\frac{1}{3} = 0.333\ldots$ のように、割り算が終わらず同じ数字が繰り返し続く小数もあります（**循環小数**）。また、円周率 $\pi = 3.14159\ldots$ のように、繰り返しのパターンもなく永遠に続く小数もあります。これらの詳しい性質は、[有理数](/math/intermediate/numbers/rational-numbers.md)や[無理数](/math/intermediate/numbers/irrational-numbers.md)（中級編）で扱います。
+$\frac{1}{3} = 0.333\ldots$ のように、割り算が終わらず同じ数字が繰り返し続く小数もあります（**循環小数**）。また、円周率 $\pi = 3.14159\ldots$ のように、繰り返しのパターンもなく永遠に続く小数もあります。これらの詳しい性質は、[有理数](../../intermediate/numbers/rational-numbers.md)や[無理数](../../intermediate/numbers/irrational-numbers.md)（中級編）で扱います。
 
 ---
 
@@ -79,10 +79,9 @@ $\frac{1}{3} = 0.333\ldots$ のように、割り算が終わらず同じ数字�
 
 ## 関連ページ
 
-- [分数（初級編）](fractions.md)
 - [足し算（初級編）](decimals-addition.md)
 - [引き算（初級編）](decimals-subtraction.md)
 - [掛け算（初級編）](decimals-multiplication.md)
 - [割り算（初級編）](decimals-division.md)
-- [有理数（中級編）](/math/intermediate/numbers/rational-numbers.md)
-- [無理数（中級編）](/math/intermediate/numbers/irrational-numbers.md)
+- [有理数（中級編）](../../intermediate/numbers/rational-numbers.md)
+- [無理数（中級編）](../../intermediate/numbers/irrational-numbers.md)

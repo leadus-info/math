@@ -7,11 +7,11 @@ stage: 応用編
 subject: 基礎
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 背理法
-    path: /math/advanced/foundations/proofs-contradiction.md
+    path: proofs-contradiction.md
 requires:
   - title: 証明法
     path: proofs.md
@@ -35,5 +35,4 @@ requires:
 
 ## 関連ページ
 
-- [証明法（応用編）](proofs.md)
 - [数学的帰納法（応用編）](proofs-induction.md)

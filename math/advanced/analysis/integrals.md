@@ -7,16 +7,16 @@ stage: 応用編
 subject: 解析
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 積分
-    path: /math/advanced/analysis/integrals.md
+    path: integrals.md
 requires:
   - title: 微分
-    path: /math/advanced/analysis/derivatives.md
+    path: derivatives.md
   - title: 極限
-    path: /math/advanced/analysis/limits.md
+    path: limits.md
 ---
 
 ## 曲線で囲まれた面積
@@ -115,5 +115,4 @@ $$L = \int_a^b \sqrt{\{f'(t)\}^2+\{g'(t)\}^2}\,dt$$
 
 ## 関連ページ
 
-- [微分（応用編）](derivatives.md)
-- [リーマン積分（発展編）](/math/bachelor/analysis/riemann-integral.md)
+- [リーマン積分（発展編）](../../bachelor/analysis/riemann-integral.md)

@@ -7,14 +7,14 @@ stage: 初級編
 subject: 数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 初級編
-    path: /math/beginner/index.md
+    path: ../index.md
   - title: 重さ
-    path: /math/beginner/numbers/measurement-weight.md
+    path: measurement-weight.md
 requires:
-  - title: 広さ・かさ
-    path: measurement-area.md
+  - title: 測定
+    path: measurement.md
 ---
 
 ## 重さの単位
@@ -37,5 +37,4 @@ $300\text{g}$ のものと $500\text{g}$ のものを合わせると、重さの
 
 ## 関連ページ
 
-- [広さ・かさ（初級編）](measurement-area.md)
 - [時間（初級編）](measurement-time.md)

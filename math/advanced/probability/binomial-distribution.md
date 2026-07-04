@@ -7,11 +7,11 @@ stage: 応用編
 subject: 確率
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 二項分布
-    path: /math/advanced/probability/binomial-distribution.md
+    path: binomial-distribution.md
 requires:
   - title: 確率変数と確率分布
     path: random-variables.md
@@ -51,5 +51,4 @@ $$E(X) = 720\times\frac16=120, \qquad \sigma(X)=\sqrt{720\times\frac16\times\fra
 
 ## 関連ページ
 
-- [確率変数と確率分布（応用編）](random-variables.md)
 - [正規分布（応用編）](normal-distribution.md)

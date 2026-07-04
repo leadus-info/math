@@ -7,16 +7,16 @@ stage: 発展編
 subject: 確率
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 発展編
-    path: /math/bachelor/index.md
+    path: ../index.md
   - title: 統計
-    path: /math/bachelor/probability/statistics.md
+    path: statistics.md
 requires:
   - title: 確率分布
-    path: /math/bachelor/probability/distributions.md
+    path: distributions.md
   - title: 統計的な推測
-    path: /math/advanced/probability/statistical-inference.md
+    path: ../../advanced/probability/statistical-inference.md
 ---
 
 ## データから「全体」を知りたい
@@ -83,4 +83,4 @@ $$\hat{\beta}_1 = \frac{\sum(x_i - \bar{x})(y_i - \bar{y})}{\sum(x_i - \bar{x})^
 
 ## 関連ページ
 
-- [確率分布（発展編）](distributions.md)
+- [正規分布（発展編）](distributions-normal.md)

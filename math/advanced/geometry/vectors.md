@@ -7,11 +7,11 @@ stage: 応用編
 subject: 幾何
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: ベクトル
-    path: /math/advanced/geometry/vectors.md
+    path: vectors.md
 requires:
   - title: 点
     path: point.md
@@ -75,5 +75,4 @@ $$\vec{a}\cdot\vec{a}=|\vec{a}|^2, \quad \vec{a}\cdot\vec{b}=\vec{b}\cdot\vec{a}
 
 ## 関連ページ
 
-- [点（応用編）](point.md)
 - [空間座標とベクトル（応用編）](space-vectors.md)

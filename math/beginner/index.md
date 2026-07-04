@@ -4,9 +4,9 @@ description: "数の仕組みそのものを扱う、最も基本的な内容"
 tags: [math, beginner]
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../index.md
   - title: 初級編
-    path: /math/beginner/index.md
+    path: index.md
 ---
 
 数の仕組みそのものを扱う、最も基本的な内容です。日常的な例から、数学的な考え方の出発点をつかみます。
@@ -42,18 +42,24 @@ hierarchy:
 - [割り算](numbers/decimals-division.md)
 
 ### 測定
-長さ・広さ・かさ・重さ・時間を単位を使って測定する方法を扱います。
+長さ・広さ・かさ・重さ・時間・体積を単位を使って測定する方法を扱います。
 
 - [測定とは](numbers/measurement.md)
 - [長さ](numbers/measurement-length.md)
 - [広さ・かさ](numbers/measurement-area.md)
 - [重さ](numbers/measurement-weight.md)
 - [時間](numbers/measurement-time.md)
+- [体積](numbers/measurement-volume.md)
 
 ### 割合と比例
-2つの数量の関係を比べる考え方。割合・百分率・比・比例を扱います。
+2つの数量の関係を比べる考え方。割合・百分率・単位量あたりの大きさ・比・比例・反比例を扱います。
 
-- [割合と比例](numbers/ratio.md)
+- [割合](numbers/ratio.md)
+- [百分率](numbers/ratio-percentage.md)
+- [単位量あたりの大きさ](numbers/ratio-unit-rate.md)
+- [比](numbers/ratio-notation.md)
+- [比例](numbers/ratio-direct-proportion.md)
+- [反比例](numbers/ratio-inverse-proportion.md)
 
 ## 幾何
 
@@ -65,6 +71,7 @@ hierarchy:
 - [三角形](geometry/shapes-triangle.md)
 - [四角形](geometry/shapes-quadrilateral.md)
 - [円](geometry/shapes-circle.md)
+- [立体図形](geometry/shapes-solids.md)
 - [合同](geometry/shapes-congruence.md)
 - [対称](geometry/shapes-symmetry.md)
 - [相似](geometry/shapes-similarity.md)

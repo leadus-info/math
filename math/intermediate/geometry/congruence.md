@@ -7,11 +7,11 @@ stage: 中級編
 subject: 幾何
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 中級編
-    path: /math/intermediate/index.md
+    path: ../index.md
   - title: 合同と証明
-    path: /math/intermediate/geometry/congruence.md
+    path: congruence.md
 requires:
   - title: 平行線と角
     path: angles.md
@@ -69,6 +69,5 @@ requires:
 
 ## 関連ページ
 
-- [平行線と角（中級編）](angles.md)
 - [四角形（中級編）](quadrilaterals.md)
 - [相似（中級編）](similarity.md)

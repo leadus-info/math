@@ -7,14 +7,14 @@ stage: 中級編
 subject: 数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 中級編
-    path: /math/intermediate/index.md
+    path: ../index.md
   - title: 素因数分解
-    path: /math/intermediate/numbers/prime-factorization.md
+    path: prime-factorization.md
 requires:
   - title: 倍数と約数
-    path: /math/beginner/numbers/multiples-divisors.md
+    path: ../../beginner/numbers/multiples-divisors.md
 ---
 
 ## 素数とは
@@ -55,4 +55,4 @@ $12$ を分解する順序を変えてみましょう。$12 = 3 \times 4 = 3 \ti
 
 ## 関連ページ
 
-- [倍数と約数（初級編）](/math/beginner/numbers/multiples-divisors.md)
+- [ユークリッドの互除法（応用編）](../../advanced/numbers/euclidean-algorithm.md)

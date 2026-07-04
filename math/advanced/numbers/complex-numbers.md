@@ -7,14 +7,16 @@ stage: 応用編
 subject: 数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 複素数
-    path: /math/advanced/numbers/complex-numbers.md
+    path: complex-numbers.md
 requires:
   - title: 負数
-    path: /math/intermediate/numbers/integers.md
+    path: ../../intermediate/numbers/integers.md
+  - title: 二次方程式
+    path: ../../intermediate/algebra/equations-quadratic.md
 ---
 
 ## 2乗の壁
@@ -135,6 +137,4 @@ $$z_k = \cos\frac{2k\pi}{n}+i\sin\frac{2k\pi}{n} \quad (k=0,1,\ldots,n-1)$$
 
 ## 関連ページ
 
-- [負数（中級編）](/math/intermediate/numbers/integers.md)
-- [二次方程式（中級編）](/math/intermediate/algebra/equations-quadratic.md)
-- [複素解析（発展編）](/math/bachelor/analysis/complex-analysis.md)
+- [複素解析（発展編）](../../bachelor/analysis/complex-analysis.md)

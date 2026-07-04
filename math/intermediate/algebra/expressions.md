@@ -7,14 +7,14 @@ stage: 中級編
 subject: 代数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 中級編
-    path: /math/intermediate/index.md
+    path: ../index.md
   - title: 代数
-    path: /math/intermediate/algebra/expressions.md
+    path: expressions.md
 requires:
   - title: 自然数
-    path: /math/beginner/numbers/natural-numbers.md
+    path: ../../beginner/numbers/natural-numbers.md
 ---
 
 ## 文字を使うと便利なわけ

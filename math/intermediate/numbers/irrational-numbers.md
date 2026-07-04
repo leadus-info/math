@@ -7,11 +7,11 @@ stage: 中級編
 subject: 数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 中級編
-    path: /math/intermediate/index.md
+    path: ../index.md
   - title: 無理数
-    path: /math/intermediate/numbers/irrational-numbers.md
+    path: irrational-numbers.md
 requires:
   - title: 有理数
     path: rational-numbers.md
@@ -45,6 +45,5 @@ $\sqrt{2}$ のように分数でどうしても表せない数（無理数）が
 
 ## 関連ページ
 
-- [有理数（中級編）](rational-numbers.md)
-- [背理法（応用編）](/math/advanced/foundations/proofs-contradiction.md)
-- [実数（発展編）](/math/bachelor/numbers/real-numbers.md)
+- [背理法（応用編）](../../advanced/foundations/proofs-contradiction.md)
+- [実数（発展編）](../../bachelor/numbers/real-numbers.md)

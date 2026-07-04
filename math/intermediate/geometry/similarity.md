@@ -7,16 +7,16 @@ stage: 中級編
 subject: 幾何
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 中級編
-    path: /math/intermediate/index.md
+    path: ../index.md
   - title: 相似
-    path: /math/intermediate/geometry/similarity.md
+    path: similarity.md
 requires:
   - title: 合同と証明
     path: congruence.md
   - title: 相似
-    path: /math/beginner/geometry/shapes-similarity.md
+    path: ../../beginner/geometry/shapes-similarity.md
 ---
 
 ## 相似の意味
@@ -73,6 +73,4 @@ $$\text{面積比} = m^2 : n^2, \qquad \text{体積比} = m^3 : n^3$$
 
 ## 関連ページ
 
-- [合同と証明（中級編）](congruence.md)
-- [相似（初級編）](/math/beginner/geometry/shapes-similarity.md)
 - [円周角の定理（中級編）](circle-angles.md)

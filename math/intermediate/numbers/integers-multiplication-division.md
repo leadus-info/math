@@ -7,11 +7,11 @@ stage: 中級編
 subject: 数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 中級編
-    path: /math/intermediate/index.md
+    path: ../index.md
   - title: 負の数の掛け算・割り算
-    path: /math/intermediate/numbers/integers-multiplication-division.md
+    path: integers-multiplication-division.md
 requires:
   - title: 負の数の足し算・引き算
     path: integers-addition-subtraction.md
@@ -44,5 +44,4 @@ $$(-3) \times 4 = (-3)+(-3)+(-3)+(-3) = -12$$
 
 ## 関連ページ
 
-- [足し算・引き算（中級編）](integers-addition-subtraction.md)
 - [絶対値（中級編）](integers-absolute-value.md)

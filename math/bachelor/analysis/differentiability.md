@@ -7,16 +7,18 @@ stage: 発展編
 subject: 解析
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 発展編
-    path: /math/bachelor/index.md
+    path: ../index.md
   - title: 微分の厳密な定義
-    path: /math/bachelor/analysis/differentiability.md
+    path: differentiability.md
 requires:
   - title: 微分
-    path: /math/advanced/analysis/derivatives.md
+    path: ../../advanced/analysis/derivatives.md
   - title: 極限の厳密な定義
-    path: /math/bachelor/analysis/epsilon-delta.md
+    path: epsilon-delta.md
+  - title: 行列の積
+    path: ../linear-algebra/matrices-product.md
 ---
 
 ## 微分可能性と連続性
@@ -79,6 +81,4 @@ $$\lim_{\|h\|\to 0} \frac{\|F(x_0+h) - F(x_0) - Ah\|}{\|h\|} = 0$$
 
 ## 関連ページ
 
-- [微分（応用編）](/math/advanced/analysis/derivatives.md)
-- [極限の厳密な定義（発展編）](epsilon-delta.md)
 - [リーマン積分（発展編）](riemann-integral.md)

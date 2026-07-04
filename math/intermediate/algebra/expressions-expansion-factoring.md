@@ -7,11 +7,11 @@ stage: 中級編
 subject: 代数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 中級編
-    path: /math/intermediate/index.md
+    path: ../index.md
   - title: 展開・因数分解
-    path: /math/intermediate/algebra/expressions-expansion-factoring.md
+    path: expressions-expansion-factoring.md
 requires:
   - title: 文字式の乗法・除法
     path: expressions-multiplication.md
@@ -97,6 +97,5 @@ $$13^2 - 12^2 = (13+12)(13-12) = 25 \times 1 = 25$$
 
 ## 関連ページ
 
-- [文字式の乗法・除法（中級編）](expressions-multiplication.md)
 - [二次方程式（中級編）](equations-quadratic.md)
-- [多項式（応用編）](/math/advanced/algebra/polynomials.md)
+- [多項式（応用編）](../../advanced/algebra/polynomials.md)

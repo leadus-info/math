@@ -7,11 +7,11 @@ stage: 初級編
 subject: 数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 初級編
-    path: /math/beginner/index.md
+    path: ../index.md
   - title: 長さ
-    path: /math/beginner/numbers/measurement-length.md
+    path: measurement-length.md
 requires:
   - title: 測定
     path: measurement.md
@@ -35,5 +35,4 @@ $$1\text{cm} = 10\text{mm}, \qquad 1\text{m} = 100\text{cm}, \qquad 1\text{km} =
 
 ## 関連ページ
 
-- [測定（初級編）](measurement.md)
 - [広さ・かさ（初級編）](measurement-area.md)

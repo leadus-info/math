@@ -7,14 +7,14 @@ stage: 初級編
 subject: 数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 初級編
-    path: /math/beginner/index.md
+    path: ../index.md
   - title: 時間
-    path: /math/beginner/numbers/measurement-time.md
+    path: measurement-time.md
 requires:
-  - title: 重さ
-    path: measurement-weight.md
+  - title: 測定
+    path: measurement.md
 ---
 
 ## 時間の単位
@@ -37,5 +37,4 @@ $$1\text{分} = 60\text{秒}, \qquad 1\text{時} = 60\text{分}, \qquad 1\text{�
 
 ## 関連ページ
 
-- [重さ（初級編）](measurement-weight.md)
-- [測定（初級編）](measurement.md)
+- [割合（初級編）](ratio.md)

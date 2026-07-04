@@ -7,14 +7,16 @@ stage: 応用編
 subject: 幾何
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 円の性質の応用
-    path: /math/advanced/geometry/circle-theorems.md
+    path: circle-theorems.md
 requires:
   - title: 円周角の定理
-    path: /math/intermediate/geometry/circle-angles.md
+    path: ../../intermediate/geometry/circle-angles.md
+  - title: 円
+    path: circles.md
 ---
 
 ## 円に内接する四角形
@@ -29,7 +31,7 @@ requires:
 
 ## 接弦定理
 
-円の接線と、接点を通る弦のなす角は、その弦に対する円周角（弦の反対側にある弧に対する円周角）に等しくなります。これを**接弦定理**といいます。
+円周上の2点を結ぶ線分を**弦**といいます。円の接線と、接点を通る弦のなす角は、その弦に対する円周角（弦の反対側にある弧に対する円周角）に等しくなります。これを**接弦定理**といいます。
 
 **証明の考え方**：接線は接点を通る半径に垂直であることを使い、弦と半径のなす角・円周角の性質を組み合わせて示せます。
 
@@ -69,5 +71,4 @@ $P$ から円への接線の長さ $PT$ についても、$PT^2 = PA\cdot PB$ �
 
 ## 関連ページ
 
-- [円周角の定理（中級編）](/math/intermediate/geometry/circle-angles.md)
 - [三角形の性質の応用（応用編）](triangle-theorems.md)

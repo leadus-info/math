@@ -1,20 +1,20 @@
 ---
 title: 集合
 description: "ものの集まりを数学で扱う言語"
-goal: "集合の記法と演算法則を理解し、和集合・共通部分・補集合・写像を使えるようになる"
+goal: "集合の記法と演算法則を理解し、和集合・共通部分・補集合・部分集合を使えるようになる"
 tags: [math, foundations, sets]
 stage: 応用編
 subject: 基礎
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 集合
-    path: /math/advanced/foundations/sets.md
+    path: sets.md
 requires:
   - title: 自然数
-    path: /math/beginner/numbers/natural-numbers.md
+    path: ../../beginner/numbers/natural-numbers.md
 ---
 
 ## 「ものの集まり」を扱う
@@ -79,30 +79,14 @@ $$(A \cup B)^c = A^c \cap B^c, \quad (A \cap B)^c = A^c \cup B^c$$
 
 ---
 
-## 写像
-
-集合 $A$ の各要素に集合 $B$ の要素をただ一つ対応させる規則を**写像**といいます。
-
-$$f: A \to B, \quad a \mapsto f(a)$$
-
-- $A$：**定義域**、$B$：**終域**
-- $\{f(a) \mid a \in A\}$：**値域**（終域の部分集合）
-
-**単射**（一対一）：$f(a) = f(b) \Rightarrow a = b$（異なる入力は異なる出力）
-
-**全射**（上への写像）：任意の $b \in B$ に対して $f(a) = b$ となる $a \in A$ が存在する
-
-**全単射**（両方）：単射かつ全射——$A$ と $B$ の間に完全な1対1対応がある
-
----
-
 ## まとめ
 
-集合は「はっきり決まるものの集まり」です。和集合・共通部分・補集合の3操作が基本で、ド・モルガンの法則で否定と演算が結びつきます。写像は集合の要素同士を対応させる規則で、単射・全射・全単射という性質があります。
+集合は「はっきり決まるものの集まり」です。和集合・共通部分・補集合の3操作が基本で、ド・モルガンの法則で否定と演算が結びつきます。
 
 ---
 
 ## 関連ページ
 
 - [必要・十分条件（応用編）](logic.md)
-- [場合の数（応用編）](/math/advanced/probability/counting.md)
+- [関数（応用編）](../analysis/functions.md)
+- [場合の数（応用編）](../probability/counting.md)

@@ -7,14 +7,16 @@ stage: 応用編
 subject: 確率
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 確率変数と確率分布
-    path: /math/advanced/probability/random-variables.md
+    path: random-variables.md
 requires:
   - title: 確率
     path: probability.md
+  - title: データの分析
+    path: data-analysis.md
 ---
 
 ## 試行の結果を数値で表す
@@ -63,6 +65,4 @@ $$\sigma(X) = \sqrt{V(X)}$$
 
 ## 関連ページ
 
-- [確率（応用編）](probability.md)
-- [データの分析（応用編）](data-analysis.md)
 - [二項分布（応用編）](binomial-distribution.md)

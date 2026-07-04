@@ -7,16 +7,16 @@ stage: 発展編
 subject: 線形代数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 発展編
-    path: /math/bachelor/index.md
+    path: ../index.md
   - title: 固有値
-    path: /math/bachelor/linear-algebra/eigenvalues.md
+    path: eigenvalues.md
 requires:
   - title: 線形写像
-    path: /math/bachelor/linear-algebra/linear-maps.md
+    path: linear-maps.md
   - title: 多項式
-    path: /math/advanced/algebra/polynomials.md
+    path: ../../advanced/algebra/polynomials.md
 ---
 
 ## 方向が変わらないベクトル
@@ -76,4 +76,3 @@ $$\mathrm{tr}(A) = \sum_i \lambda_i, \quad \det(A) = \prod_i \lambda_i$$
 ## 関連ページ
 
 - [行列（発展編）](matrices.md)
-- [線形写像（発展編）](linear-maps.md)

@@ -7,19 +7,19 @@ stage: 初級編
 subject: 幾何
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 初級編
-    path: /math/beginner/index.md
+    path: ../index.md
   - title: 円
-    path: /math/beginner/geometry/shapes-circle.md
+    path: shapes-circle.md
 requires:
-  - title: 四角形
-    path: shapes-quadrilateral.md
+  - title: 図形
+    path: shapes.md
 ---
 
 ## 円と球
 
-1つの点（**中心**）から等しい距離にある点を集めた形が**円**です。中心から円までの距離を**半径**、円を通り中心を通る直線の長さを**直径**といい、直径は半径の2倍です。
+1つの点（**中心**）から等しい距離にある点を集めた形が**円**です。中心から円周までの距離を**半径**、中心を通るように円周上の2点を結んだ線分の長さを**直径**といい、直径は半径の2倍です。
 
 ボールのような、どこから見ても丸い形が**球**です。球を平らに切った切り口はいつも円になります。
 
@@ -41,5 +41,4 @@ $$\text{円周} = \text{直径} \times \text{円周率}$$
 
 ## 関連ページ
 
-- [四角形（初級編）](shapes-quadrilateral.md)
-- [三角関数（応用編）](/math/advanced/specific-functions/trigonometric.md)
+- [三角関数（応用編）](../../advanced/specific-functions/trigonometric.md)

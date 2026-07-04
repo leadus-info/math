@@ -1,22 +1,22 @@
 ---
 title: 三角関数
 description: "角度と波を表す周期関数"
-goal: "三角関数が単位円から定義されることを理解し、基本性質・加法定理を使って値を計算できるようになる"
+goal: "三角関数が単位円から定義されることを理解し、基本性質・加法定理・合成を使って値や式を扱えるようになる"
 tags: [math, specific-functions, trigonometric]
 stage: 応用編
 subject: 具体的な関数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 三角関数
-    path: /math/advanced/specific-functions/trigonometric.md
+    path: trigonometric.md
 requires:
   - title: 三角比
-    path: /math/advanced/geometry/trigonometry.md
+    path: ../geometry/trigonometry.md
   - title: 円
-    path: /math/advanced/geometry/circles.md
+    path: ../geometry/circles.md
 ---
 
 ## 円の上を動く点
@@ -64,6 +64,20 @@ $$\sin^2\frac{\alpha}{2} = \frac{1 - \cos\alpha}{2}, \quad \cos^2\frac{\alpha}{2
 
 ---
 
+## 三角関数の合成
+
+$a\sin\theta + b\cos\theta$ のように $\sin$ と $\cos$ が混ざった式も、加法定理を逆向きに使うと、1つの $\sin$ にまとめられます。
+
+$$a\sin\theta + b\cos\theta = \sqrt{a^2+b^2}\,\sin(\theta+\varphi)$$
+
+ここで $\varphi$ は、$\cos\varphi = \dfrac{a}{\sqrt{a^2+b^2}}$、$\sin\varphi = \dfrac{b}{\sqrt{a^2+b^2}}$ を満たす角です。
+
+**例**：$\sin\theta+\cos\theta$ を合成する。$\sqrt{1^2+1^2}=\sqrt2$ で、$\cos\varphi=\sin\varphi=\dfrac{1}{\sqrt2}$ より $\varphi=\dfrac{\pi}{4}$。よって $\sin\theta+\cos\theta=\sqrt2\sin\left(\theta+\dfrac{\pi}{4}\right)$。
+
+この形にすると、最大値・最小値や周期といった $a\sin\theta+b\cos\theta$ の性質が、単一の $\sin$ の性質としてそのまま読み取れます。
+
+---
+
 ## 微分
 
 $$(\sin x)' = \cos x, \quad (\cos x)' = -\sin x, \quad (\tan x)' = \frac{1}{\cos^2 x}$$
@@ -80,5 +94,4 @@ $\sin$ の場合、$\lim_{h\to 0}\dfrac{\sin(x+h)-\sin x}{h} = \lim_{h\to 0}\dfr
 
 ## 関連ページ
 
-- [円（応用編）](/math/advanced/geometry/circles.md)
-- [微分（応用編）](/math/advanced/analysis/derivatives.md)
+- [微分（応用編）](../analysis/derivatives.md)

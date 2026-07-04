@@ -7,16 +7,16 @@ stage: 応用編
 subject: 解析
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 微分
-    path: /math/advanced/analysis/derivatives.md
+    path: derivatives.md
 requires:
   - title: 極限
-    path: /math/advanced/analysis/limits.md
+    path: limits.md
   - title: 累乗
-    path: /math/intermediate/numbers/arithmetic.md
+    path: ../../intermediate/numbers/arithmetic.md
 ---
 
 ## 「今この瞬間の速さ」とは
@@ -98,7 +98,6 @@ $f'(a) > 0$ なら $x = a$ 付近で増加、$f'(a) < 0$ なら減少、$f'(a) =
 
 ## 関連ページ
 
-- [極限（応用編）](limits.md)
 - [微分の応用（応用編）](derivatives-applications.md)
 - [積分（応用編）](integrals.md)
-- [微分の厳密な定義（発展編）](/math/bachelor/analysis/differentiability.md)
+- [微分の厳密な定義（発展編）](../../bachelor/analysis/differentiability.md)

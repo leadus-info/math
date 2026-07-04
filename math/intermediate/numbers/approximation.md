@@ -7,14 +7,14 @@ stage: 中級編
 subject: 数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 中級編
-    path: /math/intermediate/index.md
+    path: ../index.md
   - title: 誤差と近似値
-    path: /math/intermediate/numbers/approximation.md
+    path: approximation.md
 requires:
-  - title: 平方根
-    path: arithmetic-square-root.md
+  - title: 累乗
+    path: arithmetic.md
 ---
 
 ## 測定にはずれがつきもの
@@ -60,4 +60,3 @@ $$150000000 = 1.5 \times 10^8$$
 ## 関連ページ
 
 - [平方根（中級編）](arithmetic-square-root.md)
-- [累乗（中級編）](arithmetic.md)

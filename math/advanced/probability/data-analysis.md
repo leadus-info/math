@@ -7,14 +7,14 @@ stage: 応用編
 subject: 確率
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: データの分析
-    path: /math/advanced/probability/data-analysis.md
+    path: data-analysis.md
 requires:
   - title: 四分位範囲と箱ひげ図
-    path: /math/intermediate/probability/box-plot.md
+    path: ../../intermediate/probability/box-plot.md
 ---
 
 ## 散らばりを数値で表す
@@ -73,5 +73,4 @@ $$r = \frac{\sum(x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum(x_i-\bar{x})^2}\sqrt{
 
 ## 関連ページ
 
-- [四分位範囲と箱ひげ図（中級編）](/math/intermediate/probability/box-plot.md)
 - [統計的な推測（応用編）](statistical-inference.md)

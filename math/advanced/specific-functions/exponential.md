@@ -7,16 +7,16 @@ stage: 応用編
 subject: 具体的な関数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 指数関数
-    path: /math/advanced/specific-functions/exponential.md
+    path: exponential.md
 requires:
   - title: 累乗
-    path: /math/intermediate/numbers/arithmetic.md
+    path: ../../intermediate/numbers/arithmetic.md
   - title: 一次関数
-    path: /math/intermediate/functions/linear.md
+    path: ../../intermediate/functions/linear.md
 ---
 
 ## 倍々で増える
@@ -48,6 +48,8 @@ $a^0 = 1$ なので $y$ 切片は常に1。$a^x > 0$ なので $x$ 軸とは交�
 ## 指数法則
 
 $$a^m \cdot a^n = a^{m+n}, \quad (a^m)^n = a^{mn}, \quad a^{-n} = \frac{1}{a^n}, \quad a^{1/n} = \sqrt[n]{a}$$
+
+指数が正の整数の場合の「掛け算の繰り返し」から出発して、$0$・負の整数・有理数（$a^{1/n}=\sqrt[n]{a}$）へと指数の意味を広げてきました。$\sqrt2$ のような無理数の指数（$2^{\sqrt2}$ など）は、$\sqrt2$ に限りなく近づく有理数（$1, 1.4, 1.41, 1.414,\ldots$）を指数にした値が一定の値に近づいていくことから定めます。こうして指数を実数全体に広げても、$y=a^x$ のグラフは途切れず滑らかにつながります。
 
 ---
 
@@ -86,4 +88,4 @@ $$4^x = 8 \Rightarrow (2^2)^x = 2^3 \Rightarrow 2x = 3 \Rightarrow x = \frac{3}{
 ## 関連ページ
 
 - [対数関数（応用編）](logarithmic.md)
-- [微分（応用編）](/math/advanced/analysis/derivatives.md)
+- [微分（応用編）](../analysis/derivatives.md)

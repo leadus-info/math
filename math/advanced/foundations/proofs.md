@@ -7,14 +7,14 @@ stage: 応用編
 subject: 基礎
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 証明法
-    path: /math/advanced/foundations/proofs.md
+    path: proofs.md
 requires:
   - title: 必要・十分条件
-    path: /math/advanced/foundations/logic.md
+    path: logic.md
 ---
 
 ## 「正しい」をどう示すか
@@ -35,7 +35,6 @@ requires:
 
 ## 関連ページ
 
-- [必要・十分条件（応用編）](logic.md)
 - [直接証明（応用編）](proofs-direct.md)
 - [対偶証明（応用編）](proofs-contrapositive.md)
 - [背理法（応用編）](proofs-contradiction.md)

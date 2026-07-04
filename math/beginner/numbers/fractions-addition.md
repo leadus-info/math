@@ -7,11 +7,11 @@ stage: 初級編
 subject: 数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 初級編
-    path: /math/beginner/index.md
+    path: ../index.md
   - title: 分数の足し算
-    path: /math/beginner/numbers/fractions-addition.md
+    path: fractions-addition.md
 requires:
   - title: 分数
     path: fractions.md
@@ -53,5 +53,4 @@ $$\frac{1}{4} + \frac{1}{6} = \frac{3}{12} + \frac{2}{12} = \frac{5}{12}$$
 
 ## 関連ページ
 
-- [分数（初級編）](fractions.md)
 - [引き算（初級編）](fractions-subtraction.md)

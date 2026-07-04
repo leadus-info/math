@@ -7,14 +7,14 @@ stage: 応用編
 subject: 代数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 整式の除法と剰余の定理
-    path: /math/advanced/algebra/polynomial-division.md
+    path: polynomial-division.md
 requires:
   - title: 多項式
-    path: /math/advanced/algebra/polynomials.md
+    path: polynomials.md
 ---
 
 ## 整式の除法
@@ -73,5 +73,4 @@ $A = (x-\alpha)Q + R$ において $R$ は定数（$x-\alpha$ より次数が低
 
 ## 関連ページ
 
-- [多項式（応用編）](polynomials.md)
-- [複素数（応用編）](/math/advanced/numbers/complex-numbers.md)
+- [複素数（応用編）](../numbers/complex-numbers.md)

@@ -7,16 +7,16 @@ stage: 発展編
 subject: 解析
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 発展編
-    path: /math/bachelor/index.md
+    path: ../index.md
   - title: 極限の厳密な定義
-    path: /math/bachelor/analysis/epsilon-delta.md
+    path: epsilon-delta.md
 requires:
   - title: 極限
-    path: /math/advanced/analysis/limits.md
+    path: ../../advanced/analysis/limits.md
   - title: 実数
-    path: /math/bachelor/numbers/real-numbers.md
+    path: ../numbers/real-numbers.md
 ---
 
 ## 「近づく」を数式にする
@@ -83,6 +83,4 @@ $$\forall \varepsilon > 0,\ \exists N \in \mathbb{N} \text{ s.t. } n > N \Righta
 
 ## 関連ページ
 
-- [極限（応用編）](/math/advanced/analysis/limits.md)
 - [微分の厳密な定義（発展編）](differentiability.md)
-- [実数（発展編）](/math/bachelor/numbers/real-numbers.md)

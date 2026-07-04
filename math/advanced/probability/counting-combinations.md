@@ -7,11 +7,11 @@ stage: 応用編
 subject: 確率
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 組み合わせ
-    path: /math/advanced/probability/counting-combinations.md
+    path: counting-combinations.md
 requires:
   - title: 順列
     path: counting-permutations.md
@@ -47,5 +47,4 @@ $$\binom{n+r-1}{r}$$
 
 ## 関連ページ
 
-- [順列（応用編）](counting-permutations.md)
 - [二項定理（応用編）](counting-binomial-theorem.md)

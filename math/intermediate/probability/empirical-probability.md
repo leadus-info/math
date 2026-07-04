@@ -7,11 +7,11 @@ stage: 中級編
 subject: 確率
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 中級編
-    path: /math/intermediate/index.md
+    path: ../index.md
   - title: 多数回の試行による確率
-    path: /math/intermediate/probability/empirical-probability.md
+    path: empirical-probability.md
 requires:
   - title: ヒストグラムと相対度数
     path: data-distribution.md
@@ -51,5 +51,4 @@ $$\text{確率} \approx \frac{\text{その結果が起きた回数}}{\text{試�
 
 ## 関連ページ
 
-- [ヒストグラムと相対度数（中級編）](data-distribution.md)
 - [場合の数を基にした確率（中級編）](basic-probability.md)

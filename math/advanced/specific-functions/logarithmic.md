@@ -7,14 +7,14 @@ stage: 応用編
 subject: 具体的な関数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 対数関数
-    path: /math/advanced/specific-functions/logarithmic.md
+    path: logarithmic.md
 requires:
   - title: 指数関数
-    path: /math/advanced/specific-functions/exponential.md
+    path: exponential.md
 ---
 
 ## 「何乗すると…になるか」を求める
@@ -59,6 +59,14 @@ $$\log_a 1 = 0, \quad \log_a a = 1$$
 
 ---
 
+## 常用対数
+
+底が $10$ の対数を**常用対数**といい、$\log_{10} x$ と書きます。$10$進法とかみ合うため、桁数の見積もりに便利です。
+
+**例題**：$2^{10}$ は何桁の数か。$\log_{10}2 \approx 0.3010$ を使うと、$\log_{10}2^{10} = 10\log_{10}2 \approx 3.010$。よって $2^{10}$ は $10^3$ と $10^4$ の間の数、すなわち $4$ 桁の数（実際 $2^{10}=1024$）。
+
+---
+
 ## 自然対数 $\ln$
 
 底が $e$ の対数を**自然対数**といい $\ln x$ と書きます。
@@ -89,4 +97,4 @@ $$(\ln x)' = \frac{1}{x}, \quad \int \frac{1}{x}\,dx = \ln|x| + C$$
 
 ## 関連ページ
 
-- [指数関数（応用編）](exponential.md)
+- [微分（応用編）](../analysis/derivatives.md)

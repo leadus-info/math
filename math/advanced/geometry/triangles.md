@@ -7,14 +7,12 @@ stage: 応用編
 subject: 幾何
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 三角形
-    path: /math/advanced/geometry/triangles.md
+    path: triangles.md
 requires:
-  - title: 直線
-    path: /math/advanced/geometry/line.md
   - title: 三角比
     path: trigonometry.md
 ---
@@ -95,6 +93,9 @@ $A = 90°$ のとき $\cos 90° = 0$ となり三平方の定理の一般化に�
 | 外心 $O$ | 各辺の垂直二等分線の交点（外接円の中心） |
 | 内心 $I$ | 各角の二等分線の交点（内接円の中心） |
 | 垂心 $H$ | 3つの頂点から対辺に下ろした垂線の交点 |
+| 傍心 | 1つの角の二等分線と、他の2つの角の外角の二等分線の交点（傍接円の中心） |
+
+傍心は頂点ごとに1つずつ、合計3つあります（内心と合わせて、内接円・傍接円はどれも3辺（の延長）すべてに接します）。
 
 $G$, $O$, $H$ は同一直線（オイラー線）上にあり、$OG : GH = 1 : 2$ となることが知られています。
 
@@ -108,6 +109,5 @@ $G$, $O$, $H$ は同一直線（オイラー線）上にあり、$OG : GH = 1 : 
 
 ## 関連ページ
 
-- [三角比（応用編）](trigonometry.md)
 - [円（応用編）](circles.md)
-- [三角関数（応用編）](/math/advanced/specific-functions/trigonometric.md)
+- [三角関数（応用編）](../specific-functions/trigonometric.md)

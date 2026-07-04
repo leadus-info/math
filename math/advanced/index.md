@@ -4,9 +4,9 @@ description: "関数・図形・微積分の初歩など、体系的に数学を
 tags: [math, advanced]
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: index.md
 ---
 
 中級編の内容を前提に、関数・図形・微積分の初歩など、体系的に数学を扱います。
@@ -41,7 +41,7 @@ hierarchy:
 ## 基礎
 
 ### 集合
-ものの集まりを数学的に扱う言語。和集合・共通部分・補集合・写像を扱います。
+ものの集まりを数学的に扱う言語。和集合・共通部分・補集合・部分集合を扱います。
 
 - [集合](foundations/sets.md)
 

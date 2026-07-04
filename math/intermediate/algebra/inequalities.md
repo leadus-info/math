@@ -7,16 +7,16 @@ stage: 中級編
 subject: 代数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 中級編
-    path: /math/intermediate/index.md
+    path: ../index.md
   - title: 不等号・不等式
-    path: /math/intermediate/algebra/inequalities.md
+    path: inequalities.md
 requires:
   - title: 等号・等式
     path: equations.md
   - title: 負数
-    path: /math/intermediate/numbers/integers.md
+    path: ../numbers/integers.md
 ---
 
 ## 「大きい」「小さい」を記号で表す
@@ -63,7 +63,5 @@ $$3 < 5 \implies 3 \times (-2) > 5 \times (-2) \quad (-6 > -10)$$
 
 ## 関連ページ
 
-- [等号・等式（中級編）](equations.md)
 - [一次不等式（中級編）](inequalities-linear.md)
 - [連立不等式（中級編）](inequalities-simultaneous.md)
-- [負数（中級編）](/math/intermediate/numbers/integers.md)

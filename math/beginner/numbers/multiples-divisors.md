@@ -1,17 +1,17 @@
 ---
 title: 倍数と約数
 description: "掛け算・割り算から生まれる数の性質"
-goal: "倍数・約数・公倍数・公約数の意味を理解し、最大公約数・最小公倍数を求められるようになる"
+goal: "倍数・約数・公倍数・公約数・偶数・奇数の意味を理解し、最大公約数・最小公倍数を求められるようになる"
 tags: [math, numbers, multiples-divisors]
 stage: 初級編
 subject: 数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 初級編
-    path: /math/beginner/index.md
+    path: ../index.md
   - title: 倍数と約数
-    path: /math/beginner/numbers/multiples-divisors.md
+    path: multiples-divisors.md
 requires:
   - title: 割り算
     path: division.md
@@ -22,6 +22,12 @@ requires:
 $3 \times 1 = 3$、$3 \times 2 = 6$、$3 \times 3 = 9$、$3 \times 4 = 12$、……
 
 この $3, 6, 9, 12, \ldots$ を $3$ の**倍数**といいます。ある数に自然数を掛けてできる数が、その数の倍数です。
+
+---
+
+## 偶数と奇数
+
+整数は、2で割り切れるかどうかで2つの仲間に分けられます。2の倍数である $0, 2, 4, 6, 8, \ldots$ を**偶数**、2で割り切れない $1, 3, 5, 7, \ldots$ を**奇数**といいます。
 
 ---
 
@@ -43,10 +49,10 @@ $3 \times 1 = 3$、$3 \times 2 = 6$、$3 \times 3 = 9$、$3 \times 4 = 12$、…
 
 ## まとめ
 
-ある数に自然数を掛けてできる数が倍数、割り切れる相手の数が約数です。2つの数に共通する約数・倍数のうち、最大・最小のものがそれぞれ最大公約数・最小公倍数です。
+ある数に自然数を掛けてできる数が倍数、割り切れる相手の数が約数です。2の倍数である偶数と、2で割り切れない奇数という仲間分けもできます。2つの数に共通する約数・倍数のうち、最大・最小のものがそれぞれ最大公約数・最小公倍数です。
 
 ---
 
 ## 関連ページ
 
-- [割り算（初級編）](division.md)
+- [素因数分解（中級編）](../../intermediate/numbers/prime-factorization.md)

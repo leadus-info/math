@@ -1,17 +1,17 @@
 ---
 title: 行列式
 description: "変換による面積・体積の拡大率"
-goal: "行列式の定義と幾何学的な意味を理解できるようになる"
+goal: "行列式の定義と幾何学的な意味を理解し、余因子展開でn次正方行列の行列式を計算し、多重線形性などの基本性質を説明できるようになる"
 tags: [math, linear-algebra, matrices]
 stage: 発展編
 subject: 線形代数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 発展編
-    path: /math/bachelor/index.md
+    path: ../index.md
   - title: 行列式
-    path: /math/bachelor/linear-algebra/matrices-determinant.md
+    path: matrices-determinant.md
 requires:
   - title: 行列の積
     path: matrices-product.md
@@ -27,13 +27,37 @@ $$\det\begin{pmatrix}a&b\\c&d\end{pmatrix} = ad - bc$$
 
 ---
 
+## n次正方行列の行列式：余因子展開
+
+$3$ 次以上の正方行列にも行列式は定義できます。$A$ の $i$ 行 $j$ 列を取り除いてできる $(n-1)$ 次正方行列の行列式に符号 $(-1)^{i+j}$ を付けたものを**余因子** $A_{ij}$ といい、次の**余因子展開**（第 $i$ 行に関する展開）で $n$ 次行列式を計算できます。
+
+$$\det(A) = \sum_{j=1}^n a_{ij} A_{ij}$$
+
+**例**：$3$ 次行列 $A = \begin{pmatrix}1&2&3\\0&1&4\\5&6&0\end{pmatrix}$ を第1行で展開すると、
+
+$$\det(A) = 1\begin{vmatrix}1&4\\6&0\end{vmatrix} - 2\begin{vmatrix}0&4\\5&0\end{vmatrix} + 3\begin{vmatrix}0&1\\5&6\end{vmatrix} = 1(-24) - 2(-20) + 3(-5) = 1$$
+
+これを繰り返し使えば任意の $n$ 次正方行列の行列式が定義できます（$2\times2$ の場合はこの展開が $ad-bc$ に帰着します）。
+
+---
+
+## 行列式の基本性質
+
+- **多重線形性**：行列式はどの行（列）についても線形——ある行を $c$ 倍すると行列式全体が $c$ 倍になり、ある行が2つのベクトルの和なら行列式も対応する2つの行列式の和に分解できる。
+- **交代性**：2つの行（列）を入れ替えると符号が反転する。特に同じ行が2つあれば $\det(A) = 0$。
+- **積の性質**：$\det(AB) = \det(A)\det(B)$
+- **転置**：$\det(A^\top) = \det(A)$
+
+これらの性質から、行に他の行の定数倍を加えても行列式は変わらないこと（掃き出し法で行列式を計算する根拠）が従います。
+
+---
+
 ## まとめ
 
-行列式は、行列が表す線形変換によって面積・体積が何倍に拡大されるかを表す量で、$0$ になるかどうかが逆行列の存在を左右します。
+行列式は、行列が表す線形変換によって面積・体積が何倍に拡大されるかを表す量で、$0$ になるかどうかが逆行列の存在を左右します。$3$ 次以上の正方行列の行列式は余因子展開で計算でき、多重線形性・交代性・$\det(AB)=\det(A)\det(B)$ といった性質を満たします。
 
 ---
 
 ## 関連ページ
 
-- [行列の積（発展編）](matrices-product.md)
 - [逆行列（発展編）](matrices-inverse.md)

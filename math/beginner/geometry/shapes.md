@@ -7,11 +7,11 @@ stage: 初級編
 subject: 幾何
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 初級編
-    path: /math/beginner/index.md
+    path: ../index.md
   - title: 図形
-    path: /math/beginner/geometry/shapes.md
+    path: shapes.md
 ---
 
 ## ものの形をとらえる
@@ -22,15 +22,13 @@ hierarchy:
 
 ## 立体の形
 
-**立方体**はさいころのように、正方形の面だけでできた箱の形、**直方体**は長方形の面を組み合わせた箱の形です。立体を開いて平らに広げた図を**展開図**、立体を1つの方向から見た形をまとめて描いた図を**見取図**といいます。展開図を組み立てると、もとの立体に戻ることを確かめられます。
-
-底面が多角形で、側面が平らな長方形の立体を**角柱**、底面が円の立体を**円柱**といいます。体積は入れ物の大きさを数値で表したもので、立方センチメートル（cm³）や立方メートル（m³）という単位を使います。直方体の体積は「たて×よこ×高さ」で求められます。
+身の回りには、箱の形やボールの形のような立体もあります。立体図形（初級編）で、立方体・直方体・角柱・円柱の構成要素や表し方をくわしく扱います。
 
 ---
 
 ## 多角形
 
-3本以上の直線で囲まれた図形をまとめて**多角形**、辺の長さと角の大きさがすべて等しい多角形を**正多角形**といいます。
+3本以上の線分で囲まれた図形をまとめて**多角形**、辺の長さと角の大きさがすべて等しい多角形を**正多角形**といいます。
 
 ---
 
@@ -46,7 +44,8 @@ hierarchy:
 - [三角形（初級編）](shapes-triangle.md)
 - [四角形（初級編）](shapes-quadrilateral.md)
 - [円（初級編）](shapes-circle.md)
+- [立体図形（初級編）](shapes-solids.md)
 - [合同（初級編）](shapes-congruence.md)
 - [対称（初級編）](shapes-symmetry.md)
 - [相似（初級編）](shapes-similarity.md)
-- [測定（初級編）](/math/beginner/numbers/measurement.md)
+- [測定（初級編）](../numbers/measurement.md)

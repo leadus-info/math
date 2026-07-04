@@ -4,9 +4,9 @@ description: "文字式・方程式など、記号を使った抽象的な操作
 tags: [math, intermediate]
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../index.md
   - title: 中級編
-    path: /math/intermediate/index.md
+    path: index.md
 ---
 
 初級編の内容を前提に、文字式・方程式など、記号を使った抽象的な操作に進みます。
@@ -70,15 +70,11 @@ hierarchy:
 ## 関数
 
 ### 関数
-一方が決まればもう一方がただ1つに決まる関係。座標と、比例・反比例を関数として捉え直す視点を扱います。
+一方が決まればもう一方がただ1つに決まる関係。座標と、比例・反比例を関数として捉え直す視点、一次関数、二次関数を扱います。
 
 - [関数とは](functions/functions.md)
-
-### 一次関数・関数y=ax²
-グラフが直線になる一次関数と、xの2乗に比例する関数y=ax²を扱います。
-
 - [一次関数](functions/linear.md)
-- [関数y=ax²](functions/quadratic.md)
+- [二次関数](functions/quadratic.md)
 
 ## 幾何
 

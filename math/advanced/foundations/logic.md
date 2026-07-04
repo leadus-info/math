@@ -7,16 +7,16 @@ stage: 応用編
 subject: 基礎
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 必要・十分条件
-    path: /math/advanced/foundations/logic.md
+    path: logic.md
 requires:
   - title: 等号・等式
-    path: /math/intermediate/algebra/equations.md
+    path: ../../intermediate/algebra/equations.md
   - title: 集合
-    path: /math/advanced/foundations/sets.md
+    path: sets.md
 ---
 
 ## 「ならば」は一方通行
@@ -95,5 +95,4 @@ $$P \Rightarrow Q \iff A \subset B$$
 
 ## 関連ページ
 
-- [集合（応用編）](sets.md)
 - [証明法（応用編）](proofs.md)

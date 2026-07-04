@@ -7,11 +7,11 @@ stage: 初級編
 subject: 数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 初級編
-    path: /math/beginner/index.md
+    path: ../index.md
   - title: 分数
-    path: /math/beginner/numbers/fractions.md
+    path: fractions.md
 requires:
   - title: 割り算
     path: division.md
@@ -85,7 +85,7 @@ $$\frac{6}{8} = \frac{6 \div 2}{8 \div 2} = \frac{3}{4}$$
 
 ## 割り算の結果を分数で表す
 
-自然数（初級編）で、$7 \div 3$ のように割り切れない割り算があることを見ました。分数を使うと、割り切れない割り算の結果も、いつでもぴったり1つの数として表せます。
+割り算（初級編）で、$7 \div 3$ のように割り切れない割り算があることを見ました。分数を使うと、割り切れない割り算の結果も、いつでもぴったり1つの数として表せます。
 
 $$2 \div 3 = \frac{2}{3}$$
 

@@ -7,11 +7,11 @@ stage: 応用編
 subject: 確率
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 条件付き確率とベイズの定理
-    path: /math/advanced/probability/probability-conditional.md
+    path: probability-conditional.md
 requires:
   - title: 確率
     path: probability.md
@@ -50,4 +50,4 @@ $$P(\text{罹患} \mid \text{陽性}) = \frac{0.99 \times 0.01}{0.0594} \approx 
 
 ## 関連ページ
 
-- [確率（応用編）](probability.md)
+- [確率変数と確率分布（応用編）](random-variables.md)

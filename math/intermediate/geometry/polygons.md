@@ -7,11 +7,14 @@ stage: 中級編
 subject: 幾何
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 中級編
-    path: /math/intermediate/index.md
+    path: ../index.md
   - title: 多角形
-    path: /math/intermediate/geometry/polygons.md
+    path: polygons.md
+requires:
+  - title: 図形
+    path: ../../beginner/geometry/shapes.md
 ---
 
 ## 多角形とは
@@ -81,4 +84,4 @@ $n$ 角形の内角の和は $(n-2) \times 180°$、外角の和はいつも $36
 
 - [四角形（中級編）](quadrilaterals.md)
 - [平行線と角（中級編）](angles.md)
-- [円（応用編）](/math/advanced/geometry/circles.md)
+- [円（応用編）](../../advanced/geometry/circles.md)

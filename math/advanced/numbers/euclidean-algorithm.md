@@ -7,14 +7,14 @@ stage: 応用編
 subject: 数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: ユークリッドの互除法
-    path: /math/advanced/numbers/euclidean-algorithm.md
+    path: euclidean-algorithm.md
 requires:
   - title: 素因数分解
-    path: /math/intermediate/numbers/prime-factorization.md
+    path: ../../intermediate/numbers/prime-factorization.md
 ---
 
 ## 割り算を繰り返して公約数を求める
@@ -64,6 +64,5 @@ $ax+by=c$ が整数解を持つのは、$c$ が $\gcd(a,b)$ の倍数である�
 
 ## 関連ページ
 
-- [倍数と約数（初級編）](/math/beginner/numbers/multiples-divisors.md)
-- [素因数分解（中級編）](/math/intermediate/numbers/prime-factorization.md)
+- [倍数と約数（初級編）](../../beginner/numbers/multiples-divisors.md)
 - [n進法（応用編）](number-systems.md)

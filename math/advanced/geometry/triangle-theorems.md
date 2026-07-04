@@ -7,16 +7,16 @@ stage: 応用編
 subject: 幾何
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 三角形の性質の応用
-    path: /math/advanced/geometry/triangle-theorems.md
+    path: triangle-theorems.md
 requires:
   - title: 三角形
     path: triangles.md
   - title: 相似
-    path: /math/intermediate/geometry/similarity.md
+    path: ../../intermediate/geometry/similarity.md
 ---
 
 ## 角の二等分線と辺の比
@@ -63,6 +63,4 @@ $$\frac{BD}{DC}\cdot\frac{CE}{EA}\cdot\frac{AF}{FB} = 1$$
 
 ## 関連ページ
 
-- [三角形（応用編）](triangles.md)
-- [相似（中級編）](/math/intermediate/geometry/similarity.md)
 - [円の性質（応用編）](circle-theorems.md)

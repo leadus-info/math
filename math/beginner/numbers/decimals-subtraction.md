@@ -7,11 +7,11 @@ stage: 初級編
 subject: 数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 初級編
-    path: /math/beginner/index.md
+    path: ../index.md
   - title: 小数の引き算
-    path: /math/beginner/numbers/decimals-subtraction.md
+    path: decimals-subtraction.md
 requires:
   - title: 小数の足し算
     path: decimals-addition.md
@@ -41,5 +41,4 @@ $$3.40 - 1.28 = 2.12$$
 
 ## 関連ページ
 
-- [足し算（初級編）](decimals-addition.md)
 - [掛け算（初級編）](decimals-multiplication.md)

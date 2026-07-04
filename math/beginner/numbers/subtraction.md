@@ -7,11 +7,11 @@ stage: 初級編
 subject: 数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 初級編
-    path: /math/beginner/index.md
+    path: ../index.md
   - title: 引き算
-    path: /math/beginner/numbers/subtraction.md
+    path: subtraction.md
 requires:
   - title: 足し算
     path: addition.md
@@ -43,7 +43,7 @@ $$\boxed{?} + 5 = 3$$
 
 $\boxed{?}$ に当てはまる自然数はありません。$3 - 5$ は自然数の中では答えが出ないのです。
 
-この壁を超えるために生まれたのが[負数（中級編）](/math/intermediate/numbers/integers.md)です。
+この壁を超えるために生まれたのが[負数（中級編）](../../intermediate/numbers/integers.md)です。
 
 ---
 
@@ -55,5 +55,4 @@ $\boxed{?}$ に当てはまる自然数はありません。$3 - 5$ は自然数
 
 ## 関連ページ
 
-- [足し算（初級編）](addition.md)
-- [負数（中級編）](/math/intermediate/numbers/integers.md)
+- [負数（中級編）](../../intermediate/numbers/integers.md)

@@ -7,14 +7,14 @@ stage: 応用編
 subject: 幾何
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 三角比
-    path: /math/advanced/geometry/trigonometry.md
+    path: trigonometry.md
 requires:
   - title: 三平方の定理
-    path: /math/intermediate/geometry/pythagorean-theorem.md
+    path: ../../intermediate/geometry/pythagorean-theorem.md
 ---
 
 ## 直角三角形の辺の比
@@ -80,6 +80,5 @@ $$S = \frac{1}{2}ab\sin C$$
 
 ## 関連ページ
 
-- [三平方の定理（中級編）](/math/intermediate/geometry/pythagorean-theorem.md)
 - [三角形（応用編）](triangles.md)
-- [三角関数（応用編）](/math/advanced/specific-functions/trigonometric.md)
+- [三角関数（応用編）](../specific-functions/trigonometric.md)

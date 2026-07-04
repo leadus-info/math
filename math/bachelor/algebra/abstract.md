@@ -1,27 +1,35 @@
 ---
 title: 抽象代数
 description: "演算の構造を公理から分析する"
-goal: "抽象代数が演算の共通する性質だけを取り出して研究する学問であることを理解できるようになる"
+goal: "抽象代数が演算の共通する性質だけを取り出して研究する学問であることを理解し、代数系・群・環・体の階層関係を説明できるようになる"
 tags: [math, algebra, abstract]
 stage: 発展編
 subject: 代数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 発展編
-    path: /math/bachelor/index.md
+    path: ../index.md
   - title: 抽象代数
-    path: /math/bachelor/algebra/abstract.md
+    path: abstract.md
 requires:
-  - title: 多項式
-    path: /math/advanced/algebra/polynomials.md
   - title: 集合
-    path: /math/advanced/foundations/sets.md
+    path: ../../advanced/foundations/sets.md
 ---
 
 ## 演算の「共通する性質」を探す
 
 整数の足し算と、時計の数字の足し算（12時の1時間後は1時）——これらは見た目が違いますが、「演算の結果がまた同じ集合に属する」「単位元がある」という共通の性質を持っています。抽象代数は「どんな対象かに関わらず、演算の性質だけを取り出して研究する」学問です。「体であれば成り立つ定理」を1回証明すれば、$\mathbb{Q}, \mathbb{R}, \mathbb{C}$ などすべての体に自動的に適用できます。
+
+---
+
+## 代数系という視点
+
+集合 $S$ とその上の1つ以上の二項演算の組を**代数系**といいます。抽象代数は、代数系が満たす公理（結合律・単位元の存在・逆元の存在など）の組み合わせによって、対象を段階的に分類していきます。
+
+$$\text{群} \;\longrightarrow\; \text{環} \;\longrightarrow\; \text{体}$$
+
+演算を1つ持つ最も基本的な構造が**群**、2つ目の演算（掛け算）を加えたものが**環**、さらに0以外のすべての要素に乗法の逆元があるものが**体**です。公理を追加するたびに使える定理は強力になりますが、その分あてはまる具体例は絞られていきます——群の定理はすべての環・体にも成り立ちますが、体だけに成り立つ定理は一般の群には使えません。
 
 ---
 
@@ -33,8 +41,7 @@ requires:
 
 ## 関連ページ
 
-- [多項式（応用編）](/math/advanced/algebra/polynomials.md)
 - [群（発展編）](abstract-groups.md)
 - [環と体（発展編）](abstract-rings-fields.md)
 - [準同型・同型（発展編）](abstract-homomorphisms.md)
-- [位相幾何学（発展編）](/math/bachelor/geometry/topology.md)
+- [位相幾何学（発展編）](../geometry/topology.md)

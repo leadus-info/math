@@ -1,22 +1,22 @@
 ---
 title: 二次関数
 description: "グラフが放物線になる関数"
-goal: "二次関数の定義と平方完成による頂点の求め方を理解し、判別式を使ってグラフとx軸の関係を説明できるようになる"
+goal: "二次関数の定義と平方完成による頂点の求め方を理解し、最大値・最小値を求めたり判別式を使ってグラフとx軸の関係を説明したりできるようになる"
 tags: [math, specific-functions, quadratic]
 stage: 応用編
 subject: 具体的な関数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 二次関数
-    path: /math/advanced/specific-functions/quadratic.md
+    path: quadratic.md
 requires:
-  - title: 関数y=ax²
-    path: /math/intermediate/functions/quadratic.md
+  - title: 二次関数
+    path: ../../intermediate/functions/quadratic.md
   - title: 展開・因数分解
-    path: /math/intermediate/algebra/expressions-expansion-factoring.md
+    path: ../../intermediate/algebra/expressions-expansion-factoring.md
 ---
 
 ## 放物線という形
@@ -31,8 +31,8 @@ requires:
 
 **定義**：$f(x) = ax^2 + bx + c$（$a \neq 0$）を**二次関数**といいます。
 
-- $a > 0$：下に開く（$\cup$ 形）
-- $a < 0$：上に開く（$\cap$ 形）
+- $a > 0$：上に開く（$\cup$ 形）
+- $a < 0$：下に開く（$\cap$ 形）
 
 ---
 
@@ -42,9 +42,22 @@ requires:
 
 $$f(x) = a\left(x + \frac{b}{2a}\right)^2 - \frac{b^2 - 4ac}{4a}$$
 
-頂点は $\left(-\dfrac{b}{2a},\ -\dfrac{b^2-4ac}{4a}\right)$ です。
+頂点は $\left(-\dfrac{b}{2a},\ -\dfrac{b^2-4ac}{4a}\right)$ です。この式は、$y=ax^2$ のグラフを $x$ 軸方向に $-\dfrac{b}{2a}$、$y$ 軸方向に $-\dfrac{b^2-4ac}{4a}$ だけ**平行移動**したものと見ることができます。
 
 **例題**：$f(x) = x^2 + 4x + 1$ を平方完成する。$f(x) = (x+2)^2 - 4 + 1 = (x+2)^2 - 3$。頂点は $(-2, -3)$。
+
+---
+
+## 最大値・最小値
+
+頂点の $y$ 座標は、そのまま二次関数の**最大値**または**最小値**になります。
+
+- $a > 0$（下に凸）：頂点で**最小値**をとり、最大値はない
+- $a < 0$（上に凸）：頂点で**最大値**をとり、最小値はない
+
+**例**：上の $f(x)=x^2+4x+1=(x+2)^2-3$ は $a=1>0$ なので、$x=-2$ で最小値 $-3$ をとり、最大値はありません。
+
+定義域が実数全体でなく、ある区間に制限されている場合は、頂点がその区間に含まれるかどうかで最大値・最小値の位置が変わります。頂点が区間の外にあるときは、区間の端で最大値・最小値をとります。
 
 ---
 
@@ -79,6 +92,5 @@ $$ax^2 + bx + c > 0 \iff x < \alpha \text{ または } x > \beta$$
 
 ## 関連ページ
 
-- [一次関数（中級編）](/math/intermediate/functions/linear.md)
-- [関数y=ax²（中級編）](/math/intermediate/functions/quadratic.md)
-- [多項式（応用編）](/math/advanced/algebra/polynomials.md)
+- [一次関数（中級編）](../../intermediate/functions/linear.md)
+- [多項式（応用編）](../algebra/polynomials.md)

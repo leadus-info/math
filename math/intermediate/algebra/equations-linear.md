@@ -1,17 +1,17 @@
 ---
 title: 一次方程式
 description: "未知数が1次の方程式を解く"
-goal: "一次方程式を移項によって解けるようになる"
+goal: "一次方程式を移項によって解け、比例式をxについて解けるようになる"
 tags: [math, algebra, equations]
 stage: 中級編
 subject: 代数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 中級編
-    path: /math/intermediate/index.md
+    path: ../index.md
   - title: 一次方程式
-    path: /math/intermediate/algebra/equations-linear.md
+    path: equations-linear.md
 requires:
   - title: 等号・等式
     path: equations.md
@@ -29,13 +29,24 @@ $$2x + 3 = 7$$
 
 ---
 
+## 比例式
+
+$a:b = c:d$ のように、比が等しいことを表す式を**比例式**といいます。比例式は「外側どうしの積 $=$ 内側どうしの積」という性質を使うと、方程式に直せます。
+
+$$a:b = c:d \implies ad = bc$$
+
+これは、比 $a:b$、$c:d$ をそれぞれ分数 $\dfrac{a}{b}$、$\dfrac{c}{b}$ とみて、$\dfrac{a}{b} = \dfrac{c}{d}$ の両辺に $bd$ をかけると得られます。
+
+**例題**：$x : 6 = 2 : 3$ を満たす $x$ を求める。外側どうし・内側どうしの積を使うと $3x = 12$、よって $x = 4$。
+
+---
+
 ## まとめ
 
-一次方程式は、両辺から同じ数を引いたり、両辺を同じ数で割ったりして（移項して）$x$ だけを残すことで解けます。
+一次方程式は、両辺から同じ数を引いたり、両辺を同じ数で割ったりして（移項して）$x$ だけを残すことで解けます。比例式 $a:b=c:d$ は $ad=bc$ という一次方程式に直して解けます。
 
 ---
 
 ## 関連ページ
 
-- [等号・等式（中級編）](equations.md)
 - [連立方程式（中級編）](equations-simultaneous.md)

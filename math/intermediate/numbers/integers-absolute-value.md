@@ -7,11 +7,11 @@ stage: 中級編
 subject: 数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 中級編
-    path: /math/intermediate/index.md
+    path: ../index.md
   - title: 絶対値
-    path: /math/intermediate/numbers/integers-absolute-value.md
+    path: integers-absolute-value.md
 requires:
   - title: 負数
     path: integers.md
@@ -33,5 +33,4 @@ $$|a| = \begin{cases} a & (a \geq 0) \\ -a & (a < 0) \end{cases}$$
 
 ## 関連ページ
 
-- [負数（中級編）](integers.md)
 - [負の数の掛け算・割り算（中級編）](integers-multiplication-division.md)

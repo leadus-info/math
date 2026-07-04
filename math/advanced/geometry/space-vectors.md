@@ -7,11 +7,11 @@ stage: 応用編
 subject: 幾何
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 空間座標とベクトル
-    path: /math/advanced/geometry/space-vectors.md
+    path: space-vectors.md
 requires:
   - title: ベクトル
     path: vectors.md
@@ -63,5 +63,4 @@ $$\overrightarrow{OA}\cdot\overrightarrow{BC} = \vec{a}\cdot(\vec{c}-\vec{b}) = 
 
 ## 関連ページ
 
-- [ベクトル（応用編）](vectors.md)
-- [空間図形（中級編）](/math/intermediate/geometry/solids.md)
+- [空間図形（中級編）](../../intermediate/geometry/solids.md)

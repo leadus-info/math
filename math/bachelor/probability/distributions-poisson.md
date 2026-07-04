@@ -7,11 +7,11 @@ stage: 発展編
 subject: 確率
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 発展編
-    path: /math/bachelor/index.md
+    path: ../index.md
   - title: ポアソン分布
-    path: /math/bachelor/probability/distributions-poisson.md
+    path: distributions-poisson.md
 requires:
   - title: 二項分布
     path: distributions-binomial.md
@@ -37,5 +37,4 @@ $n$ が大きく $p$ が小さい二項分布 $B(n,p)$（$\lambda = np$ 固定�
 
 ## 関連ページ
 
-- [二項分布（発展編）](distributions-binomial.md)
 - [正規分布（発展編）](distributions-normal.md)

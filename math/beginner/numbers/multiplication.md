@@ -7,11 +7,11 @@ stage: 初級編
 subject: 数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 初級編
-    path: /math/beginner/index.md
+    path: ../index.md
   - title: 掛け算
-    path: /math/beginner/numbers/multiplication.md
+    path: multiplication.md
 requires:
   - title: 足し算
     path: addition.md
@@ -71,5 +71,4 @@ $$a \times (b + c) = a \times b + a \times c$$
 
 ## 関連ページ
 
-- [足し算（初級編）](addition.md)
 - [割り算（初級編）](division.md)

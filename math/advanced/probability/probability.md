@@ -7,14 +7,14 @@ stage: 応用編
 subject: 確率
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 確率
-    path: /math/advanced/probability/probability.md
+    path: probability.md
 requires:
   - title: 場合の数
-    path: /math/advanced/probability/counting.md
+    path: counting.md
 ---
 
 ## 「どれくらい起きやすいか」を数で表す
@@ -95,6 +95,5 @@ $$E[X] = x_1p_1 + x_2p_2 + \cdots + x_np_n$$
 
 ## 関連ページ
 
-- [場合の数（応用編）](counting.md)
 - [条件付き確率とベイズの定理（応用編）](probability-conditional.md)
-- [確率分布（発展編）](/math/bachelor/probability/distributions.md)
+- [確率分布（発展編）](../../bachelor/probability/distributions.md)

@@ -7,11 +7,11 @@ stage: 初級編
 subject: 数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 初級編
-    path: /math/beginner/index.md
+    path: ../index.md
   - title: 分数の引き算
-    path: /math/beginner/numbers/fractions-subtraction.md
+    path: fractions-subtraction.md
 requires:
   - title: 分数の足し算
     path: fractions-addition.md
@@ -47,5 +47,4 @@ $$\frac{3}{4} - \frac{1}{6} = \frac{9}{12} - \frac{2}{12} = \frac{7}{12}$$
 
 ## 関連ページ
 
-- [足し算（初級編）](fractions-addition.md)
 - [掛け算（初級編）](fractions-multiplication.md)

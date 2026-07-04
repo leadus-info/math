@@ -7,14 +7,14 @@ stage: 応用編
 subject: 代数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 等式・不等式の証明
-    path: /math/advanced/algebra/inequality-proofs.md
+    path: inequality-proofs.md
 requires:
-  - title: 三次の乗法公式
-    path: cubic-expansion.md
+  - title: 展開・因数分解
+    path: ../../intermediate/algebra/expressions-expansion-factoring.md
 ---
 
 ## 恒等式
@@ -59,5 +59,4 @@ $$\frac{a+b}{2} \geq \sqrt{ab} \quad (\text{等号は } a=b \text{ のとき})$$
 
 ## 関連ページ
 
-- [三次の乗法公式（応用編）](cubic-expansion.md)
-- [二次関数（応用編）](/math/advanced/specific-functions/quadratic.md)
+- [二次関数（応用編）](../specific-functions/quadratic.md)

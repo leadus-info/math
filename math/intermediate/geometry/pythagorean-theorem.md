@@ -7,16 +7,14 @@ stage: 中級編
 subject: 幾何
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 中級編
-    path: /math/intermediate/index.md
+    path: ../index.md
   - title: 三平方の定理
-    path: /math/intermediate/geometry/pythagorean-theorem.md
+    path: pythagorean-theorem.md
 requires:
-  - title: 円周角の定理
-    path: circle-angles.md
   - title: 平方根
-    path: /math/intermediate/numbers/arithmetic-square-root.md
+    path: ../numbers/arithmetic-square-root.md
 ---
 
 ## 直角三角形の3辺の関係
@@ -63,6 +61,4 @@ $$\text{距離} = \sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}$$
 
 ## 関連ページ
 
-- [円周角の定理（中級編）](circle-angles.md)
-- [平方根（中級編）](/math/intermediate/numbers/arithmetic-square-root.md)
 - [空間図形の計量（中級編）](solids-measurement.md)

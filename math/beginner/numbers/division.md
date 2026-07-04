@@ -7,11 +7,11 @@ stage: 初級編
 subject: 数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 初級編
-    path: /math/beginner/index.md
+    path: ../index.md
   - title: 割り算
-    path: /math/beginner/numbers/division.md
+    path: division.md
 requires:
   - title: 掛け算
     path: multiplication.md
@@ -57,6 +57,5 @@ $1 \times 3 = 3$、$2 \times 3 = 6$、$3 \times 3 = 9$——ぴったり7にな�
 
 ## 関連ページ
 
-- [掛け算（初級編）](multiplication.md)
 - [倍数と約数（初級編）](multiples-divisors.md)
 - [分数（初級編）](fractions.md)

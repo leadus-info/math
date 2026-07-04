@@ -7,11 +7,11 @@ stage: 発展編
 subject: 代数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 発展編
-    path: /math/bachelor/index.md
+    path: ../index.md
   - title: 群
-    path: /math/bachelor/algebra/abstract-groups.md
+    path: abstract-groups.md
 requires:
   - title: 抽象代数
     path: abstract.md
@@ -53,5 +53,4 @@ $a \in G$ に対する $H$ の**左剰余類**を $aH = \{ah \mid h \in H\}$ で
 
 ## 関連ページ
 
-- [抽象代数（発展編）](abstract.md)
 - [環と体（発展編）](abstract-rings-fields.md)

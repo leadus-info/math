@@ -7,11 +7,11 @@ stage: 初級編
 subject: 数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 初級編
-    path: /math/beginner/index.md
+    path: ../index.md
   - title: 分数の掛け算
-    path: /math/beginner/numbers/fractions-multiplication.md
+    path: fractions-multiplication.md
 requires:
   - title: 分数
     path: fractions.md
@@ -63,5 +63,4 @@ $$\frac{2}{3} \times \frac{3}{4} = \frac{2 \times \cancel{3}}{\cancel{3} \times 
 
 ## 関連ページ
 
-- [分数（初級編）](fractions.md)
 - [割り算（初級編）](fractions-division.md)

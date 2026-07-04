@@ -7,11 +7,11 @@ stage: 初級編
 subject: 幾何
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 初級編
-    path: /math/beginner/index.md
+    path: ../index.md
   - title: 直線
-    path: /math/beginner/geometry/shapes-line.md
+    path: shapes-line.md
 requires:
   - title: 図形
     path: shapes.md
@@ -20,6 +20,8 @@ requires:
 ## 直線とは
 
 まっすぐで、両方向に限りなく伸びる線を**直線**といいます。2点を決めると、その2点を通る直線はただ1本に決まります。
+
+直線のうち、2点の間の部分だけを切り取ったものを**線分**といいます。三角形や四角形の辺のように、長さが決まっている真っすぐな線は線分です。
 
 ---
 
@@ -37,12 +39,11 @@ requires:
 
 ## まとめ
 
-直線は両方向に限りなく伸びるまっすぐな線です。2本の直線の関係には平行・垂直があり、直線が交わってできる角の大きさは度で数値化されます。
+直線は両方向に限りなく伸びるまっすぐな線で、その一部を切り取った長さの決まった線が線分です。2本の直線の関係には平行・垂直があり、直線が交わってできる角の大きさは度で数値化されます。
 
 ---
 
 ## 関連ページ
 
-- [図形（初級編）](shapes.md)
 - [三角形（初級編）](shapes-triangle.md)
 - [四角形（初級編）](shapes-quadrilateral.md)

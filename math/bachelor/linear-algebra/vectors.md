@@ -7,14 +7,16 @@ stage: 発展編
 subject: 線形代数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 発展編
-    path: /math/bachelor/index.md
+    path: ../index.md
   - title: ベクトル
-    path: /math/bachelor/linear-algebra/vectors.md
+    path: vectors.md
 requires:
   - title: 空間座標とベクトル
-    path: /math/advanced/geometry/space-vectors.md
+    path: ../../advanced/geometry/space-vectors.md
+  - title: 環と体
+    path: ../algebra/abstract-rings-fields.md
 ---
 
 ## 大きさだけでは足りない
@@ -84,4 +86,4 @@ $$c_1\boldsymbol{v}_1 + \cdots + c_k\boldsymbol{v}_k = \boldsymbol{0} \implies c
 ## 関連ページ
 
 - [行列（発展編）](matrices.md)
-- [線形写像（発展編）](/math/bachelor/linear-algebra/linear-maps.md)
+- [線形写像（発展編）](linear-maps.md)

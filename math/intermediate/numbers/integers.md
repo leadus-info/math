@@ -7,14 +7,14 @@ stage: 中級編
 subject: 数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 中級編
-    path: /math/intermediate/index.md
+    path: ../index.md
   - title: 負数
-    path: /math/intermediate/numbers/integers.md
+    path: integers.md
 requires:
   - title: 引き算
-    path: /math/beginner/numbers/subtraction.md
+    path: ../../beginner/numbers/subtraction.md
 ---
 
 ## 引き算の壁をもう一度見てみる
@@ -56,7 +56,7 @@ $\boxed{?}$ に当てはまる自然数はありませんでした。$1, 2, 3, \
 
 ## 関連ページ
 
-- [自然数（初級編）](/math/beginner/numbers/natural-numbers.md)
+- [自然数（初級編）](../../beginner/numbers/natural-numbers.md)
 - [足し算・引き算（中級編）](integers-addition-subtraction.md)
 - [掛け算・割り算（中級編）](integers-multiplication-division.md)
 - [絶対値（中級編）](integers-absolute-value.md)

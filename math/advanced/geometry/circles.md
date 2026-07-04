@@ -7,14 +7,16 @@ stage: 応用編
 subject: 幾何
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 円
-    path: /math/advanced/geometry/circles.md
+    path: circles.md
 requires:
   - title: 点
-    path: /math/advanced/geometry/point.md
+    path: point.md
+  - title: 直線
+    path: line.md
 ---
 
 ## 円とは
@@ -88,4 +90,4 @@ $$\cos^2\theta + \sin^2\theta = 1$$
 ## 関連ページ
 
 - [三角形（応用編）](triangles.md)
-- [三角関数（応用編）](/math/advanced/specific-functions/trigonometric.md)
+- [三角関数（応用編）](../specific-functions/trigonometric.md)

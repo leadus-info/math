@@ -7,19 +7,21 @@ stage: 中級編
 subject: 関数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 中級編
-    path: /math/intermediate/index.md
+    path: ../index.md
   - title: 関数とは
-    path: /math/intermediate/functions/functions.md
+    path: functions.md
 requires:
-  - title: 割合と比例
-    path: /math/beginner/numbers/ratio.md
+  - title: 比例
+    path: ../../beginner/numbers/ratio-direct-proportion.md
+  - title: 反比例
+    path: ../../beginner/numbers/ratio-inverse-proportion.md
 ---
 
 ## 関数の意味
 
-割合と比例（初級編）で、比例・反比例という2つの数量の関係を見ました。ここでは、これらをもう少し一般的な視点でとらえ直します。
+比例・反比例（初級編）という2つの数量の関係を見ました。ここでは、これらをもう少し一般的な視点でとらえ直します。
 
 2つの数量 $x$、$y$ があって、$x$ の値を1つ決めると、それに対応する $y$ の値がただ1つに決まるとき、「$y$ は $x$ の**関数**である」といいます。$x$ や $y$ のように、いろいろな値を取りうる文字を**変数**、変数が取りうる値の範囲を**変域**といいます。
 
@@ -33,7 +35,7 @@ requires:
 
 ## 比例・反比例を関数として表す
 
-比例・反比例（初級編）では、変域は0以上の数に限られていました。ここでは、変域を負の数を含む数全体まで広げて、式で表し直します。
+比例・反比例では、変域は0以上の数に限られていました。ここでは、変域を負の数を含む数全体まで広げて、式で表し直します。
 
 **比例**：$y$ が $x$ に比例するとき、$y = ax$（$a$ は比例定数）と表せます。$a = \dfrac{y}{x}$ が一定であることと同じ意味です。グラフは原点を通る直線になります。
 
@@ -51,5 +53,4 @@ $x$ の値を決めると $y$ の値がただ1つに決まる関係を関数と�
 
 ## 関連ページ
 
-- [割合と比例（初級編）](/math/beginner/numbers/ratio.md)
 - [一次関数（中級編）](linear.md)

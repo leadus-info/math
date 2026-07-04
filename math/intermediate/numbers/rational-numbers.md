@@ -7,14 +7,14 @@ stage: 中級編
 subject: 数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 中級編
-    path: /math/intermediate/index.md
+    path: ../index.md
   - title: 有理数
-    path: /math/intermediate/numbers/rational-numbers.md
+    path: rational-numbers.md
 requires:
   - title: 小数
-    path: /math/beginner/numbers/decimals.md
+    path: ../../beginner/numbers/decimals.md
 ---
 
 ## 有理数の定義

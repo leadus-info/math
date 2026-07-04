@@ -7,11 +7,11 @@ stage: 応用編
 subject: 確率
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 正規分布
-    path: /math/advanced/probability/normal-distribution.md
+    path: normal-distribution.md
 requires:
   - title: 二項分布
     path: binomial-distribution.md
@@ -69,5 +69,4 @@ $$Z = \frac{X-\mu}{\sigma}$$
 
 ## 関連ページ
 
-- [二項分布（応用編）](binomial-distribution.md)
 - [統計的な推測（応用編）](statistical-inference.md)

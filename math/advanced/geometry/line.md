@@ -7,11 +7,11 @@ stage: 応用編
 subject: 幾何
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 直線
-    path: /math/advanced/geometry/line.md
+    path: line.md
 requires:
   - title: 点
     path: point.md
@@ -84,6 +84,5 @@ $$d = \frac{|3 \cdot 2 - 4 \cdot 3 + 1|}{\sqrt{9+16}} = \frac{|6-12+1|}{5} = \fr
 
 ## 関連ページ
 
-- [点（応用編）](point.md)
-- [一次関数（中級編）](/math/intermediate/functions/linear.md)
-- [三角形（応用編）](/math/advanced/geometry/triangles.md)
+- [一次関数（中級編）](../../intermediate/functions/linear.md)
+- [三角形（応用編）](triangles.md)

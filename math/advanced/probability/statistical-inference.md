@@ -7,16 +7,16 @@ stage: 応用編
 subject: 確率
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 統計的な推測
-    path: /math/advanced/probability/statistical-inference.md
+    path: statistical-inference.md
 requires:
   - title: 正規分布
     path: normal-distribution.md
   - title: 標本調査
-    path: /math/intermediate/probability/sampling.md
+    path: ../../intermediate/probability/sampling.md
 ---
 
 ## 標本平均の分布
@@ -72,6 +72,4 @@ $H_0$ のもとで、表の出る回数 $X$ は $B(100, 0.5)$ に従い、正規
 
 ## 関連ページ
 
-- [正規分布（応用編）](normal-distribution.md)
-- [標本調査（中級編）](/math/intermediate/probability/sampling.md)
-- [統計（発展編）](/math/bachelor/probability/statistics.md)
+- [統計（発展編）](../../bachelor/probability/statistics.md)

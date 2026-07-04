@@ -7,11 +7,11 @@ stage: 初級編
 subject: 数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 初級編
-    path: /math/beginner/index.md
+    path: ../index.md
   - title: 測定
-    path: /math/beginner/numbers/measurement.md
+    path: measurement.md
 requires:
   - title: 自然数
     path: natural-numbers.md
@@ -55,10 +55,10 @@ requires:
 
 ## 関連ページ
 
-- [自然数（初級編）](natural-numbers.md)
 - [長さ（初級編）](measurement-length.md)
 - [広さ・かさ（初級編）](measurement-area.md)
 - [重さ（初級編）](measurement-weight.md)
 - [時間（初級編）](measurement-time.md)
-- [図形（初級編）](/math/beginner/geometry/shapes.md)
-- [割合と比例（初級編）](ratio.md)
+- [体積（初級編）](measurement-volume.md)
+- [図形（初級編）](../geometry/shapes.md)
+- [割合（初級編）](ratio.md)
