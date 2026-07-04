@@ -15,6 +15,8 @@ hierarchy:
 requires:
   - title: 確率分布
     path: distributions.md
+  - title: 二項分布
+    path: /math/advanced/probability/binomial-distribution.md
 ---
 
 ## $B(n, p)$

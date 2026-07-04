@@ -15,6 +15,8 @@ hierarchy:
 requires:
   - title: ポアソン分布
     path: distributions-poisson.md
+  - title: 正規分布
+    path: /math/advanced/probability/normal-distribution.md
 ---
 
 ## $N(\mu, \sigma^2)$

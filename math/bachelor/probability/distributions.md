@@ -13,8 +13,8 @@ hierarchy:
   - title: 確率分布
     path: /math/bachelor/probability/distributions.md
 requires:
-  - title: 確率
-    path: /math/advanced/probability/probability.md
+  - title: 確率変数と確率分布
+    path: /math/advanced/probability/random-variables.md
   - title: 積分
     path: /math/advanced/analysis/integrals.md
 ---

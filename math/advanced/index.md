@@ -164,3 +164,11 @@ hierarchy:
 分散・標準偏差・相関係数でデータの特徴を数値化し、仮説検定の考え方を扱います。
 
 - [データの分析](probability/data-analysis.md)
+
+### 統計的な推測
+確率変数と確率分布、二項分布・正規分布、標本平均の分布を使った区間推定・仮説検定を扱います。
+
+- [確率変数と確率分布](probability/random-variables.md)
+- [二項分布](probability/binomial-distribution.md)
+- [正規分布](probability/normal-distribution.md)
+- [統計的な推測](probability/statistical-inference.md)
