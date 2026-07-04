@@ -33,5 +33,4 @@ requires:
 
 ## 関連ページ
 
-- [証明法（応用編）](proofs.md)
 - [対偶証明（応用編）](proofs-contrapositive.md)

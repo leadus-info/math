@@ -35,4 +35,4 @@ requires:
 
 ## 関連ページ
 
-- [一次不等式（中級編）](inequalities-linear.md)
+- [不等号・不等式（中級編）](inequalities.md)

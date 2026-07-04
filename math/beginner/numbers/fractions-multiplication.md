@@ -63,5 +63,4 @@ $$\frac{2}{3} \times \frac{3}{4} = \frac{2 \times \cancel{3}}{\cancel{3} \times 
 
 ## 関連ページ
 
-- [分数（初級編）](fractions.md)
 - [割り算（初級編）](fractions-division.md)

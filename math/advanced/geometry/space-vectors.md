@@ -63,5 +63,4 @@ $$\overrightarrow{OA}\cdot\overrightarrow{BC} = \vec{a}\cdot(\vec{c}-\vec{b}) = 
 
 ## 関連ページ
 
-- [ベクトル（応用編）](vectors.md)
 - [空間図形（中級編）](/math/intermediate/geometry/solids.md)

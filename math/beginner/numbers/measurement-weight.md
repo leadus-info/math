@@ -37,5 +37,4 @@ $300\text{g}$ のものと $500\text{g}$ のものを合わせると、重さの
 
 ## 関連ページ
 
-- [広さ・かさ（初級編）](measurement-area.md)
 - [時間（初級編）](measurement-time.md)

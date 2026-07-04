@@ -69,5 +69,4 @@ $$Z = \frac{X-\mu}{\sigma}$$
 
 ## 関連ページ
 
-- [二項分布（応用編）](binomial-distribution.md)
 - [統計的な推測（応用編）](statistical-inference.md)

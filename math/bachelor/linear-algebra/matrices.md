@@ -49,7 +49,6 @@ $m$ 行 $n$ 列の行列は数を $m \times n$ の格子に並べたもので、
 
 ## 関連ページ
 
-- [ベクトル（発展編）](vectors.md)
 - [行列の積（発展編）](matrices-product.md)
 - [行列式（発展編）](matrices-determinant.md)
 - [逆行列（発展編）](matrices-inverse.md)

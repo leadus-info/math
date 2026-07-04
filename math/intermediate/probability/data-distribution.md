@@ -59,6 +59,5 @@ $$\text{範囲} = \text{最大値} - \text{最小値}$$
 
 ## 関連ページ
 
-- [データの活用（初級編）](/math/beginner/probability/data.md)
 - [四分位範囲と箱ひげ図（中級編）](box-plot.md)
 - [多数回の試行による確率（中級編）](empirical-probability.md)

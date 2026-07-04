@@ -47,5 +47,4 @@ $$\frac{3}{4} - \frac{1}{6} = \frac{9}{12} - \frac{2}{12} = \frac{7}{12}$$
 
 ## 関連ページ
 
-- [足し算（初級編）](fractions-addition.md)
 - [掛け算（初級編）](fractions-multiplication.md)

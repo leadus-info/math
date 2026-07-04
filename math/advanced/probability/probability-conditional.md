@@ -50,4 +50,4 @@ $$P(\text{罹患} \mid \text{陽性}) = \frac{0.99 \times 0.01}{0.0594} \approx 
 
 ## 関連ページ
 
-- [確率（応用編）](probability.md)
+- [確率変数と確率分布（応用編）](random-variables.md)

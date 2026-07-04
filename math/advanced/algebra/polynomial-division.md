@@ -73,5 +73,4 @@ $A = (x-\alpha)Q + R$ において $R$ は定数（$x-\alpha$ より次数が低
 
 ## 関連ページ
 
-- [多項式（応用編）](polynomials.md)
 - [複素数（応用編）](/math/advanced/numbers/complex-numbers.md)

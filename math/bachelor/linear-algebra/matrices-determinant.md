@@ -35,5 +35,4 @@ $$\det\begin{pmatrix}a&b\\c&d\end{pmatrix} = ad - bc$$
 
 ## 関連ページ
 
-- [行列の積（発展編）](matrices-product.md)
 - [逆行列（発展編）](matrices-inverse.md)

@@ -33,5 +33,4 @@ $$|a| = \begin{cases} a & (a \geq 0) \\ -a & (a < 0) \end{cases}$$
 
 ## 関連ページ
 
-- [負数（中級編）](integers.md)
 - [負の数の掛け算・割り算（中級編）](integers-multiplication-division.md)

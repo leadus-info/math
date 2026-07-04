@@ -37,5 +37,4 @@ $$2x + 3 = 7$$
 
 ## 関連ページ
 
-- [等号・等式（中級編）](equations.md)
 - [連立方程式（中級編）](equations-simultaneous.md)

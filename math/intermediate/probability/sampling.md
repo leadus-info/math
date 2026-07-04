@@ -57,5 +57,4 @@ requires:
 
 ## 関連ページ
 
-- [四分位範囲と箱ひげ図（中級編）](box-plot.md)
 - [統計（発展編）](/math/bachelor/probability/statistics.md)

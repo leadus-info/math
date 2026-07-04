@@ -53,5 +53,4 @@ $a \in G$ に対する $H$ の**左剰余類**を $aH = \{ah \mid h \in H\}$ で
 
 ## 関連ページ
 
-- [抽象代数（発展編）](abstract.md)
 - [環と体（発展編）](abstract-rings-fields.md)

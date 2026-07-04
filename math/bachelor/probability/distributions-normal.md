@@ -39,6 +39,5 @@ $$f(x) = \frac{1}{\sqrt{2\pi}\sigma} \exp\left(-\frac{(x-\mu)^2}{2\sigma^2}\righ
 
 ## 関連ページ
 
-- [ポアソン分布（発展編）](distributions-poisson.md)
 - [指数分布（発展編）](distributions-exponential.md)
 - [統計（発展編）](statistics.md)

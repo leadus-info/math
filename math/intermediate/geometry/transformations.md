@@ -57,5 +57,4 @@ requires:
 
 ## 関連ページ
 
-- [対称（初級編）](/math/beginner/geometry/shapes-symmetry.md)
 - [基本の作図（中級編）](constructions.md)

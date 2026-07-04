@@ -83,4 +83,4 @@ $$\hat{\beta}_1 = \frac{\sum(x_i - \bar{x})(y_i - \bar{y})}{\sum(x_i - \bar{x})^
 
 ## 関連ページ
 
-- [確率分布（発展編）](distributions.md)
+- [正規分布（発展編）](distributions-normal.md)

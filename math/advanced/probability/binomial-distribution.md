@@ -51,5 +51,4 @@ $$E(X) = 720\times\frac16=120, \qquad \sigma(X)=\sqrt{720\times\frac16\times\fra
 
 ## 関連ページ
 
-- [確率変数と確率分布（応用編）](random-variables.md)
 - [正規分布（応用編）](normal-distribution.md)

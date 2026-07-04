@@ -61,5 +61,4 @@ $$\angle A + \angle B + \angle C = 180°$$
 
 ## 関連ページ
 
-- [多角形（中級編）](polygons.md)
 - [合同と証明（中級編）](congruence.md)

@@ -62,6 +62,4 @@ requires:
 
 ## 関連ページ
 
-- [図形の移動（中級編）](transformations.md)
 - [空間図形の計量（中級編）](solids-measurement.md)
-- [図形（初級編）](/math/beginner/geometry/shapes.md)

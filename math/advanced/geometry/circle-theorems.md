@@ -69,5 +69,4 @@ $P$ から円への接線の長さ $PT$ についても、$PT^2 = PA\cdot PB$ �
 
 ## 関連ページ
 
-- [円周角の定理（中級編）](/math/intermediate/geometry/circle-angles.md)
 - [三角形の性質の応用（応用編）](triangle-theorems.md)

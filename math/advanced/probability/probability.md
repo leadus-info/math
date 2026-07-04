@@ -95,6 +95,5 @@ $$E[X] = x_1p_1 + x_2p_2 + \cdots + x_np_n$$
 
 ## 関連ページ
 
-- [場合の数（応用編）](counting.md)
 - [条件付き確率とベイズの定理（応用編）](probability-conditional.md)
 - [確率分布（発展編）](/math/bachelor/probability/distributions.md)

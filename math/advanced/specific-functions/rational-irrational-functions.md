@@ -55,5 +55,4 @@ $$y = \sqrt{a(x-p)} + q$$
 
 ## 関連ページ
 
-- [二次関数（応用編）](quadratic.md)
 - [極限（応用編）](/math/advanced/analysis/limits.md)

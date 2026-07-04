@@ -79,7 +79,6 @@ $\frac{1}{3} = 0.333\ldots$ のように、割り算が終わらず同じ数字�
 
 ## 関連ページ
 
-- [分数（初級編）](fractions.md)
 - [足し算（初級編）](decimals-addition.md)
 - [引き算（初級編）](decimals-subtraction.md)
 - [掛け算（初級編）](decimals-multiplication.md)

@@ -57,6 +57,5 @@ $1 \times 3 = 3$、$2 \times 3 = 6$、$3 \times 3 = 9$——ぴったり7にな�
 
 ## 関連ページ
 
-- [掛け算（初級編）](multiplication.md)
 - [倍数と約数（初級編）](multiples-divisors.md)
 - [分数（初級編）](fractions.md)

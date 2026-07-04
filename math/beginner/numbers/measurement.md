@@ -55,7 +55,6 @@ requires:
 
 ## 関連ページ
 
-- [自然数（初級編）](natural-numbers.md)
 - [長さ（初級編）](measurement-length.md)
 - [広さ・かさ（初級編）](measurement-area.md)
 - [重さ（初級編）](measurement-weight.md)

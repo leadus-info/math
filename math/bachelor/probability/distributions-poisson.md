@@ -37,5 +37,4 @@ $n$ が大きく $p$ が小さい二項分布 $B(n,p)$（$\lambda = np$ 固定�
 
 ## 関連ページ
 
-- [二項分布（発展編）](distributions-binomial.md)
 - [正規分布（発展編）](distributions-normal.md)

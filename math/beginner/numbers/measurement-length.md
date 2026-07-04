@@ -35,5 +35,4 @@ $$1\text{cm} = 10\text{mm}, \qquad 1\text{m} = 100\text{cm}, \qquad 1\text{km} =
 
 ## 関連ページ
 
-- [測定（初級編）](measurement.md)
 - [広さ・かさ（初級編）](measurement-area.md)

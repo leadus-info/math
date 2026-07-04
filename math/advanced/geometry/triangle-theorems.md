@@ -63,6 +63,4 @@ $$\frac{BD}{DC}\cdot\frac{CE}{EA}\cdot\frac{AF}{FB} = 1$$
 
 ## 関連ページ
 
-- [三角形（応用編）](triangles.md)
-- [相似（中級編）](/math/intermediate/geometry/similarity.md)
 - [円の性質（応用編）](circle-theorems.md)

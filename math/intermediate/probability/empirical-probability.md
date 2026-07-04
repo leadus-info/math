@@ -51,5 +51,4 @@ $$\text{確率} \approx \frac{\text{その結果が起きた回数}}{\text{試�
 
 ## 関連ページ
 
-- [ヒストグラムと相対度数（中級編）](data-distribution.md)
 - [場合の数を基にした確率（中級編）](basic-probability.md)

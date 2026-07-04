@@ -55,5 +55,4 @@ $$\text{四分位範囲} = \text{第3四分位数} - \text{第1四分位数}$$
 
 ## 関連ページ
 
-- [ヒストグラムと相対度数（中級編）](data-distribution.md)
 - [標本調査（中級編）](sampling.md)

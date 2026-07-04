@@ -79,6 +79,4 @@ $$\lim_{\|h\|\to 0} \frac{\|F(x_0+h) - F(x_0) - Ah\|}{\|h\|} = 0$$
 
 ## 関連ページ
 
-- [微分（応用編）](/math/advanced/analysis/derivatives.md)
-- [極限の厳密な定義（発展編）](epsilon-delta.md)
 - [リーマン積分（発展編）](riemann-integral.md)

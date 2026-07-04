@@ -45,6 +45,5 @@ $\sqrt{2}$ のように分数でどうしても表せない数（無理数）が
 
 ## 関連ページ
 
-- [有理数（中級編）](rational-numbers.md)
 - [背理法（応用編）](/math/advanced/foundations/proofs-contradiction.md)
 - [実数（発展編）](/math/bachelor/numbers/real-numbers.md)

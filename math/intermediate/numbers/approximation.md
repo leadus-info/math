@@ -59,5 +59,4 @@ $$150000000 = 1.5 \times 10^8$$
 
 ## 関連ページ
 
-- [平方根（中級編）](arithmetic-square-root.md)
 - [累乗（中級編）](arithmetic.md)

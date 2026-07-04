@@ -49,4 +49,4 @@ $3 \times 1 = 3$、$3 \times 2 = 6$、$3 \times 3 = 9$、$3 \times 4 = 12$、…
 
 ## 関連ページ
 
-- [割り算（初級編）](division.md)
+- [素因数分解（中級編）](/math/intermediate/numbers/prime-factorization.md)

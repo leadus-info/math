@@ -95,5 +95,4 @@ $$P \Rightarrow Q \iff A \subset B$$
 
 ## 関連ページ
 
-- [集合（応用編）](sets.md)
 - [証明法（応用編）](proofs.md)

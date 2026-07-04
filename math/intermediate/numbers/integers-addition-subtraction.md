@@ -45,5 +45,4 @@ $$a - b = a + (-b)$$
 
 ## 関連ページ
 
-- [負数（中級編）](integers.md)
 - [掛け算・割り算（中級編）](integers-multiplication-division.md)

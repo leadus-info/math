@@ -73,5 +73,4 @@ $$r = \frac{\sum(x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum(x_i-\bar{x})^2}\sqrt{
 
 ## 関連ページ
 
-- [四分位範囲と箱ひげ図（中級編）](/math/intermediate/probability/box-plot.md)
 - [統計的な推測（応用編）](statistical-inference.md)

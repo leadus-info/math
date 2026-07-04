@@ -59,6 +59,5 @@ $$\text{確率} = \frac{\text{その事象が起こる場合の数}}{\text{起�
 
 ## 関連ページ
 
-- [多数回の試行による確率（中級編）](empirical-probability.md)
 - [場合の数（応用編）](/math/advanced/probability/counting.md)
 - [確率（応用編）](/math/advanced/probability/probability.md)

@@ -80,6 +80,5 @@ $$S = \frac{1}{2}ab\sin C$$
 
 ## 関連ページ
 
-- [三平方の定理（中級編）](/math/intermediate/geometry/pythagorean-theorem.md)
 - [三角形（応用編）](triangles.md)
 - [三角関数（応用編）](/math/advanced/specific-functions/trigonometric.md)

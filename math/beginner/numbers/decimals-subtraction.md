@@ -41,5 +41,4 @@ $$3.40 - 1.28 = 2.12$$
 
 ## 関連ページ
 
-- [足し算（初級編）](decimals-addition.md)
 - [掛け算（初級編）](decimals-multiplication.md)

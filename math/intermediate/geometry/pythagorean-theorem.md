@@ -63,6 +63,4 @@ $$\text{距離} = \sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}$$
 
 ## 関連ページ
 
-- [円周角の定理（中級編）](circle-angles.md)
-- [平方根（中級編）](/math/intermediate/numbers/arithmetic-square-root.md)
 - [空間図形の計量（中級編）](solids-measurement.md)

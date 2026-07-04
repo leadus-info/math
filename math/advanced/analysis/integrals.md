@@ -115,5 +115,4 @@ $$L = \int_a^b \sqrt{\{f'(t)\}^2+\{g'(t)\}^2}\,dt$$
 
 ## 関連ページ
 
-- [微分（応用編）](derivatives.md)
 - [リーマン積分（発展編）](/math/bachelor/analysis/riemann-integral.md)

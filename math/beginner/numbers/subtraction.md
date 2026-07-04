@@ -55,5 +55,4 @@ $\boxed{?}$ に当てはまる自然数はありません。$3 - 5$ は自然数
 
 ## 関連ページ
 
-- [足し算（初級編）](addition.md)
 - [負数（中級編）](/math/intermediate/numbers/integers.md)

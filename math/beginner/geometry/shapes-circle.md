@@ -41,5 +41,4 @@ $$\text{円周} = \text{直径} \times \text{円周率}$$
 
 ## 関連ページ
 
-- [四角形（初級編）](shapes-quadrilateral.md)
 - [三角関数（応用編）](/math/advanced/specific-functions/trigonometric.md)

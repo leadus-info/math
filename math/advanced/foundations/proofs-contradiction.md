@@ -35,5 +35,4 @@ requires:
 
 ## 関連ページ
 
-- [証明法（応用編）](proofs.md)
 - [数学的帰納法（応用編）](proofs-induction.md)

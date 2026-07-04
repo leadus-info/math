@@ -57,5 +57,4 @@ $$a^3-b^3 = (a-b)(a^2+ab+b^2)$$
 
 ## 関連ページ
 
-- [展開・因数分解（中級編）](/math/intermediate/algebra/expressions-expansion-factoring.md)
 - [整式の除法と剰余の定理（応用編）](polynomial-division.md)

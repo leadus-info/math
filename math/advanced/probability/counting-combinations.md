@@ -47,5 +47,4 @@ $$\binom{n+r-1}{r}$$
 
 ## 関連ページ
 
-- [順列（応用編）](counting-permutations.md)
 - [二項定理（応用編）](counting-binomial-theorem.md)

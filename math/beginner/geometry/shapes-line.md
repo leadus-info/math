@@ -43,6 +43,5 @@ requires:
 
 ## 関連ページ
 
-- [図形（初級編）](shapes.md)
 - [三角形（初級編）](shapes-triangle.md)
 - [四角形（初級編）](shapes-quadrilateral.md)

@@ -69,4 +69,3 @@ n進法は、10進法と同じ位取りの考え方を、10以外の底に一般
 ## 関連ページ
 
 - [自然数（初級編）](/math/beginner/numbers/natural-numbers.md)
-- [ユークリッドの互除法（応用編）](euclidean-algorithm.md)

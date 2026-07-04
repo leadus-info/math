@@ -97,6 +97,5 @@ $$13^2 - 12^2 = (13+12)(13-12) = 25 \times 1 = 25$$
 
 ## 関連ページ
 
-- [文字式の乗法・除法（中級編）](expressions-multiplication.md)
 - [二次方程式（中級編）](equations-quadratic.md)
 - [多項式（応用編）](/math/advanced/algebra/polynomials.md)

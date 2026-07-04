@@ -35,5 +35,4 @@ $-2x > 4$。両辺を $-2$ で割ると（向きが逆転）$x < -2$。
 
 ## 関連ページ
 
-- [不等号・不等式（中級編）](inequalities.md)
 - [連立不等式（中級編）](inequalities-simultaneous.md)

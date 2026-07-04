@@ -33,5 +33,4 @@ $$(a + b)^n = \sum_{k=0}^n \binom{n}{k} a^{n-k} b^k$$
 
 ## 関連ページ
 
-- [組み合わせ（応用編）](counting-combinations.md)
 - [多項式（応用編）](/math/advanced/algebra/polynomials.md)

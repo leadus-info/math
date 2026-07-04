@@ -35,5 +35,4 @@ $$\begin{cases} 2x + y = 5 \\ x - y = 1 \end{cases}$$
 
 ## 関連ページ
 
-- [一次方程式（中級編）](equations-linear.md)
 - [二次方程式（中級編）](equations-quadratic.md)

@@ -63,6 +63,4 @@ $$\angle APB = \frac{1}{2} \times 180° = 90°$$
 
 ## 関連ページ
 
-- [相似（中級編）](similarity.md)
-- [円（初級編）](/math/beginner/geometry/shapes-circle.md)
 - [三平方の定理（中級編）](pythagorean-theorem.md)

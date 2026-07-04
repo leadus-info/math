@@ -93,5 +93,4 @@ $$180° + 180° = 360°$$
 ## 関連ページ
 
 - [多角形（中級編）](polygons.md)
-- [合同と証明（中級編）](congruence.md)
 - [三角形（応用編）](/math/advanced/geometry/triangles.md)

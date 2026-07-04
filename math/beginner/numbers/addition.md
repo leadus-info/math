@@ -63,5 +63,4 @@ $$(a + b) + c = a + (b + c)$$
 
 ## 関連ページ
 
-- [自然数（初級編）](natural-numbers.md)
 - [引き算（初級編）](subtraction.md)

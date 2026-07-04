@@ -81,6 +81,5 @@ $m+n+1$ は整数なので、この式は「整数 $\times 2$」の形——つ�
 
 ## 関連ページ
 
-- [代数（中級編）](expressions.md)
 - [展開・因数分解（中級編）](expressions-expansion-factoring.md)
 - [連立方程式（中級編）](equations-simultaneous.md)

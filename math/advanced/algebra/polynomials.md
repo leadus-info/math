@@ -67,6 +67,5 @@ $\sin x$ や $e^x$ のような複雑な関数も、多項式で近似できま�
 
 ## 関連ページ
 
-- [展開・因数分解（中級編）](/math/intermediate/algebra/expressions-expansion-factoring.md)
 - [複素数（応用編）](/math/advanced/numbers/complex-numbers.md)
 - [微分（応用編）](/math/advanced/analysis/derivatives.md)

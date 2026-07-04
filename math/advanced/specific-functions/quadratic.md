@@ -80,5 +80,4 @@ $$ax^2 + bx + c > 0 \iff x < \alpha \text{ または } x > \beta$$
 ## 関連ページ
 
 - [一次関数（中級編）](/math/intermediate/functions/linear.md)
-- [関数y=ax²（中級編）](/math/intermediate/functions/quadratic.md)
 - [多項式（応用編）](/math/advanced/algebra/polynomials.md)

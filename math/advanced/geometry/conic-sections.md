@@ -91,5 +91,4 @@ $$x = r\cos\theta, \qquad y = r\sin\theta$$
 
 ## 関連ページ
 
-- [軌跡と領域（応用編）](locus-and-regions.md)
 - [複素数（応用編）](/math/advanced/numbers/complex-numbers.md)

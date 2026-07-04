@@ -33,5 +33,4 @@ requires:
 
 ## 関連ページ
 
-- [対称（初級編）](shapes-symmetry.md)
 - [合同（初級編）](shapes-congruence.md)

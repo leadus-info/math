@@ -83,6 +83,4 @@ $$\forall \varepsilon > 0,\ \exists N \in \mathbb{N} \text{ s.t. } n > N \Righta
 
 ## 関連ページ
 
-- [極限（応用編）](/math/advanced/analysis/limits.md)
 - [微分の厳密な定義（発展編）](differentiability.md)
-- [実数（発展編）](/math/bachelor/numbers/real-numbers.md)

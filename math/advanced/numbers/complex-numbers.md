@@ -135,6 +135,5 @@ $$z_k = \cos\frac{2k\pi}{n}+i\sin\frac{2k\pi}{n} \quad (k=0,1,\ldots,n-1)$$
 
 ## 関連ページ
 
-- [負数（中級編）](/math/intermediate/numbers/integers.md)
 - [二次方程式（中級編）](/math/intermediate/algebra/equations-quadratic.md)
 - [複素解析（発展編）](/math/bachelor/analysis/complex-analysis.md)

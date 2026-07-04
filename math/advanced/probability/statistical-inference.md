@@ -72,6 +72,4 @@ $H_0$ のもとで、表の出る回数 $X$ は $B(100, 0.5)$ に従い、正規
 
 ## 関連ページ
 
-- [正規分布（応用編）](normal-distribution.md)
-- [標本調査（中級編）](/math/intermediate/probability/sampling.md)
 - [統計（発展編）](/math/bachelor/probability/statistics.md)

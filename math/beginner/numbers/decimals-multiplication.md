@@ -49,5 +49,4 @@ $$80 \times 2.5 = 200$$
 
 ## 関連ページ
 
-- [小数（初級編）](decimals.md)
 - [割り算（初級編）](decimals-division.md)

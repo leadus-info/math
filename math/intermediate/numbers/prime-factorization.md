@@ -55,4 +55,4 @@ $12$ を分解する順序を変えてみましょう。$12 = 3 \times 4 = 3 \ti
 
 ## 関連ページ
 
-- [倍数と約数（初級編）](/math/beginner/numbers/multiples-divisors.md)
+- [ユークリッドの互除法（応用編）](/math/advanced/numbers/euclidean-algorithm.md)

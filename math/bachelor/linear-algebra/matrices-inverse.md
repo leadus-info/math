@@ -35,5 +35,4 @@ $$\begin{pmatrix}a&b\\c&d\end{pmatrix}^{-1} = \frac{1}{ad-bc}\begin{pmatrix}d&-b
 
 ## 関連ページ
 
-- [行列式（発展編）](matrices-determinant.md)
 - [固有値（発展編）](/math/bachelor/linear-algebra/eigenvalues.md)

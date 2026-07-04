@@ -75,5 +75,4 @@ $$\vec{a}\cdot\vec{a}=|\vec{a}|^2, \quad \vec{a}\cdot\vec{b}=\vec{b}\cdot\vec{a}
 
 ## 関連ページ
 
-- [点（応用編）](point.md)
 - [空間座標とベクトル（応用編）](space-vectors.md)

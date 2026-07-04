@@ -31,5 +31,4 @@ requires:
 
 ## 関連ページ
 
-- [合同（初級編）](shapes-congruence.md)
 - [相似（初級編）](shapes-similarity.md)

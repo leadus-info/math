@@ -31,6 +31,5 @@ requires:
 
 ## 関連ページ
 
-- [円（初級編）](shapes-circle.md)
 - [対称（初級編）](shapes-symmetry.md)
 - [相似（初級編）](shapes-similarity.md)

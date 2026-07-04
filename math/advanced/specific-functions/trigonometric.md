@@ -80,5 +80,4 @@ $\sin$ の場合、$\lim_{h\to 0}\dfrac{\sin(x+h)-\sin x}{h} = \lim_{h\to 0}\dfr
 
 ## 関連ページ
 
-- [円（応用編）](/math/advanced/geometry/circles.md)
 - [微分（応用編）](/math/advanced/analysis/derivatives.md)

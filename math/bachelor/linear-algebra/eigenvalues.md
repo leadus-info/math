@@ -76,4 +76,3 @@ $$\mathrm{tr}(A) = \sum_i \lambda_i, \quad \det(A) = \prod_i \lambda_i$$
 ## 関連ページ
 
 - [行列（発展編）](matrices.md)
-- [線形写像（発展編）](linear-maps.md)

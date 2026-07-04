@@ -39,5 +39,4 @@ $$E[X] = np, \quad \mathrm{Var}(X) = np(1-p)$$
 
 ## 関連ページ
 
-- [確率分布（発展編）](distributions.md)
 - [ポアソン分布（発展編）](distributions-poisson.md)

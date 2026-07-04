@@ -47,5 +47,4 @@ $$4.8 \div 1.2 = 48 \div 12 = 4$$
 
 ## 関連ページ
 
-- [小数の掛け算（初級編）](decimals-multiplication.md)
 - [小数（初級編）](decimals.md)

@@ -41,6 +41,5 @@ $$S_{\text{長方形}} = \text{たて} \times \text{よこ}, \qquad S_{\text{台
 
 ## 関連ページ
 
-- [三角形（初級編）](shapes-triangle.md)
 - [円（初級編）](shapes-circle.md)
 - [四角形（中級編）](/math/intermediate/geometry/quadrilaterals.md)

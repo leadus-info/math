@@ -68,5 +68,4 @@ requires:
 
 ## 関連ページ
 
-- [直線（初級編）](/math/beginner/geometry/shapes-line.md)
 - [図形の移動（中級編）](transformations.md)

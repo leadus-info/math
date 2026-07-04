@@ -81,5 +81,4 @@ $\dim(\ker T)$ を**退化次数**（nullity）、$\dim(\mathrm{Im}\, T)$ を**�
 
 ## 関連ページ
 
-- [行列（発展編）](matrices.md)
 - [固有値（発展編）](eigenvalues.md)

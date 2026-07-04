@@ -65,5 +65,4 @@ $ax+by=c$ が整数解を持つのは、$c$ が $\gcd(a,b)$ の倍数である�
 ## 関連ページ
 
 - [倍数と約数（初級編）](/math/beginner/numbers/multiples-divisors.md)
-- [素因数分解（中級編）](/math/intermediate/numbers/prime-factorization.md)
 - [n進法（応用編）](number-systems.md)

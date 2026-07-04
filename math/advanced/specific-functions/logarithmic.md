@@ -89,4 +89,4 @@ $$(\ln x)' = \frac{1}{x}, \quad \int \frac{1}{x}\,dx = \ln|x| + C$$
 
 ## 関連ページ
 
-- [指数関数（応用編）](exponential.md)
+- [微分（応用編）](/math/advanced/analysis/derivatives.md)

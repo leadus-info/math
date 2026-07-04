@@ -108,6 +108,5 @@ $G$, $O$, $H$ は同一直線（オイラー線）上にあり、$OG : GH = 1 : 
 
 ## 関連ページ
 
-- [三角比（応用編）](trigonometry.md)
 - [円（応用編）](circles.md)
 - [三角関数（応用編）](/math/advanced/specific-functions/trigonometric.md)

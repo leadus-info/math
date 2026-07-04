@@ -37,5 +37,4 @@ $$1\text{分} = 60\text{秒}, \qquad 1\text{時} = 60\text{分}, \qquad 1\text{�
 
 ## 関連ページ
 
-- [重さ（初級編）](measurement-weight.md)
 - [測定（初級編）](measurement.md)

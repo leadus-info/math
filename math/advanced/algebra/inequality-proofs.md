@@ -59,5 +59,4 @@ $$\frac{a+b}{2} \geq \sqrt{ab} \quad (\text{等号は } a=b \text{ のとき})$$
 
 ## 関連ページ
 
-- [三次の乗法公式（応用編）](cubic-expansion.md)
 - [二次関数（応用編）](/math/advanced/specific-functions/quadratic.md)

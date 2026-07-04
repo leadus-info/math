@@ -35,5 +35,4 @@ $$_nP_r = \frac{n!}{(n-r)!} = n(n-1)\cdots(n-r+1)$$
 
 ## 関連ページ
 
-- [場合の数（応用編）](counting.md)
 - [組み合わせ（応用編）](counting-combinations.md)

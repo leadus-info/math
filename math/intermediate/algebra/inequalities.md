@@ -63,7 +63,5 @@ $$3 < 5 \implies 3 \times (-2) > 5 \times (-2) \quad (-6 > -10)$$
 
 ## 関連ページ
 
-- [等号・等式（中級編）](equations.md)
 - [一次不等式（中級編）](inequalities-linear.md)
 - [連立不等式（中級編）](inequalities-simultaneous.md)
-- [負数（中級編）](/math/intermediate/numbers/integers.md)

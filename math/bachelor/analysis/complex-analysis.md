@@ -83,5 +83,4 @@ $z_k$ は $C$ の内側の特異点、$\mathrm{Res}$ は留数（特異点近傍
 
 ## 関連ページ
 
-- [複素数（応用編）](/math/advanced/numbers/complex-numbers.md)
-- [微分の厳密な定義（発展編）](differentiability.md)
+- [リーマン積分（発展編）](riemann-integral.md)

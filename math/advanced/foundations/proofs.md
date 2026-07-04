@@ -35,7 +35,6 @@ requires:
 
 ## 関連ページ
 
-- [必要・十分条件（応用編）](logic.md)
 - [直接証明（応用編）](proofs-direct.md)
 - [対偶証明（応用編）](proofs-contrapositive.md)
 - [背理法（応用編）](proofs-contradiction.md)

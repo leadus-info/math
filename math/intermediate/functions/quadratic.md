@@ -61,5 +61,4 @@ $y=ax^2$ は $x$ の2乗に比例する関数で、グラフは原点を頂点�
 
 ## 関連ページ
 
-- [一次関数（中級編）](linear.md)
 - [二次関数（応用編）](/math/advanced/specific-functions/quadratic.md)

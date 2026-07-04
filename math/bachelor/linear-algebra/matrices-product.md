@@ -37,5 +37,4 @@ $$(AB)_{ij} = \sum_{k=1}^n a_{ik} b_{kj}$$
 
 ## 関連ページ
 
-- [行列（発展編）](matrices.md)
 - [行列式（発展編）](matrices-determinant.md)

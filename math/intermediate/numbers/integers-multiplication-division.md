@@ -44,5 +44,4 @@ $$(-3) \times 4 = (-3)+(-3)+(-3)+(-3) = -12$$
 
 ## 関連ページ
 
-- [足し算・引き算（中級編）](integers-addition-subtraction.md)
 - [絶対値（中級編）](integers-absolute-value.md)

@@ -71,5 +71,4 @@ $$a \times (b + c) = a \times b + a \times c$$
 
 ## 関連ページ
 
-- [足し算（初級編）](addition.md)
 - [割り算（初級編）](division.md)

@@ -41,6 +41,5 @@ $$S = \frac{1}{2} \times \text{底辺} \times \text{高さ}$$
 
 ## 関連ページ
 
-- [直線（初級編）](shapes-line.md)
 - [四角形（初級編）](shapes-quadrilateral.md)
 - [合同（初級編）](shapes-congruence.md)

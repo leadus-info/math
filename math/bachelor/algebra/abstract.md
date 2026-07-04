@@ -33,7 +33,6 @@ requires:
 
 ## 関連ページ
 
-- [多項式（応用編）](/math/advanced/algebra/polynomials.md)
 - [群（発展編）](abstract-groups.md)
 - [環と体（発展編）](abstract-rings-fields.md)
 - [準同型・同型（発展編）](abstract-homomorphisms.md)

@@ -35,5 +35,4 @@ $$f(x) = \lambda e^{-\lambda x} \quad (x \geq 0), \qquad E[X] = \frac{1}{\lambda
 
 ## 関連ページ
 
-- [正規分布（発展編）](distributions-normal.md)
 - [確率分布（発展編）](distributions.md)

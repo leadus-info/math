@@ -73,5 +73,4 @@ $$\int f\,d\mu = \int_0^\infty \mu(\{x: f(x) > t\})\,dt$$
 
 ## 関連ページ
 
-- [積分（応用編）](/math/advanced/analysis/integrals.md)
-- [微分の厳密な定義（発展編）](differentiability.md)
+- [複素解析（発展編）](complex-analysis.md)

@@ -73,6 +73,4 @@ $$\text{面積比} = m^2 : n^2, \qquad \text{体積比} = m^3 : n^3$$
 
 ## 関連ページ
 
-- [合同と証明（中級編）](congruence.md)
-- [相似（初級編）](/math/beginner/geometry/shapes-similarity.md)
 - [円周角の定理（中級編）](circle-angles.md)

@@ -43,5 +43,4 @@ $$1.25 + 0.30 = 1.55$$
 
 ## 関連ページ
 
-- [小数（初級編）](decimals.md)
 - [引き算（初級編）](decimals-subtraction.md)

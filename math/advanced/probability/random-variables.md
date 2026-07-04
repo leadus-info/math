@@ -63,6 +63,5 @@ $$\sigma(X) = \sqrt{V(X)}$$
 
 ## 関連ページ
 
-- [確率（応用編）](probability.md)
 - [データの分析（応用編）](data-analysis.md)
 - [二項分布（応用編）](binomial-distribution.md)
