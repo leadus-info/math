@@ -179,6 +179,8 @@ goal: "微分の定義を述べ、基本的な関数の微分係数を計算で�
 - `subject`：この記事が属する科目名。
 - `requires`：前提となる記事。`title`と`path`を明記する。
 
+`hierarchy`・`requires`の`path`、および本文中のMarkdownリンクは、すべて現在のファイルからの**相対パス**で記述してください（`/math/...`のようなサイトルートからの絶対パスは使わない）。
+
 ```yaml
 ---
 title: 微分
@@ -189,15 +191,15 @@ stage: 応用編
 subject: 解析
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 微分
-    path: /math/advanced/analysis/derivatives.md
+    path: derivatives.md
 
 requires:
   - title: 極限
-    path: /math/advanced/analysis/limits.md
+    path: limits.md
 ---
 ```
 

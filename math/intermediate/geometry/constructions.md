@@ -7,14 +7,14 @@ stage: 中級編
 subject: 幾何
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 中級編
-    path: /math/intermediate/index.md
+    path: ../index.md
   - title: 基本の作図
-    path: /math/intermediate/geometry/constructions.md
+    path: constructions.md
 requires:
   - title: 直線
-    path: /math/beginner/geometry/shapes-line.md
+    path: ../../beginner/geometry/shapes-line.md
 ---
 
 ## 定規とコンパスだけでかく

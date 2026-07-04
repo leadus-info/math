@@ -7,16 +7,16 @@ stage: 初級編
 subject: 数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 初級編
-    path: /math/beginner/index.md
+    path: ../index.md
   - title: 体積
-    path: /math/beginner/numbers/measurement-volume.md
+    path: measurement-volume.md
 requires:
   - title: 広さ・かさ
     path: measurement-area.md
   - title: 立体図形
-    path: /math/beginner/geometry/shapes-solids.md
+    path: ../geometry/shapes-solids.md
 ---
 
 ## 立体の大きさを数で表す
@@ -57,4 +57,4 @@ $$\text{角柱・円柱の体積} = \text{底面積} \times \text{高さ}$$
 
 ## 関連ページ
 
-- [空間図形の計量（中級編）](/math/intermediate/geometry/solids-measurement.md)
+- [空間図形の計量（中級編）](../../intermediate/geometry/solids-measurement.md)

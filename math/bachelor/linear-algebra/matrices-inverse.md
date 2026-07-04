@@ -7,11 +7,11 @@ stage: 発展編
 subject: 線形代数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 発展編
-    path: /math/bachelor/index.md
+    path: ../index.md
   - title: 逆行列
-    path: /math/bachelor/linear-algebra/matrices-inverse.md
+    path: matrices-inverse.md
 requires:
   - title: 行列式
     path: matrices-determinant.md
@@ -47,4 +47,4 @@ $$A^{-1} = \frac{1}{\det(A)}\,\mathrm{adj}(A), \qquad \mathrm{adj}(A) = \begin{p
 
 ## 関連ページ
 
-- [固有値（発展編）](/math/bachelor/linear-algebra/eigenvalues.md)
+- [固有値（発展編）](eigenvalues.md)

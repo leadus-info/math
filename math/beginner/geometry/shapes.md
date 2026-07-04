@@ -7,11 +7,11 @@ stage: 初級編
 subject: 幾何
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 初級編
-    path: /math/beginner/index.md
+    path: ../index.md
   - title: 図形
-    path: /math/beginner/geometry/shapes.md
+    path: shapes.md
 ---
 
 ## ものの形をとらえる
@@ -48,4 +48,4 @@ hierarchy:
 - [合同（初級編）](shapes-congruence.md)
 - [対称（初級編）](shapes-symmetry.md)
 - [相似（初級編）](shapes-similarity.md)
-- [測定（初級編）](/math/beginner/numbers/measurement.md)
+- [測定（初級編）](../numbers/measurement.md)

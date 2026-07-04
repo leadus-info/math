@@ -7,11 +7,11 @@ stage: 初級編
 subject: 数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 初級編
-    path: /math/beginner/index.md
+    path: ../index.md
   - title: 重さ
-    path: /math/beginner/numbers/measurement-weight.md
+    path: measurement-weight.md
 requires:
   - title: 測定
     path: measurement.md

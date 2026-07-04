@@ -7,11 +7,11 @@ stage: 中級編
 subject: 代数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 中級編
-    path: /math/intermediate/index.md
+    path: ../index.md
   - title: 文字式の乗法・除法
-    path: /math/intermediate/algebra/expressions-multiplication.md
+    path: expressions-multiplication.md
 requires:
   - title: 代数
     path: expressions.md

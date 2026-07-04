@@ -7,16 +7,16 @@ stage: 応用編
 subject: 代数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 多項式
-    path: /math/advanced/algebra/polynomials.md
+    path: polynomials.md
 requires:
   - title: 展開・因数分解
-    path: /math/intermediate/algebra/expressions-expansion-factoring.md
+    path: ../../intermediate/algebra/expressions-expansion-factoring.md
   - title: 二次関数
-    path: /math/advanced/specific-functions/quadratic.md
+    path: ../specific-functions/quadratic.md
 ---
 
 ## 一次・二次の先へ
@@ -67,5 +67,5 @@ $\sin x$ や $e^x$ のような複雑な関数も、多項式で近似できま�
 
 ## 関連ページ
 
-- [複素数（応用編）](/math/advanced/numbers/complex-numbers.md)
-- [微分（応用編）](/math/advanced/analysis/derivatives.md)
+- [複素数（応用編）](../numbers/complex-numbers.md)
+- [微分（応用編）](../analysis/derivatives.md)

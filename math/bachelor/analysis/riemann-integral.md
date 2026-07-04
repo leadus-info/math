@@ -7,16 +7,16 @@ stage: 発展編
 subject: 解析
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 発展編
-    path: /math/bachelor/index.md
+    path: ../index.md
   - title: リーマン積分
-    path: /math/bachelor/analysis/riemann-integral.md
+    path: riemann-integral.md
 requires:
   - title: 積分
-    path: /math/advanced/analysis/integrals.md
+    path: ../../advanced/analysis/integrals.md
   - title: 微分の厳密な定義
-    path: /math/bachelor/analysis/differentiability.md
+    path: differentiability.md
 ---
 
 ## 「長方形で近似する」を厳密にする

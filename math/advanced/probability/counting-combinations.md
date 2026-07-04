@@ -7,11 +7,11 @@ stage: 応用編
 subject: 確率
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 組み合わせ
-    path: /math/advanced/probability/counting-combinations.md
+    path: counting-combinations.md
 requires:
   - title: 順列
     path: counting-permutations.md

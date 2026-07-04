@@ -7,11 +7,11 @@ stage: 中級編
 subject: 数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 中級編
-    path: /math/intermediate/index.md
+    path: ../index.md
   - title: 平方根
-    path: /math/intermediate/numbers/arithmetic-square-root.md
+    path: arithmetic-square-root.md
 requires:
   - title: 累乗
     path: arithmetic.md
@@ -57,5 +57,5 @@ $$\frac{\sqrt{18}}{\sqrt{2}} = \sqrt{\frac{18}{2}} = \sqrt{9} = 3$$
 
 ## 関連ページ
 
-- [無理数（中級編）](/math/intermediate/numbers/irrational-numbers.md)
+- [無理数（中級編）](irrational-numbers.md)
 - [誤差と近似値（中級編）](approximation.md)

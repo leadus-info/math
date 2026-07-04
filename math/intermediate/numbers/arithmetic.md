@@ -7,14 +7,14 @@ stage: 中級編
 subject: 数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 中級編
-    path: /math/intermediate/index.md
+    path: ../index.md
   - title: 累乗
-    path: /math/intermediate/numbers/arithmetic.md
+    path: arithmetic.md
 requires:
   - title: 掛け算
-    path: /math/beginner/numbers/multiplication.md
+    path: ../../beginner/numbers/multiplication.md
 ---
 
 ## 同じ数を何度も掛ける
@@ -61,4 +61,4 @@ $$(a^m)^n = a^{mn}$$
 
 - [負数（中級編）](integers.md)
 - [平方根（中級編）](arithmetic-square-root.md)
-- [指数関数（応用編）](/math/advanced/specific-functions/exponential.md) — 累乗を関数として見る
+- [指数関数（応用編）](../../advanced/specific-functions/exponential.md) — 累乗を関数として見る

@@ -7,16 +7,16 @@ stage: 中級編
 subject: 幾何
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 中級編
-    path: /math/intermediate/index.md
+    path: ../index.md
   - title: 空間図形の計量
-    path: /math/intermediate/geometry/solids-measurement.md
+    path: solids-measurement.md
 requires:
   - title: 空間図形
     path: solids.md
   - title: 円
-    path: /math/beginner/geometry/shapes-circle.md
+    path: ../../beginner/geometry/shapes-circle.md
 ---
 
 ## おうぎ形の弧の長さと面積

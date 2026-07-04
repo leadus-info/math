@@ -7,11 +7,11 @@ stage: 初級編
 subject: 数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 初級編
-    path: /math/beginner/index.md
+    path: ../index.md
   - title: 反比例
-    path: /math/beginner/numbers/ratio-inverse-proportion.md
+    path: ratio-inverse-proportion.md
 requires:
   - title: 比例
     path: ratio-direct-proportion.md
@@ -47,4 +47,4 @@ requires:
 
 ## 関連ページ
 
-- [関数とは（中級編）](/math/intermediate/functions/functions.md)
+- [関数とは（中級編）](../../intermediate/functions/functions.md)

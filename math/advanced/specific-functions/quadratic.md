@@ -7,16 +7,16 @@ stage: 応用編
 subject: 具体的な関数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 二次関数
-    path: /math/advanced/specific-functions/quadratic.md
+    path: quadratic.md
 requires:
   - title: 二次関数
-    path: /math/intermediate/functions/quadratic.md
+    path: ../../intermediate/functions/quadratic.md
   - title: 展開・因数分解
-    path: /math/intermediate/algebra/expressions-expansion-factoring.md
+    path: ../../intermediate/algebra/expressions-expansion-factoring.md
 ---
 
 ## 放物線という形
@@ -92,5 +92,5 @@ $$ax^2 + bx + c > 0 \iff x < \alpha \text{ または } x > \beta$$
 
 ## 関連ページ
 
-- [一次関数（中級編）](/math/intermediate/functions/linear.md)
-- [多項式（応用編）](/math/advanced/algebra/polynomials.md)
+- [一次関数（中級編）](../../intermediate/functions/linear.md)
+- [多項式（応用編）](../algebra/polynomials.md)

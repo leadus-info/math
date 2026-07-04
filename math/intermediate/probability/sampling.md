@@ -7,11 +7,11 @@ stage: 中級編
 subject: 確率
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 中級編
-    path: /math/intermediate/index.md
+    path: ../index.md
   - title: 標本調査
-    path: /math/intermediate/probability/sampling.md
+    path: sampling.md
 requires:
   - title: 四分位範囲と箱ひげ図
     path: box-plot.md
@@ -57,4 +57,4 @@ requires:
 
 ## 関連ページ
 
-- [統計（発展編）](/math/bachelor/probability/statistics.md)
+- [統計（発展編）](../../bachelor/probability/statistics.md)

@@ -7,11 +7,11 @@ stage: 初級編
 subject: 幾何
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 初級編
-    path: /math/beginner/index.md
+    path: ../index.md
   - title: 四角形
-    path: /math/beginner/geometry/shapes-quadrilateral.md
+    path: shapes-quadrilateral.md
 requires:
   - title: 直線
     path: shapes-line.md
@@ -50,4 +50,4 @@ $$S_{\text{長方形}} = \text{たて} \times \text{よこ}, \qquad S_{\text{台
 ## 関連ページ
 
 - [円（初級編）](shapes-circle.md)
-- [四角形（中級編）](/math/intermediate/geometry/quadrilaterals.md)
+- [四角形（中級編）](../../intermediate/geometry/quadrilaterals.md)

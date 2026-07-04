@@ -7,16 +7,16 @@ stage: 発展編
 subject: 確率
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 発展編
-    path: /math/bachelor/index.md
+    path: ../index.md
   - title: 正規分布
-    path: /math/bachelor/probability/distributions-normal.md
+    path: distributions-normal.md
 requires:
   - title: ポアソン分布
     path: distributions-poisson.md
   - title: 正規分布
-    path: /math/advanced/probability/normal-distribution.md
+    path: ../../advanced/probability/normal-distribution.md
 ---
 
 ## $N(\mu, \sigma^2)$

@@ -7,14 +7,14 @@ stage: 発展編
 subject: 代数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 発展編
-    path: /math/bachelor/index.md
+    path: ../index.md
   - title: 抽象代数
-    path: /math/bachelor/algebra/abstract.md
+    path: abstract.md
 requires:
   - title: 集合
-    path: /math/advanced/foundations/sets.md
+    path: ../../advanced/foundations/sets.md
 ---
 
 ## 演算の「共通する性質」を探す
@@ -44,4 +44,4 @@ $$\text{群} \;\longrightarrow\; \text{環} \;\longrightarrow\; \text{体}$$
 - [群（発展編）](abstract-groups.md)
 - [環と体（発展編）](abstract-rings-fields.md)
 - [準同型・同型（発展編）](abstract-homomorphisms.md)
-- [位相幾何学（発展編）](/math/bachelor/geometry/topology.md)
+- [位相幾何学（発展編）](../geometry/topology.md)

@@ -7,14 +7,14 @@ stage: 応用編
 subject: 幾何
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 点
-    path: /math/advanced/geometry/point.md
+    path: point.md
 requires:
   - title: 負数
-    path: /math/intermediate/numbers/integers.md
+    path: ../../intermediate/numbers/integers.md
 ---
 
 ## 「場所」だけを持つもの

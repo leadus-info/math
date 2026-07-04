@@ -7,11 +7,11 @@ stage: 初級編
 subject: 幾何
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 初級編
-    path: /math/beginner/index.md
+    path: ../index.md
   - title: 円
-    path: /math/beginner/geometry/shapes-circle.md
+    path: shapes-circle.md
 requires:
   - title: 図形
     path: shapes.md
@@ -41,4 +41,4 @@ $$\text{円周} = \text{直径} \times \text{円周率}$$
 
 ## 関連ページ
 
-- [三角関数（応用編）](/math/advanced/specific-functions/trigonometric.md)
+- [三角関数（応用編）](../../advanced/specific-functions/trigonometric.md)

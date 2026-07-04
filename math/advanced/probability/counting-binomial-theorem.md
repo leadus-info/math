@@ -7,11 +7,11 @@ stage: 応用編
 subject: 確率
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 二項定理
-    path: /math/advanced/probability/counting-binomial-theorem.md
+    path: counting-binomial-theorem.md
 requires:
   - title: 組み合わせ
     path: counting-combinations.md
@@ -53,5 +53,5 @@ $$1 = (p+(1-p))^n = \sum_{k=0}^n \binom{n}{k}p^k(1-p)^{n-k}$$
 
 ## 関連ページ
 
-- [多項式（応用編）](/math/advanced/algebra/polynomials.md)
+- [多項式（応用編）](../algebra/polynomials.md)
 - [確率（応用編）](probability.md)

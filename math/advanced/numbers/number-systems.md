@@ -7,14 +7,14 @@ stage: 応用編
 subject: 数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: n進法
-    path: /math/advanced/numbers/number-systems.md
+    path: number-systems.md
 requires:
   - title: 自然数
-    path: /math/beginner/numbers/natural-numbers.md
+    path: ../../beginner/numbers/natural-numbers.md
 ---
 
 ## 10進法をふりかえる

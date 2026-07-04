@@ -7,16 +7,16 @@ stage: 中級編
 subject: 幾何
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 中級編
-    path: /math/intermediate/index.md
+    path: ../index.md
   - title: 円周角の定理
-    path: /math/intermediate/geometry/circle-angles.md
+    path: circle-angles.md
 requires:
   - title: 平行線と角
     path: angles.md
   - title: 円
-    path: /math/beginner/geometry/shapes-circle.md
+    path: ../../beginner/geometry/shapes-circle.md
 ---
 
 ## 中心角と円周角

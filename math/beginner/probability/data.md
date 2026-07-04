@@ -7,14 +7,14 @@ stage: 初級編
 subject: 確率
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 初級編
-    path: /math/beginner/index.md
+    path: ../index.md
   - title: データの活用
-    path: /math/beginner/probability/data.md
+    path: data.md
 requires:
   - title: 割り算
-    path: /math/beginner/numbers/division.md
+    path: ../numbers/division.md
 ---
 
 ## データを整理する
@@ -75,5 +75,5 @@ $$\text{平均} = \frac{\text{データの合計}}{\text{データの個数}}$$
 
 ## 関連ページ
 
-- [ヒストグラムと相対度数（中級編）](/math/intermediate/probability/data-distribution.md)
-- [場合の数を基にした確率（中級編）](/math/intermediate/probability/basic-probability.md)
+- [ヒストグラムと相対度数（中級編）](../../intermediate/probability/data-distribution.md)
+- [場合の数を基にした確率（中級編）](../../intermediate/probability/basic-probability.md)

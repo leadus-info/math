@@ -7,11 +7,11 @@ stage: 初級編
 subject: 数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 初級編
-    path: /math/beginner/index.md
+    path: ../index.md
   - title: 倍数と約数
-    path: /math/beginner/numbers/multiples-divisors.md
+    path: multiples-divisors.md
 requires:
   - title: 割り算
     path: division.md
@@ -55,4 +55,4 @@ $3 \times 1 = 3$、$3 \times 2 = 6$、$3 \times 3 = 9$、$3 \times 4 = 12$、…
 
 ## 関連ページ
 
-- [素因数分解（中級編）](/math/intermediate/numbers/prime-factorization.md)
+- [素因数分解（中級編）](../../intermediate/numbers/prime-factorization.md)

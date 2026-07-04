@@ -7,11 +7,11 @@ stage: 初級編
 subject: 幾何
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 初級編
-    path: /math/beginner/index.md
+    path: ../index.md
   - title: 立体図形
-    path: /math/beginner/geometry/shapes-solids.md
+    path: shapes-solids.md
 requires:
   - title: 四角形
     path: shapes-quadrilateral.md
@@ -51,4 +51,4 @@ requires:
 
 ## 関連ページ
 
-- [体積（初級編）](/math/beginner/numbers/measurement-volume.md)
+- [体積（初級編）](../numbers/measurement-volume.md)

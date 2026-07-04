@@ -7,11 +7,11 @@ stage: 発展編
 subject: 代数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 発展編
-    path: /math/bachelor/index.md
+    path: ../index.md
   - title: 環と体
-    path: /math/bachelor/algebra/abstract-rings-fields.md
+    path: abstract-rings-fields.md
 requires:
   - title: 群
     path: abstract-groups.md

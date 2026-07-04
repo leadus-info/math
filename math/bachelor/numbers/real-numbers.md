@@ -7,14 +7,14 @@ stage: 発展編
 subject: 数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 発展編
-    path: /math/bachelor/index.md
+    path: ../index.md
   - title: 実数
-    path: /math/bachelor/numbers/real-numbers.md
+    path: real-numbers.md
 requires:
   - title: 極限
-    path: /math/advanced/analysis/limits.md
+    path: ../../advanced/analysis/limits.md
 ---
 
 ## 有理数の「穴」
@@ -87,5 +87,5 @@ $$|\mathbb{Q}| = \aleph_0 < |\mathbb{R}| = 2^{\aleph_0}$$
 
 ## 関連ページ
 
-- [極限の厳密な定義（発展編）](/math/bachelor/analysis/epsilon-delta.md)
-- [位相幾何学（発展編）](/math/bachelor/geometry/topology.md)
+- [極限の厳密な定義（発展編）](../analysis/epsilon-delta.md)
+- [位相幾何学（発展編）](../geometry/topology.md)

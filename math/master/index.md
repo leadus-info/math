@@ -4,9 +4,9 @@ description: "発展編の内容を前提に、特定分野をさらに掘り下
 tags: [math, master]
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../index.md
   - title: 探求編
-    path: /math/master/index.md
+    path: index.md
 ---
 
 発展編の内容を前提に、特定分野をさらに掘り下げる専門的な内容を扱う段階です。

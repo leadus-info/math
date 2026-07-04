@@ -7,14 +7,14 @@ stage: 応用編
 subject: 幾何
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 円の性質の応用
-    path: /math/advanced/geometry/circle-theorems.md
+    path: circle-theorems.md
 requires:
   - title: 円周角の定理
-    path: /math/intermediate/geometry/circle-angles.md
+    path: ../../intermediate/geometry/circle-angles.md
   - title: 円
     path: circles.md
 ---

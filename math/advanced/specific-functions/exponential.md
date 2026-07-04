@@ -7,16 +7,16 @@ stage: 応用編
 subject: 具体的な関数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 指数関数
-    path: /math/advanced/specific-functions/exponential.md
+    path: exponential.md
 requires:
   - title: 累乗
-    path: /math/intermediate/numbers/arithmetic.md
+    path: ../../intermediate/numbers/arithmetic.md
   - title: 一次関数
-    path: /math/intermediate/functions/linear.md
+    path: ../../intermediate/functions/linear.md
 ---
 
 ## 倍々で増える
@@ -88,4 +88,4 @@ $$4^x = 8 \Rightarrow (2^2)^x = 2^3 \Rightarrow 2x = 3 \Rightarrow x = \frac{3}{
 ## 関連ページ
 
 - [対数関数（応用編）](logarithmic.md)
-- [微分（応用編）](/math/advanced/analysis/derivatives.md)
+- [微分（応用編）](../analysis/derivatives.md)

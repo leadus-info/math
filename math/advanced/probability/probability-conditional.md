@@ -7,11 +7,11 @@ stage: 応用編
 subject: 確率
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 条件付き確率とベイズの定理
-    path: /math/advanced/probability/probability-conditional.md
+    path: probability-conditional.md
 requires:
   - title: 確率
     path: probability.md

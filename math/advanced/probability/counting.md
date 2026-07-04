@@ -7,14 +7,14 @@ stage: 応用編
 subject: 確率
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 場合の数
-    path: /math/advanced/probability/counting.md
+    path: counting.md
 requires:
   - title: 自然数
-    path: /math/beginner/numbers/natural-numbers.md
+    path: ../../beginner/numbers/natural-numbers.md
 ---
 
 ## 「何通りあるか」を数える

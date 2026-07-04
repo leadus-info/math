@@ -7,11 +7,11 @@ stage: 初級編
 subject: 数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 初級編
-    path: /math/beginner/index.md
+    path: ../index.md
   - title: 分数の割り算
-    path: /math/beginner/numbers/fractions-division.md
+    path: fractions-division.md
 requires:
   - title: 分数の掛け算
     path: fractions-multiplication.md

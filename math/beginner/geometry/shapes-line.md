@@ -7,11 +7,11 @@ stage: 初級編
 subject: 幾何
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 初級編
-    path: /math/beginner/index.md
+    path: ../index.md
   - title: 直線
-    path: /math/beginner/geometry/shapes-line.md
+    path: shapes-line.md
 requires:
   - title: 図形
     path: shapes.md

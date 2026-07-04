@@ -7,16 +7,16 @@ stage: 発展編
 subject: 線形代数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 発展編
-    path: /math/bachelor/index.md
+    path: ../index.md
   - title: 行列
-    path: /math/bachelor/linear-algebra/matrices.md
+    path: matrices.md
 requires:
   - title: ベクトル
     path: vectors.md
   - title: 等号・等式
-    path: /math/intermediate/algebra/equations.md
+    path: ../../intermediate/algebra/equations.md
 ---
 
 ## 数を格子状に並べる

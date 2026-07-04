@@ -7,11 +7,11 @@ stage: 中級編
 subject: 関数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 中級編
-    path: /math/intermediate/index.md
+    path: ../index.md
   - title: 二次関数
-    path: /math/intermediate/functions/quadratic.md
+    path: quadratic.md
 requires:
   - title: 一次関数
     path: linear.md
@@ -61,4 +61,4 @@ $y=ax^2$ のグラフは、原点を通り、$y$軸について対称な、な�
 
 ## 関連ページ
 
-- [二次関数（応用編）](/math/advanced/specific-functions/quadratic.md)
+- [二次関数（応用編）](../../advanced/specific-functions/quadratic.md)

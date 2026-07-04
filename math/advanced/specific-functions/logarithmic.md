@@ -7,14 +7,14 @@ stage: 応用編
 subject: 具体的な関数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 対数関数
-    path: /math/advanced/specific-functions/logarithmic.md
+    path: logarithmic.md
 requires:
   - title: 指数関数
-    path: /math/advanced/specific-functions/exponential.md
+    path: exponential.md
 ---
 
 ## 「何乗すると…になるか」を求める
@@ -97,4 +97,4 @@ $$(\ln x)' = \frac{1}{x}, \quad \int \frac{1}{x}\,dx = \ln|x| + C$$
 
 ## 関連ページ
 
-- [微分（応用編）](/math/advanced/analysis/derivatives.md)
+- [微分（応用編）](../analysis/derivatives.md)

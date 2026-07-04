@@ -7,11 +7,11 @@ stage: 中級編
 subject: 数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 中級編
-    path: /math/intermediate/index.md
+    path: ../index.md
   - title: 負の数の足し算・引き算
-    path: /math/intermediate/numbers/integers-addition-subtraction.md
+    path: integers-addition-subtraction.md
 requires:
   - title: 負数
     path: integers.md

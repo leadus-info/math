@@ -7,16 +7,16 @@ stage: 応用編
 subject: 解析
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 極限
-    path: /math/advanced/analysis/limits.md
+    path: limits.md
 requires:
   - title: 数列
-    path: /math/advanced/analysis/sequences.md
+    path: sequences.md
   - title: 三角関数
-    path: /math/advanced/specific-functions/trigonometric.md
+    path: ../specific-functions/trigonometric.md
 ---
 
 ## 「近づく」とはどういうことか
@@ -102,4 +102,4 @@ $$\lim_{x \to 0} \frac{\sin x}{x} = 1 \quad \text{（ラジアン単位）}$$
 ## 関連ページ
 
 - [微分（応用編）](derivatives.md)
-- [極限の厳密な定義（発展編）](/math/bachelor/analysis/epsilon-delta.md)
+- [極限の厳密な定義（発展編）](../../bachelor/analysis/epsilon-delta.md)

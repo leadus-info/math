@@ -7,11 +7,11 @@ stage: 応用編
 subject: 幾何
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 三角形
-    path: /math/advanced/geometry/triangles.md
+    path: triangles.md
 requires:
   - title: 三角比
     path: trigonometry.md
@@ -110,4 +110,4 @@ $G$, $O$, $H$ は同一直線（オイラー線）上にあり、$OG : GH = 1 : 
 ## 関連ページ
 
 - [円（応用編）](circles.md)
-- [三角関数（応用編）](/math/advanced/specific-functions/trigonometric.md)
+- [三角関数（応用編）](../specific-functions/trigonometric.md)

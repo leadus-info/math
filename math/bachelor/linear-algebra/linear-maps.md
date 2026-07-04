@@ -7,16 +7,16 @@ stage: 発展編
 subject: 線形代数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 発展編
-    path: /math/bachelor/index.md
+    path: ../index.md
   - title: 線形写像
-    path: /math/bachelor/linear-algebra/linear-maps.md
+    path: linear-maps.md
 requires:
   - title: 行列
-    path: /math/bachelor/linear-algebra/matrices.md
+    path: matrices.md
   - title: ベクトル
-    path: /math/bachelor/linear-algebra/vectors.md
+    path: vectors.md
 ---
 
 ## 「構造を保つ」変換

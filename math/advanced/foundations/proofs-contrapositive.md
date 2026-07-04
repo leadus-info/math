@@ -7,11 +7,11 @@ stage: 応用編
 subject: 基礎
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 対偶証明
-    path: /math/advanced/foundations/proofs-contrapositive.md
+    path: proofs-contrapositive.md
 requires:
   - title: 証明法
     path: proofs.md

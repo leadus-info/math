@@ -7,16 +7,16 @@ stage: 発展編
 subject: 解析
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 発展編
-    path: /math/bachelor/index.md
+    path: ../index.md
   - title: 極限の厳密な定義
-    path: /math/bachelor/analysis/epsilon-delta.md
+    path: epsilon-delta.md
 requires:
   - title: 極限
-    path: /math/advanced/analysis/limits.md
+    path: ../../advanced/analysis/limits.md
   - title: 実数
-    path: /math/bachelor/numbers/real-numbers.md
+    path: ../numbers/real-numbers.md
 ---
 
 ## 「近づく」を数式にする

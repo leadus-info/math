@@ -7,11 +7,11 @@ stage: 中級編
 subject: 確率
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 中級編
-    path: /math/intermediate/index.md
+    path: ../index.md
   - title: 場合の数を基にした確率
-    path: /math/intermediate/probability/basic-probability.md
+    path: basic-probability.md
 requires:
   - title: 多数回の試行による確率
     path: empirical-probability.md
@@ -59,5 +59,5 @@ $$\text{確率} = \frac{\text{その事象が起こる場合の数}}{\text{起�
 
 ## 関連ページ
 
-- [場合の数（応用編）](/math/advanced/probability/counting.md)
-- [確率（応用編）](/math/advanced/probability/probability.md)
+- [場合の数（応用編）](../../advanced/probability/counting.md)
+- [確率（応用編）](../../advanced/probability/probability.md)

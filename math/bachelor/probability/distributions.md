@@ -7,16 +7,16 @@ stage: 発展編
 subject: 確率
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 発展編
-    path: /math/bachelor/index.md
+    path: ../index.md
   - title: 確率分布
-    path: /math/bachelor/probability/distributions.md
+    path: distributions.md
 requires:
   - title: 確率変数と確率分布
-    path: /math/advanced/probability/random-variables.md
+    path: ../../advanced/probability/random-variables.md
   - title: 積分
-    path: /math/advanced/analysis/integrals.md
+    path: ../../advanced/analysis/integrals.md
 ---
 
 ## 「何が出るか」を関数で表す

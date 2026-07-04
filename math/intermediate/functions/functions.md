@@ -7,16 +7,16 @@ stage: 中級編
 subject: 関数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 中級編
-    path: /math/intermediate/index.md
+    path: ../index.md
   - title: 関数とは
-    path: /math/intermediate/functions/functions.md
+    path: functions.md
 requires:
   - title: 比例
-    path: /math/beginner/numbers/ratio-direct-proportion.md
+    path: ../../beginner/numbers/ratio-direct-proportion.md
   - title: 反比例
-    path: /math/beginner/numbers/ratio-inverse-proportion.md
+    path: ../../beginner/numbers/ratio-inverse-proportion.md
 ---
 
 ## 関数の意味

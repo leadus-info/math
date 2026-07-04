@@ -7,11 +7,11 @@ stage: 応用編
 subject: 幾何
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 二次曲線
-    path: /math/advanced/geometry/conic-sections.md
+    path: conic-sections.md
 requires:
   - title: 軌跡と領域
     path: locus-and-regions.md
@@ -91,4 +91,4 @@ $$x = r\cos\theta, \qquad y = r\sin\theta$$
 
 ## 関連ページ
 
-- [複素数（応用編）](/math/advanced/numbers/complex-numbers.md)
+- [複素数（応用編）](../numbers/complex-numbers.md)

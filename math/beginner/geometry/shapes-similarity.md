@@ -7,11 +7,11 @@ stage: 初級編
 subject: 幾何
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 初級編
-    path: /math/beginner/index.md
+    path: ../index.md
   - title: 相似
-    path: /math/beginner/geometry/shapes-similarity.md
+    path: shapes-similarity.md
 requires:
   - title: 合同
     path: shapes-congruence.md
@@ -35,4 +35,4 @@ requires:
 
 ## 関連ページ
 
-- [相似（中級編）](/math/intermediate/geometry/similarity.md)
+- [相似（中級編）](../../intermediate/geometry/similarity.md)

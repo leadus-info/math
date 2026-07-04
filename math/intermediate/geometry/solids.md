@@ -7,16 +7,16 @@ stage: 中級編
 subject: 幾何
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 中級編
-    path: /math/intermediate/index.md
+    path: ../index.md
   - title: 空間図形
-    path: /math/intermediate/geometry/solids.md
+    path: solids.md
 requires:
   - title: 図形の移動
     path: transformations.md
   - title: 図形
-    path: /math/beginner/geometry/shapes.md
+    path: ../../beginner/geometry/shapes.md
 ---
 
 ## 空間の中の直線と平面

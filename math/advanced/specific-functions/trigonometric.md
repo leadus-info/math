@@ -7,16 +7,16 @@ stage: 応用編
 subject: 具体的な関数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 三角関数
-    path: /math/advanced/specific-functions/trigonometric.md
+    path: trigonometric.md
 requires:
   - title: 三角比
-    path: /math/advanced/geometry/trigonometry.md
+    path: ../geometry/trigonometry.md
   - title: 円
-    path: /math/advanced/geometry/circles.md
+    path: ../geometry/circles.md
 ---
 
 ## 円の上を動く点
@@ -94,4 +94,4 @@ $\sin$ の場合、$\lim_{h\to 0}\dfrac{\sin(x+h)-\sin x}{h} = \lim_{h\to 0}\dfr
 
 ## 関連ページ
 
-- [微分（応用編）](/math/advanced/analysis/derivatives.md)
+- [微分（応用編）](../analysis/derivatives.md)

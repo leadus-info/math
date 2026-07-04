@@ -7,14 +7,14 @@ stage: 中級編
 subject: 確率
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 中級編
-    path: /math/intermediate/index.md
+    path: ../index.md
   - title: ヒストグラムと相対度数
-    path: /math/intermediate/probability/data-distribution.md
+    path: data-distribution.md
 requires:
   - title: データの活用
-    path: /math/beginner/probability/data.md
+    path: ../../beginner/probability/data.md
 ---
 
 ## ヒストグラム

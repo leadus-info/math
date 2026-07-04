@@ -7,11 +7,11 @@ stage: 応用編
 subject: 確率
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 確率変数と確率分布
-    path: /math/advanced/probability/random-variables.md
+    path: random-variables.md
 requires:
   - title: 確率
     path: probability.md

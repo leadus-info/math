@@ -7,11 +7,11 @@ stage: 発展編
 subject: 確率
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 発展編
-    path: /math/bachelor/index.md
+    path: ../index.md
   - title: 指数分布
-    path: /math/bachelor/probability/distributions-exponential.md
+    path: distributions-exponential.md
 requires:
   - title: 正規分布
     path: distributions-normal.md

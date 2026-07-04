@@ -7,11 +7,11 @@ stage: 発展編
 subject: 線形代数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 発展編
-    path: /math/bachelor/index.md
+    path: ../index.md
   - title: 行列の積
-    path: /math/bachelor/linear-algebra/matrices-product.md
+    path: matrices-product.md
 requires:
   - title: 行列
     path: matrices.md

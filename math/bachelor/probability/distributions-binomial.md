@@ -7,16 +7,16 @@ stage: 発展編
 subject: 確率
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 発展編
-    path: /math/bachelor/index.md
+    path: ../index.md
   - title: 二項分布
-    path: /math/bachelor/probability/distributions-binomial.md
+    path: distributions-binomial.md
 requires:
   - title: 確率分布
     path: distributions.md
   - title: 二項分布
-    path: /math/advanced/probability/binomial-distribution.md
+    path: ../../advanced/probability/binomial-distribution.md
 ---
 
 ## $B(n, p)$

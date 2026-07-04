@@ -7,11 +7,11 @@ stage: 中級編
 subject: 代数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 中級編
-    path: /math/intermediate/index.md
+    path: ../index.md
   - title: 一次不等式
-    path: /math/intermediate/algebra/inequalities-linear.md
+    path: inequalities-linear.md
 requires:
   - title: 不等号・不等式
     path: inequalities.md

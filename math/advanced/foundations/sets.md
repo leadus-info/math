@@ -7,14 +7,14 @@ stage: 応用編
 subject: 基礎
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 集合
-    path: /math/advanced/foundations/sets.md
+    path: sets.md
 requires:
   - title: 自然数
-    path: /math/beginner/numbers/natural-numbers.md
+    path: ../../beginner/numbers/natural-numbers.md
 ---
 
 ## 「ものの集まり」を扱う
@@ -88,5 +88,5 @@ $$(A \cup B)^c = A^c \cap B^c, \quad (A \cap B)^c = A^c \cup B^c$$
 ## 関連ページ
 
 - [必要・十分条件（応用編）](logic.md)
-- [関数（応用編）](/math/advanced/analysis/functions.md)
-- [場合の数（応用編）](/math/advanced/probability/counting.md)
+- [関数（応用編）](../analysis/functions.md)
+- [場合の数（応用編）](../probability/counting.md)

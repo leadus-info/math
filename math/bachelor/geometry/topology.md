@@ -7,16 +7,16 @@ stage: 発展編
 subject: 幾何
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 発展編
-    path: /math/bachelor/index.md
+    path: ../index.md
   - title: 位相幾何学
-    path: /math/bachelor/geometry/topology.md
+    path: topology.md
 requires:
   - title: 集合
-    path: /math/advanced/foundations/sets.md
+    path: ../../advanced/foundations/sets.md
   - title: 群
-    path: /math/bachelor/algebra/abstract-groups.md
+    path: ../algebra/abstract-groups.md
 ---
 
 ## 「同じ形」とは何か
@@ -103,5 +103,5 @@ $$\chi(X) = \sum_{n=0}^{\infty} (-1)^n b_n$$
 
 ## 関連ページ
 
-- [抽象代数（発展編）](/math/bachelor/algebra/abstract.md)
-- [実数（発展編）](/math/bachelor/numbers/real-numbers.md)
+- [抽象代数（発展編）](../algebra/abstract.md)
+- [実数（発展編）](../numbers/real-numbers.md)

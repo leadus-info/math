@@ -7,11 +7,11 @@ stage: 応用編
 subject: 解析
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 微分の応用
-    path: /math/advanced/analysis/derivatives-applications.md
+    path: derivatives-applications.md
 requires:
   - title: 微分
     path: derivatives.md

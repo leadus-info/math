@@ -7,16 +7,16 @@ stage: 応用編
 subject: 解析
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 応用編
-    path: /math/advanced/index.md
+    path: ../index.md
   - title: 関数とは
-    path: /math/advanced/analysis/functions.md
+    path: functions.md
 requires:
   - title: 関数とは
-    path: /math/intermediate/functions/functions.md
+    path: ../../intermediate/functions/functions.md
   - title: 集合
-    path: /math/advanced/foundations/sets.md
+    path: ../foundations/sets.md
 ---
 
 ## 入力と出力の対応

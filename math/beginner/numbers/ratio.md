@@ -7,11 +7,11 @@ stage: 初級編
 subject: 数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 初級編
-    path: /math/beginner/index.md
+    path: ../index.md
   - title: 割合
-    path: /math/beginner/numbers/ratio.md
+    path: ratio.md
 requires:
   - title: 測定
     path: measurement.md

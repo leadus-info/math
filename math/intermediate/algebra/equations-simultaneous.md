@@ -7,11 +7,11 @@ stage: 中級編
 subject: 代数
 hierarchy:
   - title: 数学
-    path: /math/index.md
+    path: ../../index.md
   - title: 中級編
-    path: /math/intermediate/index.md
+    path: ../index.md
   - title: 連立方程式
-    path: /math/intermediate/algebra/equations-simultaneous.md
+    path: equations-simultaneous.md
 requires:
   - title: 一次方程式
     path: equations-linear.md
