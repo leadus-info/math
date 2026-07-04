@@ -15,6 +15,8 @@ hierarchy:
 requires:
   - title: 点
     path: /math/advanced/geometry/point.md
+  - title: 直線
+    path: /math/advanced/geometry/line.md
 ---
 
 ## 円とは

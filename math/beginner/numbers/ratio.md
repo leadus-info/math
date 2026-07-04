@@ -15,6 +15,10 @@ hierarchy:
 requires:
   - title: 測定
     path: measurement.md
+  - title: 割り算
+    path: division.md
+  - title: 小数
+    path: decimals.md
 ---
 
 ## 「何倍か」で比べる

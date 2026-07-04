@@ -13,8 +13,8 @@ hierarchy:
   - title: n進法
     path: /math/advanced/numbers/number-systems.md
 requires:
-  - title: ユークリッドの互除法
-    path: euclidean-algorithm.md
+  - title: 自然数
+    path: /math/beginner/numbers/natural-numbers.md
 ---
 
 ## 10進法をふりかえる
@@ -68,4 +68,4 @@ n進法は、10進法と同じ位取りの考え方を、10以外の底に一般
 
 ## 関連ページ
 
-- [自然数（初級編）](/math/beginner/numbers/natural-numbers.md)
+- [ユークリッドの互除法（応用編）](euclidean-algorithm.md)

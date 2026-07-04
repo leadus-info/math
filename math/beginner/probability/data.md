@@ -13,8 +13,8 @@ hierarchy:
   - title: データの活用
     path: /math/beginner/probability/data.md
 requires:
-  - title: 自然数
-    path: /math/beginner/numbers/natural-numbers.md
+  - title: 割り算
+    path: /math/beginner/numbers/division.md
 ---
 
 ## データを整理する

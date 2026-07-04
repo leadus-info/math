@@ -13,8 +13,8 @@ hierarchy:
   - title: 等式・不等式の証明
     path: /math/advanced/algebra/inequality-proofs.md
 requires:
-  - title: 三次の乗法公式
-    path: cubic-expansion.md
+  - title: 展開・因数分解
+    path: /math/intermediate/algebra/expressions-expansion-factoring.md
 ---
 
 ## 恒等式

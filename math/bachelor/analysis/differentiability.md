@@ -17,6 +17,8 @@ requires:
     path: /math/advanced/analysis/derivatives.md
   - title: 極限の厳密な定義
     path: /math/bachelor/analysis/epsilon-delta.md
+  - title: 行列の積
+    path: /math/bachelor/linear-algebra/matrices-product.md
 ---
 
 ## 微分可能性と連続性

@@ -13,8 +13,8 @@ hierarchy:
   - title: 重さ
     path: /math/beginner/numbers/measurement-weight.md
 requires:
-  - title: 広さ・かさ
-    path: measurement-area.md
+  - title: 測定
+    path: measurement.md
 ---
 
 ## 重さの単位

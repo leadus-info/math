@@ -46,4 +46,4 @@ $\square$
 
 ## 関連ページ
 
-- [背理法（応用編）](proofs-contradiction.md)
+- [数列（応用編）](/math/advanced/analysis/sequences.md)

@@ -12,6 +12,9 @@ hierarchy:
     path: /math/intermediate/index.md
   - title: 多角形
     path: /math/intermediate/geometry/polygons.md
+requires:
+  - title: 図形
+    path: /math/beginner/geometry/shapes.md
 ---
 
 ## 多角形とは

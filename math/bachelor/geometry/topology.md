@@ -15,6 +15,8 @@ hierarchy:
 requires:
   - title: 集合
     path: /math/advanced/foundations/sets.md
+  - title: 群
+    path: /math/bachelor/algebra/abstract-groups.md
 ---
 
 ## 「同じ形」とは何か

@@ -15,6 +15,8 @@ hierarchy:
 requires:
   - title: 円
     path: circles.md
+  - title: 直線
+    path: line.md
 ---
 
 ## 軌跡とは
@@ -71,4 +73,4 @@ $$x^2+y^2 < r^2$$
 
 ## 関連ページ
 
-- [直線（応用編）](line.md)
+- [二次曲線（応用編）](conic-sections.md)

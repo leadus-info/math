@@ -15,6 +15,8 @@ hierarchy:
 requires:
   - title: 数列
     path: /math/advanced/analysis/sequences.md
+  - title: 三角関数
+    path: /math/advanced/specific-functions/trigonometric.md
 ---
 
 ## 「近づく」とはどういうことか

@@ -13,8 +13,6 @@ hierarchy:
   - title: 三平方の定理
     path: /math/intermediate/geometry/pythagorean-theorem.md
 requires:
-  - title: 円周角の定理
-    path: circle-angles.md
   - title: 平方根
     path: /math/intermediate/numbers/arithmetic-square-root.md
 ---

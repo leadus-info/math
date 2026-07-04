@@ -13,8 +13,8 @@ hierarchy:
   - title: 時間
     path: /math/beginner/numbers/measurement-time.md
 requires:
-  - title: 重さ
-    path: measurement-weight.md
+  - title: 測定
+    path: measurement.md
 ---
 
 ## 時間の単位
@@ -37,4 +37,4 @@ $$1\text{分} = 60\text{秒}, \qquad 1\text{時} = 60\text{分}, \qquad 1\text{�
 
 ## 関連ページ
 
-- [測定（初級編）](measurement.md)
+- [割合と比例（初級編）](ratio.md)

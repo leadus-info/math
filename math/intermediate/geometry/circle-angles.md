@@ -13,8 +13,8 @@ hierarchy:
   - title: 円周角の定理
     path: /math/intermediate/geometry/circle-angles.md
 requires:
-  - title: 相似
-    path: similarity.md
+  - title: 平行線と角
+    path: angles.md
   - title: 円
     path: /math/beginner/geometry/shapes-circle.md
 ---

@@ -15,6 +15,8 @@ hierarchy:
 requires:
   - title: 空間座標とベクトル
     path: /math/advanced/geometry/space-vectors.md
+  - title: 環と体
+    path: /math/bachelor/algebra/abstract-rings-fields.md
 ---
 
 ## 大きさだけでは足りない

@@ -15,6 +15,8 @@ hierarchy:
 requires:
   - title: 確率
     path: probability.md
+  - title: データの分析
+    path: data-analysis.md
 ---
 
 ## 試行の結果を数値で表す
@@ -63,5 +65,4 @@ $$\sigma(X) = \sqrt{V(X)}$$
 
 ## 関連ページ
 
-- [データの分析（応用編）](data-analysis.md)
 - [二項分布（応用編）](binomial-distribution.md)

@@ -15,6 +15,8 @@ hierarchy:
 requires:
   - title: 環と体
     path: abstract-rings-fields.md
+  - title: 多項式
+    path: /math/advanced/algebra/polynomials.md
 ---
 
 ## 準同型・同型・巡回群
