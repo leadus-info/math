@@ -23,6 +23,11 @@ hierarchy:
 
 [乗法・べき乗](numbers/arithmetic.md)
 
+### 有理数と無理数
+循環小数を分数に変換する方法と、平方根を例にした無理数の存在を扱います。
+
+[有理数と無理数](numbers/rational-irrational.md)
+
 ## 代数
 
 ### 代数
