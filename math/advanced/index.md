@@ -108,4 +108,24 @@ hierarchy:
 
 [極限](analysis/limits.md)
 
+### 微分
+瞬間の変化率を求める操作。
+
+[微分](analysis/derivatives.md)
+
+### 積分
+面積・累積を求める操作。微分の逆操作です。
+
+[積分](analysis/integrals.md)
+
 ## 確率
+
+### 場合の数
+順列・組み合わせ——「何通りあるか」を数えます。
+
+[場合の数](probability/counting.md)
+
+### 確率
+起こりやすさを0から1の数値で表す理論。条件付き確率・ベイズの定理を扱います。
+
+[確率](probability/probability.md)
