@@ -59,3 +59,4 @@ $$\frac{\sqrt{18}}{\sqrt{2}} = \sqrt{\frac{18}{2}} = \sqrt{9} = 3$$
 
 - [累乗（中級編）](arithmetic.md)
 - [無理数（中級編）](/math/intermediate/numbers/irrational-numbers.md)
+- [誤差と近似値（中級編）](approximation.md)

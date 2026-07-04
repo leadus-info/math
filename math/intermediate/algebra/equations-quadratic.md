@@ -15,8 +15,8 @@ hierarchy:
 requires:
   - title: 一次方程式
     path: equations-linear.md
-  - title: 代数
-    path: expressions.md
+  - title: 展開・因数分解
+    path: expressions-expansion-factoring.md
 ---
 
 ## 因数分解で解く
@@ -25,7 +25,7 @@ $$ax^2 + bx + c = 0 \quad (a \neq 0)$$
 
 因数分解できる場合は、それぞれの因数が0になる値を探します。
 
-**例**：$x^2 - 5x + 6 = 0$。代数（中級編）の方法で因数分解すると $(x-2)(x-3) = 0$。よって $x = 2$ または $x = 3$。
+**例**：$x^2 - 5x + 6 = 0$。展開・因数分解（中級編）の方法で因数分解すると $(x-2)(x-3) = 0$。よって $x = 2$ または $x = 3$。
 
 ---
 

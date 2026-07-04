@@ -13,8 +13,8 @@ hierarchy:
   - title: 多項式
     path: /math/advanced/algebra/polynomials.md
 requires:
-  - title: 代数
-    path: /math/intermediate/algebra/expressions.md
+  - title: 展開・因数分解
+    path: /math/intermediate/algebra/expressions-expansion-factoring.md
   - title: 二次関数
     path: /math/advanced/specific-functions/quadratic.md
 ---
@@ -67,6 +67,6 @@ $\sin x$ や $e^x$ のような複雑な関数も、多項式で近似できま�
 
 ## 関連ページ
 
-- [代数（中級編）](/math/intermediate/algebra/expressions.md)
+- [展開・因数分解（中級編）](/math/intermediate/algebra/expressions-expansion-factoring.md)
 - [複素数（応用編）](/math/advanced/numbers/complex-numbers.md)
 - [微分（応用編）](/math/advanced/analysis/derivatives.md)

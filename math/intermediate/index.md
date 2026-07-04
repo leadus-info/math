@@ -33,12 +33,24 @@ hierarchy:
 - [有理数](numbers/rational-numbers.md)
 - [無理数](numbers/irrational-numbers.md)
 
+### 素因数分解
+自然数を素数だけの積として表す方法を扱います。
+
+- [素因数分解](numbers/prime-factorization.md)
+
+### 誤差と近似値
+測定にともなうずれと、大きな数をa×10ⁿの形で表す方法を扱います。
+
+- [誤差と近似値](numbers/approximation.md)
+
 ## 代数
 
 ### 代数
-文字を使った式の計算。同類項・展開・因数分解を扱います。
+文字を使った式の表し方と計算。一次式の加減・単項式多項式の乗除・展開・因数分解を扱います。
 
 - [代数](algebra/expressions.md)
+- [文字式の乗法・除法](algebra/expressions-multiplication.md)
+- [展開・因数分解](algebra/expressions-expansion-factoring.md)
 
 ### 等号・等式
 等式の変形規則と、一次方程式・連立方程式・二次方程式の解き方を扱います。

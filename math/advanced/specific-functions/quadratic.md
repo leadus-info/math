@@ -15,8 +15,8 @@ hierarchy:
 requires:
   - title: 一次関数
     path: /math/advanced/specific-functions/linear.md
-  - title: 代数
-    path: /math/intermediate/algebra/expressions.md
+  - title: 展開・因数分解
+    path: /math/intermediate/algebra/expressions-expansion-factoring.md
 ---
 
 ## 放物線という形
