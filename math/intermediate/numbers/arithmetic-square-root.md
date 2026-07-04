@@ -1,6 +1,6 @@
 ---
 title: 平方根
-description: "べき乗の逆操作"
+description: "累乗の逆操作"
 goal: "平方根の意味を理解し、根号を含む式の計算・有理化ができるようになる"
 tags: [math, numbers, arithmetic]
 stage: 中級編
@@ -13,11 +13,11 @@ hierarchy:
   - title: 平方根
     path: /math/intermediate/numbers/arithmetic-square-root.md
 requires:
-  - title: 乗法・べき乗
+  - title: 累乗
     path: arithmetic.md
 ---
 
-## 平方根——べき乗の逆
+## 平方根——累乗の逆
 
 「2乗すると9になる数は何か？」——答えは3です。$3^2 = 9$ だからです。
 
@@ -57,5 +57,5 @@ $$\frac{\sqrt{18}}{\sqrt{2}} = \sqrt{\frac{18}{2}} = \sqrt{9} = 3$$
 
 ## 関連ページ
 
-- [乗法・べき乗（中級編）](arithmetic.md)
+- [累乗（中級編）](arithmetic.md)
 - [無理数（中級編）](/math/intermediate/numbers/irrational-numbers.md)

@@ -13,7 +13,7 @@ hierarchy:
   - title: 指数関数
     path: /math/advanced/specific-functions/exponential.md
 requires:
-  - title: 乗法・べき乗
+  - title: 累乗
     path: /math/intermediate/numbers/arithmetic.md
   - title: 一次関数
     path: /math/advanced/specific-functions/linear.md

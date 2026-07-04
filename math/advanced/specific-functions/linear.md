@@ -15,7 +15,7 @@ hierarchy:
 requires:
   - title: 等号・等式
     path: /math/intermediate/algebra/equations.md
-  - title: 乗法・べき乗
+  - title: 累乗
     path: /math/intermediate/numbers/arithmetic.md
 ---
 

@@ -15,7 +15,7 @@ hierarchy:
 requires:
   - title: 極限
     path: /math/advanced/analysis/limits.md
-  - title: 乗法・べき乗
+  - title: 累乗
     path: /math/intermediate/numbers/arithmetic.md
 ---
 

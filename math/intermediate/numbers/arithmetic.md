@@ -1,7 +1,7 @@
 ---
-title: 乗法・べき乗
+title: 累乗
 description: "掛け算の繰り返し"
-goal: "べき乗の意味と指数法則を理解し、計算できるようになる"
+goal: "累乗の意味と指数法則を理解し、計算できるようになる"
 tags: [math, numbers, arithmetic]
 stage: 中級編
 subject: 数
@@ -10,7 +10,7 @@ hierarchy:
     path: /math/index.md
   - title: 中級編
     path: /math/intermediate/index.md
-  - title: 乗法・べき乗
+  - title: 累乗
     path: /math/intermediate/numbers/arithmetic.md
 requires:
   - title: 掛け算
@@ -21,7 +21,7 @@ requires:
 
 クッキーが1皿に3個。同じ皿が3枚なら $3 \times 3 = 9$ 個。さらに同じ棚が3段なら $3 \times 3 \times 3 = 27$ 個です。
 
-「同じ数を繰り返し掛ける」操作を**べき乗**（累乗）といいます。
+「同じ数を繰り返し掛ける」操作を**累乗**といいます。
 
 $$3 \times 3 \times 3 = 3^3 = 27$$
 
@@ -33,7 +33,7 @@ $$2^1 = 2, \quad 2^2 = 4, \quad 2^3 = 8, \quad 2^4 = 16, \quad 2^{10} = 1024$$
 
 ## 指数法則
 
-同じ底のべき乗を掛けるときは、指数を足すだけで計算できます。
+同じ底の累乗を掛けるときは、指数を足すだけで計算できます。
 
 $$a^m \times a^n = a^{m+n}$$
 
@@ -43,7 +43,7 @@ $$a^m \times a^n = a^{m+n}$$
 
 $$a^m \div a^n = a^{m-n} \quad (m \geq n)$$
 
-べき乗のべき乗では、指数を掛けます。
+累乗の累乗では、指数を掛けます。
 
 $$(a^m)^n = a^{mn}$$
 
@@ -53,7 +53,7 @@ $$(a^m)^n = a^{mn}$$
 
 ## まとめ
 
-べき乗は「同じ数を繰り返し掛ける操作」です。同じ底のべき乗の掛け算・割り算は指数の足し算・引き算に対応し、べき乗のべき乗は指数の掛け算に対応します。
+累乗は「同じ数を繰り返し掛ける操作」です。同じ底の累乗の掛け算・割り算は指数の足し算・引き算に対応し、累乗の累乗は指数の掛け算に対応します。
 
 ---
 
@@ -61,4 +61,4 @@ $$(a^m)^n = a^{mn}$$
 
 - [負数（中級編）](integers.md)
 - [平方根（中級編）](arithmetic-square-root.md)
-- [指数関数（応用編）](/math/advanced/specific-functions/exponential.md) — べき乗を関数として見る
+- [指数関数（応用編）](/math/advanced/specific-functions/exponential.md) — 累乗を関数として見る

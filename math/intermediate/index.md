@@ -21,10 +21,10 @@ hierarchy:
 - [掛け算・割り算](numbers/integers-multiplication-division.md)
 - [絶対値](numbers/integers-absolute-value.md)
 
-### 乗法・べき乗
-掛け算の繰り返しとしてのべき乗と、その逆操作である平方根を扱います。
+### べき乗
+掛け算の繰り返しとしての累乗と、その逆操作である平方根を扱います。
 
-- [乗法・べき乗](numbers/arithmetic.md)
+- [累乗](numbers/arithmetic.md)
 - [平方根](numbers/arithmetic-square-root.md)
 
 ### 有理数と無理数
