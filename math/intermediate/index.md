@@ -84,3 +84,15 @@ hierarchy:
 4辺で囲まれた図形の種類と性質。平行四辺形・長方形・ひし形・正方形の包含関係と、合同を使った証明を扱います。
 
 - [四角形](geometry/quadrilaterals.md)
+
+### 作図と図形の移動
+定規とコンパスによる基本の作図と、平行移動・対称移動・回転移動を扱います。
+
+- [基本の作図](geometry/constructions.md)
+- [図形の移動](geometry/transformations.md)
+
+### 空間図形
+直線・平面の位置関係、立体の表し方、おうぎ形の弧の長さ・面積、柱体・錐体・球の表面積・体積を扱います。
+
+- [空間図形](geometry/solids.md)
+- [空間図形の計量](geometry/solids-measurement.md)
