@@ -3,7 +3,7 @@ title: 不等号・不等式
 description: "大小関係を記号で表し、範囲を求める"
 goal: "不等号の意味と、負の数を掛けると向きが逆転する理由を理解し、不等式の解が範囲であることを説明できるようになる"
 tags: [math, algebra, inequalities]
-stage: 中級編
+stage: intermediate
 subject: 代数
 hierarchy:
   - title: 数学

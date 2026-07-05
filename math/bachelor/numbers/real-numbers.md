@@ -3,7 +3,7 @@ title: 実数
 description: "数直線上のすべての数——完備性と構成"
 goal: "実数の完備性（上限の存在）を公理として理解し、デデキント切断による構成と、完備性から従う主要な定理を説明できるようになる"
 tags: [math, numbers, real-numbers]
-stage: 発展編
+stage: bachelor
 subject: 数
 hierarchy:
   - title: 数学

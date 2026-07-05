@@ -3,7 +3,7 @@ title: 準同型・同型
 description: "群の構造を保つ写像と、より進んだ話題"
 goal: "準同型・同型・巡回群を理解し、ガロア理論や加群など、より進んだ話題の見取り図を説明できるようになる"
 tags: [math, algebra, abstract]
-stage: 発展編
+stage: bachelor
 subject: 代数
 hierarchy:
   - title: 数学

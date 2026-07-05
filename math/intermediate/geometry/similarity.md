@@ -3,7 +3,7 @@ title: 相似
 description: "形が同じで大きさだけが違う図形どうしの関係"
 goal: "三角形の相似条件を使って図形を証明でき、相似比から面積比・体積比を求められるようになる"
 tags: [math, geometry, similarity]
-stage: 中級編
+stage: intermediate
 subject: 幾何
 hierarchy:
   - title: 数学

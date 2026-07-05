@@ -3,7 +3,7 @@ title: 対数関数
 description: "「何乗すれば？」という問いに答える関数"
 goal: "対数の定義と計算規則を理解し、対数方程式を解いたり広い範囲の量を扱ったりできるようになる"
 tags: [math, specific-functions, logarithmic]
-stage: 応用編
+stage: advanced
 subject: 具体的な関数
 hierarchy:
   - title: 数学

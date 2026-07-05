@@ -3,7 +3,7 @@ title: 微分の応用
 description: "対数微分法・逆関数の微分・媒介変数の微分・第2次導関数"
 goal: "対数微分法・逆関数の導関数・媒介変数表示された関数の導関数を求め、第2次導関数からグラフの凹凸を調べられるようになる"
 tags: [math, analysis, derivatives]
-stage: 応用編
+stage: advanced
 subject: 解析
 hierarchy:
   - title: 数学

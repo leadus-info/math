@@ -3,7 +3,7 @@ title: 分数関数・無理関数
 description: "分母に変数を含む関数と、根号の中に変数を含む関数"
 goal: "分数関数・無理関数のグラフの特徴（漸近線・定義域）を理解し、平行移動と関連付けて考察できるようになる"
 tags: [math, specific-functions]
-stage: 応用編
+stage: advanced
 subject: 具体的な関数
 hierarchy:
   - title: 数学

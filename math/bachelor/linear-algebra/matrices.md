@@ -3,7 +3,7 @@ title: 行列
 description: "数を格子状に並べた構造"
 goal: "行列を連立方程式の表現・線形変換の両面から理解し、加法・スカラー倍を計算できるようになる"
 tags: [math, linear-algebra, matrices]
-stage: 発展編
+stage: bachelor
 subject: 線形代数
 hierarchy:
   - title: 数学

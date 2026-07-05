@@ -3,7 +3,7 @@ title: 文字式の乗法・除法
 description: "単項式・多項式の掛け算と割り算"
 goal: "単項式・多項式の乗法・除法を計算し、文字式を使って数の性質を説明できるようになる"
 tags: [math, algebra, expressions]
-stage: 中級編
+stage: intermediate
 subject: 代数
 hierarchy:
   - title: 数学

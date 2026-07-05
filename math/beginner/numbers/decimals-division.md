@@ -3,7 +3,7 @@ title: 小数の割り算
 description: "わる数を整数に直してから計算する"
 goal: "小数÷整数、小数÷小数の計算ができるようになる"
 tags: [math, numbers, decimals]
-stage: 初級編
+stage: beginner
 subject: 数
 hierarchy:
   - title: 数学

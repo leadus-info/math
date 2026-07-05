@@ -3,7 +3,7 @@ title: 複素解析
 description: "複素数を変数にとる関数の解析"
 goal: "正則性の定義とコーシー・リーマン方程式を理解し、コーシーの積分定理と留数定理の使いどころを説明できるようになる"
 tags: [math, analysis, complex-analysis]
-stage: 発展編
+stage: bachelor
 subject: 解析
 hierarchy:
   - title: 数学

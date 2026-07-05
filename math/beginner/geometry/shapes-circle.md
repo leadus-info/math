@@ -3,7 +3,7 @@ title: 円
 description: "中心から等しい距離にある点の集まり"
 goal: "円・球の基本的な性質と円周率の意味を理解できるようになる"
 tags: [math, geometry, circle]
-stage: 初級編
+stage: beginner
 subject: 幾何
 hierarchy:
   - title: 数学

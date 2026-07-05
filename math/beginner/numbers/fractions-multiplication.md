@@ -3,7 +3,7 @@ title: 分数の掛け算
 description: "分母同士・分子同士を掛ける"
 goal: "分数×整数、分数×分数の計算ができるようになる"
 tags: [math, numbers, fractions]
-stage: 初級編
+stage: beginner
 subject: 数
 hierarchy:
   - title: 数学

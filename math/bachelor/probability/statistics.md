@@ -3,7 +3,7 @@ title: 統計
 description: "データから母集団の性質を推測する"
 goal: "点推定・区間推定・仮説検定の手順を理解し、単回帰分析を実行できるようになる"
 tags: [math, probability, statistics]
-stage: 発展編
+stage: bachelor
 subject: 確率
 hierarchy:
   - title: 数学

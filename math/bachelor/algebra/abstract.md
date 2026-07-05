@@ -3,7 +3,7 @@ title: 抽象代数
 description: "演算の構造を公理から分析する"
 goal: "抽象代数が演算の共通する性質だけを取り出して研究する学問であることを理解し、代数系・群・環・体の階層関係を説明できるようになる"
 tags: [math, algebra, abstract]
-stage: 発展編
+stage: bachelor
 subject: 代数
 hierarchy:
   - title: 数学

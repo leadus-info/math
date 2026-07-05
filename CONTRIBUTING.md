@@ -19,6 +19,26 @@
 
 ---
 
+## フロントマター
+各記事には以下のようにフロントマターを記載してください。
+```yml
+title: 自然数
+description: "ものを数えるときに使う最も基本的な数"
+goal: "自然数とは何かと十進位取り記数法の仕組みを理解し、大きな数や概数を扱えるようになる"
+
+tags: [math, numbers, natural-numbers]
+stage: beginner
+subject: 数
+
+hierarchy:
+  - title: 数学
+    path: ../../index.md
+  - title: 初級編
+    path: ../index.md
+  - title: 自然数
+    path: natural-numbers.md
+```
+
 ## 記事のゴール設定（推奨）
 
 記事ごとに「この記事を読んだ人が何を説明できるようになるか」をゴールとして設定することを推奨します。ゴールを設定することで、記事が情報の列挙にとどまらず、読者の理解を目的とした構成になります。
@@ -127,7 +147,7 @@ title: 微分
 description: "瞬間の変化率を求める操作"
 goal: "微分の定義を述べ、基本的な関数の微分係数を計算できるようになる"
 tags: [math,analysis,calculus]
-stage: 応用編
+stage: advanced
 subject: 解析
 hierarchy:
   - title: 数学

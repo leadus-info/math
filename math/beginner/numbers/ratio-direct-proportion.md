@@ -3,7 +3,7 @@ title: 比例
 description: "一方が2倍、3倍になると他方も2倍、3倍になる関係"
 goal: "比例の関係を具体例で説明し、表から比例定数を読み取って値を求められるようになる"
 tags: [math, numbers, ratio]
-stage: 初級編
+stage: beginner
 subject: 数
 hierarchy:
   - title: 数学

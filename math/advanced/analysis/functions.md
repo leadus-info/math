@@ -3,7 +3,7 @@ title: 関数とは
 description: "入力に対して出力が一意に定まる対応"
 goal: "関数を定義域・値域・グラフの観点から理解し、合成関数・逆関数・単調性を扱えるようになる"
 tags: [math, analysis, functions]
-stage: 応用編
+stage: advanced
 subject: 解析
 hierarchy:
   - title: 数学

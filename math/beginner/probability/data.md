@@ -3,7 +3,7 @@ title: データの活用
 description: "表やグラフでデータの特徴をとらえる"
 goal: "データを表やグラフに整理する方法を理解し、代表値の意味と起こりうる場合の数え方を説明できるようになる"
 tags: [math, probability, data]
-stage: 初級編
+stage: beginner
 subject: 確率
 hierarchy:
   - title: 数学

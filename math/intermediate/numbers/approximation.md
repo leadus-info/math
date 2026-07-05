@@ -3,7 +3,7 @@ title: 誤差と近似値
 description: "測定にともなうずれと、大きな数の表し方"
 goal: "誤差・近似値・有効数字の意味を理解し、数をa×10ⁿの形で表せるようになる"
 tags: [math, numbers, approximation]
-stage: 中級編
+stage: intermediate
 subject: 数
 hierarchy:
   - title: 数学

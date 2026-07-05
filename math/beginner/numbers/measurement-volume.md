@@ -3,7 +3,7 @@ title: 体積
 description: "立体の大きさを数で表す"
 goal: "体積の単位を理解し、直方体・立方体・角柱・円柱の体積を公式で求められるようになる"
 tags: [math, numbers, measurement, volume]
-stage: 初級編
+stage: beginner
 subject: 数
 hierarchy:
   - title: 数学

@@ -3,7 +3,7 @@ title: 三角関数
 description: "角度と波を表す周期関数"
 goal: "三角関数が単位円から定義されることを理解し、基本性質・加法定理・合成を使って値や式を扱えるようになる"
 tags: [math, specific-functions, trigonometric]
-stage: 応用編
+stage: advanced
 subject: 具体的な関数
 hierarchy:
   - title: 数学

@@ -3,7 +3,7 @@ title: 単位量あたりの大きさ
 description: "単位となる大きさ1つあたりの量で比べる"
 goal: "単位量あたりの大きさの考え方を理解し、速さを含む具体的な場面で計算できるようになる"
 tags: [math, numbers, ratio]
-stage: 初級編
+stage: beginner
 subject: 数
 hierarchy:
   - title: 数学

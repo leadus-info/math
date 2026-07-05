@@ -3,7 +3,7 @@ title: 積分
 description: "面積・累積を求める操作"
 goal: "定積分の定義と微積分学の基本定理を理解し、基本的な不定積分と置換積分・部分積分を計算できるようになる"
 tags: [math, analysis, integrals]
-stage: 応用編
+stage: advanced
 subject: 解析
 hierarchy:
   - title: 数学

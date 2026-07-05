@@ -3,7 +3,7 @@ title: 極限の厳密な定義
 description: "ε-δ論法による極限の定式化"
 goal: "極限をε-δ論法で厳密に定義し、収束の証明を書けるようになり、一様収束とコーシー列による収束判定を説明できるようになる"
 tags: [math, analysis, limits]
-stage: 発展編
+stage: bachelor
 subject: 解析
 hierarchy:
   - title: 数学

@@ -3,7 +3,7 @@ title: 基本の作図
 description: "定規とコンパスだけで図形をかく"
 goal: "垂直二等分線・角の二等分線・垂線を、定規とコンパスだけで作図できるようになる"
 tags: [math, geometry, constructions]
-stage: 中級編
+stage: intermediate
 subject: 幾何
 hierarchy:
   - title: 数学

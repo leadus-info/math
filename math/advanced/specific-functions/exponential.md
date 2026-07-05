@@ -3,7 +3,7 @@ title: 指数関数
 description: "倍々で増える変化を表す関数"
 goal: "指数関数の定義とグラフの特徴を理解し、指数法則を使って指数方程式を解けるようになる"
 tags: [math, specific-functions, exponential]
-stage: 応用編
+stage: advanced
 subject: 具体的な関数
 hierarchy:
   - title: 数学

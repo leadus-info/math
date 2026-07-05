@@ -3,7 +3,7 @@ title: 微分の厳密な定義
 description: "微分可能性の厳密な定義と多変数への拡張"
 goal: "微分可能性を厳密に定義し、連続性との関係と反例を説明し、偏微分・全微分・ヤコビ行列による多変数への一般化を扱えるようになる"
 tags: [math, analysis, derivatives]
-stage: 発展編
+stage: bachelor
 subject: 解析
 hierarchy:
   - title: 数学

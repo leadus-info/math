@@ -3,7 +3,7 @@ title: 等号・等式
 description: "「等しい」を記号で表す"
 goal: "等号の意味と等式の変形規則を理解し、方程式と恒等式の違いを説明できるようになる"
 tags: [math, algebra, equations]
-stage: 中級編
+stage: intermediate
 subject: 代数
 hierarchy:
   - title: 数学

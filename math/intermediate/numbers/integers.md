@@ -3,7 +3,7 @@ title: 負数
 description: "0より小さい数"
 goal: "負数が必要になる場面を理解し、数直線上での整数の大小関係を説明できるようになる"
 tags: [math, numbers, integers]
-stage: 中級編
+stage: intermediate
 subject: 数
 hierarchy:
   - title: 数学

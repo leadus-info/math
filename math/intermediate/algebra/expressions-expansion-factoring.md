@@ -3,7 +3,7 @@ title: 展開・因数分解
 description: "乗法公式による式の展開と、その逆操作"
 goal: "4つの乗法公式を使って式を展開・因数分解できるようになる"
 tags: [math, algebra, expressions]
-stage: 中級編
+stage: intermediate
 subject: 代数
 hierarchy:
   - title: 数学

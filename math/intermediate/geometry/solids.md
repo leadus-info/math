@@ -3,7 +3,7 @@ title: 空間図形
 description: "直線・平面の位置関係と、立体の表し方"
 goal: "空間内の直線・平面の位置関係（ねじれの位置を含む）を理解し、立体を投影図・展開図で表せるようになる"
 tags: [math, geometry, solids]
-stage: 中級編
+stage: intermediate
 subject: 幾何
 hierarchy:
   - title: 数学

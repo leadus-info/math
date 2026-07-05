@@ -3,7 +3,7 @@ title: 条件付き確率とベイズの定理
 description: "情報が加わったときに確率を更新する"
 goal: "条件付き確率の意味を理解し、ベイズの定理を使って結果から原因の確率を求められるようになる"
 tags: [math, probability]
-stage: 応用編
+stage: advanced
 subject: 確率
 hierarchy:
   - title: 数学

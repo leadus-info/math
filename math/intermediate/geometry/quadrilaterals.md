@@ -3,7 +3,7 @@ title: 四角形
 description: "4辺で囲まれた図形の種類と性質"
 goal: "平行四辺形・長方形・ひし形・正方形の包含関係と各図形の性質・面積の求め方を説明できるようになる"
 tags: [math, geometry, quadrilateral]
-stage: 中級編
+stage: intermediate
 subject: 幾何
 hierarchy:
   - title: 数学

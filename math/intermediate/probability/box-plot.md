@@ -3,7 +3,7 @@ title: 四分位範囲と箱ひげ図
 description: "外れ値に影響されにくい散らばりの指標"
 goal: "四分位数・四分位範囲を求め、箱ひげ図を使って複数の集団のデータを比較できるようになる"
 tags: [math, probability, data]
-stage: 中級編
+stage: intermediate
 subject: 確率
 hierarchy:
   - title: 数学

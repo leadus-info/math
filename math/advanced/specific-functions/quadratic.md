@@ -3,7 +3,7 @@ title: 二次関数
 description: "グラフが放物線になる関数"
 goal: "二次関数の定義と平方完成による頂点の求め方を理解し、最大値・最小値を求めたり判別式を使ってグラフとx軸の関係を説明したりできるようになる"
 tags: [math, specific-functions, quadratic]
-stage: 応用編
+stage: advanced
 subject: 具体的な関数
 hierarchy:
   - title: 数学

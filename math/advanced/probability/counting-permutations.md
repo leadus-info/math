@@ -3,7 +3,7 @@ title: 順列
 description: "順番を区別して選ぶ場合の数"
 goal: "順列の公式を理解し、計算できるようになる"
 tags: [math, probability, counting]
-stage: 応用編
+stage: advanced
 subject: 確率
 hierarchy:
   - title: 数学

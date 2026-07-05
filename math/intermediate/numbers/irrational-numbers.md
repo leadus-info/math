@@ -3,7 +3,7 @@ title: 無理数
 description: "分数で表せない数"
 goal: "平方根を例に無理数が存在することを、背理法を使って説明できるようになる"
 tags: [math, numbers, real-numbers]
-stage: 中級編
+stage: intermediate
 subject: 数
 hierarchy:
   - title: 数学

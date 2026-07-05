@@ -3,7 +3,7 @@ title: 一次関数
 description: "グラフが直線になる関数"
 goal: "一次関数の定義を述べ、傾きと切片から式を求め、連立方程式と交点の関係を説明できるようになる"
 tags: [math, functions, linear]
-stage: 中級編
+stage: intermediate
 subject: 関数
 hierarchy:
   - title: 数学

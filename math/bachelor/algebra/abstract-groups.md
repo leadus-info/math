@@ -3,7 +3,7 @@ title: 群
 description: "演算の最も基本的な構造"
 goal: "群の定義を公理から理解し、部分群・剰余類・商群を説明できるようになる"
 tags: [math, algebra, abstract]
-stage: 発展編
+stage: bachelor
 subject: 代数
 hierarchy:
   - title: 数学

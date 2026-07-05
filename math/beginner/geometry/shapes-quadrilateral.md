@@ -3,7 +3,7 @@ title: 四角形
 description: "4本の線分で囲まれた形"
 goal: "四角形の種類（正方形・長方形・平行四辺形・ひし形・台形）と面積の求め方、4つの角の大きさの和の性質を理解できるようになる"
 tags: [math, geometry, quadrilateral]
-stage: 初級編
+stage: beginner
 subject: 幾何
 hierarchy:
   - title: 数学

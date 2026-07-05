@@ -3,7 +3,7 @@ title: 連立不等式
 description: "複数の不等式を同時に満たす範囲を求める"
 goal: "連立不等式を解いて、複数の条件を同時に満たす範囲を求められるようになる"
 tags: [math, algebra, inequalities]
-stage: 中級編
+stage: intermediate
 subject: 代数
 hierarchy:
   - title: 数学

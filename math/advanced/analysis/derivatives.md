@@ -3,7 +3,7 @@ title: 微分
 description: "瞬間の変化率を求める操作"
 goal: "微分係数の定義を理解し、基本的な導関数の計算規則を使って関数の増減・極値を求められるようになる"
 tags: [math, analysis, derivatives]
-stage: 応用編
+stage: advanced
 subject: 解析
 hierarchy:
   - title: 数学

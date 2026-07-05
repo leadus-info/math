@@ -3,7 +3,7 @@ title: 極限
 description: "限りなく近づくとはどういうことか"
 goal: "数列と関数の極限の意味を理解し、極限の計算規則を使って値を求め、連続性を説明できるようになる"
 tags: [math, analysis, limits]
-stage: 応用編
+stage: advanced
 subject: 解析
 hierarchy:
   - title: 数学

@@ -3,7 +3,7 @@ title: 相似
 description: "形を変えずに大きさだけ変えた図形"
 goal: "縮図・拡大図（相似）の考え方と対応する辺・角の性質を理解し、活用できるようになる"
 tags: [math, geometry, similarity]
-stage: 初級編
+stage: beginner
 subject: 幾何
 hierarchy:
   - title: 数学

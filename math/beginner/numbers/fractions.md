@@ -3,7 +3,7 @@ title: 分数
 description: "割り切れないときに使う数"
 goal: "分数の意味・真分数仮分数・大小を理解し、割り切れない割り算の結果を分数で表せるようになる"
 tags: [math, numbers, fractions]
-stage: 初級編
+stage: beginner
 subject: 数
 hierarchy:
   - title: 数学

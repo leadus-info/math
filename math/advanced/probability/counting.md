@@ -3,7 +3,7 @@ title: 場合の数
 description: "何通りあるかを数える"
 goal: "積の法則・和の法則・階乗の意味を理解し、基本的な場合の数を数えられるようになる"
 tags: [math, probability, counting]
-stage: 応用編
+stage: advanced
 subject: 確率
 hierarchy:
   - title: 数学

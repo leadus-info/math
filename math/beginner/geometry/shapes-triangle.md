@@ -3,7 +3,7 @@ title: 三角形
 description: "3本の線分で囲まれた形"
 goal: "三角形の種類（直角・二等辺・正三角形）と面積の求め方、3つの角の大きさの和の性質を理解できるようになる"
 tags: [math, geometry, triangle]
-stage: 初級編
+stage: beginner
 subject: 幾何
 hierarchy:
   - title: 数学

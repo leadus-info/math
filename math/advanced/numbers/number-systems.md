@@ -3,7 +3,7 @@ title: n進法
 description: "10以外の数を基準にした位取り記数法"
 goal: "n進法の仕組みを理解し、10進法との相互変換ができるようになる"
 tags: [math, numbers]
-stage: 応用編
+stage: advanced
 subject: 数
 hierarchy:
   - title: 数学

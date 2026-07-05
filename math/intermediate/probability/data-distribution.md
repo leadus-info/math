@@ -3,7 +3,7 @@ title: ヒストグラムと相対度数
 description: "データの散らばりを図と割合で読み取る"
 goal: "ヒストグラムから分布の特徴を読み取り、相対度数・累積度数を求められるようになる"
 tags: [math, probability, data]
-stage: 中級編
+stage: intermediate
 subject: 確率
 hierarchy:
   - title: 数学

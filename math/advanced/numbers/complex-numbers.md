@@ -3,7 +3,7 @@ title: 複素数
 description: "実数では解けない方程式から生まれた数"
 goal: "虚数単位と複素数の定義を理解し、四則演算・複素平面・絶対値・極形式を使えるようになる"
 tags: [math, numbers, complex-numbers]
-stage: 応用編
+stage: advanced
 subject: 数
 hierarchy:
   - title: 数学

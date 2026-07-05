@@ -3,7 +3,7 @@ title: 図形の移動
 description: "平行移動・対称移動・回転移動"
 goal: "平行移動・対称移動・回転移動の違いを理解し、図形を移動させて考察できるようになる"
 tags: [math, geometry, transformations]
-stage: 中級編
+stage: intermediate
 subject: 幾何
 hierarchy:
   - title: 数学

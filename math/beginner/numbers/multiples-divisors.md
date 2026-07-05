@@ -3,7 +3,7 @@ title: 倍数と約数
 description: "掛け算・割り算から生まれる数の性質"
 goal: "倍数・約数・公倍数・公約数・偶数・奇数の意味を理解し、最大公約数・最小公倍数を求められるようになる"
 tags: [math, numbers, multiples-divisors]
-stage: 初級編
+stage: beginner
 subject: 数
 hierarchy:
   - title: 数学

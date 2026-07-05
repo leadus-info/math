@@ -3,7 +3,7 @@ title: 線形写像
 description: "ベクトルの構造を保つ変換"
 goal: "線形写像を定義から理解し、表現行列・核・像を求め、次元定理を使えるようになる"
 tags: [math, linear-algebra, linear-maps]
-stage: 発展編
+stage: bachelor
 subject: 線形代数
 hierarchy:
   - title: 数学

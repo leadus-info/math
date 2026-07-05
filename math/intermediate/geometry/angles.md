@@ -3,7 +3,7 @@ title: 平行線と角
 description: "対頂角・同位角・錯角の性質"
 goal: "対頂角・同位角・錯角の性質を理解し、それらを根拠に三角形の内角の和が180度であることを証明でき、三角形の外角の性質を説明できるようになる"
 tags: [math, geometry, angles]
-stage: 中級編
+stage: intermediate
 subject: 幾何
 hierarchy:
   - title: 数学

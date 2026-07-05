@@ -3,7 +3,7 @@ title: 行列式
 description: "変換による面積・体積の拡大率"
 goal: "行列式の定義と幾何学的な意味を理解し、余因子展開でn次正方行列の行列式を計算し、多重線形性などの基本性質を説明できるようになる"
 tags: [math, linear-algebra, matrices]
-stage: 発展編
+stage: bachelor
 subject: 線形代数
 hierarchy:
   - title: 数学

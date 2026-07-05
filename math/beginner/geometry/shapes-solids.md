@@ -3,7 +3,7 @@ title: 立体図形
 description: "箱の形・柱の形をとらえる"
 goal: "立方体・直方体・角柱・円柱の構成要素を理解し、見取図・展開図で立体を表せるようになる"
 tags: [math, geometry, solids]
-stage: 初級編
+stage: beginner
 subject: 幾何
 hierarchy:
   - title: 数学

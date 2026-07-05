@@ -3,7 +3,7 @@ title: 環と体
 description: "2つの演算を持つ構造"
 goal: "環・整域・体の定義とその包含関係を理解できるようになる"
 tags: [math, algebra, abstract]
-stage: 発展編
+stage: bachelor
 subject: 代数
 hierarchy:
   - title: 数学

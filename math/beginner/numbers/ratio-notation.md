@@ -3,7 +3,7 @@ title: 比
 description: "2つの数量の関係をそのまま表す"
 goal: "比の意味を理解し、等しい比を作ったり比の値を求めたりできるようになる"
 tags: [math, numbers, ratio]
-stage: 初級編
+stage: beginner
 subject: 数
 hierarchy:
   - title: 数学

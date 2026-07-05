@@ -3,7 +3,7 @@ title: 引き算
 description: "足し算の空欄を埋める逆の操作"
 goal: "引き算が足し算の逆操作であることを理解し、自然数の中では引き算ができない場合があることを説明できるようになる"
 tags: [math, numbers, subtraction]
-stage: 初級編
+stage: beginner
 subject: 数
 hierarchy:
   - title: 数学

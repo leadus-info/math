@@ -3,7 +3,7 @@ title: 分数の足し算
 description: "分母をそろえて分数を足す"
 goal: "分母が同じ分数の足し算と、通分を使った異なる分母の足し算ができるようになる"
 tags: [math, numbers, fractions]
-stage: 初級編
+stage: beginner
 subject: 数
 hierarchy:
   - title: 数学

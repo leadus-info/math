@@ -3,7 +3,7 @@ title: 図形
 description: "身の回りの形の特徴をとらえる"
 goal: "図形を構成する要素（辺・角・面）に注目して、性質を見つける視点を持てるようになる"
 tags: [math, geometry, shapes]
-stage: 初級編
+stage: beginner
 subject: 幾何
 hierarchy:
   - title: 数学

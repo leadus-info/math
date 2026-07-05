@@ -3,7 +3,7 @@ title: 円周角の定理
 description: "同じ弧に対する円周角はいつも等しい"
 goal: "円周角の定理とその逆を理解し、円に関する角度の問題に活用できるようになる"
 tags: [math, geometry, circle]
-stage: 中級編
+stage: intermediate
 subject: 幾何
 hierarchy:
   - title: 数学

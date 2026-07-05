@@ -3,7 +3,7 @@ title: 正規分布
 description: "左右対称の釣り鐘型の分布"
 goal: "正規分布の定義・標準化・68-95-99.7則を理解し、中心極限定理により正規分布が幅広い現象に現れる理由を説明できるようになる"
 tags: [math, probability, distributions]
-stage: 発展編
+stage: bachelor
 subject: 確率
 hierarchy:
   - title: 数学

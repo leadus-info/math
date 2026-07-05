@@ -3,7 +3,7 @@ title: 行列の積
 description: "行ベクトルと列ベクトルの内積を並べる"
 goal: "行列の積の定義を理解し、計算できるようになる"
 tags: [math, linear-algebra, matrices]
-stage: 発展編
+stage: bachelor
 subject: 線形代数
 hierarchy:
   - title: 数学

@@ -3,7 +3,7 @@ title: 絶対値
 description: "0からの距離"
 goal: "絶対値の意味を理解し、計算できるようになる"
 tags: [math, numbers, integers]
-stage: 中級編
+stage: intermediate
 subject: 数
 hierarchy:
   - title: 数学

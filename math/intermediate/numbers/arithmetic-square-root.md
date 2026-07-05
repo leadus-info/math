@@ -3,7 +3,7 @@ title: 平方根
 description: "累乗の逆操作"
 goal: "平方根の意味を理解し、根号を含む式の計算・有理化ができるようになる"
 tags: [math, numbers, arithmetic]
-stage: 中級編
+stage: intermediate
 subject: 数
 hierarchy:
   - title: 数学

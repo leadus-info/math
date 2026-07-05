@@ -3,7 +3,7 @@ title: 必要・十分条件
 description: "「ならば」の向きと強さ、論理記号"
 goal: "必要条件・十分条件・同値の違いを理解し、対偶・背理法による証明の仕組みを説明できるようになる"
 tags: [math, foundations, logic]
-stage: 応用編
+stage: advanced
 subject: 基礎
 hierarchy:
   - title: 数学

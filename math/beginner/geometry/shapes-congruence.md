@@ -3,7 +3,7 @@ title: 合同
 description: "形も大きさも同じ図形"
 goal: "合同の意味と、対応する頂点・辺・角の性質を理解できるようになる"
 tags: [math, geometry, congruence]
-stage: 初級編
+stage: beginner
 subject: 幾何
 hierarchy:
   - title: 数学

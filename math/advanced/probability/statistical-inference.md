@@ -3,7 +3,7 @@ title: 統計的な推測
 description: "標本から母集団の平均を推定し、主張の妥当性を検定する"
 goal: "標本平均の分布をもとに母平均を区間推定し、仮説検定の手順を説明できるようになる"
 tags: [math, probability, statistics]
-stage: 応用編
+stage: advanced
 subject: 確率
 hierarchy:
   - title: 数学

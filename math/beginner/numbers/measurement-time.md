@@ -3,7 +3,7 @@ title: 時間
 description: "時間の単位と時刻の読み方"
 goal: "時間の単位（秒・分・時・日）の関係を理解し、時刻と時間を扱えるようになる"
 tags: [math, numbers, measurement]
-stage: 初級編
+stage: beginner
 subject: 数
 hierarchy:
   - title: 数学

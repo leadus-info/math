@@ -3,7 +3,7 @@ title: ユークリッドの互除法
 description: "割り算を繰り返して最大公約数を求めるアルゴリズム"
 goal: "ユークリッドの互除法で最大公約数を求め、1次不定方程式の整数解を求められるようになる"
 tags: [math, numbers, integers]
-stage: 応用編
+stage: advanced
 subject: 数
 hierarchy:
   - title: 数学

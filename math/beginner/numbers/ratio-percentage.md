@@ -3,7 +3,7 @@ title: 百分率
 description: "割合を100を基準にして表す"
 goal: "百分率の意味を理解し、割合を百分率で表したり読み取ったりできるようになる"
 tags: [math, numbers, ratio]
-stage: 初級編
+stage: beginner
 subject: 数
 hierarchy:
   - title: 数学

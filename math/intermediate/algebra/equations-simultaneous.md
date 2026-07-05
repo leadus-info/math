@@ -3,7 +3,7 @@ title: 連立方程式
 description: "複数の等式を同時に満たす未知数の組を求める"
 goal: "連立方程式を加減法・代入法で解けるようになる"
 tags: [math, algebra, equations]
-stage: 中級編
+stage: intermediate
 subject: 代数
 hierarchy:
   - title: 数学

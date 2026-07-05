@@ -3,7 +3,7 @@ title: 数列
 description: "規則正しく並んだ数の列"
 goal: "等差数列・等比数列の一般項と和の公式を理解し、漸化式や無限級数の基本を扱えるようになる"
 tags: [math, analysis, sequences]
-stage: 応用編
+stage: advanced
 subject: 解析
 hierarchy:
   - title: 数学

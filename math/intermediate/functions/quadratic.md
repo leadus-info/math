@@ -3,7 +3,7 @@ title: 二次関数
 description: "xの2乗に比例する関数"
 goal: "二次関数y=ax²の性質とグラフの特徴を理解し、変化の割合が一定でないことを説明できるようになる"
 tags: [math, functions, quadratic]
-stage: 中級編
+stage: intermediate
 subject: 関数
 hierarchy:
   - title: 数学

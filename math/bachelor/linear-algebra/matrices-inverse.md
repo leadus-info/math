@@ -3,7 +3,7 @@ title: 逆行列
 description: "変換を打ち消す操作"
 goal: "逆行列の意味と2次行列の逆行列の公式を理解し、余因子行列や掃き出し法によるn次正方行列の逆行列の求め方を説明し、連立方程式を解く手段として使えるようになる"
 tags: [math, linear-algebra, matrices]
-stage: 発展編
+stage: bachelor
 subject: 線形代数
 hierarchy:
   - title: 数学

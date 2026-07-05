@@ -3,7 +3,7 @@ title: 場合の数を基にした確率
 description: "同様に確からしいことに着目して確率を計算する"
 goal: "樹形図や表を使って場合の数を整理し、確率を計算できるようになる"
 tags: [math, probability]
-stage: 中級編
+stage: intermediate
 subject: 確率
 hierarchy:
   - title: 数学

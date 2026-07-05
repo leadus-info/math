@@ -3,7 +3,7 @@ title: 正規分布
 description: "連続的な値をとる確率変数の代表的な分布"
 goal: "正規分布の性質を理解し、標準化して標準正規分布表から確率を求められるようになる"
 tags: [math, probability, normal-distribution]
-stage: 応用編
+stage: advanced
 subject: 確率
 hierarchy:
   - title: 数学

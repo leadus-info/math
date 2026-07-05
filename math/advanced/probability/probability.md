@@ -3,7 +3,7 @@ title: 確率
 description: "起こりやすさを数値で表す"
 goal: "確率の基本法則を理解し、余事象・独立を使って確率を計算できるようになる"
 tags: [math, probability]
-stage: 応用編
+stage: advanced
 subject: 確率
 hierarchy:
   - title: 数学

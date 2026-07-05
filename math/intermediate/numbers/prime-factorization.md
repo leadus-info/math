@@ -3,7 +3,7 @@ title: 素因数分解
 description: "自然数を素数の積として表す"
 goal: "素数の意味を理解し、自然数を素因数分解できるようになる"
 tags: [math, numbers, prime-factorization]
-stage: 中級編
+stage: intermediate
 subject: 数
 hierarchy:
   - title: 数学

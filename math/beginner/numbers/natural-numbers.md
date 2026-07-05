@@ -3,7 +3,7 @@ title: 自然数
 description: "ものを数えるときに使う最も基本的な数"
 goal: "自然数とは何かと十進位取り記数法の仕組みを理解し、大きな数や概数を扱えるようになる"
 tags: [math, numbers, natural-numbers]
-stage: 初級編
+stage: beginner
 subject: 数
 hierarchy:
   - title: 数学

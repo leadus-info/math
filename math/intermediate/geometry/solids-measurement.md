@@ -3,7 +3,7 @@ title: 空間図形の計量
 description: "おうぎ形の弧の長さ・面積と、立体の表面積・体積"
 goal: "おうぎ形の弧の長さ・面積、柱体・錐体・球の表面積・体積を公式で求められるようになる"
 tags: [math, geometry, solids]
-stage: 中級編
+stage: intermediate
 subject: 幾何
 hierarchy:
   - title: 数学

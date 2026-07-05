@@ -3,7 +3,7 @@ title: 合同と証明
 description: "形も大きさも同じ図形と、論理的な説明の進め方"
 goal: "三角形の合同条件を使って図形の性質を証明できるようになり、命題の逆・反例の意味を説明できるようになる"
 tags: [math, geometry, congruence, proof]
-stage: 中級編
+stage: intermediate
 subject: 幾何
 hierarchy:
   - title: 数学

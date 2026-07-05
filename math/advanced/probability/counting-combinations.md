@@ -3,7 +3,7 @@ title: 組み合わせ
 description: "順番を区別せずに選ぶ場合の数"
 goal: "組み合わせの公式と重複組み合わせを理解し、計算できるようになる"
 tags: [math, probability, counting]
-stage: 応用編
+stage: advanced
 subject: 確率
 hierarchy:
   - title: 数学

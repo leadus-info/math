@@ -3,7 +3,7 @@ title: 一次方程式
 description: "未知数が1次の方程式を解く"
 goal: "一次方程式を移項によって解け、比例式をxについて解けるようになる"
 tags: [math, algebra, equations]
-stage: 中級編
+stage: intermediate
 subject: 代数
 hierarchy:
   - title: 数学

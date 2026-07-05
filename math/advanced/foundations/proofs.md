@@ -3,7 +3,7 @@ title: 証明法
 description: "数学的命題を正しく示す方法"
 goal: "証明が仮定・結論・論理の連鎖からなることを理解し、状況に応じた証明法を選べるようになる"
 tags: [math, foundations, proofs]
-stage: 応用編
+stage: advanced
 subject: 基礎
 hierarchy:
   - title: 数学

@@ -3,7 +3,7 @@ title: 反比例
 description: "一方が2倍になると他方が半分になる関係"
 goal: "反比例の関係を具体例で説明できるようになる"
 tags: [math, numbers, ratio]
-stage: 初級編
+stage: beginner
 subject: 数
 hierarchy:
   - title: 数学

@@ -3,7 +3,7 @@ title: 直線
 description: "方程式・平行・垂直・点と直線の距離"
 goal: "直線の方程式を状況に応じた形で書き、平行・垂直の条件と点と直線の距離公式を使えるようになる"
 tags: [math, geometry, line]
-stage: 応用編
+stage: advanced
 subject: 幾何
 hierarchy:
   - title: 数学

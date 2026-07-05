@@ -3,7 +3,7 @@ title: ベクトル
 description: "向きと大きさを持つ量——平面図形への応用"
 goal: "平面上のベクトルの演算・内積を理解し、図形の性質を証明する道具として使えるようになる"
 tags: [math, geometry, vectors]
-stage: 応用編
+stage: advanced
 subject: 幾何
 hierarchy:
   - title: 数学

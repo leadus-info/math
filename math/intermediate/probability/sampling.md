@@ -3,7 +3,7 @@ title: 標本調査
 description: "全部調べられないとき、一部から全体を推定する"
 goal: "全数調査と標本調査の違いを理解し、無作為抽出の考え方を説明できるようになる"
 tags: [math, probability, sampling]
-stage: 中級編
+stage: intermediate
 subject: 確率
 hierarchy:
   - title: 数学

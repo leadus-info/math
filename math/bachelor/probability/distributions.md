@@ -3,7 +3,7 @@ title: 確率分布
 description: "確率変数の値の広がり方"
 goal: "確率質量関数・確率密度関数の枠組みを理解し、離散分布・連続分布の違いを説明できるようになる"
 tags: [math, probability, distributions]
-stage: 発展編
+stage: bachelor
 subject: 確率
 hierarchy:
   - title: 数学

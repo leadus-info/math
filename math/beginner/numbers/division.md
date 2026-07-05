@@ -3,7 +3,7 @@ title: 割り算
 description: "掛け算の空欄を埋める逆の操作"
 goal: "割り算が掛け算の逆操作であることを理解し、商と余りの意味を説明できるようになる"
 tags: [math, numbers, division]
-stage: 初級編
+stage: beginner
 subject: 数
 hierarchy:
   - title: 数学

@@ -3,7 +3,7 @@ title: 割合
 description: "2つの数量の関係を比べる"
 goal: "割合の意味と求め方を理解できるようになる"
 tags: [math, numbers, ratio]
-stage: 初級編
+stage: beginner
 subject: 数
 hierarchy:
   - title: 数学

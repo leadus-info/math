@@ -3,7 +3,7 @@ title: 対称
 description: "折る・回転して重なる図形"
 goal: "線対称・点対称の意味と、対称の軸・対称の中心を理解できるようになる"
 tags: [math, geometry, symmetry]
-stage: 初級編
+stage: beginner
 subject: 幾何
 hierarchy:
   - title: 数学

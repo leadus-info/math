@@ -3,7 +3,7 @@ title: リーマン積分
 description: "リーマン和による積分の厳密な定義"
 goal: "リーマン積分を分割とリーマン和から厳密に定義し、可積分性の意味と微分積分学の基本定理、ルベーグ積分との違いを説明できるようになる"
 tags: [math, analysis, integrals]
-stage: 発展編
+stage: bachelor
 subject: 解析
 hierarchy:
   - title: 数学

@@ -3,7 +3,7 @@ title: 三角比
 description: "直角三角形の辺の比から角度と長さを結びつける"
 goal: "鋭角の三角比を定義し、鈍角まで拡張して、相互関係を使えるようになる"
 tags: [math, geometry, trigonometry]
-stage: 応用編
+stage: advanced
 subject: 幾何
 hierarchy:
   - title: 数学

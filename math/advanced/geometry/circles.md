@@ -3,7 +3,7 @@ title: 円
 description: "中心から等距離にある点の集合"
 goal: "円の方程式を書き、円と直線の位置関係・接線の方程式を求め、単位円と三角関数の関係を説明できるようになる"
 tags: [math, geometry, circle]
-stage: 応用編
+stage: advanced
 subject: 幾何
 hierarchy:
   - title: 数学

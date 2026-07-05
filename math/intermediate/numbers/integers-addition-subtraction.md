@@ -3,7 +3,7 @@ title: 負の数の足し算・引き算
 description: "数直線を使った整数の加減算"
 goal: "負の数を含む足し算・引き算を、数直線のイメージと符号反転の考え方で計算できるようになる"
 tags: [math, numbers, integers]
-stage: 中級編
+stage: intermediate
 subject: 数
 hierarchy:
   - title: 数学

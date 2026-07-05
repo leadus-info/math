@@ -3,7 +3,7 @@ title: 点
 description: "座標平面上の位置と距離"
 goal: "座標の意味を理解し、2点間の距離・中点・内分点・重心の公式を導出して使えるようになる"
 tags: [math, geometry, point]
-stage: 応用編
+stage: advanced
 subject: 幾何
 hierarchy:
   - title: 数学

@@ -3,7 +3,7 @@ title: 累乗
 description: "掛け算の繰り返し"
 goal: "累乗の意味と指数法則を理解し、計算できるようになる"
 tags: [math, numbers, arithmetic]
-stage: 中級編
+stage: intermediate
 subject: 数
 hierarchy:
   - title: 数学

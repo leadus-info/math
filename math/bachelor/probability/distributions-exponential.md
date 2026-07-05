@@ -3,7 +3,7 @@ title: 指数分布
 description: "待ち時間の分布"
 goal: "指数分布の定義と無記憶性を理解できるようになる"
 tags: [math, probability, distributions]
-stage: 発展編
+stage: bachelor
 subject: 確率
 hierarchy:
   - title: 数学

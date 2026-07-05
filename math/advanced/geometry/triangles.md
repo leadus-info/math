@@ -3,7 +3,7 @@ title: 三角形
 description: "3本の辺で囲まれた最も基本的な多角形"
 goal: "三角形の内角の和と三平方の定理を理解し、正弦定理・余弦定理・面積公式を使えるようになる"
 tags: [math, geometry, triangle]
-stage: 応用編
+stage: advanced
 subject: 幾何
 hierarchy:
   - title: 数学

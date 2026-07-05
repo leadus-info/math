@@ -3,7 +3,7 @@ title: 多角形
 description: "3辺以上の直線で囲まれた図形"
 goal: "多角形の内角の和・外角の和の法則と正多角形の特徴を説明できるようになる"
 tags: [math, geometry, polygon]
-stage: 中級編
+stage: intermediate
 subject: 幾何
 hierarchy:
   - title: 数学

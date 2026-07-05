@@ -3,7 +3,7 @@ title: 三次の乗法公式
 description: "立方の展開と因数分解の公式"
 goal: "三次の乗法公式を使って式を展開・因数分解できるようになる"
 tags: [math, algebra, expressions]
-stage: 応用編
+stage: advanced
 subject: 代数
 hierarchy:
   - title: 数学

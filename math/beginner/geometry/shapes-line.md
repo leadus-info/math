@@ -3,7 +3,7 @@ title: 直線
 description: "まっすぐ限りなく伸びる線と、角の大きさ"
 goal: "平行・垂直の意味と、角の大きさを度で表すことを理解できるようになる"
 tags: [math, geometry, line]
-stage: 初級編
+stage: beginner
 subject: 幾何
 hierarchy:
   - title: 数学

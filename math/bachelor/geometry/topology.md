@@ -3,7 +3,7 @@ title: 位相幾何学
 description: "連続変形で変わらない性質を研究する"
 goal: "位相空間・連続写像・コンパクト性・連結性を定義から理解し、基本群やホモロジーによって空間の「穴」を分類する考え方を説明できるようになる"
 tags: [math, geometry, topology]
-stage: 発展編
+stage: bachelor
 subject: 幾何
 hierarchy:
   - title: 数学

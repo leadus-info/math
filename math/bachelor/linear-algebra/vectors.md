@@ -3,7 +3,7 @@ title: ベクトル
 description: "大きさと向きを持つ量——成分・内積・線形独立"
 goal: "ベクトルを成分表示で扱い、内積の幾何学的意味と線形独立の概念を理解して、一般のベクトル空間の定義につなげられるようになる"
 tags: [math, linear-algebra, vectors]
-stage: 発展編
+stage: bachelor
 subject: 線形代数
 hierarchy:
   - title: 数学

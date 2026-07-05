@@ -3,7 +3,7 @@ title: 軌跡と領域
 description: "条件を満たす点の集まりを方程式・不等式で表す"
 goal: "条件から軌跡の方程式を求め、不等式が表す平面上の領域を図示できるようになる"
 tags: [math, geometry, locus]
-stage: 応用編
+stage: advanced
 subject: 幾何
 hierarchy:
   - title: 数学

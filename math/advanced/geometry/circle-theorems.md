@@ -3,7 +3,7 @@ title: 円の性質の応用
 description: "内接四角形・接弦定理・方べきの定理・2円の位置関係"
 goal: "円に内接する四角形の性質、接弦定理、方べきの定理を使えるようになる"
 tags: [math, geometry, circle]
-stage: 応用編
+stage: advanced
 subject: 幾何
 hierarchy:
   - title: 数学

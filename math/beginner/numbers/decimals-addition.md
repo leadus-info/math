@@ -3,7 +3,7 @@ title: 小数の足し算
 description: "位をそろえて計算する"
 goal: "小数の足し算を、位をそろえて筆算できるようになる"
 tags: [math, numbers, decimals]
-stage: 初級編
+stage: beginner
 subject: 数
 hierarchy:
   - title: 数学

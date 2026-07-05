@@ -3,7 +3,7 @@ title: 固有値
 description: "行列を掛けても方向が変わらないベクトル"
 goal: "固有値・固有ベクトルを固有多項式から計算し、対角化可能かどうかを判定して行列のべき乗を簡単化できるようになる"
 tags: [math, linear-algebra, eigenvalues]
-stage: 発展編
+stage: bachelor
 subject: 線形代数
 hierarchy:
   - title: 数学

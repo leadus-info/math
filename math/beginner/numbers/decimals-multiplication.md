@@ -3,7 +3,7 @@ title: 小数の掛け算
 description: "小数点の位置を後から調整する"
 goal: "小数×整数、小数×小数の計算ができるようになる"
 tags: [math, numbers, decimals]
-stage: 初級編
+stage: beginner
 subject: 数
 hierarchy:
   - title: 数学

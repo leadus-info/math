@@ -3,7 +3,7 @@ title: ポアソン分布
 description: "まれな事象の発生回数の分布"
 goal: "ポアソン分布の定義と、二項分布との関係を理解できるようになる"
 tags: [math, probability, distributions]
-stage: 発展編
+stage: bachelor
 subject: 確率
 hierarchy:
   - title: 数学

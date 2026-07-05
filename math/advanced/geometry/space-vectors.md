@@ -3,7 +3,7 @@ title: 空間座標とベクトル
 description: "平面のベクトルを3次元に拡張する"
 goal: "空間座標の意味を理解し、空間ベクトルの成分・内積を平面からの拡張として使えるようになる"
 tags: [math, geometry, vectors]
-stage: 応用編
+stage: advanced
 subject: 幾何
 hierarchy:
   - title: 数学

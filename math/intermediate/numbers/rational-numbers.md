@@ -3,7 +3,7 @@ title: 有理数
 description: "分数で表せる数"
 goal: "有理数の定義を理解し、循環小数を分数に変換できるようになる"
 tags: [math, numbers, real-numbers]
-stage: 中級編
+stage: intermediate
 subject: 数
 hierarchy:
   - title: 数学

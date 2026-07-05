@@ -3,7 +3,7 @@ title: 足し算
 description: "2つの数を合わせて全体の数を求める"
 goal: "足し算の意味を理解し、交換法則・結合法則を使えるようになる"
 tags: [math, numbers, addition]
-stage: 初級編
+stage: beginner
 subject: 数
 hierarchy:
   - title: 数学

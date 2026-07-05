@@ -3,7 +3,7 @@ title: 三角形の性質の応用
 description: "角の二等分線と辺の比、チェバの定理・メネラウスの定理"
 goal: "角の二等分線と辺の比の関係を理解し、チェバの定理・メネラウスの定理を使えるようになる"
 tags: [math, geometry, triangle]
-stage: 応用編
+stage: advanced
 subject: 幾何
 hierarchy:
   - title: 数学

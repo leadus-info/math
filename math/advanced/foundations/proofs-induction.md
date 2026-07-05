@@ -3,7 +3,7 @@ title: 数学的帰納法
 description: "基底と帰納段階で、すべての自然数について示す"
 goal: "数学的帰納法の仕組みを理解し、自然数に関する命題を証明できるようになる"
 tags: [math, foundations, proofs]
-stage: 応用編
+stage: advanced
 subject: 基礎
 hierarchy:
   - title: 数学

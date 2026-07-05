@@ -3,7 +3,7 @@ title: 代数
 description: "文字を使った式の表し方と、一次式の加減"
 goal: "文字式の表し方の規則を理解し、同類項をまとめて一次式の加法・減法ができるようになる"
 tags: [math, algebra, expressions]
-stage: 中級編
+stage: intermediate
 subject: 代数
 hierarchy:
   - title: 数学

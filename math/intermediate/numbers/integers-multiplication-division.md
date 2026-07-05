@@ -3,7 +3,7 @@ title: 負の数の掛け算・割り算
 description: "符号の規則を理解する"
 goal: "整数の掛け算・割り算における符号の規則を理解し、計算できるようになる"
 tags: [math, numbers, integers]
-stage: 中級編
+stage: intermediate
 subject: 数
 hierarchy:
   - title: 数学

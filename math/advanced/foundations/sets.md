@@ -3,7 +3,7 @@ title: 集合
 description: "ものの集まりを数学で扱う言語"
 goal: "集合の記法と演算法則を理解し、和集合・共通部分・補集合・部分集合を使えるようになる"
 tags: [math, foundations, sets]
-stage: 応用編
+stage: advanced
 subject: 基礎
 hierarchy:
   - title: 数学

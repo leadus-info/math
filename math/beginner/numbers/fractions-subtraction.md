@@ -3,7 +3,7 @@ title: 分数の引き算
 description: "分母をそろえて分数を引く"
 goal: "分母が同じ分数の引き算と、通分を使った異なる分母の引き算ができるようになる"
 tags: [math, numbers, fractions]
-stage: 初級編
+stage: beginner
 subject: 数
 hierarchy:
   - title: 数学
