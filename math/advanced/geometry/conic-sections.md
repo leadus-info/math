@@ -1,9 +1,9 @@
 ---
 title: 二次曲線
-description: "放物線・楕円・双曲線と、媒介変数表示・極座標"
+description: "焦点と準線からの距離で定まる放物線・楕円・双曲線の定義と標準形、円錐曲線としての統一的な見方、媒介変数表示や極座標・極方程式を使った曲線の表し方を扱う"
 goal: "放物線・楕円・双曲線の定義から標準形を導き、媒介変数表示・極座標で曲線を表せるようになる"
 tags: [math, geometry, conic-sections]
-stage: 応用編
+stage: advanced
 subject: 幾何
 hierarchy:
   - title: 数学

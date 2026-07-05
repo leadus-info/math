@@ -1,9 +1,9 @@
 ---
 title: 円の性質の応用
-description: "内接四角形・接弦定理・方べきの定理・2円の位置関係"
+description: "円に内接する四角形の対角の和が180°になる性質、接線と弦のなす角を円周角と結びつける接弦定理、2直線が円と交わる線分の積が一定になる方べきの定理、2円の位置関係の判定を扱う"
 goal: "円に内接する四角形の性質、接弦定理、方べきの定理を使えるようになる"
 tags: [math, geometry, circle]
-stage: 応用編
+stage: advanced
 subject: 幾何
 hierarchy:
   - title: 数学

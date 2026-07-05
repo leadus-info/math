@@ -1,9 +1,9 @@
 ---
 title: 分数の掛け算
-description: "分母同士・分子同士を掛ける"
+description: "分数に整数を掛ける場合と分数同士を掛ける場合の計算方法として、分母同士・分子同士をそれぞれ掛ける方法と、計算の途中で約分して数を小さくしてから掛ける工夫を扱う"
 goal: "分数×整数、分数×分数の計算ができるようになる"
 tags: [math, numbers, fractions]
-stage: 初級編
+stage: beginner
 subject: 数
 hierarchy:
   - title: 数学

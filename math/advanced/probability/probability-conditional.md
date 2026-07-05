@@ -1,9 +1,9 @@
 ---
 title: 条件付き確率とベイズの定理
-description: "情報が加わったときに確率を更新する"
+description: "ある事象が起きたとわかった上での確率を求める条件付き確率と、結果から原因の確率を逆算するベイズの定理を、検査結果から実際の罹患率を求める例を通して扱う"
 goal: "条件付き確率の意味を理解し、ベイズの定理を使って結果から原因の確率を求められるようになる"
 tags: [math, probability]
-stage: 応用編
+stage: advanced
 subject: 確率
 hierarchy:
   - title: 数学

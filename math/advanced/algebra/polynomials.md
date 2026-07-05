@@ -1,9 +1,9 @@
 ---
 title: 多項式
-description: "べき乗の和で表される関数"
+description: "n次多項式の定義（次数・係数・最高次係数）と根・因数定理、代数学の基本定理、次数と最高次係数からグラフの概形を読み取る方法、複雑な関数を多項式で近似する考え方を扱う"
 goal: "多項式の定義・因数定理・グラフの概形を理解し、根を求めたり式を扱ったりできるようになる"
 tags: [math, algebra, polynomials]
-stage: 応用編
+stage: advanced
 subject: 代数
 hierarchy:
   - title: 数学

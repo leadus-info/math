@@ -1,9 +1,9 @@
 ---
 title: 小数
-description: "分数を10進法で表す"
+description: "分数を10進法で書き直した小数の位取りの仕組み、小数点の意味、10倍・100倍したときの小数点の移動、分数から小数への変換、循環小数を扱う"
 goal: "小数の位取りの仕組みを理解し、10倍・100倍したときの小数点の動きを説明できるようになる"
 tags: [math, numbers, decimals]
-stage: 初級編
+stage: beginner
 subject: 数
 hierarchy:
   - title: 数学

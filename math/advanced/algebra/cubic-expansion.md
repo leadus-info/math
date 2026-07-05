@@ -1,9 +1,9 @@
 ---
 title: 三次の乗法公式
-description: "立方の展開と因数分解の公式"
+description: "三次の乗法公式による立方の展開と、三乗の和・差の因数分解公式を扱い、二次の乗法公式と組み合わせて三次式を素早く展開・因数分解する方法を学ぶ"
 goal: "三次の乗法公式を使って式を展開・因数分解できるようになる"
 tags: [math, algebra, expressions]
-stage: 応用編
+stage: advanced
 subject: 代数
 hierarchy:
   - title: 数学

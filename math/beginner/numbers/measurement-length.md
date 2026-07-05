@@ -1,9 +1,9 @@
 ---
 title: 長さ
-description: "長さの単位と測定"
+description: "長さの単位であるミリメートル・センチメートル・メートル・キロメートルとその換算関係、測る対象の大きさに応じた単位の使い分け方を扱う"
 goal: "長さの単位（mm, cm, m, km）とその関係を理解し、目的に応じて使い分けられるようになる"
 tags: [math, numbers, measurement]
-stage: 初級編
+stage: beginner
 subject: 数
 hierarchy:
   - title: 数学

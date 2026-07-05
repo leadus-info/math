@@ -1,9 +1,9 @@
 ---
 title: 代数
-description: "文字を使った式の表し方と、一次式の加減"
+description: "文字を使って数量の関係を表す文字式の表し方の規則（×の省略・べき乗表記）と、項・係数・同類項の意味、同類項をまとめて一次式の加法・減法を計算する方法を扱う"
 goal: "文字式の表し方の規則を理解し、同類項をまとめて一次式の加法・減法ができるようになる"
 tags: [math, algebra, expressions]
-stage: 中級編
+stage: intermediate
 subject: 代数
 hierarchy:
   - title: 数学

@@ -1,9 +1,9 @@
 ---
 title: 二次方程式
-description: "因数分解・平方完成・解の公式で2次の方程式を解く"
+description: "二次方程式を因数分解・平方完成・解の公式という3つの方法で解く手順と、係数から求まる判別式の符号によって実数解の個数を判定する方法を扱う"
 goal: "二次方程式を因数分解・平方完成・解の公式で解き、判別式から解の個数を説明できるようになる"
 tags: [math, algebra, equations]
-stage: 中級編
+stage: intermediate
 subject: 代数
 hierarchy:
   - title: 数学

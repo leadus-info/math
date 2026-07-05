@@ -1,9 +1,9 @@
 ---
 title: 数学的帰納法
-description: "基底と帰納段階で、すべての自然数について示す"
+description: "最初の場合に成り立つことを示す基底と、ある場合の成立から次の場合の成立を導く帰納段階からなる数学的帰納法の仕組みを、1からnまでの和の公式の証明を例に扱う"
 goal: "数学的帰納法の仕組みを理解し、自然数に関する命題を証明できるようになる"
 tags: [math, foundations, proofs]
-stage: 応用編
+stage: advanced
 subject: 基礎
 hierarchy:
   - title: 数学

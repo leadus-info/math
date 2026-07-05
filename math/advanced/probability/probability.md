@@ -1,9 +1,9 @@
 ---
 title: 確率
-description: "起こりやすさを数値で表す"
+description: "根元事象を使った確率の定義と基本法則、加法定理と余事象を使った計算、独立な事象の積の法則、反復試行における確率の計算、期待値の求め方を扱う"
 goal: "確率の基本法則を理解し、余事象・独立を使って確率を計算できるようになる"
 tags: [math, probability]
-stage: 応用編
+stage: advanced
 subject: 確率
 hierarchy:
   - title: 数学

@@ -1,9 +1,9 @@
 ---
 title: 等式・不等式の証明
-description: "恒等式の考え方と、相加相乗平均を使った不等式の証明"
+description: "文字にどんな値を代入しても成り立つ恒等式と未定係数法、差を作って示す等式の証明の考え方、相加平均・相乗平均の関係を使った不等式の証明と最大値・最小値を求める応用を扱う"
 goal: "恒等式と方程式の違いを理解し、相加相乗平均の関係を使って不等式を証明できるようになる"
 tags: [math, algebra, proof]
-stage: 応用編
+stage: advanced
 subject: 代数
 hierarchy:
   - title: 数学

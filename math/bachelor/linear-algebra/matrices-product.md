@@ -1,9 +1,9 @@
 ---
 title: 行列の積
-description: "行ベクトルと列ベクトルの内積を並べる"
+description: "行ベクトルと列ベクトルの内積を並べる行列の積の定義と具体的な計算方法を扱い、一般に交換法則が成り立たないことも解説する"
 goal: "行列の積の定義を理解し、計算できるようになる"
 tags: [math, linear-algebra, matrices]
-stage: 発展編
+stage: bachelor
 subject: 線形代数
 hierarchy:
   - title: 数学

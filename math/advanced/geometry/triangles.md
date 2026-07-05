@@ -1,9 +1,9 @@
 ---
 title: 三角形
-description: "3本の辺で囲まれた最も基本的な多角形"
+description: "三角形の内角の和が180°になることと三平方の定理、2辺と間の角から求める面積公式やヘロンの公式、正弦定理・余弦定理を使った辺と角の計算、重心・外心・内心・垂心・傍心の五心を扱う"
 goal: "三角形の内角の和と三平方の定理を理解し、正弦定理・余弦定理・面積公式を使えるようになる"
 tags: [math, geometry, triangle]
-stage: 応用編
+stage: advanced
 subject: 幾何
 hierarchy:
   - title: 数学

@@ -1,9 +1,9 @@
 ---
 title: 誤差と近似値
-description: "測定にともなうずれと、大きな数の表し方"
+description: "測定によって得られる近似値と真の値との差である誤差の意味、信頼できる桁数を表す有効数字の考え方、大きな数を1桁の整数と10の累乗の積で表す方法を扱う"
 goal: "誤差・近似値・有効数字の意味を理解し、数をa×10ⁿの形で表せるようになる"
 tags: [math, numbers, approximation]
-stage: 中級編
+stage: intermediate
 subject: 数
 hierarchy:
   - title: 数学

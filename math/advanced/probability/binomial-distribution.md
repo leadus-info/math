@@ -1,9 +1,9 @@
 ---
 title: 二項分布
-description: "反復試行における成功回数の確率分布"
+description: "反復試行で事象がちょうどk回起こる確率を表す二項分布の定義と、試行回数と確率から求める期待値・分散・標準偏差の求め方を扱う"
 goal: "二項分布の確率・期待値・分散を求められるようになる"
 tags: [math, probability, binomial-distribution]
-stage: 応用編
+stage: advanced
 subject: 確率
 hierarchy:
   - title: 数学

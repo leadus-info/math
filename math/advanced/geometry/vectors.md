@@ -1,9 +1,9 @@
 ---
 title: ベクトル
-description: "向きと大きさを持つ量——平面図形への応用"
+description: "向きと大きさを持つベクトルの和・差・実数倍の演算と、位置ベクトル・成分表示、内積の定義と垂直性の判定、位置ベクトルを使って三角形の重心や図形の性質を証明する応用を扱う"
 goal: "平面上のベクトルの演算・内積を理解し、図形の性質を証明する道具として使えるようになる"
 tags: [math, geometry, vectors]
-stage: 応用編
+stage: advanced
 subject: 幾何
 hierarchy:
   - title: 数学

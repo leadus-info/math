@@ -1,9 +1,9 @@
 ---
 title: 等号・等式
-description: "「等しい」を記号で表す"
+description: "「等しい」を表す等号の意味と、両辺に同じ操作をしても等号が保たれる性質を扱い、特定の値でのみ成り立つ方程式と常に成り立つ恒等式の違いを説明する"
 goal: "等号の意味と等式の変形規則を理解し、方程式と恒等式の違いを説明できるようになる"
 tags: [math, algebra, equations]
-stage: 中級編
+stage: intermediate
 subject: 代数
 hierarchy:
   - title: 数学

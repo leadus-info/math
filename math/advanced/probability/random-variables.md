@@ -1,9 +1,9 @@
 ---
 title: 確率変数と確率分布
-description: "試行の結果を数値に対応させ、その散らばり方を調べる"
+description: "試行の結果に応じて値が定まる確率変数と確率分布の考え方、期待値の求め方、期待値からのばらつきを表す分散・標準偏差の計算方法を扱う"
 goal: "確率変数・確率分布の意味を理解し、期待値・分散・標準偏差を計算できるようになる"
 tags: [math, probability]
-stage: 応用編
+stage: advanced
 subject: 確率
 hierarchy:
   - title: 数学

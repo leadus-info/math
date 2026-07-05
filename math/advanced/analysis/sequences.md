@@ -1,9 +1,9 @@
 ---
 title: 数列
-description: "規則正しく並んだ数の列"
+description: "等差数列・等比数列の一般項と和の公式、シグマ記号を使った数列の和の計算、階差数列から一般項を求める方法、漸化式、無限級数と無限等比級数の収束を扱う"
 goal: "等差数列・等比数列の一般項と和の公式を理解し、漸化式や無限級数の基本を扱えるようになる"
 tags: [math, analysis, sequences]
-stage: 応用編
+stage: advanced
 subject: 解析
 hierarchy:
   - title: 数学

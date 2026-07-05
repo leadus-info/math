@@ -1,9 +1,9 @@
 ---
 title: 対偶証明
-description: "同値な対偶を示す"
+description: "命題「PならばQ」と同値な対偶「QでないならPでない」を示す対偶証明の考え方を、xyが無理数ならばxまたはyが無理数であることの証明を例に扱う"
 goal: "対偶証明の考え方を理解し、対偶を使った証明を書けるようになる"
 tags: [math, foundations, proofs]
-stage: 応用編
+stage: advanced
 subject: 基礎
 hierarchy:
   - title: 数学

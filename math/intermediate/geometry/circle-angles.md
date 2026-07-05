@@ -1,9 +1,9 @@
 ---
 title: 円周角の定理
-description: "同じ弧に対する円周角はいつも等しい"
+description: "1つの弧に対する円周角は中心角の半分でいつも一定であるという円周角の定理と、4点が同一円周上にあるかを判定できるその逆、直径に対する円周角が直角になる性質を扱う"
 goal: "円周角の定理とその逆を理解し、円に関する角度の問題に活用できるようになる"
 tags: [math, geometry, circle]
-stage: 中級編
+stage: intermediate
 subject: 幾何
 hierarchy:
   - title: 数学

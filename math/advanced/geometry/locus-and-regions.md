@@ -1,9 +1,9 @@
 ---
 title: 軌跡と領域
-description: "条件を満たす点の集まりを方程式・不等式で表す"
+description: "条件を満たす点の座標を方程式に整理して軌跡を求める方法（垂直二等分線やアポロニウスの円の例）と、不等式が座標平面上に表す領域の図示、線形計画法への応用を扱う"
 goal: "条件から軌跡の方程式を求め、不等式が表す平面上の領域を図示できるようになる"
 tags: [math, geometry, locus]
-stage: 応用編
+stage: advanced
 subject: 幾何
 hierarchy:
   - title: 数学

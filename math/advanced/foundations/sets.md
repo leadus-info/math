@@ -1,9 +1,9 @@
 ---
 title: 集合
-description: "ものの集まりを数学で扱う言語"
+description: "集合の列挙記法・内包記法と自然数・整数・有理数・実数などの数の集合、和集合・共通部分・補集合・部分集合の基本操作、交換律・分配律・ド・モルガンの法則といった演算法則を扱う"
 goal: "集合の記法と演算法則を理解し、和集合・共通部分・補集合・部分集合を使えるようになる"
 tags: [math, foundations, sets]
-stage: 応用編
+stage: advanced
 subject: 基礎
 hierarchy:
   - title: 数学

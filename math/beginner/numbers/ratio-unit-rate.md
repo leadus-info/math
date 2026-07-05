@@ -1,9 +1,9 @@
 ---
 title: 単位量あたりの大きさ
-description: "単位となる大きさ1つあたりの量で比べる"
+description: "単位となる大きさ1つあたりの量で比べる単位量あたりの大きさの考え方と、その代表例である速さの意味、距離・時間・速さの関係式を扱う"
 goal: "単位量あたりの大きさの考え方を理解し、速さを含む具体的な場面で計算できるようになる"
 tags: [math, numbers, ratio]
-stage: 初級編
+stage: beginner
 subject: 数
 hierarchy:
   - title: 数学

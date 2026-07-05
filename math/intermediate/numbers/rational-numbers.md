@@ -1,9 +1,9 @@
 ---
 title: 有理数
-description: "分数で表せる数"
+description: "0でない整数を分母とし整数を分子とする分数の形で表せる有理数の定義と、桁をずらして引き算することで循環小数を分数に変換する計算方法を扱う"
 goal: "有理数の定義を理解し、循環小数を分数に変換できるようになる"
 tags: [math, numbers, real-numbers]
-stage: 中級編
+stage: intermediate
 subject: 数
 hierarchy:
   - title: 数学

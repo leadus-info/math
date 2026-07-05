@@ -1,9 +1,9 @@
 ---
 title: 場合の数
-description: "何通りあるかを数える"
+description: "独立に選べる場合は掛け算、どちらか一方を選ぶ場合は足し算という積の法則・和の法則の基本原理と、順列・組み合わせの計算の土台になる階乗の意味を扱う"
 goal: "積の法則・和の法則・階乗の意味を理解し、基本的な場合の数を数えられるようになる"
 tags: [math, probability, counting]
-stage: 応用編
+stage: advanced
 subject: 確率
 hierarchy:
   - title: 数学

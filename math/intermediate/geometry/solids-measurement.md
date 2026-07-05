@@ -1,9 +1,9 @@
 ---
 title: 空間図形の計量
-description: "おうぎ形の弧の長さ・面積と、立体の表面積・体積"
+description: "おうぎ形の弧の長さ・面積を中心角の割合から求める公式と、角柱・円柱などの柱体、角錐・円錐などの錐体、球の体積・表面積を求める公式（柱体の1/3が錐体の体積になることなど）を扱う"
 goal: "おうぎ形の弧の長さ・面積、柱体・錐体・球の表面積・体積を公式で求められるようになる"
 tags: [math, geometry, solids]
-stage: 中級編
+stage: intermediate
 subject: 幾何
 hierarchy:
   - title: 数学

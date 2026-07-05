@@ -1,9 +1,9 @@
 ---
 title: 割合
-description: "2つの数量の関係を比べる"
+description: "ある大きさが別の大きさの何倍にあたるかを表す割合の意味と、比べる大きさをもとにする大きさで割って求める割合の求め方を、身近な具体例とともに扱う"
 goal: "割合の意味と求め方を理解できるようになる"
 tags: [math, numbers, ratio]
-stage: 初級編
+stage: beginner
 subject: 数
 hierarchy:
   - title: 数学

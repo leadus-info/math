@@ -1,9 +1,9 @@
 ---
 title: 点
-description: "座標平面上の位置と距離"
+description: "座標平面上の点の表し方と、三平方の定理を使った2点間の距離、中点・内分点・外分点の座標、三角形の重心の座標を求める公式を扱う"
 goal: "座標の意味を理解し、2点間の距離・中点・内分点・重心の公式を導出して使えるようになる"
 tags: [math, geometry, point]
-stage: 応用編
+stage: advanced
 subject: 幾何
 hierarchy:
   - title: 数学

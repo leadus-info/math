@@ -1,9 +1,9 @@
 ---
 title: 微分の応用
-description: "対数微分法・逆関数の微分・媒介変数の微分・第2次導関数"
+description: "指数の部分にも変数を含む関数を扱う対数微分法、逆関数・媒介変数表示された関数の導関数の求め方、第2次導関数によるグラフの凹凸・変曲点の判定、平均値の定理を扱う"
 goal: "対数微分法・逆関数の導関数・媒介変数表示された関数の導関数を求め、第2次導関数からグラフの凹凸を調べられるようになる"
 tags: [math, analysis, derivatives]
-stage: 応用編
+stage: advanced
 subject: 解析
 hierarchy:
   - title: 数学

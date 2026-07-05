@@ -1,9 +1,9 @@
 ---
 title: 基本の作図
-description: "定規とコンパスだけで図形をかく"
+description: "目盛りのない定規とコンパスだけを使い、線分の垂直二等分線・角の二等分線・垂線を作図する方法と、これらを組み合わせて30度・45度などさまざまな角度を作図する方法を扱う"
 goal: "垂直二等分線・角の二等分線・垂線を、定規とコンパスだけで作図できるようになる"
 tags: [math, geometry, constructions]
-stage: 中級編
+stage: intermediate
 subject: 幾何
 hierarchy:
   - title: 数学

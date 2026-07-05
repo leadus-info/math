@@ -1,9 +1,9 @@
 ---
 title: 比
-description: "2つの数量の関係をそのまま表す"
+description: "2つの数量の関係を2対3のように割り算せずそのまま表す比の意味、等しい比の作り方、比を簡単にする方法、比の値の求め方を扱う"
 goal: "比の意味を理解し、等しい比を作ったり比の値を求めたりできるようになる"
 tags: [math, numbers, ratio]
-stage: 初級編
+stage: beginner
 subject: 数
 hierarchy:
   - title: 数学

@@ -1,9 +1,9 @@
 ---
 title: 負数
-description: "0より小さい数"
+description: "自然数の範囲では計算できない引き算を可能にするために導入される負数の必要性と、数直線上での位置による整数の大小関係、正の数・負の数・整数の定義を扱う"
 goal: "負数が必要になる場面を理解し、数直線上での整数の大小関係を説明できるようになる"
 tags: [math, numbers, integers]
-stage: 中級編
+stage: intermediate
 subject: 数
 hierarchy:
   - title: 数学

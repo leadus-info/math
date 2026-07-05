@@ -1,9 +1,9 @@
 ---
 title: 対数関数
-description: "「何乗すれば？」という問いに答える関数"
+description: "指数関数の逆操作である対数の定義と、掛け算を足し算に変換する対数の計算規則・底の変換公式、常用対数・自然対数、真数条件に注意した対数方程式の解き方を扱う"
 goal: "対数の定義と計算規則を理解し、対数方程式を解いたり広い範囲の量を扱ったりできるようになる"
 tags: [math, specific-functions, logarithmic]
-stage: 応用編
+stage: advanced
 subject: 具体的な関数
 hierarchy:
   - title: 数学

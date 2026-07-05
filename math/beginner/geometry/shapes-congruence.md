@@ -1,9 +1,9 @@
 ---
 title: 合同
-description: "形も大きさも同じ図形"
+description: "図形の合同の意味と、合同な図形を裏返したり回転させたりしても変わらない性質、重ねたときに対応する頂点・辺・角がそれぞれ等しくなる性質を扱う"
 goal: "合同の意味と、対応する頂点・辺・角の性質を理解できるようになる"
 tags: [math, geometry, congruence]
-stage: 初級編
+stage: beginner
 subject: 幾何
 hierarchy:
   - title: 数学

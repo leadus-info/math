@@ -1,9 +1,9 @@
 ---
 title: 整式の除法と剰余の定理
-description: "多項式を割り算し、余りから因数を見つける"
+description: "整式の除法における商と余りの関係と分数式の約分・通分の計算、剰余の定理・因数定理を使った余りの求め方、それらを利用して高次方程式や複二次方程式を解く方法を扱う"
 goal: "整式の除法・分数式の計算ができるようになり、剰余の定理・因数定理を使って高次方程式を解けるようになる"
 tags: [math, algebra, polynomials]
-stage: 応用編
+stage: advanced
 subject: 代数
 hierarchy:
   - title: 数学

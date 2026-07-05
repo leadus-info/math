@@ -1,9 +1,9 @@
 ---
 title: 小数の足し算
-description: "位をそろえて計算する"
+description: "小数の足し算を、小数点の位置をそろえて同じ位どうしを足す筆算の方法と、桁数が異なる場合に足りない桁を0で埋めて計算する工夫を扱う"
 goal: "小数の足し算を、位をそろえて筆算できるようになる"
 tags: [math, numbers, decimals]
-stage: 初級編
+stage: beginner
 subject: 数
 hierarchy:
   - title: 数学

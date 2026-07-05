@@ -1,9 +1,9 @@
 ---
 title: 分数の割り算
-description: "割る数の逆数を掛ける"
+description: "分数の割り算を、割る数の逆数を掛ける操作に置き換える考え方と、逆数の意味、分数を整数で割る場合と分数同士で割る場合それぞれの計算方法とその理由を、式変形とともに扱う"
 goal: "逆数の意味を理解し、分数÷整数、分数÷分数の計算ができるようになる"
 tags: [math, numbers, fractions]
-stage: 初級編
+stage: beginner
 subject: 数
 hierarchy:
   - title: 数学

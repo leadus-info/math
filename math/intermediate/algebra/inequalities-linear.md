@@ -1,9 +1,9 @@
 ---
 title: 一次不等式
-description: "未知数が1次の不等式を解く"
+description: "一次方程式を解くのと同じ手順で一次不等式を解きつつ、両辺に負の数を掛けたり負の数で割ったりすると不等号の向きが逆転する点に注意して解く方法を扱う"
 goal: "一次不等式を、向きの逆転に注意しながら解けるようになる"
 tags: [math, algebra, inequalities]
-stage: 中級編
+stage: intermediate
 subject: 代数
 hierarchy:
   - title: 数学

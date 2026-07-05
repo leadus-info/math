@@ -1,9 +1,9 @@
 ---
 title: 微分
-description: "瞬間の変化率を求める操作"
+description: "瞬間の変化率を表す微分係数・導関数の定義と、べき関数・指数関数・対数関数・三角関数の基本的な導関数、和・積・商の微分公式と合成関数の連鎖律、増減表を使った極値の求め方を扱う"
 goal: "微分係数の定義を理解し、基本的な導関数の計算規則を使って関数の増減・極値を求められるようになる"
 tags: [math, analysis, derivatives]
-stage: 応用編
+stage: advanced
 subject: 解析
 hierarchy:
   - title: 数学

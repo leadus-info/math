@@ -1,9 +1,9 @@
 ---
 title: 円
-description: "中心から等距離にある点の集合"
+description: "中心と半径から円の方程式を書く方法と、弧長・扇形の面積の公式、円と直線の位置関係や接線の方程式の求め方、単位円における正弦と余弦の2乗の和が1になる関係を扱う"
 goal: "円の方程式を書き、円と直線の位置関係・接線の方程式を求め、単位円と三角関数の関係を説明できるようになる"
 tags: [math, geometry, circle]
-stage: 応用編
+stage: advanced
 subject: 幾何
 hierarchy:
   - title: 数学

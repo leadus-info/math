@@ -1,9 +1,9 @@
 ---
 title: データの活用
-description: "表やグラフでデータの特徴をとらえる"
+description: "データを表や棒グラフ・折れ線グラフ・円グラフ・帯グラフに整理する方法と、平均・中央値・最頻値といった代表値、ドットプロット・度数分布表、起こりうる場合の数え方を扱う"
 goal: "データを表やグラフに整理する方法を理解し、代表値の意味と起こりうる場合の数え方を説明できるようになる"
 tags: [math, probability, data]
-stage: 初級編
+stage: beginner
 subject: 確率
 hierarchy:
   - title: 数学

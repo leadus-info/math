@@ -1,9 +1,9 @@
 ---
 title: ユークリッドの互除法
-description: "割り算を繰り返して最大公約数を求めるアルゴリズム"
+description: "割り算の余りを利用して2数の最大公約数を効率よく求めるユークリッドの互除法の手順と、その計算過程を逆にたどって2つの文字を含む1次不定方程式の整数解を求める方法を扱う"
 goal: "ユークリッドの互除法で最大公約数を求め、1次不定方程式の整数解を求められるようになる"
 tags: [math, numbers, integers]
-stage: 応用編
+stage: advanced
 subject: 数
 hierarchy:
   - title: 数学

@@ -1,9 +1,9 @@
 ---
 title: 三平方の定理
-description: "直角三角形の3辺の間に成り立つ関係"
+description: "直角三角形の3辺の長さの間に成り立つ関係を表す三平方の定理と、3辺の長さから直角三角形かどうかを判定できるその逆、座標平面上の2点間の距離や図形の対角線を求める応用を扱う"
 goal: "三平方の定理とその逆を理解し、平面・空間図形の長さや距離を求められるようになる"
 tags: [math, geometry, pythagorean-theorem]
-stage: 中級編
+stage: intermediate
 subject: 幾何
 hierarchy:
   - title: 数学

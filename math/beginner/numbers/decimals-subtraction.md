@@ -1,9 +1,9 @@
 ---
 title: 小数の引き算
-description: "位をそろえて計算する"
+description: "小数の引き算を、小数点の位置をそろえて同じ位どうしを引く筆算の方法と、桁数が異なる場合に足りない桁を0で埋めて計算する工夫を扱う"
 goal: "小数の引き算を、位をそろえて筆算できるようになる"
 tags: [math, numbers, decimals]
-stage: 初級編
+stage: beginner
 subject: 数
 hierarchy:
   - title: 数学

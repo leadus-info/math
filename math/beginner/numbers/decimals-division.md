@@ -1,9 +1,9 @@
 ---
 title: 小数の割り算
-description: "わる数を整数に直してから計算する"
+description: "小数を整数で割る計算方法と、わる数・わられる数を同じ数倍してわる数を整数に直してから計算する、小数を小数で割る方法を扱う"
 goal: "小数÷整数、小数÷小数の計算ができるようになる"
 tags: [math, numbers, decimals]
-stage: 初級編
+stage: beginner
 subject: 数
 hierarchy:
   - title: 数学

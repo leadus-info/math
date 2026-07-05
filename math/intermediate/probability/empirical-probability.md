@@ -1,9 +1,9 @@
 ---
 title: 多数回の試行による確率
-description: "実験や観察を繰り返して確率をとらえる"
+description: "多数回の試行や観察を重ねると相対度数がある一定の値に近づいていくことに基づいて確率をとらえる考え方と、過去のデータから得た確率を意思決定に活用する方法を扱う"
 goal: "相対度数の安定性から確率の意味を理解できるようになる"
 tags: [math, probability]
-stage: 中級編
+stage: intermediate
 subject: 確率
 hierarchy:
   - title: 数学

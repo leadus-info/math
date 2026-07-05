@@ -1,9 +1,9 @@
 ---
 title: 積分
-description: "面積・累積を求める操作"
+description: "区分求積法による定積分の定義と原始関数を使う不定積分、微分と積分を結ぶ微積分学の基本定理、置換積分・部分積分の計算技法、回転体の体積や曲線の長さを求める応用を扱う"
 goal: "定積分の定義と微積分学の基本定理を理解し、基本的な不定積分と置換積分・部分積分を計算できるようになる"
 tags: [math, analysis, integrals]
-stage: 応用編
+stage: advanced
 subject: 解析
 hierarchy:
   - title: 数学

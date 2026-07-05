@@ -1,9 +1,9 @@
 ---
 title: 証明法
-description: "数学的命題を正しく示す方法"
+description: "仮定・結論・論理の連鎖からなる数学的証明の考え方と、直接証明・対偶証明・背理法・数学的帰納法という代表的な証明法を、命題の形に応じてどう使い分けるかを扱う"
 goal: "証明が仮定・結論・論理の連鎖からなることを理解し、状況に応じた証明法を選べるようになる"
 tags: [math, foundations, proofs]
-stage: 応用編
+stage: advanced
 subject: 基礎
 hierarchy:
   - title: 数学

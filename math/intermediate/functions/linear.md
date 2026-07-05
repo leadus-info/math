@@ -1,9 +1,9 @@
 ---
 title: 一次関数
-description: "グラフが直線になる関数"
+description: "グラフが直線になる一次関数の傾き・y切片の意味と、変化の割合が常に傾きに等しいこと、傾きと切片や通る点から直線の式を求める方法、2直線の交点が連立方程式の解に対応することを扱う"
 goal: "一次関数の定義を述べ、傾きと切片から式を求め、連立方程式と交点の関係を説明できるようになる"
 tags: [math, functions, linear]
-stage: 中級編
+stage: intermediate
 subject: 関数
 hierarchy:
   - title: 数学

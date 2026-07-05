@@ -1,9 +1,9 @@
 ---
 title: 反比例
-description: "一方が2倍になると他方が半分になる関係"
+description: "一方の量が2倍、3倍になるともう一方が1/2倍、1/3倍になる反比例の関係と、2つの量を掛け合わせた積がいつも一定になる性質、表からの値の求め方を扱う"
 goal: "反比例の関係を具体例で説明できるようになる"
 tags: [math, numbers, ratio]
-stage: 初級編
+stage: beginner
 subject: 数
 hierarchy:
   - title: 数学

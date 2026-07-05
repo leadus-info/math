@@ -1,9 +1,9 @@
 ---
 title: 多角形
-description: "3辺以上の直線で囲まれた図形"
+description: "3辺以上の直線で囲まれた多角形について、頂点の数から内角の和を求める公式と、外角の和が常に360度になる性質、すべての辺と角が等しい正多角形の特徴を扱う"
 goal: "多角形の内角の和・外角の和の法則と正多角形の特徴を説明できるようになる"
 tags: [math, geometry, polygon]
-stage: 中級編
+stage: intermediate
 subject: 幾何
 hierarchy:
   - title: 数学

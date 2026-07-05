@@ -1,9 +1,9 @@
 ---
 title: 直接証明
-description: "仮定から結論へ論理を積み重ねる"
+description: "仮定から結論へ論理を一歩ずつ積み重ねて示す直接証明の考え方を、偶数と偶数の和が偶数になることの証明を例に扱う"
 goal: "直接証明の考え方を理解し、簡単な命題を直接証明できるようになる"
 tags: [math, foundations, proofs]
-stage: 応用編
+stage: advanced
 subject: 基礎
 hierarchy:
   - title: 数学

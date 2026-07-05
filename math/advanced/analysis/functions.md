@@ -1,9 +1,9 @@
 ---
 title: 関数とは
-description: "入力に対して出力が一意に定まる対応"
+description: "入力に1つの出力を対応させる関数の定義域・値域・グラフと、2つの関数をつなぐ合成関数、対応を逆にたどる逆関数、単調増加・単調減少や有界性といった性質を扱う"
 goal: "関数を定義域・値域・グラフの観点から理解し、合成関数・逆関数・単調性を扱えるようになる"
 tags: [math, analysis, functions]
-stage: 応用編
+stage: advanced
 subject: 解析
 hierarchy:
   - title: 数学

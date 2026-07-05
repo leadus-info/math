@@ -1,9 +1,9 @@
 ---
 title: 三角比
-description: "直角三角形の辺の比から角度と長さを結びつける"
+description: "直角三角形の辺の比として定義する正弦・余弦・正接の三角比と、正弦と余弦の2乗の和が1になるなどの相互関係、鈍角まで三角比を拡張する方法、2辺と間の角から面積を求める公式を扱う"
 goal: "鋭角の三角比を定義し、鈍角まで拡張して、相互関係を使えるようになる"
 tags: [math, geometry, trigonometry]
-stage: 応用編
+stage: advanced
 subject: 幾何
 hierarchy:
   - title: 数学

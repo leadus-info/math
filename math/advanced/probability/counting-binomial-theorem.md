@@ -1,9 +1,9 @@
 ---
 title: 二項定理
-description: "(a+b)^nの展開を組み合わせの数で表す"
+description: "n乗の展開の各項の係数を組み合わせの数で表す二項定理と、係数の漸化式で作られるパスカルの三角形、aとbの和を1とおくことで反復試行の確率の和が1になることとのつながりを扱う"
 goal: "二項定理を理解し、(a+b)^nの展開に使えるようになる"
 tags: [math, probability, counting]
-stage: 応用編
+stage: advanced
 subject: 確率
 hierarchy:
   - title: 数学

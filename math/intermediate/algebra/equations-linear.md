@@ -1,9 +1,9 @@
 ---
 title: 一次方程式
-description: "未知数が1次の方程式を解く"
+description: "移項を使って未知数の次数が1次である一次方程式を解く方法と、比例式について外項の積と内項の積が等しくなる関係を利用して方程式に直してから解く方法を扱う"
 goal: "一次方程式を移項によって解け、比例式をxについて解けるようになる"
 tags: [math, algebra, equations]
-stage: 中級編
+stage: intermediate
 subject: 代数
 hierarchy:
   - title: 数学

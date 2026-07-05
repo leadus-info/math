@@ -1,9 +1,9 @@
 ---
 title: 三角関数
-description: "角度と波を表す周期関数"
+description: "単位円上の点の座標として定義される三角関数sin・cos・tanと、正弦と余弦の2乗の和が1になるなどの基本性質・周期性、加法定理から導かれる2倍角・半角の公式、正弦と余弦の1次結合を1つの正弦にまとめる合成、三角関数の微分公式を扱う"
 goal: "三角関数が単位円から定義されることを理解し、基本性質・加法定理・合成を使って値や式を扱えるようになる"
 tags: [math, specific-functions, trigonometric]
-stage: 応用編
+stage: advanced
 subject: 具体的な関数
 hierarchy:
   - title: 数学

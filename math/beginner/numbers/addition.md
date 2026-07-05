@@ -1,9 +1,9 @@
 ---
 title: 足し算
-description: "2つの数を合わせて全体の数を求める"
+description: "2つ以上の数を合わせて全体の数を求める足し算の意味と、順番を入れ替えても答えが変わらない交換法則、計算順序を変えても成り立つ結合法則を扱う"
 goal: "足し算の意味を理解し、交換法則・結合法則を使えるようになる"
 tags: [math, numbers, addition]
-stage: 初級編
+stage: beginner
 subject: 数
 hierarchy:
   - title: 数学

@@ -1,9 +1,9 @@
 ---
 title: 百分率
-description: "割合を100を基準にして表す"
+description: "もとにする大きさを100としたときの割合の表し方である百分率（パーセント）の意味と、割合と百分率の相互変換、値引きなど身近な場面での活用を扱う"
 goal: "百分率の意味を理解し、割合を百分率で表したり読み取ったりできるようになる"
 tags: [math, numbers, ratio]
-stage: 初級編
+stage: beginner
 subject: 数
 hierarchy:
   - title: 数学

@@ -1,9 +1,9 @@
 ---
 title: 必要・十分条件
-description: "「ならば」の向きと強さ、論理記号"
+description: "命題を組み合わせる否定・かつ・または・ならば・同値を表す論理記号の意味と、十分条件・必要条件・必要十分条件（同値）の違い、逆・裏・対偶の関係、対偶や背理法を使った証明の考え方を扱う"
 goal: "必要条件・十分条件・同値の違いを理解し、対偶・背理法による証明の仕組みを説明できるようになる"
 tags: [math, foundations, logic]
-stage: 応用編
+stage: advanced
 subject: 基礎
 hierarchy:
   - title: 数学

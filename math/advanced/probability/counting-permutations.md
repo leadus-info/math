@@ -1,9 +1,9 @@
 ---
 title: 順列
-description: "順番を区別して選ぶ場合の数"
+description: "順番を区別してn個からr個を選ぶ場合の数を表す順列の公式と、円形に並べる円順列の公式、同じものを含む要素を並べる場合の数の求め方を扱う"
 goal: "順列の公式を理解し、計算できるようになる"
 tags: [math, probability, counting]
-stage: 応用編
+stage: advanced
 subject: 確率
 hierarchy:
   - title: 数学

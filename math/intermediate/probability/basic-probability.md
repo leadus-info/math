@@ -1,9 +1,9 @@
 ---
 title: 場合の数を基にした確率
-description: "同様に確からしいことに着目して確率を計算する"
+description: "同様に確からしい事象について、起こりうるすべての場合の数のうちその事象が起こる場合の数が占める割合として確率を求める方法と、樹形図や表を使って場合の数を整理する方法を扱う"
 goal: "樹形図や表を使って場合の数を整理し、確率を計算できるようになる"
 tags: [math, probability]
-stage: 中級編
+stage: intermediate
 subject: 確率
 hierarchy:
   - title: 数学

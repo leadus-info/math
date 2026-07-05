@@ -1,9 +1,9 @@
 ---
 title: データの分析
-description: "分散・標準偏差・相関係数でデータの特徴を数値化する"
+description: "偏差の2乗の平均で散らばりを数値化する分散・標準偏差と、散布図に基づく相関係数によるデータ間の関係の強さの表し方、外れ値の扱い方、帰無仮説を使った仮説検定の考え方を扱う"
 goal: "分散・標準偏差・相関係数を求め、外れ値の扱いに注意しながらデータの特徴を説明できるようになる"
 tags: [math, probability, data-analysis]
-stage: 応用編
+stage: advanced
 subject: 確率
 hierarchy:
   - title: 数学

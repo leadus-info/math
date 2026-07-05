@@ -1,9 +1,9 @@
 ---
 title: 体積
-description: "立体の大きさを数で表す"
+description: "立体の大きさを表す体積の概念と単位cm³・m³、たて・よこ・高さを掛け合わせて求める直方体・立方体の体積公式、底面積に高さを掛けて求める角柱・円柱の体積公式を扱う"
 goal: "体積の単位を理解し、直方体・立方体・角柱・円柱の体積を公式で求められるようになる"
 tags: [math, numbers, measurement, volume]
-stage: 初級編
+stage: beginner
 subject: 数
 hierarchy:
   - title: 数学

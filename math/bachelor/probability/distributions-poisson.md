@@ -1,9 +1,9 @@
 ---
 title: ポアソン分布
-description: "まれな事象の発生回数の分布"
+description: "単位時間あたりまれにしか起きない事象の発生回数が従うポアソン分布の定義・期待値・分散と、二項分布の極限として現れる近似の関係を解説する"
 goal: "ポアソン分布の定義と、二項分布との関係を理解できるようになる"
 tags: [math, probability, distributions]
-stage: 発展編
+stage: bachelor
 subject: 確率
 hierarchy:
   - title: 数学

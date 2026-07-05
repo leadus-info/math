@@ -1,9 +1,9 @@
 ---
 title: 関数とは
-description: "一方が決まればもう一方もただ1つに決まる関係"
+description: "xの値を決めるとyの値がただ1つに決まる関数の定義と、変数・変域、座標（x軸・y軸）の意味を扱い、比例と反比例を負の数まで値の範囲を広げた関数として捉え直す"
 goal: "関数・変数・変域・座標の意味を理解し、比例・反比例を関数として式で表せるようになる"
 tags: [math, functions]
-stage: 中級編
+stage: intermediate
 subject: 関数
 hierarchy:
   - title: 数学

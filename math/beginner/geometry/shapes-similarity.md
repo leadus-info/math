@@ -1,9 +1,9 @@
 ---
 title: 相似
-description: "形を変えずに大きさだけ変えた図形"
+description: "縮図・拡大図と相似の意味、相似な図形における対応する角の大きさや辺の長さの比の性質、直接測れないものの大きさを求める活用例を扱う"
 goal: "縮図・拡大図（相似）の考え方と対応する辺・角の性質を理解し、活用できるようになる"
 tags: [math, geometry, similarity]
-stage: 初級編
+stage: beginner
 subject: 幾何
 hierarchy:
   - title: 数学

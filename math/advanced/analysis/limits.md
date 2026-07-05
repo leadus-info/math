@@ -1,9 +1,9 @@
 ---
 title: 極限
-description: "限りなく近づくとはどういうことか"
+description: "数列・関数の極限の収束と発散、極限の四則計算の規則、関数の連続性の定義、角を0に近づけたときの正弦と角の比の極限などの重要な極限公式、はさみうちの原理を使った極限の求め方を扱う"
 goal: "数列と関数の極限の意味を理解し、極限の計算規則を使って値を求め、連続性を説明できるようになる"
 tags: [math, analysis, limits]
-stage: 応用編
+stage: advanced
 subject: 解析
 hierarchy:
   - title: 数学

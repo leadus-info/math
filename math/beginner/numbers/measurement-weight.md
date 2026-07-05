@@ -1,9 +1,9 @@
 ---
 title: 重さ
-description: "重さの単位と測定"
+description: "重さの単位であるグラムとキログラムの換算関係、重さは見た目の大きさだけでは判断できず実際に手に持ったりはかりで測ったりして確かめる必要があることを扱う"
 goal: "重さの単位（g, kg）とその関係を理解できるようになる"
 tags: [math, numbers, measurement]
-stage: 初級編
+stage: beginner
 subject: 数
 hierarchy:
   - title: 数学
