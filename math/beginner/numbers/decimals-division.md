@@ -1,6 +1,6 @@
 ---
 title: 小数の割り算
-description: "わる数を整数に直してから計算する"
+description: "小数÷整数の計算方法と、わる数・わられる数を同じ数倍してわる数を整数に直してから計算する小数÷小数の方法を扱う"
 goal: "小数÷整数、小数÷小数の計算ができるようになる"
 tags: [math, numbers, decimals]
 stage: beginner

@@ -1,6 +1,6 @@
 ---
 title: 環と体
-description: "2つの演算を持つ構造"
+description: "群に掛け算を加えた環、零因子を持たない整域、0以外の全要素に逆元を持つ体の定義と、体・整域・可換環・環という包含関係を解説する"
 goal: "環・整域・体の定義とその包含関係を理解できるようになる"
 tags: [math, algebra, abstract]
 stage: bachelor

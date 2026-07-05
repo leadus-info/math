@@ -1,6 +1,6 @@
 ---
 title: 無理数
-description: "分数で表せない数"
+description: "√2が分数で表せない無理数であることを、既約分数で表せると仮定して矛盾を導く背理法によって証明する方法を扱う"
 goal: "平方根を例に無理数が存在することを、背理法を使って説明できるようになる"
 tags: [math, numbers, real-numbers]
 stage: intermediate

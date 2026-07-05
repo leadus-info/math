@@ -1,6 +1,6 @@
 ---
 title: 標本調査
-description: "全部調べられないとき、一部から全体を推定する"
+description: "集団全体を調べる全数調査と、一部の標本から母集団の傾向を推定する標本調査の違い、標本の偏りをなくす無作為抽出の考え方、標本の大きさと推定精度の関係を扱う"
 goal: "全数調査と標本調査の違いを理解し、無作為抽出の考え方を説明できるようになる"
 tags: [math, probability, sampling]
 stage: intermediate

@@ -1,6 +1,6 @@
 ---
 title: 群
-description: "演算の最も基本的な構造"
+description: "集合と演算の組である群を結合律・単位元・逆元の公理から定義し、部分群とラグランジュの定理、剰余類による分類、正規部分群がなす商群までを解説する"
 goal: "群の定義を公理から理解し、部分群・剰余類・商群を説明できるようになる"
 tags: [math, algebra, abstract]
 stage: bachelor

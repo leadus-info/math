@@ -1,6 +1,6 @@
 ---
 title: 分数の引き算
-description: "分母をそろえて分数を引く"
+description: "分母が同じ分数の引き算で分子同士を引く方法と、分母が異なる場合に分母をそろえる通分をしてから分子を引く分数の引き算の計算方法を扱う"
 goal: "分母が同じ分数の引き算と、通分を使った異なる分母の引き算ができるようになる"
 tags: [math, numbers, fractions]
 stage: beginner

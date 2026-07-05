@@ -1,6 +1,6 @@
 ---
 title: 一次方程式
-description: "未知数が1次の方程式を解く"
+description: "移項を使って未知数が1次の一次方程式 ax+b=c を解く方法と、比例式 a:b=c:d を外項・内項の積 ad=bc の関係を使って方程式に直して解く方法を扱う"
 goal: "一次方程式を移項によって解け、比例式をxについて解けるようになる"
 tags: [math, algebra, equations]
 stage: intermediate

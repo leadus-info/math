@@ -1,6 +1,6 @@
 ---
 title: 時間
-description: "時間の単位と時刻の読み方"
+description: "秒・分・時・日という時間の単位とその換算関係、長さや重さとは異なり60や24のまとまりで単位が切り替わる特徴、時計を使った時刻の読み方を扱う"
 goal: "時間の単位（秒・分・時・日）の関係を理解し、時刻と時間を扱えるようになる"
 tags: [math, numbers, measurement]
 stage: beginner

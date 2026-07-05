@@ -1,6 +1,6 @@
 ---
 title: 連立不等式
-description: "複数の不等式を同時に満たす範囲を求める"
+description: "2つ以上の不等式を同時に満たす値の範囲を求める連立不等式について、それぞれの不等式を個別に解いてから共通の範囲を導く手順を具体例とともに扱う"
 goal: "連立不等式を解いて、複数の条件を同時に満たす範囲を求められるようになる"
 tags: [math, algebra, inequalities]
 stage: intermediate

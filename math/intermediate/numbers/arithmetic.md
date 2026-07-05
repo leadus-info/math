@@ -1,6 +1,6 @@
 ---
 title: 累乗
-description: "掛け算の繰り返し"
+description: "同じ数を繰り返し掛ける累乗の意味と指数の表し方、同じ底の累乗どうしの掛け算・割り算・累乗の累乗を指数の足し算・引き算・掛け算に対応させて計算する指数法則を扱う"
 goal: "累乗の意味と指数法則を理解し、計算できるようになる"
 tags: [math, numbers, arithmetic]
 stage: intermediate

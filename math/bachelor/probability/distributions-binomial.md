@@ -1,6 +1,6 @@
 ---
 title: 二項分布
-description: "n回の独立試行での成功回数の分布"
+description: "n回の独立試行での成功回数が従う二項分布の定義と期待値・分散を、ベルヌーイ確率変数の和として厳密に導出し、その使いどころを解説する"
 goal: "二項分布の定義と期待値・分散を、ベルヌーイ確率変数の和として厳密に導出し、使いどころを説明できるようになる"
 tags: [math, probability, distributions]
 stage: bachelor

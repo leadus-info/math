@@ -1,6 +1,6 @@
 ---
 title: 三角比
-description: "直角三角形の辺の比から角度と長さを結びつける"
+description: "直角三角形の辺の比として定義する正弦・余弦・正接の三角比と、sin²A+cos²A=1などの相互関係、鈍角まで三角比を拡張する方法、2辺と間の角から面積を求める公式を扱う"
 goal: "鋭角の三角比を定義し、鈍角まで拡張して、相互関係を使えるようになる"
 tags: [math, geometry, trigonometry]
 stage: advanced

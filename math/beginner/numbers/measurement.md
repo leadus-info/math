@@ -1,6 +1,6 @@
 ---
 title: 測定
-description: "身の回りの量を数で表す"
+description: "直接比較・間接比較・単位を使った測定という量の比べ方の段階と、量の保存性、合わせると足し算になる性質、目的に応じた単位選びを扱う"
 goal: "直接比較・間接比較・単位を使った測定の考え方と、量の保存性を理解できるようになる"
 tags: [math, numbers, measurement]
 stage: beginner

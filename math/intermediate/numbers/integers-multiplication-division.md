@@ -1,6 +1,6 @@
 ---
 title: 負の数の掛け算・割り算
-description: "符号の規則を理解する"
+description: "正の数と負の数の掛け算・割り算における符号の規則（同符号どうしは正、異符号どうしは負になること）を、具体例を通じて理解し計算できるようになる方法を扱う"
 goal: "整数の掛け算・割り算における符号の規則を理解し、計算できるようになる"
 tags: [math, numbers, integers]
 stage: intermediate

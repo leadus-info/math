@@ -1,6 +1,6 @@
 ---
 title: 図形の移動
-description: "平行移動・対称移動・回転移動"
+description: "図形の形と大きさを変えずに位置だけ変える移動について、方向と距離で決まる平行移動、対称の軸で決まる対称移動、中心・角度・向きで決まる回転移動の違いと、敷き詰め模様への応用を扱う"
 goal: "平行移動・対称移動・回転移動の違いを理解し、図形を移動させて考察できるようになる"
 tags: [math, geometry, transformations]
 stage: intermediate

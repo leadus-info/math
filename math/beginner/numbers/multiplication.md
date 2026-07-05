@@ -1,6 +1,6 @@
 ---
 title: 掛け算
-description: "同じ数を何回も足すことを短く書く"
+description: "同じ数を繰り返し足す操作を短く表す掛け算の意味と、交換法則・結合法則・分配法則という3つの計算法則、それらを使った計算を工夫する方法を扱う"
 goal: "掛け算が足し算の繰り返しであることを理解し、交換法則・結合法則・分配法則を使えるようになる"
 tags: [math, numbers, multiplication]
 stage: beginner

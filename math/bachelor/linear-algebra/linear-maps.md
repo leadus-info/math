@@ -1,6 +1,6 @@
 ---
 title: 線形写像
-description: "ベクトルの構造を保つ変換"
+description: "ベクトル空間の構造を保つ線形写像の定義と、写像を表す表現行列、核・像（kernel/image）の求め方、次元定理、全射・単射の判定条件までを体系的に扱う"
 goal: "線形写像を定義から理解し、表現行列・核・像を求め、次元定理を使えるようになる"
 tags: [math, linear-algebra, linear-maps]
 stage: bachelor

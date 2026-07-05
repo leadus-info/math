@@ -1,6 +1,6 @@
 ---
 title: 連立方程式
-description: "複数の等式を同時に満たす未知数の組を求める"
+description: "2つの未知数を含む連立方程式を、式どうしを足し引きして消去する加減法と、一方の式をもう一方に代入して消去する代入法の2通りの方法で解く手順を扱う"
 goal: "連立方程式を加減法・代入法で解けるようになる"
 tags: [math, algebra, equations]
 stage: intermediate

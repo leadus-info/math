@@ -1,6 +1,6 @@
 ---
 title: 絶対値
-description: "0からの距離"
+description: "ある数の0からの距離を表し、符号を取り除いた大きさだけを表す絶対値 |a| の意味と、その定義に基づく計算方法を扱う"
 goal: "絶対値の意味を理解し、計算できるようになる"
 tags: [math, numbers, integers]
 stage: intermediate

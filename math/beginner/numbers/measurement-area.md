@@ -1,6 +1,6 @@
 ---
 title: 広さ・かさ
-description: "面積と体積・容量の単位"
+description: "長さだけでは大きさが決まらない広さ（面積）の単位cm²と、3次元の広がりを表すかさ（体積・容量）の単位mL・dL・Lを扱い、長さの単位との違いを説明する"
 goal: "広さ（面積）とかさ（体積・容量）の単位を理解し、長さとの違いを説明できるようになる"
 tags: [math, numbers, measurement]
 stage: beginner

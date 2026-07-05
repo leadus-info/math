@@ -1,6 +1,6 @@
 ---
 title: 確率分布
-description: "確率変数の値の広がり方"
+description: "確率変数の値の広がり方を表す確率分布について、確率質量関数・確率密度関数の定義と期待値・分散の計算方法、離散分布と連続分布の違いを解説する"
 goal: "確率質量関数・確率密度関数の枠組みを理解し、離散分布・連続分布の違いを説明できるようになる"
 tags: [math, probability, distributions]
 stage: bachelor

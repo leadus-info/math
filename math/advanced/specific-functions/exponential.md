@@ -1,6 +1,6 @@
 ---
 title: 指数関数
-description: "倍々で増える変化を表す関数"
+description: "一定の割合で増減する変化を表す指数関数f(x)=a^xの定義とグラフの特徴、指数法則を使った計算、微分しても変わらないネイピア数eの性質、底をそろえて解く指数方程式の解き方を扱う"
 goal: "指数関数の定義とグラフの特徴を理解し、指数法則を使って指数方程式を解けるようになる"
 tags: [math, specific-functions, exponential]
 stage: advanced

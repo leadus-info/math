@@ -1,6 +1,6 @@
 ---
 title: 背理法
-description: "否定を仮定して矛盾を導く"
+description: "命題の否定を仮定して矛盾を導き元の命題を証明する背理法の考え方を、素数が無限に存在することの証明を例に扱う"
 goal: "背理法の考え方を理解し、存在や無限性に関する命題を背理法で証明できるようになる"
 tags: [math, foundations, proofs]
 stage: advanced

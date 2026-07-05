@@ -1,6 +1,6 @@
 ---
 title: 指数分布
-description: "待ち時間の分布"
+description: "ポアソン過程における次の事象までの待ち時間が従う指数分布の定義・期待値・分散と、過去の経過時間に依存しない無記憶性という性質を解説する"
 goal: "指数分布の定義と無記憶性を理解できるようになる"
 tags: [math, probability, distributions]
 stage: bachelor

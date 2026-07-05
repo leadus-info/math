@@ -1,6 +1,6 @@
 ---
 title: 統計
-description: "データから母集団の性質を推測する"
+description: "データから母集団の性質を推測する統計について、標本平均・分散・相関係数などの記述統計、点推定・区間推定、帰無仮説とp値による仮説検定、最小二乗法による単回帰分析を扱う"
 goal: "点推定・区間推定・仮説検定の手順を理解し、単回帰分析を実行できるようになる"
 tags: [math, probability, statistics]
 stage: bachelor

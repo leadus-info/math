@@ -1,6 +1,6 @@
 ---
 title: 組み合わせ
-description: "順番を区別せずに選ぶ場合の数"
+description: "順番を区別せずn個からr個を選ぶ場合の数を表す組み合わせnCr=n!/(r!(n-r)!)の公式と性質、重複を許して選ぶ重複組み合わせの公式と計算方法を扱う"
 goal: "組み合わせの公式と重複組み合わせを理解し、計算できるようになる"
 tags: [math, probability, counting]
 stage: advanced
