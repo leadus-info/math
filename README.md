@@ -2,49 +2,49 @@
 
 ## 概要
 
-Leadusは、あらゆる分野の学問知識をオープンに集約・公開する学習サイトです。コンテンツはこのリポジトリでMarkdownとして管理され、ディレクトリ構造がそのままサイトのURL構造になります。
+Leadusは、あらゆる分野の学問知識をオープンに集約・公開する学習サイトです。コンテンツはこのリポジトリでMarkdownとして管理され、HTMLに変換されて公開されます。\
+URL構成はリポジトリのフォルダ構成のまま反映されます。
 
-本サイトが何のために存在するかは[MANIFEST.md](MANIFEST.md)、記事の執筆ルールは[CONTRIBUTING.md](CONTRIBUTING.md)、具体的な作業手順は[WORKFLOW.md](WORKFLOW.md)を参照してください。
+本サイトが何のために存在するかは[MANIFEST](MANIFEST.md)、記事の執筆ルールは[CONTRIBUTING](CONTRIBUTING.md)、具体的な作業手順は[WORKFLOW](WORKFLOW.md)を参照してください。
 
 ## 構成
 
-記事は学習順序を表す5段階（初級編・中級編・応用編・発展編・探求編）で構成されています。各段階が最上位のディレクトリになり、その下に科目・トピックが続きます。
-
+各トピックは以下のフォルダ構成で公開されます。
 ```
-math/
-├── beginner/             # 初級編（小学校相当）
-│   ├── numbers/          # natural-numbers/fractions/decimals/measurement/ratio.md ...
-│   ├── geometry/         # shapes/shapes-triangle/shapes-quadrilateral/shapes-circle.md ...
-│   └── probability/      # data.md
-│
-├── intermediate/         # 中級編（中学校相当）
-│   ├── numbers/          # integers/arithmetic/rational-numbers/irrational-numbers.md ...
-│   ├── algebra/          # expressions/equations/inequalities.md ...
-│   ├── functions/        # functions/linear/quadratic.md
-│   ├── geometry/         # polygons/angles/congruence/quadrilaterals/similarity.md ...
-│   └── probability/      # data-distribution/box-plot/sampling.md ...
-│
-├── advanced/             # 応用編（高校相当）
-│   ├── numbers/          # complex-numbers/euclidean-algorithm/number-systems.md
-│   ├── algebra/          # polynomials/polynomial-division/cubic-expansion/inequality-proofs.md
-│   ├── foundations/      # sets/logic/proofs.md ...
-│   ├── specific-functions/ # quadratic/exponential/logarithmic/trigonometric.md ...
-│   ├── geometry/         # point/line/trigonometry/triangles/circles/vectors.md ...
-│   ├── analysis/         # functions/sequences/limits/derivatives/integrals.md ...
-│   └── probability/      # counting/probability/data-analysis.md ...
-│
-├── bachelor/             # 発展編（大学相当）
-│   ├── numbers/          # real-numbers.md
-│   ├── algebra/          # abstract.md ...
-│   ├── geometry/         # topology.md
-│   ├── analysis/         # epsilon-delta/differentiability/riemann-integral/complex-analysis.md
-│   ├── linear-algebra/   # vectors/matrices/linear-maps/eigenvalues.md ...
-│   └── probability/      # distributions.md, statistics.md ...
-│
-└── master/               # 探求編（研究レベル相当、現時点では記事なし）
+/<教科>/<難易度>/<大項目>/<トピック>.md
 ```
 
-トピック本体は`<段階>/<科目>/<トピック>.md`というフラットファイルで、図版などの副次資材は記事と同名のディレクトリ（例：`<トピック>/images/`）に配置します。詳細は[CONTRIBUTING.md](CONTRIBUTING.md)を参照してください。
+また画像等のファイルを配置する場合は、以下のパスに配置してください。
+```
+/<教科>/<難易度>/<大項目>/<トピック>/images/image.png
+```
+
+
+### 教科
+教科は以下が利用可能です。\
+※教科ごとにリポジトリが異なるため、注意してください。\
+※教科は今後拡充していく予定です。
+
+#### 自然科学
+|教科|表記|
+|---|---|
+|数学|math|
+
+### 難易度
+難易度は以下のいずれかを用いてください。\
+※ここに記載されているのはあくまで目安です。
+
+|難易度|表記|目安|
+|---|---|---|
+|初級|beginner|小学校相当の内容を取り扱う。|
+|中級|intermediate|中学校相当の内容を取り扱う。|
+|応用|advanced|高校相当の内容を取り扱う。|
+|発展|bachelor|大学相当の内容を取り扱う。|
+|探求|master|大学院・研究レベル相当の内容を取り扱う。|
+
+
+### 大項目
+大項目については教科・難易度ごとにそれぞれ適切な区分を適宜採用してください。
 
 ## ライセンス
 
