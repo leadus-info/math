@@ -17,6 +17,8 @@ requires:
     path: point.md
   - title: 直線
     path: line.md
+  - title: 三角比
+    path: trigonometry.md
 ---
 
 ## 円とは

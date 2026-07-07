@@ -15,6 +15,8 @@ hierarchy:
 requires:
   - title: 直線
     path: shapes-line.md
+  - title: 広さ・かさ
+    path: ../numbers/measurement-area.md
 ---
 
 ## 三角形の種類

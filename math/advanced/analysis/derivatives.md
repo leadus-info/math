@@ -1,7 +1,7 @@
 ---
 title: 微分
 description: "瞬間の変化率を表す微分係数・導関数の定義と、べき関数・指数関数・対数関数・三角関数の基本的な導関数、和・積・商の微分公式と合成関数の連鎖律、増減表を使った極値の求め方を扱う"
-goal: "微分係数の定義を理解し、基本的な導関数の計算規則を使って関数の増減・極値を求められるようになる"
+goal: "微分係数の定義を理解し、その定義に基づいて基本的な関数の導関数を考察するとともに、計算規則を使って関数の増減・極値を求められるようになる"
 tags: [math, analysis, derivatives]
 stage: advanced
 subject: 解析
@@ -17,6 +17,12 @@ requires:
     path: limits.md
   - title: 累乗
     path: ../../intermediate/numbers/arithmetic.md
+  - title: 指数関数
+    path: ../specific-functions/exponential.md
+  - title: 対数関数
+    path: ../specific-functions/logarithmic.md
+  - title: 三角関数
+    path: ../specific-functions/trigonometric.md
 ---
 
 ## 「今この瞬間の速さ」とは

@@ -1,7 +1,7 @@
 ---
 title: 複素数
 description: "2乗して-1になる虚数単位iと実部と虚部からなる複素数の定義、四則演算や複素共役、複素平面上の絶対値・極形式による表現、二次方程式の複素数解や解と係数の関係、ド・モアブルの定理を使った累乗根の求め方を扱う"
-goal: "虚数単位と複素数の定義を理解し、四則演算・複素平面・絶対値・極形式を使えるようになる"
+goal: "虚数単位と複素数の定義を理解し、四則演算・複素平面・絶対値・極形式に加えて、ド・モアブルの定理を使って累乗根を求められるようになる"
 tags: [math, numbers, complex-numbers]
 stage: advanced
 subject: 数
@@ -17,6 +17,8 @@ requires:
     path: ../../intermediate/numbers/integers.md
   - title: 二次方程式
     path: ../../intermediate/algebra/equations-quadratic.md
+  - title: 三角関数
+    path: ../specific-functions/trigonometric.md
 ---
 
 ## 2乗の壁

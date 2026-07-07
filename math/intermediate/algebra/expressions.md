@@ -15,6 +15,8 @@ hierarchy:
 requires:
   - title: 自然数
     path: ../../beginner/numbers/natural-numbers.md
+  - title: 負数
+    path: ../numbers/integers.md
 ---
 
 ## 文字を使うと便利なわけ
