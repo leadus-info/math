@@ -69,7 +69,7 @@ $$\log_a 1 = 0, \quad \log_a a = 1$$
 
 ## 自然対数 $\ln$
 
-底が $e$ の対数を**自然対数**といい $\ln x$ と書きます。
+底が $e$（ネイピア数、$\approx 2.71828\ldots$。定義は[微分（応用編）](../analysis/derivatives.md)で扱います）の対数を**自然対数**といい $\ln x$ と書きます。
 
 $$(\ln x)' = \frac{1}{x}, \quad \int \frac{1}{x}\,dx = \ln|x| + C$$
 

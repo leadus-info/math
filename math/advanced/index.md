@@ -67,7 +67,7 @@ hierarchy:
 - [二次関数](specific-functions/quadratic.md)
 
 ### 指数関数
-倍々で増える変化を表す関数。ネイピア数 $e$ の意味を扱います。
+倍々で増える変化を表す関数。指数法則と指数方程式を扱います。
 
 - [指数関数](specific-functions/exponential.md)
 
