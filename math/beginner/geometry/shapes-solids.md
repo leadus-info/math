@@ -13,6 +13,8 @@ hierarchy:
   - title: 立体図形
     path: shapes-solids.md
 requires:
+  - title: 三角形
+    path: shapes-triangle.md
   - title: 四角形
     path: shapes-quadrilateral.md
 ---
