@@ -62,6 +62,8 @@ $$\sin 2\alpha = 2\sin\alpha\cos\alpha, \qquad \cos 2\alpha = \cos^2\alpha - \si
 
 $$\sin^2\frac{\alpha}{2} = \frac{1 - \cos\alpha}{2}, \quad \cos^2\frac{\alpha}{2} = \frac{1 + \cos\alpha}{2}$$
 
+半角の公式は、2倍角の公式と基本性質 $\sin^2\theta+\cos^2\theta=1$ から導けます。$\cos2\alpha=\cos^2\alpha-\sin^2\alpha$ に $\cos^2\alpha=1-\sin^2\alpha$ を代入すると $\cos2\alpha=1-2\sin^2\alpha$、これを $\sin^2\alpha$ について整理すると $\sin^2\alpha=\dfrac{1-\cos2\alpha}{2}$。ここで $\alpha$ を $\dfrac{\alpha}{2}$ に置き換えると、$\sin^2\dfrac{\alpha}{2}=\dfrac{1-\cos\alpha}{2}$ が得られます。$\cos^2\dfrac{\alpha}{2}$ も同様に、$\cos2\alpha=2\cos^2\alpha-1$ から導けます。
+
 ---
 
 ## 三角関数の合成

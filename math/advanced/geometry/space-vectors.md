@@ -47,7 +47,7 @@ $$\vec{a}\cdot\vec{b} = |\vec{a}||\vec{b}|\cos\theta = a_1b_1+a_2b_2+a_3b_3$$
 
 $\vec{a}\cdot\vec{b}=0$ が垂直を意味することも変わりません。
 
-**例題**：正四面体 $OABC$（すべての辺の長さが等しい四面体）で、辺 $OA$ と辺 $BC$ が垂直であることを示す。$\overrightarrow{OA}=\vec{a}$、$\overrightarrow{OB}=\vec{b}$、$\overrightarrow{OC}=\vec{c}$（$|\vec{a}|=|\vec{b}|=|\vec{c}|=1$、どの2つも内積は $\dfrac12$）とすると、
+**例題**：正四面体 $OABC$（すべての辺の長さが等しい四面体）で、辺 $OA$ と辺 $BC$ が垂直であることを示す。$\overrightarrow{OA}=\vec{a}$、$\overrightarrow{OB}=\vec{b}$、$\overrightarrow{OC}=\vec{c}$（$|\vec{a}|=|\vec{b}|=|\vec{c}|=1$）とします。正四面体はどの面も正三角形なので、例えば三角形$OAB$は正三角形で$\angle AOB=60°$。したがって $\vec{a}\cdot\vec{b}=|\vec{a}||\vec{b}|\cos60°=1\times1\times\dfrac12=\dfrac12$ となり、同じ理由で$\vec{a}$、$\vec{b}$、$\vec{c}$のどの2つの内積も$\dfrac12$になります。これを使うと、
 
 $$\overrightarrow{OA}\cdot\overrightarrow{BC} = \vec{a}\cdot(\vec{c}-\vec{b}) = \vec{a}\cdot\vec{c}-\vec{a}\cdot\vec{b} = \frac12-\frac12=0$$
 

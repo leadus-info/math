@@ -37,6 +37,8 @@ $$\frac{BD}{DC}\cdot\frac{CE}{EA}\cdot\frac{AF}{FB} = 1$$
 
 が成り立ちます。これを**チェバの定理**といいます。三角形 $ABD$ と $ACD$ の面積比などを利用して証明できます（3つの小三角形の面積比を辺の比に対応させ、掛け合わせるとちょうど打ち消し合う）。
 
+**例題**：点$D$、$E$が辺$BC$、$CA$上にあり、$BD:DC=2:1$、$CE:EA=3:2$のとき、線分$AD$と$BE$の交点を通り頂点$C$を通る直線が辺$AB$と交わる点$F$について、$AF:FB$を求める。チェバの定理より $\dfrac{BD}{DC}\cdot\dfrac{CE}{EA}\cdot\dfrac{AF}{FB}=1$ なので、$\dfrac{2}{1}\cdot\dfrac{3}{2}\cdot\dfrac{AF}{FB}=1$、$3\cdot\dfrac{AF}{FB}=1$、$AF:FB=1:3$。
+
 ---
 
 ## メネラウスの定理
@@ -46,6 +48,8 @@ $$\frac{BD}{DC}\cdot\frac{CE}{EA}\cdot\frac{AF}{FB} = 1$$
 $$\frac{BD}{DC}\cdot\frac{CE}{EA}\cdot\frac{AF}{FB} = 1$$
 
 チェバの定理と同じ形の式になりますが、点 $P$ が三角形の内部にあるか、直線が三角形の外を通るかという状況が異なります。相似な三角形の組を見つけることで証明できます。
+
+**例題**：辺$BC$の延長上の点$D$について$BD:DC=3:1$（$D$は$C$の外側）、辺$CA$上の点$E$について$CE:EA=1:2$のとき、直線$DE$が辺$AB$（の延長）と交わる点$F$について、$AF:FB$を求める。メネラウスの定理より $\dfrac{BD}{DC}\cdot\dfrac{CE}{EA}\cdot\dfrac{AF}{FB}=1$ なので、$\dfrac{3}{1}\cdot\dfrac{1}{2}\cdot\dfrac{AF}{FB}=1$、$\dfrac{3}{2}\cdot\dfrac{AF}{FB}=1$、$AF:FB=2:3$。
 
 ---
 

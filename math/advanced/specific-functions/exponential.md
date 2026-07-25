@@ -61,6 +61,10 @@ $$4^x = 8 \Rightarrow (2^2)^x = 2^3 \Rightarrow 2x = 3 \Rightarrow x = \frac{3}{
 
 底が1より大きいとき、$a^x > a^y \iff x > y$。底が0と1の間なら不等号が逆転します。
 
+**例題**：$3^x < 27$ を解く。$27=3^3$ なので $3^x<3^3$。底$3$は$1$より大きいので、不等号の向きはそのまま $x<3$。
+
+**例題**：$\left(\dfrac12\right)^x < \dfrac18$ を解く。$\dfrac18=\left(\dfrac12\right)^3$ なので $\left(\dfrac12\right)^x<\left(\dfrac12\right)^3$。底$\dfrac12$は$0$と$1$の間なので、不等号が逆転して $x>3$。
+
 ---
 
 ## 身の回りの例

@@ -49,7 +49,7 @@ $$\int f(x)\,dx = F(x) + C$$
 
 | $f(x)$ | $\int f(x)\,dx$ |
 |--------|----------------|
-| $x^n$ ($n \neq -1$) | $\dfrac{x^{n+1}}{n+1} + C$ |
+| $x^n$ ($n \neq -1$) | $\dfrac{x^{n+1}}{n+1} + C$（$n=-1$だと分母が$0$になるため除外し、下の$\frac1x$の場合を別に扱います） |
 | $\dfrac{1}{x}$ | $\ln\lvert x\rvert + C$ |
 | $e^x$ | $e^x + C$ |
 | $\sin x$ | $-\cos x + C$ |
@@ -71,11 +71,11 @@ $$\int_a^b f(x)\,dx = F(b) - F(a) \quad \text{（$F'(x) = f(x)$ とする）}$$
 
 ## 計算技法
 
-**置換積分**：$u = g(x)$ と置き、積分を変数変換します。
+**置換積分**：$u = g(x)$ と置き、積分を変数変換します。$u=x^2$ とおくと $\dfrac{du}{dx}=2x$ なので $du=2x\,dx$。これを使うと、もとの積分の $2x\,dx$ の部分をそのまま $du$ に置き換えられます。
 
-$$\int 2x\cos(x^2)\,dx \xrightarrow{u=x^2} \int \cos u\,du = \sin u + C = \sin(x^2) + C$$
+$$\int 2x\cos(x^2)\,dx = \int \cos(x^2)\cdot(2x\,dx) \xrightarrow{u=x^2,\ du=2x\,dx} \int \cos u\,du = \sin u + C = \sin(x^2) + C$$
 
-**部分積分**：積の形に使います。
+**部分積分**：積の微分法則 $(fg)'=f'g+fg'$ の両辺を積分すると $fg=\int f'g\,dx+\int fg'\,dx$ となるので、これを $\int fg'\,dx$ について整理すると次の公式が得られます。
 
 $$\int f g'\,dx = fg - \int f'g\,dx$$
 
