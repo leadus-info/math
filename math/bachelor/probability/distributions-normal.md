@@ -47,7 +47,11 @@ $$E[X] = \int_{-\infty}^{\infty} x f(x)\,dx = \int_{-\infty}^{\infty} (\mu+\sigm
 
 $$\mathrm{Var}(X) = \int_{-\infty}^{\infty}(x-\mu)^2 f(x)\,dx = \sigma^2\int_{-\infty}^{\infty} u^2 \frac{e^{-u^2/2}}{\sqrt{2\pi}}\,du$$
 
-部分積分（$u\,du$ と $u\,e^{-u^2/2}\,du=-d(e^{-u^2/2})$ を使う）により $\int_{-\infty}^{\infty}u^2 e^{-u^2/2}du = \sqrt{2\pi}$ となることが示せるので、$\mathrm{Var}(X)=\sigma^2 \times 1 = \sigma^2$。$\blacksquare$
+$u^2e^{-u^2/2}=u\times(u\,e^{-u^2/2})$ とみて、$u\,e^{-u^2/2}\,du=-d(e^{-u^2/2})$ に注意して部分積分すると、
+
+$$\int_{-\infty}^{\infty}u^2 e^{-u^2/2}\,du = \Bigl[-u\,e^{-u^2/2}\Bigr]_{-\infty}^{\infty} + \int_{-\infty}^{\infty}e^{-u^2/2}\,du = 0+\sqrt{2\pi} = \sqrt{2\pi}$$
+
+（第1項は $u\to\pm\infty$ で $e^{-u^2/2}$ が$u$より速く$0$に近づくため$0$、第2項はガウス積分の補題そのもの）となるので、$\mathrm{Var}(X)=\sigma^2 \times 1 = \sigma^2$。$\blacksquare$
 
 **標準化**：$Z = \dfrac{X - \mu}{\sigma} \sim N(0, 1)$
 

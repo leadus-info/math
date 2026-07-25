@@ -47,6 +47,12 @@ $i=k$ のとき、これは $A$ の第 $i$ 行に関する余因子展開（行�
 
 **掃き出し法**：$(A \mid I)$ という $n \times 2n$ 行列を作り、行基本変形（行の入れ替え・定数倍・他の行への加算）を繰り返して左半分を単位行列 $I$ にすると、右半分が $A^{-1}$ になります。
 
+**例題**：$A=\begin{pmatrix}2&1\\1&1\end{pmatrix}$ の逆行列を掃き出し法で求める。
+
+$$\left(\begin{array}{cc|cc}2&1&1&0\\1&1&0&1\end{array}\right) \xrightarrow{R_1\leftrightarrow R_2} \left(\begin{array}{cc|cc}1&1&0&1\\2&1&1&0\end{array}\right) \xrightarrow{R_2-2R_1} \left(\begin{array}{cc|cc}1&1&0&1\\0&-1&1&-2\end{array}\right) \xrightarrow{R_1+R_2,\ -R_2} \left(\begin{array}{cc|cc}1&0&1&-1\\0&1&-1&2\end{array}\right)$$
+
+よって $A^{-1}=\begin{pmatrix}1&-1\\-1&2\end{pmatrix}$。$\det(A)=2\times1-1\times1=1$ なので、逆行列の公式 $\dfrac{1}{\det(A)}\begin{pmatrix}1&-1\\-1&2\end{pmatrix}$ と一致することも確認できます。
+
 ---
 
 ## まとめ

@@ -27,7 +27,7 @@ $$\begin{pmatrix} 2 & 1 \\ 1 & -1 \end{pmatrix}$$
 
 $$\begin{cases} 2x + y = 5 \\ x - y = 1 \end{cases}$$
 
-の係数を取り出すと $\begin{pmatrix} 2 & 1 \\ 1 & -1 \end{pmatrix} \begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 5 \\ 1 \end{pmatrix}$ と書けます。2本でも100本でも同じ形で書けるのが行列の強みです。行列はまた、ベクトルを「変換する操作」とも読め、回転・拡大縮小・反転がすべて行列で統一的に表せます。
+の係数を取り出すと $\begin{pmatrix} 2 & 1 \\ 1 & -1 \end{pmatrix} \begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 5 \\ 1 \end{pmatrix}$ と書けます。2本でも100本でも同じ形で書けるのが行列の強みです。行列はまた、ベクトルを「変換する操作」とも読め、回転・拡大縮小・反転がすべて行列で統一的に表せます。**例**：平面上のベクトルを反時計回りに90°回転させる変換は $\begin{pmatrix}0&-1\\1&0\end{pmatrix}$ で表され、$\begin{pmatrix}0&-1\\1&0\end{pmatrix}\begin{pmatrix}1\\0\end{pmatrix}=\begin{pmatrix}0\\1\end{pmatrix}$ のように、$x$軸方向のベクトル$(1,0)$を$y$軸方向の$(0,1)$に移します。
 
 ---
 
@@ -35,9 +35,9 @@ $$\begin{cases} 2x + y = 5 \\ x - y = 1 \end{cases}$$
 
 $m$ 行 $n$ 列の行列は数を $m \times n$ の格子に並べたもので、$(i, j)$ 成分を $a_{ij}$ と書きます。
 
-**加法**（同じサイズ同士）：成分ごとに足します。
+**加法**（同じサイズ同士）：成分ごとに足します。**例**：$\begin{pmatrix}2&1\\1&-1\end{pmatrix}+\begin{pmatrix}0&3\\-2&1\end{pmatrix}=\begin{pmatrix}2&4\\-1&0\end{pmatrix}$
 
-**スカラー倍**：すべての成分に定数を掛けます。
+**スカラー倍**：すべての成分に定数を掛けます。**例**：$3\begin{pmatrix}2&1\\1&-1\end{pmatrix}=\begin{pmatrix}6&3\\3&-3\end{pmatrix}$
 
 ---
 
