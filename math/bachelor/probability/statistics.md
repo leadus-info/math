@@ -29,7 +29,7 @@ requires:
 
 **標本平均**：$\bar{x} = \dfrac{1}{n}\sum_{i=1}^n x_i$
 
-**標本分散**：$s^2 = \dfrac{1}{n-1}\sum_{i=1}^n (x_i - \bar{x})^2$（不偏分散、$n-1$ で割る）
+**標本分散**：$s^2 = \dfrac{1}{n-1}\sum_{i=1}^n (x_i - \bar{x})^2$（不偏分散、$n-1$ で割る）。$n$ で割ると、$\bar x$ 自身がデータから計算された値であるために偏差の2乗和がわずかに小さくなる傾向があり、母分散を系統的に過小評価してしまいます。$n-1$ で割ることでこの偏りが補正され、$E[s^2]=\sigma^2$（不偏性）が成り立ちます。
 
 **標本標準偏差**：$s = \sqrt{s^2}$
 
@@ -70,6 +70,12 @@ $$\bar{x} \pm 1.96 \cdot \frac{\sigma}{\sqrt{n}}$$
 $x$（説明変数）から $y$（目的変数）を予測するモデル $y = \beta_0 + \beta_1 x + \varepsilon$ を考え、最小二乗法で係数を推定します。
 
 $$\hat{\beta}_1 = \frac{\sum(x_i - \bar{x})(y_i - \bar{y})}{\sum(x_i - \bar{x})^2}, \quad \hat{\beta}_0 = \bar{y} - \hat{\beta}_1 \bar{x}$$
+
+**導出**：予測値との誤差の2乗和 $S(\beta_0,\beta_1)=\sum_i(y_i-\beta_0-\beta_1x_i)^2$ を最小にする $\beta_0,\beta_1$ を求めます。$\beta_0$、$\beta_1$ それぞれで偏微分してゼロと置くと、
+
+$$\frac{\partial S}{\partial \beta_0}=-2\sum_i(y_i-\beta_0-\beta_1x_i)=0, \qquad \frac{\partial S}{\partial \beta_1}=-2\sum_i x_i(y_i-\beta_0-\beta_1x_i)=0$$
+
+1つ目の式より $\beta_0=\bar y-\beta_1\bar x$。これを2つ目の式に代入して整理すると $\beta_1=\dfrac{\sum(x_i-\bar x)(y_i-\bar y)}{\sum(x_i-\bar x)^2}$ が得られます（この2式を**正規方程式**といいます）。
 
 **決定係数** $R^2 = r^2$（$0 \leq R^2 \leq 1$）は、モデルがデータのばらつきを何割説明するかを表します。
 

@@ -37,7 +37,7 @@ $E[X] = np$、$\mathrm{Var}(X) = np(1-p)$ は、定義の和を直接計算す�
 
 $$X_i = \begin{cases}1 & (i \text{ 回目が成功}) \\ 0 & (i \text{ 回目が失敗})\end{cases}, \qquad X = X_1 + X_2 + \cdots + X_n$$
 
-とすると、各 $X_i$ は $E[X_i] = p$、$\mathrm{Var}(X_i) = p(1-p)$ を満たします。期待値は独立性を仮定しなくても和に分解できる（**期待値の線形性**）ので、
+とすると、各 $X_i$ は $E[X_i] = 1\times p+0\times(1-p) = p$、$E[X_i^2] = 1^2\times p+0^2\times(1-p) = p$ より $\mathrm{Var}(X_i)=E[X_i^2]-(E[X_i])^2=p-p^2=p(1-p)$ を満たします。期待値は独立性を仮定しなくても和に分解できる（**期待値の線形性**）ので、
 
 $$E[X] = \sum_{i=1}^n E[X_i] = np$$
 

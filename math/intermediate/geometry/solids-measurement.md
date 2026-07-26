@@ -23,6 +23,8 @@ requires:
 
 円の一部を、2本の半径とその間の弧で切り取った形を**おうぎ形**といいます。中心の角度（**中心角**）が大きいほど、弧の長さも面積も大きくなり、どちらも中心角に比例します。
 
+![半径r、中心角a度のおうぎ形を示す図。弧の長さと面積は中心角aの割合で決まる](solids-measurement/images/sector-radius-angle.svg)
+
 半径 $r$、中心角 $a°$ のおうぎ形について、
 
 $$\text{弧の長さ} = 2\pi r \times \frac{a}{360}, \qquad \text{面積} = \pi r^2 \times \frac{a}{360}$$

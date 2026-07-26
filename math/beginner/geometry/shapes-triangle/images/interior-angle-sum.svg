@@ -1,0 +1,13 @@
+<svg viewBox="0 0 300 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="三角形の3つの内角に弧を付けて示し、その和が180度になることを表す図">
+  <polygon points="150,30 50,250 250,250" fill="none" stroke="currentColor" stroke-width="2"/>
+  <circle cx="150" cy="30" r="3" fill="currentColor"/>
+  <circle cx="50" cy="250" r="3" fill="currentColor"/>
+  <circle cx="250" cy="250" r="3" fill="currentColor"/>
+  <text x="150" y="20" font-size="16" text-anchor="middle" fill="currentColor">A</text>
+  <text x="32" y="258" font-size="16" text-anchor="middle" fill="currentColor">B</text>
+  <text x="268" y="258" font-size="16" text-anchor="middle" fill="currentColor">C</text>
+  <path d="M138.4,55.5 Q150,66 161.6,55.5" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M61.6,224.5 Q68,234 78,250" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M238.4,224.5 Q232,234 222,250" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <text x="150" y="300" font-size="16" text-anchor="middle" fill="currentColor">∠A + ∠B + ∠C = 180°</text>
+</svg>

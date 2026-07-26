@@ -27,6 +27,12 @@ $$(AB)_{ij} = \sum_{k=1}^n a_{ik} b_{kj}$$
 
 **例**：$\begin{pmatrix}1&2\\3&4\end{pmatrix}\begin{pmatrix}5\\6\end{pmatrix} = \begin{pmatrix}17\\39\end{pmatrix}$
 
+**例（$AB\neq BA$の確認）**：$A=\begin{pmatrix}1&1\\0&1\end{pmatrix}$、$B=\begin{pmatrix}1&0\\1&1\end{pmatrix}$ とすると、
+
+$$AB=\begin{pmatrix}1&1\\0&1\end{pmatrix}\begin{pmatrix}1&0\\1&1\end{pmatrix}=\begin{pmatrix}2&1\\1&1\end{pmatrix}, \qquad BA=\begin{pmatrix}1&0\\1&1\end{pmatrix}\begin{pmatrix}1&1\\0&1\end{pmatrix}=\begin{pmatrix}1&1\\1&2\end{pmatrix}$$
+
+$AB\neq BA$ であることが具体的に確認できます。
+
 ---
 
 ## まとめ

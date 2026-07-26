@@ -1,6 +1,6 @@
 ---
 title: 三角関数
-description: "単位円上の点の座標として定義される三角関数sin・cos・tanと、正弦と余弦の2乗の和が1になるなどの基本性質・周期性、加法定理から導かれる2倍角・半角の公式、正弦と余弦の1次結合を1つの正弦にまとめる合成、三角関数の微分公式を扱う"
+description: "単位円上の点の座標として定義される三角関数sin・cos・tanと、正弦と余弦の2乗の和が1になるなどの基本性質・周期性、加法定理から導かれる2倍角・半角の公式、正弦と余弦の1次結合を1つの正弦にまとめる合成を扱う"
 goal: "三角関数が単位円から定義されることを理解し、基本性質・加法定理・合成を使って値や式を扱えるようになる"
 tags: [math, specific-functions, trigonometric]
 stage: advanced
@@ -62,6 +62,8 @@ $$\sin 2\alpha = 2\sin\alpha\cos\alpha, \qquad \cos 2\alpha = \cos^2\alpha - \si
 
 $$\sin^2\frac{\alpha}{2} = \frac{1 - \cos\alpha}{2}, \quad \cos^2\frac{\alpha}{2} = \frac{1 + \cos\alpha}{2}$$
 
+半角の公式は、2倍角の公式と基本性質 $\sin^2\theta+\cos^2\theta=1$ から導けます。$\cos2\alpha=\cos^2\alpha-\sin^2\alpha$ に $\cos^2\alpha=1-\sin^2\alpha$ を代入すると $\cos2\alpha=1-2\sin^2\alpha$、これを $\sin^2\alpha$ について整理すると $\sin^2\alpha=\dfrac{1-\cos2\alpha}{2}$。ここで $\alpha$ を $\dfrac{\alpha}{2}$ に置き換えると、$\sin^2\dfrac{\alpha}{2}=\dfrac{1-\cos\alpha}{2}$ が得られます。$\cos^2\dfrac{\alpha}{2}$ も同様に、$\cos2\alpha=2\cos^2\alpha-1$ から導けます。
+
 ---
 
 ## 三角関数の合成
@@ -75,14 +77,6 @@ $$a\sin\theta + b\cos\theta = \sqrt{a^2+b^2}\,\sin(\theta+\varphi)$$
 **例**：$\sin\theta+\cos\theta$ を合成する。$\sqrt{1^2+1^2}=\sqrt2$ で、$\cos\varphi=\sin\varphi=\dfrac{1}{\sqrt2}$ より $\varphi=\dfrac{\pi}{4}$。よって $\sin\theta+\cos\theta=\sqrt2\sin\left(\theta+\dfrac{\pi}{4}\right)$。
 
 この形にすると、最大値・最小値や周期といった $a\sin\theta+b\cos\theta$ の性質が、単一の $\sin$ の性質としてそのまま読み取れます。
-
----
-
-## 微分
-
-$$(\sin x)' = \cos x, \quad (\cos x)' = -\sin x, \quad (\tan x)' = \frac{1}{\cos^2 x}$$
-
-$\sin$ の場合、$\lim_{h\to 0}\dfrac{\sin(x+h)-\sin x}{h} = \lim_{h\to 0}\dfrac{\sin h}{h}\cos x = \cos x$（$\lim_{h\to 0}\frac{\sin h}{h} = 1$ を使用）と導けます。
 
 ---
 

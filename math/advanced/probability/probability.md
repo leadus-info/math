@@ -71,7 +71,7 @@ $$P = \binom{n}{k} p^k (1-p)^{n-k}$$
 
 **例題**：サイコロを5回投げて「1の目がちょうど2回出る」確率を求める。$p=\dfrac16$、$n=5$、$k=2$ より
 
-$$P = \binom{5}{2}\left(\frac16\right)^2\left(\frac56\right)^3 = 10\times\frac{1}{36}\times\frac{125}{216}$$
+$$P = \binom{5}{2}\left(\frac16\right)^2\left(\frac56\right)^3 = 10\times\frac{1}{36}\times\frac{125}{216} = \frac{1250}{7776} = \frac{625}{3888}$$
 
 ---
 

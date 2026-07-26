@@ -1,0 +1,14 @@
+<svg viewBox="0 0 420 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="対称の軸で折るとぴったり重なる線対称な図形と、対称の中心を軸に180度回転させると重なる点対称な図形を示す図">
+  <!-- 線対称 -->
+  <polygon points="100,50 50,190 150,190" fill="none" stroke="currentColor" stroke-width="2"/>
+  <line x1="100" y1="30" x2="100" y2="210" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="108" y="42" font-size="13" fill="currentColor">対称の軸</text>
+  <text x="100" y="235" font-size="16" text-anchor="middle" fill="currentColor">線対称</text>
+  <!-- 点対称 -->
+  <polygon points="270,100 350,120 370,180 290,160" fill="none" stroke="currentColor" stroke-width="2"/>
+  <line x1="270" y1="100" x2="370" y2="180" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="350" y1="120" x2="290" y2="160" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <circle cx="320" cy="140" r="3" fill="currentColor"/>
+  <text x="328" y="136" font-size="13" fill="currentColor">対称の中心</text>
+  <text x="320" y="235" font-size="16" text-anchor="middle" fill="currentColor">点対称</text>
+</svg>

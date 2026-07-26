@@ -1,0 +1,22 @@
+<svg viewBox="0 0 400 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="円の外部の点Pを通る2本の直線が円とP,A,B及びP,C,Dで交わり、PA・PB=PC・PDが成り立つことを示す図">
+  <circle cx="230" cy="150" r="90" fill="none" stroke="currentColor" stroke-width="2"/>
+
+  <!-- secant lines from P -->
+  <line x1="60" y1="290" x2="293" y2="86" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="60" y1="290" x2="311" y2="110" stroke="currentColor" stroke-width="1.5"/>
+
+  <!-- points -->
+  <circle cx="60" cy="290" r="3" fill="currentColor"/>
+  <circle cx="158" cy="204" r="3" fill="currentColor"/>
+  <circle cx="293" cy="86" r="3" fill="currentColor"/>
+  <circle cx="166" cy="214" r="3" fill="currentColor"/>
+  <circle cx="311" cy="110" r="3" fill="currentColor"/>
+
+  <text x="40" y="308" font-size="16" fill="currentColor">P</text>
+  <text x="135" y="200" font-size="16" text-anchor="end" fill="currentColor">A</text>
+  <text x="298" y="76" font-size="16" fill="currentColor">B</text>
+  <text x="166" y="234" font-size="16" text-anchor="middle" fill="currentColor">C</text>
+  <text x="318" y="112" font-size="16" fill="currentColor">D</text>
+
+  <text x="200" y="24" font-size="13" text-anchor="middle" fill="currentColor">PA・PB = PC・PD</text>
+</svg>

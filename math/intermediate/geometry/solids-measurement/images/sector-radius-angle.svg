@@ -1,0 +1,11 @@
+<svg viewBox="0 0 400 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="半径r、中心角a度のおうぎ形を示す図。弧の長さと面積は中心角aの割合で決まる">
+  <circle cx="200" cy="280" r="200" fill="none" stroke="currentColor" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="200" y1="280" x2="26.8" y2="180" stroke="currentColor" stroke-width="2"/>
+  <line x1="200" y1="280" x2="373.2" y2="180" stroke="currentColor" stroke-width="2"/>
+  <path d="M26.8,180 A200,200 0 0,1 373.2,180" fill="none" stroke="currentColor" stroke-width="2"/>
+  <path d="M187.01,272.5 Q200,262.75 212.99,272.5" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <text x="200" y="253" font-size="16" text-anchor="middle" fill="currentColor">a°</text>
+  <text x="95" y="218" font-size="16" fill="currentColor">r</text>
+  <circle cx="200" cy="280" r="3" fill="currentColor"/>
+  <text x="200" y="300" font-size="16" text-anchor="middle" fill="currentColor">O</text>
+</svg>

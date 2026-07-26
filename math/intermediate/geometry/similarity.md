@@ -49,6 +49,8 @@ requires:
 
 $$AP:AB = AQ:AC = PQ:BC$$
 
+![三角形ABCの辺AB、AC上の点P、QをPQがBCと平行になるようにとると、三角形APQと三角形ABCが相似になることを示す図](similarity/images/parallel-side-ratio.svg)
+
 特に、$P$、$Q$ がそれぞれ辺 $AB$、$AC$ の中点のとき、$PQ \parallel BC$ かつ $PQ = \dfrac{1}{2}BC$ となります。これを**中点連結定理**といい、「平行線と線分の比」の特別な場合として統一的に理解できます。
 
 ---

@@ -1,0 +1,14 @@
+<svg viewBox="0 0 340 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ベクトルaとbを矢印でつなぎ、和a+bが始点から終点への矢印になることを示す図">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+    </marker>
+  </defs>
+  <line x1="50" y1="250" x2="196" y2="250" stroke="currentColor" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="200" y1="250" x2="276" y2="124" stroke="currentColor" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="50" y1="250" x2="276" y2="124" stroke="currentColor" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+  <text x="125" y="268" font-size="16" text-anchor="middle" fill="currentColor">a</text>
+  <text x="255" y="180" font-size="16" fill="currentColor">b</text>
+  <text x="170" y="205" font-size="16" text-anchor="middle" fill="currentColor">a+b</text>
+</svg>

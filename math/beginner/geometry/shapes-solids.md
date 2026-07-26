@@ -13,6 +13,8 @@ hierarchy:
   - title: 立体図形
     path: shapes-solids.md
 requires:
+  - title: 三角形
+    path: shapes-triangle.md
   - title: 四角形
     path: shapes-quadrilateral.md
 ---
@@ -30,6 +32,8 @@ requires:
 立体を1つの方向から見た形をまとめて、全体の様子がわかるように描いた図を**見取図**といいます。
 
 立体を切り開いて、平らに広げた図を**展開図**といいます。展開図を組み立てると、もとの立体に戻ることを確かめられます。同じ立体でも、切り開き方によって展開図の形はいくつも考えられます。
+
+![立方体を見取図と展開図の2通りで表した図](shapes-solids/images/cube-net-and-perspective.svg)
 
 ---
 

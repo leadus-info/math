@@ -1,0 +1,13 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="平行な2直線と垂直に交わる2直線を並べて示す図">
+  <!-- 平行 -->
+  <line x1="40" y1="100" x2="200" y2="100" stroke="currentColor" stroke-width="2"/>
+  <line x1="40" y1="160" x2="200" y2="160" stroke="currentColor" stroke-width="2"/>
+  <path d="M114,94 L122,100 L114,106" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M114,154 L122,160 L114,166" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <text x="120" y="210" font-size="16" text-anchor="middle" fill="currentColor">平行</text>
+  <!-- 垂直 -->
+  <line x1="300" y1="60" x2="300" y2="220" stroke="currentColor" stroke-width="2"/>
+  <line x1="240" y1="140" x2="360" y2="140" stroke="currentColor" stroke-width="2"/>
+  <path d="M286,140 L286,126 L300,126" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <text x="300" y="250" font-size="16" text-anchor="middle" fill="currentColor">垂直</text>
+</svg>

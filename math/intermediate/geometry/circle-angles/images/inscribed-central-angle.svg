@@ -1,0 +1,17 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="円周角の定理:弧ABに対する中心角∠AOBと円周角∠APBの関係を示す図">
+  <circle cx="150" cy="150" r="100" fill="none" stroke="currentColor" stroke-width="2"/>
+  <line x1="150" y1="150" x2="56.03" y2="184.2" stroke="currentColor" stroke-width="2"/>
+  <line x1="150" y1="150" x2="243.97" y2="184.2" stroke="currentColor" stroke-width="2"/>
+  <line x1="150" y1="50" x2="56.03" y2="184.2" stroke="currentColor" stroke-width="2"/>
+  <line x1="150" y1="50" x2="243.97" y2="184.2" stroke="currentColor" stroke-width="2"/>
+  <path d="M126.51,158.55 Q150,172 173.49,158.55" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M135.66,70.48 Q150,90 164.34,70.48" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <circle cx="150" cy="150" r="3" fill="currentColor"/>
+  <circle cx="56.03" cy="184.2" r="3" fill="currentColor"/>
+  <circle cx="243.97" cy="184.2" r="3" fill="currentColor"/>
+  <circle cx="150" cy="50" r="3" fill="currentColor"/>
+  <text x="158" y="146" font-size="16" fill="currentColor">O</text>
+  <text x="40" y="198" font-size="16" text-anchor="middle" fill="currentColor">A</text>
+  <text x="260" y="198" font-size="16" text-anchor="middle" fill="currentColor">B</text>
+  <text x="150" y="38" font-size="16" text-anchor="middle" fill="currentColor">P</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="円の中心Oと半径r、直径dの関係を示す図">
+  <circle cx="150" cy="150" r="100" fill="none" stroke="currentColor" stroke-width="2"/>
+  <circle cx="150" cy="150" r="3" fill="currentColor"/>
+  <text x="162" y="146" font-size="16" fill="currentColor">O</text>
+  <line x1="150" y1="150" x2="200" y2="63.4" stroke="currentColor" stroke-width="2"/>
+  <text x="192" y="98" font-size="16" fill="currentColor">r</text>
+  <line x1="50" y1="150" x2="250" y2="150" stroke="currentColor" stroke-width="2"/>
+  <text x="150" y="172" font-size="16" text-anchor="middle" fill="currentColor">d</text>
+</svg>

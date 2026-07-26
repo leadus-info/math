@@ -1,0 +1,14 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="三角形ABCの辺AB、AC上の点P、QをPQがBCと平行になるようにとると、三角形APQと三角形ABCが相似になることを示す図">
+  <polygon points="200,60 80,320 320,320" fill="none" stroke="currentColor" stroke-width="2"/>
+  <line x1="140" y1="190" x2="260" y2="190" stroke="currentColor" stroke-width="2"/>
+  <circle cx="200" cy="60" r="3" fill="currentColor"/>
+  <circle cx="80" cy="320" r="3" fill="currentColor"/>
+  <circle cx="320" cy="320" r="3" fill="currentColor"/>
+  <circle cx="140" cy="190" r="3" fill="currentColor"/>
+  <circle cx="260" cy="190" r="3" fill="currentColor"/>
+  <text x="200" y="45" font-size="16" text-anchor="middle" fill="currentColor">A</text>
+  <text x="62" y="335" font-size="16" text-anchor="middle" fill="currentColor">B</text>
+  <text x="338" y="335" font-size="16" text-anchor="middle" fill="currentColor">C</text>
+  <text x="120" y="180" font-size="16" text-anchor="middle" fill="currentColor">P</text>
+  <text x="280" y="180" font-size="16" text-anchor="middle" fill="currentColor">Q</text>
+</svg>

@@ -67,7 +67,7 @@ hierarchy:
 - [二次関数](specific-functions/quadratic.md)
 
 ### 指数関数
-倍々で増える変化を表す関数。ネイピア数 $e$ の意味を扱います。
+倍々で増える変化を表す関数。指数法則と指数方程式を扱います。
 
 - [指数関数](specific-functions/exponential.md)
 
@@ -120,6 +120,11 @@ hierarchy:
 放物線・楕円・双曲線と、媒介変数表示・極座標を扱います。
 
 - [二次曲線](geometry/conic-sections.md)
+
+### 空間図形の性質
+直線と平面の垂直条件・三垂線の定理と、正多面体が5種類しかない理由を扱います。
+
+- [空間図形の性質](geometry/solid-geometry.md)
 
 ### ベクトル
 向きと大きさを持つ量。平面・空間のベクトルと内積、図形への応用を扱います。

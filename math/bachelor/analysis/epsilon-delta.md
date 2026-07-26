@@ -69,6 +69,12 @@ $$\forall \varepsilon > 0,\ \exists N \in \mathbb{N} \text{ s.t. } n > N \Righta
 
 **定理（実数の完備性）**：実数列 $\{a_n\}$ が収束する $\iff$ $\{a_n\}$ がコーシー列である。
 
+**証明（⟹方向）**：$\{a_n\}$ が $L$ に収束すると仮定します。任意の $\varepsilon>0$ に対し、収束の定義よりある $N$ が存在して $n>N \Rightarrow |a_n-L|<\varepsilon/2$。$m,n>N$ のとき、三角不等式より
+
+$$|a_m-a_n| \leq |a_m-L|+|L-a_n| < \frac\varepsilon2+\frac\varepsilon2=\varepsilon$$
+
+よって $\{a_n\}$ はコーシー列です。$\blacksquare$（逆方向「コーシー列ならば収束する」は実数の完備性公理そのものに相当し、実数の構成方法に依存する証明が必要になるため、実数（発展編）に譲ります。）
+
 この定理は実数（発展編）で見た完備性の公理と表裏一体です。
 
 **参考文献**：Rudin, W. (1976). *Principles of Mathematical Analysis* (3rd ed.). McGraw-Hill.

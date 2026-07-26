@@ -76,6 +76,11 @@ hierarchy:
 - [対称](geometry/shapes-symmetry.md)
 - [相似](geometry/shapes-similarity.md)
 
+### ものの位置
+方向の言葉と2つの数の組を使って、ものの位置を表す方法を扱います。
+
+- [ものの位置](geometry/position.md)
+
 ## 確率
 
 ### データの活用
