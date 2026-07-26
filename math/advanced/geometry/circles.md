@@ -57,6 +57,8 @@ $$\text{弧長} = r\theta, \quad \text{扇形の面積} = \frac{1}{2}r^2\theta$$
 
 円の外から引いた「ちょうど1点だけで触れる直線」が**接線**です。接線は接点で半径と垂直になります。
 
+![円の接線が接点における半径と垂直になることを示す図](circles/images/tangent-perpendicular-radius.svg)
+
 中心から直線までの距離を $d$、半径を $r$ とすると：
 
 | 条件 | 関係 |

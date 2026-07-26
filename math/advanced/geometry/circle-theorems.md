@@ -49,6 +49,8 @@ $$PA \cdot PB = PC \cdot PD$$
 
 $P$ から円への接線の長さ $PT$ についても、$PT^2 = PA\cdot PB$ が成り立ちます（接線は「$A=B$ が重なった極限の割線」とみなせます）。
 
+![円の外部の点Pを通る2本の直線が円とP,A,B及びP,C,Dで交わり、PA・PB=PC・PDが成り立つことを示す図](circle-theorems/images/power-of-a-point.svg)
+
 **例題**：円の外部の点$P$を通る2直線が円と$P,A,B$、$P,C,D$でそれぞれ交わり、$PA=2$、$PB=8$、$PC=4$のとき、$PD$を求める。方べきの定理より $PA\cdot PB=PC\cdot PD$ なので $2\times8=4\times PD$、$PD=4$。
 
 ---

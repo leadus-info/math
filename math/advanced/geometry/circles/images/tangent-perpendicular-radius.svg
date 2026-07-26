@@ -1,0 +1,20 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="円の接線が接点における半径と垂直になることを示す図">
+  <circle cx="200" cy="180" r="100" fill="none" stroke="currentColor" stroke-width="2"/>
+
+  <!-- radius O-P -->
+  <line x1="200" y1="180" x2="276.6" y2="115.7" stroke="currentColor" stroke-width="2"/>
+
+  <!-- tangent line at P -->
+  <line x1="218.7" y1="46.8" x2="334.5" y2="184.6" stroke="currentColor" stroke-width="2"/>
+
+  <!-- right-angle tick at P -->
+  <path d="M270.5,120.8 L275.6,127.0 L281.7,121.8" fill="none" stroke="currentColor" stroke-width="1"/>
+
+  <circle cx="200" cy="180" r="3" fill="currentColor"/>
+  <circle cx="276.6" cy="115.7" r="3" fill="currentColor"/>
+
+  <text x="184" y="200" font-size="16" fill="currentColor">O</text>
+  <text x="284" y="108" font-size="16" fill="currentColor">P</text>
+  <text x="230" y="165" font-size="13" fill="currentColor">r</text>
+  <text x="300" y="170" font-size="13" fill="currentColor">接線</text>
+</svg>

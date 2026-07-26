@@ -1,0 +1,24 @@
+<svg viewBox="0 0 400 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="三角形ABCの内部の点Pを通る3本の直線AD、BE、CFが対辺と交わり、比の積が1になることを示す図">
+  <polygon points="200,50 70,300 330,300" fill="none" stroke="currentColor" stroke-width="2"/>
+  <line x1="200" y1="50" x2="186" y2="300" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="70" y1="300" x2="270" y2="184" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="330" y1="300" x2="124" y2="197" stroke="currentColor" stroke-width="1.5"/>
+
+  <circle cx="200" cy="50" r="3" fill="currentColor"/>
+  <circle cx="70" cy="300" r="3" fill="currentColor"/>
+  <circle cx="330" cy="300" r="3" fill="currentColor"/>
+  <circle cx="186" cy="300" r="3" fill="currentColor"/>
+  <circle cx="270" cy="184" r="3" fill="currentColor"/>
+  <circle cx="124" cy="197" r="3" fill="currentColor"/>
+  <circle cx="190" cy="230" r="3" fill="currentColor"/>
+
+  <text x="200" y="36" font-size="16" text-anchor="middle" fill="currentColor">A</text>
+  <text x="52" y="310" font-size="16" text-anchor="middle" fill="currentColor">B</text>
+  <text x="348" y="310" font-size="16" text-anchor="middle" fill="currentColor">C</text>
+  <text x="186" y="316" font-size="16" text-anchor="middle" fill="currentColor">D</text>
+  <text x="280" y="178" font-size="16" fill="currentColor">E</text>
+  <text x="98" y="192" font-size="16" fill="currentColor">F</text>
+  <text x="196" y="222" font-size="16" fill="currentColor">P</text>
+
+  <text x="200" y="18" font-size="13" text-anchor="middle" fill="currentColor">(BD/DC)・(CE/EA)・(AF/FB) = 1</text>
+</svg>

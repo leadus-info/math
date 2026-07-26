@@ -1,0 +1,15 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="五角形を1つの頂点から対角線で分けると3つの三角形になることを示す図">
+  <polygon points="200,60 342.66,163.65 288.17,331.35 111.83,331.35 57.34,163.65" fill="none" stroke="currentColor" stroke-width="2"/>
+  <line x1="200" y1="60" x2="288.17" y2="331.35" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="200" y1="60" x2="111.83" y2="331.35" stroke="currentColor" stroke-width="1.5"/>
+  <circle cx="200" cy="60" r="3" fill="currentColor"/>
+  <circle cx="342.66" cy="163.65" r="3" fill="currentColor"/>
+  <circle cx="288.17" cy="331.35" r="3" fill="currentColor"/>
+  <circle cx="111.83" cy="331.35" r="3" fill="currentColor"/>
+  <circle cx="57.34" cy="163.65" r="3" fill="currentColor"/>
+  <text x="200" y="42" font-size="16" text-anchor="middle" fill="currentColor">A</text>
+  <text x="360" y="163" font-size="16" text-anchor="middle" fill="currentColor">B</text>
+  <text x="300" y="355" font-size="16" text-anchor="middle" fill="currentColor">C</text>
+  <text x="100" y="355" font-size="16" text-anchor="middle" fill="currentColor">D</text>
+  <text x="40" y="163" font-size="16" text-anchor="middle" fill="currentColor">E</text>
+</svg>

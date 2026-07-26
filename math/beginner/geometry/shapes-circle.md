@@ -23,6 +23,8 @@ requires:
 
 ボールのような、どこから見ても丸い形が**球**です。球を平らに切った切り口はいつも円になります。
 
+![円の中心Oと半径r、直径dの関係を示す図](shapes-circle/images/circle-radius-diameter.svg)
+
 ---
 
 ## 円周率

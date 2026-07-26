@@ -53,6 +53,8 @@ $$\overrightarrow{OA}\cdot\overrightarrow{BC} = \vec{a}\cdot(\vec{c}-\vec{b}) = 
 
 よって $OA \perp BC$ が示せます。座標を使わずに、正四面体の対称性から直接この結論を導けるのがベクトルの強みです。
 
+![正四面体OABCで辺OAと辺BCを太線で示し、この2辺が垂直であることを表す図](space-vectors/images/tetrahedron-perpendicular-edges.svg)
+
 ---
 
 ## まとめ

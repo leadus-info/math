@@ -1,0 +1,34 @@
+<svg viewBox="0 0 400 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="平面α外の点Oから平面に下ろした垂線の足H、Hから平面上の直線ℓに下ろした垂線の足Aについて、OHが平面に垂直かつHAがℓに垂直ならばOAもℓに垂直であることを示す三垂線の定理の図">
+  <!-- plane alpha, drawn as a schematic boundary -->
+  <polygon points="40,260 370,260 335,312 5,312" fill="none" stroke="currentColor" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="345" y="278" font-size="16" fill="currentColor">α</text>
+
+  <!-- line l within the plane -->
+  <line x1="253" y1="263" x2="122" y2="309" stroke="currentColor" stroke-width="2"/>
+  <text x="258" y="256" font-size="16" fill="currentColor">ℓ</text>
+
+  <!-- hidden-style helper edges from H -->
+  <line x1="125" y1="281" x2="134" y2="305" stroke="currentColor" stroke-width="2"/>
+
+  <!-- OH: perpendicular from O to the plane -->
+  <line x1="125" y1="75" x2="125" y2="281" stroke="currentColor" stroke-width="2"/>
+
+  <!-- OA: derived segment, dashed to distinguish from the given perpendiculars -->
+  <line x1="125" y1="75" x2="134" y2="305" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <!-- right-angle tick at H (OH vs. plane, by convention) -->
+  <path d="M115,281 L115,271 L125,271" fill="none" stroke="currentColor" stroke-width="1"/>
+
+  <!-- right-angle tick at A (HA vs. l) -->
+  <path d="M131,296.5 L139.5,293.5 L142.5,302" fill="none" stroke="currentColor" stroke-width="1"/>
+
+  <circle cx="125" cy="75" r="3" fill="currentColor"/>
+  <circle cx="125" cy="281" r="3" fill="currentColor"/>
+  <circle cx="134" cy="305" r="3" fill="currentColor"/>
+
+  <text x="108" y="70" font-size="16" fill="currentColor">O</text>
+  <text x="100" y="285" font-size="16" fill="currentColor">H</text>
+  <text x="140" y="316" font-size="16" fill="currentColor">A</text>
+
+  <text x="200" y="30" font-size="13" text-anchor="middle" fill="currentColor">OH⊥α, HA⊥ℓ ならば OA⊥ℓ</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg viewBox="0 0 400 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="直角三角形の3辺それぞれを1辺とする正方形を描き、aの2乗+bの2乗=cの2乗の関係を示す図">
+  <polygon points="130,270 250,270 130,180" fill="none" stroke="currentColor" stroke-width="2"/>
+  <path d="M130,262 L138,262 L138,270" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <polygon points="130,180 130,270 40,270 40,180" fill="none" stroke="currentColor" stroke-width="2"/>
+  <text x="85" y="230" font-size="16" text-anchor="middle" fill="currentColor">a²</text>
+  <polygon points="130,270 250,270 250,390 130,390" fill="none" stroke="currentColor" stroke-width="2"/>
+  <text x="190" y="335" font-size="16" text-anchor="middle" fill="currentColor">b²</text>
+  <polygon points="250,270 130,180 220,60 340,150" fill="none" stroke="currentColor" stroke-width="2"/>
+  <text x="235" y="170" font-size="16" text-anchor="middle" fill="currentColor">c²</text>
+  <text x="140" y="229" font-size="14" fill="currentColor">a</text>
+  <text x="190" y="266" font-size="14" text-anchor="middle" fill="currentColor">b</text>
+  <text x="182" y="235" font-size="14" fill="currentColor">c</text>
+</svg>

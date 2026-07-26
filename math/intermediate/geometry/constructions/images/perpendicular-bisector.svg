@@ -1,0 +1,13 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="点Aと点Bを中心とする同じ半径の2つの円弧をかき、その交点を結ぶと線分ABの垂直二等分線が得られることを示す作図の図">
+  <path d="M200,85.11 Q255,200 200,314.89" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <path d="M200,85.11 Q145,200 200,314.89" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="120" y1="200" x2="280" y2="200" stroke="currentColor" stroke-width="2"/>
+  <line x1="200" y1="85.11" x2="200" y2="314.89" stroke="currentColor" stroke-width="2"/>
+  <path d="M200,192 L192,192 L192,200" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="160" y1="196" x2="160" y2="204" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="240" y1="196" x2="240" y2="204" stroke="currentColor" stroke-width="1.5"/>
+  <circle cx="120" cy="200" r="3" fill="currentColor"/>
+  <circle cx="280" cy="200" r="3" fill="currentColor"/>
+  <text x="105" y="218" font-size="16" text-anchor="middle" fill="currentColor">A</text>
+  <text x="295" y="218" font-size="16" text-anchor="middle" fill="currentColor">B</text>
+</svg>

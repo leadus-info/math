@@ -1,0 +1,19 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="楕円上の点Pから2つの焦点F,F'までの距離の和PF+PF'が一定であることを示す図">
+  <ellipse cx="200" cy="150" rx="120" ry="103.9" fill="none" stroke="currentColor" stroke-width="2"/>
+
+  <circle cx="140" cy="150" r="3" fill="currentColor"/>
+  <circle cx="260" cy="150" r="3" fill="currentColor"/>
+  <text x="126" y="168" font-size="16" fill="currentColor">F'</text>
+  <text x="266" y="168" font-size="16" fill="currentColor">F</text>
+
+  <circle cx="260" cy="60" r="3" fill="currentColor"/>
+  <text x="268" y="56" font-size="16" fill="currentColor">P</text>
+
+  <line x1="260" y1="60" x2="140" y2="150" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="260" y1="60" x2="260" y2="150" stroke="currentColor" stroke-width="1.5"/>
+
+  <text x="200" y="120" font-size="13" fill="currentColor">PF'</text>
+  <text x="266" y="110" font-size="13" fill="currentColor">PF</text>
+
+  <text x="200" y="280" font-size="13" text-anchor="middle" fill="currentColor">PF + PF' = 2a(一定)</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg viewBox="0 0 400 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="四角形を対角線で2つの三角形に分け、4つの角の和が360度になることを示す図">
+  <polygon points="200,40 50,150 150,290 340,190" fill="none" stroke="currentColor" stroke-width="2"/>
+  <line x1="200" y1="40" x2="150" y2="290" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <circle cx="200" cy="40" r="3" fill="currentColor"/>
+  <circle cx="50" cy="150" r="3" fill="currentColor"/>
+  <circle cx="150" cy="290" r="3" fill="currentColor"/>
+  <circle cx="340" cy="190" r="3" fill="currentColor"/>
+  <text x="200" y="26" font-size="16" text-anchor="middle" fill="currentColor">A</text>
+  <text x="30" y="150" font-size="16" text-anchor="middle" fill="currentColor">B</text>
+  <text x="150" y="312" font-size="16" text-anchor="middle" fill="currentColor">C</text>
+  <text x="360" y="190" font-size="16" text-anchor="middle" fill="currentColor">D</text>
+  <text x="200" y="332" font-size="16" text-anchor="middle" fill="currentColor">∠A + ∠B + ∠C + ∠D = 360°</text>
+</svg>

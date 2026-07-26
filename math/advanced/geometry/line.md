@@ -72,6 +72,8 @@ $$l_1 \perp l_2 \iff a_1 a_2 = -1$$
 
 $$d = \frac{|ax_0 + by_0 + c|}{\sqrt{a^2 + b^2}}$$
 
+![点Pから直線lに下ろした垂線の足Hまでの距離dを示す図](line/images/point-line-distance.svg)
+
 **例題**：点 $(2, 3)$ から直線 $3x - 4y + 1 = 0$ までの距離：
 
 $$d = \frac{|3 \cdot 2 - 4 \cdot 3 + 1|}{\sqrt{9+16}} = \frac{|6-12+1|}{5} = \frac{5}{5} = 1$$

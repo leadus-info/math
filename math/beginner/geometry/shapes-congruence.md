@@ -25,6 +25,8 @@ requires:
 
 長方形の紙を対角線で切ると、2枚の直角三角形ができます。この2枚を重ねると裏返しの関係でぴったり重なるので、この2枚の三角形は合同です。
 
+![長方形を対角線で切ると、対応する辺が等しい合同な2枚の直角三角形ABCとCDAができることを示す図](shapes-congruence/images/rectangle-diagonal-congruent-triangles.svg)
+
 ---
 
 ## 対応する頂点・辺・角

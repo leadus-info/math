@@ -43,6 +43,8 @@ $$\angle APB = \frac{1}{2} \angle AOB$$
 
 同じ弧に対する円周角は、点 $P$ をどこにとっても等しくなります。
 
+![円周角の定理:弧ABに対する中心角∠AOBと円周角∠APBの関係を示す図](circle-angles/images/inscribed-central-angle.svg)
+
 この定理は、二等辺三角形の底角の性質（$OA=OB=OP$ はすべて半径なので、三角形 $OAP$、$OBP$ はそれぞれ二等辺三角形になる）と、三角形の外角の性質（外角は隣り合わない2つの内角の和に等しい）を根拠に証明できます。中心 $O$ が $\angle APB$ の内部にある代表的な場合を確かめてみましょう。
 
 直線 $PO$ を延長して円周と交わる点を $Q$ とします。三角形 $OAP$ は $OA=OP$ の二等辺三角形なので、底角が等しく $\angle OAP = \angle OPA$。三角形の外角の性質（$\angle AOQ$ は三角形$OAP$の頂点$O$における外角）より、$\angle AOQ = \angle OAP + \angle OPA = 2\angle OPA$。同じように、三角形 $OBP$ からも $\angle BOQ = 2\angle OPB$ が得られます。

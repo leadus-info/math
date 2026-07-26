@@ -41,6 +41,8 @@ requires:
 
 **例題**：二等辺三角形 $ABC$（$AB=AC$）で、頂角 $A$ の二等分線が底辺 $BC$ と交わる点を $D$ とするとき、$BD = CD$ であることを証明する。
 
+![二等辺三角形ABC(AB=ACを印で表示)で頂角Aの二等分線(角BADと角CADが等しいことを印で表示)が底辺BCと交わる点をDとする図](congruence/images/isosceles-bisector.svg)
+
 三角形 $ABD$ と三角形 $ACD$ に注目します。
 
 - $AB = AC$（仮定）

@@ -1,0 +1,19 @@
+<svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="立方体を見取図と展開図の2通りで表した図">
+  <!-- 見取図 -->
+  <polygon points="40,140 120,140 120,220 40,220" fill="none" stroke="currentColor" stroke-width="2"/>
+  <polygon points="70,110 150,110 150,190 70,190" fill="none" stroke="currentColor" stroke-width="2"/>
+  <line x1="40" y1="140" x2="70" y2="110" stroke="currentColor" stroke-width="2"/>
+  <line x1="120" y1="140" x2="150" y2="110" stroke="currentColor" stroke-width="2"/>
+  <line x1="120" y1="220" x2="150" y2="190" stroke="currentColor" stroke-width="2"/>
+  <line x1="40" y1="220" x2="70" y2="190" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="40" y1="140" x2="40" y2="220" stroke="currentColor" stroke-width="2"/>
+  <text x="80" y="250" font-size="16" text-anchor="middle" fill="currentColor">見取図</text>
+  <!-- 展開図 -->
+  <rect x="295" y="40" width="45" height="45" fill="none" stroke="currentColor" stroke-width="2"/>
+  <rect x="250" y="85" width="45" height="45" fill="none" stroke="currentColor" stroke-width="2"/>
+  <rect x="295" y="85" width="45" height="45" fill="none" stroke="currentColor" stroke-width="2"/>
+  <rect x="340" y="85" width="45" height="45" fill="none" stroke="currentColor" stroke-width="2"/>
+  <rect x="295" y="130" width="45" height="45" fill="none" stroke="currentColor" stroke-width="2"/>
+  <rect x="295" y="175" width="45" height="45" fill="none" stroke="currentColor" stroke-width="2"/>
+  <text x="317" y="250" font-size="16" text-anchor="middle" fill="currentColor">展開図</text>
+</svg>

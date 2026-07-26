@@ -27,6 +27,8 @@ $$BD:DC = AB:AC$$
 
 **証明の概略**：頂点 $C$ を通り $AD$ に平行な直線を引き、直線 $AB$ との交点を $E$ とします。平行線の性質（中級編）から $\angle BAD = \angle AEC$、$\angle DAC = \angle ACE$ となり、$\angle BAD=\angle DAC$（仮定）とあわせて $\angle AEC = \angle ACE$、よって三角形 $ACE$ は $AC=AE$ の二等辺三角形になります。$AD \parallel EC$ から平行線と線分の比（中級編）を使うと $BD:DC = AB:AE = AB:AC$ が得られます。
 
+![頂角Aの二等分線ADが対辺BCをBD:DC=AB:ACに内分することを示す図](triangle-theorems/images/angle-bisector.svg)
+
 ---
 
 ## チェバの定理
@@ -36,6 +38,8 @@ $$BD:DC = AB:AC$$
 $$\frac{BD}{DC}\cdot\frac{CE}{EA}\cdot\frac{AF}{FB} = 1$$
 
 が成り立ちます。これを**チェバの定理**といいます。三角形 $ABD$ と $ACD$ の面積比などを利用して証明できます（3つの小三角形の面積比を辺の比に対応させ、掛け合わせるとちょうど打ち消し合う）。
+
+![三角形ABCの内部の点Pを通る3本の直線AD、BE、CFが対辺と交わり、比の積が1になることを示す図](triangle-theorems/images/ceva-theorem.svg)
 
 **例題**：点$D$、$E$が辺$BC$、$CA$上にあり、$BD:DC=2:1$、$CE:EA=3:2$のとき、線分$AD$と$BE$の交点を通り頂点$C$を通る直線が辺$AB$と交わる点$F$について、$AF:FB$を求める。チェバの定理より $\dfrac{BD}{DC}\cdot\dfrac{CE}{EA}\cdot\dfrac{AF}{FB}=1$ なので、$\dfrac{2}{1}\cdot\dfrac{3}{2}\cdot\dfrac{AF}{FB}=1$、$3\cdot\dfrac{AF}{FB}=1$、$AF:FB=1:3$。
 
