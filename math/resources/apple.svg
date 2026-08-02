@@ -1,0 +1,13 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="リンゴのイラスト">
+  <title>リンゴ</title>
+  <defs>
+    <linearGradient id="appleBody" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff6b5b"/>
+      <stop offset="100%" stop-color="#c0392b"/>
+    </linearGradient>
+  </defs>
+  <path d="M58,15 C66,8 76,10 74,18 C72,25 63,23 58,15 Z" fill="#4caf50"/>
+  <path d="M48,30 C47,21 49,14 55,9" fill="none" stroke="#6b4423" stroke-width="3" stroke-linecap="round"/>
+  <path d="M50,29 C34,13 14,24 14,46 C14,72 30,93 50,93 C70,93 86,72 86,46 C86,24 66,13 50,29 Z" fill="url(#appleBody)"/>
+  <ellipse cx="34" cy="46" rx="8" ry="15" fill="#ffffff" opacity="0.35" transform="rotate(-15 34 46)"/>
+</svg>

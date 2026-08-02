@@ -1,0 +1,22 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="男の子のイラスト">
+  <title>男の子</title>
+  <defs>
+    <linearGradient id="boySkin" x1="30%" y1="0%" x2="70%" y2="100%">
+      <stop offset="0%" stop-color="#ffd9ad"/>
+      <stop offset="100%" stop-color="#e8b183"/>
+    </linearGradient>
+    <linearGradient id="boyShirt" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6bb0e8"/>
+      <stop offset="100%" stop-color="#3f7cbf"/>
+    </linearGradient>
+  </defs>
+  <path d="M20,100 C20,80 30,70 42,68 L58,68 C70,70 80,80 80,100 Z" fill="url(#boyShirt)"/>
+  <rect x="43" y="58" width="14" height="16" rx="4" fill="url(#boySkin)"/>
+  <circle cx="50" cy="42" r="22" fill="url(#boySkin)"/>
+  <path d="M28,36 C26,18 36,8 50,8 C64,8 74,18 72,36 L66,29 L60,34 L54,28 L50,33 L46,28 L40,34 L34,29 Z" fill="#4a2f1a"/>
+  <circle cx="42" cy="45" r="2.2" fill="#2b2620"/>
+  <circle cx="58" cy="45" r="2.2" fill="#2b2620"/>
+  <path d="M43,53 Q50,58 57,53" fill="none" stroke="#8a5a3a" stroke-width="2" stroke-linecap="round"/>
+  <ellipse cx="33" cy="49" rx="4" ry="2.5" fill="#ff8f7a" opacity="0.35"/>
+  <ellipse cx="67" cy="49" rx="4" ry="2.5" fill="#ff8f7a" opacity="0.35"/>
+</svg>
