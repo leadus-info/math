@@ -17,6 +17,8 @@ requires:
     path: measurement-area.md
   - title: 立体図形
     path: ../geometry/shapes-solids.md
+  - title: 掛け算
+    path: multiplication.md
 ---
 
 ## 立体の大きさを数で表す

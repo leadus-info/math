@@ -15,6 +15,10 @@ hierarchy:
 requires:
   - title: 測定
     path: measurement.md
+  - title: 足し算
+    path: addition.md
+  - title: 引き算
+    path: subtraction.md
 ---
 
 ## 時間の単位

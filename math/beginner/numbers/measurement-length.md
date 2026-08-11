@@ -15,6 +15,8 @@ hierarchy:
 requires:
   - title: 測定
     path: measurement.md
+  - title: 割り算
+    path: division.md
 ---
 
 ## 長さの単位
