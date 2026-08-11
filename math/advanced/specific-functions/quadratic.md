@@ -98,5 +98,5 @@ $a>0$（下に凸）のグラフでは、$x$軸より下（$y<0$）にあるの�
 
 ## 関連ページ
 
-- [一次関数（中級編）](../../intermediate/functions/linear.md)
-- [多項式（応用編）](../algebra/polynomials.md)
+- [一次関数](../../intermediate/functions/linear.md)
+- [多項式](../algebra/polynomials.md)

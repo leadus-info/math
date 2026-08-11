@@ -57,4 +57,4 @@ requires:
 
 ## 関連ページ
 
-- [統計（発展編）](../../bachelor/probability/statistics.md)
+- [統計](../../bachelor/probability/statistics.md)

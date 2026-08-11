@@ -73,9 +73,9 @@ $$\forall \varepsilon > 0,\ \exists N \in \mathbb{N} \text{ s.t. } n > N \Righta
 
 $$|a_m-a_n| \leq |a_m-L|+|L-a_n| < \frac\varepsilon2+\frac\varepsilon2=\varepsilon$$
 
-よって $\{a_n\}$ はコーシー列です。$\blacksquare$（逆方向「コーシー列ならば収束する」は実数の完備性公理そのものに相当し、実数の構成方法に依存する証明が必要になるため、実数（発展編）に譲ります。）
+よって $\{a_n\}$ はコーシー列です。$\blacksquare$（逆方向「コーシー列ならば収束する」は実数の完備性公理そのものに相当し、実数の構成方法に依存する証明が必要になるため、実数に譲ります。）
 
-この定理は実数（発展編）で見た完備性の公理と表裏一体です。
+この定理は実数で見た完備性の公理と表裏一体です。
 
 **参考文献**：Rudin, W. (1976). *Principles of Mathematical Analysis* (3rd ed.). McGraw-Hill.
 
@@ -89,4 +89,4 @@ $$|a_m-a_n| \leq |a_m-L|+|L-a_n| < \frac\varepsilon2+\frac\varepsilon2=\varepsil
 
 ## 関連ページ
 
-- [微分の厳密な定義（発展編）](differentiability.md)
+- [微分の厳密な定義](differentiability.md)

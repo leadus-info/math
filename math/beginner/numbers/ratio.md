@@ -53,7 +53,7 @@ $$\text{割合} = \text{比べる大きさ} \div \text{もとにする大きさ}
 
 ## 関連ページ
 
-- [百分率（初級編）](ratio-percentage.md)
-- [単位量あたりの大きさ（初級編）](ratio-unit-rate.md)
-- [比（初級編）](ratio-notation.md)
-- [比例（初級編）](ratio-direct-proportion.md)
+- [百分率](ratio-percentage.md)
+- [単位量あたりの大きさ](ratio-unit-rate.md)
+- [比](ratio-notation.md)
+- [比例](ratio-direct-proportion.md)

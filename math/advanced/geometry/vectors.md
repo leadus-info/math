@@ -81,4 +81,4 @@ $$\vec{a}+\frac23\left(\frac{\vec{b}+\vec{c}}{2}-\vec{a}\right) = \vec{a}+\frac{
 
 ## 関連ページ
 
-- [空間座標とベクトル（応用編）](space-vectors.md)
+- [空間座標とベクトル](space-vectors.md)

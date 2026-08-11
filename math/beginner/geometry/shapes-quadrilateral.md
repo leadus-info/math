@@ -57,5 +57,5 @@ $$S_{\text{長方形}} = \text{たて} \times \text{よこ}, \qquad S_{\text{台
 
 ## 関連ページ
 
-- [円（初級編）](shapes-circle.md)
-- [四角形（中級編）](../../intermediate/geometry/quadrilaterals.md)
+- [円](shapes-circle.md)
+- [四角形](../../intermediate/geometry/quadrilaterals.md)

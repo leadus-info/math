@@ -39,7 +39,7 @@ $$\sin A = \cos(90° - A), \qquad \tan A = \frac{\sin A}{\cos A}$$
 
 $$\sin^2 A + \cos^2 A = 1$$
 
-この関係は、三平方の定理（中級編）を斜辺の長さ1の直角三角形にあてはめたものです。$\sin^2A+\cos^2A=1$ の両辺を $\cos^2A$ で割ると、次の関係が導けます。
+この関係は、三平方の定理を斜辺の長さ1の直角三角形にあてはめたものです。$\sin^2A+\cos^2A=1$ の両辺を $\cos^2A$ で割ると、次の関係が導けます。
 
 $$\frac{\sin^2A}{\cos^2A}+1 = \frac{1}{\cos^2A} \implies 1 + \tan^2 A = \frac{1}{\cos^2 A}$$
 
@@ -84,5 +84,5 @@ $$S = \frac{1}{2}ab\sin C$$
 
 ## 関連ページ
 
-- [三角形（応用編）](triangles.md)
-- [三角関数（応用編）](../specific-functions/trigonometric.md)
+- [三角形](triangles.md)
+- [三角関数](../specific-functions/trigonometric.md)

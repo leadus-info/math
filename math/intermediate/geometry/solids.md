@@ -64,4 +64,4 @@ requires:
 
 ## 関連ページ
 
-- [空間図形の計量（中級編）](solids-measurement.md)
+- [空間図形の計量](solids-measurement.md)

@@ -89,5 +89,5 @@ $y$座標も同様に計算でき、$G=\left(\dfrac{x_1+x_2+x_3}{3},\dfrac{y_1+y
 
 ## 関連ページ
 
-- [直線（応用編）](line.md)
-- [ベクトル（応用編）](vectors.md)
+- [直線](line.md)
+- [ベクトル](vectors.md)

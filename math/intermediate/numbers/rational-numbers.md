@@ -53,4 +53,4 @@ $$x = \frac{27}{99} = \frac{3}{11}$$
 
 ## 関連ページ
 
-- [無理数（中級編）](irrational-numbers.md)
+- [無理数](irrational-numbers.md)

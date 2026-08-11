@@ -29,7 +29,7 @@ $$\begin{pmatrix}a&b\\c&d\end{pmatrix}^{-1} = \frac{1}{ad-bc}\begin{pmatrix}d&-b
 
 ## n次正方行列の逆行列：余因子行列
 
-行列式（発展編）の余因子 $A_{ij}$ を並べた行列の転置を**余因子行列**（**随伴行列**）といいます。
+行列式の余因子 $A_{ij}$ を並べた行列の転置を**余因子行列**（**随伴行列**）といいます。
 
 $$\mathrm{adj}(A) = \begin{pmatrix}A_{11} & A_{21} & \cdots \\ A_{12} & A_{22} & \cdots \\ \vdots & & \ddots\end{pmatrix}$$
 
@@ -63,4 +63,4 @@ $$\left(\begin{array}{cc|cc}2&1&1&0\\1&1&0&1\end{array}\right) \xrightarrow{R_1\
 
 ## 関連ページ
 
-- [固有値（発展編）](eigenvalues.md)
+- [固有値](eigenvalues.md)

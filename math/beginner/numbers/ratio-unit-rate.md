@@ -55,4 +55,4 @@ $$\text{距離} = \text{速さ} \times \text{時間}, \qquad \text{時間} = \te
 
 ## 関連ページ
 
-- [比（初級編）](ratio-notation.md)
+- [比](ratio-notation.md)

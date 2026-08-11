@@ -108,4 +108,4 @@ $$\lim_{\|h\|\to 0} \frac{\|F(x_0+h) - F(x_0) - Ah\|}{\|h\|} = 0$$
 
 ## 関連ページ
 
-- [リーマン積分（発展編）](riemann-integral.md)
+- [リーマン積分](riemann-integral.md)

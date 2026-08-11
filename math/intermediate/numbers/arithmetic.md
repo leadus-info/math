@@ -45,7 +45,7 @@ $$a^m \times a^n = a^{m+n}$$
 
 $$a^m \div a^n = a^{m-n} \quad (m \geq n)$$
 
-ここでは $m \geq n$ の場合だけを扱っています。$m < n$ になる場合（指数が0や負になる場合）は、指数の意味をさらに広げる必要があり、指数関数（応用編）で扱います。
+ここでは $m \geq n$ の場合だけを扱っています。$m < n$ になる場合（指数が0や負になる場合）は、指数の意味をさらに広げる必要があり、指数関数で扱います。
 
 累乗の累乗では、指数を掛けます。
 
@@ -63,6 +63,6 @@ $$(a^m)^n = a^{mn}$$
 
 ## 関連ページ
 
-- [負数（中級編）](integers.md)
-- [平方根（中級編）](arithmetic-square-root.md)
-- [指数関数（応用編）](../../advanced/specific-functions/exponential.md) — 累乗を関数として見る
+- [負数](integers.md)
+- [平方根](arithmetic-square-root.md)
+- [指数関数](../../advanced/specific-functions/exponential.md) — 累乗を関数として見る

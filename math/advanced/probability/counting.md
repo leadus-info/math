@@ -61,7 +61,7 @@ $$n! = n \times (n-1) \times \cdots \times 2 \times 1$$
 
 $$0! = 1, \quad 1! = 1, \quad 5! = 120$$
 
-$0!=1$ は「何も並べない並べ方は1通り（何もしないという1つの操作）」と考える約束です。この後の順列（応用編）で学ぶ公式 $_nP_n=\dfrac{n!}{0!}$（$n$個すべてを並べる場合の数）が、そのまま$n!$と一致するのも、この約束に基づいています。
+$0!=1$ は「何も並べない並べ方は1通り（何もしないという1つの操作）」と考える約束です。この後の順列で学ぶ公式 $_nP_n=\dfrac{n!}{0!}$（$n$個すべてを並べる場合の数）が、そのまま$n!$と一致するのも、この約束に基づいています。
 
 ---
 
@@ -73,7 +73,7 @@ $0!=1$ は「何も並べない並べ方は1通り（何もしないという1�
 
 ## 関連ページ
 
-- [順列（応用編）](counting-permutations.md)
-- [組み合わせ（応用編）](counting-combinations.md)
-- [二項定理（応用編）](counting-binomial-theorem.md)
-- [確率（応用編）](probability.md)
+- [順列](counting-permutations.md)
+- [組み合わせ](counting-combinations.md)
+- [二項定理](counting-binomial-theorem.md)
+- [確率](probability.md)

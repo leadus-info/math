@@ -116,4 +116,4 @@ $z_k$ は $C$ の内側の特異点、$\mathrm{Res}$ は留数（特異点近傍
 
 ## 関連ページ
 
-- [リーマン積分（発展編）](riemann-integral.md)
+- [リーマン積分](riemann-integral.md)

@@ -57,10 +57,10 @@ requires:
 
 ## 関連ページ
 
-- [長さ（初級編）](measurement-length.md)
-- [広さ・かさ（初級編）](measurement-area.md)
-- [重さ（初級編）](measurement-weight.md)
-- [時間（初級編）](measurement-time.md)
-- [体積（初級編）](measurement-volume.md)
-- [図形（初級編）](../geometry/shapes.md)
-- [割合（初級編）](ratio.md)
+- [長さ](measurement-length.md)
+- [広さ・かさ](measurement-area.md)
+- [重さ](measurement-weight.md)
+- [時間](measurement-time.md)
+- [体積](measurement-volume.md)
+- [図形](../geometry/shapes.md)
+- [割合](ratio.md)

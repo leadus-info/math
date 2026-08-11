@@ -39,7 +39,7 @@ $$\text{直方体の体積} = \text{たて} \times \text{よこ} \times \text{�
 
 ## 角柱・円柱の体積
 
-角柱・円柱（初級編）の体積も、直方体と同じ考え方——「底面の広さ×高さ」——で求められます。
+角柱・円柱の体積も、直方体と同じ考え方——「底面の広さ×高さ」——で求められます。
 
 $$\text{角柱・円柱の体積} = \text{底面積} \times \text{高さ}$$
 
@@ -57,4 +57,4 @@ $$\text{角柱・円柱の体積} = \text{底面積} \times \text{高さ}$$
 
 ## 関連ページ
 
-- [空間図形の計量（中級編）](../../intermediate/geometry/solids-measurement.md)
+- [空間図形の計量](../../intermediate/geometry/solids-measurement.md)

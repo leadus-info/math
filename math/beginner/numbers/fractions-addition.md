@@ -57,4 +57,4 @@ $$\frac{1}{4} + \frac{1}{6} = \frac{3}{12} + \frac{2}{12} = \frac{5}{12}$$
 
 ## 関連ページ
 
-- [引き算（初級編）](fractions-subtraction.md)
+- [引き算](fractions-subtraction.md)

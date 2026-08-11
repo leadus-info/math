@@ -31,7 +31,7 @@ $$E[X]=\int_0^\infty x\lambda e^{-\lambda x}\,dx = \Bigl[-xe^{-\lambda x}\Bigr]_
 
 **無記憶性**：$P(X > s + t \mid X > s) = P(X > t)$（すでに $s$ 待った事実が、追加の待ち時間の分布に影響しない）。
 
-**証明**：条件付き確率の定義（応用編）と $\{X>s+t\}\subset\{X>s\}$（$t\geq0$ なので）より $P(X>s+t\cap X>s)=P(X>s+t)$ に注意すると、
+**証明**：条件付き確率の定義と $\{X>s+t\}\subset\{X>s\}$（$t\geq0$ なので）より $P(X>s+t\cap X>s)=P(X>s+t)$ に注意すると、
 
 $$P(X>s+t \mid X>s) = \frac{P(X>s+t)}{P(X>s)} = \frac{e^{-\lambda(s+t)}}{e^{-\lambda s}} = e^{-\lambda t} = P(X>t)$$
 
@@ -47,4 +47,4 @@ $\blacksquare$
 
 ## 関連ページ
 
-- [確率分布（発展編）](distributions.md)
+- [確率分布](distributions.md)

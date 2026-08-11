@@ -55,4 +55,4 @@ $0.3$ を $0.30$ と考え、位をそろえて筆算すると、
 
 ## 関連ページ
 
-- [引き算（初級編）](decimals-subtraction.md)
+- [引き算](decimals-subtraction.md)

@@ -76,8 +76,8 @@ $$1, 10, 100, 1000, \underbrace{10000}_{一万}, \ldots, \underbrace{100000000}_
 
 ## 関連ページ
 
-- [足し算（初級編）](addition.md)
-- [引き算（初級編）](subtraction.md)
-- [掛け算（初級編）](multiplication.md)
-- [割り算（初級編）](division.md)
-- [測定（初級編）](measurement.md)
+- [足し算](addition.md)
+- [引き算](subtraction.md)
+- [掛け算](multiplication.md)
+- [割り算](division.md)
+- [測定](measurement.md)

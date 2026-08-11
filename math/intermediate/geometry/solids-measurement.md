@@ -75,4 +75,4 @@ $$\text{球の体積} = \frac{4}{3}\pi r^3, \qquad \text{球の表面積} = 4\pi
 
 ## 関連ページ
 
-- [三平方の定理（中級編）](pythagorean-theorem.md)
+- [三平方の定理](pythagorean-theorem.md)

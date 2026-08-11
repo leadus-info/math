@@ -59,4 +59,4 @@ $$\frac{n!}{p!\,q!\,\cdots}$$
 
 ## 関連ページ
 
-- [組み合わせ（応用編）](counting-combinations.md)
+- [組み合わせ](counting-combinations.md)

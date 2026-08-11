@@ -88,5 +88,5 @@ $$d = \frac{|3 \cdot 2 - 4 \cdot 3 + 1|}{\sqrt{9+16}} = \frac{|6-12+1|}{5} = \fr
 
 ## 関連ページ
 
-- [一次関数（中級編）](../../intermediate/functions/linear.md)
-- [三角形（応用編）](triangles.md)
+- [一次関数](../../intermediate/functions/linear.md)
+- [三角形](triangles.md)

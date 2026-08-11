@@ -41,5 +41,5 @@ $$1\text{L} = 10\text{dL} = 1000\text{mL}$$
 
 ## 関連ページ
 
-- [重さ（初級編）](measurement-weight.md)
-- [図形（初級編）](../geometry/shapes.md)
+- [重さ](measurement-weight.md)
+- [図形](../geometry/shapes.md)

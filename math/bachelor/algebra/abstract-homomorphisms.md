@@ -83,4 +83,4 @@ $$\{K/F \text{ の中間体}\} \xleftrightarrow{1:1} \{\mathrm{Gal}(K/F) \text{ 
 
 ## 関連ページ
 
-- [抽象代数（発展編）](abstract.md)
+- [抽象代数](abstract.md)

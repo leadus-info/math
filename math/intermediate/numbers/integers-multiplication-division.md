@@ -54,4 +54,4 @@ $$(-3)\times(-1)=3,\ (-3)\times(-2)=6$$
 
 ## 関連ページ
 
-- [絶対値（中級編）](integers-absolute-value.md)
+- [絶対値](integers-absolute-value.md)

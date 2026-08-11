@@ -65,4 +65,4 @@ $$\frac{a}{b} \div \frac{c}{d} = \frac{a}{b} \times \frac{d}{c} = \frac{a \times
 
 ## 関連ページ
 
-- [分数（初級編）](fractions.md)
+- [分数](fractions.md)

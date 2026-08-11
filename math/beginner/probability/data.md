@@ -77,5 +77,5 @@ $$\text{平均} = \frac{\text{データの合計}}{\text{データの個数}}$$
 
 ## 関連ページ
 
-- [ヒストグラムと相対度数（中級編）](../../intermediate/probability/data-distribution.md)
-- [場合の数を基にした確率（中級編）](../../intermediate/probability/basic-probability.md)
+- [ヒストグラムと相対度数](../../intermediate/probability/data-distribution.md)
+- [場合の数を基にした確率](../../intermediate/probability/basic-probability.md)

@@ -45,4 +45,4 @@ requires:
 
 ## 関連ページ
 
-- [反比例（初級編）](ratio-inverse-proportion.md)
+- [反比例](ratio-inverse-proportion.md)

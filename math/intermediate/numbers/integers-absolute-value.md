@@ -35,4 +35,4 @@ $a < 0$ のとき絶対値が $-a$ になるのは、$a$ 自体が負の数な�
 
 ## 関連ページ
 
-- [負の数の掛け算・割り算（中級編）](integers-multiplication-division.md)
+- [負の数の掛け算・割り算](integers-multiplication-division.md)

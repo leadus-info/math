@@ -47,7 +47,7 @@ $$x + 3 = 7$$
 
 ## 関連ページ
 
-- [一次方程式（中級編）](equations-linear.md)
-- [連立方程式（中級編）](equations-simultaneous.md)
-- [二次方程式（中級編）](equations-quadratic.md)
-- [不等号・不等式（中級編）](inequalities.md)
+- [一次方程式](equations-linear.md)
+- [連立方程式](equations-simultaneous.md)
+- [二次方程式](equations-quadratic.md)
+- [不等号・不等式](inequalities.md)

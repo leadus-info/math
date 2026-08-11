@@ -45,5 +45,5 @@ requires:
 
 ## 関連ページ
 
-- [対称（初級編）](shapes-symmetry.md)
-- [相似（初級編）](shapes-similarity.md)
+- [対称](shapes-symmetry.md)
+- [相似](shapes-similarity.md)

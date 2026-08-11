@@ -69,4 +69,4 @@ $x=2$ を上の式に代入すると $y = 2 \times 2 - 1 = 3$。解は $(x, y) =
 
 ## 関連ページ
 
-- [二次方程式（中級編）](equations-quadratic.md)
+- [二次方程式](equations-quadratic.md)

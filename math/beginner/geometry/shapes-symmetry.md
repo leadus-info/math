@@ -37,4 +37,4 @@ requires:
 
 ## 関連ページ
 
-- [相似（初級編）](shapes-similarity.md)
+- [相似](shapes-similarity.md)

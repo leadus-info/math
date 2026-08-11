@@ -186,6 +186,6 @@ $f'(a) > 0$ なら $x = a$ 付近で増加、$f'(a) < 0$ なら減少、$f'(a) =
 
 ## 関連ページ
 
-- [微分の応用（応用編）](derivatives-applications.md)
-- [積分（応用編）](integrals.md)
-- [微分の厳密な定義（発展編）](../../bachelor/analysis/differentiability.md)
+- [微分の応用](derivatives-applications.md)
+- [積分](integrals.md)
+- [微分の厳密な定義](../../bachelor/analysis/differentiability.md)

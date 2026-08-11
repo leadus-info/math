@@ -39,4 +39,4 @@ $300\text{g}$ のものと $500\text{g}$ のものを合わせると、重さの
 
 ## 関連ページ
 
-- [時間（初級編）](measurement-time.md)
+- [時間](measurement-time.md)

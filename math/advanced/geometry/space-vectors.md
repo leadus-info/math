@@ -25,7 +25,7 @@ requires:
 
 ## 空間ベクトルの成分と演算
 
-空間ベクトルも、平面のベクトル（応用編）と同じように成分で表せます。
+空間ベクトルも、平面のベクトルと同じように成分で表せます。
 
 $$\vec{a} = (a_1, a_2, a_3)$$
 
@@ -65,4 +65,4 @@ $$\overrightarrow{OA}\cdot\overrightarrow{BC} = \vec{a}\cdot(\vec{c}-\vec{b}) = 
 
 ## 関連ページ
 
-- [空間図形（中級編）](../../intermediate/geometry/solids.md)
+- [空間図形](../../intermediate/geometry/solids.md)

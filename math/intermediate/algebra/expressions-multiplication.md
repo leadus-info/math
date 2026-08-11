@@ -53,7 +53,7 @@ $$6x^3 \div 2x = \frac{6x^3}{2x} = 3x^2$$
 
 $$2(3x - 2y) - 3(2x + 5y) = 6x - 4y - 6x - 15y = -19y$$
 
-このような計算は、連立方程式（中級編）を解くときに使います。
+このような計算は、連立方程式を解くときに使います。
 
 ---
 
@@ -81,5 +81,5 @@ $m+n+1$ は整数なので、この式は「整数 $\times 2$」の形——つ�
 
 ## 関連ページ
 
-- [展開・因数分解（中級編）](expressions-expansion-factoring.md)
-- [連立方程式（中級編）](equations-simultaneous.md)
+- [展開・因数分解](expressions-expansion-factoring.md)
+- [連立方程式](equations-simultaneous.md)

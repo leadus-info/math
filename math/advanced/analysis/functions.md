@@ -91,5 +91,5 @@ $$g(f(x)) = x, \qquad f(g(y)) = y$$
 
 ## 関連ページ
 
-- [数列（応用編）](sequences.md)
-- [極限（応用編）](limits.md)
+- [数列](sequences.md)
+- [極限](limits.md)
