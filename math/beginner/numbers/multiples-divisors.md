@@ -21,7 +21,11 @@ requires:
 
 $3$ に対し、$1$ から順番に自然数を掛けてみましょう。
 
-$$3 \times 1 = 3\\3 \times 2 = 6\\3 \times 3 = 9\\3 \times 4 = 12\\...$$
+$$
+\begin{aligned}
+3 \times 1 &= 3\\3 \times 2 &= 6\\3 \times 3 &= 9\\3 \times 4 &= 12\\&...
+\end{aligned}
+$$
 
 この $3, 6, 9, 12, \ldots$ を $3$ の**倍数**といいます。
 
