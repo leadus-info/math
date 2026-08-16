@@ -25,7 +25,7 @@ requires:
 
 $$BD:DC = AB:AC$$
 
-**証明の概略**：頂点 $C$ を通り $AD$ に平行な直線を引き、直線 $AB$ との交点を $E$ とします。平行線の性質（中級編）から $\angle BAD = \angle AEC$、$\angle DAC = \angle ACE$ となり、$\angle BAD=\angle DAC$（仮定）とあわせて $\angle AEC = \angle ACE$、よって三角形 $ACE$ は $AC=AE$ の二等辺三角形になります。$AD \parallel EC$ から平行線と線分の比（中級編）を使うと $BD:DC = AB:AE = AB:AC$ が得られます。
+**証明の概略**：頂点 $C$ を通り $AD$ に平行な直線を引き、直線 $AB$ との交点を $E$ とします。平行線の性質から $\angle BAD = \angle AEC$、$\angle DAC = \angle ACE$ となり、$\angle BAD=\angle DAC$（仮定）とあわせて $\angle AEC = \angle ACE$、よって三角形 $ACE$ は $AC=AE$ の二等辺三角形になります。$AD \parallel EC$ から平行線と線分の比を使うと $BD:DC = AB:AE = AB:AC$ が得られます。
 
 ![頂角Aの二等分線ADが対辺BCをBD:DC=AB:ACに内分することを示す図](triangle-theorems/images/angle-bisector.svg)
 
@@ -71,4 +71,4 @@ $$\frac{BD}{DC}\cdot\frac{CE}{EA}\cdot\frac{AF}{FB} = 1$$
 
 ## 関連ページ
 
-- [円の性質（応用編）](circle-theorems.md)
+- [円の性質](circle-theorems.md)

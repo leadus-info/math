@@ -43,4 +43,4 @@ $AB\neq BA$ であることが具体的に確認できます。
 
 ## 関連ページ
 
-- [行列式（発展編）](matrices-determinant.md)
+- [行列式](matrices-determinant.md)

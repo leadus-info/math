@@ -63,7 +63,7 @@ $$\angle A + \angle B + \angle C = 180°$$
 
 $$\angle A + \angle B + \angle C = 180° \implies \angle A \text{の外角} = 180° - \angle A = \angle B + \angle C$$
 
-つまり、**三角形の外角は、それととなり合わない2つの内角の和に等しくなります**。この性質は、円周角の定理（中級編）の証明でも使います。
+つまり、**三角形の外角は、それととなり合わない2つの内角の和に等しくなります**。この性質は、円周角の定理の証明でも使います。
 
 ---
 
@@ -75,4 +75,4 @@ $$\angle A + \angle B + \angle C = 180° \implies \angle A \text{の外角} = 18
 
 ## 関連ページ
 
-- [合同と証明（中級編）](congruence.md)
+- [合同と証明](congruence.md)

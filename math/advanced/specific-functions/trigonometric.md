@@ -88,4 +88,4 @@ $$a\sin\theta + b\cos\theta = \sqrt{a^2+b^2}\,\sin(\theta+\varphi)$$
 
 ## 関連ページ
 
-- [微分（応用編）](../analysis/derivatives.md)
+- [微分](../analysis/derivatives.md)

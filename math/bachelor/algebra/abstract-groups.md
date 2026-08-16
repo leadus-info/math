@@ -73,4 +73,4 @@ $$a'b' = ah_1bh_2 = ab h_1' h_2 \in (ab)H$$
 
 ## 関連ページ
 
-- [環と体（発展編）](abstract-rings-fields.md)
+- [環と体](abstract-rings-fields.md)

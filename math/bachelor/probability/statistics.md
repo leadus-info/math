@@ -92,4 +92,4 @@ $$\frac{\partial S}{\partial \beta_0}=-2\sum_i(y_i-\beta_0-\beta_1x_i)=0, \qquad
 
 ## 関連ページ
 
-- [正規分布（発展編）](distributions-normal.md)
+- [正規分布](distributions-normal.md)

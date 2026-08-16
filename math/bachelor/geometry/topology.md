@@ -127,5 +127,5 @@ $$\chi(X) = \sum_{n=0}^{\infty} (-1)^n b_n$$
 
 ## 関連ページ
 
-- [抽象代数（発展編）](../algebra/abstract.md)
-- [実数（発展編）](../numbers/real-numbers.md)
+- [抽象代数](../algebra/abstract.md)
+- [実数](../numbers/real-numbers.md)

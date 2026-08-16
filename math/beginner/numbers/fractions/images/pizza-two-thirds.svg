@@ -1,0 +1,17 @@
+<svg viewBox="0 0 400 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="2枚のピザをそれぞれ3等分し、同じ番号の切れを合わせると3人それぞれの1人分になることを示す図">
+  <circle cx="100" cy="75" r="55" fill="none" stroke="currentColor" stroke-width="2"/>
+  <line x1="100" y1="75" x2="100" y2="20" stroke="currentColor" stroke-width="2"/>
+  <line x1="100" y1="75" x2="147.6" y2="102.5" stroke="currentColor" stroke-width="2"/>
+  <line x1="100" y1="75" x2="52.4" y2="102.5" stroke="currentColor" stroke-width="2"/>
+  <text x="128.6" y="63" font-size="16" text-anchor="middle" fill="currentColor">1</text>
+  <text x="100" y="118" font-size="16" text-anchor="middle" fill="currentColor">2</text>
+  <text x="71.4" y="63" font-size="16" text-anchor="middle" fill="currentColor">3</text>
+
+  <circle cx="300" cy="75" r="55" fill="none" stroke="currentColor" stroke-width="2"/>
+  <line x1="300" y1="75" x2="300" y2="20" stroke="currentColor" stroke-width="2"/>
+  <line x1="300" y1="75" x2="347.6" y2="102.5" stroke="currentColor" stroke-width="2"/>
+  <line x1="300" y1="75" x2="252.4" y2="102.5" stroke="currentColor" stroke-width="2"/>
+  <text x="328.6" y="63" font-size="16" text-anchor="middle" fill="currentColor">1</text>
+  <text x="300" y="118" font-size="16" text-anchor="middle" fill="currentColor">2</text>
+  <text x="271.4" y="63" font-size="16" text-anchor="middle" fill="currentColor">3</text>
+</svg>

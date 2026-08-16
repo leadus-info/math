@@ -40,7 +40,7 @@ requires:
 
 ## 関連ページ
 
-- [直接証明（応用編）](proofs-direct.md)
-- [対偶証明（応用編）](proofs-contrapositive.md)
-- [背理法（応用編）](proofs-contradiction.md)
-- [数学的帰納法（応用編）](proofs-induction.md)
+- [直接証明](proofs-direct.md)
+- [対偶証明](proofs-contrapositive.md)
+- [背理法](proofs-contradiction.md)
+- [数学的帰納法](proofs-induction.md)

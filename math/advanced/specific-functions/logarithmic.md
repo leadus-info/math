@@ -91,4 +91,4 @@ $$\log_a 1 = 0, \quad \log_a a = 1$$
 
 ## 関連ページ
 
-- [微分（応用編）](../analysis/derivatives.md)
+- [微分](../analysis/derivatives.md)

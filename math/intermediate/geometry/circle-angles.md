@@ -79,4 +79,4 @@ $$\angle APB = \frac{1}{2} \times 180° = 90°$$
 
 ## 関連ページ
 
-- [三平方の定理（中級編）](pythagorean-theorem.md)
+- [三平方の定理](pythagorean-theorem.md)

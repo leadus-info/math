@@ -48,4 +48,4 @@ $$2 < x < 6$$
 
 ## 関連ページ
 
-- [不等号・不等式（中級編）](inequalities.md)
+- [不等号・不等式](inequalities.md)

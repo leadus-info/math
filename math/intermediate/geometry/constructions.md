@@ -70,4 +70,4 @@ requires:
 
 ## 関連ページ
 
-- [図形の移動（中級編）](transformations.md)
+- [図形の移動](transformations.md)

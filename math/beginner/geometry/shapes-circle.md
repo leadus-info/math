@@ -43,4 +43,4 @@ $$\text{円周} = \text{直径} \times \text{円周率}$$
 
 ## 関連ページ
 
-- [三角関数（応用編）](../../advanced/specific-functions/trigonometric.md)
+- [三角関数](../../advanced/specific-functions/trigonometric.md)

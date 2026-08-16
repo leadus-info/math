@@ -57,4 +57,4 @@ $$\mathrm{Var}(X) = \sum_{i=1}^n \mathrm{Var}(X_i) = np(1-p)$$
 
 ## 関連ページ
 
-- [ポアソン分布（発展編）](distributions-poisson.md)
+- [ポアソン分布](distributions-poisson.md)

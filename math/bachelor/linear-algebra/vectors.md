@@ -87,5 +87,5 @@ $$c_1\boldsymbol{v}_1 + \cdots + c_k\boldsymbol{v}_k = \boldsymbol{0} \implies c
 
 ## 関連ページ
 
-- [行列（発展編）](matrices.md)
-- [線形写像（発展編）](linear-maps.md)
+- [行列](matrices.md)
+- [線形写像](linear-maps.md)

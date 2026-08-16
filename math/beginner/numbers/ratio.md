@@ -33,7 +33,7 @@ $$6 \div 2 = 3$$
 
 ## 割合の求め方
 
-割合は、比べる大きさを、もとにする大きさで割ることで求められます。
+先ほどの例では、赤いテープ（もとにする大きさ）に対して青いテープ（比べる大きさ）が何倍かを求めました。割合は、比べる大きさを、もとにする大きさで割ることで求められます。
 
 $$\text{割合} = \text{比べる大きさ} \div \text{もとにする大きさ}$$
 
@@ -53,7 +53,7 @@ $$\text{割合} = \text{比べる大きさ} \div \text{もとにする大きさ}
 
 ## 関連ページ
 
-- [百分率（初級編）](ratio-percentage.md)
-- [単位量あたりの大きさ（初級編）](ratio-unit-rate.md)
-- [比（初級編）](ratio-notation.md)
-- [比例（初級編）](ratio-direct-proportion.md)
+- [百分率](ratio-percentage.md)
+- [単位量あたりの大きさ](ratio-unit-rate.md)
+- [比](ratio-notation.md)
+- [比例](ratio-direct-proportion.md)

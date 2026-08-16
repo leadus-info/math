@@ -75,4 +75,4 @@ $$\det(AB) = \det(E_1\cdots E_k B) = \det(E_1)\det(E_2\cdots E_k B) = \cdots = \
 
 ## 関連ページ
 
-- [逆行列（発展編）](matrices-inverse.md)
+- [逆行列](matrices-inverse.md)

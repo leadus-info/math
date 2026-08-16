@@ -105,4 +105,4 @@ $\ker T=\{\boldsymbol{0}\}$ は $\dim(\ker T)=0$ と同じなので、次元定�
 
 ## 関連ページ
 
-- [固有値（発展編）](eigenvalues.md)
+- [固有値](eigenvalues.md)

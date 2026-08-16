@@ -21,7 +21,7 @@ requires:
 
 定規で鉛筆の長さを測ったら、3cmより長いけれど4cmには届きませんでした。長さは整数では表せません。
 
-分数（初級編）で、こういった「ぴったりの整数にならない量」を分数で表せることを見ました。この鉛筆の長さが $\frac{14}{5}$ cmだとしたら、正しいのですが少し読みにくいかもしれません。
+分数で、こういった「ぴったりの整数にならない量」を分数で表せることを見ました。この鉛筆の長さが $\frac{14}{5}$ cmだとしたら、正しい表し方です。ただ、例えば $\frac{14}{5}$ cmと $\frac{11}{4}$ cmのどちらが長いかを比べようとすると、分母がそろっていないのでぱっと見て判断しづらいという不便さがあります。また、ものさしやお金のように、身の回りで長さや量を測る道具の多くは10進の目盛り(1mm刻みの目盛りや、1円・10円・100円といった単位)で作られているため、分数のままでは目盛りと対応づけにくいという問題もあります。
 
 **小数**は、分数を「10で割っていく」形で書き直したものです。$\frac{14}{5} = 2.8$ と書けば、「2cmと、1cmの10分の8」だとすぐに分かります。
 
@@ -67,7 +67,7 @@ $$\frac{1}{2} = 1 \div 2 = 0.5$$
 
 ## 割り切れない小数
 
-$\frac{1}{3} = 0.333\ldots$ のように、割り算が終わらず同じ数字が繰り返し続く小数もあります（**循環小数**）。また、円周率 $\pi = 3.14159\ldots$ のように、繰り返しのパターンもなく永遠に続く小数もあります。これらの詳しい性質は、[有理数](../../intermediate/numbers/rational-numbers.md)や[無理数](../../intermediate/numbers/irrational-numbers.md)（中級編）で扱います。
+$\frac{1}{3} = 0.333\ldots$ のように、割り算が終わらず同じ数字が繰り返し続く小数もあります（**循環小数**）。また、繰り返しのパターンもなく、規則性のない数字が永遠に続く小数も存在します。これらの詳しい性質は、[有理数](../../intermediate/numbers/rational-numbers.md)や[無理数](../../intermediate/numbers/irrational-numbers.md)で扱います。
 
 ---
 
@@ -79,9 +79,9 @@ $\frac{1}{3} = 0.333\ldots$ のように、割り算が終わらず同じ数字�
 
 ## 関連ページ
 
-- [足し算（初級編）](decimals-addition.md)
-- [引き算（初級編）](decimals-subtraction.md)
-- [掛け算（初級編）](decimals-multiplication.md)
-- [割り算（初級編）](decimals-division.md)
-- [有理数（中級編）](../../intermediate/numbers/rational-numbers.md)
-- [無理数（中級編）](../../intermediate/numbers/irrational-numbers.md)
+- [足し算](decimals-addition.md)
+- [引き算](decimals-subtraction.md)
+- [掛け算](decimals-multiplication.md)
+- [割り算](decimals-division.md)
+- [有理数](../../intermediate/numbers/rational-numbers.md)
+- [無理数](../../intermediate/numbers/irrational-numbers.md)

@@ -71,5 +71,5 @@ requires:
 
 ## 関連ページ
 
-- [四角形（中級編）](quadrilaterals.md)
-- [相似（中級編）](similarity.md)
+- [四角形](quadrilaterals.md)
+- [相似](similarity.md)

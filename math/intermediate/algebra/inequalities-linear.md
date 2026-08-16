@@ -39,4 +39,4 @@ $-2x > 4$。両辺を $-2$ で割ると（向きが逆転）$x < -2$。
 
 ## 関連ページ
 
-- [連立不等式（中級編）](inequalities-simultaneous.md)
+- [連立不等式](inequalities-simultaneous.md)

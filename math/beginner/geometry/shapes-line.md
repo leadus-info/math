@@ -47,5 +47,5 @@ requires:
 
 ## 関連ページ
 
-- [三角形（初級編）](shapes-triangle.md)
-- [四角形（初級編）](shapes-quadrilateral.md)
+- [三角形](shapes-triangle.md)
+- [四角形](shapes-quadrilateral.md)

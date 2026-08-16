@@ -123,5 +123,5 @@ $|r| \geq 1$ のときは発散します。
 
 ## 関連ページ
 
-- [極限（応用編）](limits.md)
-- [数学的帰納法（応用編）](../foundations/proofs-induction.md)
+- [極限](limits.md)
+- [数学的帰納法](../foundations/proofs-induction.md)

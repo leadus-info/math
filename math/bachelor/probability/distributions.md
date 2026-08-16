@@ -55,8 +55,8 @@ $$P(a \leq X \leq b) = \int_a^b f(x)\,dx, \qquad E[X] = \int_{-\infty}^{\infty} 
 
 ## 関連ページ
 
-- [二項分布（発展編）](distributions-binomial.md)
-- [ポアソン分布（発展編）](distributions-poisson.md)
-- [正規分布（発展編）](distributions-normal.md)
-- [指数分布（発展編）](distributions-exponential.md)
-- [統計（発展編）](statistics.md)
+- [二項分布](distributions-binomial.md)
+- [ポアソン分布](distributions-poisson.md)
+- [正規分布](distributions-normal.md)
+- [指数分布](distributions-exponential.md)
+- [統計](statistics.md)

@@ -37,7 +37,7 @@ $n$ が大きく $p$ が小さい二項分布 $B(n,p)$ は、$\lambda=np$（す�
 
 $$P(X=k)=\binom{n}{k}\left(\frac\lambda n\right)^k\left(1-\frac\lambda n\right)^{n-k} = \frac{n(n-1)\cdots(n-k+1)}{k!}\cdot\frac{\lambda^k}{n^k}\cdot\left(1-\frac\lambda n\right)^{n-k}$$
 
-$n\to\infty$ のとき、$\dfrac{n(n-1)\cdots(n-k+1)}{n^k}=1\times\left(1-\dfrac1n\right)\times\cdots\times\left(1-\dfrac{k-1}n\right)\to1$（$k$ は固定なので分子の各因数が1に近づく）。また $\left(1-\dfrac\lambda n\right)^{n-k}=\left(1-\dfrac\lambda n\right)^n\times\left(1-\dfrac\lambda n\right)^{-k}$ において、後者は $n\to\infty$ で $1$ に近づき、前者はネイピア数（応用編）の定義の変形から $\left(1-\dfrac\lambda n\right)^n\to e^{-\lambda}$ となることが知られています。
+$n\to\infty$ のとき、$\dfrac{n(n-1)\cdots(n-k+1)}{n^k}=1\times\left(1-\dfrac1n\right)\times\cdots\times\left(1-\dfrac{k-1}n\right)\to1$（$k$ は固定なので分子の各因数が1に近づく）。また $\left(1-\dfrac\lambda n\right)^{n-k}=\left(1-\dfrac\lambda n\right)^n\times\left(1-\dfrac\lambda n\right)^{-k}$ において、後者は $n\to\infty$ で $1$ に近づき、前者はネイピア数の定義の変形から $\left(1-\dfrac\lambda n\right)^n\to e^{-\lambda}$ となることが知られています。
 
 これらを組み合わせると、
 
@@ -55,4 +55,4 @@ $$P(X=k) \to 1\times\frac{\lambda^k}{k!}\times e^{-\lambda} = \frac{\lambda^k e^
 
 ## 関連ページ
 
-- [正規分布（発展編）](distributions-normal.md)
+- [正規分布](distributions-normal.md)

@@ -111,5 +111,5 @@ $G$, $O$, $H$ は同一直線（オイラー線）上にあり、$OG : GH = 1 : 
 
 ## 関連ページ
 
-- [円（応用編）](circles.md)
-- [三角関数（応用編）](../specific-functions/trigonometric.md)
+- [円](circles.md)
+- [三角関数](../specific-functions/trigonometric.md)

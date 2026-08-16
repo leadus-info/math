@@ -15,6 +15,8 @@ hierarchy:
 requires:
   - title: 自然数
     path: natural-numbers.md
+  - title: 足し算
+    path: addition.md
 ---
 
 ## 大きさを比べる
@@ -30,6 +32,8 @@ requires:
 ## 単位で測る
 
 「机の縦の長さは鉛筆4本分、横の長さは鉛筆6本分」のように、共通のものさしを使って数値に置き換えると、大きさの違いをはっきり比べられます。このとき使う「1つ分の大きさ」が**単位**です。
+
+ただし、鉛筆の長さは種類や新品・使いかけによってまちまちなので、「鉛筆4本分」と言っても、どの鉛筆を使ったかで結果が変わってしまいます。これでは、離れた場所にいる人や別の日の自分と結果を比べたり、共有したりすることができません。そこで、誰がいつ測っても同じ結果になるように、大きさが決まった公式の単位が必要になります。
 
 長さ・広さ・重さ・時間には、それぞれ専用の単位があります。これらの単位はどれも、10や100、1000ずつのまとまりで大きな単位に切り替わる、共通の仕組み（メートル法）でできています。
 
@@ -57,10 +61,10 @@ requires:
 
 ## 関連ページ
 
-- [長さ（初級編）](measurement-length.md)
-- [広さ・かさ（初級編）](measurement-area.md)
-- [重さ（初級編）](measurement-weight.md)
-- [時間（初級編）](measurement-time.md)
-- [体積（初級編）](measurement-volume.md)
-- [図形（初級編）](../geometry/shapes.md)
-- [割合（初級編）](ratio.md)
+- [長さ](measurement-length.md)
+- [広さ・かさ](measurement-area.md)
+- [重さ](measurement-weight.md)
+- [時間](measurement-time.md)
+- [体積](measurement-volume.md)
+- [図形](../geometry/shapes.md)
+- [割合](ratio.md)

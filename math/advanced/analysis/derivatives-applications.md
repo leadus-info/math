@@ -79,4 +79,4 @@ $$f'(c) = \frac{f(b)-f(a)}{b-a}$$
 
 ## 関連ページ
 
-- [積分（応用編）](integrals.md)
+- [積分](integrals.md)

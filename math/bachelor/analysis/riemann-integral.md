@@ -121,4 +121,4 @@ $$\int f\,d\mu = \int_0^\infty \mu(\{x: f(x) > t\})\,dt$$
 
 ## 関連ページ
 
-- [複素解析（発展編）](complex-analysis.md)
+- [複素解析](complex-analysis.md)

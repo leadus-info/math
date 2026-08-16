@@ -48,4 +48,4 @@ $\square$
 
 ## 関連ページ
 
-- [数列（応用編）](../analysis/sequences.md)
+- [数列](../analysis/sequences.md)

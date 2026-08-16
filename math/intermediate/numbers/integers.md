@@ -19,7 +19,7 @@ requires:
 
 ## 引き算の壁をもう一度見てみる
 
-引き算（初級編）で、こんな問題に出会いました。
+引き算で、こんな問題に出会いました。
 
 $$\boxed{?} + 5 = 3$$
 
@@ -56,7 +56,7 @@ $\boxed{?}$ に当てはまる自然数はありませんでした。$1, 2, 3, \
 
 ## 関連ページ
 
-- [自然数（初級編）](../../beginner/numbers/natural-numbers.md)
-- [足し算・引き算（中級編）](integers-addition-subtraction.md)
-- [掛け算・割り算（中級編）](integers-multiplication-division.md)
-- [絶対値（中級編）](integers-absolute-value.md)
+- [自然数](../../beginner/numbers/natural-numbers.md)
+- [足し算・引き算](integers-addition-subtraction.md)
+- [掛け算・割り算](integers-multiplication-division.md)
+- [絶対値](integers-absolute-value.md)

@@ -49,4 +49,4 @@ $$a:b = c:d \implies ad = bc$$
 
 ## 関連ページ
 
-- [連立方程式（中級編）](equations-simultaneous.md)
+- [連立方程式](equations-simultaneous.md)

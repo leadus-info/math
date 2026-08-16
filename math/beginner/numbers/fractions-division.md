@@ -33,9 +33,13 @@ $$\frac{2}{3} \times \frac{3}{2} = \frac{6}{6} = 1$$
 
 $$\frac{4}{5} \div 2$$
 
-割る数の逆数を掛けると、割り算を掛け算に直せます。$2$ の逆数は $\frac{1}{2}$ なので、
+$\frac{4}{5}$ は、$\frac{1}{5}$ が4個分です。これを2人で等しく分けると、1人あたり $\frac{1}{5}$ が2個分、つまり $\frac{2}{5}\text{L}$ になります。
+
+この答えは、割る数の逆数を掛けても求められます（正しさの理由は後で説明します）。$2$ の逆数は $\frac{1}{2}$ なので、
 
 $$\frac{4}{5} \div 2 = \frac{4}{5} \times \frac{1}{2} = \frac{4}{10} = \frac{2}{5}$$
+
+たしかに、同じ $\frac{2}{5}\text{L}$ という答えになりました。
 
 ---
 
@@ -53,7 +57,8 @@ $$\frac{4}{5} \div \frac{2}{3} = \frac{4}{5} \times \frac{3}{2} = \frac{12}{10} 
 
 $$\frac{a}{b} \div \frac{c}{d} = \frac{a}{b} \times \frac{d}{c} = \frac{a \times d}{b \times c}$$
 
-なぜ「ひっくり返して掛ける」のか——$\frac{a}{b} \div \frac{c}{d} = x$ とおくと、$\frac{a}{b} = x \times \frac{c}{d}$ です。両辺に $\frac{d}{c}$ を掛けると、右辺は $x \times \frac{c}{d} \times \frac{d}{c} = x \times 1 = x$ となり、$x = \frac{a}{b} \times \frac{d}{c}$ が得られます。
+> [!NOTE]
+> 発展的な内容として、なぜこの操作で正しい答えが得られるかを示します。$\frac{a}{b} \div \frac{c}{d} = x$ とおくと、$\frac{a}{b} = x \times \frac{c}{d}$ です。両辺に $\frac{d}{c}$ を掛けると、左辺は $\frac{a}{b} \times \frac{d}{c}$ となり、右辺は $x \times \frac{c}{d} \times \frac{d}{c} = x \times 1 = x$ となるので、$x = \frac{a}{b} \times \frac{d}{c}$ が得られます。
 
 ---
 
@@ -65,4 +70,4 @@ $$\frac{a}{b} \div \frac{c}{d} = \frac{a}{b} \times \frac{d}{c} = \frac{a \times
 
 ## 関連ページ
 
-- [分数（初級編）](fractions.md)
+- [分数](fractions.md)

@@ -22,7 +22,7 @@ hierarchy:
 
 ## 立体の形
 
-身の回りには、箱の形やボールの形のような立体もあります。平面図形が辺（線の部分）と角（かどの部分）でできているのに対し、立体図形にはさらに**面**（平らな板の部分）という要素が加わります。立体図形（初級編）で、立方体・直方体・角柱・円柱の構成要素や表し方をくわしく扱います。
+身の回りには、箱の形やボールの形のような立体もあります。平面図形が辺（線の部分）と角（かどの部分）でできているのに対し、立体図形にはさらに**面**（平らな板の部分）という要素が加わります。立体図形で、立方体・直方体・角柱・円柱の構成要素や表し方をくわしく扱います。
 
 ![多角形の辺・角と、立方体の面を示す図](shapes/images/edge-corner-face.svg)
 
@@ -42,12 +42,12 @@ hierarchy:
 
 ## 関連ページ
 
-- [直線（初級編）](shapes-line.md)
-- [三角形（初級編）](shapes-triangle.md)
-- [四角形（初級編）](shapes-quadrilateral.md)
-- [円（初級編）](shapes-circle.md)
-- [立体図形（初級編）](shapes-solids.md)
-- [合同（初級編）](shapes-congruence.md)
-- [対称（初級編）](shapes-symmetry.md)
-- [相似（初級編）](shapes-similarity.md)
-- [測定（初級編）](../numbers/measurement.md)
+- [直線](shapes-line.md)
+- [三角形](shapes-triangle.md)
+- [四角形](shapes-quadrilateral.md)
+- [円](shapes-circle.md)
+- [立体図形](shapes-solids.md)
+- [合同](shapes-congruence.md)
+- [対称](shapes-symmetry.md)
+- [相似](shapes-similarity.md)
+- [測定](../numbers/measurement.md)

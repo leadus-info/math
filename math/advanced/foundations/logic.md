@@ -95,4 +95,4 @@ $$P \Rightarrow Q \iff A \subset B$$
 
 ## 関連ページ
 
-- [証明法（応用編）](proofs.md)
+- [証明法](proofs.md)

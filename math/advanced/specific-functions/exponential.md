@@ -83,5 +83,5 @@ $$4^x = 8 \Rightarrow (2^2)^x = 2^3 \Rightarrow 2x = 3 \Rightarrow x = \frac{3}{
 
 ## 関連ページ
 
-- [対数関数（応用編）](logarithmic.md)
-- [微分（応用編）](../analysis/derivatives.md)
+- [対数関数](logarithmic.md)
+- [微分](../analysis/derivatives.md)

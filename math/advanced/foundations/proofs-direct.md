@@ -35,4 +35,4 @@ requires:
 
 ## 関連ページ
 
-- [対偶証明（応用編）](proofs-contrapositive.md)
+- [対偶証明](proofs-contrapositive.md)

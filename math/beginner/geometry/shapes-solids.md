@@ -55,4 +55,4 @@ requires:
 
 ## 関連ページ
 
-- [体積（初級編）](../numbers/measurement-volume.md)
+- [体積](../numbers/measurement-volume.md)

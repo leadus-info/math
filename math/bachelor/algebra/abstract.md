@@ -41,7 +41,7 @@ $$\text{群} \;\longrightarrow\; \text{環} \;\longrightarrow\; \text{体}$$
 
 ## 関連ページ
 
-- [群（発展編）](abstract-groups.md)
-- [環と体（発展編）](abstract-rings-fields.md)
-- [準同型・同型（発展編）](abstract-homomorphisms.md)
-- [位相幾何学（発展編）](../geometry/topology.md)
+- [群](abstract-groups.md)
+- [環と体](abstract-rings-fields.md)
+- [準同型・同型](abstract-homomorphisms.md)
+- [位相幾何学](../geometry/topology.md)

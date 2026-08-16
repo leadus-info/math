@@ -41,4 +41,4 @@ $$\text{体} \subset \text{整域} \subset \text{可換環} \subset \text{環}$$
 
 ## 関連ページ
 
-- [準同型・同型（発展編）](abstract-homomorphisms.md)
+- [準同型・同型](abstract-homomorphisms.md)

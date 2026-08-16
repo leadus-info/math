@@ -15,6 +15,8 @@ hierarchy:
 requires:
   - title: 測定
     path: measurement.md
+  - title: 割り算
+    path: division.md
 ---
 
 ## 長さの単位
@@ -45,4 +47,4 @@ $$1\text{cm} = 10\text{mm}, \qquad 1\text{m} = 100\text{cm}, \qquad 1\text{km} =
 
 ## 関連ページ
 
-- [広さ・かさ（初級編）](measurement-area.md)
+- [広さ・かさ](measurement-area.md)

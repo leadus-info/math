@@ -89,6 +89,6 @@ $$(A \cup B)^c = A^c \cap B^c, \quad (A \cap B)^c = A^c \cup B^c$$
 
 ## 関連ページ
 
-- [必要・十分条件（応用編）](logic.md)
-- [関数（応用編）](../analysis/functions.md)
-- [場合の数（応用編）](../probability/counting.md)
+- [必要・十分条件](logic.md)
+- [関数](../analysis/functions.md)
+- [場合の数](../probability/counting.md)

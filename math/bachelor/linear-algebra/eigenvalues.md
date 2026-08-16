@@ -31,7 +31,7 @@ requires:
 
 **命題**：$(A - \lambda I)\boldsymbol{v} = \boldsymbol{0}$ が $\boldsymbol{v}\neq\boldsymbol{0}$ なる解を持つことと、$\det(A - \lambda I) = 0$ は同値である。
 
-**証明**：線形写像（発展編）で証明した「単射 $\iff$ 核が $\{\boldsymbol{0}\}$」を、線形写像 $T(\boldsymbol{x})=(A-\lambda I)\boldsymbol{x}$ に適用します。$(A-\lambda I)\boldsymbol{v}=\boldsymbol{0}$ が非自明解を持つことは $\ker T \neq \{\boldsymbol{0}\}$ と同じ、すなわち $T$ が単射でないことと同じです。正方行列の場合、単射性は全射性・可逆性と同値（線形写像の記事の結論）なので、これは $A-\lambda I$ が可逆でないこと、すなわち $\det(A-\lambda I)=0$ と同値です。$\blacksquare$
+**証明**：線形写像で証明した「単射 $\iff$ 核が $\{\boldsymbol{0}\}$」を、線形写像 $T(\boldsymbol{x})=(A-\lambda I)\boldsymbol{x}$ に適用します。$(A-\lambda I)\boldsymbol{v}=\boldsymbol{0}$ が非自明解を持つことは $\ker T \neq \{\boldsymbol{0}\}$ と同じ、すなわち $T$ が単射でないことと同じです。正方行列の場合、単射性は全射性・可逆性と同値（線形写像の記事の結論）なので、これは $A-\lambda I$ が可逆でないこと、すなわち $\det(A-\lambda I)=0$ と同値です。$\blacksquare$
 
 ---
 
@@ -103,4 +103,4 @@ $$p(\lambda) = (-1)^n(\lambda-\lambda_1)(\lambda-\lambda_2)\cdots(\lambda-\lambd
 
 ## 関連ページ
 
-- [行列（発展編）](matrices.md)
+- [行列](matrices.md)

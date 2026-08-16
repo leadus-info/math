@@ -105,5 +105,5 @@ $$\lim_{x \to 0} \frac{\sin x}{x} = 1 \quad \text{（ラジアン単位）}$$
 
 ## 関連ページ
 
-- [微分（応用編）](derivatives.md)
-- [極限の厳密な定義（発展編）](../../bachelor/analysis/epsilon-delta.md)
+- [微分](derivatives.md)
+- [極限の厳密な定義](../../bachelor/analysis/epsilon-delta.md)

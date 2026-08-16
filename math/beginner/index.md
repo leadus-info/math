@@ -22,6 +22,7 @@ hierarchy:
 - [掛け算](numbers/multiplication.md)
 - [割り算](numbers/division.md)
 - [倍数と約数](numbers/multiples-divisors.md)
+- [概数](numbers/rounding.md)
 
 ### 分数
 割り算がぴったりいかないときに生まれる数と、その四則演算を扱います。
