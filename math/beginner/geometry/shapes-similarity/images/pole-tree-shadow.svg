@@ -1,4 +1,4 @@
-<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="棒とその影、木とその影が相似の関係にあり、棒の高さ1.5m・影1mから木の高さを影6mをもとに求める図">
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="棒とその影がつくる直角三角形と、木とその影がつくる直角三角形が相似の関係にあり、棒の高さ1.5m・影1mから木の高さを影6mをもとに求める図">
   <line x1="20" y1="250" x2="380" y2="250" stroke="currentColor" stroke-width="1.5"/>
   <!-- 太陽光線 -->
   <line x1="60" y1="190" x2="100" y2="250" stroke="currentColor" stroke-width="1" stroke-dasharray="4 3"/>
