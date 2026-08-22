@@ -25,7 +25,7 @@ requires:
 
 長方形の紙を対角線で切ると、2枚の直角三角形ができます。この2枚の三角形は、対角線の交点を中心に180度回転させるとぴったり重なるので、合同です。
 
-![長方形を対角線で切ると、同じ印の辺の長さが等しい合同な2枚の直角三角形ABCとCDAができることを示す図](shapes-congruence/images/rectangle-diagonal-congruent-triangles.svg)
+![長方形を対角線で切ると、対応する辺の長さが等しい合同な2枚の直角三角形ABCとCDAができることを示す図](shapes-congruence/images/rectangle-diagonal-congruent-triangles.svg)
 
 ---
 
