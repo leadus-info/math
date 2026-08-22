@@ -1,4 +1,4 @@
-<svg viewBox="0 0 400 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="直方体の辺ABと辺CGを太線で示す図。この2辺は隣り合わず、平行でもなく、交わりもしないねじれの位置の関係にある(破線は奥に隠れて見えない辺)">
+<svg viewBox="0 0 400 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="直方体ABCD-EFGHの辺ABと辺CGを太線で示す図。手前の面がA(左下)・B(右下)・F(右上)・E(左上)、奥の面がD(左下)・C(右下)・G(右上)・H(左上)で、DとHは隠れて見えない頂点。辺AEは頂点Aから真上に伸びる辺。辺ABと辺CGの2辺は隣り合わず、平行でもなく、交わりもしないねじれの位置の関係にある(破線は奥に隠れて見えない辺)">
   <!-- hidden edges -->
   <line x1="310" y1="220" x2="150" y2="220" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
   <line x1="150" y1="220" x2="80" y2="280" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
