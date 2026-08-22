@@ -49,7 +49,7 @@ $$\frac{4}{5} \div 2 = \frac{4}{5} \times \frac{1}{2} = \frac{4}{10} = \frac{2}{
 
 $$\frac{4}{5} \div \frac{2}{3}$$
 
-割る数 $\frac{2}{3}$ の逆数 $\frac{3}{2}$ を掛けます。
+割る数 $\frac{2}{3}$ の逆数 $\frac{3}{2}$ を掛けます（なぜこの手順で正しい答えが求まるかは、後のNOTEで確認します）。
 
 $$\frac{4}{5} \div \frac{2}{3} = \frac{4}{5} \times \frac{3}{2} = \frac{12}{10} = \frac{6}{5}$$
 
@@ -58,7 +58,13 @@ $$\frac{4}{5} \div \frac{2}{3} = \frac{4}{5} \times \frac{3}{2} = \frac{12}{10} 
 $$\frac{a}{b} \div \frac{c}{d} = \frac{a}{b} \times \frac{d}{c} = \frac{a \times d}{b \times c}$$
 
 > [!NOTE]
-> 発展的な内容として、なぜこの操作で正しい答えが得られるかを示します。$\frac{a}{b} \div \frac{c}{d} = x$ とおくと、$\frac{a}{b} = x \times \frac{c}{d}$ です。両辺に $\frac{d}{c}$ を掛けると、左辺は $\frac{a}{b} \times \frac{d}{c}$ となり、右辺は $x \times \frac{c}{d} \times \frac{d}{c} = x \times 1 = x$ となるので、$x = \frac{a}{b} \times \frac{d}{c}$ が得られます。
+> 発展的な内容として、なぜこの操作で正しい答えが得られるかを示します。$\frac{a}{b} \div \frac{c}{d} = x$ とおくと、割り算の定義（割られる数 = 商 × 割る数）から $\frac{a}{b} = x \times \frac{c}{d}$ です。
+>
+> 両辺（等式の左右の式）に $\frac{d}{c}$ を掛けます。左辺は $\frac{a}{b} \times \frac{d}{c}$ となります。
+>
+> 右辺は $x \times \frac{c}{d} \times \frac{d}{c}$ で、$\frac{c}{d} \times \frac{d}{c} = 1$ なので $x \times \frac{c}{d} \times \frac{d}{c} = x \times 1 = x$ となります。
+>
+> よって、$x = \frac{a}{b} \times \frac{d}{c}$ が得られます。
 
 ---
 
