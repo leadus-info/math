@@ -25,7 +25,11 @@ requires:
 
 $$1\text{cm} = 10\text{mm}, \qquad 1\text{m} = 100\text{cm}, \qquad 1\text{km} = 1000\text{m}$$
 
-鉛筆の長さのような小さいものは mm や cm、教室の縦の長さのようなものは m、町から町までの距離のような長いものは km というように、測る対象の大きさに応じて単位を選びます。
+測る対象の大きさに応じて、次のように単位を選びます。
+
+- 鉛筆の長さのような小さいものは mm や cm
+- 教室の縦の長さのようなものは m
+- 町から町までの距離のような長いものは km
 
 ---
 
@@ -35,7 +39,9 @@ $$1\text{cm} = 10\text{mm}, \qquad 1\text{m} = 100\text{cm}, \qquad 1\text{km} =
 
 **例**：$3\text{m}25\text{cm}$ は何cmか。$1\text{m}=100\text{cm}$ なので、$3\text{m} = 300\text{cm}$。よって $3\text{m}25\text{cm} = 300\text{cm} + 25\text{cm} = 325\text{cm}$。
 
-**例**：$1250\text{m}$ は何km何mか。$1250 \div 1000 = 1$ あまり $250$ なので、$1250\text{m} = 1\text{km}250\text{m}$。
+**例**：$1250\text{m}$ は何km何mか。$1\text{km}=1000\text{m}$ なので、$1250 \div 1000 = 1$ あまり $250$。よって $1250\text{m} = 1\text{km}250\text{m}$。
+
+**例**：$47\text{mm}$ は何cmか。$1\text{cm}=10\text{mm}$ なので、$47 \div 10 = 4$ あまり $7$。よって $47\text{mm} = 4\text{cm}7\text{mm}$。
 
 ---
 
