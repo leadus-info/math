@@ -15,6 +15,10 @@ hierarchy:
 requires:
   - title: 図形
     path: ../../beginner/geometry/shapes.md
+  - title: 三角形
+    path: ../../beginner/geometry/shapes-triangle.md
+  - title: 四角形
+    path: ../../beginner/geometry/shapes-quadrilateral.md
 ---
 
 ## 多角形とは
