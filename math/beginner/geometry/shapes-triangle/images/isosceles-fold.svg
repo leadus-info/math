@@ -1,0 +1,16 @@
+<svg viewBox="0 0 300 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="二等辺三角形を頂角から底辺へ垂直に引いた線を折り目として半分に折ると、底辺の両端にある2つの角(底角)がぴったり重なり、大きさが等しいことを表す図">
+  <polygon points="150,40 70,260 230,260" fill="none" stroke="currentColor" stroke-width="2"/>
+  <line x1="150" y1="40" x2="150" y2="260" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <path d="M150,248 L162,248 L162,260" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <circle cx="150" cy="40" r="3" fill="currentColor"/>
+  <circle cx="70" cy="260" r="3" fill="currentColor"/>
+  <circle cx="230" cy="260" r="3" fill="currentColor"/>
+  <text x="150" y="26" font-size="16" text-anchor="middle" fill="currentColor">A</text>
+  <text x="54" y="268" font-size="16" text-anchor="middle" fill="currentColor">B</text>
+  <text x="246" y="268" font-size="16" text-anchor="middle" fill="currentColor">C</text>
+  <path d="M79.6,233.7 Q89.7,246.2 98,260" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M220.4,233.7 Q210.3,246.2 202,260" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M85,242 L93,250" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M215,242 L207,250" stroke="currentColor" stroke-width="1.5"/>
+  <text x="150" y="300" font-size="16" text-anchor="middle" fill="currentColor">∠B = ∠C</text>
+</svg>
