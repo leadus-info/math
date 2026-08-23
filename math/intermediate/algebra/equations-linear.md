@@ -15,6 +15,10 @@ hierarchy:
 requires:
   - title: 等号・等式
     path: equations.md
+  - title: 比
+    path: ../../beginner/numbers/ratio-notation.md
+  - title: 分数
+    path: ../../beginner/numbers/fractions.md
 ---
 
 ## 一次方程式を解く
