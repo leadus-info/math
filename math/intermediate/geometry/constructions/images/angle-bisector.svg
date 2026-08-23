@@ -10,8 +10,8 @@
   <circle cx="303.2" cy="192.5" r="3" fill="currentColor"/>
   <circle cx="200" cy="97.9" r="3" fill="currentColor"/>
   <text x="200" y="362" font-size="16" text-anchor="middle" fill="currentColor">O</text>
-  <text x="78" y="200" font-size="16" text-anchor="middle" fill="currentColor">P</text>
-  <text x="322" y="200" font-size="16" text-anchor="middle" fill="currentColor">Q</text>
+  <text x="78" y="200" font-size="16" text-anchor="middle" fill="currentColor">Q</text>
+  <text x="322" y="200" font-size="16" text-anchor="middle" fill="currentColor">P</text>
   <text x="220" y="92" font-size="16" text-anchor="middle" fill="currentColor">R</text>
   <text x="358" y="128" font-size="16" text-anchor="middle" fill="currentColor">X</text>
   <text x="42" y="128" font-size="16" text-anchor="middle" fill="currentColor">Y</text>
