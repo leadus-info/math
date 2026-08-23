@@ -1,0 +1,20 @@
+<svg viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="時計の文字盤の図。1から12の数字が並び、数字と数字の間には4つずつ小さな目盛りがあり、全体で60の目盛りがある。短い針(短針)は9と10の間で9に近い位置を指し、長い針(長針)は4の位置を指しており、午前9時20分を表している。">
+  <circle cx="120" cy="120" r="100" fill="none" stroke="currentColor" stroke-width="3"/>
+  <path d="M120.0,20.0 L120.0,32.0 M170.0,33.4 L164.0,43.8 M206.6,70.0 L196.2,76.0 M220.0,120.0 L208.0,120.0 M206.6,170.0 L196.2,164.0 M170.0,206.6 L164.0,196.2 M120.0,220.0 L120.0,208.0 M70.0,206.6 L76.0,196.2 M33.4,170.0 L43.8,164.0 M20.0,120.0 L32.0,120.0 M33.4,70.0 L43.8,76.0 M70.0,33.4 L76.0,43.8" fill="none" stroke="currentColor" stroke-width="3"/>
+  <path d="M130.5,20.6 L129.8,26.5 M140.8,22.2 L139.5,28.1 M150.9,24.9 L149.0,30.6 M160.7,28.7 L158.2,34.1 M178.8,39.1 L175.3,44.0 M186.9,45.7 L182.9,50.2 M194.3,53.1 L189.9,57.1 M200.9,61.2 L196.0,64.7 M211.4,79.3 L205.9,81.8 M215.1,89.1 L209.4,90.9 M217.8,99.2 L211.9,100.5 M219.5,109.6 L213.5,110.2 M219.5,130.4 L213.5,129.8 M217.8,140.8 L211.9,139.5 M215.1,150.9 L209.4,149.0 M211.4,160.7 L205.9,158.2 M200.9,178.8 L196.0,175.3 M194.3,186.9 L189.9,182.9 M186.9,194.3 L182.9,189.9 M178.8,200.9 L175.3,196.0 M160.7,211.4 L158.2,205.9 M150.9,215.1 L149.0,209.4 M140.8,217.8 L139.5,211.9 M130.5,219.5 L129.8,213.5 M109.6,219.5 L110.2,213.5 M99.2,217.8 L100.5,211.9 M89.1,215.1 L90.9,209.4 M79.3,211.4 L81.8,205.9 M61.2,200.9 L64.7,196.0 M53.1,194.3 L57.1,189.9 M45.7,186.9 L50.2,182.9 M39.1,178.8 L44.0,175.3 M28.7,160.7 L34.1,158.2 M24.9,150.9 L30.6,149.0 M22.2,140.8 L28.1,139.5 M20.6,130.5 L26.5,129.8 M20.6,109.6 L26.5,110.2 M22.2,99.2 L28.1,100.5 M24.9,89.1 L30.6,90.9 M28.7,79.3 L34.1,81.8 M39.1,61.2 L44.0,64.7 M45.7,53.1 L50.2,57.1 M53.1,45.7 L57.1,50.2 M61.2,39.1 L64.7,44.0 M79.3,28.7 L81.8,34.1 M89.1,24.9 L90.9,30.6 M99.2,22.2 L100.5,28.1 M109.6,20.6 L110.2,26.5" fill="none" stroke="currentColor" stroke-width="1"/>
+  <text x="157.5" y="60.1" font-size="16" text-anchor="middle" fill="currentColor">1</text>
+  <text x="185.0" y="87.5" font-size="16" text-anchor="middle" fill="currentColor">2</text>
+  <text x="195.0" y="125.0" font-size="16" text-anchor="middle" fill="currentColor">3</text>
+  <text x="185.0" y="162.5" font-size="16" text-anchor="middle" fill="currentColor">4</text>
+  <text x="157.5" y="190.0" font-size="16" text-anchor="middle" fill="currentColor">5</text>
+  <text x="120.0" y="200.0" font-size="16" text-anchor="middle" fill="currentColor">6</text>
+  <text x="82.5" y="190.0" font-size="16" text-anchor="middle" fill="currentColor">7</text>
+  <text x="55.1" y="162.5" font-size="16" text-anchor="middle" fill="currentColor">8</text>
+  <text x="45.0" y="125.0" font-size="16" text-anchor="middle" fill="currentColor">9</text>
+  <text x="55.1" y="87.5" font-size="16" text-anchor="middle" fill="currentColor">10</text>
+  <text x="82.5" y="60.1" font-size="16" text-anchor="middle" fill="currentColor">11</text>
+  <text x="120.0" y="50.0" font-size="16" text-anchor="middle" fill="currentColor">12</text>
+  <line x1="120" y1="120" x2="65.8" y2="110.4" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
+  <line x1="120" y1="120" x2="193.6" y2="162.5" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="120" cy="120" r="4" fill="currentColor"/>
+</svg>

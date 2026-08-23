@@ -15,6 +15,8 @@ hierarchy:
 requires:
   - title: 割合
     path: ratio.md
+  - title: 分数
+    path: fractions.md
 ---
 
 ## 2つの数量をそのまま表す

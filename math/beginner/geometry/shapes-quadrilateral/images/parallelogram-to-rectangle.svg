@@ -1,0 +1,11 @@
+<svg viewBox="0 0 420 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="平行四辺形の端の三角形を切り取り線に沿って切り取り、反対側へ移動させると、たてが高さ、よこが底辺の長方形になることを示す図">
+  <polygon points="100,260 280,260 340,140 160,140" fill="none" stroke="currentColor" stroke-width="2"/>
+  <line x1="160" y1="140" x2="160" y2="260" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="280" y1="260" x2="340" y2="260" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="340" y1="260" x2="340" y2="140" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <polyline points="152,260 152,252 160,252" fill="none" stroke="currentColor" stroke-width="1"/>
+  <line x1="140" y1="115" x2="300" y2="115" stroke="currentColor" stroke-width="1.5"/>
+  <polygon points="312,115 296,109 296,121" fill="currentColor"/>
+  <text x="178" y="204" font-size="16" fill="currentColor">高さ</text>
+  <text x="190" y="285" font-size="16" text-anchor="middle" fill="currentColor">底辺</text>
+</svg>
