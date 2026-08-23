@@ -1,4 +1,4 @@
-<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="円周角の定理の証明で用いる補助点Qと、二等辺三角形OAP・OBPの外角∠AOQ・∠BOQの位置関係を示す図">
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="円周角の定理の証明:点Qによって、中心角∠AOBが∠AOQと∠BOQに、円周角∠APBが∠OPAと∠OPBに、それぞれ分割される位置関係を示す図">
   <circle cx="150" cy="150" r="100" fill="none" stroke="currentColor" stroke-width="2"/>
   <line x1="150" y1="50" x2="150" y2="250" stroke="currentColor" stroke-width="2"/>
   <line x1="150" y1="150" x2="56.03" y2="184.2" stroke="currentColor" stroke-width="2"/>
