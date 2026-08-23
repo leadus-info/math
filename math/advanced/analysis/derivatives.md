@@ -55,6 +55,8 @@ $$(a^x)' = \lim_{h \to 0}\frac{a^{x+h}-a^x}{h} = a^x\lim_{h \to 0}\frac{a^h-1}{h
 
 残った極限 $\lim_{h \to 0}\dfrac{a^h-1}{h}$ の値は底 $a$ によって変わります。この値がちょうど $1$ になる特別な底を**ネイピア数**といい、$e$ で表します。
 
+この $e$ が具体的にどんな値かを求めてみます。$\lim_{h \to 0}\dfrac{a^h-1}{h}=1$ を満たす $a$ を探すため $h=\dfrac1n$ とおくと（$h \to 0$ は $n \to \infty$ に対応します）、条件は $a^{1/n}-1 = \dfrac1n$、すなわち $a = \left(1+\dfrac1n\right)^n$ と書き換えられます。したがって、この式の $n \to \infty$ の極限として $e$ が定まります。
+
 $$e = \lim_{n\to\infty}\left(1+\frac{1}{n}\right)^n \approx 2.71828\ldots$$
 
 底を $e$ に選ぶと $\lim_{h \to 0}\dfrac{e^h-1}{h}=1$ となるので、
@@ -77,7 +79,7 @@ $t = h/x$ とおくと $h \to 0$ のとき $t \to 0$ で、
 
 $$(\ln x)' = \lim_{t \to 0}\frac{1}{xt}\ln(1+t) = \frac{1}{x}\lim_{t \to 0}\ln(1+t)^{1/t} = \frac{1}{x}\ln e = \frac{1}{x}$$
 
-（$\lim_{t \to 0}(1+t)^{1/t}=e$ は前節のネイピア数の定義から）。したがって
+（対数法則 $k\ln a = \ln a^k$ により $\dfrac1t\ln(1+t) = \ln(1+t)^{1/t}$ と変形しています。また $\lim_{t \to 0}(1+t)^{1/t}=e$ は前節のネイピア数の定義から）。したがって
 
 $$(\ln x)' = \frac{1}{x}, \quad \int \frac{1}{x}\,dx = \ln|x| + C$$
 
@@ -85,15 +87,25 @@ $$(\ln x)' = \frac{1}{x}, \quad \int \frac{1}{x}\,dx = \ln|x| + C$$
 
 ## 三角関数の微分
 
-$\sin x$ を定義に従って微分すると
+$\sin x$ を定義に従って微分します。加法定理 $\sin(x+h) = \sin x\cos h + \cos x\sin h$ より
 
-$$(\sin x)' = \lim_{h \to 0}\frac{\sin(x+h)-\sin x}{h} = \lim_{h \to 0}\frac{\sin h}{h}\cos x = \cos x$$
+$$\sin(x+h)-\sin x = \sin x(\cos h - 1) + \cos x\sin h$$
 
-（$\lim_{h \to 0}\frac{\sin h}{h} = 1$ を使用）と導けます。同様に
+と書けるので、
 
-$$(\cos x)' = -\sin x, \quad (\tan x)' = \frac{1}{\cos^2 x}$$
+$$(\sin x)' = \lim_{h \to 0}\frac{\sin(x+h)-\sin x}{h} = \sin x\cdot\lim_{h \to 0}\frac{\cos h - 1}{h} + \cos x\cdot\lim_{h \to 0}\frac{\sin h}{h}$$
 
-が成り立ちます。
+$\lim_{h \to 0}\dfrac{\sin h}{h} = 1$ に加えて、$\lim_{h \to 0}\dfrac{\cos h - 1}{h}=0$ も成り立ちます（半角の公式 $\cos h - 1 = -2\sin^2\dfrac h2$ を使うと、$\dfrac{\cos h-1}{h} = -\sin\dfrac h2\cdot\dfrac{\sin(h/2)}{h/2} \to 0\cdot 1=0$ と確かめられます）。したがって
+
+$$(\sin x)' = \sin x\cdot 0 + \cos x\cdot 1 = \cos x$$
+
+と導けます。同様の計算から $(\cos x)' = -\sin x$ が成り立ちます。
+
+$\tan x = \dfrac{\sin x}{\cos x}$ の微分は、後述の「計算規則」で扱う商の微分法則を先取りして使うと
+
+$$(\tan x)' = \frac{(\sin x)'\cos x - \sin x(\cos x)'}{\cos^2 x} = \frac{\cos^2 x + \sin^2 x}{\cos^2 x} = \frac{1}{\cos^2 x}$$
+
+と導けます。
 
 ---
 
@@ -107,7 +119,9 @@ $n=3$ の場合も同様に、$(x+h)^3=x^3+3x^2h+3xh^2+h^3$ を使うと、
 
 $$(x^3)' = \lim_{h\to0}\frac{3x^2h+3xh^2+h^3}{h} = \lim_{h\to0}(3x^2+3xh+h^2) = 3x^2$$
 
-一般に、$n$ が自然数のときも同じように $(x+h)^n$ を展開すると、$h$ を含まない項は $nx^{n-1}h$ で、それ以外は $h^2$ 以上を含むため $h\to0$ で消えます。よって $(x^n)'=nx^{n-1}$ が成り立ち、この公式は $n$ が実数一般のときも成立します。
+一般に、$n$ が自然数のときも同じように $(x+h)^n$ を展開すると、$h$ を含まない項は $nx^{n-1}h$ で、それ以外は $h^2$ 以上を含むため $h\to0$ で消えます。よって $(x^n)'=nx^{n-1}$ が成り立ちます。
+
+この二項展開による証明は $n$ が自然数の場合に限られますが、証明は省略するものの、この公式は $n$ が実数一般（負の数や分数の指数を含む）のときも成立することが知られています。例えば $n=-1$ のとき $\left(\dfrac1x\right)' = -\dfrac{1}{x^2}$ となり、公式 $nx^{n-1}$ に $n=-1$ を代入した結果と一致します。
 
 ---
 
@@ -153,6 +167,8 @@ $$y - 0 = 1 \cdot (x - 0) \implies y = x$$
 **例**：$(x^2 \sin x)' = 2x\sin x + x^2\cos x$
 
 **商の微分法則**：$\left(\dfrac{f}{g}\right)' = \dfrac{f'g - fg'}{g^2}$
+
+**例**：$\left(\dfrac{\sin x}{x}\right)' = \dfrac{x\cos x - \sin x}{x^2}$
 
 **連鎖律**（合成関数）：$(f(g(x)))' = f'(g(x)) \cdot g'(x)$
 

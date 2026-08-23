@@ -31,7 +31,7 @@ $$\text{積分} = \text{面積} = \text{無限に細かくした長方形の和�
 
 ## 定積分の定義
 
-区間 $[a, b]$ を $n$ 等分し、各小区間で高さ $f(x_k)$、幅 $\Delta x = \frac{b-a}{n}$ の長方形で近似します。
+区間 $[a, b]$ を $n$ 等分し、各小区間で高さ $f(x_k)$、幅 $\Delta x = \frac{b-a}{n}$ の長方形で近似します。ここで $x_k$ は $k$ 番目の小区間内から選んだ点で、左端・右端・区間内の任意の点のいずれを選んでも、$n \to \infty$ の極限では同じ値に収束します。
 
 $$\int_a^b f(x)\,dx = \lim_{n \to \infty} \sum_{k=1}^n f(x_k)\,\Delta x$$
 
@@ -55,6 +55,8 @@ $$\int f(x)\,dx = F(x) + C$$
 | $\sin x$ | $-\cos x + C$ |
 | $\cos x$ | $\sin x + C$ |
 
+微分の和・定数倍の規則 $(f+g)'=f'+g'$、$(\alpha f)'=\alpha f'$ に対応して、不定積分にも同様の線形性 $\int\{af(x)+bg(x)\}\,dx=a\int f(x)\,dx+b\int g(x)\,dx$ が成り立ちます。
+
 ---
 
 ## 微積分学の基本定理
@@ -74,6 +76,8 @@ $$\int_a^b f(x)\,dx = F(b) - F(a) \quad \text{（$F'(x) = f(x)$ とする）}$$
 **置換積分**：$u = g(x)$ と置き、積分を変数変換します。$u=x^2$ とおくと $\dfrac{du}{dx}=2x$ なので $du=2x\,dx$。これを使うと、もとの積分の $2x\,dx$ の部分をそのまま $du$ に置き換えられます。
 
 $$\int 2x\cos(x^2)\,dx = \int \cos(x^2)\cdot(2x\,dx) \xrightarrow{u=x^2,\ du=2x\,dx} \int \cos u\,du = \sin u + C = \sin(x^2) + C$$
+
+矢印の上に書いた $u=x^2,\ du=2x\,dx$ は、その箇所で行った置き換えを表す注記です。
 
 **部分積分**：積の微分法則 $(fg)'=f'g+fg'$ の両辺を積分すると $fg=\int f'g\,dx+\int fg'\,dx$ となるので、これを $\int fg'\,dx$ について整理すると次の公式が得られます。
 
@@ -99,11 +103,19 @@ $$V = \pi\int_0^4 (\sqrt{x})^2\,dx = \pi\int_0^4 x\,dx = \pi\left[\frac{x^2}{2}\
 
 ## 曲線の長さ
 
-媒介変数表示 $x=f(t)$、$y=g(t)$（$a\leq t\leq b$）で表された曲線の長さは、次の式で求められます。
+$x$、$y$ をともに別の変数 $t$ の関数として $x=f(t)$、$y=g(t)$（$a\leq t\leq b$）と表す（[媒介変数表示](derivatives-applications.md)）と、曲線の長さは次の式で求められます。
 
 $$L = \int_a^b \sqrt{\{f'(t)\}^2+\{g'(t)\}^2}\,dt$$
 
 これは、曲線を微小な直線の断片に分け、三平方の定理でそれぞれの長さを求めて足し合わせた極限と考えられます。
+
+**例題**：半径 $r$ の円 $x=r\cos t,\ y=r\sin t$（$0\leq t\leq 2\pi$）の全周を求める。
+
+$$f'(t)=-r\sin t,\quad g'(t)=r\cos t$$
+
+$$L = \int_0^{2\pi}\sqrt{r^2\sin^2 t+r^2\cos^2 t}\,dt = \int_0^{2\pi} r\,dt = 2\pi r$$
+
+円周の公式 $2\pi r$ と一致します。
 
 ---
 

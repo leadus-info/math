@@ -66,7 +66,7 @@ $z \times \bar{z} = a^2 + b^2$ は常に0以上の実数になるので、この
 
 ## 複素平面
 
-複素数 $a + bi$ を平面上の点 $(a, b)$ として表します。横軸を**実軸**、縦軸を**虚軸**とした平面を**複素平面**（ガウス平面）と呼びます。複素数の足し算は、ベクトルの足し算と同じく平行四辺形の対角線に対応します。
+複素数 $a + bi$ を平面上の点 $(a, b)$ として表します。横軸を**実軸**、縦軸を**虚軸**とした平面を**複素平面**（ガウス平面）と呼びます。
 
 複素数 $z = a + bi$ の**絶対値**は、複素平面上の原点からの距離です。
 
@@ -84,9 +84,15 @@ $$z = r(\cos\theta + i\sin\theta)$$
 
 $$r_1(\cos\theta_1 + i\sin\theta_1) \times r_2(\cos\theta_2 + i\sin\theta_2) = r_1 r_2\bigl(\cos(\theta_1+\theta_2) + i\sin(\theta_1+\theta_2)\bigr)$$
 
+左辺を展開すると、
+
+$$r_1 r_2\bigl[(\cos\theta_1\cos\theta_2 - \sin\theta_1\sin\theta_2) + i(\sin\theta_1\cos\theta_2+\cos\theta_1\sin\theta_2)\bigr]$$
+
+三角関数の加法定理より、これは $r_1 r_2\bigl(\cos(\theta_1+\theta_2)+i\sin(\theta_1+\theta_2)\bigr)$ に等しくなり、右辺と一致します。
+
 つまり、複素数の掛け算は「絶対値を掛け合わせ、偏角を足し合わせる」操作——幾何的には**回転と拡大の合成**に対応します。
 
-**例**：$i$ を掛けることは偏角を $90°$ 足すこと、つまり反時計回りに $90°$ 回転させることです。
+**例**：$i = 0+1i$ は複素平面上の点 $(0,1)$ に対応し、$r=1$、$\cos\theta=0,\ \sin\theta=1$ より偏角は $90°$ です。したがって $i$ を掛けることは偏角を $90°$ 足すこと、つまり反時計回りに $90°$ 回転させることです。
 
 ---
 
@@ -118,13 +124,27 @@ $$\alpha+\beta = -\frac{b}{a}, \qquad \alpha\beta = \frac{c}{a}$$
 
 $$(\cos\theta+i\sin\theta)^n = \cos n\theta + i\sin n\theta$$
 
+正の整数 $n$ については、掛け算を $n$ 回繰り返すことでこの式が得られます。$n=0$ のときは両辺とも $1$ となり成り立ち、$n$ が負の整数のときは $\cos\theta+i\sin\theta$ の逆数が $\cos(-\theta)+i\sin(-\theta)$（絶対値1のまま偏角の符号だけ反転したもの）になることを使って、正の整数の場合に帰着できます。
+
 **例**：$\left(\cos\dfrac{\pi}{6}+i\sin\dfrac{\pi}{6}\right)^{12} = \cos2\pi+i\sin2\pi = 1$。
 
 ---
 
 ## 累乗根
 
-$z^n=1$ を満たす複素数 $z$ を、**1の$n$乗根**といいます。$z=\cos\theta+i\sin\theta$ とおいてド・モアブルの定理を使うと、$\cos n\theta+i\sin n\theta=1$ より $n\theta = 2k\pi$（$k$ は整数）、$\theta=\dfrac{2k\pi}{n}$。
+$z^n=1$ を満たす複素数 $z$ を、**1の$n$乗根**といいます。
+
+まず、両辺の絶対値を取ると $|z|^n=1$。$|z|$ は0以上の実数なので $|z|=1$。よって $z=\cos\theta+i\sin\theta$ とおけます。
+
+これにド・モアブルの定理を使うと、
+
+$$\cos n\theta+i\sin n\theta=1$$
+
+複素平面上で偏角 $n\theta$ の点が $1$（実軸上の点）を指すのは、$n\theta$ が $2\pi$ の整数倍のときに限られるので、
+
+$$n\theta = 2k\pi \quad (k\text{は整数})$$
+
+したがって $\theta=\dfrac{2k\pi}{n}$ です。
 
 $$z_k = \cos\frac{2k\pi}{n}+i\sin\frac{2k\pi}{n} \quad (k=0,1,\ldots,n-1)$$
 

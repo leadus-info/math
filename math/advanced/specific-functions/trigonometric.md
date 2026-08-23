@@ -21,7 +21,7 @@ requires:
 
 ## 円の上を動く点
 
-半径1の円（単位円）の上を動く点を考えます。原点から反時計回りに角度 $\theta$ 進んだとき、その点の座標が $(\cos\theta, \sin\theta)$ です。
+半径1の円（単位円）の上を動く点を考えます。$x$ 軸の正の向きから反時計回りに角度 $\theta$ 進んだとき、その点の座標が $(\cos\theta, \sin\theta)$ です。
 
 - $\cos\theta$：$x$ 座標——横方向の成分
 - $\sin\theta$：$y$ 座標——縦方向の成分
@@ -45,7 +45,10 @@ $$\sin^2\theta + \cos^2\theta = 1$$
 
 $$\sin(-\theta) = -\sin\theta \quad \text{（奇関数）}, \qquad \cos(-\theta) = \cos\theta \quad \text{（偶関数）}$$
 
-**周期**：$\sin(\theta + 2\pi) = \sin\theta$、$\cos(\theta + 2\pi) = \cos\theta$（周期 $2\pi$）。$y = \sin\theta$ のグラフは山と谷が繰り返す波の形になります。音の振動・光の波・電流の変化——自然界の周期的な現象はすべて三角関数で表せます。
+> [!NOTE]
+> 奇関数とは $f(-\theta)=-f(\theta)$ を満たす関数、偶関数とは $f(-\theta)=f(\theta)$ を満たす関数のことです。
+
+**周期**：$\sin(\theta + 2\pi) = \sin\theta$、$\cos(\theta + 2\pi) = \cos\theta$（周期 $2\pi$）。$y = \sin\theta$ のグラフは山と谷が繰り返す波の形になります。音の振動・光の波・電流の変化——自然界の周期的な現象の多くは、三角関数（またはその重ね合わせ）で表せます。
 
 ---
 
@@ -62,19 +65,41 @@ $$\sin 2\alpha = 2\sin\alpha\cos\alpha, \qquad \cos 2\alpha = \cos^2\alpha - \si
 
 $$\sin^2\frac{\alpha}{2} = \frac{1 - \cos\alpha}{2}, \quad \cos^2\frac{\alpha}{2} = \frac{1 + \cos\alpha}{2}$$
 
-半角の公式は、2倍角の公式と基本性質 $\sin^2\theta+\cos^2\theta=1$ から導けます。$\cos2\alpha=\cos^2\alpha-\sin^2\alpha$ に $\cos^2\alpha=1-\sin^2\alpha$ を代入すると $\cos2\alpha=1-2\sin^2\alpha$、これを $\sin^2\alpha$ について整理すると $\sin^2\alpha=\dfrac{1-\cos2\alpha}{2}$。ここで $\alpha$ を $\dfrac{\alpha}{2}$ に置き換えると、$\sin^2\dfrac{\alpha}{2}=\dfrac{1-\cos\alpha}{2}$ が得られます。$\cos^2\dfrac{\alpha}{2}$ も同様に、$\cos2\alpha=2\cos^2\alpha-1$ から導けます。
+半角の公式は、2倍角の公式と基本性質 $\sin^2\theta+\cos^2\theta=1$ から導けます。
+
+まず $\sin^2\dfrac{\alpha}{2}$ について、$\cos2\alpha=\cos^2\alpha-\sin^2\alpha$ に $\cos^2\alpha=1-\sin^2\alpha$ を代入すると
+
+$$\cos2\alpha = (1-\sin^2\alpha)-\sin^2\alpha = 1-2\sin^2\alpha$$
+
+これを $\sin^2\alpha$ について整理すると $\sin^2\alpha=\dfrac{1-\cos2\alpha}{2}$。ここで $\alpha$ を $\dfrac{\alpha}{2}$ に置き換えると、次が得られます。
+
+$$\sin^2\frac{\alpha}{2}=\frac{1-\cos\alpha}{2}$$
+
+$\cos^2\dfrac{\alpha}{2}$ も同様に導けます。$\cos2\alpha=\cos^2\alpha-\sin^2\alpha$ に、今度は $\sin^2\alpha=1-\cos^2\alpha$ を代入すると
+
+$$\cos2\alpha = \cos^2\alpha-(1-\cos^2\alpha) = 2\cos^2\alpha-1$$
+
+これを $\cos^2\alpha$ について整理すると $\cos^2\alpha=\dfrac{1+\cos2\alpha}{2}$。ここでも $\alpha$ を $\dfrac{\alpha}{2}$ に置き換えると、次が得られます。
+
+$$\cos^2\frac{\alpha}{2}=\frac{1+\cos\alpha}{2}$$
 
 ---
 
 ## 三角関数の合成
 
-$a\sin\theta + b\cos\theta$ のように $\sin$ と $\cos$ が混ざった式も、加法定理を逆向きに使うと、1つの $\sin$ にまとめられます。
+$a\sin\theta + b\cos\theta$ のように $\sin$ と $\cos$ が混ざった式も、加法定理を逆向きに使うと、1つの $\sin$ にまとめられます。$\sqrt{a^2+b^2}\sin(\theta+\varphi)$ を加法定理で展開すると
+
+$$\sqrt{a^2+b^2}\sin(\theta+\varphi) = \sqrt{a^2+b^2}\cos\varphi\,\sin\theta + \sqrt{a^2+b^2}\sin\varphi\,\cos\theta$$
+
+となります。これが $a\sin\theta+b\cos\theta$ と一致するように $\sin\theta$、$\cos\theta$ の係数を比較すると、$\sqrt{a^2+b^2}\cos\varphi=a$、$\sqrt{a^2+b^2}\sin\varphi=b$、すなわち
+
+$$\cos\varphi = \frac{a}{\sqrt{a^2+b^2}}, \qquad \sin\varphi = \frac{b}{\sqrt{a^2+b^2}}$$
+
+を満たす角 $\varphi$ をとれば、次の式が成り立ちます。
 
 $$a\sin\theta + b\cos\theta = \sqrt{a^2+b^2}\,\sin(\theta+\varphi)$$
 
-ここで $\varphi$ は、$\cos\varphi = \dfrac{a}{\sqrt{a^2+b^2}}$、$\sin\varphi = \dfrac{b}{\sqrt{a^2+b^2}}$ を満たす角です。
-
-**例**：$\sin\theta+\cos\theta$ を合成する。$\sqrt{1^2+1^2}=\sqrt2$ で、$\cos\varphi=\sin\varphi=\dfrac{1}{\sqrt2}$ より $\varphi=\dfrac{\pi}{4}$。よって $\sin\theta+\cos\theta=\sqrt2\sin\left(\theta+\dfrac{\pi}{4}\right)$。
+**例**：$\sin\theta+\cos\theta$ を合成する。$\sqrt{1^2+1^2}=\sqrt2$ で、$\cos\varphi=\sin\varphi=\dfrac{1}{\sqrt2}$ より $\varphi=\dfrac{\pi}{4}$（$=45°$）。よって $\sin\theta+\cos\theta=\sqrt2\sin\left(\theta+\dfrac{\pi}{4}\right)$。
 
 この形にすると、最大値・最小値や周期といった $a\sin\theta+b\cos\theta$ の性質が、単一の $\sin$ の性質としてそのまま読み取れます。
 
@@ -82,7 +107,7 @@ $$a\sin\theta + b\cos\theta = \sqrt{a^2+b^2}\,\sin(\theta+\varphi)$$
 
 ## まとめ
 
-三角関数は単位円上の点の座標として定義される周期関数です。$\sin^2\theta+\cos^2\theta=1$ という基本性質と加法定理を使うと、様々な角度の値を計算したり式を変形したりできます。
+三角関数は単位円上の点の座標として定義される周期関数です。$\sin^2\theta+\cos^2\theta=1$ という基本性質と加法定理を使うと、様々な角度の値を計算したり式を変形したりできます。また、加法定理を逆向きに使う三角関数の合成によって、$a\sin\theta+b\cos\theta$ の形の式を1つの $\sin$ にまとめ、その最大値・最小値や周期を調べられます。
 
 ---
 

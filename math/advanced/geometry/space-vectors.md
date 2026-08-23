@@ -29,13 +29,17 @@ requires:
 
 $$\vec{a} = (a_1, a_2, a_3)$$
 
+2点 $A(x_1,y_1,z_1)$、$B(x_2,y_2,z_2)$ の位置ベクトルの差からは $\overrightarrow{AB}=(x_2-x_1,\ y_2-y_1,\ z_2-z_1)$ が得られ、その大きさ $|\overrightarrow{AB}|=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2+(z_2-z_1)^2}$ は2点間の距離の公式になります。
+
 和・差・実数倍は、成分ごとに計算する点も平面のときと同じです。
 
 $$\vec{a}+\vec{b} = (a_1+b_1,\ a_2+b_2,\ a_3+b_3)$$
 
-大きさは、三平方の定理を2回使う形で求まります。
+大きさは、三平方の定理を2回使う形で求まります。まず $xy$ 平面上で $a_1$、$a_2$ を直角をはさむ2辺とする直角三角形を考えると、その対角線（斜辺）の長さは $\sqrt{a_1^2+a_2^2}$ です。この対角線と $a_3$ を直角をはさむ2辺として、もう一度三平方の定理を使うと、
 
-$$|\vec{a}| = \sqrt{a_1^2+a_2^2+a_3^2}$$
+$$|\vec{a}| = \sqrt{\left(\sqrt{a_1^2+a_2^2}\right)^2+a_3^2} = \sqrt{a_1^2+a_2^2+a_3^2}$$
+
+が得られます。
 
 ---
 
@@ -45,9 +49,11 @@ $$|\vec{a}| = \sqrt{a_1^2+a_2^2+a_3^2}$$
 
 $$\vec{a}\cdot\vec{b} = |\vec{a}||\vec{b}|\cos\theta = a_1b_1+a_2b_2+a_3b_3$$
 
+この2つの式が一致することは、$|\vec{a}-\vec{b}|^2$を余弦定理と成分計算の両方で展開して比べると確かめられます。余弦定理からは$|\vec{a}-\vec{b}|^2=|\vec{a}|^2+|\vec{b}|^2-2|\vec{a}||\vec{b}|\cos\theta$、成分計算からは$|\vec{a}-\vec{b}|^2=(a_1-b_1)^2+(a_2-b_2)^2+(a_3-b_3)^2$となり、$|\vec{a}|^2=a_1^2+a_2^2+a_3^2$なども使ってこの2つを比較すると$|\vec{a}||\vec{b}|\cos\theta=a_1b_1+a_2b_2+a_3b_3$が導けます。
+
 $\vec{a}\cdot\vec{b}=0$ が垂直を意味することも変わりません。
 
-**例題**：正四面体 $OABC$（すべての辺の長さが等しい四面体）で、辺 $OA$ と辺 $BC$ が垂直であることを示す。$\overrightarrow{OA}=\vec{a}$、$\overrightarrow{OB}=\vec{b}$、$\overrightarrow{OC}=\vec{c}$（$|\vec{a}|=|\vec{b}|=|\vec{c}|=1$）とします。正四面体はどの面も正三角形なので、例えば三角形$OAB$は正三角形で$\angle AOB=60°$。したがって $\vec{a}\cdot\vec{b}=|\vec{a}||\vec{b}|\cos60°=1\times1\times\dfrac12=\dfrac12$ となり、同じ理由で$\vec{a}$、$\vec{b}$、$\vec{c}$のどの2つの内積も$\dfrac12$になります。これを使うと、
+**例題**：正四面体 $OABC$（すべての辺の長さが等しい四面体）で、辺 $OA$ と辺 $BC$ が垂直であることを示す。$\overrightarrow{OA}=\vec{a}$、$\overrightarrow{OB}=\vec{b}$、$\overrightarrow{OC}=\vec{c}$（$|\vec{a}|=|\vec{b}|=|\vec{c}|=1$）とします。正四面体はどの面も正三角形なので、例えば三角形$OAB$は正三角形で$\angle AOB=60°$です。したがって $\vec{a}\cdot\vec{b}=|\vec{a}||\vec{b}|\cos60°=1\times1\times\dfrac12=\dfrac12$ となります。正四面体は頂点を入れ替えても形が変わらない（対称性）ため、三角形$OAC$、$OBC$も同様に正三角形になり、$\angle AOC=\angle BOC=60°$です。よって同じ理由で、$\vec{a}$、$\vec{b}$、$\vec{c}$のどの2つの内積も$\dfrac12$になります。これを使うと、位置ベクトルの差の公式$\overrightarrow{PQ}=\vec{q}-\vec{p}$（2点$P$、$Q$の位置ベクトルがそれぞれ$\vec{p}$、$\vec{q}$のとき）より$\overrightarrow{BC}=\overrightarrow{OC}-\overrightarrow{OB}=\vec{c}-\vec{b}$なので、
 
 $$\overrightarrow{OA}\cdot\overrightarrow{BC} = \vec{a}\cdot(\vec{c}-\vec{b}) = \vec{a}\cdot\vec{c}-\vec{a}\cdot\vec{b} = \frac12-\frac12=0$$
 
