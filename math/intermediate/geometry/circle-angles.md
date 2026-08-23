@@ -49,9 +49,9 @@ $OA$、$OB$、$OP$ はいずれも円の半径なので長さが等しく、三�
 
 直線 $PO$ を延長して円周と交わる点を $Q$ とします。三角形 $OAP$ は $OA=OP$ の二等辺三角形なので、底角が等しく $\angle OAP = \angle OPA$。三角形の外角の性質（$\angle AOQ$ は三角形$OAP$の頂点$O$における外角）より、$\angle AOQ = \angle OAP + \angle OPA = 2\angle OPA$。同じように、三角形 $OBP$ からも $\angle BOQ = 2\angle OPB$ が得られます。
 
-点 $Q$ は $O$ を通る直線 $PO$ の延長上にあるので、$\angle AOB$ を $\angle AOQ$ と $\angle BOQ$ に、また $\angle APB$ を $\angle OPA$ と $\angle OPB$ に、それぞれ分割しています。これを踏まえて先の2つの式を足すと、$\angle AOQ + \angle BOQ = 2(\angle OPA + \angle OPB)$、つまり $\angle AOB = 2\angle APB$ となり、$\angle APB = \dfrac{1}{2}\angle AOB$ が確かめられます。
-
 ![円周角の定理の証明:点Qによって、中心角∠AOBが∠AOQと∠BOQに、円周角∠APBが∠OPAと∠OPBに、それぞれ分割される位置関係を示す図](circle-angles/images/inscribed-angle-proof.svg)
+
+点 $Q$ は $O$ を通る直線 $PO$ の延長上にあるので、$\angle AOB$ を $\angle AOQ$ と $\angle BOQ$ に、また $\angle APB$ を $\angle OPA$ と $\angle OPB$ に、それぞれ分割しています。これを踏まえて先の2つの式を足すと、$\angle AOQ + \angle BOQ = 2(\angle OPA + \angle OPB)$、つまり $\angle AOB = 2\angle APB$ となり、$\angle APB = \dfrac{1}{2}\angle AOB$ が確かめられます。
 
 ---
 
