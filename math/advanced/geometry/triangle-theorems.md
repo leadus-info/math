@@ -25,7 +25,7 @@ requires:
 
 $$BD:DC = AB:AC$$
 
-**証明の概略**：頂点 $C$ を通り $AD$ に平行な直線を引き、直線 $AB$ との交点を $E$ とします。平行線の性質から $\angle BAD = \angle AEC$、$\angle DAC = \angle ACE$ となり、$\angle BAD=\angle DAC$（仮定）とあわせて $\angle AEC = \angle ACE$、よって三角形 $ACE$ は $AC=AE$ の二等辺三角形になります。$AD \parallel EC$ から平行線と線分の比を使うと $BD:DC = AB:AE = AB:AC$ が得られます。
+**証明の概略**：頂点 $C$ を通り $AD$ に平行な直線を引き、直線 $AB$ との交点を $E$ とします。$AD \parallel EC$ より、$\angle BAD = \angle AEC$（同位角）、$\angle DAC = \angle ACE$（錯角）となり、$\angle BAD=\angle DAC$（仮定）とあわせて $\angle AEC = \angle ACE$、よって三角形 $ACE$ は $AC=AE$ の二等辺三角形になります。三角形 $BEC$ において、辺 $BE$、$BC$ 上の点 $A$、$D$ が $AD \parallel EC$ を満たすので、[相似](../../intermediate/geometry/similarity.md)で見た「平行線と線分の比」の関係より $BA:BE = BD:BC$ が成り立ちます。$DC = BC-BD$、$AE = BE-BA$ を用いてこの比を変形すると $BD:DC = BA:AE$ となり、$AE=AC$ とあわせて $BD:DC = AB:AC$ が得られます。
 
 ![頂角Aの二等分線ADが対辺BCをBD:DC=AB:ACに内分することを示す図](triangle-theorems/images/angle-bisector.svg)
 
@@ -33,7 +33,7 @@ $$BD:DC = AB:AC$$
 
 ## チェバの定理
 
-三角形 $ABC$ の内部の1点 $P$ を通る3本の直線 $AP$、$BP$、$CP$ が、対辺（の延長）とそれぞれ点 $D$、$E$、$F$ で交わるとき、
+三角形 $ABC$ の内部の1点 $P$ を通る3本の直線 $AP$、$BP$、$CP$ が、それぞれ辺 $BC$、$CA$、$AB$ と点 $D$、$E$、$F$ で交わるとき、
 
 $$\frac{BD}{DC}\cdot\frac{CE}{EA}\cdot\frac{AF}{FB} = 1$$
 
@@ -41,19 +41,19 @@ $$\frac{BD}{DC}\cdot\frac{CE}{EA}\cdot\frac{AF}{FB} = 1$$
 
 ![三角形ABCの内部の点Pを通る3本の直線AD、BE、CFが対辺と交わり、比の積が1になることを示す図](triangle-theorems/images/ceva-theorem.svg)
 
-**例題**：点$D$、$E$が辺$BC$、$CA$上にあり、$BD:DC=2:1$、$CE:EA=3:2$のとき、線分$AD$と$BE$の交点を通り頂点$C$を通る直線が辺$AB$と交わる点$F$について、$AF:FB$を求める。チェバの定理より $\dfrac{BD}{DC}\cdot\dfrac{CE}{EA}\cdot\dfrac{AF}{FB}=1$ なので、$\dfrac{2}{1}\cdot\dfrac{3}{2}\cdot\dfrac{AF}{FB}=1$、$3\cdot\dfrac{AF}{FB}=1$、$AF:FB=1:3$。
+**例題**：辺$BC$、$CA$上にそれぞれ点$D$、$E$をとり、線分$AD$と$BE$の交点を通り頂点$C$を通る直線が辺$AB$と交わる点を$F$とする。$BD:DC=2:1$、$CE:EA=3:2$のとき、$AF:FB$を求める。チェバの定理より $\dfrac{BD}{DC}\cdot\dfrac{CE}{EA}\cdot\dfrac{AF}{FB}=1$ なので、$\dfrac{2}{1}\cdot\dfrac{3}{2}\cdot\dfrac{AF}{FB}=1$、$3\cdot\dfrac{AF}{FB}=1$、$AF:FB=1:3$。
 
 ---
 
 ## メネラウスの定理
 
-三角形 $ABC$ の3辺（またはその延長）が1本の直線と、それぞれ点 $D$、$E$、$F$ で交わるとき、
+三角形 $ABC$ の辺 $BC$、$CA$、$AB$（またはその延長）が1本の直線とそれぞれ点 $D$、$E$、$F$ で交わるとき、
 
 $$\frac{BD}{DC}\cdot\frac{CE}{EA}\cdot\frac{AF}{FB} = 1$$
 
-チェバの定理と同じ形の式になりますが、点 $P$ が三角形の内部にあるか、直線が三角形の外を通るかという状況が異なります。相似な三角形の組を見つけることで証明できます。
+チェバの定理と同じ形の式になりますが、3本の直線が三角形の内部の1点で交わる場合と、1本の直線が三角形の辺（またはその延長）を横切る場合という状況が異なります。相似な三角形の組を見つけることで証明できます。
 
-**例題**：辺$BC$の延長上の点$D$について$BD:DC=3:1$（$D$は$C$の外側）、辺$CA$上の点$E$について$CE:EA=1:2$のとき、直線$DE$が辺$AB$（の延長）と交わる点$F$について、$AF:FB$を求める。メネラウスの定理より $\dfrac{BD}{DC}\cdot\dfrac{CE}{EA}\cdot\dfrac{AF}{FB}=1$ なので、$\dfrac{3}{1}\cdot\dfrac{1}{2}\cdot\dfrac{AF}{FB}=1$、$\dfrac{3}{2}\cdot\dfrac{AF}{FB}=1$、$AF:FB=2:3$。
+**例題**：辺$BC$の延長上に点$D$を$BD:DC=3:1$（$D$は$C$の外側）となるようにとり、辺$CA$上に点$E$を$CE:EA=1:2$となるようにとる。直線$DE$が辺$AB$と交わる点を$F$とするとき、$AF:FB$を求める。メネラウスの定理より $\dfrac{BD}{DC}\cdot\dfrac{CE}{EA}\cdot\dfrac{AF}{FB}=1$ なので、$\dfrac{3}{1}\cdot\dfrac{1}{2}\cdot\dfrac{AF}{FB}=1$、$\dfrac{3}{2}\cdot\dfrac{AF}{FB}=1$、$AF:FB=2:3$。
 
 ---
 
