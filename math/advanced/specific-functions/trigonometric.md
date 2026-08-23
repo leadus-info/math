@@ -48,7 +48,7 @@ $$\sin(-\theta) = -\sin\theta \quad \text{（奇関数）}, \qquad \cos(-\theta)
 > [!NOTE]
 > 奇関数とは $f(-\theta)=-f(\theta)$ を満たす関数、偶関数とは $f(-\theta)=f(\theta)$ を満たす関数のことです。
 
-**周期**：$\sin(\theta + 2\pi) = \sin\theta$、$\cos(\theta + 2\pi) = \cos\theta$（周期 $2\pi$）。$y = \sin\theta$ のグラフは山と谷が繰り返す波の形になります。音の振動・光の波・電流の変化——自然界の周期的な現象の多くは、三角関数（またはその重ね合わせ）で表せます。
+**周期**：$\sin(\theta + 2\pi) = \sin\theta$、$\cos(\theta + 2\pi) = \cos\theta$（周期 $2\pi$）。$y = \sin\theta$ のグラフは山と谷が繰り返す波の形になります。音の振動・光の波・電流の変化——自然界の周期的な現象の多くは、三角関数（またはいくつかを組み合わせたもの）で表せます。
 
 ---
 
@@ -75,7 +75,7 @@ $$\cos2\alpha = (1-\sin^2\alpha)-\sin^2\alpha = 1-2\sin^2\alpha$$
 
 $$\sin^2\frac{\alpha}{2}=\frac{1-\cos\alpha}{2}$$
 
-$\cos^2\dfrac{\alpha}{2}$ も同様に導けます。$\cos2\alpha=\cos^2\alpha-\sin^2\alpha$ に、今度は $\sin^2\alpha=1-\cos^2\alpha$ を代入すると
+$\cos^2\dfrac{\alpha}{2}$ も同様に導けます。$\cos2\alpha=\cos^2\alpha-\sin^2\alpha$ に、先ほど（$\sin^2\dfrac{\alpha}{2}$の導出）とは異なり、今度は $\sin^2\alpha=1-\cos^2\alpha$ を代入すると
 
 $$\cos2\alpha = \cos^2\alpha-(1-\cos^2\alpha) = 2\cos^2\alpha-1$$
 
