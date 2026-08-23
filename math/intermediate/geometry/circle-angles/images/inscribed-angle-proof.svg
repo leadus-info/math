@@ -1,0 +1,27 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="円周角の定理の証明で用いる補助点Qと、二等辺三角形OAP・OBPの外角∠AOQ・∠BOQの位置関係を示す図">
+  <circle cx="150" cy="150" r="100" fill="none" stroke="currentColor" stroke-width="2"/>
+  <line x1="150" y1="50" x2="150" y2="250" stroke="currentColor" stroke-width="2"/>
+  <line x1="150" y1="150" x2="56.03" y2="184.2" stroke="currentColor" stroke-width="2"/>
+  <line x1="150" y1="150" x2="243.97" y2="184.2" stroke="currentColor" stroke-width="2"/>
+  <line x1="150" y1="50" x2="56.03" y2="184.2" stroke="currentColor" stroke-width="2"/>
+  <line x1="150" y1="50" x2="243.97" y2="184.2" stroke="currentColor" stroke-width="2"/>
+  <line x1="101.65" y1="163.34" x2="104.38" y2="170.86" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="195.62" y1="170.86" x2="198.35" y2="163.34" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="146" y1="100" x2="154" y2="100" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M79.52,175.65 Q73.48,170.81 70.37,163.72" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M220.48,175.65 Q226.52,170.81 229.63,163.72" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M135.66,70.48 Q143.38,70.98 150,75" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M150,75 Q156.62,70.98 164.34,70.48" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M126.51,158.55 Q137.38,168.02 150,175" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M150,175 Q162.62,168.02 173.49,158.55" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <circle cx="150" cy="150" r="3" fill="currentColor"/>
+  <circle cx="56.03" cy="184.2" r="3" fill="currentColor"/>
+  <circle cx="243.97" cy="184.2" r="3" fill="currentColor"/>
+  <circle cx="150" cy="50" r="3" fill="currentColor"/>
+  <circle cx="150" cy="250" r="3" fill="currentColor"/>
+  <text x="158" y="146" font-size="16" fill="currentColor">O</text>
+  <text x="40" y="198" font-size="16" text-anchor="middle" fill="currentColor">A</text>
+  <text x="260" y="198" font-size="16" text-anchor="middle" fill="currentColor">B</text>
+  <text x="150" y="38" font-size="16" text-anchor="middle" fill="currentColor">P</text>
+  <text x="150" y="268" font-size="16" text-anchor="middle" fill="currentColor">Q</text>
+</svg>
