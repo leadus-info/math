@@ -1,0 +1,38 @@
+<svg viewBox="0 0 540 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="三角形ABCと三角形A′B′C′で、辺BC(印1本)と辺B′C′(印1本)、その両端の角である角Bと角B′(弧1本の印)、角Cと角C′(弧2本の印)がそれぞれ等しいことを示す図">
+  <polygon points="100,40 30,220 200,220" fill="none" stroke="currentColor" stroke-width="2"/>
+  <polygon points="440,40 510,220 340,220" fill="none" stroke="currentColor" stroke-width="2"/>
+
+  <!-- BC = B'C' (1 tick) -->
+  <line x1="115" y1="214" x2="115" y2="226" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="425" y1="214" x2="425" y2="226" stroke="currentColor" stroke-width="1.5"/>
+
+  <!-- angle B = angle B' (1 arc) -->
+  <path d="M40.83,192.02 Q58.47,200.52 60,220" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="44.77" y1="193.89" x2="59.69" y2="215.70" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M499.17,192.02 Q481.53,200.52 480,220" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="495.23" y1="193.89" x2="480.31" y2="215.70" stroke="currentColor" stroke-width="1.5"/>
+
+  <!-- angle C = angle C' (2 concentric arcs) -->
+  <path d="M188.33,199.03 Q176.19,206.00 176,220" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="185.76" y1="200.68" x2="176.20" y2="216.95" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M184.44,192.04 Q168.26,201.33 168,220" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="181.01" y1="194.24" x2="168.26" y2="215.93" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M351.67,199.03 Q363.81,206.00 364,220" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="354.24" y1="200.68" x2="363.80" y2="216.95" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M355.56,192.04 Q371.74,201.33 372,220" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="358.99" y1="194.24" x2="371.74" y2="215.93" stroke="currentColor" stroke-width="1.5"/>
+
+  <circle cx="100" cy="40" r="3" fill="currentColor"/>
+  <circle cx="30" cy="220" r="3" fill="currentColor"/>
+  <circle cx="200" cy="220" r="3" fill="currentColor"/>
+  <circle cx="440" cy="40" r="3" fill="currentColor"/>
+  <circle cx="510" cy="220" r="3" fill="currentColor"/>
+  <circle cx="340" cy="220" r="3" fill="currentColor"/>
+
+  <text x="100" y="22" font-size="16" text-anchor="middle" fill="currentColor">A</text>
+  <text x="10" y="238" font-size="16" text-anchor="middle" fill="currentColor">B</text>
+  <text x="220" y="238" font-size="16" text-anchor="middle" fill="currentColor">C</text>
+  <text x="440" y="22" font-size="16" text-anchor="middle" fill="currentColor">A′</text>
+  <text x="530" y="238" font-size="16" text-anchor="middle" fill="currentColor">B′</text>
+  <text x="320" y="238" font-size="16" text-anchor="middle" fill="currentColor">C′</text>
+</svg>
