@@ -1,0 +1,36 @@
+<svg viewBox="0 0 540 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="三角形ABCと三角形A′B′C′で、辺AB(印1本)と辺A′B′(印1本)、辺BC(印2本)と辺B′C′(印2本)、辺CA(印3本)と辺C′A′(印3本)がそれぞれ等しいことを示す図">
+  <polygon points="100,40 30,220 200,220" fill="none" stroke="currentColor" stroke-width="2"/>
+  <polygon points="440,40 510,220 340,220" fill="none" stroke="currentColor" stroke-width="2"/>
+
+  <!-- AB = A'B' (1 tick) -->
+  <line x1="59.41" y1="127.83" x2="70.59" y2="132.18" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="480.59" y1="127.83" x2="469.41" y2="132.18" stroke="currentColor" stroke-width="1.5"/>
+
+  <!-- BC = B'C' (2 ticks) -->
+  <line x1="110" y1="214" x2="110" y2="226" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="120" y1="214" x2="120" y2="226" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="430" y1="214" x2="430" y2="226" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="420" y1="214" x2="420" y2="226" stroke="currentColor" stroke-width="1.5"/>
+
+  <!-- CA = C'A' (3 ticks) -->
+  <line x1="149.61" y1="141.66" x2="160.10" y2="135.83" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="144.76" y1="132.91" x2="155.25" y2="127.09" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="139.90" y1="124.17" x2="150.39" y2="118.34" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="390.39" y1="141.66" x2="379.90" y2="135.83" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="395.24" y1="132.91" x2="384.75" y2="127.09" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="400.10" y1="124.17" x2="389.61" y2="118.34" stroke="currentColor" stroke-width="1.5"/>
+
+  <circle cx="100" cy="40" r="3" fill="currentColor"/>
+  <circle cx="30" cy="220" r="3" fill="currentColor"/>
+  <circle cx="200" cy="220" r="3" fill="currentColor"/>
+  <circle cx="440" cy="40" r="3" fill="currentColor"/>
+  <circle cx="510" cy="220" r="3" fill="currentColor"/>
+  <circle cx="340" cy="220" r="3" fill="currentColor"/>
+
+  <text x="100" y="22" font-size="16" text-anchor="middle" fill="currentColor">A</text>
+  <text x="10" y="238" font-size="16" text-anchor="middle" fill="currentColor">B</text>
+  <text x="220" y="238" font-size="16" text-anchor="middle" fill="currentColor">C</text>
+  <text x="440" y="22" font-size="16" text-anchor="middle" fill="currentColor">A′</text>
+  <text x="530" y="238" font-size="16" text-anchor="middle" fill="currentColor">B′</text>
+  <text x="320" y="238" font-size="16" text-anchor="middle" fill="currentColor">C′</text>
+</svg>
