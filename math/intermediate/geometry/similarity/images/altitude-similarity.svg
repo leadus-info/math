@@ -1,0 +1,16 @@
+<svg viewBox="0 0 400 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="直角三角形ABC（∠A=90°）の頂点Aから斜辺BCに垂線を引いた足をDとし、三角形ABDの部分を薄く塗って示した図。∠CAB（直角）と∠ADB（直角）、∠ABDと∠CBA（共通の角）の対応関係がわかる">
+  <polygon points="140,40 50,210 175.34,177.87" fill="currentColor" fill-opacity="0.08" stroke="none"/>
+  <polygon points="140,40 50,210 327,139" fill="none" stroke="currentColor" stroke-width="2"/>
+  <line x1="140" y1="40" x2="175.34" y2="177.87" stroke="currentColor" stroke-width="2"/>
+  <polyline points="132.52,54.14 146.66,61.63 154.14,47.49" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <polyline points="171.86,164.31 158.30,167.79 161.78,181.35" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M 60.29,190.56 A 22,22 0 0 1 71.31,204.54" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <circle cx="140" cy="40" r="3" fill="currentColor"/>
+  <circle cx="50" cy="210" r="3" fill="currentColor"/>
+  <circle cx="327" cy="139" r="3" fill="currentColor"/>
+  <circle cx="175.34" cy="177.87" r="3" fill="currentColor"/>
+  <text x="140" y="28" font-size="16" text-anchor="middle" fill="currentColor">A</text>
+  <text x="30" y="222" font-size="16" text-anchor="middle" fill="currentColor">B</text>
+  <text x="345" y="135" font-size="16" text-anchor="middle" fill="currentColor">C</text>
+  <text x="175" y="200" font-size="16" text-anchor="middle" fill="currentColor">D</text>
+</svg>

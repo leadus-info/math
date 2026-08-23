@@ -39,6 +39,8 @@ requires:
 
 **例題**：直角三角形 $ABC$（$\angle A = 90°$）の頂点 $A$ から斜辺 $BC$ に垂線を引き、その足を $D$ とするとき、三角形 $ABD$ と三角形 $CBA$ が相似であることを証明する。
 
+![直角三角形ABC（∠A=90°）の頂点Aから斜辺BCに垂線を引いた足をDとし、三角形ABDの部分を薄く塗って示した図。∠CAB（直角）と∠ADB（直角）、∠ABDと∠CBA（共通の角）の対応関係がわかる](similarity/images/altitude-similarity.svg)
+
 三角形 $ABD$ と三角形 $CBA$ に注目すると、$\angle ADB = \angle CAB = 90°$（仮定）、$\angle ABD = \angle CBA$（共通）より、2組の角がそれぞれ等しいので、三角形 $ABD$ と三角形 $CBA$ は相似です。
 
 ---
