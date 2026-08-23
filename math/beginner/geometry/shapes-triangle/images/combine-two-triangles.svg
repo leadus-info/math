@@ -1,0 +1,18 @@
+<svg viewBox="0 0 260 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="同じ形の三角形を2つ用意し、一方を180度回転させて組み合わせると、向かい合う辺の長さが等しく平行な四角形ができる様子を表す図">
+  <polygon points="110,40 200,200 150,360 60,200" fill="none" stroke="currentColor" stroke-width="2"/>
+  <line x1="60" y1="200" x2="200" y2="200" stroke="currentColor" stroke-width="1.5"/>
+  <circle cx="110" cy="40" r="3" fill="currentColor"/>
+  <circle cx="200" cy="200" r="3" fill="currentColor"/>
+  <circle cx="150" cy="360" r="3" fill="currentColor"/>
+  <circle cx="60" cy="200" r="3" fill="currentColor"/>
+  <text x="110" y="26" font-size="16" text-anchor="middle" fill="currentColor">C</text>
+  <text x="218" y="205" font-size="16" text-anchor="middle" fill="currentColor">B</text>
+  <text x="150" y="386" font-size="16" text-anchor="middle" fill="currentColor">D</text>
+  <text x="42" y="205" font-size="16" text-anchor="middle" fill="currentColor">A</text>
+  <path d="M149.8,122.9 L160.2,117.1" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M110.2,277.1 L99.8,282.9" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M77.5,123.9 L88.9,127.5" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M81.1,112.5 L92.5,116.1" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M171.1,272.5 L182.5,276.1" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M167.5,283.9 L178.9,287.5" stroke="currentColor" stroke-width="1.5"/>
+</svg>
