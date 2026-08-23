@@ -15,6 +15,8 @@ hierarchy:
 requires:
   - title: 平方根
     path: ../numbers/arithmetic-square-root.md
+  - title: 関数とは
+    path: ../functions/functions.md
 ---
 
 ## 直角三角形の3辺の関係
