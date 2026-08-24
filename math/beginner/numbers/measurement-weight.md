@@ -29,7 +29,7 @@ $$1\text{kg} = 1000\text{g}$$
 
 [長さ](measurement-length.md)のときと同じように、単位の関係を使って別の単位に変換して表すこともできます。
 
-**例**：$1250\text{g}$ は何kg何gか。$1000\text{g} = 1\text{kg}$ なので、$1250 \div 1000$ の商がkgの数、余りがそのままgの数を表す。$1250 \div 1000 = 1$ あまり $250$ より、$1250\text{g} = 1\text{kg}250\text{g}$。
+**例**：$1250\text{g}$ は何kg何gか。$1000\text{g} = 1\text{kg}$ なので、$1250 \div 1000 = 1$ あまり $250$。よって $1250\text{g} = 1\text{kg}250\text{g}$。
 
 **例**：$2\text{kg}450\text{g}$ は何gか。$1\text{kg} = 1000\text{g}$ なので、$2\text{kg} = 2000\text{g}$。よって $2\text{kg}450\text{g} = 2000\text{g} + 450\text{g} = 2450\text{g}$。
 
