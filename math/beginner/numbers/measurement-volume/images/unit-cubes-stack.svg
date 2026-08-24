@@ -25,6 +25,10 @@
     <line x1="94" y1="156" x2="94" y2="162" stroke-width="1"/>
     <line x1="124" y1="156" x2="124" y2="162" stroke-width="1"/>
 
+    <!-- 右側面（立方体の側面を示し、立体感を補強） -->
+    <polyline points="140,170 168,142 168,154 140,182" stroke-width="2"/>
+    <line x1="154" y1="156" x2="154" y2="168" stroke-width="1"/>
+
     <!-- よこ方向の矢印 -->
     <line x1="50" y1="190" x2="140" y2="190" stroke-width="1.5" marker-start="url(#uc-arrow)" marker-end="url(#uc-arrow)"/>
     <!-- たて方向の矢印 -->
