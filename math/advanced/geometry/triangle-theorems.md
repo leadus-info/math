@@ -37,7 +37,21 @@ $$BD:DC = AB:AC$$
 
 $$\frac{BD}{DC}\cdot\frac{CE}{EA}\cdot\frac{AF}{FB} = 1$$
 
-が成り立ちます。これを**チェバの定理**といいます。三角形 $ABD$ と $ACD$ の面積比などを利用して証明できます（3つの小三角形の面積比を辺の比に対応させ、掛け合わせるとちょうど打ち消し合う）。
+が成り立ちます。これを**チェバの定理**といいます。
+
+**証明の概略**：三角形 $XYZ$ の面積を $[\triangle XYZ]$ と表します。$D$ は辺 $BC$ 上、$P$ は線分 $AD$ 上にあるので、頂点 $A$ を共有する三角形 $ABD$、$ACD$ は底辺 $BD$、$DC$ が同一直線上にあり高さが等しく、$[\triangle ABD]:[\triangle ACD] = BD:DC$ が成り立ちます。同様に頂点 $P$ を共有する三角形 $PBD$、$PCD$ についても $[\triangle PBD]:[\triangle PCD] = BD:DC$ が成り立ちます。$P$ が線分 $AD$ 上にあることから、線分 $BP$ は三角形 $ABD$ を三角形 $ABP$ と $PBD$ に、線分 $CP$ は三角形 $ACD$ を三角形 $ACP$ と $PCD$ に分割するので、$[\triangle ABP] = [\triangle ABD]-[\triangle PBD]$、$[\triangle ACP]=[\triangle ACD]-[\triangle PCD]$ となります。$[\triangle ABD]:[\triangle ACD]=[\triangle PBD]:[\triangle PCD]$（ともに $BD:DC$ に等しい比）であることから
+
+$$BD:DC = [\triangle ABP]:[\triangle ACP] = [\triangle PAB]:[\triangle PAC]$$
+
+が得られます。全く同様に、頂点 $B$、$C$ を通る2本の直線についても
+
+$$CE:EA = [\triangle PBC]:[\triangle PAB], \qquad AF:FB = [\triangle PAC]:[\triangle PBC]$$
+
+が成り立つので、3つの式を辺々掛け合わせると
+
+$$\frac{BD}{DC}\cdot\frac{CE}{EA}\cdot\frac{AF}{FB} = \frac{[\triangle PAB]}{[\triangle PAC]}\cdot\frac{[\triangle PBC]}{[\triangle PAB]}\cdot\frac{[\triangle PAC]}{[\triangle PBC]} = 1$$
+
+となり、途中の面積がすべて打ち消し合ってチェバの定理が得られます。
 
 ![三角形ABCの内部の点Pを通る3本の直線AD、BE、CFが対辺と交わり、比の積が1になることを示す図](triangle-theorems/images/ceva-theorem.svg)
 
@@ -51,7 +65,21 @@ $$\frac{BD}{DC}\cdot\frac{CE}{EA}\cdot\frac{AF}{FB} = 1$$
 
 $$\frac{BD}{DC}\cdot\frac{CE}{EA}\cdot\frac{AF}{FB} = 1$$
 
-チェバの定理と同じ形の式になりますが、3本の直線が三角形の内部の1点で交わる場合と、1本の直線が三角形の辺（またはその延長）を横切る場合という状況が異なります。相似な三角形の組を見つけることで証明できます。
+チェバの定理と同じ形の式になりますが、3本の直線が三角形の内部の1点で交わる場合と、1本の直線が三角形の辺（またはその延長）を横切る場合という状況が異なります。
+
+**証明の概略**：直線 $DEF$ を $\ell$ とし、頂点 $A$、$B$、$C$ から $\ell$ に下ろした垂線の足をそれぞれ $A'$、$B'$、$C'$ とします。$D$ は直線 $BC$ と $\ell$ の交点なので、直線 $BC$ と直線 $\ell$ はこの点 $D$ で交わる2直線であり、直角三角形 $BDB'$（直角は $B'$）と直角三角形 $CDC'$（直角は $C'$）において、$\angle BDB'$ と $\angle CDC'$ は等しいか互いに補角の関係にあります（$D$、$B'$、$C'$ が同一直線 $\ell$ 上にあり、$B$、$D$、$C$ が同一直線 $BC$ 上にあるため）。角が等しい場合はもちろん、補角の関係にある場合も正弦の値は等しいので、$\sin\angle BDB' = \dfrac{BB'}{BD}$、$\sin\angle CDC'=\dfrac{CC'}{CD}$ より
+
+$$BD:DC = BB':CC'$$
+
+が成り立ちます。全く同様に、$E$、$F$ についても
+
+$$CE:EA = CC':AA', \qquad AF:FB = AA':BB'$$
+
+が成り立つので、3つの式を辺々掛け合わせると
+
+$$\frac{BD}{DC}\cdot\frac{CE}{EA}\cdot\frac{AF}{FB} = \frac{BB'}{CC'}\cdot\frac{CC'}{AA'}\cdot\frac{AA'}{BB'}=1$$
+
+となり、メネラウスの定理が得られます。
 
 **例題**：辺$BC$の延長上に点$D$を$BD:DC=3:1$（$D$は$C$の外側）となるようにとり、辺$CA$上に点$E$を$CE:EA=1:2$となるようにとる。直線$DE$が辺$AB$と交わる点を$F$とするとき、$AF:FB$を求める。メネラウスの定理より $\dfrac{BD}{DC}\cdot\dfrac{CE}{EA}\cdot\dfrac{AF}{FB}=1$ なので、$\dfrac{3}{1}\cdot\dfrac{1}{2}\cdot\dfrac{AF}{FB}=1$、$\dfrac{3}{2}\cdot\dfrac{AF}{FB}=1$、$AF:FB=2:3$。
 
