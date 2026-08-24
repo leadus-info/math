@@ -1,4 +1,4 @@
-<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="半径aの円が直線上を転がるときの円の位置(薄い円)と、円周上の定点Pが描くサイクロイド曲線(太い軌跡)を示す図">
+<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="半径aの円が直線上を転がるときの円の位置(薄い円)と、円周上の定点Pが描くサイクロイド曲線(太い軌跡)と、回転角θ・転がった距離aθの関係を示す図">
   <!-- baseline (line the circle rolls on) -->
   <line x1="15" y1="160" x2="350" y2="160" stroke="currentColor" stroke-width="1.5"/>
 
@@ -36,4 +36,15 @@
   <!-- labels -->
   <text x="188" y="66" font-size="16" fill="currentColor">P</text>
   <text x="188" y="96" font-size="13" fill="currentColor">a</text>
+
+  <!-- rotation angle theta at the theta = pi/2 position: reference direction (straight down, dashed) and arc to the radius line already drawn -->
+  <line x1="110.69" y1="115" x2="110.69" y2="160" stroke="currentColor" stroke-width="1" stroke-opacity="0.3" stroke-dasharray="3,3"/>
+  <path d="M110.69,133 A18,18 0 0,1 92.69,115" fill="none" stroke="currentColor" stroke-width="1.2"/>
+  <text x="87" y="139" font-size="13" fill="currentColor">θ</text>
+
+  <!-- dimension line showing the rolled arc length a*theta = horizontal distance from theta=0 contact point to the point below the theta=pi/2 center -->
+  <line x1="40" y1="163" x2="40" y2="180" stroke="currentColor" stroke-width="1" stroke-opacity="0.6"/>
+  <line x1="110.69" y1="163" x2="110.69" y2="180" stroke="currentColor" stroke-width="1" stroke-opacity="0.6"/>
+  <line x1="40" y1="180" x2="110.69" y2="180" stroke="currentColor" stroke-width="1" stroke-opacity="0.6"/>
+  <text x="75.3" y="193" font-size="12" fill="currentColor" text-anchor="middle">aθ</text>
 </svg>
