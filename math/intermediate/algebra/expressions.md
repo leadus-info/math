@@ -17,6 +17,8 @@ requires:
     path: ../../beginner/numbers/natural-numbers.md
   - title: 負数
     path: ../numbers/integers.md
+  - title: 負の数の掛け算・割り算
+    path: ../numbers/integers-multiplication-division.md
 ---
 
 ## 文字を使うと便利なわけ
