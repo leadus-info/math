@@ -39,17 +39,17 @@ $$\frac{BD}{DC}\cdot\frac{CE}{EA}\cdot\frac{AF}{FB} = 1$$
 
 が成り立ちます。これを**チェバの定理**といいます。
 
-**証明の概略**：三角形 $XYZ$ の面積を $[\triangle XYZ]$ と表します。$D$ は辺 $BC$ 上、$P$ は線分 $AD$ 上にあるので、頂点 $A$ を共有する三角形 $ABD$、$ACD$ は底辺 $BD$、$DC$ が同一直線上にあり高さが等しく、$[\triangle ABD]:[\triangle ACD] = BD:DC$ が成り立ちます。同様に頂点 $P$ を共有する三角形 $PBD$、$PCD$ についても $[\triangle PBD]:[\triangle PCD] = BD:DC$ が成り立ちます。$P$ が線分 $AD$ 上にあることから、線分 $BP$ は三角形 $ABD$ を三角形 $ABP$ と $PBD$ に、線分 $CP$ は三角形 $ACD$ を三角形 $ACP$ と $PCD$ に分割するので、$[\triangle ABP] = [\triangle ABD]-[\triangle PBD]$、$[\triangle ACP]=[\triangle ACD]-[\triangle PCD]$ となります。$[\triangle ABD]:[\triangle ACD]=[\triangle PBD]:[\triangle PCD]$（ともに $BD:DC$ に等しい比）であることから
+**証明の概略**：三角形 $XYZ$ の面積を $[\triangle XYZ]$ と表します。$D$ は辺 $BC$ 上、$P$ は線分 $AD$ 上にあるので、頂点 $A$ を共有する三角形 $ABD$、$ACD$ は底辺 $BD$、$DC$ が同一直線上にあり高さが等しく、$[\triangle ABD]:[\triangle ACD] = BD:DC$ が成り立ちます。同様に頂点 $P$ を共有する三角形 $PBD$、$PCD$ についても $[\triangle PBD]:[\triangle PCD] = BD:DC$ が成り立ちます。$P$ が線分 $AD$ 上にあることから、線分 $BP$ は三角形 $ABD$ を三角形 $ABP$ と $PBD$ に、線分 $CP$ は三角形 $ACD$ を三角形 $ACP$ と $PCD$ に分割するので、$[\triangle ABP] = [\triangle ABD]-[\triangle PBD]$、$[\triangle ACP]=[\triangle ACD]-[\triangle PCD]$ となります。一般に $a:b=c:d$ が成り立つとき $a:b=(a-c):(b-d)$ も成り立つので（$a=bk,c=dk$ とおくと $a-c=(b-d)k$ となるため）、$[\triangle ABD]:[\triangle ACD]=[\triangle PBD]:[\triangle PCD]$ にこの性質を適用すると
 
-$$BD:DC = [\triangle ABP]:[\triangle ACP] = [\triangle PAB]:[\triangle PAC]$$
+$$BD:DC = [\triangle ABD]:[\triangle ACD] = ([\triangle ABD]-[\triangle PBD]):([\triangle ACD]-[\triangle PCD]) = [\triangle ABP]:[\triangle CAP]$$
 
-が得られます。全く同様に、頂点 $B$、$C$ を通る2本の直線についても
+が得られます（$[\triangle ACP]$ を $[\triangle CAP]$ と表記しています）。全く同様に、頂点 $B$、$C$ を通る2本の直線についても
 
-$$CE:EA = [\triangle PBC]:[\triangle PAB], \qquad AF:FB = [\triangle PAC]:[\triangle PBC]$$
+$$CE:EA = [\triangle BCP]:[\triangle ABP], \qquad AF:FB = [\triangle CAP]:[\triangle BCP]$$
 
 が成り立つので、3つの式を辺々掛け合わせると
 
-$$\frac{BD}{DC}\cdot\frac{CE}{EA}\cdot\frac{AF}{FB} = \frac{[\triangle PAB]}{[\triangle PAC]}\cdot\frac{[\triangle PBC]}{[\triangle PAB]}\cdot\frac{[\triangle PAC]}{[\triangle PBC]} = 1$$
+$$\frac{BD}{DC}\cdot\frac{CE}{EA}\cdot\frac{AF}{FB} = \frac{[\triangle ABP]}{[\triangle CAP]}\cdot\frac{[\triangle BCP]}{[\triangle ABP]}\cdot\frac{[\triangle CAP]}{[\triangle BCP]} = 1$$
 
 となり、途中の面積がすべて打ち消し合ってチェバの定理が得られます。
 
