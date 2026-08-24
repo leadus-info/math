@@ -55,7 +55,7 @@ $a^2+b^2-2ab = (a-b)^2 \geq 0$ なので、① は成り立ちます（等号は
 
 $$\frac{a+b}{2} \geq \sqrt{ab} \quad (\text{等号は } a=b \text{ のとき})$$
 
-**証明**：$(\sqrt a-\sqrt b)^2 = a-2\sqrt a\sqrt b+b = a-2\sqrt{ab}+b$（$\sqrt a\times\sqrt b=\sqrt{ab}$ という平方根の性質を使っています。この展開の考え方は前節の例題で使った $(a-b)^2$ の展開と同じです）なので、$\dfrac{a+b}{2}-\sqrt{ab} = \dfrac{a-2\sqrt{ab}+b}{2} = \dfrac{(\sqrt a - \sqrt b)^2}{2} \geq 0$。よって成り立ちます。$\square$
+**証明**：$(\sqrt a-\sqrt b)^2 = a-2\sqrt a\sqrt b+b = a-2\sqrt{ab}+b$ です（$\sqrt a\times\sqrt b=\sqrt{ab}$ という平方根の性質を使っています。この展開の考え方は前節の例題で使った $(a-b)^2$ の展開と同じです）。したがって、$\dfrac{a+b}{2}-\sqrt{ab} = \dfrac{a-2\sqrt{ab}+b}{2} = \dfrac{(\sqrt a - \sqrt b)^2}{2} \geq 0$ となり、成り立ちます。$\square$
 
 この関係は、和が一定のとき積の最大値を求めたり、積が一定のとき和の最小値を求めたりする問題でよく使われます。
 
