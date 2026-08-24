@@ -1,4 +1,4 @@
-<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="円に内接する四角形ABCDにおいて、対角∠Bが弧ADCに、対角∠Dが弧ABCに、それぞれ対応する円周角であることを示す図">
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="円に内接する四角形ABCD(この順に円周上に並ぶ)において、対角線ACが円を弧ADCと弧ABCに分け、対角∠Bが弧ADCに、対角∠Dが弧ABCに、それぞれ対応する円周角であることを示す図">
   <circle cx="150" cy="150" r="100" fill="none" stroke="currentColor" stroke-width="2"/>
   <path d="M132.64,51.52 L51.52,132.64 L132.64,248.48 L236.60,100.00 Z" fill="none" stroke="currentColor" stroke-width="2"/>
   <line x1="132.64" y1="51.52" x2="132.64" y2="248.48" stroke="currentColor" stroke-width="1.5" stroke-dasharray="5 4"/>
