@@ -15,6 +15,8 @@ hierarchy:
 requires:
   - title: 負数
     path: ../../intermediate/numbers/integers.md
+  - title: 三平方の定理
+    path: ../../intermediate/geometry/pythagorean-theorem.md
 ---
 
 ## 「場所」だけを持つもの
