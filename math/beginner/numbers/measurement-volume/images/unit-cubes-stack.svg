@@ -8,14 +8,14 @@
   <!-- 左パネル: 底面に立方体を並べる -->
   <g stroke="currentColor" fill="none">
     <!-- 底面グリッド外枠（奥行きのオフセットをよこ1列分の見た目の長さに揃え、正方形の集まりに見えるようにする） -->
-    <polygon points="50,170 140,170 180,130 90,130" stroke-width="2"/>
+    <polygon points="50,170 140,170 160,150 70,150" stroke-width="2"/>
     <!-- 底面グリッド内部の仕切り線（よこ方向の段） -->
-    <line x1="70" y1="150" x2="160" y2="150" stroke-width="1"/>
+    <line x1="60" y1="160" x2="150" y2="160" stroke-width="1"/>
     <!-- 底面グリッド内部の仕切り線（たて方向の列） -->
-    <line x1="80" y1="170" x2="100" y2="150" stroke-width="1"/>
-    <line x1="100" y1="150" x2="120" y2="130" stroke-width="1"/>
-    <line x1="110" y1="170" x2="130" y2="150" stroke-width="1"/>
-    <line x1="130" y1="150" x2="150" y2="130" stroke-width="1"/>
+    <line x1="80" y1="170" x2="90" y2="160" stroke-width="1"/>
+    <line x1="90" y1="160" x2="100" y2="150" stroke-width="1"/>
+    <line x1="110" y1="170" x2="120" y2="160" stroke-width="1"/>
+    <line x1="120" y1="160" x2="130" y2="150" stroke-width="1"/>
 
     <!-- 前面帯（立方体の側面を示し、立体感を補強） -->
     <polyline points="50,170 50,200 140,200 140,170" stroke-width="2"/>
@@ -26,16 +26,16 @@
     <line x1="130" y1="150" x2="130" y2="180" stroke-width="1" stroke-dasharray="4 3"/>
 
     <!-- 右側面（立方体の側面を示し、立体感を補強） -->
-    <polyline points="140,170 180,130 180,160 140,200" stroke-width="2"/>
-    <line x1="160" y1="150" x2="160" y2="180" stroke-width="1"/>
+    <polyline points="140,170 160,150 160,180 140,200" stroke-width="2"/>
+    <line x1="150" y1="160" x2="150" y2="190" stroke-width="1"/>
 
     <!-- よこ方向の矢印 -->
     <line x1="50" y1="212" x2="140" y2="212" stroke-width="1.5" marker-start="url(#uc-arrow)" marker-end="url(#uc-arrow)"/>
     <!-- たて方向の矢印 -->
-    <line x1="36" y1="170" x2="76" y2="130" stroke-width="1.5" marker-start="url(#uc-arrow)" marker-end="url(#uc-arrow)"/>
+    <line x1="36" y1="170" x2="56" y2="150" stroke-width="1.5" marker-start="url(#uc-arrow)" marker-end="url(#uc-arrow)"/>
   </g>
   <text x="95" y="226" font-size="13" text-anchor="middle" fill="currentColor">よこ</text>
-  <text x="22" y="154" font-size="13" text-anchor="middle" fill="currentColor">たて</text>
+  <text x="16" y="164" font-size="13" text-anchor="middle" fill="currentColor">たて</text>
   <text x="109" y="248" font-size="13" text-anchor="middle" fill="currentColor">底面に並べる</text>
 
   <!-- 右パネル: 高さの分だけ重ねる -->
