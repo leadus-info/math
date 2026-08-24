@@ -1,0 +1,39 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="座標平面上の2点(x1,y1)と(x2,y2)を頂点とし、よこの辺の長さ|x2-x1|、たての辺の長さ|y2-y1|の直角三角形を示す図">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+    </marker>
+  </defs>
+  <!-- x軸・y軸 -->
+  <line x1="50" y1="250" x2="380" y2="250" stroke="currentColor" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="50" y1="250" x2="50" y2="20" stroke="currentColor" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="385" y="255" font-size="13" fill="currentColor">x</text>
+  <text x="55" y="20" font-size="13" fill="currentColor">y</text>
+
+  <!-- 補助線(点から軸への破線) -->
+  <line x1="120" y1="200" x2="120" y2="250" stroke="currentColor" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="50" y1="200" x2="120" y2="200" stroke="currentColor" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="300" y1="80" x2="300" y2="250" stroke="currentColor" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="50" y1="80" x2="300" y2="80" stroke="currentColor" stroke-width="1" stroke-dasharray="4 3"/>
+
+  <!-- 直角三角形 -->
+  <line x1="120" y1="200" x2="300" y2="200" stroke="currentColor" stroke-width="2"/>
+  <line x1="300" y1="200" x2="300" y2="80" stroke="currentColor" stroke-width="2"/>
+  <line x1="120" y1="200" x2="300" y2="80" stroke="currentColor" stroke-width="2"/>
+
+  <!-- 直角マーク -->
+  <path d="M292,200 L292,192 L300,192" fill="none" stroke="currentColor" stroke-width="1.5"/>
+
+  <!-- 頂点 -->
+  <circle cx="120" cy="200" r="3" fill="currentColor"/>
+  <circle cx="300" cy="80" r="3" fill="currentColor"/>
+
+  <!-- 頂点ラベル -->
+  <text x="112" y="216" font-size="16" text-anchor="end" fill="currentColor">(x₁,y₁)</text>
+  <text x="308" y="72" font-size="16" fill="currentColor">(x₂,y₂)</text>
+
+  <!-- 辺のラベル -->
+  <text x="210" y="218" font-size="16" text-anchor="middle" fill="currentColor">|x₂-x₁|</text>
+  <text x="308" y="145" font-size="16" fill="currentColor">|y₂-y₁|</text>
+</svg>
