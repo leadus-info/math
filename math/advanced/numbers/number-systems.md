@@ -15,6 +15,8 @@ hierarchy:
 requires:
   - title: 自然数
     path: ../../beginner/numbers/natural-numbers.md
+  - title: 割り算
+    path: ../../beginner/numbers/division.md
 ---
 
 ## 10進法をふりかえる
