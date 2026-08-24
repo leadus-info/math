@@ -17,6 +17,8 @@ requires:
     path: normal-distribution.md
   - title: 標本調査
     path: ../../intermediate/probability/sampling.md
+  - title: データの分析
+    path: data-analysis.md
 ---
 
 ## 標本平均の分布
