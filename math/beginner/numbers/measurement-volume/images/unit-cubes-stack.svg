@@ -17,12 +17,20 @@
     <line x1="110" y1="170" x2="124" y2="156" stroke-width="1"/>
     <line x1="124" y1="156" x2="138" y2="142" stroke-width="1"/>
 
+    <!-- 前面帯（立方体の側面を示し、立体感を補強） -->
+    <polyline points="50,170 50,182 140,182 140,170" stroke-width="2"/>
+    <line x1="80" y1="170" x2="80" y2="182" stroke-width="1"/>
+    <line x1="110" y1="170" x2="110" y2="182" stroke-width="1"/>
+    <!-- 奥行き方向の仕切り線に対応する立方体の稜線（短い縦線） -->
+    <line x1="94" y1="156" x2="94" y2="162" stroke-width="1"/>
+    <line x1="124" y1="156" x2="124" y2="162" stroke-width="1"/>
+
     <!-- よこ方向の矢印 -->
-    <line x1="50" y1="186" x2="140" y2="186" stroke-width="1.5" marker-start="url(#uc-arrow)" marker-end="url(#uc-arrow)"/>
+    <line x1="50" y1="190" x2="140" y2="190" stroke-width="1.5" marker-start="url(#uc-arrow)" marker-end="url(#uc-arrow)"/>
     <!-- たて方向の矢印 -->
     <line x1="36" y1="170" x2="64" y2="142" stroke-width="1.5" marker-start="url(#uc-arrow)" marker-end="url(#uc-arrow)"/>
   </g>
-  <text x="95" y="201" font-size="13" text-anchor="middle" fill="currentColor">よこ</text>
+  <text x="95" y="204" font-size="13" text-anchor="middle" fill="currentColor">よこ</text>
   <text x="16" y="160" font-size="13" text-anchor="middle" fill="currentColor">たて</text>
   <text x="109" y="225" font-size="13" text-anchor="middle" fill="currentColor">底面に並べる</text>
 
