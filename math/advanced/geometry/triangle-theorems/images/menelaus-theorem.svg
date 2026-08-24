@@ -28,7 +28,7 @@
   <text x="220" y="34" font-size="16" text-anchor="middle" fill="currentColor">A</text>
   <text x="102" y="290" font-size="16" text-anchor="middle" fill="currentColor">B</text>
   <text x="280" y="300" font-size="16" text-anchor="middle" fill="currentColor">C</text>
-  <text x="372" y="295" font-size="16" text-anchor="middle" fill="currentColor">D</text>
+  <text x="376" y="296" font-size="16" text-anchor="start" fill="currentColor">D</text>
   <text x="272" y="196" font-size="16" fill="currentColor">E</text>
   <text x="196" y="138" font-size="16" text-anchor="start" fill="currentColor">F</text>
 
