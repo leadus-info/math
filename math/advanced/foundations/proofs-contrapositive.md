@@ -15,6 +15,8 @@ hierarchy:
 requires:
   - title: 証明法
     path: proofs.md
+  - title: 必要・十分条件
+    path: logic.md
 ---
 
 ## 同値な対偶を示す
