@@ -1,4 +1,4 @@
-<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="複素平面上で単位円周上に等間隔に並ぶ1の6乗根6個の点 $z_0,\ldots,z_5$。点1($z_0$)を1つの頂点とする正六角形をなす">
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="複素平面上で単位円周上に等間隔に並ぶ1の6乗根6個の点。点1を1つの頂点とする正六角形をなす">
   <!-- real axis -->
   <line x1="20" y1="150" x2="280" y2="150" stroke="currentColor" stroke-width="1" opacity="0.35"/>
   <!-- imaginary axis -->
