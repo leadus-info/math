@@ -7,35 +7,35 @@
 
   <!-- 左パネル: 底面に立方体を並べる -->
   <g stroke="currentColor" fill="none">
-    <!-- 底面グリッド外枠 -->
-    <polygon points="50,170 140,170 168,142 78,142" stroke-width="2"/>
+    <!-- 底面グリッド外枠（奥行きのオフセットをよこ1列分の見た目の長さに揃え、正方形の集まりに見えるようにする） -->
+    <polygon points="50,170 140,170 180,130 90,130" stroke-width="2"/>
     <!-- 底面グリッド内部の仕切り線（よこ方向の段） -->
-    <line x1="64" y1="156" x2="154" y2="156" stroke-width="1"/>
+    <line x1="70" y1="150" x2="160" y2="150" stroke-width="1"/>
     <!-- 底面グリッド内部の仕切り線（たて方向の列） -->
-    <line x1="80" y1="170" x2="94" y2="156" stroke-width="1"/>
-    <line x1="94" y1="156" x2="108" y2="142" stroke-width="1"/>
-    <line x1="110" y1="170" x2="124" y2="156" stroke-width="1"/>
-    <line x1="124" y1="156" x2="138" y2="142" stroke-width="1"/>
+    <line x1="80" y1="170" x2="100" y2="150" stroke-width="1"/>
+    <line x1="100" y1="150" x2="120" y2="130" stroke-width="1"/>
+    <line x1="110" y1="170" x2="130" y2="150" stroke-width="1"/>
+    <line x1="130" y1="150" x2="150" y2="130" stroke-width="1"/>
 
     <!-- 前面帯（立方体の側面を示し、立体感を補強） -->
     <polyline points="50,170 50,182 140,182 140,170" stroke-width="2"/>
     <line x1="80" y1="170" x2="80" y2="182" stroke-width="1"/>
     <line x1="110" y1="170" x2="110" y2="182" stroke-width="1"/>
     <!-- 奥行き方向の仕切り線に対応する立方体の稜線（短い縦線） -->
-    <line x1="94" y1="156" x2="94" y2="162" stroke-width="1"/>
-    <line x1="124" y1="156" x2="124" y2="162" stroke-width="1"/>
+    <line x1="100" y1="150" x2="100" y2="156" stroke-width="1"/>
+    <line x1="130" y1="150" x2="130" y2="156" stroke-width="1"/>
 
     <!-- 右側面（立方体の側面を示し、立体感を補強） -->
-    <polyline points="140,170 168,142 168,154 140,182" stroke-width="2"/>
-    <line x1="154" y1="156" x2="154" y2="168" stroke-width="1"/>
+    <polyline points="140,170 180,130 180,142 140,182" stroke-width="2"/>
+    <line x1="160" y1="150" x2="160" y2="162" stroke-width="1"/>
 
     <!-- よこ方向の矢印 -->
     <line x1="50" y1="190" x2="140" y2="190" stroke-width="1.5" marker-start="url(#uc-arrow)" marker-end="url(#uc-arrow)"/>
     <!-- たて方向の矢印 -->
-    <line x1="36" y1="170" x2="64" y2="142" stroke-width="1.5" marker-start="url(#uc-arrow)" marker-end="url(#uc-arrow)"/>
+    <line x1="36" y1="170" x2="76" y2="130" stroke-width="1.5" marker-start="url(#uc-arrow)" marker-end="url(#uc-arrow)"/>
   </g>
   <text x="95" y="204" font-size="13" text-anchor="middle" fill="currentColor">よこ</text>
-  <text x="16" y="160" font-size="13" text-anchor="middle" fill="currentColor">たて</text>
+  <text x="22" y="154" font-size="13" text-anchor="middle" fill="currentColor">たて</text>
   <text x="109" y="225" font-size="13" text-anchor="middle" fill="currentColor">底面に並べる</text>
 
   <!-- 右パネル: 高さの分だけ重ねる -->
