@@ -1,0 +1,32 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="複素平面上で単位円周上に等間隔に並ぶ1の6乗根6個の点 $z_0,\ldots,z_5$。点1($z_0$)を1つの頂点とする正六角形をなす">
+  <!-- real axis -->
+  <line x1="20" y1="150" x2="280" y2="150" stroke="currentColor" stroke-width="1" opacity="0.35"/>
+  <!-- imaginary axis -->
+  <line x1="150" y1="20" x2="150" y2="280" stroke="currentColor" stroke-width="1" opacity="0.35"/>
+
+  <!-- unit circle, center (150,150), radius 100 -->
+  <circle cx="150" cy="150" r="100" stroke="currentColor" stroke-width="2" fill="none"/>
+
+  <!-- regular hexagon connecting z0..z5 -->
+  <polygon points="250,150 200,63.4 100,63.4 50,150 100,236.6 200,236.6" stroke="currentColor" stroke-width="2" fill="none"/>
+
+  <!-- angle mark between z0 and z1 (0 to 60 degrees) -->
+  <path d="M 180,150 A 30,30 0 0 0 165,124.02" stroke="currentColor" stroke-width="1" fill="none"/>
+  <text x="183" y="135" font-size="12" fill="currentColor">60°</text>
+
+  <!-- points z0..z5 -->
+  <circle cx="250" cy="150" r="3" fill="currentColor"/>
+  <circle cx="200" cy="63.4" r="3" fill="currentColor"/>
+  <circle cx="100" cy="63.4" r="3" fill="currentColor"/>
+  <circle cx="50" cy="150" r="3" fill="currentColor"/>
+  <circle cx="100" cy="236.6" r="3" fill="currentColor"/>
+  <circle cx="200" cy="236.6" r="3" fill="currentColor"/>
+
+  <!-- labels -->
+  <text x="258" y="168" font-size="13" text-anchor="start" fill="currentColor">z₀ = 1</text>
+  <text x="200" y="48" font-size="13" text-anchor="middle" fill="currentColor">z₁</text>
+  <text x="100" y="48" font-size="13" text-anchor="middle" fill="currentColor">z₂</text>
+  <text x="34" y="155" font-size="13" text-anchor="end" fill="currentColor">z₃</text>
+  <text x="100" y="258" font-size="13" text-anchor="middle" fill="currentColor">z₄</text>
+  <text x="200" y="258" font-size="13" text-anchor="middle" fill="currentColor">z₅</text>
+</svg>
