@@ -15,6 +15,8 @@ hierarchy:
 requires:
   - title: 場合の数
     path: counting.md
+  - title: 組み合わせ
+    path: counting-combinations.md
 ---
 
 ## 「どれくらい起きやすいか」を数で表す
