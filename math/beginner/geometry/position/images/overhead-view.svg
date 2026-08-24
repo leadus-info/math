@@ -1,0 +1,8 @@
+<svg viewBox="0 0 300 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="教室を真上から見下ろした図で、自分から見た「前」の方向が紙面の上方向に対応することを示す図">
+  <circle cx="150" cy="290" r="4" fill="currentColor"/>
+  <text x="150" y="312" font-size="14" text-anchor="middle" fill="currentColor">自分</text>
+  <line x1="150" y1="280" x2="150" y2="54" stroke="currentColor" stroke-width="2"/>
+  <path d="M150,40 L144,54 L156,54 Z" fill="currentColor"/>
+  <text x="165" y="175" font-size="14" fill="currentColor">前（奥へ）</text>
+  <text x="165" y="45" font-size="14" fill="currentColor">紙の上</text>
+</svg>
