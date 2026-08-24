@@ -25,7 +25,7 @@ requires:
 
 $$BD:DC = AB:AC$$
 
-**証明の概略**：頂点 $C$ を通り $AD$ に平行な直線を引き、直線 $AB$ との交点を $E$ とします。$AD \parallel EC$ より、$\angle BAD = \angle AEC$（同位角）、$\angle DAC = \angle ACE$（錯角）となり、$\angle BAD=\angle DAC$（仮定）とあわせて $\angle AEC = \angle ACE$、よって三角形 $ACE$ は $AC=AE$ の二等辺三角形になります。三角形 $BEC$ において、辺 $BE$、$BC$ 上の点 $A$、$D$ が $AD \parallel EC$ を満たすので、[相似](../../intermediate/geometry/similarity.md)で見た「平行線と線分の比」の関係より $BA:BE = BD:BC$ が成り立ちます。$DC = BC-BD$、$AE = BE-BA$ を用いてこの比を変形すると $BD:DC = BA:AE$ となり、$AE=AC$ とあわせて $BD:DC = AB:AC$ が得られます。
+**証明の概略**：頂点 $C$ を通り $AD$ に平行な直線を引き、直線 $AB$ との交点を $E$ とします。$AD \parallel EC$ より、$\angle BAD = \angle AEC$（同位角の関係）が成り立ちます。同じく $AD \parallel EC$ より、$\angle DAC = \angle ACE$（錯角の関係）が成り立ちます。仮定より $\angle BAD = \angle DAC$ なので、これら2つの等式とあわせると $\angle AEC = \angle ACE$ が得られます。よって三角形 $ACE$ は2つの底角が等しい二等辺三角形であり、$AC=AE$ が成り立ちます。三角形 $BEC$ において、辺 $BE$、$BC$ 上の点 $A$、$D$ が $AD \parallel EC$ を満たすので、[相似](../../intermediate/geometry/similarity.md)で見た「平行線と線分の比」の関係より $BA:BE = BD:BC$ が成り立ちます。一般に、$a:b=c:d$ が成り立つとき、$a:(b-a)=c:(d-c)$ も成り立ちます($a=bk$、$c=dk$(kは比の値)とおくと $b-a=b(1-k)$、$d-c=d(1-k)$ となり、$a:(b-a)=bk:b(1-k)=k:(1-k)$、$c:(d-c)=dk:d(1-k)=k:(1-k)$ で一致するため)。$BA:BE = BD:BC$ にこの性質を適用すると、$DC=BC-BD$、$AE=BE-BA$ を用いて $BA:AE = BD:DC$ が得られます。$AE=AC$ とあわせて $BD:DC = AB:AC$ が得られます。
 
 ![頂角Aの二等分線ADが対辺BCをBD:DC=AB:ACに内分することを示す図](triangle-theorems/images/angle-bisector.svg)
 
