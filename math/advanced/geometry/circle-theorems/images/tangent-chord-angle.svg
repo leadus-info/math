@@ -1,0 +1,17 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="円の接線と接点Tを通る弦TAのなす角θと、弦の反対側の弧上の点Bにおける円周角∠TBAが等しいことを示す図">
+  <circle cx="150" cy="150" r="100" fill="none" stroke="currentColor" stroke-width="2"/>
+  <line x1="60" y1="250" x2="240" y2="250" stroke="currentColor" stroke-width="2"/>
+  <line x1="150" y1="250" x2="56.03" y2="184.20" stroke="currentColor" stroke-width="2"/>
+  <line x1="150" y1="250" x2="150" y2="50" stroke="currentColor" stroke-width="2"/>
+  <line x1="56.03" y1="184.20" x2="150" y2="50" stroke="currentColor" stroke-width="2"/>
+  <path d="M128.00,250.00 Q132.16,244.37 131.98,237.38" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M150.00,72.00 Q144.37,67.84 137.38,68.02" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <circle cx="150" cy="250" r="3" fill="currentColor"/>
+  <circle cx="56.03" cy="184.20" r="3" fill="currentColor"/>
+  <circle cx="150" cy="50" r="3" fill="currentColor"/>
+  <text x="150" y="270" font-size="16" text-anchor="middle" fill="currentColor">T</text>
+  <text x="37.24" y="195.04" font-size="16" text-anchor="middle" fill="currentColor">A</text>
+  <text x="150" y="30" font-size="16" text-anchor="middle" fill="currentColor">B</text>
+  <text x="117.57" y="239.77" font-size="14" text-anchor="middle" fill="currentColor">θ</text>
+  <text x="139.77" y="82.43" font-size="14" text-anchor="middle" fill="currentColor">θ</text>
+</svg>
