@@ -1,0 +1,21 @@
+<svg viewBox="0 0 300 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="四角形の左端の三角形部分を切り取って右端に移動させると、たて×よこの長方形に形が変わり、底辺と高さは変わらないまま面積が「底辺×高さ」になることを表す図">
+  <polygon points="60,180 200,180 240,60 100,60" fill="none" stroke="currentColor" stroke-width="2"/>
+  <line x1="100" y1="60" x2="100" y2="180" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="240" y1="60" x2="240" y2="180" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <path d="M100,168 L112,168 L112,180" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M240,168 L228,168 L228,180" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M85,150 L225,150" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M225,150 L213,144 M225,150 L213,156" stroke="currentColor" stroke-width="1.5" fill="none"/>
+  <circle cx="60" cy="180" r="3" fill="currentColor"/>
+  <circle cx="200" cy="180" r="3" fill="currentColor"/>
+  <circle cx="240" cy="60" r="3" fill="currentColor"/>
+  <circle cx="100" cy="60" r="3" fill="currentColor"/>
+  <circle cx="100" cy="180" r="3" fill="currentColor"/>
+  <circle cx="240" cy="180" r="3" fill="currentColor"/>
+  <text x="60" y="200" font-size="16" text-anchor="middle" fill="currentColor">A</text>
+  <text x="200" y="200" font-size="16" text-anchor="middle" fill="currentColor">B</text>
+  <text x="240" y="46" font-size="16" text-anchor="middle" fill="currentColor">C</text>
+  <text x="100" y="46" font-size="16" text-anchor="middle" fill="currentColor">D</text>
+  <text x="100" y="200" font-size="16" text-anchor="middle" fill="currentColor">E</text>
+  <text x="240" y="200" font-size="16" text-anchor="middle" fill="currentColor">F</text>
+</svg>

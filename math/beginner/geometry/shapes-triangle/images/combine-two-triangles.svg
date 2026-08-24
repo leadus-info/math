@@ -15,4 +15,10 @@
   <path d="M81.1,112.5 L92.5,116.1" stroke="currentColor" stroke-width="1.5"/>
   <path d="M171.1,272.5 L182.5,276.1" stroke="currentColor" stroke-width="1.5"/>
   <path d="M167.5,283.9 L178.9,287.5" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M139.9,93.2 L130.6,84.7 M139.9,93.2 L137.6,80.8" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M89.9,253.2 L80.6,244.7 M89.9,253.2 L87.6,240.8" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M183.2,253.7 L183.0,241.1 M183.2,253.7 L190.6,243.5" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M180.2,263.3 L180.0,250.6 M180.2,263.3 L187.6,253.0" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M93.2,93.7 L93.0,81.1 M93.2,93.7 L100.6,83.5" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M90.2,103.3 L90.0,90.6 M90.2,103.3 L97.6,93.0" stroke="currentColor" stroke-width="1.5"/>
 </svg>
