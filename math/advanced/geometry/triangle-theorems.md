@@ -81,6 +81,8 @@ $$\frac{BD}{DC}\cdot\frac{CE}{EA}\cdot\frac{AF}{FB} = \frac{BB'}{CC'}\cdot\frac{
 
 となり、メネラウスの定理が得られます。
 
+![三角形ABCの辺BCの延長上の点D、辺CA上の点E、辺ABの点Fを通る直線ℓと、頂点A、B、Cから直線ℓへ下ろした垂線の足A'、B'、C'を示す図](triangle-theorems/images/menelaus-theorem.svg)
+
 **例題**：辺$BC$の延長上に点$D$を$BD:DC=3:1$（$D$は$C$の外側）となるようにとり、辺$CA$上に点$E$を$CE:EA=1:2$となるようにとる。直線$DE$が辺$AB$と交わる点を$F$とするとき、$AF:FB$を求める。メネラウスの定理より $\dfrac{BD}{DC}\cdot\dfrac{CE}{EA}\cdot\dfrac{AF}{FB}=1$ なので、$\dfrac{3}{1}\cdot\dfrac{1}{2}\cdot\dfrac{AF}{FB}=1$、$\dfrac{3}{2}\cdot\dfrac{AF}{FB}=1$、$AF:FB=2:3$。
 
 ---
