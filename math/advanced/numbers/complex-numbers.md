@@ -134,7 +134,7 @@ $$(\cos\theta+i\sin\theta)^n = \cos n\theta + i\sin n\theta$$
 
 $z^n=1$ を満たす複素数 $z$ を、**1の$n$乗根**といいます。
 
-まず、両辺の絶対値を取ると $|z|^n=1$。$|z|$ は0以上の実数なので $|z|=1$。よって $z=\cos\theta+i\sin\theta$ とおけます。
+まず、両辺の絶対値を取ると $|z|^n=1$。極形式の節で見た絶対値の乗法性 $|z_1z_2|=|z_1||z_2|$ を $z$ を$n$個掛けた積に繰り返し使うと、$|z^n|=|z|^n$ となるのでこの式が得られます。$|z|$ は0以上の実数なので $|z|=1$。よって $z=\cos\theta+i\sin\theta$ とおけます。
 
 これにド・モアブルの定理を使うと、
 
@@ -145,6 +145,8 @@ $$\cos n\theta+i\sin n\theta=1$$
 $$n\theta = 2k\pi \quad (k\text{は整数})$$
 
 したがって $\theta=\dfrac{2k\pi}{n}$ です。
+
+$k$ を $n$ だけずらすと $\theta$ は $2\pi$ の整数倍だけ変わり、同じ点を指します。したがって、相異なる点を与える $k$ は $0,1,\ldots,n-1$ の $n$ 個に限られます。
 
 $$z_k = \cos\frac{2k\pi}{n}+i\sin\frac{2k\pi}{n} \quad (k=0,1,\ldots,n-1)$$
 
