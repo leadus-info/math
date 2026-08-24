@@ -17,6 +17,8 @@ requires:
     path: ../../beginner/numbers/natural-numbers.md
   - title: 割り算
     path: ../../beginner/numbers/division.md
+  - title: 累乗
+    path: ../../intermediate/numbers/arithmetic.md
 ---
 
 ## 10進法をふりかえる
