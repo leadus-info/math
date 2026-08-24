@@ -12,9 +12,6 @@ hierarchy:
     path: ../index.md
   - title: 標本調査
     path: sampling.md
-requires:
-  - title: 四分位範囲と箱ひげ図
-    path: box-plot.md
 ---
 
 ## 全部調べるか、一部を調べるか
