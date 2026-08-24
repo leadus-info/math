@@ -1,0 +1,20 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="2本の直線が1点Oで交わってできる4つの角の図。上側の角をaとする。aと隣り合う右側の角は180°-a。aの真下、交点を挟んでaと向かい合う位置(対頂角の位置)にある角をaの対頂角とする。残る左側の角は、180°-aと交点を挟んで向かい合う位置にあり、180°-aとする。">
+  <!-- two intersecting lines -->
+  <line x1="314.91" y1="103.58" x2="85.09" y2="296.42" stroke="currentColor" stroke-width="2"/>
+  <line x1="186.93" y1="50.57" x2="213.07" y2="349.43" stroke="currentColor" stroke-width="2"/>
+
+  <!-- angle arcs (top, right, bottom, left, going clockwise) -->
+  <path d="M197.39,170.11 A 30 30 0 0 1 222.98,180.72" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M222.98,180.72 A 30 30 0 0 1 202.61,229.89" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M202.61,229.89 A 30 30 0 0 1 177.02,219.28" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M177.02,219.28 A 30 30 0 0 1 197.39,170.11" fill="none" stroke="currentColor" stroke-width="1.5"/>
+
+  <!-- angle labels -->
+  <text x="219.13" y="153.81" font-size="13" text-anchor="middle" fill="currentColor">a</text>
+  <text x="253.58" y="222.20" font-size="13" text-anchor="middle" fill="currentColor">180°-a</text>
+  <text x="177.04" y="255.43" font-size="13" text-anchor="middle" fill="currentColor">aの対頂角</text>
+  <text x="146.41" y="177.80" font-size="13" text-anchor="middle" fill="currentColor">180°-a</text>
+
+  <circle cx="200" cy="200" r="3" fill="currentColor"/>
+  <text x="210" y="196" font-size="12" text-anchor="start" fill="currentColor">O</text>
+</svg>
