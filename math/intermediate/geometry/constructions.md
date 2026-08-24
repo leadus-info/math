@@ -15,6 +15,8 @@ hierarchy:
 requires:
   - title: 直線
     path: ../../beginner/geometry/shapes-line.md
+  - title: 合同と証明
+    path: congruence.md
 ---
 
 ## 定規とコンパスだけでかく
