@@ -1,0 +1,41 @@
+<svg viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="f(x) = x^3 - 3x のグラフ。曲線は3点 x = -√3, 0, √3 でx軸と交わる。x = -1 で山(高さ2)になり、x = 1 で谷(深さ-2)になる。">
+  <defs>
+    <marker id="arrow-cubic" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+    </marker>
+  </defs>
+
+  <!-- axes -->
+  <line x1="15" y1="240" x2="465" y2="240" stroke="currentColor" stroke-width="1.5" marker-end="url(#arrow-cubic)"/>
+  <line x1="240" y1="465" x2="240" y2="15" stroke="currentColor" stroke-width="1.5" marker-end="url(#arrow-cubic)"/>
+  <text x="452" y="234" font-size="14" fill="currentColor">x</text>
+  <text x="248" y="26" font-size="14" fill="currentColor">y</text>
+
+  <!-- curve: f(x) = x^3 - 3x, sampled for x in [-2.2, 2.2] (clipped to viewBox) -->
+  <path d="M 40.00,563.84 L 44.55,519.07 L 49.09,476.88 L 53.64,437.21 L 58.18,400.00 L 62.73,365.19 L 67.27,332.72 L 71.82,302.53 L 76.36,274.56 L 80.91,248.75 L 85.45,225.04 L 90.00,203.37 L 94.55,183.68 L 99.09,165.91 L 103.64,150.00 L 108.18,135.89 L 112.73,123.52 L 117.27,112.83 L 121.82,103.76 L 126.36,96.25 L 130.91,90.24 L 135.45,85.67 L 140.00,82.48 L 144.55,80.61 L 149.09,80.00 L 153.64,80.59 L 158.18,82.32 L 162.73,85.13 L 167.27,88.96 L 171.82,93.75 L 176.36,99.44 L 180.91,105.97 L 185.45,113.28 L 190.00,121.31 L 194.55,130.00 L 199.09,139.29 L 203.64,149.12 L 208.18,159.43 L 212.73,170.16 L 217.27,181.25 L 221.82,192.64 L 226.36,204.27 L 230.91,216.08 L 235.45,228.01 L 240.00,240.00 L 244.55,251.99 L 249.09,263.92 L 253.64,275.73 L 258.18,287.36 L 262.73,298.75 L 267.27,309.84 L 271.82,320.57 L 276.36,330.88 L 280.91,340.71 L 285.45,350.00 L 290.00,358.69 L 294.55,366.72 L 299.09,374.03 L 303.64,380.56 L 308.18,386.25 L 312.73,391.04 L 317.27,394.87 L 321.82,397.68 L 326.36,399.41 L 330.91,400.00 L 335.45,399.39 L 340.00,397.52 L 344.55,394.33 L 349.09,389.76 L 353.64,383.75 L 358.18,376.24 L 362.73,367.17 L 367.27,356.48 L 371.82,344.11 L 376.36,330.00 L 380.91,314.09 L 385.45,296.32 L 390.00,276.63 L 394.55,254.96 L 399.09,231.25 L 403.64,205.44 L 408.18,177.47 L 412.73,147.28 L 417.27,114.81 L 421.82,80.00 L 426.36,42.79 L 430.91,3.12"
+        fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- x-axis integer ticks at x = -2, 2 (table endpoints) -->
+  <line x1="58.18" y1="236" x2="58.18" y2="244" stroke="currentColor" stroke-width="1.5"/>
+  <text x="58.18" y="258" font-size="12" text-anchor="middle" fill="currentColor">-2</text>
+  <line x1="421.82" y1="236" x2="421.82" y2="244" stroke="currentColor" stroke-width="1.5"/>
+  <text x="421.82" y="258" font-size="12" text-anchor="middle" fill="currentColor">2</text>
+
+  <!-- x-intercepts: x = -sqrt3, 0, sqrt3 -->
+  <circle cx="82.54" cy="240" r="3" fill="currentColor"/>
+  <text x="82.54" y="276" font-size="12" text-anchor="middle" fill="currentColor">-√3</text>
+  <circle cx="240" cy="240" r="3" fill="currentColor"/>
+  <circle cx="397.46" cy="240" r="3" fill="currentColor"/>
+  <text x="397.46" y="276" font-size="12" text-anchor="middle" fill="currentColor">√3</text>
+
+  <!-- extrema -->
+  <circle cx="149.09" cy="80" r="3.5" fill="currentColor"/>
+  <text x="149.09" y="64" font-size="13" text-anchor="middle" fill="currentColor">(-1, 2)</text>
+  <circle cx="330.91" cy="400" r="3.5" fill="currentColor"/>
+  <text x="330.91" y="420" font-size="13" text-anchor="middle" fill="currentColor">(1, -2)</text>
+
+  <!-- remaining table points, shown faintly on the curve -->
+  <circle cx="58.18" cy="400" r="2.5" fill="currentColor" fill-opacity="0.5"/>
+  <circle cx="421.82" cy="80" r="2.5" fill="currentColor" fill-opacity="0.5"/>
+</svg>
