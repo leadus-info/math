@@ -1,4 +1,4 @@
-<svg viewBox="0 0 420 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="底面にたて・よこ方向へ1cm³の立方体を敷き詰め、それを高さの分だけ層状に積み重ねて直方体を作る様子を示す図">
+<svg viewBox="0 0 420 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="底面にたて・よこ方向へ1cm³の立方体を敷き詰め、それを高さの分だけ層状に積み重ねて直方体を作る様子を示す図">
   <defs>
     <marker id="uc-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
       <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
@@ -18,25 +18,25 @@
     <line x1="130" y1="150" x2="150" y2="130" stroke-width="1"/>
 
     <!-- 前面帯（立方体の側面を示し、立体感を補強） -->
-    <polyline points="50,170 50,182 140,182 140,170" stroke-width="2"/>
-    <line x1="80" y1="170" x2="80" y2="182" stroke-width="1"/>
-    <line x1="110" y1="170" x2="110" y2="182" stroke-width="1"/>
-    <!-- 奥行き方向の仕切り線に対応する立方体の稜線（短い縦線） -->
-    <line x1="100" y1="150" x2="100" y2="156" stroke-width="1"/>
-    <line x1="130" y1="150" x2="130" y2="156" stroke-width="1"/>
+    <polyline points="50,170 50,200 140,200 140,170" stroke-width="2"/>
+    <line x1="80" y1="170" x2="80" y2="200" stroke-width="1"/>
+    <line x1="110" y1="170" x2="110" y2="200" stroke-width="1"/>
+    <!-- 奥行き方向の仕切り線に対応する立方体の稜線（隠れ線、点線） -->
+    <line x1="100" y1="150" x2="100" y2="180" stroke-width="1" stroke-dasharray="4 3"/>
+    <line x1="130" y1="150" x2="130" y2="180" stroke-width="1" stroke-dasharray="4 3"/>
 
     <!-- 右側面（立方体の側面を示し、立体感を補強） -->
-    <polyline points="140,170 180,130 180,142 140,182" stroke-width="2"/>
-    <line x1="160" y1="150" x2="160" y2="162" stroke-width="1"/>
+    <polyline points="140,170 180,130 180,160 140,200" stroke-width="2"/>
+    <line x1="160" y1="150" x2="160" y2="180" stroke-width="1"/>
 
     <!-- よこ方向の矢印 -->
-    <line x1="50" y1="190" x2="140" y2="190" stroke-width="1.5" marker-start="url(#uc-arrow)" marker-end="url(#uc-arrow)"/>
+    <line x1="50" y1="212" x2="140" y2="212" stroke-width="1.5" marker-start="url(#uc-arrow)" marker-end="url(#uc-arrow)"/>
     <!-- たて方向の矢印 -->
     <line x1="36" y1="170" x2="76" y2="130" stroke-width="1.5" marker-start="url(#uc-arrow)" marker-end="url(#uc-arrow)"/>
   </g>
-  <text x="95" y="204" font-size="13" text-anchor="middle" fill="currentColor">よこ</text>
+  <text x="95" y="226" font-size="13" text-anchor="middle" fill="currentColor">よこ</text>
   <text x="22" y="154" font-size="13" text-anchor="middle" fill="currentColor">たて</text>
-  <text x="109" y="225" font-size="13" text-anchor="middle" fill="currentColor">底面に並べる</text>
+  <text x="109" y="248" font-size="13" text-anchor="middle" fill="currentColor">底面に並べる</text>
 
   <!-- 右パネル: 高さの分だけ重ねる -->
   <g stroke="currentColor" fill="none">
@@ -67,5 +67,5 @@
     <line x1="236" y1="170" x2="236" y2="104" stroke-width="1.5" marker-start="url(#uc-arrow)" marker-end="url(#uc-arrow)"/>
   </g>
   <text x="215" y="141" font-size="13" text-anchor="middle" fill="currentColor">高さ</text>
-  <text x="309" y="225" font-size="13" text-anchor="middle" fill="currentColor">高さの分だけ重ねる</text>
+  <text x="309" y="248" font-size="13" text-anchor="middle" fill="currentColor">高さの分だけ重ねる</text>
 </svg>
