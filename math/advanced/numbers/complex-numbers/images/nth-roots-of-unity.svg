@@ -10,9 +10,14 @@
   <!-- regular hexagon connecting z0..z5 -->
   <polygon points="250,150 200,63.4 100,63.4 50,150 100,236.6 200,236.6" stroke="currentColor" stroke-width="2" fill="none"/>
 
-  <!-- angle mark between z0 and z1 (0 to 60 degrees) -->
+  <!-- auxiliary radii from center to z0 and z1, to make the 60-degree angle at the center visible -->
+  <line x1="150" y1="150" x2="250" y2="150" stroke="currentColor" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="150" y1="150" x2="200" y2="63.4" stroke="currentColor" stroke-width="1" stroke-dasharray="4 3"/>
+
+  <!-- angle mark at center O between radii to z0 and z1 (0 to 60 degrees) -->
   <path d="M 180,150 A 30,30 0 0 0 165,124.02" stroke="currentColor" stroke-width="1" fill="none"/>
   <text x="183" y="135" font-size="12" fill="currentColor">60°</text>
+  <text x="140" y="145" font-size="12" text-anchor="end" fill="currentColor">O</text>
 
   <!-- points z0..z5 -->
   <circle cx="250" cy="150" r="3" fill="currentColor"/>
