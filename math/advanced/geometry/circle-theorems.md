@@ -17,6 +17,8 @@ requires:
     path: ../../intermediate/geometry/circle-angles.md
   - title: 円
     path: circles.md
+  - title: 相似
+    path: ../../intermediate/geometry/similarity.md
 ---
 
 ## 円に内接する四角形
