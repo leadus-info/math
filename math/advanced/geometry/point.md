@@ -15,6 +15,10 @@ hierarchy:
 requires:
   - title: 負数
     path: ../../intermediate/numbers/integers.md
+  - title: 三平方の定理
+    path: ../../intermediate/geometry/pythagorean-theorem.md
+  - title: 相似
+    path: ../../intermediate/geometry/similarity.md
 ---
 
 ## 「場所」だけを持つもの
@@ -53,7 +57,7 @@ $$M = \left(\frac{x_1+x_2}{2}, \frac{y_1+y_2}{2}\right)$$
 
 $$P = \left(\frac{nx_1+mx_2}{m+n}, \frac{ny_1+my_2}{m+n}\right)$$
 
-この式は、$A$、$P$、$B$ をそれぞれ $x$ 軸に垂直に射影した点の間でも同じ比 $m:n$ が保たれることから導けます。$x$ 座標について $P_x - x_1 : x_2 - P_x = m:n$ が成り立つので、$n(P_x-x_1)=m(x_2-P_x)$ を $P_x$ について解くと $P_x = \dfrac{nx_1+mx_2}{m+n}$ が得られます（$y$ 座標も同様に求まります）。
+この式は、$A$、$P$、$B$ からそれぞれ $x$ 軸に下ろした垂線の足（$x$ 軸への**射影**）の間でも同じ比 $m:n$ が保たれることから導けます。$A$、$P$、$B$ は一直線上にあり、そこから $x$ 軸へ下ろす垂線は互いに平行（すべて $x$ 軸に垂直）なので、[相似](../../intermediate/geometry/similarity.md)で見た「平行線と線分の比」の定理（平行な複数の直線が2本の直線を切り取る線分の比は等しい）により、線分 $AB$ 上の比 $m:n$ は $x$ 軸上の射影の間でも $m:n$ のまま保たれます。$x$ 座標について $P_x - x_1 : x_2 - P_x = m:n$ が成り立つので、$n(P_x-x_1)=m(x_2-P_x)$ を $P_x$ について解くと $P_x = \dfrac{nx_1+mx_2}{m+n}$ が得られます（$y$ 座標も同様に求まります）。
 
 **例**：$A(0,0)$, $B(6,9)$ を $2:1$ に内分する点：$\left(\frac{1\cdot0+2\cdot6}{3}, \frac{1\cdot0+2\cdot9}{3}\right) = (4, 6)$
 
