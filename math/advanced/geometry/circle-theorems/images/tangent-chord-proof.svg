@@ -1,0 +1,20 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="接弦定理の証明:中心Oと接点T・弦TAの他端Aを結ぶ半径OT・OAでできる二等辺三角形OTAにおいて、接線と半径OTが直角に交わること、底角∠OTA=∠OAT=90°−θであること、中心角∠TOA=2θであることを示す図">
+  <circle cx="150" cy="150" r="100" fill="none" stroke="currentColor" stroke-width="2"/>
+  <line x1="60" y1="250" x2="240" y2="250" stroke="currentColor" stroke-width="2"/>
+  <line x1="150" y1="250" x2="56.03" y2="184.20" stroke="currentColor" stroke-width="2"/>
+  <line x1="150" y1="150" x2="150" y2="250" stroke="currentColor" stroke-width="2"/>
+  <line x1="150" y1="150" x2="56.03" y2="184.20" stroke="currentColor" stroke-width="2"/>
+  <path d="M140,250 L140,240 L150,240" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M150,228 Q141.26,233.22 131.98,237.38" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M76.70,176.68 Q74.79,186.67 74.05,196.82" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M150,175 Q137.38,168.02 126.51,158.55" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <circle cx="150" cy="150" r="3" fill="currentColor"/>
+  <circle cx="150" cy="250" r="3" fill="currentColor"/>
+  <circle cx="56.03" cy="184.20" r="3" fill="currentColor"/>
+  <text x="158" y="146" font-size="16" fill="currentColor">O</text>
+  <text x="150" y="270" font-size="16" text-anchor="middle" fill="currentColor">T</text>
+  <text x="37.24" y="195.04" font-size="16" text-anchor="middle" fill="currentColor">A</text>
+  <text x="133.84" y="218.95" font-size="13" text-anchor="middle" fill="currentColor">90°−θ</text>
+  <text x="90.73" y="188.77" font-size="13" text-anchor="middle" fill="currentColor">90°−θ</text>
+  <text x="127.05" y="182.76" font-size="14" text-anchor="middle" fill="currentColor">2θ</text>
+</svg>
