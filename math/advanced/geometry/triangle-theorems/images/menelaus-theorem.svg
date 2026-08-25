@@ -1,0 +1,42 @@
+<svg viewBox="0 0 450 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="三角形ABCの辺BCの延長上の点D、辺CA上の点E、辺ABの点Fを通る直線ℓと、頂点A、B、Cから直線ℓへ下ろした垂線の足A'、B'、C'を示す図">
+  <polygon points="220,50 120,280 280,280" fill="none" stroke="currentColor" stroke-width="2"/>
+
+  <!-- line l through D, E, F -->
+  <line x1="375.9" y1="292.2" x2="126" y2="100.5" stroke="currentColor" stroke-width="1.5"/>
+
+  <!-- perpendiculars from A, B, C to line l -->
+  <line x1="220" y1="50" x2="160.8" y2="127.3" stroke="currentColor" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="120" y1="280" x2="208.8" y2="164.1" stroke="currentColor" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="280" y1="280" x2="309.6" y2="241.4" stroke="currentColor" stroke-width="1" stroke-dasharray="4 3"/>
+
+  <!-- triangle vertices -->
+  <circle cx="220" cy="50" r="3" fill="currentColor"/>
+  <circle cx="120" cy="280" r="3" fill="currentColor"/>
+  <circle cx="280" cy="280" r="3" fill="currentColor"/>
+
+  <!-- D, E, F on line l -->
+  <circle cx="360" cy="280" r="3" fill="currentColor"/>
+  <circle cx="260" cy="203.3" r="3" fill="currentColor"/>
+  <circle cx="180" cy="142" r="3" fill="currentColor"/>
+
+  <!-- feet of perpendiculars A', B', C' -->
+  <circle cx="160.8" cy="127.3" r="3" fill="currentColor"/>
+  <circle cx="208.8" cy="164.1" r="3" fill="currentColor"/>
+  <circle cx="309.6" cy="241.4" r="3" fill="currentColor"/>
+
+  <!-- labels -->
+  <text x="220" y="34" font-size="16" text-anchor="middle" fill="currentColor">A</text>
+  <text x="102" y="290" font-size="16" text-anchor="middle" fill="currentColor">B</text>
+  <text x="280" y="300" font-size="16" text-anchor="middle" fill="currentColor">C</text>
+  <text x="376" y="296" font-size="16" text-anchor="start" fill="currentColor">D</text>
+  <text x="272" y="196" font-size="16" fill="currentColor">E</text>
+  <text x="196" y="138" font-size="16" text-anchor="start" fill="currentColor">F</text>
+
+  <text x="130" y="112" font-size="16" text-anchor="middle" fill="currentColor">A'</text>
+  <text x="225" y="176" font-size="16" text-anchor="middle" fill="currentColor">B'</text>
+  <text x="322" y="238" font-size="16" text-anchor="middle" fill="currentColor">C'</text>
+
+  <text x="118" y="98" font-size="16" text-anchor="end" fill="currentColor">ℓ</text>
+
+  <text x="225" y="18" font-size="13" text-anchor="middle" fill="currentColor">(BD/DC)・(CE/EA)・(AF/FB) = 1</text>
+</svg>
