@@ -17,6 +17,8 @@ requires:
     path: ../../intermediate/geometry/circle-angles.md
   - title: 円
     path: circles.md
+  - title: 相似
+    path: ../../intermediate/geometry/similarity.md
 ---
 
 ## 円に内接する四角形
@@ -53,7 +55,7 @@ requires:
 
 $$PA \cdot PB = PC \cdot PD$$
 
-が成り立ちます。これを**方べきの定理**といいます。円周角の定理を使うと、三角形 $PAC$ と三角形 $PDB$ が相似であることが示せます（$P$が円の外部にあり、$A$が$P,B$の間、$C$が$P,D$の間にある場合を確かめます。$P$が円の内部にある場合も同様の考え方で示せます）。$A,B,C,D$は同一円周上にあるので、四角形$ABDC$（$A,B,D,C$の順に並ぶ四角形）に着目すると、円に内接する四角形の性質（対角の和が$180°$、前節参照）より $\angle BAC+\angle CDB=180°$。$P,A,B$は一直線上にあり$A$が$P,B$の間にあるので$\angle PAC=180°-\angle BAC$、$P,C,D$も同様に半直線$DP$と半直線$DC$が一致するので$\angle PDB=\angle CDB$。これらを組み合わせると$\angle PAC=\angle PDB$。また$\angle APC$と$\angle DPB$は同じ角なので、三角形$PAC$と三角形$PDB$は2組の角がそれぞれ等しく相似であることが示せ、そこから比の関係として $PA\cdot PB=PC\cdot PD$ が導けます。
+が成り立ちます。これを**方べきの定理**といいます。円周角の定理を使うと、三角形 $PAC$ と三角形 $PDB$ が相似であることが示せます（$P$が円の外部にあり、$A$が$P,B$の間、$C$が$P,D$の間にある場合を確かめます。$P$が円の内部にある場合も同様の考え方で示せます）。$A,B,C,D$は同一円周上にあるので、四角形$ABDC$（$A,B,D,C$の順に並ぶ四角形）に着目すると、円に内接する四角形の性質（対角の和が$180°$、前節参照）より $\angle BAC+\angle CDB=180°$。$P,A,B$は一直線上にあり$A$が$P,B$の間にあるので$\angle PAC=180°-\angle BAC$、$P,C,D$も同様に半直線$DP$と半直線$DC$が一致するので$\angle PDB=\angle CDB$。これらを組み合わせると$\angle PAC=\angle PDB$。また、$P,A,B$は一直線上にあり$A$が$P,B$の間にあるので半直線$PA$と半直線$PB$は一致し、同様に$P,C,D$も一直線上にあり$C$が$P,D$の間にあるので半直線$PC$と半直線$PD$も一致します。したがって$\angle APC$と$\angle DPB$は、半直線$PA$（$=PB$）と半直線$PC$（$=PD$）という同じ2本の半直線がなす同じ角です。以上より三角形$PAC$と三角形$PDB$は2組の角がそれぞれ等しく（$\angle PAC=\angle PDB$、$\angle APC=\angle DPB$）相似であることが示せます（対応関係は$P\leftrightarrow P$、$A\leftrightarrow D$、$C\leftrightarrow B$）。相似な図形では対応する辺の比が等しいので $PA:PD=PC:PB$ が成り立ち、これは内項の積と外項の積が等しいことから $PA\cdot PB=PC\cdot PD$ と書き直せます。
 
 $P$ から円への接線の長さ $PT$ についても、$PT^2 = PA\cdot PB$ が成り立ちます。円と2点で交わる直線を**割線**といいます。接線は、割線の2つの交点$A,B$が同じ点に近づき重なった極限とみなせるので、$A,B$がともに接点$T$になり、$PA\cdot PB$が$PT\cdot PT=PT^2$に対応します。
 
