@@ -1,11 +1,15 @@
 <svg viewBox="0 0 400 350" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="頂角Aの二等分線ADが対辺BCをBD:DC=AB:ACに内分することを示す図。頂点Cを通りADに平行な直線と直線ABの交点Eも示す">
   <polygon points="160,180 40,320 340,320" fill="none" stroke="currentColor" stroke-width="2"/>
   <line x1="160" y1="180" x2="174.1" y2="320" stroke="currentColor" stroke-width="2"/>
-  <line x1="340" y1="320" x2="308.4" y2="6.9" stroke="currentColor" stroke-width="2"/>
+  <line x1="340" y1="320" x2="308.4" y2="6.9" stroke="currentColor" stroke-width="1" stroke-dasharray="4 3"/>
 
   <!-- equal-angle arcs at A -->
   <path d="M 139.2,204.3 A 32,32 0 0 1 163.2,211.8" fill="none" stroke="currentColor" stroke-width="1"/>
   <path d="M 163.2,211.8 A 32,32 0 0 1 185.3,199.6" fill="none" stroke="currentColor" stroke-width="1"/>
+
+  <!-- AD∥CE parallel marks -->
+  <path d="M -4,-6 L 4,0 L -4,6" fill="none" stroke="currentColor" stroke-width="1.5" transform="translate(167.05,250) rotate(84.25)"/>
+  <path d="M -4,-6 L 4,0 L -4,6" fill="none" stroke="currentColor" stroke-width="1.5" transform="translate(324.2,163.45) rotate(84.25)"/>
 
   <circle cx="160" cy="180" r="3" fill="currentColor"/>
   <circle cx="40" cy="320" r="3" fill="currentColor"/>
