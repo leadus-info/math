@@ -100,6 +100,8 @@ $p=2m$ とおくと $q^2 = 2m^2$ となり $q$ も偶数——これは $p, q$ �
 
 $$P \Rightarrow Q \iff A \subseteq B$$
 
+ここで $\subseteq$ は、等号を含まない真部分集合を表す $\subset$ とは異なり、$A = B$ となる場合も含む点に注意してください。
+
 同値 $P \Leftrightarrow Q$ は $A = B$ に対応します。
 
 ---
