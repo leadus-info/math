@@ -81,6 +81,8 @@ $x$、$y$ がともに $t$ の関数として $x=f(t)$、$y=g(t)$ と表され�
 
 $$\frac{dy}{dx} = \frac{dy/dt}{dx/dt} = \frac{g'(t)}{f'(t)}$$
 
+これは、連鎖律 $\dfrac{dy}{dt} = \dfrac{dy}{dx}\cdot\dfrac{dx}{dt}$ の両辺を $\dfrac{dx}{dt}$（$\neq0$）で割ることで得られます。
+
 **例題**：$x=\cos t$、$y=\sin t$ のとき $\dfrac{dy}{dx}$ を求める。$\dfrac{dx}{dt}=-\sin t$、$\dfrac{dy}{dt}=\cos t$ なので $\dfrac{dy}{dx} = \dfrac{\cos t}{-\sin t} = -\dfrac{1}{\tan t}$。
 
 ---
