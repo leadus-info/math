@@ -14,7 +14,7 @@
   <text x="158" y="146" font-size="16" fill="currentColor">O</text>
   <text x="150" y="270" font-size="16" text-anchor="middle" fill="currentColor">T</text>
   <text x="37.24" y="195.04" font-size="16" text-anchor="middle" fill="currentColor">A</text>
-  <text x="133.84" y="218.95" font-size="13" text-anchor="middle" fill="currentColor">90°−θ</text>
-  <text x="90.73" y="188.77" font-size="13" text-anchor="middle" fill="currentColor">90°−θ</text>
+  <text x="127" y="212" font-size="13" text-anchor="middle" fill="currentColor">90°−θ</text>
+  <text x="99" y="192" font-size="13" text-anchor="middle" fill="currentColor">90°−θ</text>
   <text x="127.05" y="182.76" font-size="14" text-anchor="middle" fill="currentColor">2θ</text>
 </svg>

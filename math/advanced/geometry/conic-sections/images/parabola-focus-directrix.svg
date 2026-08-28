@@ -4,7 +4,7 @@
   <text x="60" y="16" font-size="13" fill="currentColor">準線 ℓ</text>
 
   <!-- parabola opening rightward, vertex (150,150), focus (220,150) -->
-  <path d="M185.7,50 Q170,100 150,150 Q170,200 185.7,250" fill="none" stroke="currentColor" stroke-width="2"/>
+  <path d="M185.7,50 Q150,100 150,150 Q150,200 185.7,250" fill="none" stroke="currentColor" stroke-width="2"/>
 
   <!-- focus -->
   <circle cx="220" cy="150" r="3" fill="currentColor"/>
@@ -19,7 +19,7 @@
   <!-- PH segment (perpendicular to directrix) -->
   <line x1="162.9" y1="90" x2="80" y2="90" stroke="currentColor" stroke-width="1.5"/>
   <circle cx="80" cy="90" r="3" fill="currentColor"/>
-  <text x="66" y="80" font-size="16" fill="currentColor">H</text>
+  <text x="50" y="80" font-size="16" fill="currentColor">H</text>
 
   <text x="200" y="280" font-size="13" text-anchor="middle" fill="currentColor">PF = PH(焦点からの距離 = 準線までの距離)</text>
 </svg>
