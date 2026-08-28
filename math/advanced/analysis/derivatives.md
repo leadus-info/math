@@ -93,6 +93,8 @@ $$(\ln x)' = \lim_{t \to 0}\frac{1}{xt}\ln(1+t) = \frac{1}{x}\lim_{t \to 0}\ln(1
 
 $$(\ln x)' = \frac{1}{x}, \quad \int \frac{1}{x}\,dx = \ln|x| + C$$
 
+積分は微分の逆操作であり、詳細は別記事[積分](integrals.md)で扱います。
+
 ---
 
 ## 三角関数の微分
