@@ -75,7 +75,7 @@ $$\lim (f + g) = L + M, \quad \lim (fg) = LM, \quad \lim \frac{f}{g} = \frac{L}{
 
 $$\lim_{n\to\infty}\left(3+\frac{2}{n}\right) = \lim_{n\to\infty} 3 + \lim_{n\to\infty}\frac{2}{n} = 3 + 0 = 3$$
 
-（先ほどの、分子・分母を $n^2$ で割って求めた例も、この和・商の規則を繰り返し適用することで成り立っています。）
+（$\displaystyle\lim_{n\to\infty}\frac{n^2+1}{2n^2-3}=\frac12$ という先ほどの例も、分子・分母を $n^2$ で割った $\dfrac{1+1/n^2}{2-3/n^2}$ に対してこの和・商の規則を繰り返し適用することで成り立っています。）
 
 ---
 
