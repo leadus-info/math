@@ -88,6 +88,7 @@ $$
 2cx &= 4a^2+4a\sqrt{(x-c)^2+y^2}-2cx \\
 a\sqrt{(x-c)^2+y^2} &= cx-a^2 \\
 a^2\{(x-c)^2+y^2\} &= (cx-a^2)^2 \\
+a^2x^2-2a^2cx+a^2c^2+a^2y^2 &= c^2x^2-2a^2cx+a^4 \\
 (c^2-a^2)x^2-a^2y^2 &= a^2(c^2-a^2)
 \end{aligned}
 $$
