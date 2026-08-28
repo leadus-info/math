@@ -1,7 +1,7 @@
 ---
 title: 円
 description: "中心と半径から円の方程式を書く方法と、弧長・扇形の面積の公式、円と直線の位置関係や接線の方程式の求め方、単位円における正弦と余弦の2乗の和が1になる関係を扱う"
-goal: "円の方程式を書き、円と直線の位置関係・接線の方程式を求め、単位円と三角関数の関係を説明できるようになる"
+goal: "円の方程式を書き、弧長・扇形の面積を求め、円と直線の位置関係・接線の方程式を求め、単位円と三角関数の関係を説明できるようになる"
 tags: [math, geometry, circle]
 stage: advanced
 subject: 幾何
@@ -21,6 +21,8 @@ requires:
     path: trigonometry.md
   - title: 円周角の定理
     path: ../../intermediate/geometry/circle-angles.md
+  - title: 空間図形の計量
+    path: ../../intermediate/geometry/solids-measurement.md
 ---
 
 ## 円とは
