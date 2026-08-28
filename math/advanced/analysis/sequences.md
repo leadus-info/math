@@ -87,7 +87,15 @@ $\sum_{k=1}^n k^2$ の公式は数学的帰納法で証明できます。$n=1,2,
 
 **例題**：$\displaystyle\sum_{k=1}^n k(k+1)$ を求める。$k(k+1)=k^2+k$ と分解すると、
 
-$$\sum_{k=1}^n k(k+1) = \sum_{k=1}^n k^2 + \sum_{k=1}^n k = \frac{n(n+1)(2n+1)}{6}+\frac{n(n+1)}{2} = \frac{n(n+1)(2n+1) + 3n(n+1)}{6} = \frac{n(n+1)(2n+4)}{6} = \frac{n(n+1)(n+2)}{3}$$
+$$
+\begin{aligned}
+\sum_{k=1}^n k(k+1) &= \sum_{k=1}^n k^2 + \sum_{k=1}^n k \\
+&= \frac{n(n+1)(2n+1)}{6}+\frac{n(n+1)}{2} \\
+&= \frac{n(n+1)(2n+1) + 3n(n+1)}{6} \\
+&= \frac{n(n+1)(2n+4)}{6} \\
+&= \frac{n(n+1)(n+2)}{3}
+\end{aligned}
+$$
 
 ---
 
