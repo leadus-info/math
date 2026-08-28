@@ -4,21 +4,21 @@
 
   <!-- angle B (single mark) -->
   <path d="M128,300 Q128.01,284.11 114.4,275.99" fill="none" stroke="currentColor" stroke-width="1.5"/>
-  <line x1="121.88" y1="281.84" x2="126.82" y2="290.54" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="120.00" y1="288.66" x2="128.70" y2="283.72" stroke="currentColor" stroke-width="1.5"/>
 
   <!-- angle at A, left side (single mark, equal to angle B) -->
   <path d="M192,100 Q191.99,115.89 205.59,124.01" fill="none" stroke="currentColor" stroke-width="1.5"/>
-  <line x1="193.18" y1="109.47" x2="198.12" y2="118.17" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="200.00" y1="111.36" x2="191.30" y2="116.28" stroke="currentColor" stroke-width="1.5"/>
 
   <!-- angle C (double mark) -->
   <path d="M272,300 Q273.33,281.95 289.6,274.0" fill="none" stroke="currentColor" stroke-width="1.5"/>
-  <line x1="279.61" y1="280.16" x2="274.01" y2="288.44" stroke="currentColor" stroke-width="1.5"/>
-  <line x1="274.64" y1="276.80" x2="269.04" y2="285.08" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="272.67" y1="281.50" x2="280.95" y2="287.10" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="267.70" y1="278.14" x2="275.98" y2="283.74" stroke="currentColor" stroke-width="1.5"/>
 
   <!-- angle at A, right side (double mark, equal to angle C) -->
   <path d="M248,100 Q246.67,118.05 230.4,126.0" fill="none" stroke="currentColor" stroke-width="1.5"/>
-  <line x1="240.39" y1="119.84" x2="245.99" y2="111.56" stroke="currentColor" stroke-width="1.5"/>
-  <line x1="245.36" y1="123.20" x2="250.96" y2="114.92" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="247.33" y1="118.50" x2="239.05" y2="112.90" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="252.30" y1="121.86" x2="244.02" y2="116.26" stroke="currentColor" stroke-width="1.5"/>
 
   <circle cx="220" cy="100" r="3" fill="currentColor"/>
   <circle cx="100" cy="300" r="3" fill="currentColor"/>
