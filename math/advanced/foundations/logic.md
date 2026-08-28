@@ -98,7 +98,7 @@ $p=2m$ とおくと $q^2 = 2m^2$ となり $q$ も偶数——これは $p, q$ �
 
 「$P$ ならば $Q$」は集合の言葉でも表せます。ここで $P(x)$ は「$x$ に関する条件（述語）」を表し、$x$ に具体的な値を代入すると真偽が定まる命題になります。$A = \{x \mid P(x)\}$、$B = \{x \mid Q(x)\}$ とすると、
 
-$$P \Rightarrow Q \iff A \subset B$$
+$$P \Rightarrow Q \iff A \subseteq B$$
 
 同値 $P \Leftrightarrow Q$ は $A = B$ に対応します。
 
