@@ -91,6 +91,8 @@ $$\lim_{n\to\infty}\left(3+\frac{2}{n}\right) = \lim_{n\to\infty} 3 + \lim_{n\to
 
 $$\lim_{n \to \infty} r^n = 0 \quad (|r| < 1)$$
 
+$|r|<1$のとき、$|r|^n$は掛けるたびに絶対値が小さくなっていくため、$n$を大きくすると限りなく0に近づきます。
+
 $$\lim_{x \to 0} \frac{\sin x}{x} = 1 \quad \text{（ラジアン単位）}$$
 
 **例題**：$\displaystyle\lim_{n\to\infty} \frac{3n^2 + 2n - 1}{n^2 - 5}$ を求める。分子・分母を $n^2$ で割ると $\dfrac{3 + 2/n - 1/n^2}{1 - 5/n^2} \to 3$。
