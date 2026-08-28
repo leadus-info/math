@@ -15,6 +15,8 @@ hierarchy:
 requires:
   - title: 微分
     path: derivatives.md
+  - title: 関数とは
+    path: functions.md
 ---
 
 ## 対数微分法
@@ -59,11 +61,15 @@ $$y' = y\left(\frac{2}{x} + \frac{1}{x-1} - \frac{1}{2(x+1)}\right)$$
 
 ## 逆関数の導関数
 
-$y=f(x)$ の（$f$ が1対1対応であるとき定まる）逆関数 $x=f^{-1}(y)$ について、次の関係が成り立ちます。
+$y=f(x)$ の（$f$ が1対1対応であるとき定まる）[逆関数](functions.md) $x=f^{-1}(y)$ について、次の関係が成り立ちます。
 
 $$\frac{dy}{dx} = \frac{1}{\dfrac{dx}{dy}}$$
 
-これは、恒等式 $x=f^{-1}(f(x))$ の両辺を $x$ で微分し、連鎖律を適用することで得られます（$\dfrac{dx}{dy}\cdot\dfrac{dy}{dx}=1$ より）。
+これは次のようにして得られます。恒等式 $x=f^{-1}(f(x))$ の両辺を $x$ で微分すると、左辺は $x$ を $x$ で微分するので $1$、右辺は $y=f(x)$ とみて連鎖律を適用すると $\dfrac{dx}{dy}\cdot\dfrac{dy}{dx}$ となるので、
+
+$$1 = \frac{dx}{dy}\cdot\frac{dy}{dx}$$
+
+が得られます。両辺を $\dfrac{dx}{dy}$（$\neq0$）で割ると、上の関係式が得られます。
 
 **例**：$y=\sqrt{x}$（$x>0$）の導関数を、逆関数 $x=y^2$ から求める。$\dfrac{dx}{dy}=2y$ なので $\dfrac{dy}{dx} = \dfrac{1}{2y} = \dfrac{1}{2\sqrt{x}}$。
 
