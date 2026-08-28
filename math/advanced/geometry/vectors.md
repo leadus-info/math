@@ -63,7 +63,7 @@ $$\vec{a}\cdot\vec{b} = |\vec{a}||\vec{b}|\cos\theta$$
 
 $$\vec{a}\cdot\vec{a}=|\vec{a}|^2, \quad \vec{a}\cdot\vec{b}=\vec{b}\cdot\vec{a}, \quad (k\vec{a})\cdot\vec{b}=k(\vec{a}\cdot\vec{b}), \quad \vec{a}\cdot(\vec{b}+\vec{c})=\vec{a}\cdot\vec{b}+\vec{a}\cdot\vec{c}$$
 
-分配法則 $\vec{a}\cdot(\vec{b}+\vec{c})=\vec{a}\cdot\vec{b}+\vec{a}\cdot\vec{c}$ は、成分表示を使うと $\vec{a}\cdot(\vec{b}+\vec{c})=a_1(b_1+c_1)+a_2(b_2+c_2)=(a_1b_1+a_2b_2)+(a_1c_1+a_2c_2)=\vec{a}\cdot\vec{b}+\vec{a}\cdot\vec{c}$ と確かめられます。
+分配法則 $\vec{a}\cdot(\vec{b}+\vec{c})=\vec{a}\cdot\vec{b}+\vec{a}\cdot\vec{c}$ は、$\vec{c}=(c_1,c_2)$ として成分表示を使うと $\vec{a}\cdot(\vec{b}+\vec{c})=a_1(b_1+c_1)+a_2(b_2+c_2)=(a_1b_1+a_2b_2)+(a_1c_1+a_2c_2)=\vec{a}\cdot\vec{b}+\vec{a}\cdot\vec{c}$ と確かめられます。
 
 特に、$\vec{a}\cdot\vec{b}=0$ は $\vec{a}$ と $\vec{b}$ が垂直であることを意味します（$\theta=90°$ で $\cos\theta=0$）。
 
