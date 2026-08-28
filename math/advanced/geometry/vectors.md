@@ -15,6 +15,8 @@ hierarchy:
 requires:
   - title: 点
     path: point.md
+  - title: 三角形
+    path: triangles.md
 ---
 
 ## 向きと大きさを持つ量
@@ -49,7 +51,13 @@ requires:
 
 $$\vec{a}\cdot\vec{b} = |\vec{a}||\vec{b}|\cos\theta$$
 
-成分表示 $\vec{a}=(a_1,a_2)$、$\vec{b}=(b_1,b_2)$ では $\vec{a}\cdot\vec{b}=a_1b_1+a_2b_2$ とも計算でき、これは次のように確かめられます。原点を $O$ とし、$\vec{a}=\overrightarrow{OA}$、$\vec{b}=\overrightarrow{OB}$ とすると、余弦定理（[三角形](triangles.md)）より $|AB|^2=|\vec{a}|^2+|\vec{b}|^2-2|\vec{a}||\vec{b}|\cos\theta$ です。一方、2点間の距離の公式（[点](point.md)）より $|AB|^2=(b_1-a_1)^2+(b_2-a_2)^2=|\vec{a}|^2+|\vec{b}|^2-2(a_1b_1+a_2b_2)$ です。両者を比較すると $|\vec{a}||\vec{b}|\cos\theta=a_1b_1+a_2b_2$、つまり $\vec{a}\cdot\vec{b}=a_1b_1+a_2b_2$ が得られます。
+成分表示 $\vec{a}=(a_1,a_2)$、$\vec{b}=(b_1,b_2)$ では $\vec{a}\cdot\vec{b}=a_1b_1+a_2b_2$ とも計算でき、これは次のように確かめられます。原点を $O$ とし、$\vec{a}=\overrightarrow{OA}$、$\vec{b}=\overrightarrow{OB}$ とします。
+
+まず、余弦定理（[三角形](triangles.md)）を三角形 $OAB$ に適用すると、$|AB|^2=|\vec{a}|^2+|\vec{b}|^2-2|\vec{a}||\vec{b}|\cos\theta$ です。
+
+次に、2点間の距離の公式（[点](point.md)）を適用すると、$|AB|^2=(b_1-a_1)^2+(b_2-a_2)^2$ です。これを展開すると $(b_1-a_1)^2+(b_2-a_2)^2=b_1^2-2a_1b_1+a_1^2+b_2^2-2a_2b_2+a_2^2=(a_1^2+a_2^2)+(b_1^2+b_2^2)-2(a_1b_1+a_2b_2)=|\vec{a}|^2+|\vec{b}|^2-2(a_1b_1+a_2b_2)$ となるので、$|AB|^2=|\vec{a}|^2+|\vec{b}|^2-2(a_1b_1+a_2b_2)$ です。
+
+両者を比較すると $|\vec{a}||\vec{b}|\cos\theta=a_1b_1+a_2b_2$、つまり $\vec{a}\cdot\vec{b}=a_1b_1+a_2b_2$ が得られます。
 
 内積の基本性質：
 
