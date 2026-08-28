@@ -105,7 +105,15 @@ $$\sin(x+h)-\sin x = \sin x(\cos h - 1) + \cos x\sin h$$
 
 $$(\sin x)' = \lim_{h \to 0}\frac{\sin(x+h)-\sin x}{h} = \sin x\cdot\lim_{h \to 0}\frac{\cos h - 1}{h} + \cos x\cdot\lim_{h \to 0}\frac{\sin h}{h}$$
 
-$\lim_{h \to 0}\dfrac{\sin h}{h} = 1$ に加えて、$\lim_{h \to 0}\dfrac{\cos h - 1}{h}=0$ も成り立ちます（半角の公式 $\cos h - 1 = -2\sin^2\dfrac h2$ を使うと、$\dfrac{\cos h-1}{h} = -\sin\dfrac h2\cdot\dfrac{\sin(h/2)}{h/2} \to 0\cdot 1=0$ と確かめられます）。したがって
+$\lim_{h \to 0}\dfrac{\sin h}{h} = 1$ に加えて、$\lim_{h \to 0}\dfrac{\cos h - 1}{h}=0$ も成り立ちます。これは次のように確かめられます。
+
+半角の公式より $\cos h - 1 = -2\sin^2\dfrac h2$ と書けるので、
+
+$$\frac{\cos h-1}{h} = -\sin\frac h2\cdot\frac{\sin(h/2)}{h/2}$$
+
+$h\to0$ のとき $\sin\dfrac h2\to0$ かつ $\dfrac{\sin(h/2)}{h/2}\to1$ なので、右辺全体は $0$ に収束します。
+
+したがって
 
 $$(\sin x)' = \sin x\cdot 0 + \cos x\cdot 1 = \cos x$$
 
