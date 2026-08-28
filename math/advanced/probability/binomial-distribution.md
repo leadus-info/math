@@ -15,6 +15,8 @@ hierarchy:
 requires:
   - title: 確率変数と確率分布
     path: random-variables.md
+  - title: 組み合わせ
+    path: counting-combinations.md
 ---
 
 ## 反復試行から生まれる確率分布
@@ -23,9 +25,11 @@ requires:
 
 $$P(X=k) = \binom{n}{k}p^k(1-p)^{n-k} \quad (k=0,1,\ldots,n)$$
 
+ここで $\binom{n}{k}$ は、$n$ 個から $k$ 個を選ぶ[組み合わせ](counting-combinations.md)の数（二項係数）です。
+
 この確率変数 $X$（$n$回中、事象 $A$ が起こる回数）が従う確率分布を**二項分布**といい、$X \sim B(n,p)$ と表します。
 
-**例**：コインを4回投げるとき、表が出る回数 $X$ は $B(4, 0.5)$ に従います。$P(X=2) = \binom{4}{2}(0.5)^2(0.5)^2 = 6\times0.0625=0.375$。
+**例**：コインを4回投げるとき、表が出る回数 $X$ は $B(4, 0.5)$ に従います。$\binom{4}{2} = \dfrac{4\times3}{2\times1} = 6$ なので、$P(X=2) = \binom{4}{2}(0.5)^2(0.5)^2 = 6\times0.0625=0.375$ となります。
 
 ---
 
