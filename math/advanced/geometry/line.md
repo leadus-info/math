@@ -15,6 +15,8 @@ hierarchy:
 requires:
   - title: 点
     path: point.md
+  - title: 図形の移動
+    path: ../../intermediate/geometry/transformations.md
 ---
 
 ## 2点を決めると直線が決まる
