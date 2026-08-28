@@ -126,7 +126,9 @@ $$\alpha+\beta = -\frac{b}{a}, \qquad \alpha\beta = \frac{c}{a}$$
 
 先ほどの例 $x^2+x+1=0$（$\alpha,\beta = \dfrac{-1\pm\sqrt3 i}{2}$）で実際に確かめてみましょう。
 
-$$\alpha+\beta = \frac{-1+\sqrt3 i}{2} + \frac{-1-\sqrt3 i}{2} = -1, \qquad \alpha\beta = \frac{(-1)^2-(\sqrt3 i)^2}{4} = \frac{1-(-3)}{4} = 1$$
+$$\alpha+\beta = \frac{-1+\sqrt3 i}{2} + \frac{-1-\sqrt3 i}{2} = -1$$
+
+$$\alpha\beta = \frac{-1+\sqrt3 i}{2}\cdot\frac{-1-\sqrt3 i}{2} = \frac{(-1+\sqrt3 i)(-1-\sqrt3 i)}{4} = \frac{(-1)^2-(\sqrt3 i)^2}{4} = \frac{1-(-3)}{4} = 1$$
 
 これは公式の $-\dfrac{b}{a} = -1$、$\dfrac{c}{a} = 1$（$a=b=c=1$）と一致します。
 
@@ -176,7 +178,7 @@ $$n\theta = 2k\pi \quad (k\text{は整数})$$
 
 $k=0,1,\ldots,n-1$ のとき、$\theta=\dfrac{2k\pi}{n}$ は $0$ 以上 $2\pi$ 未満の範囲で相異なる値を取るため、対応する点もすべて異なります。
 
-$k$ を $n$ だけずらすと $\theta$ は $2\pi$ の整数倍だけ変わり、同じ点を指します。したがって、相異なる点を与える $k$ は $0,1,\ldots,n-1$ の $n$ 個に限られます。
+$k$ を $n$ だけずらすと $\theta$ は $2\pi$ の整数倍だけ変わり、同じ点を指します。以上の2点により、相異なる点を与える $k$ は $0,1,\ldots,n-1$ の $n$ 個に限られます。
 
 $$z_k = \cos\frac{2k\pi}{n}+i\sin\frac{2k\pi}{n} \quad (k=0,1,\ldots,n-1)$$
 
