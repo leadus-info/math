@@ -51,7 +51,7 @@ requires:
 
 $$\vec{a}\cdot\vec{b} = |\vec{a}||\vec{b}|\cos\theta$$
 
-成分表示 $\vec{a}=(a_1,a_2)$、$\vec{b}=(b_1,b_2)$ では $\vec{a}\cdot\vec{b}=a_1b_1+a_2b_2$ とも計算でき、これは次のように確かめられます。原点を $O$ とし、$\vec{a}=\overrightarrow{OA}$、$\vec{b}=\overrightarrow{OB}$ とします。
+成分表示 $\vec{a}=(a_1,a_2)$、$\vec{b}=(b_1,b_2)$ では $\vec{a}\cdot\vec{b}=a_1b_1+a_2b_2$ とも計算でき、これは次のように確かめられます。原点を $O$ とし、$\vec{a}=\overrightarrow{OA}$、$\vec{b}=\overrightarrow{OB}$ とします。$O$は原点なので、$\vec{a}=\overrightarrow{OA}$ の成分は $A$ の座標 $(a_1,a_2)$ そのものであり、$|\vec{a}|=\sqrt{a_1^2+a_2^2}$ です（$\vec{b}$ も同様）。
 
 まず、余弦定理（[三角形](triangles.md)）を三角形 $OAB$ に適用すると、$|AB|^2=|\vec{a}|^2+|\vec{b}|^2-2|\vec{a}||\vec{b}|\cos\theta$ です。
 
