@@ -109,7 +109,10 @@ $$r_1 r_2\bigl[(\cos\theta_1\cos\theta_2 - \sin\theta_1\sin\theta_2) + i(\sin\th
 
 $$x = \frac{-b \pm \sqrt{D}}{2a}$$
 
-$D<0$ のときは $\sqrt{D} = \sqrt{-1}\sqrt{-D} = i\sqrt{-D}$ と考えて計算します。
+$D<0$ のとき、$\sqrt{D}$ を $i\sqrt{-D}$ と**定義**します。
+
+> [!NOTE]
+> これは実数の恒等式 $\sqrt{ab} = \sqrt{a}\sqrt{b}$（$a,b \geq 0$）をそのまま負の数に拡張したものではありません。実際、$a=b=-1$ を当てはめると $\sqrt{(-1)(-1)} = \sqrt{1} = 1$ である一方、$\sqrt{-1}\sqrt{-1} = i \times i = -1$ となり一致しません。$\sqrt{D}=i\sqrt{-D}$ は、この場面（$D<0$ のときの解の公式）限りの記法上の約束です。
 
 **例**：$x^2+x+1=0$ を解く。$D = 1-4=-3$。$x = \dfrac{-1\pm\sqrt{-3}}{2} = \dfrac{-1\pm\sqrt3 i}{2}$。
 
