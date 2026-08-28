@@ -65,13 +65,13 @@ $P$ が線分 $AD$ 上にあることから、線分 $BP$ は三角形 $ABD$ を
 > [!NOTE]
 > 面積比の引き算に使う一般の性質：$a:b=c:d$ が成り立つとき、$a:b=(a-c):(b-d)$ も成り立ちます（$a=bk,c=dk$ とおくと $a-c=(b-d)k$ となるため）。
 
-$[\triangle ABD]:[\triangle ACD]=[\triangle PBD]:[\triangle PCD]$ にこの性質を適用すると
+$a=[\triangle ABD],\ b=[\triangle ACD],\ c=[\triangle PBD],\ d=[\triangle PCD]$ としてこの性質を適用すると
 
 $$BD:DC = [\triangle ABD]:[\triangle ACD] = ([\triangle ABD]-[\triangle PBD]):([\triangle ACD]-[\triangle PCD]) = [\triangle ABP]:[\triangle CAP]$$
 
 が得られます（$[\triangle ACP]$ を $[\triangle CAP]$ と表記しています。3つの式を辺々掛け合わせた際に約分できるよう、分母・分子の順序をそろえるためです）。
 
-全く同様に、頂点 $B$、$C$ を通る2本の直線についても、$A,B,C$ を $B,C,A$ に読み替えれば全く同じ議論で
+全く同様に、頂点 $B$、$C$ を通る2本の直線についても、$A,B,C$ を $B,C,A$ に、対応して $D,E,F$ を $E,F,D$ に読み替え、$P$ はそのまま（3直線すべての交点であるため不変）とすれば全く同じ議論で
 
 $$CE:EA = [\triangle BCP]:[\triangle ABP], \qquad AF:FB = [\triangle CAP]:[\triangle BCP]$$
 
