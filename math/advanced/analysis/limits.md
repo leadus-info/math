@@ -108,7 +108,7 @@ $$\lim_{x \to 0} \frac{\sin x}{x} = 1 \quad \text{（ラジアン単位）}$$
 **はさみうちの原理（関数版）**：$a$ の近くで $f(x) \leq g(x) \leq h(x)$ が成り立ち、$\displaystyle\lim_{x\to a} f(x) = \lim_{x\to a} h(x) = L$ ならば、$\displaystyle\lim_{x\to a} g(x) = L$。
 
 > [!NOTE]
-> 上で挙げた $\displaystyle\lim_{x\to0}\frac{\sin x}{x}=1$ も、はさみうちの原理（関数版）で示せます。$0 < x < \pi/2$ の範囲で $\cos x < \dfrac{\sin x}{x} < 1$ が成り立ち、$x\to0$ で $\cos x \to 1$ なので、はさみうちの原理より $\dfrac{\sin x}{x}\to1$ となります。
+> 上で挙げた $\displaystyle\lim_{x\to0}\frac{\sin x}{x}=1$ も、はさみうちの原理（関数版）で示せます。単位円上で中心角 $x$（$0 < x < \pi/2$）に対応する扇形を考え、その扇形に含まれる三角形（面積 $\frac12\sin x$）・扇形自体（面積 $\frac12 x$）・扇形を含む直角三角形（面積 $\frac12\tan x$）の面積を比較すると $\sin x < x < \tan x$ が成り立ちます。各辺を $\sin x>0$ で割ると $1 < \dfrac{x}{\sin x} < \dfrac{1}{\cos x}$、逆数をとって $\cos x < \dfrac{\sin x}{x} < 1$ が得られます。$x\to0$ で $\cos x \to 1$ なので、はさみうちの原理より $\dfrac{\sin x}{x}\to1$ となります。また $\dfrac{\sin x}{x}$ は偶関数です（$\dfrac{\sin(-x)}{-x} = \dfrac{-\sin x}{-x} = \dfrac{\sin x}{x}$）。したがって、$0<x<\pi/2$ で示した議論を $x \to -x$ と置き換えることで $-\pi/2 < x < 0$ の場合にもそのまま適用でき、左右どちらから近づけても同じ極限 $1$ に収束することが確かめられます。
 
 **例**：$\displaystyle\lim_{n\to\infty} \frac{\sin n}{n}$ を求める。$-1 \leq \sin n \leq 1$ より $-\dfrac1n \leq \dfrac{\sin n}{n} \leq \dfrac1n$。両端が0に収束するので、はさみうちの原理より極限も0。
 
