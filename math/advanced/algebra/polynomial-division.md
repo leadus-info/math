@@ -41,7 +41,7 @@ $A$ を割られる式、$B$ を割る式、$Q$ を商、$R$ を余りといい�
 
 $$\frac{x^2-1}{x-1} = \frac{(x+1)(x-1)}{x-1} = x+1 \quad (x \neq 1)$$
 
-$$\frac{1}{x} + \frac{1}{x+1} = \frac{(x+1) + x}{x(x+1)} = \frac{2x+1}{x(x+1)}$$
+$$\frac{1}{x} + \frac{1}{x+1} = \frac{x+1}{x(x+1)} + \frac{x}{x(x+1)} = \frac{(x+1)+x}{x(x+1)} = \frac{2x+1}{x(x+1)}$$
 
 ---
 
