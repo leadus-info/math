@@ -97,7 +97,7 @@ $$
 
 $$\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$$
 
-標準形 $\dfrac{x^2}{a^2}-\dfrac{y^2}{b^2}=1$ を $y$ について解くと、$y=\pm\dfrac{b}{a}\sqrt{x^2-a^2}$ となります。$x\to\pm\infty$ のとき $\sqrt{x^2-a^2}$ は $|x|$ に限りなく近づくため、双曲線は2本の直線（漸近線）$y=\pm\dfrac{b}{a}x$ に限りなく近づいていきます。
+標準形 $\dfrac{x^2}{a^2}-\dfrac{y^2}{b^2}=1$ を $y$ について解くと、$y=\pm\dfrac{b}{a}\sqrt{x^2-a^2}$ となります。ここで $\sqrt{x^2-a^2}=|x|\sqrt{1-\dfrac{a^2}{x^2}}$ と変形すると、$x\to\pm\infty$ のとき $\dfrac{a^2}{x^2}\to0$ となるので $\sqrt{1-\dfrac{a^2}{x^2}}\to1$、したがって $\sqrt{x^2-a^2}$ は $|x|$ に限りなく近づきます。これより、双曲線は2本の直線（漸近線）$y=\pm\dfrac{b}{a}x$ に限りなく近づいていきます。
 
 ---
 
