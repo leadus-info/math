@@ -17,6 +17,8 @@ requires:
     path: triangles.md
   - title: 相似
     path: ../../intermediate/geometry/similarity.md
+  - title: 三角比
+    path: trigonometry.md
 ---
 
 ## 角の二等分線と辺の比
@@ -91,7 +93,9 @@ $$\frac{BD}{DC}\cdot\frac{CE}{EA}\cdot\frac{AF}{FB} = 1$$
 
 チェバの定理と同じ形の式になりますが、3本の直線が三角形の内部の1点で交わる場合と、1本の直線が三角形の辺（またはその延長）を横切る場合という状況が異なります。
 
-**証明**：直線 $DEF$ を $\ell$ とし、頂点 $A$、$B$、$C$ から $\ell$ に下ろした垂線の足をそれぞれ $A'$、$B'$、$C'$ とします。$D$ は直線 $BC$ と $\ell$ の交点なので、直線 $BC$ と直線 $\ell$ はこの点 $D$ で交わる2直線であり、直角三角形 $BDB'$（直角は $B'$）と直角三角形 $CDC'$（直角は $C'$）において、$\angle BDB'$ と $\angle CDC'$ は等しいか互いに補角の関係にあります（$D$、$B'$、$C'$ が同一直線 $\ell$ 上にあり、$B$、$D$、$C$ が同一直線 $BC$ 上にあるため）。角が等しい場合はもちろん、補角の関係にある場合も正弦の値は等しいので、$\sin\angle BDB' = \dfrac{BB'}{BD}$、$\sin\angle CDC'=\dfrac{CC'}{CD}$ より
+![三角形ABCの辺BCの延長上の点D、辺CA上の点E、辺ABの点Fを通る直線ℓと、頂点A、B、Cから直線ℓへ下ろした垂線の足A'、B'、C'を示す図](triangle-theorems/images/menelaus-theorem.svg)
+
+**証明**：直線 $DEF$ を $\ell$ とし、頂点 $A$、$B$、$C$ から $\ell$ に下ろした垂線の足をそれぞれ $A'$、$B'$、$C'$ とします。$D$ は直線 $BC$ と $\ell$ の交点なので、直線 $BC$ と直線 $\ell$ はこの点 $D$ で交わる2直線であり、直角三角形 $BDB'$（直角は $B'$）と直角三角形 $CDC'$（直角は $C'$）において、$\angle BDB'$ と $\angle CDC'$ は等しいか互いに補角の関係にあります（$D$、$B'$、$C'$ が同一直線 $\ell$ 上にあり、$B$、$D$、$C$ が同一直線 $BC$ 上にあるため）。具体的には、上図のように $D$ が辺 $BC$ 上にある場合は $B'$、$C'$ が点 $D$ を挟んで直線 $\ell$ の反対側に並ぶため $\angle BDB'$ と $\angle CDC'$ は対頂角となり等しくなり、$D$ が辺 $BC$ の延長上にある場合は $B'$、$C'$ が点 $D$ から見て直線 $\ell$ の同じ側に並ぶため $\angle BDB'$ と $\angle CDC'$ は隣り合う角となり補角の関係になります。角が等しい場合はもちろん、補角の関係にある場合も正弦の値は等しいので（[三角比](trigonometry.md)で見た鈍角への拡張における $\sin\theta=\sin(180°-\theta)$ より）、$\sin\angle BDB' = \dfrac{BB'}{BD}$、$\sin\angle CDC'=\dfrac{CC'}{CD}$ より
 
 $$BD:DC = BB':CC'$$
 
@@ -103,9 +107,7 @@ $$CE:EA = CC':AA', \qquad AF:FB = AA':BB'$$
 
 $$\frac{BD}{DC}\cdot\frac{CE}{EA}\cdot\frac{AF}{FB} = \frac{BB'}{CC'}\cdot\frac{CC'}{AA'}\cdot\frac{AA'}{BB'}=1$$
 
-となり、メネラウスの定理が得られます。
-
-![三角形ABCの辺BCの延長上の点D、辺CA上の点E、辺ABの点Fを通る直線ℓと、頂点A、B、Cから直線ℓへ下ろした垂線の足A'、B'、C'を示す図](triangle-theorems/images/menelaus-theorem.svg)
+となり、メネラウスの定理が得られます。$\square$
 
 **例題**：辺$BC$の延長上に点$D$を$BD:DC=3:1$（$D$は$C$の外側）となるようにとり、辺$CA$上に点$E$を$CE:EA=1:2$となるようにとる。直線$DE$が辺$AB$と交わる点を$F$とするとき、$AF:FB$を求める。メネラウスの定理より $\dfrac{BD}{DC}\cdot\dfrac{CE}{EA}\cdot\dfrac{AF}{FB}=1$ なので、$\dfrac{3}{1}\cdot\dfrac{1}{2}\cdot\dfrac{AF}{FB}=1$、$\dfrac{3}{2}\cdot\dfrac{AF}{FB}=1$、$AF:FB=2:3$。
 
