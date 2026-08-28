@@ -59,13 +59,19 @@ $$\vec{a}\cdot\vec{b} = |\vec{a}||\vec{b}|\cos\theta = a_1b_1+a_2b_2+a_3b_3$$
 
 $\vec{a}\cdot\vec{b}=0$ が垂直を意味することも変わりません。
 
-**例題**：正四面体 $OABC$（すべての辺の長さが等しい四面体）で、辺 $OA$ と辺 $BC$ が垂直であることを示す。$\overrightarrow{OA}=\vec{a}$、$\overrightarrow{OB}=\vec{b}$、$\overrightarrow{OC}=\vec{c}$（$|\vec{a}|=|\vec{b}|=|\vec{c}|=1$）とします。正四面体はどの面も正三角形なので、例えば三角形$OAB$は正三角形で$\angle AOB=60°$です。したがって $\vec{a}\cdot\vec{b}=|\vec{a}||\vec{b}|\cos60°=1\times1\times\dfrac12=\dfrac12$ となります。正四面体は頂点を入れ替えても形が変わらない（対称性）ため、三角形$OAC$、$OBC$も同様に正三角形になり、$\angle AOC=\angle BOC=60°$です。よって同じ理由で、$\vec{a}$、$\vec{b}$、$\vec{c}$のどの2つの内積も$\dfrac12$になります。これを使うと、位置ベクトルの差の公式$\overrightarrow{PQ}=\vec{q}-\vec{p}$（2点$P$、$Q$の位置ベクトルがそれぞれ$\vec{p}$、$\vec{q}$のとき）より$\overrightarrow{BC}=\overrightarrow{OC}-\overrightarrow{OB}=\vec{c}-\vec{b}$なので、
+**例題**：正四面体 $OABC$（すべての辺の長さが等しい四面体）で、辺 $OA$ と辺 $BC$ が垂直であることを示す。$\overrightarrow{OA}=\vec{a}$、$\overrightarrow{OB}=\vec{b}$、$\overrightarrow{OC}=\vec{c}$（$|\vec{a}|=|\vec{b}|=|\vec{c}|=1$）とします。
+
+![正四面体OABCで辺OAと辺BCを太線で示し、この2辺が垂直であることを表す図](space-vectors/images/tetrahedron-perpendicular-edges.svg)
+
+正四面体はどの面も正三角形なので、例えば三角形$OAB$は正三角形で$\angle AOB=60°$です。したがって $\vec{a}\cdot\vec{b}=|\vec{a}||\vec{b}|\cos60°=1\times1\times\dfrac12=\dfrac12$ となります。
+
+正四面体の定義（すべての辺の長さが等しい）より、$OA=OC=AC$、$OB=OC=BC$も成り立つので、三角形$OAC$、三角形$OBC$も正三角形です。よって $\angle AOC=\angle BOC=60°$ となり、同じ理由で $\vec{a}\cdot\vec{c}=\vec{b}\cdot\vec{c}=\dfrac12$ が成り立ちます。
+
+これを使うと、位置ベクトルの差の公式$\overrightarrow{PQ}=\vec{q}-\vec{p}$（2点$P$、$Q$の位置ベクトルがそれぞれ$\vec{p}$、$\vec{q}$のとき）より$\overrightarrow{BC}=\overrightarrow{OC}-\overrightarrow{OB}=\vec{c}-\vec{b}$なので、
 
 $$\overrightarrow{OA}\cdot\overrightarrow{BC} = \vec{a}\cdot(\vec{c}-\vec{b}) = \vec{a}\cdot\vec{c}-\vec{a}\cdot\vec{b} = \frac12-\frac12=0$$
 
-よって $OA \perp BC$ が示せます。座標を使わずに、正四面体の対称性から直接この結論を導けるのがベクトルの強みです。
-
-![正四面体OABCで辺OAと辺BCを太線で示し、この2辺が垂直であることを表す図](space-vectors/images/tetrahedron-perpendicular-edges.svg)
+よって $OA \perp BC$ が示せます。座標を使わずに、正四面体の対称性から直接この結論を導けるのがベクトルの強みです。$\square$
 
 ---
 
