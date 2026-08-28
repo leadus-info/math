@@ -79,13 +79,17 @@ $$(e^x)' = e^x$$
 
 $\ln x$ を定義に従って微分すると
 
-$$(\ln x)' = \lim_{h \to 0}\frac{\ln(x+h)-\ln x}{h} = \lim_{h \to 0}\frac{1}{h}\ln\left(1+\frac{h}{x}\right)$$
+$$(\ln x)' = \lim_{h \to 0}\frac{\ln(x+h)-\ln x}{h}$$
+
+対数の商の法則 $\ln A - \ln B = \ln\dfrac{A}{B}$ により $\ln(x+h)-\ln x = \ln\dfrac{x+h}{x} = \ln\left(1+\dfrac hx\right)$ と変形できるので、
+
+$$(\ln x)' = \lim_{h \to 0}\frac{1}{h}\ln\left(1+\frac{h}{x}\right)$$
 
 $t = h/x$ とおくと $h \to 0$ のとき $t \to 0$ で、
 
 $$(\ln x)' = \lim_{t \to 0}\frac{1}{xt}\ln(1+t) = \frac{1}{x}\lim_{t \to 0}\ln(1+t)^{1/t} = \frac{1}{x}\ln e = \frac{1}{x}$$
 
-（対数法則 $k\ln a = \ln a^k$ により $\dfrac1t\ln(1+t) = \ln(1+t)^{1/t}$ と変形しています。また $\lim_{t \to 0}(1+t)^{1/t}=e$ は前節のネイピア数の定義から）。したがって
+（対数法則 $k\ln a = \ln a^k$ により $\dfrac1t\ln(1+t) = \ln(1+t)^{1/t}$ と変形しています。また、前節では $n$ が自然数の場合（$t=1/n>0$、すなわち片側）として $e$ を定義しましたが、$n$ が自然数の場合と同様に、$t\to0^-$ の場合も含めて $\lim_{t \to 0}(1+t)^{1/t}=e$ が成り立つことが知られています（証明は本記事の範囲を超えるため省略します）。）したがって
 
 $$(\ln x)' = \frac{1}{x}, \quad \int \frac{1}{x}\,dx = \ln|x| + C$$
 
