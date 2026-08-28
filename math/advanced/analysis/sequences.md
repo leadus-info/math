@@ -192,4 +192,3 @@ $|r| \geq 1$ のときは発散します。$r=1$ のときは各項が $a_1$ の
 ## 関連ページ
 
 - [極限](limits.md)
-- [数学的帰納法](../foundations/proofs-induction.md)
