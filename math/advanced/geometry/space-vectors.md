@@ -43,9 +43,9 @@ $$|\vec{a}| = \sqrt{\left(\sqrt{a_1^2+a_2^2}\right)^2+a_3^2} = \sqrt{a_1^2+a_2^2
 
 が得られます。
 
-例えば、2点 $A(1,0,2)$、$B(3,4,1)$ に対して $\overrightarrow{AB}=(2,\ 4,\ -1)$ なので、$|\overrightarrow{AB}|=\sqrt{2^2+4^2+(-1)^2}=\sqrt{21}$ です。
-
 一般に、2点 $A(x_1,y_1,z_1)$、$B(x_2,y_2,z_2)$ の位置ベクトルの差からは $\overrightarrow{AB}=(x_2-x_1,\ y_2-y_1,\ z_2-z_1)$ が得られます。これに先ほど導いた大きさの公式を当てはめると、$|\overrightarrow{AB}|=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2+(z_2-z_1)^2}$ となり、これは2点間の距離の公式になります。
+
+例えば、2点 $A(1,0,2)$、$B(3,4,1)$ に対して $\overrightarrow{AB}=(2,\ 4,\ -1)$ なので、$|\overrightarrow{AB}|=\sqrt{2^2+4^2+(-1)^2}=\sqrt{21}$ です。
 
 ---
 
@@ -71,7 +71,7 @@ $\vec{a}\cdot\vec{b}=0$ が垂直を意味することも変わりません。
 
 $$\overrightarrow{OA}\cdot\overrightarrow{BC} = \vec{a}\cdot(\vec{c}-\vec{b}) = \vec{a}\cdot\vec{c}-\vec{a}\cdot\vec{b} = \frac12-\frac12=0$$
 
-よって $OA \perp BC$ が示せます。座標を使わずに、正四面体の対称性から直接この結論を導けるのがベクトルの強みです。$\square$
+よって $OA \perp BC$ が示せます。座標を使わずに、正四面体の定義（辺の長さがすべて等しいこと）だけから直接この結論を導けるのがベクトルの強みです。$\square$
 
 ---
 
