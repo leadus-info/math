@@ -86,7 +86,7 @@ $$\sin\theta = \sin(180°-\theta), \qquad \cos\theta = -\cos(180°-\theta)$$
 
 $$S = \frac{1}{2}ab\sin C$$
 
-頂点 $B$ から辺 $AC$（の延長線）に垂線を下ろし、その足を $H$ とすると、直角三角形 $BCH$（斜辺 $BC=a$、$\angle BCH=C$）において $BH = a\sin C$ です。これは底辺 $b=AC$ に対する三角形の高さなので、面積は $S=\frac{1}{2}\times b \times a\sin C = \frac{1}{2}ab\sin C$ となります。$C$ が鈍角の場合、垂線の足 $H$ は辺 $AC$ の延長線上（三角形の外側）に出ますが、$BH=a\sin C$ 自体は「鈍角への拡張」で定義した $\sin C$（$90°<C<180°$ でも正の値）を使えばそのまま成り立つため、公式は変わりません。
+頂点 $B$ から辺 $AC$（の延長線）に垂線を下ろし、その足を $H$ とすると、直角三角形 $BCH$（斜辺 $BC=a$、$\angle BCH=C$）において $BH = a\sin C$ です。これは底辺 $b=AC$ に対する三角形の高さなので、面積は $S=\frac{1}{2}\times b \times a\sin C = \frac{1}{2}ab\sin C$ となります。$C$ が鈍角の場合、垂線の足 $H$ は辺 $AC$ の延長線上（三角形の外側）に出ます。このとき $\angle BCH = 180° - C$ であり、直角三角形 $BCH$ の定義から $BH = a\sin(180°-C)$ となりますが、「鈍角への拡張」の恒等式 $\sin\theta=\sin(180°-\theta)$ より $\sin(180°-C)=\sin C$ なので、これは $a\sin C$ に等しく、公式は変わりません。
 
 **例**：$a=4, b=5, C=60°$ のとき、面積は $S=\dfrac{1}{2}\times4\times5\times\sin60°=10\times\dfrac{\sqrt3}{2}=5\sqrt3$。
 
