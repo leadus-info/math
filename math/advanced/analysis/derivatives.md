@@ -182,13 +182,29 @@ $$y - 0 = 1 \cdot (x - 0) \implies y = x$$
 
 **積の微分法則**：$(fg)' = f'g + fg'$
 
+定義に従って導いてみます。分子 $f(x+h)g(x+h)-f(x)g(x)$ を、次のように差を分解します。
+
+$$f(x+h)g(x+h)-f(x)g(x) = \big[f(x+h)g(x+h)-f(x+h)g(x)\big] + \big[f(x+h)g(x)-f(x)g(x)\big]$$
+
+$$= f(x+h)\big[g(x+h)-g(x)\big] + \big[f(x+h)-f(x)\big]g(x)$$
+
+両辺を $h$ で割って $h\to0$ の極限をとると、$f(x+h)\to f(x)$（$f$ は微分可能なので連続）、$\dfrac{g(x+h)-g(x)}{h}\to g'(x)$、$\dfrac{f(x+h)-f(x)}{h}\to f'(x)$ より
+
+$$(fg)' = fg' + f'g$$
+
+が得られます。
+
 **例**：$(x^2 \sin x)' = 2x\sin x + x^2\cos x$
 
 **商の微分法則**：$\left(\dfrac{f}{g}\right)' = \dfrac{f'g - fg'}{g^2}$
 
+この公式は、積の法則と連鎖律（または $g(x)^{-1}$ の微分）から導けます。
+
 **例**：$\left(\dfrac{\sin x}{x}\right)' = \dfrac{x\cos x - \sin x}{x^2}$
 
 **連鎖律**（合成関数）：$(f(g(x)))' = f'(g(x)) \cdot g'(x)$
+
+（証明には $\epsilon$-$\delta$ 論法的な精密な扱いが必要なため、本記事では結果のみ示します。）
 
 **例**：$(\sin(x^2))' = \cos(x^2) \cdot 2x$
 
