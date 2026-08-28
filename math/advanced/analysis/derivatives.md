@@ -180,7 +180,7 @@ $$y - 0 = 1 \cdot (x - 0) \implies y = x$$
 
 ## 計算規則
 
-**和の微分**：$(f + g)' = f' + g'$、$(\alpha f)' = \alpha f'$
+**和の微分**：$(f + g)' = f' + g'$、$(\alpha f)' = \alpha f'$。これは極限の線形性（$\lim(f+g)=\lim f+\lim g$、$\lim(\alpha f)=\alpha\lim f$）から直ちに従います。
 
 **積の微分法則**：$(fg)' = f'g + fg'$
 
