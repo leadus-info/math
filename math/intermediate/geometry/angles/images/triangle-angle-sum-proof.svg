@@ -12,13 +12,13 @@
 
   <!-- angle C (double mark) -->
   <path d="M272,300 Q273.33,281.95 289.6,274.0" fill="none" stroke="currentColor" stroke-width="1.5"/>
-  <line x1="272.67" y1="281.50" x2="280.95" y2="287.10" stroke="currentColor" stroke-width="1.5"/>
-  <line x1="267.70" y1="278.14" x2="275.98" y2="283.74" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="270.68" y1="285.53" x2="279.65" y2="289.95" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="275.67" y1="278.16" x2="283.11" y2="284.84" stroke="currentColor" stroke-width="1.5"/>
 
   <!-- angle at A, right side (double mark, equal to angle C) -->
   <path d="M248,100 Q246.67,118.05 230.4,126.0" fill="none" stroke="currentColor" stroke-width="1.5"/>
-  <line x1="247.33" y1="118.50" x2="239.05" y2="112.90" stroke="currentColor" stroke-width="1.5"/>
-  <line x1="252.30" y1="121.86" x2="244.02" y2="116.26" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="249.32" y1="114.47" x2="240.35" y2="110.05" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="244.33" y1="121.84" x2="236.89" y2="115.16" stroke="currentColor" stroke-width="1.5"/>
 
   <circle cx="220" cy="100" r="3" fill="currentColor"/>
   <circle cx="100" cy="300" r="3" fill="currentColor"/>
