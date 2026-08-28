@@ -15,6 +15,8 @@ hierarchy:
 requires:
   - title: 自然数
     path: ../../beginner/numbers/natural-numbers.md
+  - title: 数学的帰納法
+    path: ../foundations/proofs-induction.md
 ---
 
 ## 規則正しく並んだ数
