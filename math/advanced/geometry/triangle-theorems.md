@@ -52,11 +52,24 @@ $$\frac{BD}{DC}\cdot\frac{CE}{EA}\cdot\frac{AF}{FB} = 1$$
 
 が成り立ちます。これを**チェバの定理**といいます。
 
-**証明**：三角形 $XYZ$ の面積を $[\triangle XYZ]$ と表します。$D$ は辺 $BC$ 上、$P$ は線分 $AD$ 上にあるので、頂点 $A$ を共有する三角形 $ABD$、$ACD$ は底辺 $BD$、$DC$ が同一直線上にあり高さが等しく、$[\triangle ABD]:[\triangle ACD] = BD:DC$ が成り立ちます。同様に頂点 $P$ を共有する三角形 $PBD$、$PCD$ についても $[\triangle PBD]:[\triangle PCD] = BD:DC$ が成り立ちます。$P$ が線分 $AD$ 上にあることから、線分 $BP$ は三角形 $ABD$ を三角形 $ABP$ と $PBD$ に、線分 $CP$ は三角形 $ACD$ を三角形 $ACP$ と $PCD$ に分割するので、$[\triangle ABP] = [\triangle ABD]-[\triangle PBD]$、$[\triangle ACP]=[\triangle ACD]-[\triangle PCD]$ となります。一般に $a:b=c:d$ が成り立つとき $a:b=(a-c):(b-d)$ も成り立つので（$a=bk,c=dk$ とおくと $a-c=(b-d)k$ となるため）、$[\triangle ABD]:[\triangle ACD]=[\triangle PBD]:[\triangle PCD]$ にこの性質を適用すると
+![三角形ABCの内部の点Pを通る3本の直線AP、BP、CPが対辺と交わり、比の積が1になることを示す図](triangle-theorems/images/ceva-theorem.svg)
+
+**証明**：三角形 $XYZ$ の面積を $[\triangle XYZ]$ と表します。
+
+三角形の面積は[三角形](triangles.md)で見た $S=\frac12\times\text{底辺}\times\text{高さ}$ で求まるので、$D$ は辺 $BC$ 上、$P$ は線分 $AD$ 上にあることから、頂点 $A$ を共有し底辺 $BD$、$DC$ が同一直線上にあり高さが等しい三角形 $ABD$、$ACD$ の面積比は底辺の比に等しく、$[\triangle ABD]:[\triangle ACD] = BD:DC$ が成り立ちます。同様に頂点 $P$ を共有する三角形 $PBD$、$PCD$ についても $[\triangle PBD]:[\triangle PCD] = BD:DC$ が成り立ちます。
+
+$P$ が線分 $AD$ 上にあることから、線分 $BP$ は三角形 $ABD$ を三角形 $ABP$ と $PBD$ に、線分 $CP$ は三角形 $ACD$ を三角形 $ACP$ と $PCD$ に分割するので、$[\triangle ABP] = [\triangle ABD]-[\triangle PBD]$、$[\triangle ACP]=[\triangle ACD]-[\triangle PCD]$ となります。
+
+> [!NOTE]
+> 面積比の引き算に使う一般の性質：$a:b=c:d$ が成り立つとき、$a:b=(a-c):(b-d)$ も成り立ちます（$a=bk,c=dk$ とおくと $a-c=(b-d)k$ となるため）。
+
+$[\triangle ABD]:[\triangle ACD]=[\triangle PBD]:[\triangle PCD]$ にこの性質を適用すると
 
 $$BD:DC = [\triangle ABD]:[\triangle ACD] = ([\triangle ABD]-[\triangle PBD]):([\triangle ACD]-[\triangle PCD]) = [\triangle ABP]:[\triangle CAP]$$
 
-が得られます（$[\triangle ACP]$ を $[\triangle CAP]$ と表記しています）。全く同様に、頂点 $B$、$C$ を通る2本の直線についても
+が得られます（$[\triangle ACP]$ を $[\triangle CAP]$ と表記しています。3つの式を辺々掛け合わせた際に約分できるよう、分母・分子の順序をそろえるためです）。
+
+全く同様に、頂点 $B$、$C$ を通る2本の直線についても、$A,B,C$ を $B,C,A$ に読み替えれば全く同じ議論で
 
 $$CE:EA = [\triangle BCP]:[\triangle ABP], \qquad AF:FB = [\triangle CAP]:[\triangle BCP]$$
 
@@ -64,9 +77,7 @@ $$CE:EA = [\triangle BCP]:[\triangle ABP], \qquad AF:FB = [\triangle CAP]:[\tria
 
 $$\frac{BD}{DC}\cdot\frac{CE}{EA}\cdot\frac{AF}{FB} = \frac{[\triangle ABP]}{[\triangle CAP]}\cdot\frac{[\triangle BCP]}{[\triangle ABP]}\cdot\frac{[\triangle CAP]}{[\triangle BCP]} = 1$$
 
-となり、途中の面積がすべて打ち消し合ってチェバの定理が得られます。
-
-![三角形ABCの内部の点Pを通る3本の直線AD、BE、CFが対辺と交わり、比の積が1になることを示す図](triangle-theorems/images/ceva-theorem.svg)
+となり、途中の面積がすべて打ち消し合ってチェバの定理が得られます。$\square$
 
 **例題**：辺$BC$、$CA$上にそれぞれ点$D$、$E$をとり、線分$AD$と$BE$の交点を通り頂点$C$を通る直線が辺$AB$と交わる点を$F$とする。$BD:DC=2:1$、$CE:EA=3:2$のとき、$AF:FB$を求める。チェバの定理より $\dfrac{BD}{DC}\cdot\dfrac{CE}{EA}\cdot\dfrac{AF}{FB}=1$ なので、$\dfrac{2}{1}\cdot\dfrac{3}{2}\cdot\dfrac{AF}{FB}=1$、$3\cdot\dfrac{AF}{FB}=1$、$AF:FB=1:3$。
 
