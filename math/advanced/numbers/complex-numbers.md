@@ -140,7 +140,15 @@ $$\alpha+\beta = \frac{-1+\sqrt3 i}{2} + \frac{-1-\sqrt3 i}{2} = -1, \qquad \alp
 
 $$(\cos\theta+i\sin\theta)^n = \cos n\theta + i\sin n\theta$$
 
-正の整数 $n$ については、掛け算を $n$ 回繰り返すことでこの式が得られます。$n=0$ のときは両辺とも $1$ となり成り立ち、$n$ が負の整数のときは $\cos\theta+i\sin\theta$ の逆数が $\cos(-\theta)+i\sin(-\theta)$（絶対値1のまま偏角の符号だけ反転したもの）になることを使って、正の整数の場合に帰着できます。
+正の整数 $n$ については、掛け算を $n$ 回繰り返すことでこの式が得られます。
+
+$n=0$ のときは、両辺とも $1$ となり成り立ちます。
+
+$n$ が負の整数のときは、$\cos\theta+i\sin\theta$ の逆数を考えます。極形式の節で示した掛け算の公式（加法定理）を使うと、
+
+$$(\cos\theta+i\sin\theta)(\cos(-\theta)+i\sin(-\theta)) = \cos(\theta-\theta)+i\sin(\theta-\theta) = \cos 0+i\sin 0 = 1$$
+
+となるので、$\cos\theta+i\sin\theta$ の逆数は $\cos(-\theta)+i\sin(-\theta)$（絶対値1のまま偏角の符号だけ反転したもの）です。これを使うと、正の整数の場合に帰着できます。
 
 **例**：$\left(\cos\dfrac{\pi}{6}+i\sin\dfrac{\pi}{6}\right)^{12} = \cos2\pi+i\sin2\pi = 1$。
 
