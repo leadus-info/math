@@ -1,7 +1,10 @@
 <svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="立方体を見取図と展開図の2通りで表した図">
   <!-- 見取図 -->
   <polygon points="40,140 120,140 120,220 40,220" fill="none" stroke="currentColor" stroke-width="2"/>
-  <polygon points="70,110 150,110 150,190 70,190" fill="none" stroke="currentColor" stroke-width="2"/>
+  <line x1="70" y1="110" x2="150" y2="110" stroke="currentColor" stroke-width="2"/>
+  <line x1="150" y1="110" x2="150" y2="190" stroke="currentColor" stroke-width="2"/>
+  <line x1="150" y1="190" x2="70" y2="190" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="70" y1="190" x2="70" y2="110" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
   <line x1="40" y1="140" x2="70" y2="110" stroke="currentColor" stroke-width="2"/>
   <line x1="120" y1="140" x2="150" y2="110" stroke="currentColor" stroke-width="2"/>
   <line x1="120" y1="220" x2="150" y2="190" stroke="currentColor" stroke-width="2"/>
