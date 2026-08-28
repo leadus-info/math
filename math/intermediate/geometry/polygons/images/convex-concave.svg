@@ -18,8 +18,8 @@
   <!-- へこんだ頂点の強調 -->
   <circle cx="300" cy="140" r="7" fill="none" stroke="currentColor" stroke-width="1"/>
   <circle cx="300" cy="140" r="3" fill="currentColor"/>
-  <line x1="300" y1="140" x2="345" y2="105" stroke="currentColor" stroke-width="1"/>
-  <text x="396" y="102" font-size="13" text-anchor="end" fill="currentColor">凹んだ頂点</text>
-  <text x="396" y="119" font-size="13" text-anchor="end" fill="currentColor">(内角180°超)</text>
+  <line x1="300" y1="140" x2="340" y2="200" stroke="currentColor" stroke-width="1"/>
+  <text x="396" y="202" font-size="13" text-anchor="end" fill="currentColor">凹んだ頂点</text>
+  <text x="396" y="219" font-size="13" text-anchor="end" fill="currentColor">(内角180°超)</text>
   <text x="300" y="235" font-size="16" text-anchor="middle" fill="currentColor">凹多角形</text>
 </svg>
