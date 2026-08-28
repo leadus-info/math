@@ -23,7 +23,7 @@
   <!-- points -->
   <circle cx="80" cy="230" r="3" fill="currentColor"/>
   <circle cx="240" cy="110" r="3" fill="currentColor"/>
-  <text x="62" y="245" font-size="16" text-anchor="end" fill="currentColor">A(-2, 1)</text>
+  <text x="50" y="245" font-size="16" text-anchor="end" fill="currentColor">A(-2, 1)</text>
   <text x="248" y="105" font-size="16" fill="currentColor">B(2, 4)</text>
 
   <!-- leg labels -->
