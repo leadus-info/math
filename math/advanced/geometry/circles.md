@@ -19,6 +19,8 @@ requires:
     path: line.md
   - title: 三角比
     path: trigonometry.md
+  - title: 円周角の定理
+    path: ../../intermediate/geometry/circle-angles.md
 ---
 
 ## 円とは
@@ -57,7 +59,7 @@ $$\text{弧長} = r\theta, \quad \text{扇形の面積} = \frac{1}{2}r^2\theta$$
 
 ## 接線
 
-円の外から引いた「ちょうど1点だけで触れる直線」が**接線**です。接線と円が触れる点を**接点**といい、接点は円周上の点です。接線は接点で半径と垂直になります（この性質は「円周角の定理」で証明されています）。
+円の外から引いた「ちょうど1点だけで触れる直線」が**接線**です。接線と円が触れる点を**接点**といい、接点は円周上の点です。接線は接点で半径と垂直になります（この性質は「円周角の定理」で扱われています）。
 
 ![円の接線が接点における半径と垂直になることを示す図](circles/images/tangent-perpendicular-radius.svg)
 
