@@ -15,7 +15,7 @@
   <circle cx="130" cy="40" r="3" fill="currentColor"/>
 
   <text x="168" y="262" font-size="16" fill="currentColor">O(外心)</text>
-  <text x="158" y="190" font-size="16" fill="currentColor">G(重心)</text>
+  <text x="150" y="222" font-size="16" text-anchor="middle" fill="currentColor">G(重心)</text>
   <text x="100" y="40" font-size="16" text-anchor="end" fill="currentColor">H(垂心)</text>
 
   <text x="200" y="300" font-size="13" text-anchor="middle" fill="currentColor">オイラー線: O, G, Hは一直線上、OG : GH = 1 : 2</text>
