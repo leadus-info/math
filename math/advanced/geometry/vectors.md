@@ -77,7 +77,7 @@ $$\vec{a}\cdot\vec{a}=|\vec{a}|^2, \quad \vec{a}\cdot\vec{b}=\vec{b}\cdot\vec{a}
 
 頂点の位置ベクトルを $\vec{a},\vec{b},\vec{c}$ とし、$G=\dfrac{\vec{a}+\vec{b}+\vec{c}}{3}$ とおきます。辺$BC$の中点を$M$とすると、$M$の位置ベクトルは $\dfrac{\vec{b}+\vec{c}}{2}$ です。
 
-中線$AM$上の点は $\vec{a}+t\left(\dfrac{\vec{b}+\vec{c}}{2}-\vec{a}\right)$（$0\leq t\leq1$）と表せます。これを整理すると $(1-t)\vec{a}+\dfrac{t}{2}\vec{b}+\dfrac{t}{2}\vec{c}$ となります。
+中線$AM$上の点は $\vec{a}+t\left(\dfrac{\vec{b}+\vec{c}}{2}-\vec{a}\right)$（$0\leq t\leq1$）と表せます。これを整理すると $(1-t)\vec{a}+\dfrac{t}{2}\vec{b}+\dfrac{t}{2}\vec{c}$ となります。$A,B,C$は三角形をなす（同一直線上にない）ため、係数の和が1になるこの形の等式では、係数の組 $(1-t,\ t/2,\ t/2)$ が一意に定まります。
 
 $G$が中線$AM$上にあるとすると、$G=\dfrac13\vec{a}+\dfrac13\vec{b}+\dfrac13\vec{c}$ とこの式の係数を比較して、$\dfrac{t}{2}=\dfrac13$ が成り立つ必要があります。これを解くと $t=\dfrac23$ です（このとき $1-t=\dfrac13$ も同時に成り立ち、矛盾はありません）。逆に $t=\dfrac23$ を代入すると、
 
