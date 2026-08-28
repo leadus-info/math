@@ -49,7 +49,7 @@ requires:
 
 ## 平行線と線分の比
 
-三角形 $ABC$ の辺 $AB$、$AC$ 上にそれぞれ点 $P$、$Q$ をとり、$PQ \parallel BC$ とします。このとき、三角形 $APQ$ と三角形 $ABC$ は相似になり（$\angle A$ が共通、$\angle APQ = \angle ABC$（同位角）で2組の角がそれぞれ等しい）、次が成り立ちます。
+三角形 $ABC$ の辺 $AB$、$AC$ 上にそれぞれ点 $P$、$Q$ をとり、$PQ \parallel BC$ とします。このとき、三角形 $APQ$ と三角形 $ABC$ は相似になり（$\angle A$ が共通、$\angle APQ = \angle ABC$（同位角、2直線が1直線と交わってできる同じ位置の角）で2組の角がそれぞれ等しい）、次が成り立ちます。
 
 $$AP:AB = AQ:AC = PQ:BC$$
 
