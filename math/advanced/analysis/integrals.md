@@ -81,11 +81,17 @@ $$\int 2x\cos(x^2)\,dx = \int \cos(x^2)\cdot(2x\,dx) \xrightarrow{u=x^2,\ du=2x\
 
 矢印の上に書いた $u=x^2,\ du=2x\,dx$ は、その箇所で行った置き換えを表す注記です。
 
-**部分積分**：積の微分法則 $(fg)'=f'g+fg'$ の両辺を積分すると $fg=\int f'g\,dx+\int fg'\,dx$ となるので、これを $\int fg'\,dx$ について整理すると次の公式が得られます。
+**部分積分**：積の微分法則 $(fg)'=f'g+fg'$ の両辺を積分すると、次の式が得られます。
+
+$$fg=\int f'g\,dx+\int fg'\,dx$$
+
+両辺から $\int f'g\,dx$ を引いて $\int fg'\,dx$ について整理すると、次の公式が得られます。
 
 $$\int f g'\,dx = fg - \int f'g\,dx$$
 
-**例**：$\displaystyle\int x e^x\,dx = xe^x - \int e^x\,dx = (x-1)e^x + C$
+**例**：$f(x)=x$、$g'(x)=e^x$ とおくと $f'(x)=1$、$g(x)=e^x$ なので、
+
+$$\displaystyle\int x e^x\,dx = xe^x - \int e^x\,dx = (x-1)e^x + C$$
 
 ---
 
