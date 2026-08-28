@@ -67,9 +67,9 @@ $$\frac{x^2-1}{x-1} = \frac{(x-1)(x+1)}{x-1} = x+1 \quad (x \neq 1)$$
 
 ## 極限の計算規則
 
-数列・関数のいずれの極限についても、同様の計算規則が成り立ちます。ここでは数列の極限を例に説明します（関数の場合も同様の規則が成り立ちます）。$\displaystyle\lim_{x\to a} f(x) = L$、$\displaystyle\lim_{x\to a} g(x) = M$ のとき：
+数列・関数のいずれの極限についても、同様の計算規則が成り立ちます。ここでは数列の極限を例に説明します（関数の場合も同様の規則が成り立ちます）。$\displaystyle\lim_{n\to\infty} a_n = L$、$\displaystyle\lim_{n\to\infty} b_n = M$ のとき：
 
-$$\lim (f + g) = L + M, \quad \lim (fg) = LM, \quad \lim \frac{f}{g} = \frac{L}{M} \; (M \neq 0)$$
+$$\lim (a_n + b_n) = L + M, \quad \lim (a_n b_n) = LM, \quad \lim \frac{a_n}{b_n} = \frac{L}{M} \; (M \neq 0)$$
 
 **例**：$\displaystyle\lim_{n\to\infty}\left(3 + \frac{2}{n}\right)$ を求める。和の規則より
 
