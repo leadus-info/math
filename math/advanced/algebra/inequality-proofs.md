@@ -15,6 +15,8 @@ hierarchy:
 requires:
   - title: 展開・因数分解
     path: ../../intermediate/algebra/expressions-expansion-factoring.md
+  - title: 平方根
+    path: ../../intermediate/numbers/arithmetic-square-root.md
 ---
 
 ## 恒等式
