@@ -41,7 +41,9 @@ requires:
 
 ![直角三角形ABC（∠A=90°）の頂点Aから斜辺BCに垂線を引いた足をDとし、三角形ABDの部分を薄く塗って示した図。∠CAB（直角）と∠ADB（直角）、∠ABDと∠CBA（共通の角）の対応関係がわかる](similarity/images/altitude-similarity.svg)
 
-三角形 $ABD$ と三角形 $CBA$ に注目すると、$\angle ADB = \angle CAB = 90°$（仮定）、$\angle ABD = \angle CBA$（共通）より、2組の角がそれぞれ等しいので、三角形 $ABD$ と三角形 $CBA$ は相似です。
+相似な三角形も合同のときと同様に、対応する頂点を同じ順に並べて表記します。ここでは三角形 $ABD$ の頂点 $A$、$B$、$D$ が、それぞれ三角形 $CBA$ の頂点 $C$、$B$、$A$ に対応します（$A \leftrightarrow C$、$B \leftrightarrow B$、$D \leftrightarrow A$）。
+
+三角形 $ABD$ と三角形 $CBA$ に注目すると、$\angle ADB = \angle CAB\,(= \angle A) = 90°$（仮定）、$\angle ABD = \angle CBA$（共通）より、2組の角がそれぞれ等しいので、三角形 $ABD$ と三角形 $CBA$ は相似です。
 
 ---
 
