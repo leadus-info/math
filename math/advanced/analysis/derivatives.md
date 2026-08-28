@@ -57,7 +57,7 @@ $$(a^x)' = \lim_{h \to 0}\frac{a^{x+h}-a^x}{h} = a^x\lim_{h \to 0}\frac{a^h-1}{h
 
 この $e$ が具体的にどんな値かを求めてみます。目標は、$\lim_{h \to 0}\dfrac{a^h-1}{h}=1$ を満たす $a$ を特定することです。
 
-$h=\dfrac1n$ とおくと（$h \to 0$ は $n \to \infty$ に対応します）、$h$ が $0$ に近いとき $\dfrac{a^h-1}{h}\approx 1$ という近似的な関係が成り立ち、これは $a^{1/n}-1 \approx \dfrac1n$、すなわち $a \approx \left(1+\dfrac1n\right)^n$ と書き換えられます。ただし、これはあくまで $h\to0$（$n\to\infty$）の極限で $\dfrac{a^h-1}{h}\to1$ となるという意味であり、有限の $n$ について厳密に等号 $a = \left(1+\dfrac1n\right)^n$ が成り立つわけではないことに注意してください。
+$h=\dfrac1n$ とおくと（$h \to 0$ は $n \to \infty$ に対応します）、$h$ が $0$ に近いとき $\dfrac{a^h-1}{h}\approx 1$ という近似的な関係が成り立ち、これは $a^{1/n}-1 \approx \dfrac1n$ と書き換えられます。両辺に $1$ を足すと $a^{1/n} \approx 1+\dfrac1n$、さらに両辺を $n$ 乗すると $a \approx \left(1+\dfrac1n\right)^n$ となります。ただし、これはあくまで $h\to0$（$n\to\infty$）の極限で $\dfrac{a^h-1}{h}\to1$ となるという意味であり、有限の $n$ について厳密に等号 $a = \left(1+\dfrac1n\right)^n$ が成り立つわけではないことに注意してください。
 
 そこで、有限の $n$ について数列 $a_n = \left(1+\dfrac1n\right)^n$ を考え、$n\to\infty$ の極限としてネイピア数 $e$ を定義します。
 
