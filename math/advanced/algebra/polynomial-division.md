@@ -15,6 +15,8 @@ hierarchy:
 requires:
   - title: 多項式
     path: polynomials.md
+  - title: 等号・等式
+    path: ../../intermediate/algebra/equations.md
 ---
 
 ## 整式の除法
@@ -51,7 +53,7 @@ $$\frac{1}{x} + \frac{1}{x+1} = \frac{x+1}{x(x+1)} + \frac{x}{x(x+1)} = \frac{(x
 
 **剰余の定理**：整式 $f(x)$ を $x-\alpha$ で割った余りは $f(\alpha)$ に等しい。
 
-**証明**：$f(x)$ を $x-\alpha$ で割った商を $Q$、余りを $R$ とすると、$f(x) = (x-\alpha)Q + R$ と書ける。$x-\alpha$ は1次式なので、余り $R$ の次数は $x-\alpha$ の次数（1次）より低く、$R$ は定数である。この等式は $x$ についての恒等式なので、両辺に $x=\alpha$ を代入してもよい。代入すると $f(\alpha) = (\alpha-\alpha)Q + R = R$ となる。よって $R = f(\alpha)$ である。$\square$
+**証明**：$f(x)$ を $x-\alpha$ で割った商を $Q$、余りを $R$ とすると、$f(x) = (x-\alpha)Q + R$ と書ける。$x-\alpha$ は1次式なので、余り $R$ の次数は $x-\alpha$ の次数（1次）より低く、$R$ は定数である。この等式は $x$ についての[恒等式](../../intermediate/algebra/equations.md)（＝どんな $x$ でも成り立つ等式）なので、特定の値 $x=\alpha$ でも当然成り立つ。したがって両辺に $x=\alpha$ を代入してもよい。代入すると $f(\alpha) = (\alpha-\alpha)Q + R = R$ となる。よって $R = f(\alpha)$ である。$\square$
 
 **例**：$f(x)=x^3-2x^2+3x-1$ を $x-1$ で割った余りは $f(1) = 1-2+3-1=1$。これは「整式の除法」の例題で求めた商 $x^2-x+2$・余り $1$ のうち、余り $1$ と一致します。
 
