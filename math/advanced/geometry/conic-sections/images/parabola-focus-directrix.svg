@@ -4,7 +4,7 @@
   <text x="60" y="16" font-size="13" fill="currentColor">準線 ℓ</text>
 
   <!-- parabola opening rightward, vertex (150,150), focus (220,150) -->
-  <path d="M185.7,50 Q170,100 150,150 Q170,200 185.7,250" fill="none" stroke="currentColor" stroke-width="2"/>
+  <path d="M185.7,50 Q150,100 150,150 Q150,200 185.7,250" fill="none" stroke="currentColor" stroke-width="2"/>
 
   <!-- focus -->
   <circle cx="220" cy="150" r="3" fill="currentColor"/>
