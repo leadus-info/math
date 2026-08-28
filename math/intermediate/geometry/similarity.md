@@ -53,7 +53,7 @@ requires:
 
 $$AP:AB = AQ:AC = PQ:BC$$
 
-![三角形ABCの辺AB、AC上の点P、QをPQがBCと平行になるようにとると、三角形APQと三角形ABCが相似になることを示す図](similarity/images/parallel-side-ratio.svg)
+![三角形ABCの辺AB、AC上の点P、QをPQがBCと平行になるようにとると、三角形APQと三角形ABCが相似になることを示す図。∠APQと∠ABCが同じ位置にある同位角であることを弧の印で示している](similarity/images/parallel-side-ratio.svg)
 
 **例題**：三角形 $ABC$ の辺 $AB$、$AC$ 上に $PQ \parallel BC$ となるように点 $P$、$Q$ をとる。$AP = 4$、$AB = 6$、$BC = 9$ のとき、$PQ$ の長さを求める。$AP:AB = PQ:BC$ より $4:6 = PQ:9$。よって $PQ = 9 \times \dfrac{4}{6} = 6$。
 
