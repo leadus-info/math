@@ -87,7 +87,7 @@ $$\frac{a+b}{2}-\sqrt{ab} = \frac{a+b}{2}-\frac{2\sqrt{ab}}{2} = \frac{a+b-2\sqr
 
 **例題（和が一定 → 積の最大値）**：$x>0, y>0$ で $x+y=6$ のとき、$xy$ の最大値を求める。相加相乗平均より $\dfrac{x+y}{2}\geq\sqrt{xy}$ なので $\sqrt{xy}\leq\dfrac{6}{2}=3$、すなわち $xy\leq9$。等号は $x=y$ のとき、つまり $x=y=3$ のとき成り立つので、最大値は $9$。
 
-**例題（積が一定 → 和の最小値）**：$x>0$ のとき $x + \dfrac{4}{x}$ の最小値を求める。相加相乗平均より $x+\dfrac4x \geq 2\sqrt{x\cdot\dfrac4x}=2\sqrt4=4$。等号は $x=\dfrac4x$ すなわち $x=2$ のとき成り立つので、最小値は $4$。
+**例題（積が一定 → 和の最小値）**：$x>0$ のとき $x + \dfrac{4}{x}$ の最小値を求める。相加相乗平均より（$a+b\geq2\sqrt{ab}$ の形を用いると）$x+\dfrac4x \geq 2\sqrt{x\cdot\dfrac4x}=2\sqrt4=4$。等号は $x=\dfrac4x$ すなわち $x=2$ のとき成り立つので、最小値は $4$。
 
 ---
 
