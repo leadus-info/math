@@ -84,6 +84,9 @@ $$|z| = \sqrt{a^2 + b^2}, \qquad |z|^2 = z \times \bar{z}$$
 
 $$z = r(\cos\theta + i\sin\theta)$$
 
+> [!NOTE]
+> $\theta$ に $2\pi$ の整数倍を加えても同じ点を表すため、偏角は一意には定まりません。
+
 これを**極形式**といいます。極形式では、掛け算の意味が明確になります。
 
 $$r_1(\cos\theta_1 + i\sin\theta_1) \times r_2(\cos\theta_2 + i\sin\theta_2) = r_1 r_2\bigl(\cos(\theta_1+\theta_2) + i\sin(\theta_1+\theta_2)\bigr)$$
