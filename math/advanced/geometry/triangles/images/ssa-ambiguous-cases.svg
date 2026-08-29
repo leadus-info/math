@@ -1,0 +1,74 @@
+<svg viewBox="0 0 980 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="正弦定理でSSA(角A・辺a・辺c)が既知のとき、頂点Bを固定し半径aの円と角Aのもう一方の半直線との交点の個数で三角形の個数が0通り・1通り(直角三角形)・2通り・1通りのいずれになるかを4パネルで示す図">
+  <!-- panel 0: a &lt; c sinA  (0) -->
+  <text x="130.0" y="16" font-size="14" text-anchor="middle" fill="currentColor">a &lt; c sinA  (0)</text>
+  <line x1="50.00" y1="220.00" x2="230.00" y2="220.00" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="50.00" y1="220.00" x2="169.50" y2="119.73" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M72.00,220.00 A22,22 0 0 0 66.85,205.86" fill="none" stroke="currentColor" stroke-width="1"/>
+  <text x="81.95" y="208.37" font-size="13" text-anchor="middle" fill="currentColor">A</text>
+  <line x1="128.00" y1="220.00" x2="95.77" y2="181.59" stroke="currentColor" stroke-width="1" stroke-dasharray="4 3"/>
+  <path d="M101.90,176.45 L107.04,182.58 L100.91,187.72" fill="none" stroke="currentColor" stroke-width="1"/>
+  <circle cx="128.00" cy="220.00" r="39.00" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <circle cx="50.00" cy="220.00" r="3" fill="currentColor"/>
+  <circle cx="128.00" cy="220.00" r="3" fill="currentColor"/>
+  <text x="40.00" y="236.00" font-size="14" fill="currentColor">A</text>
+  <text x="128.00" y="238.00" font-size="14" text-anchor="middle" fill="currentColor">B</text>
+  <text x="89.00" y="236.00" font-size="13" text-anchor="middle" fill="currentColor">c</text>
+  <text x="105.79" y="213.76" font-size="12" text-anchor="middle" fill="currentColor">c sinA</text>
+  <text x="128.00" y="275.00" font-size="12" text-anchor="middle" fill="currentColor">a</text>
+  <!-- panel 1: a = c sinA  (1) -->
+  <text x="370.0" y="16" font-size="14" text-anchor="middle" fill="currentColor">a = c sinA  (1)</text>
+  <line x1="290.00" y1="220.00" x2="470.00" y2="220.00" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="290.00" y1="220.00" x2="409.50" y2="119.73" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M312.00,220.00 A22,22 0 0 0 306.85,205.86" fill="none" stroke="currentColor" stroke-width="1"/>
+  <text x="321.95" y="208.37" font-size="13" text-anchor="middle" fill="currentColor">A</text>
+  <line x1="368.00" y1="220.00" x2="335.77" y2="181.59" stroke="currentColor" stroke-width="1" stroke-dasharray="4 3"/>
+  <path d="M341.90,176.45 L347.04,182.58 L340.91,187.72" fill="none" stroke="currentColor" stroke-width="1"/>
+  <circle cx="368.00" cy="220.00" r="50.14" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <circle cx="290.00" cy="220.00" r="3" fill="currentColor"/>
+  <circle cx="368.00" cy="220.00" r="3" fill="currentColor"/>
+  <text x="280.00" y="236.00" font-size="14" fill="currentColor">A</text>
+  <text x="368.00" y="238.00" font-size="14" text-anchor="middle" fill="currentColor">B</text>
+  <text x="329.00" y="236.00" font-size="13" text-anchor="middle" fill="currentColor">c</text>
+  <text x="345.79" y="213.76" font-size="12" text-anchor="middle" fill="currentColor">c sinA</text>
+  <circle cx="335.77" cy="181.59" r="3" fill="currentColor"/>
+  <text x="319.77" y="173.59" font-size="14" fill="currentColor">C</text>
+  <text x="368.00" y="286.14" font-size="12" text-anchor="middle" fill="currentColor">a</text>
+  <!-- panel 2: c sinA &lt; a &lt; c  (2) -->
+  <text x="610.0" y="16" font-size="14" text-anchor="middle" fill="currentColor">c sinA &lt; a &lt; c  (2)</text>
+  <line x1="530.00" y1="220.00" x2="710.00" y2="220.00" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="530.00" y1="220.00" x2="649.50" y2="119.73" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M552.00,220.00 A22,22 0 0 0 546.85,205.86" fill="none" stroke="currentColor" stroke-width="1"/>
+  <text x="561.95" y="208.37" font-size="13" text-anchor="middle" fill="currentColor">A</text>
+  <line x1="608.00" y1="220.00" x2="575.77" y2="181.59" stroke="currentColor" stroke-width="1" stroke-dasharray="4 3"/>
+  <path d="M581.90,176.45 L587.04,182.58 L580.91,187.72" fill="none" stroke="currentColor" stroke-width="1"/>
+  <circle cx="608.00" cy="220.00" r="65.00" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <circle cx="530.00" cy="220.00" r="3" fill="currentColor"/>
+  <circle cx="608.00" cy="220.00" r="3" fill="currentColor"/>
+  <text x="520.00" y="236.00" font-size="14" fill="currentColor">A</text>
+  <text x="608.00" y="238.00" font-size="14" text-anchor="middle" fill="currentColor">B</text>
+  <text x="569.00" y="236.00" font-size="13" text-anchor="middle" fill="currentColor">c</text>
+  <text x="585.79" y="213.76" font-size="12" text-anchor="middle" fill="currentColor">c sinA</text>
+  <circle cx="544.08" cy="208.18" r="3" fill="currentColor"/>
+  <text x="552.08" y="198.18" font-size="14" fill="currentColor">C1</text>
+  <circle cx="607.46" cy="155.00" r="3" fill="currentColor"/>
+  <text x="591.46" y="145.00" font-size="14" fill="currentColor">C2</text>
+  <text x="608.00" y="301.00" font-size="12" text-anchor="middle" fill="currentColor">a</text>
+  <!-- panel 3: a ≥ c  (1) -->
+  <text x="850.0" y="16" font-size="14" text-anchor="middle" fill="currentColor">a ≥ c  (1)</text>
+  <line x1="770.00" y1="220.00" x2="950.00" y2="220.00" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="770.00" y1="220.00" x2="889.50" y2="119.73" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M792.00,220.00 A22,22 0 0 0 786.85,205.86" fill="none" stroke="currentColor" stroke-width="1"/>
+  <text x="801.95" y="208.37" font-size="13" text-anchor="middle" fill="currentColor">A</text>
+  <line x1="848.00" y1="220.00" x2="815.77" y2="181.59" stroke="currentColor" stroke-width="1" stroke-dasharray="4 3"/>
+  <path d="M821.90,176.45 L827.04,182.58 L820.91,187.72" fill="none" stroke="currentColor" stroke-width="1"/>
+  <circle cx="848.00" cy="220.00" r="91.00" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <circle cx="770.00" cy="220.00" r="3" fill="currentColor"/>
+  <circle cx="848.00" cy="220.00" r="3" fill="currentColor"/>
+  <text x="760.00" y="236.00" font-size="14" fill="currentColor">A</text>
+  <text x="848.00" y="238.00" font-size="14" text-anchor="middle" fill="currentColor">B</text>
+  <text x="809.00" y="236.00" font-size="13" text-anchor="middle" fill="currentColor">c</text>
+  <text x="825.79" y="213.76" font-size="12" text-anchor="middle" fill="currentColor">c sinA</text>
+  <circle cx="873.95" cy="132.78" r="3" fill="currentColor"/>
+  <text x="857.95" y="122.78" font-size="14" fill="currentColor">C</text>
+  <text x="848.00" y="327.00" font-size="12" text-anchor="middle" fill="currentColor">a</text>
+</svg>
