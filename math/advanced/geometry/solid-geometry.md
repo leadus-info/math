@@ -136,7 +136,7 @@ $$\frac{1}{p} + \frac{1}{q} > \frac{1}{2}$$
 
 が導かれます。
 
-この不等式を満たす整数の組 $(p,q)$（$p,q\geq3$）は限られています。$p,q\geq3$ のとき $\dfrac1p\leq\dfrac13$、$\dfrac1q\leq\dfrac13$ なので、$p$、$q$ がともに $4$ 以上だと $\dfrac1p+\dfrac1q\leq\dfrac12$ となり不等式に矛盾します。したがって $p$、$q$ の少なくとも一方は $3$ です。
+この不等式を満たす整数の組 $(p,q)$（$p,q\geq3$）は限られています。$p$、$q$ がともに $4$ 以上だとすると、$\dfrac1p\leq\dfrac14$、$\dfrac1q\leq\dfrac14$ なので $\dfrac1p+\dfrac1q\leq\dfrac12$ となり、不等式 $\dfrac1p+\dfrac1q>\dfrac12$ に矛盾します。したがって $p$、$q$ の少なくとも一方は $3$ です。
 
 $p=3$ のとき、$\dfrac13+\dfrac1q>\dfrac12 \iff \dfrac1q>\dfrac16 \iff q<6$ なので $q\in\{3,4,5\}$ です。同様に $q=3$ のとき $p\in\{3,4,5\}$ です。これらを整理すると、条件を満たす組は次の5通りに限られます。
 
