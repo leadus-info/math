@@ -27,7 +27,7 @@
   <circle cx="145" cy="155.7" r="3" fill="currentColor"/>
 
   <text x="205" y="268" font-size="13" fill="currentColor">O</text>
-  <text x="125" y="145" font-size="16" fill="currentColor">P(cos θ, sin θ)</text>
+  <text x="110" y="118" font-size="16" fill="currentColor">P(cos θ, sin θ)</text>
   <text x="130" y="268" font-size="13" fill="currentColor">cos θ</text>
-  <text x="150" y="205" font-size="13" fill="currentColor">sin θ</text>
+  <text x="138" y="205" font-size="13" text-anchor="end" fill="currentColor">sin θ</text>
 </svg>

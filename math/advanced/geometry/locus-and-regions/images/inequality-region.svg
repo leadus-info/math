@@ -26,7 +26,7 @@
   <circle cx="205" cy="245" r="3" fill="currentColor"/>
   <text x="70" y="135" font-size="13" text-anchor="end" fill="currentColor">(0, 4)</text>
   <text x="70" y="355" font-size="13" text-anchor="end" fill="currentColor">(0, -2)</text>
-  <text x="215" y="238" font-size="13" fill="currentColor">(3, 1)</text>
+  <text x="195" y="205" font-size="13" text-anchor="end" fill="currentColor">(3, 1)</text>
 
   <!-- boundary line labels -->
   <text x="280" y="105" font-size="13" fill="currentColor">y = -x+4</text>

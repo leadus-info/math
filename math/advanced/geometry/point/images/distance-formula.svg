@@ -1,4 +1,4 @@
-<svg viewBox="0 0 400 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="2点A(1,2)とB(4,6)を結ぶ線分を斜辺とし、横3・縦4の直角三角形から距離5が三平方の定理で求まることを示す図">
+<svg viewBox="0 0 400 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="2点A(-2,1)とB(2,4)を結ぶ線分を斜辺とし、横4・縦3の直角三角形から距離5が三平方の定理で求まることを示す図">
   <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5"
             markerWidth="6" markerHeight="6" orient="auto-start-reverse">
@@ -12,22 +12,22 @@
   <text x="66" y="22" font-size="13" fill="currentColor">y</text>
 
   <!-- right-angle corner marker -->
-  <path d="M210,200 L210,190 L220,190" fill="none" stroke="currentColor" stroke-width="1"/>
+  <path d="M230,230 L230,220 L240,220" fill="none" stroke="currentColor" stroke-width="1"/>
 
   <!-- triangle legs -->
-  <line x1="100" y1="200" x2="220" y2="200" stroke="currentColor" stroke-width="2"/>
-  <line x1="220" y1="200" x2="220" y2="40" stroke="currentColor" stroke-width="2"/>
+  <line x1="80" y1="230" x2="240" y2="230" stroke="currentColor" stroke-width="2"/>
+  <line x1="240" y1="230" x2="240" y2="110" stroke="currentColor" stroke-width="2"/>
   <!-- hypotenuse AB -->
-  <line x1="100" y1="200" x2="220" y2="40" stroke="currentColor" stroke-width="2"/>
+  <line x1="80" y1="230" x2="240" y2="110" stroke="currentColor" stroke-width="2"/>
 
   <!-- points -->
-  <circle cx="100" cy="200" r="3" fill="currentColor"/>
-  <circle cx="220" cy="40" r="3" fill="currentColor"/>
-  <text x="82" y="215" font-size="16" fill="currentColor">A(1, 2)</text>
-  <text x="228" y="35" font-size="16" fill="currentColor">B(4, 6)</text>
+  <circle cx="80" cy="230" r="3" fill="currentColor"/>
+  <circle cx="240" cy="110" r="3" fill="currentColor"/>
+  <text x="50" y="245" font-size="16" text-anchor="end" fill="currentColor">A(-2, 1)</text>
+  <text x="248" y="105" font-size="16" fill="currentColor">B(2, 4)</text>
 
   <!-- leg labels -->
-  <text x="160" y="218" font-size="13" text-anchor="middle" fill="currentColor">|x₂-x₁| = 3</text>
-  <text x="230" y="125" font-size="13" fill="currentColor">|y₂-y₁| = 4</text>
-  <text x="130" y="110" font-size="16" fill="currentColor">|AB| = 5</text>
+  <text x="160" y="248" font-size="13" text-anchor="middle" fill="currentColor">|x₂-x₁| = 4</text>
+  <text x="248" y="175" font-size="13" fill="currentColor">|y₂-y₁| = 3</text>
+  <text x="100" y="150" font-size="16" text-anchor="end" fill="currentColor">|AB| = 5</text>
 </svg>
