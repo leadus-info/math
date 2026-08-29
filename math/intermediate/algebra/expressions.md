@@ -19,6 +19,8 @@ requires:
     path: ../numbers/integers.md
   - title: 負の数の掛け算・割り算
     path: ../numbers/integers-multiplication-division.md
+  - title: 累乗
+    path: ../numbers/arithmetic.md
 ---
 
 ## 文字を使うと便利なわけ
