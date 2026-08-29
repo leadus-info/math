@@ -86,7 +86,11 @@ $$\cos(\alpha+\beta) = \cos\alpha\cos\beta-\sin\alpha\sin\beta$$
 
 が得られます。
 
-$\sin(\alpha+\beta)$ は、$\sin\theta=\cos\left(\theta-\dfrac{\pi}{2}\right)$ という関係を使って導けます。単位円上の角度 $\theta$ の点 $(\cos\theta,\sin\theta)$ を $-\dfrac{\pi}{2}$（時計回りに $90°$）回転させると、点は $(\sin\theta,-\cos\theta)$ に移ります。これは角度 $\theta-\dfrac{\pi}{2}$ の点の座標 $\left(\cos\left(\theta-\dfrac{\pi}{2}\right),\sin\left(\theta-\dfrac{\pi}{2}\right)\right)$ と一致するので、$\cos\left(\theta-\dfrac{\pi}{2}\right)=\sin\theta$、すなわち $\sin\theta=\cos\left(\theta-\dfrac{\pi}{2}\right)$ が任意の実数 $\theta$ について成り立ちます。まず、この関係に $\theta=\dfrac{\pi}{2}-\beta$ を代入すると
+$\sin(\alpha+\beta)$ は、$\sin\theta=\cos\left(\theta-\dfrac{\pi}{2}\right)$ という関係を使って導けます。この関係は、既に導出した $\cos(\alpha-\beta)=\cos\alpha\cos\beta+\sin\alpha\sin\beta$ に $\alpha=\theta$、$\beta=\dfrac{\pi}{2}$ を代入し、最初の表の値 $\cos\dfrac{\pi}{2}=0$、$\sin\dfrac{\pi}{2}=1$ を使うと
+
+$$\cos\left(\theta-\frac{\pi}{2}\right)=\cos\theta\cos\frac{\pi}{2}+\sin\theta\sin\frac{\pi}{2}=\sin\theta$$
+
+のように、任意の実数 $\theta$ について成り立つことが分かります。まず、この関係に $\theta=\dfrac{\pi}{2}-\beta$ を代入すると
 
 $$\sin\left(\frac{\pi}{2}-\beta\right) = \cos\left(\left(\frac{\pi}{2}-\beta\right)-\frac{\pi}{2}\right) = \cos(-\beta) = \cos\beta$$
 
