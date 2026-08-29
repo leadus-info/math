@@ -1,6 +1,6 @@
 <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="点Pから直線lに下ろした垂線の足Hまでの距離dを示す図">
   <line x1="60" y1="240" x2="340" y2="80" stroke="currentColor" stroke-width="2"/>
-  <text x="348" y="76" font-size="16" fill="currentColor">l</text>
+  <text x="364" y="76" font-size="16" fill="currentColor" transform="skewX(-12)">l</text>
 
   <circle cx="137.3" cy="115.24" r="3" fill="currentColor"/>
   <text x="120" y="102" font-size="16" fill="currentColor">P</text>
