@@ -46,9 +46,23 @@ $$
 $$(a+b)^3 = a^3 + 3a^2b + 3ab^2 + b^3$$
 $$(a-b)^3 = a^3 - 3a^2b + 3ab^2 - b^3$$
 
-**例**：$(x+2)^3 = x^3 + 3\cdot x^2\cdot2 + 3\cdot x\cdot4 + 8 = x^3+6x^2+12x+8$
+**例**：$(x+2)^3$ を求める。公式に $a=x$、$b=2$ を代入すると、次のように整理できる。
 
-**例**：$(x-2)^3 = x^3 - 3\cdot x^2\cdot2 + 3\cdot x\cdot4 - 8 = x^3-6x^2+12x-8$
+$$
+\begin{aligned}
+(x+2)^3 &= x^3 + 3\cdot x^2\cdot2 + 3\cdot x\cdot2^2 + 2^3 \\
+&= x^3+6x^2+12x+8
+\end{aligned}
+$$
+
+**例**：$(x-2)^3$ を求める。公式に $a=x$、$b=2$ を代入すると、次のように整理できる。
+
+$$
+\begin{aligned}
+(x-2)^3 &= x^3 - 3\cdot x^2\cdot2 + 3\cdot x\cdot2^2 - 2^3 \\
+&= x^3-6x^2+12x-8
+\end{aligned}
+$$
 
 ---
 
