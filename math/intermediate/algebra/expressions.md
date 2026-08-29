@@ -21,6 +21,8 @@ requires:
     path: ../numbers/integers-multiplication-division.md
   - title: 累乗
     path: ../numbers/arithmetic.md
+  - title: 掛け算
+    path: ../../beginner/numbers/multiplication.md
 ---
 
 ## 文字を使うと便利なわけ
@@ -86,7 +88,7 @@ $$(2x + 3) + (x - 1) = (2x + x) + (3 - 1) = 3x + 2$$
 
 これは、括弧の前の $-$ を「$-1$を掛ける」と考えると説明できます。
 
-括弧の中のすべての項に同じ数を掛けて計算できるという規則を**分配法則**といい、たとえば $a \times (b + c) = a \times b + a \times c$ が成り立ちます。
+掛け算で学んだ**分配法則**（$a \times (b + c) = a \times b + a \times c$）を使うと、括弧の中のすべての項に同じ数を掛けて計算できます。
 
 引き算は $x - 1 = x + (-1)$ のように、後ろの数の符号を反転させて足す形に直せるので、この法則がそのまま使えます。
 
