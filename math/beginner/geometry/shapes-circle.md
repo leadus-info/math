@@ -15,6 +15,8 @@ hierarchy:
 requires:
   - title: 図形
     path: shapes.md
+  - title: 広さ・かさ
+    path: ../numbers/measurement-area.md
 ---
 
 ## 円と球
