@@ -49,7 +49,8 @@
   <text x="569.00" y="236.00" font-size="13" text-anchor="middle" fill="currentColor">c</text>
   <text x="585.79" y="213.76" font-size="12" text-anchor="middle" fill="currentColor">c sinA</text>
   <circle cx="544.08" cy="208.18" r="3" fill="currentColor"/>
-  <text x="552.08" y="198.18" font-size="14" fill="currentColor">C1</text>
+  <line x1="544.08" y1="208.18" x2="528.08" y2="234.18" stroke="currentColor" stroke-width="1"/>
+  <text x="524.08" y="248.18" font-size="14" text-anchor="middle" fill="currentColor">C1</text>
   <circle cx="607.46" cy="155.00" r="3" fill="currentColor"/>
   <text x="591.46" y="145.00" font-size="14" fill="currentColor">C2</text>
   <text x="608.00" y="301.00" font-size="12" text-anchor="middle" fill="currentColor">a</text>
