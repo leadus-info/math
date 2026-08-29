@@ -52,6 +52,8 @@ $\mathbb{R} \subset \mathbb{C}$ です（実数は $b = 0$ の複素数）。
 
 $$(3 + 2i) + (1 + 4i) = 4 + 6i$$
 
+$$(3 + 2i) - (1 + 4i) = 2 - 2i$$
+
 掛け算は分配法則で展開し、$i^2 = -1$ を使います。
 
 $$(1 + 2i)(3 + i) = 3 + i + 6i + 2i^2 = 3 + 7i - 2 = 1 + 7i$$
@@ -72,6 +74,8 @@ $z \times \bar{z} = a^2 + b^2$ は常に0以上の実数になるので、この
 
 $$|z| = \sqrt{a^2 + b^2}, \qquad |z|^2 = z \times \bar{z}$$
 
+これは四則演算の節で見た $z\bar z = a^2+b^2$ と一致します。
+
 ---
 
 ## 極形式
@@ -79,6 +83,9 @@ $$|z| = \sqrt{a^2 + b^2}, \qquad |z|^2 = z \times \bar{z}$$
 複素平面上の点は、原点からの距離 $r = |z|$ と実軸からの角度 $\theta$（**偏角**）でも表せます。
 
 $$z = r(\cos\theta + i\sin\theta)$$
+
+> [!NOTE]
+> $\theta$ に $2\pi$ の整数倍を加えても同じ点を表すため、偏角は一意には定まりません。
 
 これを**極形式**といいます。極形式では、掛け算の意味が明確になります。
 
@@ -102,7 +109,10 @@ $$r_1 r_2\bigl[(\cos\theta_1\cos\theta_2 - \sin\theta_1\sin\theta_2) + i(\sin\th
 
 $$x = \frac{-b \pm \sqrt{D}}{2a}$$
 
-$D<0$ のときは $\sqrt{D} = \sqrt{-1}\sqrt{-D} = i\sqrt{-D}$ と考えて計算します。
+$D<0$ のとき、$\sqrt{D}$ を $i\sqrt{-D}$ と**定義**します。
+
+> [!NOTE]
+> これは実数の恒等式 $\sqrt{ab} = \sqrt{a}\sqrt{b}$（$a,b \geq 0$）をそのまま負の数に拡張したものではありません。実際、$a=b=-1$ を当てはめると $\sqrt{(-1)(-1)} = \sqrt{1} = 1$ である一方、$\sqrt{-1}\sqrt{-1} = i \times i = -1$ となり一致しません。$\sqrt{D}=i\sqrt{-D}$ は、この場面（$D<0$ のときの解の公式）限りの記法上の約束です。
 
 **例**：$x^2+x+1=0$ を解く。$D = 1-4=-3$。$x = \dfrac{-1\pm\sqrt{-3}}{2} = \dfrac{-1\pm\sqrt3 i}{2}$。
 
@@ -112,7 +122,15 @@ $D<0$ のときは $\sqrt{D} = \sqrt{-1}\sqrt{-D} = i\sqrt{-D}$ と考えて計�
 
 $$\alpha+\beta = -\frac{b}{a}, \qquad \alpha\beta = \frac{c}{a}$$
 
-これは $ax^2+bx+c = a(x-\alpha)(x-\beta)$ を展開して係数を比べることで導けます。解を実際に求めなくても、和や積が必要な計算ならこの関係だけで済みます。
+これは $ax^2+bx+c = a(x-\alpha)(x-\beta)$ を展開して係数を比べることで導けます。解を実際に求めなくても、和や積が必要な計算ならこの関係だけで済みます。以降の議論ではこの関係自体は使いませんが、複素数の解に対しても成り立つ独立した性質として触れておきます。
+
+先ほどの例 $x^2+x+1=0$（$\alpha,\beta = \dfrac{-1\pm\sqrt3 i}{2}$）で実際に確かめてみましょう。
+
+$$\alpha+\beta = \frac{-1+\sqrt3 i}{2} + \frac{-1-\sqrt3 i}{2} = -1$$
+
+$$\alpha\beta = \frac{-1+\sqrt3 i}{2}\cdot\frac{-1-\sqrt3 i}{2} = \frac{(-1+\sqrt3 i)(-1-\sqrt3 i)}{4} = \frac{(-1)^2-(\sqrt3 i)^2}{4} = \frac{1-(-3)}{4} = 1$$
+
+これは公式の $-\dfrac{b}{a} = -1$、$\dfrac{c}{a} = 1$（$a=b=c=1$）と一致します。
 
 ---
 
@@ -124,7 +142,15 @@ $$\alpha+\beta = -\frac{b}{a}, \qquad \alpha\beta = \frac{c}{a}$$
 
 $$(\cos\theta+i\sin\theta)^n = \cos n\theta + i\sin n\theta$$
 
-正の整数 $n$ については、掛け算を $n$ 回繰り返すことでこの式が得られます。$n=0$ のときは両辺とも $1$ となり成り立ち、$n$ が負の整数のときは $\cos\theta+i\sin\theta$ の逆数が $\cos(-\theta)+i\sin(-\theta)$（絶対値1のまま偏角の符号だけ反転したもの）になることを使って、正の整数の場合に帰着できます。
+正の整数 $n$ については、掛け算を $n$ 回繰り返すことでこの式が得られます。
+
+$n=0$ のときは、両辺とも $1$ となり成り立ちます。
+
+$n$ が負の整数のときは、$\cos\theta+i\sin\theta$ の逆数を考えます。極形式の節で示した掛け算の公式（加法定理）を使うと、
+
+$$(\cos\theta+i\sin\theta)(\cos(-\theta)+i\sin(-\theta)) = \cos(\theta-\theta)+i\sin(\theta-\theta) = \cos 0+i\sin 0 = 1$$
+
+となるので、$\cos\theta+i\sin\theta$ の逆数は $\cos(-\theta)+i\sin(-\theta)$（絶対値1のまま偏角の符号だけ反転したもの）です。これを使うと、正の整数の場合に帰着できます。
 
 **例**：$\left(\cos\dfrac{\pi}{6}+i\sin\dfrac{\pi}{6}\right)^{12} = \cos2\pi+i\sin2\pi = 1$。
 
@@ -134,7 +160,11 @@ $$(\cos\theta+i\sin\theta)^n = \cos n\theta + i\sin n\theta$$
 
 $z^n=1$ を満たす複素数 $z$ を、**1の$n$乗根**といいます。
 
-まず、両辺の絶対値を取ると $|z|^n=1$。極形式の節で見た、絶対値どうしを掛け合わせるという性質（$r_1(\cos\theta_1+i\sin\theta_1) \times r_2(\cos\theta_2+i\sin\theta_2) = r_1 r_2(\cdots)$ で $r=|z|$ に対応、すなわち $|z_1z_2|=|z_1||z_2|$）を $z$ を$n$個掛けた積に繰り返し使うと、$|z^n|=|z|^n$ となるのでこの式が得られます。$|z|$ は0以上の実数なので $|z|=1$。よって $z=\cos\theta+i\sin\theta$ とおけます。
+まず、両辺の絶対値を取ると $|z|^n=1$ です。
+
+極形式の節で見たように、複素数の積の絶対値は各々の絶対値の積になります（$r_1(\cos\theta_1+i\sin\theta_1) \times r_2(\cos\theta_2+i\sin\theta_2) = r_1 r_2(\cdots)$ で $r=|z|$ に対応する部分、すなわち $|z_1z_2|=|z_1||z_2|$）。
+
+これを $z$ を $n$ 個掛けた積に繰り返し使うと、$|z^n|=|z|^n$ となるので、先ほどの式が得られます。$|z|$ は0以上の実数なので $|z|=1$ です。よって $z=\cos\theta+i\sin\theta$ とおけます。
 
 これにド・モアブルの定理を使うと、
 
@@ -146,7 +176,9 @@ $$n\theta = 2k\pi \quad (k\text{は整数})$$
 
 したがって $\theta=\dfrac{2k\pi}{n}$ です。
 
-$k$ を $n$ だけずらすと $\theta$ は $2\pi$ の整数倍だけ変わり、同じ点を指します。したがって、相異なる点を与える $k$ は $0,1,\ldots,n-1$ の $n$ 個に限られます。
+$k=0,1,\ldots,n-1$ のとき、$\theta=\dfrac{2k\pi}{n}$ は $0$ 以上 $2\pi$ 未満の範囲で相異なる値を取るため、対応する点もすべて異なります。
+
+$k$ を $n$ だけずらすと $\theta$ は $2\pi$ の整数倍だけ変わり、同じ点を指します。以上の2点により、相異なる点を与える $k$ は $0,1,\ldots,n-1$ の $n$ 個に限られます。
 
 $$z_k = \cos\frac{2k\pi}{n}+i\sin\frac{2k\pi}{n} \quad (k=0,1,\ldots,n-1)$$
 

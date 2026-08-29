@@ -1,0 +1,25 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="凸多角形と凹多角形を並べて示す図。凹多角形では1つの頂点が内側にへこんでおり、その頂点の内角は180度を超える">
+  <!-- 凸多角形(正五角形) -->
+  <polygon points="110,65 181.3,116.8 154.1,200.7 65.9,200.7 38.7,116.8" fill="none" stroke="currentColor" stroke-width="2"/>
+  <circle cx="110" cy="65" r="3" fill="currentColor"/>
+  <circle cx="181.3" cy="116.8" r="3" fill="currentColor"/>
+  <circle cx="154.1" cy="200.7" r="3" fill="currentColor"/>
+  <circle cx="65.9" cy="200.7" r="3" fill="currentColor"/>
+  <circle cx="38.7" cy="116.8" r="3" fill="currentColor"/>
+  <text x="110" y="235" font-size="16" text-anchor="middle" fill="currentColor">凸多角形</text>
+
+  <!-- 凹多角形(矢印形) -->
+  <polygon points="300,55 370,190 300,140 230,190" fill="none" stroke="currentColor" stroke-width="2"/>
+  <!-- 隠れた凸包の辺(参考線): 頂点が本来の位置よりへこんでいることを示す -->
+  <line x1="370" y1="190" x2="230" y2="190" stroke="currentColor" stroke-width="1" stroke-dasharray="4 3"/>
+  <circle cx="300" cy="55" r="3" fill="currentColor"/>
+  <circle cx="370" cy="190" r="3" fill="currentColor"/>
+  <circle cx="230" cy="190" r="3" fill="currentColor"/>
+  <!-- へこんだ頂点の強調 -->
+  <circle cx="300" cy="140" r="7" fill="none" stroke="currentColor" stroke-width="1"/>
+  <circle cx="300" cy="140" r="3" fill="currentColor"/>
+  <line x1="300" y1="140" x2="340" y2="200" stroke="currentColor" stroke-width="1"/>
+  <text x="396" y="202" font-size="13" text-anchor="end" fill="currentColor">凹んだ頂点</text>
+  <text x="396" y="219" font-size="13" text-anchor="end" fill="currentColor">(内角180°超)</text>
+  <text x="300" y="235" font-size="16" text-anchor="middle" fill="currentColor">凹多角形</text>
+</svg>

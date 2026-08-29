@@ -17,6 +17,8 @@ requires:
     path: ../geometry/trigonometry.md
   - title: 円
     path: ../geometry/circles.md
+  - title: 点
+    path: ../geometry/point.md
 ---
 
 ## 円の上を動く点
@@ -28,7 +30,7 @@ requires:
 
 $$\tan\theta = \frac{\sin\theta}{\cos\theta} \quad (\cos\theta \neq 0)$$
 
-**ラジアンと度の変換**：$\pi \text{ rad} = 180°$（$1 \text{ rad} \approx 57.3°$）
+以降ではラジアンで角度を表すため、度との対応を確認しておきます。**ラジアンと度の変換**：$\pi \text{ rad} = 180°$（$1 \text{ rad} \approx 57.3°$）
 
 | 角度 | $0°$ | $30°$ | $45°$ | $60°$ | $90°$ |
 |------|------|-------|-------|-------|-------|
@@ -43,6 +45,8 @@ $$\sin^2\theta + \cos^2\theta = 1$$
 
 単位円の方程式 $x^2 + y^2 = 1$ がそのままこの形になります。
 
+単位円上で角度を $-\theta$ にすると、点は $x$ 軸に関して対称な位置に移ります（反射）。そのため $x$ 座標（$\cos$）は変わらず、$y$ 座標（$\sin$）の符号だけが反転します。
+
 $$\sin(-\theta) = -\sin\theta \quad \text{（奇関数）}, \qquad \cos(-\theta) = \cos\theta \quad \text{（偶関数）}$$
 
 > [!NOTE]
@@ -54,8 +58,49 @@ $$\sin(-\theta) = -\sin\theta \quad \text{（奇関数）}, \qquad \cos(-\theta)
 
 ## 加法定理
 
+単位円上の2点間の距離を2通りの方法で表すことで、加法定理を導けます。角度 $\alpha$ の点を $\mathrm{P}=(\cos\alpha, \sin\alpha)$、角度 $\beta$ の点を $\mathrm{Q}=(\cos\beta, \sin\beta)$ とします。
+
+まず、通常の2点間の距離の公式から
+
+$$\mathrm{PQ}^2 = (\cos\alpha-\cos\beta)^2+(\sin\alpha-\sin\beta)^2$$
+
+を展開し、基本性質 $\sin^2\theta+\cos^2\theta=1$ で整理すると
+
+$$\mathrm{PQ}^2 = 2-2(\cos\alpha\cos\beta+\sin\alpha\sin\beta)$$
+
+となります。一方、$\mathrm{P}$、$\mathrm{Q}$ をどちらも角度 $-\beta$ だけ回転させても2点間の距離は変わりません（回転不変性）。回転後は角度 $\alpha-\beta$ の点と角度 $0$ の点 $(1,0)$ になるので、同じ整理から
+
+$$\mathrm{PQ}^2 = 2-2\cos(\alpha-\beta)$$
+
+も成り立ちます。2つは同じ $\mathrm{PQ}^2$ を表すので、両者は等しく
+
+$$\cos(\alpha-\beta) = \cos\alpha\cos\beta+\sin\alpha\sin\beta$$
+
+が得られます。$\cos(\alpha+\beta)=\cos(\alpha-(-\beta))$ とみなし、この式で $\beta$ を $-\beta$ に置き換えると
+
+$$\cos(\alpha+\beta) = \cos\alpha\cos(-\beta)+\sin\alpha\sin(-\beta)$$
+
+となります。ここに基本性質の偶関数・奇関数の性質（$\cos(-\beta)=\cos\beta$、$\sin(-\beta)=-\sin\beta$）を代入すると
+
+$$\cos(\alpha+\beta) = \cos\alpha\cos\beta-\sin\alpha\sin\beta$$
+
+が得られます。
+
+$\sin(\alpha+\beta)$ は、$\sin\theta=\cos\left(\theta-\dfrac{\pi}{2}\right)$ という関係を使って導けます。この関係は、既に導出した $\cos(\alpha-\beta)=\cos\alpha\cos\beta+\sin\alpha\sin\beta$ に $\alpha=\theta$、$\beta=\dfrac{\pi}{2}$ を代入し、最初の表の値 $\cos\dfrac{\pi}{2}=0$、$\sin\dfrac{\pi}{2}=1$ を使うと
+
+$$\cos\left(\theta-\frac{\pi}{2}\right)=\cos\theta\cos\frac{\pi}{2}+\sin\theta\sin\frac{\pi}{2}=\sin\theta$$
+
+のように、任意の実数 $\theta$ について成り立つことが分かります。まず、この関係に $\theta=\dfrac{\pi}{2}-\beta$ を代入すると
+
+$$\sin\left(\frac{\pi}{2}-\beta\right) = \cos\left(\left(\frac{\pi}{2}-\beta\right)-\frac{\pi}{2}\right) = \cos(-\beta) = \cos\beta$$
+
+が得られます。次に、$\sin(\alpha+\beta)=\cos\left((\alpha+\beta)-\dfrac{\pi}{2}\right)=\cos\left(\alpha-\left(\dfrac{\pi}{2}-\beta\right)\right)$ と変形し、既に導出済みの $\cos(\alpha-\beta)=\cos\alpha\cos\beta+\sin\alpha\sin\beta$（$\beta$ を $\dfrac{\pi}{2}-\beta$ に読み替えて適用）を使うと
+
+$$\sin(\alpha+\beta) = \cos\alpha\cos\left(\frac{\pi}{2}-\beta\right)+\sin\alpha\sin\left(\frac{\pi}{2}-\beta\right)$$
+
+となります。ここで、$\cos$ が偶関数であることから $\cos\left(\dfrac{\pi}{2}-\beta\right)=\cos\left(\beta-\dfrac{\pi}{2}\right)$ です。これは、最初の関係 $\sin\theta=\cos\left(\theta-\dfrac{\pi}{2}\right)$ に $\theta=\beta$ を代入した式 $\sin\beta=\cos\left(\beta-\dfrac{\pi}{2}\right)$ の右辺と一致するので、$\cos\left(\dfrac{\pi}{2}-\beta\right)=\sin\beta$ が分かります。これと先ほど求めた $\sin\left(\dfrac{\pi}{2}-\beta\right)=\cos\beta$ を代入すると、次が得られます。
+
 $$\sin(\alpha + \beta) = \sin\alpha\cos\beta + \cos\alpha\sin\beta$$
-$$\cos(\alpha + \beta) = \cos\alpha\cos\beta - \sin\alpha\sin\beta$$
 
 **2倍角の公式**（$\beta = \alpha$ を代入）：
 
@@ -75,6 +120,8 @@ $$\cos2\alpha = (1-\sin^2\alpha)-\sin^2\alpha = 1-2\sin^2\alpha$$
 
 $$\sin^2\frac{\alpha}{2}=\frac{1-\cos\alpha}{2}$$
 
+このとき $\cos\left(2\times\dfrac{\alpha}{2}\right)=\cos\alpha$ となっています。
+
 $\cos^2\dfrac{\alpha}{2}$ も同じ手順で導けますが、代入する式は先ほど（$\sin^2\dfrac{\alpha}{2}$の導出）とは異なります。$\cos2\alpha=\cos^2\alpha-\sin^2\alpha$ に、今度は $\sin^2\alpha=1-\cos^2\alpha$ を代入すると
 
 $$\cos2\alpha = \cos^2\alpha-(1-\cos^2\alpha) = 2\cos^2\alpha-1$$
@@ -82,6 +129,8 @@ $$\cos2\alpha = \cos^2\alpha-(1-\cos^2\alpha) = 2\cos^2\alpha-1$$
 これを $\cos^2\alpha$ について整理すると $\cos^2\alpha=\dfrac{1+\cos2\alpha}{2}$。ここでも $\alpha$ を $\dfrac{\alpha}{2}$ に置き換えると、次が得られます。
 
 $$\cos^2\frac{\alpha}{2}=\frac{1+\cos\alpha}{2}$$
+
+このとき $\cos\left(2\times\dfrac{\alpha}{2}\right)=\cos\alpha$ となっています。
 
 ---
 
@@ -95,13 +144,13 @@ $$\sqrt{a^2+b^2}\sin(\theta+\varphi) = \sqrt{a^2+b^2}\cos\varphi\,\sin\theta + \
 
 $$\cos\varphi = \frac{a}{\sqrt{a^2+b^2}}, \qquad \sin\varphi = \frac{b}{\sqrt{a^2+b^2}}$$
 
-を満たす角 $\varphi$ をとれば、次の式が成り立ちます。
+この2式の2乗の和は $\cos^2\varphi+\sin^2\varphi=\dfrac{a^2+b^2}{a^2+b^2}=1$ となり、これは「基本性質」で確認した $\sin^2\theta+\cos^2\theta=1$ の関係と一致するため、この2式を満たす角 $\varphi$ が存在します。この $\varphi$ をとれば、次の式が成り立ちます。
 
 $$a\sin\theta + b\cos\theta = \sqrt{a^2+b^2}\,\sin(\theta+\varphi)$$
 
 **例**：$\sin\theta+\cos\theta$ を合成する。$\sqrt{1^2+1^2}=\sqrt2$ で、$\cos\varphi=\sin\varphi=\dfrac{1}{\sqrt2}$ より $\varphi=\dfrac{\pi}{4}$（$=45°$）。よって $\sin\theta+\cos\theta=\sqrt2\sin\left(\theta+\dfrac{\pi}{4}\right)$。
 
-この形にすると、最大値・最小値や周期といった $a\sin\theta+b\cos\theta$ の性質が、単一の $\sin$ の性質としてそのまま読み取れます。
+この形にすると、最大値・最小値や周期といった $a\sin\theta+b\cos\theta$ の性質が、単一の $\sin$ の性質としてそのまま読み取れます。具体的には、最大値は $\sqrt{a^2+b^2}$、最小値は $-\sqrt{a^2+b^2}$、周期は $2\pi$ です。
 
 ---
 

@@ -19,7 +19,7 @@
   <!-- PH segment (perpendicular to directrix) -->
   <line x1="162.9" y1="90" x2="80" y2="90" stroke="currentColor" stroke-width="1.5"/>
   <circle cx="80" cy="90" r="3" fill="currentColor"/>
-  <text x="66" y="80" font-size="16" fill="currentColor">H</text>
+  <text x="50" y="80" font-size="16" fill="currentColor">H</text>
 
   <text x="200" y="280" font-size="13" text-anchor="middle" fill="currentColor">PF = PH(焦点からの距離 = 準線までの距離)</text>
 </svg>
