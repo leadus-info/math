@@ -16,5 +16,5 @@
   <text x="146.41" y="177.80" font-size="13" text-anchor="middle" fill="currentColor">180°-a</text>
 
   <circle cx="200" cy="200" r="3" fill="currentColor"/>
-  <text x="210" y="196" font-size="12" text-anchor="start" fill="currentColor">O</text>
+  <text x="213" y="207" font-size="12" text-anchor="start" fill="currentColor">O</text>
 </svg>

@@ -59,6 +59,10 @@ $$\vec{a}\cdot\vec{b} = |\vec{a}||\vec{b}|\cos\theta = a_1b_1+a_2b_2+a_3b_3$$
 
 $\vec{a}\cdot\vec{b}=0$ が垂直を意味することも変わりません。
 
+まず成分を使った具体例で、内積による垂直性の判定を確認してみましょう。$\vec{u}=(1,2,-1)$、$\vec{v}=(3,-1,1)$ とすると、内積は $\vec{u}\cdot\vec{v}=1\times3+2\times(-1)+(-1)\times1=3-2-1=0$ となるので、$\vec{u}\perp\vec{v}$ であることが分かります。
+
+では次に、成分（座標）を使わずに、ベクトルの性質だけから同様の垂直性を示せることを見てみましょう。
+
 **例題**：正四面体 $OABC$（すべての辺の長さが等しい四面体）で、辺 $OA$ と辺 $BC$ が垂直であることを示す。$\overrightarrow{OA}=\vec{a}$、$\overrightarrow{OB}=\vec{b}$、$\overrightarrow{OC}=\vec{c}$（$|\vec{a}|=|\vec{b}|=|\vec{c}|=1$）とします。
 
 ![正四面体OABCで辺OAと辺BCを太線で示し、この2辺が垂直であることを表す図](space-vectors/images/tetrahedron-perpendicular-edges.svg)
