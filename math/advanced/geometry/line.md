@@ -17,6 +17,8 @@ requires:
     path: point.md
   - title: 図形の移動
     path: ../../intermediate/geometry/transformations.md
+  - title: 一次関数
+    path: ../../intermediate/functions/linear.md
 ---
 
 ## 2点を決めると直線が決まる
