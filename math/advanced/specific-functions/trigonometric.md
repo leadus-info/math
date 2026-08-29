@@ -86,7 +86,7 @@ $$\cos(\alpha+\beta) = \cos\alpha\cos\beta-\sin\alpha\sin\beta$$
 
 が得られます。
 
-$\sin(\alpha+\beta)$ は、$\sin\theta=\cos\left(\theta-\dfrac{\pi}{2}\right)$ という関係を使って導けます。まず、この関係に $\theta=\dfrac{\pi}{2}-\beta$ を代入すると
+$\sin(\alpha+\beta)$ は、$\sin\theta=\cos\left(\theta-\dfrac{\pi}{2}\right)$ という関係を使って導けます。単位円上の角度 $\theta$ の点 $(\cos\theta,\sin\theta)$ を $-\dfrac{\pi}{2}$（時計回りに $90°$）回転させると、点は $(\sin\theta,-\cos\theta)$ に移ります。これは角度 $\theta-\dfrac{\pi}{2}$ の点の座標 $\left(\cos\left(\theta-\dfrac{\pi}{2}\right),\sin\left(\theta-\dfrac{\pi}{2}\right)\right)$ と一致するので、$\cos\left(\theta-\dfrac{\pi}{2}\right)=\sin\theta$、すなわち $\sin\theta=\cos\left(\theta-\dfrac{\pi}{2}\right)$ が任意の実数 $\theta$ について成り立ちます。まず、この関係に $\theta=\dfrac{\pi}{2}-\beta$ を代入すると
 
 $$\sin\left(\frac{\pi}{2}-\beta\right) = \cos\left(\left(\frac{\pi}{2}-\beta\right)-\frac{\pi}{2}\right) = \cos(-\beta) = \cos\beta$$
 
@@ -94,7 +94,7 @@ $$\sin\left(\frac{\pi}{2}-\beta\right) = \cos\left(\left(\frac{\pi}{2}-\beta\rig
 
 $$\sin(\alpha+\beta) = \cos\alpha\cos\left(\frac{\pi}{2}-\beta\right)+\sin\alpha\sin\left(\frac{\pi}{2}-\beta\right)$$
 
-となります。ここで、$\cos\left(\dfrac{\pi}{2}-\beta\right)=\cos\left(\beta-\dfrac{\pi}{2}\right)$（$\cos$ が偶関数であることから）であり、これは最初の関係 $\sin\theta=\cos\left(\theta-\dfrac{\pi}{2}\right)$ に $\theta=\beta$ を代入した式 $\sin\beta=\cos\left(\beta-\dfrac{\pi}{2}\right)$ の右辺と一致するので $\cos\left(\dfrac{\pi}{2}-\beta\right)=\sin\beta$ です。これと先ほど求めた $\sin\left(\dfrac{\pi}{2}-\beta\right)=\cos\beta$ を代入すると、次が得られます。
+となります。ここで、$\cos$ が偶関数であることから $\cos\left(\dfrac{\pi}{2}-\beta\right)=\cos\left(\beta-\dfrac{\pi}{2}\right)$ です。これは、最初の関係 $\sin\theta=\cos\left(\theta-\dfrac{\pi}{2}\right)$ に $\theta=\beta$ を代入した式 $\sin\beta=\cos\left(\beta-\dfrac{\pi}{2}\right)$ の右辺と一致するので、$\cos\left(\dfrac{\pi}{2}-\beta\right)=\sin\beta$ が分かります。これと先ほど求めた $\sin\left(\dfrac{\pi}{2}-\beta\right)=\cos\beta$ を代入すると、次が得られます。
 
 $$\sin(\alpha + \beta) = \sin\alpha\cos\beta + \cos\alpha\sin\beta$$
 
