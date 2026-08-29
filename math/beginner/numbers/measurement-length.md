@@ -37,12 +37,12 @@ $$1\text{cm} = 10\text{mm}, \qquad 1\text{m} = 100\text{cm}, \qquad 1\text{km} =
 
 単位の関係を使って、長さを別の単位で表し直すことができます。
 
-> [!NOTE]
-> 以下の単位変換の計算は、[割り算](division.md)で扱った「まとまりがいくつ取れるかを数える場面」の考え方にもとづいています。
-
 **例**：$3\text{m}25\text{cm}$ は何cmか。$1\text{m}=100\text{cm}$ なので、$3\text{m} = 300\text{cm}$。よって $3\text{m}25\text{cm} = 300\text{cm} + 25\text{cm} = 325\text{cm}$。
 
 **例**：$1250\text{m}$ は何km何mか。$1\text{km}=1000\text{m}$ なので、$1250 \div 1000 = 1$ あまり $250$。よって $1250\text{m} = 1\text{km}250\text{m}$。
+
+> [!NOTE]
+> ここでの商（1）は1000mのまとまりの個数（=1km）、あまり（250）はまとまりに満たない端数（=250m）を表しています。この考え方は[割り算](division.md)で見た包含除と同じです。
 
 **例**：$47\text{mm}$ は何cmか。$1\text{cm}=10\text{mm}$ なので、$47 \div 10 = 4$ あまり $7$。よって $47\text{mm} = 4\text{cm}7\text{mm}$。
 
