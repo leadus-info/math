@@ -102,6 +102,8 @@ $$\cos2\alpha = (1-\sin^2\alpha)-\sin^2\alpha = 1-2\sin^2\alpha$$
 
 $$\sin^2\frac{\alpha}{2}=\frac{1-\cos\alpha}{2}$$
 
+このとき $\cos\left(2\times\dfrac{\alpha}{2}\right)=\cos\alpha$ となっています。
+
 $\cos^2\dfrac{\alpha}{2}$ も同じ手順で導けますが、代入する式は先ほど（$\sin^2\dfrac{\alpha}{2}$の導出）とは異なります。$\cos2\alpha=\cos^2\alpha-\sin^2\alpha$ に、今度は $\sin^2\alpha=1-\cos^2\alpha$ を代入すると
 
 $$\cos2\alpha = \cos^2\alpha-(1-\cos^2\alpha) = 2\cos^2\alpha-1$$
@@ -109,6 +111,8 @@ $$\cos2\alpha = \cos^2\alpha-(1-\cos^2\alpha) = 2\cos^2\alpha-1$$
 これを $\cos^2\alpha$ について整理すると $\cos^2\alpha=\dfrac{1+\cos2\alpha}{2}$。ここでも $\alpha$ を $\dfrac{\alpha}{2}$ に置き換えると、次が得られます。
 
 $$\cos^2\frac{\alpha}{2}=\frac{1+\cos\alpha}{2}$$
+
+このとき $\cos\left(2\times\dfrac{\alpha}{2}\right)=\cos\alpha$ となっています。
 
 ---
 
