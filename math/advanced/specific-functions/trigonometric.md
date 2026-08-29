@@ -43,6 +43,8 @@ $$\sin^2\theta + \cos^2\theta = 1$$
 
 単位円の方程式 $x^2 + y^2 = 1$ がそのままこの形になります。
 
+単位円上で角度を $-\theta$ にすると、点は $x$ 軸に関して対称な位置に移ります（反射）。そのため $x$ 座標（$\cos$）は変わらず、$y$ 座標（$\sin$）の符号だけが反転します。
+
 $$\sin(-\theta) = -\sin\theta \quad \text{（奇関数）}, \qquad \cos(-\theta) = \cos\theta \quad \text{（偶関数）}$$
 
 > [!NOTE]
