@@ -6,6 +6,7 @@
   <text x="120" y="102" font-size="16" fill="currentColor">P</text>
 
   <circle cx="172" cy="176" r="3" fill="currentColor"/>
+  <text x="180" y="196" font-size="16" fill="currentColor">H</text>
   <line x1="137.3" y1="115.24" x2="172" y2="176" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
   <path d="M178.94,172.03 L174.97,165.09 L168.03,169.06" fill="none" stroke="currentColor" stroke-width="1.5"/>
 
