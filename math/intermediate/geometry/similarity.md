@@ -41,27 +41,29 @@ requires:
 
 ![直角三角形ABC（∠A=90°）の頂点Aから斜辺BCに垂線を引いた足をDとし、三角形ABDの部分を薄く塗って示した図。∠CAB（直角）と∠ADB（直角）、∠ABDと∠CBA（共通の角）の対応関係がわかる](similarity/images/altitude-similarity.svg)
 
-三角形 $ABD$ と三角形 $CBA$ に注目すると、$\angle ADB = \angle CAB = 90°$（仮定）、$\angle ABD = \angle CBA$（共通）より、2組の角がそれぞれ等しいので、三角形 $ABD$ と三角形 $CBA$ は相似です。
+相似な三角形も合同のときと同様に、対応する頂点を同じ順に並べて表記します。ここでは三角形 $ABD$ の頂点 $A$、$B$、$D$ が、それぞれ三角形 $CBA$ の頂点 $C$、$B$、$A$ に対応します（$A \leftrightarrow C$、$B \leftrightarrow B$、$D \leftrightarrow A$）。
+
+三角形 $ABD$ と三角形 $CBA$ に注目すると、$\angle ADB = \angle CAB\,(= \angle A) = 90°$（仮定）、$\angle ABD = \angle CBA$（共通）より、2組の角がそれぞれ等しいので、三角形 $ABD$ と三角形 $CBA$ は相似です。
 
 ---
 
 ## 平行線と線分の比
 
-三角形 $ABC$ の辺 $AB$、$AC$ 上にそれぞれ点 $P$、$Q$ をとり、$PQ \parallel BC$ とします。このとき、三角形 $APQ$ と三角形 $ABC$ は相似になり（2組の角がそれぞれ等しい）、次が成り立ちます。
+三角形 $ABC$ の辺 $AB$、$AC$ 上にそれぞれ点 $P$、$Q$ をとり、$PQ \parallel BC$ とします。このとき、三角形 $APQ$ と三角形 $ABC$ は相似になり（$\angle A$ が共通、$\angle APQ = \angle ABC$（同位角、2直線が1直線と交わってできる同じ位置の角）で2組の角がそれぞれ等しい）、次が成り立ちます。
 
 $$AP:AB = AQ:AC = PQ:BC$$
 
-![三角形ABCの辺AB、AC上の点P、QをPQがBCと平行になるようにとると、三角形APQと三角形ABCが相似になることを示す図](similarity/images/parallel-side-ratio.svg)
+![三角形ABCの辺AB、AC上の点P、QをPQがBCと平行になるようにとると、三角形APQと三角形ABCが相似になることを示す図。∠APQと∠ABCが同じ位置にある同位角であることを弧の印で示している](similarity/images/parallel-side-ratio.svg)
 
 **例題**：三角形 $ABC$ の辺 $AB$、$AC$ 上に $PQ \parallel BC$ となるように点 $P$、$Q$ をとる。$AP = 4$、$AB = 6$、$BC = 9$ のとき、$PQ$ の長さを求める。$AP:AB = PQ:BC$ より $4:6 = PQ:9$。よって $PQ = 9 \times \dfrac{4}{6} = 6$。
 
 特に、$P$、$Q$ がそれぞれ辺 $AB$、$AC$ の中点のとき、$AP:AB = AQ:AC = 1:2$ です。ここでは上の定理とは逆向きに、比が等しいことから平行であることを導きます。次の3段階で確かめられます。
 
 1. $AP:AB = AQ:AC$ と $\angle A$ が共通であることから、相似条件2（2組の辺の比とその間の角がそれぞれ等しい）より、三角形 $APQ$ と三角形 $ABC$ は相似です。
-2. 相似より対応する角 $\angle APQ = \angle ABC$ が成り立ちます。これは[平行線と角](angles.md)で見た同位角の関係にあたるので、その逆（同位角が等しければ2直線は平行）から $PQ \parallel BC$ が従います。
+2. 相似より対応する角 $\angle APQ = \angle ABC$ が成り立ちます。この2つの角は、直線 $AB$ が $PQ$、$BC$ と交わってできる同位角（2直線に1本の直線が交わるときに同じ位置にできる角の組。詳しくは[平行線と角](angles.md)を参照）の関係にあります。同位角に関する定理の逆、すなわち「同位角が等しければ2直線は平行である」から、$PQ \parallel BC$ が従います。
 3. 相似比が $1:2$ なので、$PQ = \dfrac{1}{2}BC$ も従います。
 
-これを**中点連結定理**といい、上の「平行線と線分の比」の定理とは逆向きの推論から導かれる特別な場合として理解できます。
+これを**中点連結定理**といいます。上の「平行線と線分の比」の定理は「$PQ \parallel BC$ ならば比が等しい」ことを示すのに対し、ここでは「比が等しいならば $PQ \parallel BC$」という逆向きの推論を使っており、中点連結定理はその特別な場合として理解できます。
 
 ---
 
