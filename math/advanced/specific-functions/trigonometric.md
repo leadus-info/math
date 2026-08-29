@@ -76,11 +76,25 @@ $$\mathrm{PQ}^2 = 2-2\cos(\alpha-\beta)$$
 
 $$\cos(\alpha-\beta) = \cos\alpha\cos\beta+\sin\alpha\sin\beta$$
 
-が得られます。$\cos(\alpha+\beta)=\cos(\alpha-(-\beta))$ とみなし、この式で $\beta$ を $-\beta$ に置き換えると、基本性質の偶関数・奇関数の性質（$\cos(-\beta)=\cos\beta$、$\sin(-\beta)=-\sin\beta$）から
+が得られます。$\cos(\alpha+\beta)=\cos(\alpha-(-\beta))$ とみなし、この式で $\beta$ を $-\beta$ に置き換えると
+
+$$\cos(\alpha+\beta) = \cos\alpha\cos(-\beta)+\sin\alpha\sin(-\beta)$$
+
+となります。ここに基本性質の偶関数・奇関数の性質（$\cos(-\beta)=\cos\beta$、$\sin(-\beta)=-\sin\beta$）を代入すると
 
 $$\cos(\alpha+\beta) = \cos\alpha\cos\beta-\sin\alpha\sin\beta$$
 
-が得られます。$\sin(\alpha+\beta)$ も同様の考え方（$\sin\theta=\cos\left(\theta-\dfrac{\pi}{2}\right)$ という関係を使う方法）で導けますが、ここでは結果のみ示します。
+が得られます。
+
+$\sin(\alpha+\beta)$ は、$\sin\theta=\cos\left(\theta-\dfrac{\pi}{2}\right)$ という関係を使って導けます。まず、この関係に $\theta=\dfrac{\pi}{2}-\beta$ を代入すると
+
+$$\sin\left(\frac{\pi}{2}-\beta\right) = \cos\left(\left(\frac{\pi}{2}-\beta\right)-\frac{\pi}{2}\right) = \cos(-\beta) = \cos\beta$$
+
+が得られます。次に、$\sin(\alpha+\beta)=\cos\left((\alpha+\beta)-\dfrac{\pi}{2}\right)=\cos\left(\alpha-\left(\dfrac{\pi}{2}-\beta\right)\right)$ と変形し、既に導出済みの $\cos(\alpha-\beta)=\cos\alpha\cos\beta+\sin\alpha\sin\beta$（$\beta$ を $\dfrac{\pi}{2}-\beta$ に読み替えて適用）を使うと
+
+$$\sin(\alpha+\beta) = \cos\alpha\cos\left(\frac{\pi}{2}-\beta\right)+\sin\alpha\sin\left(\frac{\pi}{2}-\beta\right)$$
+
+となります。ここで、$\cos\left(\dfrac{\pi}{2}-\beta\right)=\cos\left(\beta-\dfrac{\pi}{2}\right)$（$\cos$ が偶関数であることから）であり、これは最初の関係 $\sin\theta=\cos\left(\theta-\dfrac{\pi}{2}\right)$ に $\theta=\beta$ を代入した式 $\sin\beta=\cos\left(\beta-\dfrac{\pi}{2}\right)$ の右辺と一致するので $\cos\left(\dfrac{\pi}{2}-\beta\right)=\sin\beta$ です。これと先ほど求めた $\sin\left(\dfrac{\pi}{2}-\beta\right)=\cos\beta$ を代入すると、次が得られます。
 
 $$\sin(\alpha + \beta) = \sin\alpha\cos\beta + \cos\alpha\sin\beta$$
 
