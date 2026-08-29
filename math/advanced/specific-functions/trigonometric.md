@@ -126,13 +126,13 @@ $$\sqrt{a^2+b^2}\sin(\theta+\varphi) = \sqrt{a^2+b^2}\cos\varphi\,\sin\theta + \
 
 $$\cos\varphi = \frac{a}{\sqrt{a^2+b^2}}, \qquad \sin\varphi = \frac{b}{\sqrt{a^2+b^2}}$$
 
-を満たす角 $\varphi$ をとれば、次の式が成り立ちます。
+この2式の2乗の和は $\cos^2\varphi+\sin^2\varphi=\dfrac{a^2+b^2}{a^2+b^2}=1$ となり、これは「円の上を動く点」で確認した単位円上の点の座標が満たす関係と一致するため、この2式を満たす角 $\varphi$ が存在します。この $\varphi$ をとれば、次の式が成り立ちます。
 
 $$a\sin\theta + b\cos\theta = \sqrt{a^2+b^2}\,\sin(\theta+\varphi)$$
 
 **例**：$\sin\theta+\cos\theta$ を合成する。$\sqrt{1^2+1^2}=\sqrt2$ で、$\cos\varphi=\sin\varphi=\dfrac{1}{\sqrt2}$ より $\varphi=\dfrac{\pi}{4}$（$=45°$）。よって $\sin\theta+\cos\theta=\sqrt2\sin\left(\theta+\dfrac{\pi}{4}\right)$。
 
-この形にすると、最大値・最小値や周期といった $a\sin\theta+b\cos\theta$ の性質が、単一の $\sin$ の性質としてそのまま読み取れます。
+この形にすると、最大値・最小値や周期といった $a\sin\theta+b\cos\theta$ の性質が、単一の $\sin$ の性質としてそのまま読み取れます。具体的には、最大値は $\sqrt{a^2+b^2}$、最小値は $-\sqrt{a^2+b^2}$、周期は $2\pi$ です。
 
 ---
 
