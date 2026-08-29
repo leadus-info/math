@@ -1,7 +1,7 @@
 ---
 title: 二次関数
 description: "xの2次式で表される二次関数の定義と、平方完成による頂点の求め方、頂点から決まる最大値・最小値、判別式によるグラフとx軸の交点の判定、二次不等式の解き方を扱う"
-goal: "二次関数の定義と平方完成による頂点の求め方を理解し、最大値・最小値を求めたり判別式を使ってグラフとx軸の関係を説明したりできるようになる"
+goal: "二次関数の定義と平方完成による頂点の求め方を理解し、最大値・最小値を求めたり判別式を使ってグラフとx軸の関係を説明したりできるようになる、二次不等式を解けるようになる"
 tags: [math, specific-functions, quadratic]
 stage: advanced
 subject: 具体的な関数
@@ -17,6 +17,8 @@ requires:
     path: ../../intermediate/functions/quadratic.md
   - title: 展開・因数分解
     path: ../../intermediate/algebra/expressions-expansion-factoring.md
+  - title: 二次方程式
+    path: ../../intermediate/algebra/equations-quadratic.md
 ---
 
 ## 放物線という形
@@ -40,7 +42,7 @@ requires:
 
 ## 平方完成と頂点
 
-放物線には必ず「一番高い点」または「一番低い点」があり、これを**頂点**といいます。頂点は、中級『二次方程式』の平方完成と同じ考え方で式を変形すると求められます。
+放物線には必ず「一番高い点」または「一番低い点」があり、これを**頂点**といいます。頂点は、[二次方程式](../../intermediate/algebra/equations-quadratic.md)の平方完成と同じ考え方で式を変形すると求められます。
 
 $$
 \begin{aligned}
