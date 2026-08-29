@@ -22,7 +22,7 @@
   <line x1="110" y1="170" x2="65.0" y2="92.1" stroke="currentColor" stroke-width="1"/>
   <circle cx="110" cy="170" r="3" fill="currentColor"/>
   <text x="118" y="166" font-size="16" fill="currentColor">中心</text>
-  <text x="140" y="100" font-size="16" fill="currentColor">半径</text>
+  <text x="132" y="128" font-size="16" fill="currentColor">半径</text>
 
   <!-- 中央: 並べ替えの矢印 -->
   <line x1="222" y1="170" x2="278" y2="170" stroke="currentColor" stroke-width="1.5" marker-end="url(#arrow)"/>
@@ -36,9 +36,11 @@
   <line x1="330" y1="260" x2="360" y2="170" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
   <line x1="590" y1="260" x2="620" y2="170" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
 
-  <!-- 高さの寸法線 -->
+  <!-- 高さの寸法線(平行四辺形の左辺の頂点まで引き出し線でつなぐ) -->
+  <line x1="300" y1="170" x2="360" y2="170" stroke="currentColor" stroke-width="0.75" stroke-dasharray="2 2"/>
+  <line x1="300" y1="260" x2="330" y2="260" stroke="currentColor" stroke-width="0.75" stroke-dasharray="2 2"/>
   <line x1="300" y1="170" x2="300" y2="260" stroke="currentColor" stroke-width="1" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
-  <text x="292" y="220" font-size="16" text-anchor="end" fill="currentColor">高さ＝半径</text>
+  <text x="292" y="220" font-size="16" text-anchor="end" fill="currentColor">高さ≈半径</text>
 
   <!-- 底辺の寸法線 -->
   <line x1="330" y1="282" x2="590" y2="282" stroke="currentColor" stroke-width="1" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
