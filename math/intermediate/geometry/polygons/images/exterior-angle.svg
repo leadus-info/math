@@ -1,0 +1,9 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="多角形の1つの頂点で、1つの辺を延長した直線と隣の辺との間にできる角が外角であることを示す図。内角と外角は同じ頂点で隣り合い、合わせて180度になる">
+  <polygon points="80,250 60,140 180,70 320,120 280,260" fill="none" stroke="currentColor" stroke-width="2"/>
+  <line x1="60" y1="140" x2="257.74" y2="24.65" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <circle cx="180" cy="70" r="3" fill="currentColor"/>
+  <path d="M 208.25,80.09 A 30 30 0 0 1 154.09,85.12" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M 222.38,85.14 A 45 45 0 0 1 218.87,47.33" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <text x="184.6" y="119.8" font-size="14" text-anchor="middle" fill="currentColor">内角</text>
+  <text x="246.7" y="63.8" font-size="14" text-anchor="middle" fill="currentColor">外角</text>
+</svg>
