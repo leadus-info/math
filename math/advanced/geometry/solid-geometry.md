@@ -77,7 +77,7 @@ $\ell$ が、この平面 $OHA$ 上で交わる2直線 $OH$、$HA$ の両方に�
 
 底面の対角線 $BD$ 上に $A$ から下ろした垂線の足を $A'$ とすると、$EA \perp$ 底面 かつ $AA' \perp BD$ なので、三垂線の定理より $EA' \perp BD$ が成り立ちます。つまり、点 $E$ から直線 $BD$ までの距離は線分 $EA'$ の長さに等しくなります。
 
-$AA'$ の長さは、直角三角形 $ABD$ の面積を2通りに表すことで求まります。$BD=\sqrt{AB^2+AD^2}=\sqrt{3^2+4^2}=5$ であり、$\triangle ABD$ の面積について $\dfrac{1}{2}\times AB \times AD = \dfrac{1}{2}\times BD \times AA'$ が成り立つので、
+$AA'$ の長さは、直角三角形 $ABD$ の面積を2通りに表すことで求まります。三平方の定理より $BD=\sqrt{AB^2+AD^2}=\sqrt{3^2+4^2}=5$ です。$\triangle ABD$ の面積について $\dfrac{1}{2}\times AB \times AD = \dfrac{1}{2}\times BD \times AA'$ が成り立つので、
 
 $$AA' = \frac{AB \times AD}{BD} = \frac{3\times4}{5} = 2.4$$
 
