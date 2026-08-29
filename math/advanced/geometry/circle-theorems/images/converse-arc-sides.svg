@@ -1,0 +1,20 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="円Γと弦ACによって分けられる弧₁(Bを含む)・弧₂(Bを含まない)、弧₂上の点E、弧₂と直線ACに関して同じ側にある点Dの位置関係を示す図">
+  <circle cx="200" cy="200" r="130" fill="none" stroke="currentColor" stroke-width="2"/>
+  <line x1="87.42" y1="135" x2="312.58" y2="135" stroke="currentColor" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <line x1="87.42" y1="135" x2="200" y2="330" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="312.58" y1="135" x2="200" y2="330" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="87.42" y1="135" x2="300" y2="320" stroke="currentColor" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <line x1="312.58" y1="135" x2="300" y2="320" stroke="currentColor" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <circle cx="87.42" cy="135" r="3" fill="currentColor"/>
+  <circle cx="200" cy="70" r="3" fill="currentColor"/>
+  <circle cx="312.58" cy="135" r="3" fill="currentColor"/>
+  <circle cx="300" cy="320" r="3" fill="currentColor"/>
+  <circle cx="200" cy="330" r="3" fill="currentColor"/>
+  <text x="68" y="122" font-size="16" text-anchor="middle" fill="currentColor">A</text>
+  <text x="200" y="50" font-size="16" text-anchor="middle" fill="currentColor">B</text>
+  <text x="332" y="122" font-size="16" text-anchor="middle" fill="currentColor">C</text>
+  <text x="322" y="342" font-size="16" text-anchor="middle" fill="currentColor">D</text>
+  <text x="200" y="352" font-size="16" text-anchor="middle" fill="currentColor">E</text>
+  <text x="278" y="66" font-size="13" text-anchor="middle" fill="currentColor">弧₁</text>
+  <text x="114" y="323" font-size="13" text-anchor="middle" fill="currentColor">弧₂</text>
+</svg>
