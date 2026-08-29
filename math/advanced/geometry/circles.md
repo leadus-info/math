@@ -21,8 +21,8 @@ requires:
     path: trigonometry.md
   - title: 円周角の定理
     path: ../../intermediate/geometry/circle-angles.md
-  - title: 空間図形の計量
-    path: ../../intermediate/geometry/solids-measurement.md
+  - title: 円
+    path: ../../beginner/geometry/shapes-circle.md
 ---
 
 ## 円とは
@@ -33,7 +33,7 @@ requires:
 
 $$\text{円周} = 2\pi r, \quad \text{面積} = \pi r^2$$
 
-円周の公式は上の $\pi$ の定義から直接従います。面積の公式はここでは証明せず、「空間図形の計量」で扱われている既知の公式として用います。
+円周の公式は上の $\pi$ の定義から直接従います。面積の公式はbeginnerの「円」で扇形に分割して直感的に導いているので、ここでは証明せずその結果を用います。
 
 ---
 
