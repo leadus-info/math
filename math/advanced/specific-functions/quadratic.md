@@ -168,7 +168,7 @@ $$ax^2+bx+c<0 \iff x<\alpha \text{ または } x>\beta$$
 
 **$D=0$の場合**
 
-前節で見た通り、$D=0$ のとき $ax^2+bx+c$ は「平方完成と頂点」で求めた頂点の$x$座標$\alpha=-\dfrac{b}{2a}$を使って $a(x-\alpha)^2$ の形に書け、頂点の$y$座標は0です。これは、判別式節で示した頂点公式$f(x)=a\left(x+\dfrac{b}{2a}\right)^2-\dfrac{D}{4a}$に$D=0$を代入すると$f(x)=a\left(x+\dfrac{b}{2a}\right)^2=a(x-\alpha)^2$となることからわかります。
+前節で見た通り、$D=0$ のとき $ax^2+bx+c$ は「平方完成と頂点」で求めた頂点の$x$座標$\alpha=-\dfrac{b}{2a}$を使って $a(x-\alpha)^2$ の形に書け、頂点の$y$座標は0です。これは、判別式節で示した頂点公式$f(x)=a\left(x+\dfrac{b}{2a}\right)^2-\dfrac{D}{4a}$に$D=0$を代入すると$f(x)=a\left(x+\dfrac{b}{2a}\right)^2$となり、$\alpha=-\dfrac{b}{2a}$なので$x+\dfrac{b}{2a}=x-\alpha$となり、$f(x)=a(x-\alpha)^2$となることからわかります。
 
 - $a>0$のとき：$a(x-\alpha)^2\geq0$ が常に成り立ち、等号は$x=\alpha$のときに限られるので、$ax^2+bx+c>0 \iff x\neq\alpha$、$ax^2+bx+c<0$ の解はありません。
 - $a<0$のとき：不等号が反転し、$ax^2+bx+c<0 \iff x\neq\alpha$、$ax^2+bx+c>0$ の解はありません。
