@@ -50,7 +50,7 @@ $$\log_a\frac{M}{N} = \log_a M - \log_a N$$
 $$\log_a M^r = r\log_a M$$
 $$\log_a 1 = 0, \quad \log_a a = 1$$
 
-$y=\log_a x$ とおくと $a^y = x$ です。両辺の $b$ を底とする対数をとると $\log_b a^y = \log_b x$ となり、直前で導いた累乗公式（$\log_a M^r = r\log_a M$）より $y\log_b a = \log_b x$、すなわち $y = \dfrac{\log_b x}{\log_b a}$ が得られます。
+$y=\log_a x$ とおくと $a^y = x$ です。両辺の $b$ を底とする対数をとると $\log_b a^y = \log_b x$ となり、直前で導いた累乗公式（$\log_a M^r = r\log_a M$）より（この公式で真数の位置に $a$、底の位置に $b$、指数の位置に $y$ を当てはめると）$y\log_b a = \log_b x$、すなわち $y = \dfrac{\log_b x}{\log_b a}$ が得られます。
 
 **底の変換公式**：$\log_a x = \dfrac{\log_b x}{\log_b a}$（$b$ は $b>0,\ b\neq1$ を満たす任意の底）。底の変換公式を使えば、上の「掛け算を足し算に変換する」計算規則を、扱いやすい任意の底に統一して利用できます。
 
