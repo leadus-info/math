@@ -50,7 +50,7 @@ $$(a-b)^3 = a^3 - 3a^2b + 3ab^2 - b^3$$
 
 $$
 \begin{aligned}
-(x+2)^3 &= x^3 + 3\cdot x^2\cdot2 + 3\cdot x\cdot2^2 + 2^3 \\
+(x+2)^3 &= x^3 + 3x^2\cdot2 + 3x\cdot2^2 + 2^3 \\
 &= x^3+6x^2+12x+8
 \end{aligned}
 $$
@@ -59,7 +59,7 @@ $$
 
 $$
 \begin{aligned}
-(x-2)^3 &= x^3 - 3\cdot x^2\cdot2 + 3\cdot x\cdot2^2 - 2^3 \\
+(x-2)^3 &= x^3 - 3x^2\cdot2 + 3x\cdot2^2 - 2^3 \\
 &= x^3-6x^2+12x-8
 \end{aligned}
 $$
