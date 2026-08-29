@@ -1,4 +1,4 @@
-<svg viewBox="0 0 360 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="長方形を対角線で切ると、形も大きさも同じ合同な2枚の直角三角形ABCとCDAができることを示す図">
+<svg viewBox="0 0 360 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="長方形を対角線で切ると2枚の直角三角形ができ、対角線の中点を中心に180度回転させるとぴったり重なる合同な図形になることを示す図">
   <polygon points="60,60 300,60 300,200 60,200" fill="none" stroke="currentColor" stroke-width="2"/>
   <line x1="60" y1="60" x2="300" y2="200" stroke="currentColor" stroke-width="2"/>
   <circle cx="60" cy="60" r="3" fill="currentColor"/>
