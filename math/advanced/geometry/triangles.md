@@ -15,6 +15,8 @@ hierarchy:
 requires:
   - title: 三角比
     path: trigonometry.md
+  - title: 平行線と角
+    path: ../../intermediate/geometry/angles.md
 ---
 
 ## 最もシンプルな多角形
@@ -29,7 +31,7 @@ requires:
 
 **定理**：$A + B + C = 180°$
 
-**証明**：頂点 $A$ を通り辺 $BC$ に平行な直線を引くと、錯角の関係から3角の和が直線（$180°$）に一致する。$\square$
+頂点 $A$ を通り辺 $BC$ に平行な直線を引き、錯角の関係を使うと証明できます（[平行線と角](../../intermediate/geometry/angles.md)で証明済みです）。
 
 「2つの角がわかれば、3つ目の角が自動的に決まる」——これが三角形の強力な性質です。
 
