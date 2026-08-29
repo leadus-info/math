@@ -15,6 +15,8 @@ hierarchy:
 requires:
   - title: 微分
     path: derivatives.md
+  - title: 微分の応用
+    path: derivatives-applications.md
   - title: 極限
     path: limits.md
 ---
