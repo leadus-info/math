@@ -62,7 +62,7 @@ f(x) &= a\left(x^2+\frac{b}{a}x+\left(\frac{b}{2a}\right)^2-\left(\frac{b}{2a}\r
 \end{aligned}
 $$
 
-頂点は $\left(-\dfrac{b}{2a},\ -\dfrac{b^2-4ac}{4a}\right)$ です。この式は、$y=ax^2$ のグラフを $x$ 軸方向に $-\dfrac{b}{2a}$、$y$ 軸方向に $-\dfrac{b^2-4ac}{4a}$ だけ**平行移動**したものと見ることができます。
+頂点は $\left(-\dfrac{b}{2a},\ -\dfrac{b^2-4ac}{4a}\right)$ です。この式は、$y=ax^2$ のグラフを $x$ 軸方向に $-\dfrac{b}{2a}$、$y$ 軸方向に $-\dfrac{b^2-4ac}{4a}$ だけ[平行移動](../../intermediate/geometry/transformations.md)（座標を $x$ 軸方向・$y$ 軸方向にそれぞれ一定量だけずらす操作）したものと見ることができます。
 
 **例題**：$f(x) = x^2 + 4x + 1$ を平方完成する。$x$の係数4の半分の2乗、$2^2=4$を足して引くと、
 
