@@ -58,6 +58,8 @@ Rudin, W. (1976). *Principles of Mathematical Analysis* (3rd ed.). McGraw-Hill.�
 
 ## 完備性から導かれる定理
 
+以降の証明では、数列 $\{a_n\}$ が $L$ に収束するとは、任意の $\varepsilon>0$ に対しある番号 $N$ が存在して、$n>N$ ならば $|a_n-L|<\varepsilon$ となることを指します（詳細・直感的な背景は[極限の厳密な定義](../analysis/epsilon-delta.md)を参照）。
+
 **単調収束定理**：単調増加かつ上に有界な数列 $\{a_n\}$ は収束する。
 
 **証明**：$\{a_n\}$ は上に有界なので、完備性の公理より上限 $s = \sup\{a_n : n\in\mathbb{N}\}$ が存在します。任意の $\varepsilon>0$ に対し、$s$ が上限（最小の上界）であることから $s-\varepsilon$ は上界ではないので、$a_N > s-\varepsilon$ となる $N$ が存在します。$\{a_n\}$ は単調増加なので $n \geq N$ ならば $a_n \geq a_N > s-\varepsilon$。また $s$ は上界なので常に $a_n \leq s < s+\varepsilon$。よって $n\geq N$ で $|a_n - s| < \varepsilon$ となり、$a_n \to s$。$\blacksquare$
