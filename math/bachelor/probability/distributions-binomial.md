@@ -79,7 +79,29 @@ $$\sum_x\sum_y xy\,P(X=x)P(Y=y) = \sum_x xP(X=x)\Big(\sum_y yP(Y=y)\Big) = \Big(
 
 なので $E[XY]-E[X]E[Y]=0$。したがって $\mathrm{Var}(X+Y)=\mathrm{Var}(X)+\mathrm{Var}(Y)$。$\square$
 
-$X_1, \ldots, X_n$ は互いに独立なので、部分和 $S_{n-1} = X_1 + \cdots + X_{n-1}$ と $X_n$ もまた独立であり、上の2変数の場合の証明を数学的帰納法で繰り返し適用すると、$\mathrm{Var}(X_1+\cdots+X_n) = \sum_{i=1}^n \mathrm{Var}(X_i)$ が成り立つことが示せます。こうして先ほどの $\mathrm{Var}(X) = \sum_{i=1}^n \mathrm{Var}(X_i) = np(1-p)$ が正当化されました。組合せ論的な和 $\sum_k k\binom{n}{k}p^k(1-p)^{n-k}$ を直接計算するより、この分解の方がはるかに見通しがよいことに注意してください。
+$n$個の確率変数についても、独立性は同様に定義できます。
+
+**定義**（$n$変数の独立性）：確率変数 $X_1, \ldots, X_n$ が**互いに独立**であるとは、任意の $x_1, \ldots, x_n$ について $P(X_1=x_1, \ldots, X_n=x_n) = P(X_1=x_1)\cdots P(X_n=x_n)$ が成り立つことをいいます。
+
+**補題**：$X_1, \ldots, X_n$ が互いに独立ならば、部分和 $S_{n-1} = X_1 + \cdots + X_{n-1}$ と $X_n$ は独立である。
+
+**証明**：$S_{n-1}=s$ となるのは $x_1+\cdots+x_{n-1}=s$ を満たす組 $(x_1,\ldots,x_{n-1})$ のいずれかが実現するときなので、
+
+$$P(S_{n-1}=s,\, X_n=x_n) = \sum_{x_1+\cdots+x_{n-1}=s} P(X_1=x_1,\ldots,X_{n-1}=x_{n-1},X_n=x_n)$$
+
+$X_1,\ldots,X_n$ の独立性から、和の中の各項は $P(X_1=x_1)\cdots P(X_{n-1}=x_{n-1})P(X_n=x_n)$ と分解でき、$P(X_n=x_n)$ は和の添字 $(x_1,\ldots,x_{n-1})$ に依存しない定数なので和の外に出せます。
+
+$$P(S_{n-1}=s,\, X_n=x_n) = P(X_n=x_n)\sum_{x_1+\cdots+x_{n-1}=s} P(X_1=x_1)\cdots P(X_{n-1}=x_{n-1}) = P(X_n=x_n)\,P(S_{n-1}=s)$$
+
+したがって $S_{n-1}$ と $X_n$ は独立である。$\square$
+
+これで、$X_1, \ldots, X_n$ が互いに独立なとき $\mathrm{Var}(X_1+\cdots+X_n) = \sum_{i=1}^n \mathrm{Var}(X_i)$ が成り立つことを、$n$についての数学的帰納法で示せます。$n=1$のときは両辺とも $\mathrm{Var}(X_1)$ で自明に成り立ちます。$n-1$のとき成り立つと仮定すると、$\mathrm{Var}(S_{n-1}) = \sum_{i=1}^{n-1} \mathrm{Var}(X_i)$ です。上の補題より $S_{n-1}$ と $X_n$ は独立なので、先ほど示した2変数の場合の定理を $S_{n-1}$ と $X_n$ に適用すると
+
+$$\mathrm{Var}(X_1+\cdots+X_n) = \mathrm{Var}(S_{n-1}+X_n) = \mathrm{Var}(S_{n-1}) + \mathrm{Var}(X_n) = \sum_{i=1}^{n-1}\mathrm{Var}(X_i) + \mathrm{Var}(X_n) = \sum_{i=1}^n \mathrm{Var}(X_i)$$
+
+となり、$n$のときも成り立ちます。こうして先ほどの $\mathrm{Var}(X) = \sum_{i=1}^n \mathrm{Var}(X_i) = np(1-p)$ が正当化されました。
+
+組合せ論的な和 $\sum_k k\binom{n}{k}p^k(1-p)^{n-k}$ を直接計算するより、この分解の方がはるかに見通しがよいことに注意してください。
 
 ---
 
