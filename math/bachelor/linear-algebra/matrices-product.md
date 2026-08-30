@@ -29,13 +29,13 @@ $$(AB)_{ij} = \sum_{k=1}^n a_{ik} b_{kj} \qquad (i=1,\dots,m,\ j=1,\dots,p)$$
 
 変換の合成とは、ある変換を施した結果に対してさらに別の変換を施す操作のことです。
 
-**命題**：任意の $p$ 次元ベクトル $x$ について、$(AB)x = A(Bx)$ が成り立つ。
+**命題**：任意の $p$ 次元ベクトル $\boldsymbol{x}$ について、$(AB)\boldsymbol{x} = A(B\boldsymbol{x})$ が成り立つ。
 
 **証明**：
 
-$$((AB)x)_i = \sum_{j=1}^p (AB)_{ij} x_j = \sum_{j=1}^p \sum_{k=1}^n a_{ik} b_{kj} x_j = \sum_{k=1}^n a_{ik} \sum_{j=1}^p b_{kj} x_j = \sum_{k=1}^n a_{ik} (Bx)_k = (A(Bx))_i$$
+$$((AB)\boldsymbol{x})_i = \sum_{j=1}^p (AB)_{ij} x_j = \sum_{j=1}^p \sum_{k=1}^n a_{ik} b_{kj} x_j = \sum_{k=1}^n a_{ik} \sum_{j=1}^p b_{kj} x_j = \sum_{k=1}^n a_{ik} (B\boldsymbol{x})_k = (A(B\boldsymbol{x}))_i$$
 
-（2つ目の等号で $AB$ の定義式を代入し、3つ目の等号で和の順序を交換して $a_{ik}$ を $j$ についての和の外にくくり出し、4つ目の等号で内側の和が $Bx$ の第 $k$ 成分であることを使っています）。$\blacksquare$
+（2つ目の等号で $AB$ の定義式を代入し、3つ目の等号で和の順序を交換して $a_{ik}$ を $j$ についての和の外にくくり出し、4つ目の等号で内側の和が $B\boldsymbol{x}$ の第 $k$ 成分であることを使っています）。$\blacksquare$
 
 この対応により、一般に $AB \neq BA$（掛け算の順序は変えられません）——「先に回転してから拡大」と「先に拡大してから回転」が違う結果になるのと同じです。
 
