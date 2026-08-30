@@ -86,7 +86,15 @@ $$\frac{\partial f}{\partial x}(0,0) = \lim_{h\to 0}\frac{f(h,0)-f(0,0)}{h} = \l
 
 **定義**：線形写像 $A$ が存在して $f(x+h) = f(x) + Ah + o(\|h\|)$（$h \to 0$）が成り立つとき、$f$ は**全微分可能**であるといいます。ここで $o(\|h\|)$ とは、$h \to 0$ のとき $\|h\|$ で割った極限が0になるような量を表します。
 
-全微分可能ならば、すべての偏微分が存在します。実際、$h = te_i$（$t$ はスカラー）として定義の式に代入すると、$\dfrac{f(x+te_i)-f(x)}{t} = Ae_i + \dfrac{o(|t|)}{t} \to Ae_i$（$t\to 0$）となるので、$\dfrac{\partial f}{\partial x_i} = Ae_i$、すなわち線形写像 $A$ の第 $i$ 成分は $\dfrac{\partial f}{\partial x_i}$ に一致します。したがって $Ah = \sum_i \dfrac{\partial f}{\partial x_i}h_i$ であり、$df = \sum_i \dfrac{\partial f}{\partial x_i}dx_i$ を**全微分**といいます。
+全微分可能ならば、すべての偏微分が存在します。実際、$h = te_i$（$t$ はスカラー）として定義の式 $f(x+h) = f(x) + Ah + o(\|h\|)$ に代入し、両辺を $t$（$t\neq 0$）で割ると、
+
+$$\frac{f(x+te_i)-f(x)}{t} = \frac{t\,Ae_i + o(|t|)}{t} = Ae_i + \frac{o(|t|)}{t}$$
+
+ここで $t\to 0$ のとき $\dfrac{o(|t|)}{t}\to 0$ となるので、
+
+$$\lim_{t\to 0}\frac{f(x+te_i)-f(x)}{t} = Ae_i$$
+
+すなわち $\dfrac{\partial f}{\partial x_i} = Ae_i$ であり、線形写像 $A$ の第 $i$ 成分は $\dfrac{\partial f}{\partial x_i}$ に一致します。したがって $Ah = \sum_i \dfrac{\partial f}{\partial x_i}h_i$ であり、$df = \sum_i \dfrac{\partial f}{\partial x_i}dx_i$ を**全微分**といいます。
 
 各成分 $f_i$ に対して同様の議論を適用すると、$f: \mathbb{R}^n \to \mathbb{R}^m$ の微分は、偏微分を並べた**ヤコビ行列** $Jf = \left(\dfrac{\partial f_i}{\partial x_j}\right)$ で表され、連鎖律は行列の積の形になります。
 
