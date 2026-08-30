@@ -1,0 +1,21 @@
+<svg viewBox="0 0 400 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="四角形を対角線ACで三角形ABCと三角形ACDに分け、頂点A・Cの角がそれぞれ2つに分割されて4つの角の和が360度になることを示す図">
+  <polygon points="200,40 50,150 150,290 340,190" fill="none" stroke="currentColor" stroke-width="2"/>
+  <line x1="200" y1="40" x2="150" y2="290" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <circle cx="200" cy="40" r="3" fill="currentColor"/>
+  <circle cx="50" cy="150" r="3" fill="currentColor"/>
+  <circle cx="150" cy="290" r="3" fill="currentColor"/>
+  <circle cx="340" cy="190" r="3" fill="currentColor"/>
+  <text x="200" y="26" font-size="16" text-anchor="middle" fill="currentColor">A</text>
+  <text x="30" y="150" font-size="16" text-anchor="middle" fill="currentColor">B</text>
+  <text x="150" y="312" font-size="16" text-anchor="middle" fill="currentColor">C</text>
+  <text x="360" y="190" font-size="16" text-anchor="middle" fill="currentColor">D</text>
+  <!-- 三角形ABCの角(実線): ∠CAB, ∠ABC, ∠BCA -->
+  <path d="M193.7,71.4 Q181.5,68.9 174.2,58.9" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M72.6,133.4 Q89.3,156.3 66.3,172.8" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M131.4,264.0 Q142.7,255.9 156.3,258.6" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <!-- 三角形ACDの角(破線、対角線と同じ様式): ∠DAC, ∠ACD, ∠ADC -->
+  <path d="M216.4,57.5 Q207.4,65.9 195.3,63.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <path d="M154.7,266.5 Q165.9,268.7 171.2,278.8" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <path d="M315.2,203.0 Q305.3,184.1 320.9,169.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="200" y="332" font-size="16" text-anchor="middle" fill="currentColor">∠A + ∠B + ∠C + ∠D = 360°</text>
+</svg>
