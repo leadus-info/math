@@ -57,13 +57,25 @@ $$\mathrm{Var}(X) = \sum_{i=1}^n \mathrm{Var}(X_i) = np(1-p)$$
 
 **証明**：分散の定義と期待値の線形性から
 
-$$\mathrm{Var}(X+Y) = E[(X+Y)^2] - (E[X+Y])^2 = \{E[X^2]-(E[X])^2\} + \{E[Y^2]-(E[Y])^2\} + 2\{E[XY]-E[X]E[Y]\}$$
+$(X+Y)^2$ と $(E[X+Y])^2$ をそれぞれ展開すると
+
+$$E[(X+Y)^2] = E[X^2+2XY+Y^2] = E[X^2]+2E[XY]+E[Y^2]$$
+
+$$(E[X+Y])^2 = (E[X]+E[Y])^2 = (E[X])^2+2E[X]E[Y]+(E[Y])^2$$
+
+なので、分散の定義 $\mathrm{Var}(X+Y)=E[(X+Y)^2]-(E[X+Y])^2$ に代入して同類項を整理すると
+
+$$\mathrm{Var}(X+Y) = \{E[X^2]-(E[X])^2\} + \{E[Y^2]-(E[Y])^2\} + 2\{E[XY]-E[X]E[Y]\}$$
 
 $$= \mathrm{Var}(X) + \mathrm{Var}(Y) + 2\{E[XY]-E[X]E[Y]\}$$
 
-が成り立つ。$X, Y$ が独立であることから
+が成り立つ。$X, Y$ が独立であることから、$P(X=x,Y=y)=P(X=x)P(Y=y)$ を用いて
 
-$$E[XY] = \sum_x\sum_y xy\,P(X=x,Y=y) = \sum_x\sum_y xy\,P(X=x)P(Y=y) = \Big(\sum_x xP(X=x)\Big)\Big(\sum_y yP(Y=y)\Big) = E[X]E[Y]$$
+$$E[XY] = \sum_x\sum_y xy\,P(X=x,Y=y) = \sum_x\sum_y xy\,P(X=x)P(Y=y)$$
+
+ここで、内側の $y$ についての和の中では $xP(X=x)$ は $y$ に依存しない定数として和の外に出せるので
+
+$$\sum_x\sum_y xy\,P(X=x)P(Y=y) = \sum_x xP(X=x)\Big(\sum_y yP(Y=y)\Big) = \Big(\sum_x xP(X=x)\Big)\Big(\sum_y yP(Y=y)\Big) = E[X]E[Y]$$
 
 なので $E[XY]-E[X]E[Y]=0$。したがって $\mathrm{Var}(X+Y)=\mathrm{Var}(X)+\mathrm{Var}(Y)$。$\square$
 
