@@ -91,7 +91,7 @@ $$p(\lambda) = (-1)^n(\lambda-\lambda_1)(\lambda-\lambda_2)\cdots(\lambda-\lambd
 
 *定数項の比較*：$\lambda=0$ を代入すると $p(0)=\det(A) = (-1)^n(-\lambda_1)(-\lambda_2)\cdots(-\lambda_n) = (-1)^n(-1)^n\prod_i\lambda_i = \prod_i \lambda_i$。
 
-*$\lambda^{n-1}$ の係数の比較*：右辺を展開したときの $\lambda^{n-1}$ の係数は $(-1)^n \times (-1)^{n-1}\sum_i\lambda_i = (-1)^{2n-1}\sum_i \lambda_i = -\sum_i\lambda_i$。一方、$\det(A-\lambda I)$ を行列式の定義（余因子展開）から直接調べると、$\lambda^{n-1}$ の項は対角成分の積 $\prod_i(a_{ii}-\lambda)$ からしか出てこず、その係数は $-\sum_i a_{ii} = -\mathrm{tr}(A)$ になります。両者を比較すると $\mathrm{tr}(A) = \sum_i \lambda_i$。$\blacksquare$
+*$\lambda^{n-1}$ の係数の比較*：$\prod_i(\lambda-\lambda_i)$ を展開すると、$\lambda^{n-1}$ の項は $n$ 個の因子のうち $1$ 個だけ $-\lambda_i$ を選び残りは $\lambda$ を選ぶ組み合わせの和になるので、係数は次数 $n$ の偶奇によらず常に $-\sum_i\lambda_i$ です。よって右辺 $p(\lambda)=(-1)^n\prod_i(\lambda-\lambda_i)$ における $\lambda^{n-1}$ の係数は $(-1)^n\times\left(-\sum_i\lambda_i\right) = (-1)^{n+1}\sum_i\lambda_i$。一方、$\det(A-\lambda I)$ を行列式の定義（余因子展開）から直接調べると、$\lambda^{n-1}$ の項は対角成分の積 $\prod_i(a_{ii}-\lambda)$ からしか出てこず、同様の理由でその係数は $(-1)^{n+1}\mathrm{tr}(A)$ になります。両者を比較すると $(-1)^{n+1}\sum_i\lambda_i = (-1)^{n+1}\mathrm{tr}(A)$ より $\mathrm{tr}(A) = \sum_i \lambda_i$。$\blacksquare$
 
 ---
 
