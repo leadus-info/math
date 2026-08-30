@@ -108,7 +108,11 @@ $$\lim_{x \to 0} \frac{\sin x}{x} = 1 \quad \text{（ラジアン単位）}$$
 **はさみうちの原理（関数版）**：$a$ の近くで $f(x) \leq g(x) \leq h(x)$ が成り立ち、$\displaystyle\lim_{x\to a} f(x) = \lim_{x\to a} h(x) = L$ ならば、$\displaystyle\lim_{x\to a} g(x) = L$。
 
 > [!NOTE]
-> 上で挙げた $\displaystyle\lim_{x\to0}\frac{\sin x}{x}=1$ も、はさみうちの原理（関数版）で示せます。単位円上で中心角 $x$（$0 < x < \pi/2$）の扇形を考えます。まず、扇形に内接する三角形の面積は $\frac12\sin x$ です。次に、扇形自体の面積は $\frac12 x$ です。さらに、扇形を含む直角三角形の面積は $\frac12\tan x$ です。これら3つの面積の大小関係から $\sin x < x < \tan x$ が成り立ちます。各辺を $\sin x>0$ で割ると $1 < \dfrac{x}{\sin x} < \dfrac{1}{\cos x}$、逆数をとって $\cos x < \dfrac{\sin x}{x} < 1$ が得られます。$x\to0$ で $\cos x \to 1$ なので、はさみうちの原理より $\dfrac{\sin x}{x}\to1$ となります。また $\dfrac{\sin x}{x}$ は偶関数です（$\dfrac{\sin(-x)}{-x} = \dfrac{-\sin x}{-x} = \dfrac{\sin x}{x}$）。したがって、$0<x<\pi/2$ で示した議論を $x \to -x$ と置き換えることで $-\pi/2 < x < 0$ の場合にもそのまま適用でき、左右どちらから近づけても同じ極限 $1$ に収束することが確かめられます。
+> 上で挙げた $\displaystyle\lim_{x\to0}\frac{\sin x}{x}=1$ も、はさみうちの原理（関数版）で示せます。単位円上で中心角 $x$（$0 < x < \pi/2$）の扇形を考えます。まず、扇形に内接する三角形の面積は $\frac12\sin x$ です。次に、扇形自体の面積は $\frac12 x$ です。さらに、扇形を含む直角三角形の面積は $\frac12\tan x$ です。
+>
+> ![単位円上で中心角xの扇形を考え、原点O・x軸上の点A(1,0)・円周上の点B(cos x, sin x)・点Aでの接線上の点T(1, tan x)を結んだ図。三角形OAB(扇形に内接する三角形、面積(1/2)sin x)、扇形OAB自体(面積(1/2)x)、三角形OAT(扇形を含む直角三角形、面積(1/2)tan x)の位置関係を示す](limits/images/sin-x-tan-x-sandwich-proof.svg)
+>
+> これら3つの面積の大小関係から $\sin x < x < \tan x$ が成り立ちます。各辺を $\sin x>0$ で割ると $1 < \dfrac{x}{\sin x} < \dfrac{1}{\cos x}$、逆数をとって $\cos x < \dfrac{\sin x}{x} < 1$ が得られます。$x\to0$ で $\cos x \to 1$ なので、はさみうちの原理より $\dfrac{\sin x}{x}\to1$ となります。また $\dfrac{\sin x}{x}$ は偶関数です（$\dfrac{\sin(-x)}{-x} = \dfrac{-\sin x}{-x} = \dfrac{\sin x}{x}$）。したがって、$0<x<\pi/2$ で示した議論を $x \to -x$ と置き換えることで $-\pi/2 < x < 0$ の場合にもそのまま適用でき、左右どちらから近づけても同じ極限 $1$ に収束することが確かめられます。
 
 **例**：$\displaystyle\lim_{n\to\infty} \frac{\sin n}{n}$ を求める。$-1 \leq \sin n \leq 1$ より $-\dfrac1n \leq \dfrac{\sin n}{n} \leq \dfrac1n$。両端が0に収束するので、はさみうちの原理より極限も0。
 
