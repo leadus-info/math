@@ -21,7 +21,7 @@
   <polygon points="460,80 460,120 500,80" fill="none" stroke="currentColor" stroke-width="2"/>
   <line x1="500" y1="150" x2="430" y2="190" stroke="currentColor" stroke-width="1" stroke-dasharray="4 3"/>
   <line x1="500" y1="150" x2="460" y2="80" stroke="currentColor" stroke-width="1" stroke-dasharray="4 3"/>
-  <path d="M525,150 A25,25 0 0,1 500,125" fill="none" stroke="currentColor" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M500,125 A25,25 0 0,1 525,150" fill="none" stroke="currentColor" stroke-width="1.5" marker-end="url(#arrow)"/>
   <circle cx="500" cy="150" r="3" fill="currentColor"/>
-  <text x="510" y="165" font-size="14" fill="currentColor">O</text>
+  <text x="482" y="172" font-size="14" fill="currentColor">O</text>
 </svg>
