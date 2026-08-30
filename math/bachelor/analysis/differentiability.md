@@ -120,6 +120,20 @@ $$g(f(x+h)) = g(f(x)) + Jg(f(x))\cdot Jf(x)\,h + o(\|h\|)$$
 
 が得られ、これは合成関数 $g\circ f$ が $x$ で全微分可能であり、そのヤコビ行列が $J(g\circ f)(x) = Jg(f(x)) \cdot Jf(x)$ という評価点付きの形で線形写像の合成に一致することを示しています。$o(\|h\|)$ の項が実際に $o(\|h\|)$ になることの厳密な評価は煩雑になるため、ここでは証明の概略にとどめます。
 
+具体例として、先ほどの $f(x,y) = (x^2y,\ x+y)$ に対し、$g(u,v) = (u+v^2,\ uv)$（$g: \mathbb{R}^2 \to \mathbb{R}^2$）を考えます。各成分の偏微分は $\dfrac{\partial g_1}{\partial u}=1$、$\dfrac{\partial g_1}{\partial v}=2v$、$\dfrac{\partial g_2}{\partial u}=v$、$\dfrac{\partial g_2}{\partial v}=u$ なので、ヤコビ行列は
+
+$$Jg(u,v) = \begin{pmatrix} 1 & 2v \\ v & u \end{pmatrix}$$
+
+です。$f$ の第1成分 $u=x^2y$、第2成分 $v=x+y$ を代入すると、
+
+$$Jg(f(x,y)) = \begin{pmatrix} 1 & 2(x+y) \\ x+y & x^2y \end{pmatrix}$$
+
+となるので、連鎖律 $J(g\circ f)(x,y) = Jg(f(x,y)) \cdot Jf(x,y)$ に先ほど求めた $Jf(x,y) = \begin{pmatrix} 2xy & x^2 \\ 1 & 1 \end{pmatrix}$ を代入して評価点ごとに具体的に計算すると、
+
+$$J(g\circ f)(x,y) = \begin{pmatrix} 1 & 2(x+y) \\ x+y & x^2y \end{pmatrix}\begin{pmatrix} 2xy & x^2 \\ 1 & 1 \end{pmatrix} = \begin{pmatrix} 2xy+2x+2y & x^2+2x+2y \\ 3x^2y+2xy^2 & x^3+2x^2y \end{pmatrix}$$
+
+となります。実際 $g(f(x,y)) = \bigl(x^2y+(x+y)^2,\ x^2y(x+y)\bigr) = (x^2y+x^2+2xy+y^2,\ x^3y+x^2y^2)$ を直接偏微分しても同じ結果が得られ、連鎖律が成り立っていることが確認できます。
+
 ---
 
 ## さらに一般の空間での微分
