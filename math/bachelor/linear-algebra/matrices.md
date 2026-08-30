@@ -15,8 +15,8 @@ hierarchy:
 requires:
   - title: ベクトル
     path: vectors.md
-  - title: 等号・等式
-    path: ../../intermediate/algebra/equations.md
+  - title: 連立方程式
+    path: ../../intermediate/algebra/equations-simultaneous.md
 ---
 
 ## 数を格子状に並べる
@@ -27,7 +27,7 @@ $$\begin{pmatrix} 2 & 1 \\ 1 & -1 \end{pmatrix}$$
 
 $$\begin{cases} 2x + y = 5 \\ x - y = 1 \end{cases}$$
 
-の係数を取り出すと $\begin{pmatrix} 2 & 1 \\ 1 & -1 \end{pmatrix} \begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 5 \\ 1 \end{pmatrix}$ と書けます。掛け算の具体的な計算方法は行列の積で扱うので、ここでは結果だけを先に見せています。
+の解き方は[連立方程式](../../intermediate/algebra/equations-simultaneous.md)で扱いました。この係数を取り出すと $\begin{pmatrix} 2 & 1 \\ 1 & -1 \end{pmatrix} \begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 5 \\ 1 \end{pmatrix}$ と書けます。掛け算の具体的な計算方法は[行列の積](matrices-product.md)で扱うので、ここでは結果だけを先に見せています。
 
 2本でも100本でも同じ形で書けるのが行列の強みです。
 
