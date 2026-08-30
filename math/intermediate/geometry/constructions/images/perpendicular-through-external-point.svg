@@ -7,5 +7,7 @@
   <circle cx="93" cy="320" r="3" fill="currentColor"/>
   <circle cx="267" cy="320" r="3" fill="currentColor"/>
   <text x="196" y="135" font-size="16" fill="currentColor">P</text>
+  <text x="85" y="342" font-size="16" fill="currentColor">M</text>
+  <text x="259" y="342" font-size="16" fill="currentColor">N</text>
   <text x="368" y="325" font-size="16" fill="currentColor">ℓ</text>
 </svg>
