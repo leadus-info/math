@@ -1,4 +1,4 @@
-<svg viewBox="0 0 560 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="三角形ABCと三角形DEFが合同であり、頂点Aと頂点D・頂点Bと頂点E・頂点Cと頂点Fがそれぞれ対応する頂点であること、辺AB・BC・CAがそれぞれ辺DE・EF・FDに対応し同じ印で長さが等しいことを示していること、角A・角B・角Cがそれぞれ角D・角E・角Fに対応し同じ印で大きさが等しいことを示していることを表す図">
+<svg viewBox="0 0 560 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="三角形ABCと三角形DEFは合同である。頂点Aと頂点D、頂点Bと頂点E、頂点Cと頂点Fがそれぞれ対応する頂点である。辺AB・辺BC・辺CAは、それぞれ辺DE・辺EF・辺FDに対応し、同じ数の印(単一・二重・三重)で辺の長さが等しいことを表す。角A・角B・角Cは、それぞれ角D・角E・角Fに対応し、同じ数の弧(単一・二重・三重)で角の大きさが等しいことを表す。">
   <polygon points="140,70 70,250 230,230" fill="none" stroke="currentColor" stroke-width="2"/>
   <polygon points="301.5,207.4 490.9,245.0 443.5,90.9" fill="none" stroke="currentColor" stroke-width="2"/>
   <circle cx="140" cy="70" r="3" fill="currentColor"/>

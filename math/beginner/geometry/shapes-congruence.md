@@ -41,7 +41,7 @@ requires:
 
 また、角A・角B・角Cと角D・角E・角Fが、それぞれ対応する角です。対応する角どうしの大きさ（$\angle A=\angle D$、$\angle B=\angle E$、$\angle C=\angle F$）も等しくなります。
 
-![三角形ABCと三角形DEFが合同であり、頂点Aと頂点D・頂点Bと頂点E・頂点Cと頂点Fがそれぞれ対応する頂点であること、辺AB・BC・CAがそれぞれ辺DE・EF・FDに対応し同じ印で長さが等しいことを示していること、角A・角B・角Cがそれぞれ角D・角E・角Fに対応し同じ印で大きさが等しいことを示していることを表す図](shapes-congruence/images/corresponding-vertices-sides-angles.svg)
+![三角形ABCと三角形DEFは合同である。頂点Aと頂点D、頂点Bと頂点E、頂点Cと頂点Fがそれぞれ対応する頂点である。辺AB・辺BC・辺CAは、それぞれ辺DE・辺EF・辺FDに対応し、同じ数の印(単一・二重・三重)で辺の長さが等しいことを表す。角A・角B・角Cは、それぞれ角D・角E・角Fに対応し、同じ数の弧(単一・二重・三重)で角の大きさが等しいことを表す。](shapes-congruence/images/corresponding-vertices-sides-angles.svg)
 
 ---
 
