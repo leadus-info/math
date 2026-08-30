@@ -55,6 +55,8 @@ $$E[X^2] = \int_0^\infty 2xe^{-\lambda x}\,dx$$
 
 $$E[X^2] = \frac{2}{\lambda}\int_0^\infty x\lambda e^{-\lambda x}\,dx = \frac{2}{\lambda}E[X] = \frac{2}{\lambda^2}$$
 
+（最後の等号では$E[X]=\frac1\lambda$、すなわち前節「期待値の導出」の結果を用いた。）
+
 したがって
 
 $$\mathrm{Var}(X) = E[X^2]-(E[X])^2 = \frac{2}{\lambda^2}-\frac{1}{\lambda^2} = \frac{1}{\lambda^2}$$
