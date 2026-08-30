@@ -57,7 +57,7 @@ $$\boldsymbol{a} \cdot \boldsymbol{b} = a_1 b_1 + \cdots + a_n b_n = \|\boldsymb
 
 $$\|\boldsymbol{a}-\boldsymbol{b}\|^2=\|\boldsymbol{a}\|^2+\|\boldsymbol{b}\|^2-2\|\boldsymbol{a}\|\|\boldsymbol{b}\|\cos\theta$$
 
-次に、$(a_i-b_i)^2$を展開し、和を項ごとに分割すると、左辺は次のようになります。
+次に、$(a_i-b_i)^2$を展開し、和を項ごとに分割すると、左辺は次のようになります。ここで、$\sum_i a_i^2$、$\sum_i b_i^2$はそれぞれ$\|\boldsymbol{a}\|^2$、$\|\boldsymbol{b}\|^2$に、$\sum_i a_ib_i$は内積の成分表示に対応します。
 
 $$
 \begin{aligned}
@@ -66,8 +66,6 @@ $$
 &= \|\boldsymbol{a}\|^2-2(a_1b_1+\cdots+a_nb_n)+\|\boldsymbol{b}\|^2
 \end{aligned}
 $$
-
-3行目では$\sum_i a_i^2$、$\sum_i b_i^2$がそれぞれ$\|\boldsymbol{a}\|^2$、$\|\boldsymbol{b}\|^2$に、$\sum_i a_ib_i$が内積の成分表示に対応しています。
 
 両者を比較すると $-2(a_1b_1+\cdots+a_nb_n)=-2\|\boldsymbol{a}\|\|\boldsymbol{b}\|\cos\theta$、すなわち $a_1b_1+\cdots+a_nb_n=\|\boldsymbol{a}\|\|\boldsymbol{b}\|\cos\theta$ が確かめられます。
 
