@@ -45,15 +45,27 @@ $AB\neq BA$ であることが具体的に確認できます。
 
 ## 単位行列と結合律
 
-行列の積には、実数の掛け算における $1$ に相当する特別な行列が存在します。**単位行列**とは、対角成分がすべて $1$ で、それ以外の成分がすべて $0$ である正方行列のことで、$I$ と表します。例えば $2$ 次の単位行列は $I=\begin{pmatrix}1&0\\0&1\end{pmatrix}$ です。
+行列の積には、実数の掛け算における $1$ に相当する特別な行列が存在します。行の数と列の数が等しい行列を**正方行列**といいます。**単位行列**とは、対角成分がすべて $1$ で、それ以外の成分がすべて $0$ である正方行列のことで、$I$ と表します。例えば $2$ 次の単位行列は $I=\begin{pmatrix}1&0\\0&1\end{pmatrix}$ です。
 
-$n$ 次正方行列 $A$ と $n$ 次単位行列 $I$ について、$AI = IA = A$ が成り立ちます。例えば、
+$n$ 次正方行列 $A$ と $n$ 次単位行列 $I$ について、$AI = IA = A$ が成り立ちます。$I$ の $(k,j)$ 成分は $k=j$ のとき $1$、それ以外は $0$ なので、
+
+$$(AI)_{ij} = \sum_{k=1}^n a_{ik} I_{kj} = a_{ij}$$
+
+（和の中で $k=j$ の項だけが残るため）となり、$IA=A$ も同様に示せます。例えば、
 
 $$\begin{pmatrix}1&2\\3&4\end{pmatrix}\begin{pmatrix}1&0\\0&1\end{pmatrix}=\begin{pmatrix}1&0\\0&1\end{pmatrix}\begin{pmatrix}1&2\\3&4\end{pmatrix}=\begin{pmatrix}1&2\\3&4\end{pmatrix}$$
 
 のように、単位行列との積は元の行列を変えません。
 
-また、行列の積では**結合律** $(AB)C = A(BC)$ が成り立ちます（一方で非可換性のため、積の順序 $AB$ と $BA$ を入れ替えることはできません）。先ほどの $A=\begin{pmatrix}1&1\\0&1\end{pmatrix}$、$B=\begin{pmatrix}1&0\\1&1\end{pmatrix}$ に加えて $C=\begin{pmatrix}2&0\\0&1\end{pmatrix}$ とすると、
+また、行列の積では**結合律** $(AB)C = A(BC)$ が成り立ちます（一方で非可換性のため、積の順序 $AB$ と $BA$ を入れ替えることはできません）。$A$ を $(m\times n)$、$B$ を $(n\times p)$、$C$ を $(p\times q)$ 行列とすると、
+
+$$((AB)C)_{il} = \sum_{j=1}^p (AB)_{ij} c_{jl} = \sum_{j=1}^p \sum_{k=1}^n a_{ik} b_{kj} c_{jl} = \sum_{k=1}^n a_{ik} \sum_{j=1}^p b_{kj} c_{jl} = \sum_{k=1}^n a_{ik} (BC)_{kl} = (A(BC))_{il}$$
+
+より、任意の $A,B,C$ について成り立ちます。具体例で確認すると、先ほどの $A=\begin{pmatrix}1&1\\0&1\end{pmatrix}$、$B=\begin{pmatrix}1&0\\1&1\end{pmatrix}$ に加えて $C=\begin{pmatrix}2&0\\0&1\end{pmatrix}$ とすると、
+
+$$BC=\begin{pmatrix}1&0\\1&1\end{pmatrix}\begin{pmatrix}2&0\\0&1\end{pmatrix}=\begin{pmatrix}2&0\\2&1\end{pmatrix}$$
+
+であり、
 
 $$(AB)C=\begin{pmatrix}2&1\\1&1\end{pmatrix}\begin{pmatrix}2&0\\0&1\end{pmatrix}=\begin{pmatrix}4&1\\2&1\end{pmatrix}, \qquad A(BC)=\begin{pmatrix}1&1\\0&1\end{pmatrix}\begin{pmatrix}2&0\\2&1\end{pmatrix}=\begin{pmatrix}4&1\\2&1\end{pmatrix}$$
 
