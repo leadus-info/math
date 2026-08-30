@@ -57,9 +57,23 @@ $p(\lambda) = \det(A - \lambda I)$ を**固有多項式**といいます。$n \t
 
 ## 対角化
 
-$n$ 個の線形独立な固有ベクトル $\boldsymbol{v}_1, \ldots, \boldsymbol{v}_n$ が存在するとき $A$ は**対角化可能**です。
+固有ベクトル $\boldsymbol{v}_1,\ldots,\boldsymbol{v}_n$（対応する固有値をそれぞれ $\lambda_1,\ldots,\lambda_n$ とします）を列として並べた行列 $P=(\boldsymbol{v}_1 \cdots \boldsymbol{v}_n)$ を作ると、各列に $A\boldsymbol{v}_i=\lambda_i\boldsymbol{v}_i$ を使って、
 
-$$A = P\Lambda P^{-1}, \quad P = (\boldsymbol{v}_1 \cdots \boldsymbol{v}_n), \quad \Lambda = \mathrm{diag}(\lambda_1, \ldots, \lambda_n)$$
+$$AP = (A\boldsymbol{v}_1 \cdots A\boldsymbol{v}_n) = (\lambda_1\boldsymbol{v}_1 \cdots \lambda_n\boldsymbol{v}_n) = P\Lambda, \qquad \Lambda = \mathrm{diag}(\lambda_1, \ldots, \lambda_n)$$
+
+が成り立ちます。ここでもし $\boldsymbol{v}_1,\ldots,\boldsymbol{v}_n$ が線形独立なら $P$ は正則なので、両辺に左から $P^{-1}$ を掛けると、
+
+$$P^{-1}AP = \Lambda, \quad \text{すなわち} \quad A = P\Lambda P^{-1}$$
+
+が得られます。このように、固有ベクトルを並べた行列 $P$ を使って $A$ を対角行列 $\Lambda$ に変換できることを**対角化**といい、$n$ 個の線形独立な固有ベクトルが存在してこれが可能な行列を**対角化可能**といいます。
+
+先ほどの例（$A=\begin{pmatrix}3&1\\0&2\end{pmatrix}$、固有値 $3,2$、固有ベクトル $\begin{pmatrix}1\\0\end{pmatrix},\begin{pmatrix}1\\-1\end{pmatrix}$）で実際に対角化してみると、$P=\begin{pmatrix}1&1\\0&-1\end{pmatrix}$ に対して $P^{-1}=\begin{pmatrix}1&1\\0&-1\end{pmatrix}$（この $P$ はたまたま $P^{-1}=P$ です）となり、
+
+$$P^{-1}AP = \begin{pmatrix}1&1\\0&-1\end{pmatrix}\begin{pmatrix}3&1\\0&2\end{pmatrix}\begin{pmatrix}1&1\\0&-1\end{pmatrix} = \begin{pmatrix}3&0\\0&2\end{pmatrix}$$
+
+と、対角成分に固有値が並んだ行列が実際に得られます。
+
+ここまでは「$n$ 個の線形独立な固有ベクトルがあれば対角化できる」という対角化の手順の話でした。次に、そもそもどんなときに $n$ 個の線形独立な固有ベクトルが揃うのか、その十分条件を証明します。
 
 **対角化可能の十分条件**：$n\times n$ 行列 $A$ が $n$ 個の相異なる固有値を持つならば、$A$ は対角化可能である。
 
