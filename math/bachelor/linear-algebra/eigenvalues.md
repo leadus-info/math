@@ -15,6 +15,8 @@ hierarchy:
 requires:
   - title: 線形写像
     path: linear-maps.md
+  - title: 行列式
+    path: matrices-determinant.md
   - title: 多項式
     path: ../../advanced/algebra/polynomials.md
 ---
@@ -39,13 +41,13 @@ $$A\begin{pmatrix}1\\1\end{pmatrix}=\begin{pmatrix}-1\\1\end{pmatrix}$$
 
 **命題**：$(A - \lambda I)\boldsymbol{v} = \boldsymbol{0}$ が $\boldsymbol{v}\neq\boldsymbol{0}$ なる解を持つことと、$\det(A - \lambda I) = 0$ は同値である。
 
-**証明**：線形写像で証明した「単射 $\iff$ 核が $\{\boldsymbol{0}\}$」を、線形写像 $T(\boldsymbol{x})=(A-\lambda I)\boldsymbol{x}$ に適用します。$(A-\lambda I)\boldsymbol{v}=\boldsymbol{0}$ が非自明解を持つことは $\ker T \neq \{\boldsymbol{0}\}$ と同じ、すなわち $T$ が単射でないことと同じです。正方行列の場合、単射性は全射性・可逆性と同値（線形写像の記事の結論）なので、これは $A-\lambda I$ が可逆でないこと、すなわち $\det(A-\lambda I)=0$ と同値です。$\blacksquare$
+**証明**：線形写像で証明した「単射 $\iff$ 核が $\{\boldsymbol{0}\}$」を、線形写像 $T(\boldsymbol{x})=(A-\lambda I)\boldsymbol{x}$ に適用します。$(A-\lambda I)\boldsymbol{v}=\boldsymbol{0}$ が非自明解を持つことは $\ker T \neq \{\boldsymbol{0}\}$ と同じ、すなわち $T$ が単射でないことと同じです。正方行列の場合、単射性は全射性・可逆性と同値（線形写像の記事の結論）なので、これは $A-\lambda I$ が可逆でないことと同値です。さらに、行列式の記事で示した「正方行列が可逆でないことと行列式が $0$ であることは同値」という結論により、これは $\det(A-\lambda I)=0$ とも同値です。$\blacksquare$
 
 ---
 
 ## 固有多項式と固有値・固有ベクトルの求め方
 
-$p(\lambda) = \det(A - \lambda I)$ を**固有多項式**といいます。$n \times n$ 行列の固有多項式は $\lambda$ の $n$ 次多項式で、固有値は $p(\lambda) = 0$ の根です。
+$p(\lambda) = \det(A - \lambda I)$ を**固有多項式**といいます。$n \times n$ 行列の固有多項式は $\lambda$ の $n$ 次多項式です。前節で証明した同値関係「$(A-\lambda I)\boldsymbol{v}=\boldsymbol{0}$ が非自明解を持つ $\iff$ $\det(A-\lambda I)=0$」により、固有値はちょうど固有多項式 $p(\lambda) = 0$ の根です。
 
 **例**：$A = \begin{pmatrix}3&1\\0&2\end{pmatrix}$ のとき $\det(A - \lambda I) = (3-\lambda)(2-\lambda) = 0$ より $\lambda = 3$ または $\lambda = 2$。
 
