@@ -47,9 +47,13 @@ $$E[X] = \left[-\frac{1}{\lambda}e^{-\lambda x}\right]_0^\infty=\frac1\lambda$$
 
 **無記憶性**：$P(X > s + t \mid X > s) = P(X > t)$（すでに $s$ 待った事実が、追加の待ち時間の分布に影響しない）。
 
-**証明**：条件付き確率の定義と $\{X>s+t\}\subset\{X>s\}$（$t\geq0$ なので）より $P(X>s+t\cap X>s)=P(X>s+t)$ に注意すると、
+**証明**：条件付き確率の定義より $P(X>s+t \mid X>s) = \dfrac{P(X>s+t\cap X>s)}{P(X>s)}$ である。ここで $t\geq0$ より $\{X>s+t\}\subset\{X>s\}$ が成り立つので、事象$X>s+t\cap X>s$は事象$X>s+t$と同値であり、$P(X>s+t\cap X>s)=P(X>s+t)$ となる。したがって
 
-$$P(X>s+t \mid X>s) = \frac{P(X>s+t)}{P(X>s)} = \frac{e^{-\lambda(s+t)}}{e^{-\lambda s}} = e^{-\lambda t} = P(X>t)$$
+$$P(X>s+t \mid X>s) = \frac{P(X>s+t)}{P(X>s)}$$
+
+前述の生存関数 $P(X>x)=e^{-\lambda x}$ より、
+
+$$P(X>s+t \mid X>s) = \frac{e^{-\lambda(s+t)}}{e^{-\lambda s}} = e^{-\lambda t} = P(X>t)$$
 
 $\blacksquare$
 
