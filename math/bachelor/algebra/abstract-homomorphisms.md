@@ -25,8 +25,8 @@ requires:
 
 **群準同型** $\varphi: G \to H$ とは $\varphi(ab) = \varphi(a)\varphi(b)$ を満たす写像です。
 
-- **核**：$\ker \varphi = \{g \in G : \varphi(g) = e_H\}$（正規部分群）
-- **像**：$\mathrm{Im}\, \varphi = \{\varphi(g) : g \in G\}$（$H$ の部分群）
+- **核**：$\ker \varphi = \{g \in G : \varphi(g) = e_H\}$（正規部分群。後述の補題(c)で証明）
+- **像**：$\mathrm{Im}\, \varphi = \{\varphi(g) : g \in G\}$（$H$ の部分群。後述の補題(d)で証明）
 
 全単射な準同型を**同型**（$G \cong H$）といい、同型な群は代数的に区別できません。
 
