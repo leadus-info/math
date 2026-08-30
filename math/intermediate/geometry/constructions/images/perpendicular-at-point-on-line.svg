@@ -1,11 +1,13 @@
 <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="直線ℓ上の点Aを中心とする円と直線ℓとの交点2つを結ぶ線分の垂直二等分線が、点Aを通り直線ℓに垂直な直線になることを示す作図の図">
   <line x1="40" y1="220" x2="360" y2="220" stroke="currentColor" stroke-width="2"/>
-  <path d="M100,220 Q200,80 300,220" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <path d="M100,220 A100,100 0 0 1 300,220" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
   <line x1="200" y1="60" x2="200" y2="280" stroke="currentColor" stroke-width="2"/>
   <path d="M192,220 L192,212 L200,212" fill="none" stroke="currentColor" stroke-width="1.5"/>
   <circle cx="200" cy="220" r="3" fill="currentColor"/>
   <circle cx="100" cy="220" r="3" fill="currentColor"/>
   <circle cx="300" cy="220" r="3" fill="currentColor"/>
   <text x="208" y="242" font-size="16" fill="currentColor">A</text>
+  <text x="92" y="242" font-size="16" fill="currentColor">M</text>
+  <text x="292" y="242" font-size="16" fill="currentColor">N</text>
   <text x="368" y="225" font-size="16" fill="currentColor">ℓ</text>
 </svg>
