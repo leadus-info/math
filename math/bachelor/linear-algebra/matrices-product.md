@@ -21,7 +21,7 @@ requires:
 
 $(m \times n)$ 行列 $A$ と $(n \times p)$ 行列 $B$ の積 $AB$ は $(m \times p)$ 行列で、
 
-$$(AB)_{ij} = \sum_{k=1}^n a_{ik} b_{kj}$$
+$$(AB)_{ij} = \sum_{k=1}^n a_{ik} b_{kj} \qquad (i=1,\dots,m,\ j=1,\dots,p)$$
 
 「$A$ の $i$ 行ベクトルと $B$ の $j$ 列ベクトルの内積」です。一般に $AB \neq BA$（掛け算の順序は変えられません）——「先に回転してから拡大」と「先に拡大してから回転」が違う結果になるのと同じです。
 
