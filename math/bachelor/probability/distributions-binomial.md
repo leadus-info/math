@@ -113,11 +113,22 @@ $$P(S_{n-1}=s,\, X_n=x_n) = P(X_n=x_n)\,P(S_{n-1}=s)$$
 
 したがって $S_{n-1}$ と $X_n$ は独立である。$\square$
 
-これで、$X_1, \ldots, X_n$ が互いに独立なとき $\mathrm{Var}(X_1+\cdots+X_n) = \sum_{i=1}^n \mathrm{Var}(X_i)$ が成り立つことを、$n$についての数学的帰納法で示せます。$n=1$のときは両辺とも $\mathrm{Var}(X_1)$ で自明に成り立ちます。$n-1$のとき成り立つと仮定すると、$\mathrm{Var}(S_{n-1}) = \sum_{i=1}^{n-1} \mathrm{Var}(X_i)$ です。上の補題より $S_{n-1}$ と $X_n$ は独立なので、先ほど示した2変数の場合の定理を $S_{n-1}$ と $X_n$ に適用すると
+これで、$X_1, \ldots, X_n$ が互いに独立なとき $\mathrm{Var}(X_1+\cdots+X_n) = \sum_{i=1}^n \mathrm{Var}(X_i)$ が成り立つことを、$n$についての数学的帰納法で示せます。
 
-$$\mathrm{Var}(X_1+\cdots+X_n) = \mathrm{Var}(S_{n-1}+X_n) = \mathrm{Var}(S_{n-1}) + \mathrm{Var}(X_n) = \sum_{i=1}^{n-1}\mathrm{Var}(X_i) + \mathrm{Var}(X_n) = \sum_{i=1}^n \mathrm{Var}(X_i)$$
+**基底部分**（$n=1$のとき）：両辺とも $\mathrm{Var}(X_1)$ なので自明に成り立ちます。
 
-となり、$n$のときも成り立ちます。こうして先ほどの $\mathrm{Var}(X) = \sum_{i=1}^n \mathrm{Var}(X_i) = np(1-p)$ が正当化されました。
+**帰納段階**：$n-1$のとき成り立つ、すなわち $\mathrm{Var}(S_{n-1}) = \sum_{i=1}^{n-1} \mathrm{Var}(X_i)$ が成り立つと仮定します。上の補題より $S_{n-1}$ と $X_n$ は独立なので、先ほど示した2変数の場合の定理を $S_{n-1}$ と $X_n$ に適用すると、
+
+$$
+\begin{aligned}
+\mathrm{Var}(X_1+\cdots+X_n) &= \mathrm{Var}(S_{n-1}+X_n) \\
+&= \mathrm{Var}(S_{n-1}) + \mathrm{Var}(X_n) \\
+&= \sum_{i=1}^{n-1}\mathrm{Var}(X_i) + \mathrm{Var}(X_n) \\
+&= \sum_{i=1}^n \mathrm{Var}(X_i)
+\end{aligned}
+$$
+
+となり、$n$のときも成り立ちます。1行目から2行目は2変数の場合の定理の適用、2行目から3行目は帰納法の仮定の代入です。こうして先ほどの $\mathrm{Var}(X) = \sum_{i=1}^n \mathrm{Var}(X_i) = np(1-p)$ が正当化されました。
 
 組合せ論的な和 $\sum_k k\binom{n}{k}p^k(1-p)^{n-k}$ を直接計算するより、この分解の方がはるかに見通しがよいことに注意してください。
 
