@@ -1,0 +1,21 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="四角形ABCDの対角線ACとBDが点Oで交わり、三角形AOBと三角形COD、対頂角の関係にある角AOBと角COD、辺ACに対する錯角の関係にある角OABと角OCDを示す図">
+  <polygon points="70,90 340,140 330,290 60,240" fill="none" stroke="currentColor" stroke-width="2"/>
+  <line x1="70" y1="90" x2="330" y2="290" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="340" y1="140" x2="60" y2="240" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <circle cx="70" cy="90" r="3" fill="currentColor"/>
+  <circle cx="340" cy="140" r="3" fill="currentColor"/>
+  <circle cx="330" cy="290" r="3" fill="currentColor"/>
+  <circle cx="60" cy="240" r="3" fill="currentColor"/>
+  <circle cx="200" cy="190" r="3" fill="currentColor"/>
+  <text x="58" y="76" font-size="16" text-anchor="middle" fill="currentColor">A</text>
+  <text x="356" y="136" font-size="16" text-anchor="middle" fill="currentColor">B</text>
+  <text x="342" y="308" font-size="16" text-anchor="middle" fill="currentColor">C</text>
+  <text x="42" y="248" font-size="16" text-anchor="middle" fill="currentColor">D</text>
+  <text x="205" y="208" font-size="16" text-anchor="middle" fill="currentColor">O</text>
+  <!-- 対頂角: ∠AOBと∠COD(実線の弧) -->
+  <path d="M173.1,169.3 L178.1,164.0 L184.1,159.9 L190.9,157.3 L198.0,156.1 L205.3,156.4 L212.3,158.3 L218.8,161.7 L224.4,166.3 L228.9,172.0 L232.0,178.6" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M226.9,210.7 L221.9,216.0 L215.9,220.1 L209.1,222.7 L202.0,223.9 L194.7,223.6 L187.7,221.7 L181.2,218.3 L175.6,213.7 L171.1,208.0 L168.0,201.4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <!-- 錯角: ∠OABと∠OCD(破線の弧) -->
+  <path d="M101.7,114.4 L102.8,112.9 L103.9,111.3 L104.8,109.7 L105.7,108.0 L106.5,106.3 L107.3,104.5 L107.9,102.8 L108.5,101.0 L108.9,99.1 L109.3,97.3" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 2"/>
+  <path d="M298.3,265.6 L297.2,267.1 L296.1,268.7 L295.2,270.3 L294.3,272.0 L293.5,273.7 L292.7,275.5 L292.1,277.2 L291.5,279.0 L291.1,280.9 L290.7,282.7" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 2"/>
+</svg>
