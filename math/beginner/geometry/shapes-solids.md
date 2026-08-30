@@ -13,10 +13,14 @@ hierarchy:
   - title: 立体図形
     path: shapes-solids.md
 requires:
+  - title: 図形
+    path: shapes.md
   - title: 三角形
     path: shapes-triangle.md
   - title: 四角形
     path: shapes-quadrilateral.md
+  - title: 円
+    path: shapes-circle.md
 ---
 
 ## 箱の形をとらえる
