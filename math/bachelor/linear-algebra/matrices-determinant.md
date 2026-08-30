@@ -61,7 +61,7 @@ $$\det(EM) = \det(E)\det(M)$$
 
 $$\det(AB) = \det(E_1\cdots E_k B) = \det(E_1)\det(E_2\cdots E_k B) = \cdots = \det(E_1)\det(E_2)\cdots\det(E_k)\det(B)$$
 
-同様に $\det(A) = \det(E_1)\det(E_2)\cdots\det(E_k)\det(I) = \det(E_1)\cdots\det(E_k)$ なので、$\det(AB) = \det(A)\det(B)$。
+同様に $\det(A) = \det(E_1)\det(E_2)\cdots\det(E_k)\det(I) = \det(E_1)\cdots\det(E_k)$（単位行列 $I$ は対角成分が $1$、他が $0$ の行列なので、余因子展開より $\det(I)=1$）なので、$\det(AB) = \det(A)\det(B)$。
 
 （$A$ が正則でない場合、$\det(A)=0$ かつ $\det(AB)=0$ となる——$AB$ も正則でなくなるため——ので、この場合も等式は成り立ちます。）$\blacksquare$
 
