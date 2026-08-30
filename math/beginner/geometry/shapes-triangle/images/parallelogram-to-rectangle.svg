@@ -2,6 +2,7 @@
   <polygon points="60,180 200,180 240,60 100,60" fill="none" stroke="currentColor" stroke-width="2"/>
   <line x1="100" y1="60" x2="100" y2="180" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
   <line x1="240" y1="60" x2="240" y2="180" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="200" y1="180" x2="240" y2="180" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
   <path d="M100,168 L112,168 L112,180" fill="none" stroke="currentColor" stroke-width="1.5"/>
   <path d="M240,168 L228,168 L228,180" fill="none" stroke="currentColor" stroke-width="1.5"/>
   <path d="M85,150 L225,150" fill="none" stroke="currentColor" stroke-width="1.5"/>
