@@ -30,6 +30,28 @@ requires:
 
 全単射な準同型を**同型**（$G \cong H$）といい、同型な群は代数的に区別できません。
 
+**補題（準同型の基本性質）**：群準同型 $\varphi: G \to H$ について次が成り立ちます。
+
+(a) $\varphi(e_G) = e_H$
+
+(b) 任意の $g \in G$ に対し $\varphi(g^{-1}) = \varphi(g)^{-1}$
+
+(c) $\ker\varphi$ は $G$ の正規部分群である
+
+(d) $\mathrm{Im}\,\varphi$ は $H$ の部分群である
+
+(e) $\ker\varphi = \{e_G\}$ ならば $\varphi$ は単射である
+
+**証明**：(a) $\varphi(e_G) = \varphi(e_G e_G) = \varphi(e_G)\varphi(e_G)$ なので、両辺に左から $\varphi(e_G)^{-1}$ を掛けると $e_H = \varphi(e_G)$。
+
+(b) (a)より $\varphi(g)\varphi(g^{-1}) = \varphi(gg^{-1}) = \varphi(e_G) = e_H$。よって $\varphi(g^{-1})$ は $\varphi(g)$ の逆元、すなわち $\varphi(g^{-1}) = \varphi(g)^{-1}$。
+
+(c) (a)より $e_G \in \ker\varphi$。$k_1, k_2 \in \ker\varphi$ ならば $\varphi(k_1 k_2) = \varphi(k_1)\varphi(k_2) = e_H$ なので演算で閉じ、$k \in \ker\varphi$ ならば(b)より $\varphi(k^{-1}) = \varphi(k)^{-1} = e_H$ なので逆元も含みます。以上より $\ker\varphi$ は部分群です。正規性については、任意の $g \in G$、$k \in \ker\varphi$ に対して $\varphi(gkg^{-1}) = \varphi(g)\varphi(k)\varphi(g)^{-1} = \varphi(g)\varphi(g)^{-1} = e_H$（(b)を使用）となるので $gkg^{-1} \in \ker\varphi$。したがって $\ker\varphi$ は $G$ の正規部分群です。
+
+(d) (a)より $e_H \in \mathrm{Im}\,\varphi$。$\varphi(g_1), \varphi(g_2) \in \mathrm{Im}\,\varphi$ ならば $\varphi(g_1)\varphi(g_2) = \varphi(g_1 g_2) \in \mathrm{Im}\,\varphi$ なので演算で閉じ、(b)より $\varphi(g)^{-1} = \varphi(g^{-1}) \in \mathrm{Im}\,\varphi$ なので逆元も含みます。以上より $\mathrm{Im}\,\varphi$ は $H$ の部分群です。
+
+(e) $\varphi(a) = \varphi(b)$ とすると、(b)より $\varphi(ab^{-1}) = \varphi(a)\varphi(b)^{-1} = e_H$ なので $ab^{-1} \in \ker\varphi = \{e_G\}$、すなわち $a = b$。したがって $\varphi$ は単射です。$\blacksquare$
+
 **準同型定理（第一同型定理）**：$G / \ker \varphi \cong \mathrm{Im}\, \varphi$
 
 **証明**：$K = \ker\varphi$（正規部分群）とし、写像 $\psi: G/K \to \mathrm{Im}\,\varphi$ を $\psi(gK) = \varphi(g)$ で定義します。
