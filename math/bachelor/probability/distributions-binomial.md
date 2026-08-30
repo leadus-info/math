@@ -67,7 +67,7 @@ $$E[XY] = \sum_x\sum_y xy\,P(X=x,Y=y) = \sum_x\sum_y xy\,P(X=x)P(Y=y) = \Big(\su
 
 なので $E[XY]-E[X]E[Y]=0$。したがって $\mathrm{Var}(X+Y)=\mathrm{Var}(X)+\mathrm{Var}(Y)$。$\square$
 
-組合せ論的な和 $\sum_k k\binom{n}{k}p^k(1-p)^{n-k}$ を直接計算するより、この分解の方がはるかに見通しがよいことに注意してください。
+$X_1, \ldots, X_n$ は互いに独立なので、部分和 $S_{n-1} = X_1 + \cdots + X_{n-1}$ と $X_n$ もまた独立であり、上の2変数の場合の証明を数学的帰納法で繰り返し適用すると、$\mathrm{Var}(X_1+\cdots+X_n) = \sum_{i=1}^n \mathrm{Var}(X_i)$ が成り立つことが示せます。こうして先ほどの $\mathrm{Var}(X) = \sum_{i=1}^n \mathrm{Var}(X_i) = np(1-p)$ が正当化されました。組合せ論的な和 $\sum_k k\binom{n}{k}p^k(1-p)^{n-k}$ を直接計算するより、この分解の方がはるかに見通しがよいことに注意してください。
 
 ---
 
