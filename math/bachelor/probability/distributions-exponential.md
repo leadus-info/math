@@ -67,6 +67,9 @@ $$P(X>s+t \mid X>s) = \frac{e^{-\lambda(s+t)}}{e^{-\lambda s}} = e^{-\lambda t} 
 
 $\blacksquare$
 
+> [!NOTE]
+> 指数分布は、無記憶性を持つ唯一の連続分布であることが知られている。離散分布では、幾何分布が同様の無記憶性を持つ。
+
 ---
 
 ## まとめ
