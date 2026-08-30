@@ -55,7 +55,7 @@ $$f'(z_0) = \lim_{t \to 0} \frac{u(x_0+t,y_0) + iv(x_0+t,y_0) - u(x_0,y_0) - iv(
 
 *$h$ が純虚数（$h = it$、$t \to 0$）の場合*：
 
-$$f'(z_0) = \lim_{t \to 0} \frac{u(x_0,y_0+t) + iv(x_0,y_0+t) - u(x_0,y_0) - iv(x_0,y_0)}{it} = \frac{1}{i}\frac{\partial u}{\partial y} + \frac{\partial v}{\partial y} = \frac{\partial v}{\partial y} - i\frac{\partial u}{\partial y}$$
+$$f'(z_0) = \lim_{t \to 0} \frac{u(x_0,y_0+t) + iv(x_0,y_0+t) - u(x_0,y_0) - iv(x_0,y_0)}{it} = \lim_{t \to 0} \frac{u(x_0,y_0+t)-u(x_0,y_0)}{it} + \lim_{t \to 0} \frac{v(x_0,y_0+t)-v(x_0,y_0)}{t} = \frac{1}{i}\frac{\partial u}{\partial y} + \frac{\partial v}{\partial y} = \frac{\partial v}{\partial y} - i\frac{\partial u}{\partial y}$$
 
 ここで $\dfrac{1}{i}=-i$（$i\cdot(-i)=1$ より、あるいは分母分子に $-i$ を掛けて $\dfrac{1}{i}=\dfrac{-i}{i\cdot(-i)}=\dfrac{-i}{1}=-i$ と確認できます）を用いました。
 
