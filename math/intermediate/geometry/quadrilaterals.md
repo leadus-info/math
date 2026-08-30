@@ -72,7 +72,7 @@ $$180° + 180° = 360°$$
 
 **例題**：四角形 $ABCD$ の対角線 $AC$、$BD$ が点 $O$ で交わり、$AO=CO$、$BO=DO$ であるとき、$ABCD$ が平行四辺形であることを証明する。
 
-![四角形ABCDの対角線ACとBDが点Oで交わり、三角形AOBと三角形COD、対頂角の関係にある角AOBと角COD、辺ACに対する錯角の関係にある角OABと角OCDを示す図](quadrilaterals/images/parallelogram-condition-proof.svg)
+![四角形ABCDの対角線ACとBDが点Oで交わり、三角形AOBと三角形COD、対頂角の関係にある角AOBと角COD、辺ACに対する錯角の関係にある角OABと角OCD、および三角形AODと三角形COB、対頂角の関係にある角AODと角COB、辺BDに対する錯角の関係にある角OADと角OCBを示す図](quadrilaterals/images/parallelogram-condition-proof.svg)
 
 三角形 $AOB$ と三角形 $COD$ に注目する。
 
