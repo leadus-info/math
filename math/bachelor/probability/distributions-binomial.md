@@ -93,7 +93,19 @@ $n$個の確率変数についても、独立性は同様に定義できます�
 
 **補題**：$X_1, \ldots, X_n$ が互いに独立ならば、部分和 $S_{n-1} = X_1 + \cdots + X_{n-1}$ と $X_n$ は独立である。
 
-**証明**：まず、$X_1,\ldots,X_{n-1}$ 自身も互いに独立であることを確認します。$X_1,\ldots,X_n$ の独立性の定義 $P(X_1=x_1,\ldots,X_n=x_n)=P(X_1=x_1)\cdots P(X_n=x_n)$ の両辺で $x_n$ についての和を取ると、左辺は $\sum_{x_n}P(X_1=x_1,\ldots,X_n=x_n)=P(X_1=x_1,\ldots,X_{n-1}=x_{n-1})$、右辺は $P(X_1=x_1)\cdots P(X_{n-1}=x_{n-1})\displaystyle\sum_{x_n}P(X_n=x_n)=P(X_1=x_1)\cdots P(X_{n-1}=x_{n-1})$（$\sum_{x_n}P(X_n=x_n)=1$ より）となるので、
+**証明**：まず、$X_1,\ldots,X_{n-1}$ 自身も互いに独立であることを確認します。$X_1,\ldots,X_n$ の独立性の定義
+
+$$P(X_1=x_1,\ldots,X_n=x_n)=P(X_1=x_1)\cdots P(X_n=x_n)$$
+
+の両辺で $x_n$ についての和を取ります。左辺は、全確率の法則により
+
+$$\sum_{x_n}P(X_1=x_1,\ldots,X_n=x_n) = P(X_1=x_1,\ldots,X_{n-1}=x_{n-1})$$
+
+となります。右辺は、$P(X_1=x_1)\cdots P(X_{n-1}=x_{n-1})$ が $x_n$ に依存しない定数であることと、$\sum_{x_n}P(X_n=x_n)=1$ であることから
+
+$$P(X_1=x_1)\cdots P(X_{n-1}=x_{n-1})\sum_{x_n}P(X_n=x_n) = P(X_1=x_1)\cdots P(X_{n-1}=x_{n-1})$$
+
+となります。両辺が等しいことから
 
 $$P(X_1=x_1,\ldots,X_{n-1}=x_{n-1}) = P(X_1=x_1)\cdots P(X_{n-1}=x_{n-1})$$
 
