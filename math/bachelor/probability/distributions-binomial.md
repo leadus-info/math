@@ -93,13 +93,23 @@ $n$個の確率変数についても、独立性は同様に定義できます�
 
 **補題**：$X_1, \ldots, X_n$ が互いに独立ならば、部分和 $S_{n-1} = X_1 + \cdots + X_{n-1}$ と $X_n$ は独立である。
 
-**証明**：$S_{n-1}=s$ となるのは $x_1+\cdots+x_{n-1}=s$ を満たす組 $(x_1,\ldots,x_{n-1})$ のいずれかが実現するときなので、
+**証明**：まず、$X_1,\ldots,X_{n-1}$ 自身も互いに独立であることを確認します。$X_1,\ldots,X_n$ の独立性の定義 $P(X_1=x_1,\ldots,X_n=x_n)=P(X_1=x_1)\cdots P(X_n=x_n)$ の両辺で $x_n$ についての和を取ると、左辺は $\sum_{x_n}P(X_1=x_1,\ldots,X_n=x_n)=P(X_1=x_1,\ldots,X_{n-1}=x_{n-1})$、右辺は $P(X_1=x_1)\cdots P(X_{n-1}=x_{n-1})\displaystyle\sum_{x_n}P(X_n=x_n)=P(X_1=x_1)\cdots P(X_{n-1}=x_{n-1})$（$\sum_{x_n}P(X_n=x_n)=1$ より）となるので、
+
+$$P(X_1=x_1,\ldots,X_{n-1}=x_{n-1}) = P(X_1=x_1)\cdots P(X_{n-1}=x_{n-1})$$
+
+が成り立ちます。すなわち $X_1,\ldots,X_{n-1}$ も互いに独立です。
+
+次に、$S_{n-1}=s$ となるのは $x_1+\cdots+x_{n-1}=s$ を満たす組 $(x_1,\ldots,x_{n-1})$ のいずれかが実現するときなので、
 
 $$P(S_{n-1}=s,\, X_n=x_n) = \sum_{x_1+\cdots+x_{n-1}=s} P(X_1=x_1,\ldots,X_{n-1}=x_{n-1},X_n=x_n)$$
 
 $X_1,\ldots,X_n$ の独立性から、和の中の各項は $P(X_1=x_1)\cdots P(X_{n-1}=x_{n-1})P(X_n=x_n)$ と分解でき、$P(X_n=x_n)$ は和の添字 $(x_1,\ldots,x_{n-1})$ に依存しない定数なので和の外に出せます。
 
-$$P(S_{n-1}=s,\, X_n=x_n) = P(X_n=x_n)\sum_{x_1+\cdots+x_{n-1}=s} P(X_1=x_1)\cdots P(X_{n-1}=x_{n-1}) = P(X_n=x_n)\,P(S_{n-1}=s)$$
+$$P(S_{n-1}=s,\, X_n=x_n) = P(X_n=x_n)\sum_{x_1+\cdots+x_{n-1}=s} P(X_1=x_1)\cdots P(X_{n-1}=x_{n-1})$$
+
+先ほど確認した $X_1,\ldots,X_{n-1}$ の独立性から、この和は $\displaystyle\sum_{x_1+\cdots+x_{n-1}=s} P(X_1=x_1,\ldots,X_{n-1}=x_{n-1}) = P(S_{n-1}=s)$ に等しいので、
+
+$$P(S_{n-1}=s,\, X_n=x_n) = P(X_n=x_n)\,P(S_{n-1}=s)$$
 
 したがって $S_{n-1}$ と $X_n$ は独立である。$\square$
 
