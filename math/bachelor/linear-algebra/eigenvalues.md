@@ -41,7 +41,13 @@ $$A\begin{pmatrix}1\\1\end{pmatrix}=\begin{pmatrix}-1\\1\end{pmatrix}$$
 
 **命題**：$(A - \lambda I)\boldsymbol{v} = \boldsymbol{0}$ が $\boldsymbol{v}\neq\boldsymbol{0}$ なる解を持つことと、$\det(A - \lambda I) = 0$ は同値である。
 
-**証明**：線形写像で証明した「単射 $\iff$ 核が $\{\boldsymbol{0}\}$」を、線形写像 $T(\boldsymbol{x})=(A-\lambda I)\boldsymbol{x}$ に適用します。$(A-\lambda I)\boldsymbol{v}=\boldsymbol{0}$ が非自明解を持つことは $\ker T \neq \{\boldsymbol{0}\}$ と同じ、すなわち $T$ が単射でないことと同じです。正方行列の場合、単射性は全射性・可逆性と同値（線形写像の記事の結論）なので、これは $A-\lambda I$ が可逆でないことと同値です。さらに、行列式の記事で示した「正方行列が可逆でないことと行列式が $0$ であることは同値」という結論により、これは $\det(A-\lambda I)=0$ とも同値です。$\blacksquare$
+**証明**：線形写像で証明した「単射 $\iff$ 核が $\{\boldsymbol{0}\}$」を、線形写像 $T(\boldsymbol{x})=(A-\lambda I)\boldsymbol{x}$ に適用します。$(A-\lambda I)\boldsymbol{v}=\boldsymbol{0}$ が非自明解を持つことは $\ker T \neq \{\boldsymbol{0}\}$ と同じ、すなわち $T$ が単射でないことと同じです。
+
+まず、正方行列の場合は単射性が全射性・可逆性と同値です（線形写像の記事の結論）。したがって、$T$ が単射でないことは $A-\lambda I$ が可逆でないことと同値です。
+
+次に、行列式の記事で述べた「正方行列が可逆でないことと行列式が $0$ であることは同値」という結論により、$A-\lambda I$ が可逆でないことは $\det(A-\lambda I)=0$ と同値です。
+
+以上をまとめると、$(A-\lambda I)\boldsymbol{v}=\boldsymbol{0}$ が非自明解を持つことと $\det(A-\lambda I)=0$ は同値です。$\blacksquare$
 
 ---
 
