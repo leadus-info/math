@@ -77,7 +77,12 @@ $\dim(\ker T)$ を**退化次数**（nullity）、$\dim(\mathrm{Im}\, T)$ を**�
 
 $$\dim(\ker T) + \dim(\mathrm{Im}\, T) = n$$
 
-**証明**：$\ker T$ の基底を $\boldsymbol{v}_1, \ldots, \boldsymbol{v}_k$（$k = \dim\ker T$）とし、これを $\mathbb{R}^n$ の基底 $\boldsymbol{v}_1, \ldots, \boldsymbol{v}_k, \boldsymbol{v}_{k+1}, \ldots, \boldsymbol{v}_n$ に拡張します（基底の拡張定理）。$\mathrm{Im}\,T = \{T(\boldsymbol{v}_{k+1}), \ldots, T(\boldsymbol{v}_n)\}$ が張る空間であることを示せば、$\dim(\mathrm{Im}\,T) = n-k$ が言えて定理が従います。
+**証明**：$\ker T$ の基底を $\boldsymbol{v}_1, \ldots, \boldsymbol{v}_k$（$k = \dim\ker T$）とし、これを $\mathbb{R}^n$ の基底 $\boldsymbol{v}_1, \ldots, \boldsymbol{v}_k, \boldsymbol{v}_{k+1}, \ldots, \boldsymbol{v}_n$ に拡張します（基底の拡張定理）。
+
+> [!NOTE]
+> 部分空間の基底は、それを含む全体の空間の基底へと拡張できます(基底の拡張定理)。ここでは証明を割愛し、既知の事実として用います。
+
+$\mathrm{Im}\,T = \{T(\boldsymbol{v}_{k+1}), \ldots, T(\boldsymbol{v}_n)\}$ が張る空間であることを示せば、$\dim(\mathrm{Im}\,T) = n-k$ が言えて定理が従います。
 
 *生成すること*：任意の $\boldsymbol{x} \in \mathbb{R}^n$ は基底を使って $\boldsymbol{x} = \sum_{i=1}^n c_i \boldsymbol{v}_i$ と書け、
 
