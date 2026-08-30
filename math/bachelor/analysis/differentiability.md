@@ -90,7 +90,19 @@ $$\frac{\partial f}{\partial x}(0,0) = \lim_{h\to 0}\frac{f(h,0)-f(0,0)}{h} = \l
 
 各成分 $f_i$ に対して同様の議論を適用すると、$f: \mathbb{R}^n \to \mathbb{R}^m$ の微分は、偏微分を並べた**ヤコビ行列** $Jf = \left(\dfrac{\partial f_i}{\partial x_j}\right)$ で表され、連鎖律は行列の積の形になります。
 
+具体例として $f(x,y) = (x^2y,\ x+y)$（$f: \mathbb{R}^2 \to \mathbb{R}^2$）を考えると、各成分の偏微分は $\dfrac{\partial f_1}{\partial x}=2xy$、$\dfrac{\partial f_1}{\partial y}=x^2$、$\dfrac{\partial f_2}{\partial x}=1$、$\dfrac{\partial f_2}{\partial y}=1$ なので、ヤコビ行列は
+
+$$Jf(x,y) = \begin{pmatrix} 2xy & x^2 \\ 1 & 1 \end{pmatrix}$$
+
+となります。
+
 $$J(g \circ f) = Jg \cdot Jf$$
+
+この連鎖律は、全微分可能性の定義から次のようにスケッチできます。$f$ が $x$ で、$g$ が $y=f(x)$ でそれぞれ全微分可能であるとすると、$f(x+h) = f(x) + (Jf)h + o(\|h\|)$、$g(y+k) = g(y) + (Jg)k + o(\|k\|)$ が成り立ちます。ここで $k = (Jf)h + o(\|h\|)$ を代入すると、
+
+$$g(f(x+h)) = g(f(x)) + (Jg)(Jf)h + o(\|h\|)$$
+
+が得られ、これは合成関数 $g\circ f$ が $x$ で全微分可能であり、そのヤコビ行列が線形写像の合成として $Jg\cdot Jf$ に一致することを示しています。$o(\|h\|)$ の項が実際に $o(\|h\|)$ になることの厳密な評価は煩雑になるため、ここでは証明の概略にとどめます。
 
 ---
 
