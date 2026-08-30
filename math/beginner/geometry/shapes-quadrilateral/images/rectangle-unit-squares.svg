@@ -1,0 +1,12 @@
+<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="たて3cm、よこ5cmの長方形に1cm四方の正方形を3行5列、合計15個敷き詰めて面積が求まる様子を示す図">
+  <rect x="90" y="70" width="225" height="135" fill="none" stroke="currentColor" stroke-width="2"/>
+  <line x1="135" y1="70" x2="135" y2="205" stroke="currentColor" stroke-width="1"/>
+  <line x1="180" y1="70" x2="180" y2="205" stroke="currentColor" stroke-width="1"/>
+  <line x1="225" y1="70" x2="225" y2="205" stroke="currentColor" stroke-width="1"/>
+  <line x1="270" y1="70" x2="270" y2="205" stroke="currentColor" stroke-width="1"/>
+  <line x1="90" y1="115" x2="315" y2="115" stroke="currentColor" stroke-width="1"/>
+  <line x1="90" y1="160" x2="315" y2="160" stroke="currentColor" stroke-width="1"/>
+  <text x="112.5" y="96" font-size="13" text-anchor="middle" fill="currentColor">1cm²</text>
+  <text x="80" y="142" font-size="16" text-anchor="end" fill="currentColor">たて3cm</text>
+  <text x="202.5" y="230" font-size="16" text-anchor="middle" fill="currentColor">よこ5cm</text>
+</svg>
