@@ -31,9 +31,9 @@ requires:
 
 $$\forall \varepsilon > 0,\ \exists \delta > 0 \text{ s.t. } 0 < |x - a| < \delta \Rightarrow |f(x) - L| < \varepsilon$$
 
-が成り立つことです。「$f(x)$ を $L$ にどれだけ近づけたいか（$\varepsilon$）」を先に指定させ、それに応じて「$x$ を $a$ にどれだけ近づければよいか（$\delta$）」を答えられれば、極限が存在するとみなします。
+が成り立つことです。ここで s.t. は "such that" の略で、「〜を満たす」という意味です。「$f(x)$ を $L$ にどれだけ近づけたいか（$\varepsilon$）」を先に指定させ、それに応じて「$x$ を $a$ にどれだけ近づければよいか（$\delta$）」を答えられれば、極限が存在するとみなします。
 
-**証明例**：$\displaystyle\lim_{x\to 3}(2x - 1) = 5$ を示す。$|2x-1-5| = 2|x-3| < \varepsilon$ としたいので、$|x-3| < \varepsilon/2$ ととればよい。よって $\delta = \varepsilon/2$ とすれば定義が満たされる。$\square$
+**証明例**：$\displaystyle\lim_{x\to 3}(2x - 1) = 5$ を示す。$|2x-1-5| = 2|x-3| < \varepsilon$ としたいので、$|x-3| < \varepsilon/2$ ととればよい。よって $\delta = \varepsilon/2$ とおく。実際、$0 < |x-3| < \delta$ ならば $|(2x-1)-5| = 2|x-3| < 2\delta = \varepsilon$ となり、定義が満たされる。$\square$
 
 ---
 
@@ -51,13 +51,17 @@ $$\forall \varepsilon > 0,\ \exists N \in \mathbb{N} \text{ s.t. } n > N \Righta
 
 関数列 $\{f_n\}$ の収束には2種類あります。
 
-**点収束**：各 $x$ で $\lim_{n\to\infty} f_n(x) = f(x)$
+**点収束**：各 $x$ で $\lim_{n\to\infty} f_n(x) = f(x)$。すなわち $\forall x,\ \forall \varepsilon > 0,\ \exists N$（$N$ は $x, \varepsilon$ に依存してよい）、$n > N \Rightarrow |f_n(x) - f(x)| < \varepsilon$
 
-**一様収束**：$\sup_x |f_n(x) - f(x)| \to 0$
+**一様収束**：$\sup_x |f_n(x) - f(x)| \to 0$。すなわち $\forall \varepsilon > 0,\ \exists N$（$N$ は $\varepsilon$ のみに依存し全 $x$ で共通）、$\forall x,\ n > N \Rightarrow |f_n(x) - f(x)| < \varepsilon$
 
-一様収束は「収束のスピードが全点で均一」であることを意味し、一様収束のもとでは連続性・積分・微分と極限の交換が正当化されます。
+両者の違いは、量化子 $\forall x$ が $\exists N$ の前にあるか後にあるかだけです。この順序こそが、点収束と一様収束を分けています。
 
-**例（点収束だが一様収束しない）**：$f_n(x) = x^n$ を $[0,1]$ で考えると、各点では $0$ か $1$ に収束しますが、$x=1$ 付近での収束が遅くなるため一様には収束しません。
+一様収束は「収束のスピードが全点で均一」であることを意味し、誤差 $|f_n(x) - f(x)|$ を $x$ によらず一様に抑えられるため、一様収束のもとでは連続性の保存と積分と極限の交換が正当化されます。
+
+ただし微分と極限の交換には $f_n$ 自体ではなく導関数列 $f_n'$ の一様収束が必要です。例えば $f_n(x) = \sin(nx)/n$ は、$|\sin(nx)/n| \leq 1/n \to 0$ が $x$ に依存しない一様な評価であるため $\mathbb{R}$ 上で一様収束します。しかし導関数 $f_n'(x) = \cos(nx)$ は、$x=\pi$ では $\cos(n\pi) = (-1)^n$ となって振動するため、各点収束すらしません。
+
+**例（点収束だが一様収束しない）**：$f_n(x) = x^n$ を $[0,1]$ で考えると、各点では $0$ か $1$ に収束します。しかし $x$ を $1$ に近い値に固定すると、$x^n$ は $1$ に近い値からなかなか下がらないため、$\sup_{x\in[0,1]} |f_n(x) - f(x)|$ は任意の $n$ について $1$ のままであり、$0$ に収束しません。
 
 ---
 
@@ -65,7 +69,7 @@ $$\forall \varepsilon > 0,\ \exists N \in \mathbb{N} \text{ s.t. } n > N \Righta
 
 数列がどんな値に収束するかを知らなくても、収束するかどうかだけを判定する方法があります。
 
-**定義**：$\{a_n\}$ が**コーシー列**であるとは、$\forall \varepsilon > 0,\ \exists N,\ m,n > N \Rightarrow |a_m - a_n| < \varepsilon$ が成り立つことです。
+**定義**：$\{a_n\}$ が**コーシー列**であるとは、$\forall \varepsilon > 0,\ \exists N,\ \forall m,n > N \Rightarrow |a_m - a_n| < \varepsilon$ が成り立つことです。
 
 **定理（実数の完備性）**：実数列 $\{a_n\}$ が収束する $\iff$ $\{a_n\}$ がコーシー列である。
 
@@ -73,9 +77,11 @@ $$\forall \varepsilon > 0,\ \exists N \in \mathbb{N} \text{ s.t. } n > N \Righta
 
 $$|a_m-a_n| \leq |a_m-L|+|L-a_n| < \frac\varepsilon2+\frac\varepsilon2=\varepsilon$$
 
-よって $\{a_n\}$ はコーシー列です。$\blacksquare$（逆方向「コーシー列ならば収束する」は実数の完備性公理そのものに相当し、実数の構成方法に依存する証明が必要になるため、実数に譲ります。）
+よって $\{a_n\}$ はコーシー列です。$\blacksquare$
 
-この定理は実数で見た完備性の公理と表裏一体です。
+逆方向の「コーシー列ならば収束する」という主張自体が、実数の完備性公理の一つの表現に相当します。この逆方向の証明は、上限の存在公理（完備性の公理）とボルツァーノ＝ワイエルシュトラスの定理を用いて行われるため、この記事では扱わず「実数」の記事に譲ります。
+
+コーシー列による収束判定は、この完備性公理――コーシー列は必ず収束するという主張――を利用した判定法だといえます。
 
 **参考文献**：Rudin, W. (1976). *Principles of Mathematical Analysis* (3rd ed.). McGraw-Hill.
 
