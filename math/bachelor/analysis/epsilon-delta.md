@@ -67,7 +67,7 @@ $$\forall \varepsilon > 0,\ \exists N \in \mathbb{N} \text{ s.t. } n > N \Righta
 
 数列がどんな値に収束するかを知らなくても、収束するかどうかだけを判定する方法があります。
 
-**定義**：$\{a_n\}$ が**コーシー列**であるとは、$\forall \varepsilon > 0,\ \exists N,\ m,n > N \Rightarrow |a_m - a_n| < \varepsilon$ が成り立つことです。
+**定義**：$\{a_n\}$ が**コーシー列**であるとは、$\forall \varepsilon > 0,\ \exists N,\ \forall m,n > N \Rightarrow |a_m - a_n| < \varepsilon$ が成り立つことです。
 
 **定理（実数の完備性）**：実数列 $\{a_n\}$ が収束する $\iff$ $\{a_n\}$ がコーシー列である。
 
