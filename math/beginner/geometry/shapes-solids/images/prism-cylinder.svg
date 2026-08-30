@@ -1,4 +1,4 @@
-<svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="三角柱と円柱の見取図。三角柱は上下の三角形の底面と3つの長方形の側面から、円柱は上下の円形の底面と1つの曲面の側面からなることを示す">
+<svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="三角形を底面とする角柱と円柱の見取図。前者は上下の三角形の底面と3つの長方形の側面から、後者は上下の円形の底面と1つの曲面の側面からなることを示す">
   <!-- 三角柱 -->
   <g stroke="currentColor" fill="none" stroke-width="2">
     <!-- 下面(手前の底辺のみ実線、奥の2辺は点線) -->
