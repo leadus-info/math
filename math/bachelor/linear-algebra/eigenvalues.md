@@ -95,7 +95,7 @@ $$p(\lambda) = (-1)^n(\lambda-\lambda_1)(\lambda-\lambda_2)\cdots(\lambda-\lambd
 
 $$p(\lambda) = (-1)^n\prod_i(\lambda-\lambda_i) \ \text{における} \ \lambda^{n-1} \ \text{の係数} = (-1)^n\times\left(-\sum_i\lambda_i\right) = (-1)^{n+1}\sum_i\lambda_i$$
 
-一方、$\det(A-\lambda I)$ の $\lambda^{n-1}$ の係数は、多重線形性を使って直接調べます。$A-\lambda I$ の第 $i$ 行は $A$ の第 $i$ 行から $\lambda\boldsymbol{e}_i$（$\boldsymbol{e}_i$ は第 $i$ 成分だけ $1$ で他が $0$ の標準基底の行ベクトル）を引いたものなので、多重線形性（行列式はどの行についても線形）により、各行で「$A$ の行を選ぶ」か「$-\lambda\boldsymbol{e}_i$ を選ぶ」かの $2^n$ 通りの組み合わせの和に展開できます。
+一方、$\det(A-\lambda I)$ の $\lambda^{n-1}$ の係数は、多重線形性を使って直接調べます。$A-\lambda I$ の第 $i$ 行は $A$ の第 $i$ 行から $\lambda\boldsymbol{e}_i$ を引いたものです。ここで $\boldsymbol{e}_i$ は第 $i$ 成分だけ $1$ で他が $0$ の標準基底の行ベクトルを表します。多重線形性（行列式はどの行についても線形）により、各行で「$A$ の行を選ぶ」か「$-\lambda\boldsymbol{e}_i$ を選ぶ」かの $2^n$ 通りの組み合わせの和に展開できます。
 
 $$\det(A-\lambda I) = \sum_{S\subseteq\{1,\ldots,n\}}(-\lambda)^{|S|}\det(C_S)$$
 
