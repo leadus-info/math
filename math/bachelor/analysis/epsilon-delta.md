@@ -51,9 +51,11 @@ $$\forall \varepsilon > 0,\ \exists N \in \mathbb{N} \text{ s.t. } n > N \Righta
 
 関数列 $\{f_n\}$ の収束には2種類あります。
 
-**点収束**：各 $x$ で $\lim_{n\to\infty} f_n(x) = f(x)$
+**点収束**：各 $x$ で $\lim_{n\to\infty} f_n(x) = f(x)$。すなわち $\forall x,\ \forall \varepsilon > 0,\ \exists N$（$N$ は $x, \varepsilon$ に依存してよい）、$n > N \Rightarrow |f_n(x) - f(x)| < \varepsilon$
 
-**一様収束**：$\sup_x |f_n(x) - f(x)| \to 0$
+**一様収束**：$\sup_x |f_n(x) - f(x)| \to 0$。すなわち $\forall \varepsilon > 0,\ \exists N$（$N$ は $\varepsilon$ のみに依存し全 $x$ で共通）、$\forall x,\ n > N \Rightarrow |f_n(x) - f(x)| < \varepsilon$
+
+両者の違いは、量化子 $\forall x$ が $\exists N$ の前にあるか後にあるかだけです。この順序こそが、点収束と一様収束を分けています。
 
 一様収束は「収束のスピードが全点で均一」であることを意味し、誤差 $|f_n(x) - f(x)|$ を $x$ によらず一様に抑えられるため、一様収束のもとでは連続性の保存と積分と極限の交換が正当化されます。ただし微分と極限の交換には $f_n$ 自体ではなく導関数列 $f_n'$ の一様収束が必要です。例えば $f_n(x) = \sin(nx)/n$ は $[0,1]$ 上で一様収束しますが、$f_n'(x) = \cos(nx)$ は各点収束すらしません。
 
