@@ -78,6 +78,8 @@ requires:
 
 1つの元 $g$ で生成される群 $\langle g \rangle = \{g^n \mid n \in \mathbb{Z}\}$ を**巡回群**といいます。
 
+元 $g \in G$ の**位数**とは、$g^n = e$ となる最小の正の整数 $n$ のことをいいます（そのような $n$ が存在しない場合、$g$ の位数は無限であるといいます）。
+
 **命題**：位数 $n$ の有限巡回群は $\mathbb{Z}/n\mathbb{Z}$ と、無限巡回群は $\mathbb{Z}$ と同型である。
 
 **証明**：$G = \langle g \rangle$ とし、写像 $\varphi: \mathbb{Z} \to G$ を $\varphi(k) = g^k$ で定めます。指数法則 $g^{k+l} = g^k g^l$ より $\varphi$ は準同型です。$G$ は $g$ で生成されるので $\varphi$ は全射（$\mathrm{Im}\,\varphi = G$）。
@@ -85,7 +87,7 @@ requires:
 $\ker\varphi = \{k \in \mathbb{Z} \mid g^k = e\}$ は（上の補題(c)より）$\mathbb{Z}$ の部分群なので、ある $m \geq 0$ を用いて $m\mathbb{Z}$ の形になります（$\mathbb{Z}$ の部分群がすべてこの形であることは、割り算の原理から従います）。
 
 - $m = 0$（$\ker\varphi = \{0\}$）のとき：上で証明した準同型定理より $\mathbb{Z}/\{0\} \cong G$、すなわち $\mathbb{Z} \cong G$。これは $g$ の位数が無限である場合に対応します。
-- $m = n > 0$ のとき：準同型定理より $\mathbb{Z}/n\mathbb{Z} \cong G$。この $n$ が $g$ の位数（$g^n=e$ となる最小の正の整数）に一致します。
+- $m = n > 0$ のとき：準同型定理より $\mathbb{Z}/n\mathbb{Z} \cong G$。この $n$ が $g$ の位数に一致します。
 
 いずれの場合も、準同型定理を使うだけで巡回群の分類が直ちに従います。$\blacksquare$
 
