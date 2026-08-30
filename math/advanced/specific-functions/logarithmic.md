@@ -15,6 +15,8 @@ hierarchy:
 requires:
   - title: 指数関数
     path: exponential.md
+  - title: 逆関数
+    path: ../analysis/inverse-functions.md
 ---
 
 ## 「何乗すると…になるか」を求める
@@ -73,7 +75,7 @@ $$\log_a 1 = 0, \quad \log_a a = 1$$
 指数関数 $y = a^x$ と $y = x$ に関して対称なグラフです。
 
 > [!NOTE]
-> 対数関数は指数関数の[逆関数](../analysis/functions.md)であり、一般に関数とその逆関数のグラフは直線 $y=x$ に関して対称になります。
+> 対数関数は指数関数の[逆関数](../analysis/inverse-functions.md)であり、一般に関数とその逆関数のグラフは直線 $y=x$ に関して対称になります。
 
 ---
 

@@ -17,6 +17,8 @@ requires:
     path: derivatives.md
   - title: 関数とは
     path: functions.md
+  - title: 逆関数
+    path: inverse-functions.md
 ---
 
 ## 対数微分法
@@ -61,7 +63,7 @@ $$y' = y\left(\frac{2}{x} + \frac{1}{x-1} - \frac{1}{2(x+1)}\right)$$
 
 ## 逆関数の導関数
 
-$y=f(x)$ の（$f$ が1対1対応であるとき定まる）[逆関数](functions.md) $x=f^{-1}(y)$ について、次の関係が成り立ちます。
+$y=f(x)$ の（$f$ が1対1対応であるとき定まる）[逆関数](inverse-functions.md) $x=f^{-1}(y)$ について、次の関係が成り立ちます。
 
 $$\frac{dy}{dx} = \frac{1}{\dfrac{dx}{dy}}$$
 
