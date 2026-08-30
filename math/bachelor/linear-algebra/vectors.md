@@ -51,7 +51,7 @@ $$\boldsymbol{a} \cdot \boldsymbol{b} = a_1 b_1 + \cdots + a_n b_n = \|\boldsymb
 
 （$\theta$ は2ベクトルのなす角）。「どれだけ同じ向きを向いているか」を数値化したもので、$\boldsymbol{a} \cdot \boldsymbol{b} = 0 \iff \boldsymbol{a} \perp \boldsymbol{b}$（直交）です。
 
-**成分での定義と$\|\boldsymbol{a}\|\|\boldsymbol{b}\|\cos\theta$が一致することの確認**：$\boldsymbol{a}$、$\boldsymbol{b}$、$\boldsymbol{a}-\boldsymbol{b}$は始点を共有する2ベクトルとその差であり、$\boldsymbol{a}$と$\boldsymbol{b}$を含む平面に含まれます。そのため、通常の（平面上の）余弦定理がそのまま適用できます。原点を$O$、$\boldsymbol{a}$の終点を$A$、$\boldsymbol{b}$の終点を$B$とすると、三角形$OAB$の辺$OA$が$\boldsymbol{a}$、辺$OB$が$\boldsymbol{b}$、辺$AB$が$\boldsymbol{a}-\boldsymbol{b}$に対応します。
+**成分での定義と$\|\boldsymbol{a}\|\|\boldsymbol{b}\|\cos\theta$が一致することの確認**：$\boldsymbol{a}$、$\boldsymbol{b}$、$\boldsymbol{a}-\boldsymbol{b}$は始点を共有する2ベクトルとその差であり、$\boldsymbol{a}$と$\boldsymbol{b}$を含む平面に含まれます。そのため、通常の（平面上の）余弦定理がそのまま適用できます。原点を$O$、$\boldsymbol{a}$の終点を$A$、$\boldsymbol{b}$の終点を$B$とします。三角形$OAB$において、辺$OA$の長さは$\|\boldsymbol{a}\|$、辺$OB$の長さは$\|\boldsymbol{b}\|$、辺$AB$の長さは$\|\boldsymbol{a}-\boldsymbol{b}\|$に対応します。
 
 まず、$\boldsymbol{a}$、$\boldsymbol{b}$、$\boldsymbol{a}-\boldsymbol{b}$を3辺とする三角形に余弦定理を適用すると、次が成り立ちます。
 
