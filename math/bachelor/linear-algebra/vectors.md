@@ -49,7 +49,7 @@ $$\|\boldsymbol{a}\| = \sqrt{a_1^2 + \cdots + a_n^2}$$
 
 $$\boldsymbol{a} \cdot \boldsymbol{b} = a_1 b_1 + \cdots + a_n b_n = \|\boldsymbol{a}\| \|\boldsymbol{b}\| \cos\theta$$
 
-（$\theta$ は2ベクトルのなす角）。「どれだけ同じ向きを向いているか」を数値化したもので、$\boldsymbol{a} \cdot \boldsymbol{b} = 0 \iff \boldsymbol{a} \perp \boldsymbol{b}$（直交）です。
+（$\theta$ は2ベクトルのなす角）。ただし$\boldsymbol{a}=\boldsymbol{0}$または$\boldsymbol{b}=\boldsymbol{0}$のとき$\theta$は定義されませんが、このとき両辺とも$0$になるため等式は成り立ちます。「どれだけ同じ向きを向いているか」を数値化したもので、$\boldsymbol{a} \cdot \boldsymbol{b} = 0 \iff \boldsymbol{a} \perp \boldsymbol{b}$（直交）です。
 
 **成分での定義と$\|\boldsymbol{a}\|\|\boldsymbol{b}\|\cos\theta$が一致することの確認**：$\boldsymbol{a}$、$\boldsymbol{b}$、$\boldsymbol{a}-\boldsymbol{b}$は始点を共有する2ベクトルとその差であり、$\boldsymbol{a}$と$\boldsymbol{b}$を含む平面に含まれます。そのため、通常の（平面上の）余弦定理がそのまま適用できます。原点を$O$、$\boldsymbol{a}$の終点を$A$、$\boldsymbol{b}$の終点を$B$とします。三角形$OAB$において、辺$OA$の長さは$\|\boldsymbol{a}\|$、辺$OB$の長さは$\|\boldsymbol{b}\|$、辺$AB$の長さは$\|\boldsymbol{a}-\boldsymbol{b}\|$に対応します。
 
