@@ -73,7 +73,7 @@ $H$ が正規部分群のとき、剰余類全体 $G/H$ に演算 $(aH)(bH) := (
 
 $$
 \begin{aligned}
-((aH)(bH))(cH) &= (ab)H(cH) \\
+((aH)(bH))(cH) &= ((ab)H)(cH) \\
 &= (abc)H \\
 &= (aH)((bH)(cH))
 \end{aligned}
