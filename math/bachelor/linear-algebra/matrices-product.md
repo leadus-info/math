@@ -35,6 +35,24 @@ $AB\neq BA$ であることが具体的に確認できます。
 
 ---
 
+## 単位行列と結合律
+
+行列の積には、実数の掛け算における $1$ に相当する特別な行列が存在します。**単位行列**とは、対角成分がすべて $1$ で、それ以外の成分がすべて $0$ である正方行列のことで、$I$ と表します。例えば $2$ 次の単位行列は $I=\begin{pmatrix}1&0\\0&1\end{pmatrix}$ です。
+
+$n$ 次正方行列 $A$ と $n$ 次単位行列 $I$ について、$AI = IA = A$ が成り立ちます。例えば、
+
+$$\begin{pmatrix}1&2\\3&4\end{pmatrix}\begin{pmatrix}1&0\\0&1\end{pmatrix}=\begin{pmatrix}1&0\\0&1\end{pmatrix}\begin{pmatrix}1&2\\3&4\end{pmatrix}=\begin{pmatrix}1&2\\3&4\end{pmatrix}$$
+
+のように、単位行列との積は元の行列を変えません。
+
+また、行列の積では**結合律** $(AB)C = A(BC)$ が成り立ちます（一方で非可換性のため、積の順序 $AB$ と $BA$ を入れ替えることはできません）。先ほどの $A=\begin{pmatrix}1&1\\0&1\end{pmatrix}$、$B=\begin{pmatrix}1&0\\1&1\end{pmatrix}$ に加えて $C=\begin{pmatrix}2&0\\0&1\end{pmatrix}$ とすると、
+
+$$(AB)C=\begin{pmatrix}2&1\\1&1\end{pmatrix}\begin{pmatrix}2&0\\0&1\end{pmatrix}=\begin{pmatrix}4&1\\2&1\end{pmatrix}, \qquad A(BC)=\begin{pmatrix}1&1\\0&1\end{pmatrix}\begin{pmatrix}2&0\\2&1\end{pmatrix}=\begin{pmatrix}4&1\\2&1\end{pmatrix}$$
+
+のように、$C$ をかける順序（先に $AB$ を計算してから $C$ をかけるか、先に $BC$ を計算してから $A$ をかけるか）を変えても結果は一致します。
+
+---
+
 ## まとめ
 
 行列の積は、行ベクトルと列ベクトルの内積を並べたものとして定義され、一般に交換法則が成り立ちません。
