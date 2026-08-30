@@ -88,7 +88,7 @@ $$f\,dz = (u+iv)(dx+i\,dy) = u\,dx + iu\,dy + iv\,dx - v\,dy = (u\,dx - v\,dy) +
 
 $$\oint_C f\,dz = \oint_C (u\,dx - v\,dy) + i\oint_C (v\,dx + u\,dy)$$
 
-と実部・虚部に分解できます。$u,v$ が $C^1$ 級であれば、グリーンの定理（閉曲線 $C$ に沿った線積分 $\oint_C (P\,dx+Q\,dy)$ が、内部領域 $R$ 上の面積分 $\iint_R \left(\dfrac{\partial Q}{\partial x}-\dfrac{\partial P}{\partial y}\right)dA$ に等しいという定理）により、各線積分は $R$ 上の面積分に書き換えられます（1つ目の積分は $P=u,\,Q=-v$、2つ目の積分は $P=v,\,Q=u$ とした場合にあたります）。
+と実部・虚部に分解できます。グリーンの定理とは、閉曲線 $C$ に沿った線積分 $\oint_C (P\,dx+Q\,dy)$ が、内部領域 $R$ 上の面積分 $\iint_R \left(\dfrac{\partial Q}{\partial x}-\dfrac{\partial P}{\partial y}\right)dA$ に等しいという定理です。$u,v$ が $C^1$ 級であれば、グリーンの定理により、各線積分は $R$ 上の面積分に書き換えられます（1つ目の積分は $P=u,\,Q=-v$、2つ目の積分は $P=v,\,Q=u$ とした場合にあたります）。
 
 $$\oint_C (u\,dx - v\,dy) = \iint_R \left(-\frac{\partial v}{\partial x} - \frac{\partial u}{\partial y}\right)dA, \qquad \oint_C (v\,dx + u\,dy) = \iint_R \left(\frac{\partial u}{\partial x} - \frac{\partial v}{\partial y}\right)dA$$
 
