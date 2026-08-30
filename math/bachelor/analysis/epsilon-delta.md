@@ -31,7 +31,7 @@ requires:
 
 $$\forall \varepsilon > 0,\ \exists \delta > 0 \text{ s.t. } 0 < |x - a| < \delta \Rightarrow |f(x) - L| < \varepsilon$$
 
-が成り立つことです。「$f(x)$ を $L$ にどれだけ近づけたいか（$\varepsilon$）」を先に指定させ、それに応じて「$x$ を $a$ にどれだけ近づければよいか（$\delta$）」を答えられれば、極限が存在するとみなします。
+が成り立つことです。ここで s.t. は "such that" の略で、「〜を満たす」という意味です。「$f(x)$ を $L$ にどれだけ近づけたいか（$\varepsilon$）」を先に指定させ、それに応じて「$x$ を $a$ にどれだけ近づければよいか（$\delta$）」を答えられれば、極限が存在するとみなします。
 
 **証明例**：$\displaystyle\lim_{x\to 3}(2x - 1) = 5$ を示す。$|2x-1-5| = 2|x-3| < \varepsilon$ としたいので、$|x-3| < \varepsilon/2$ ととればよい。よって $\delta = \varepsilon/2$ とすれば定義が満たされる。$\square$
 
