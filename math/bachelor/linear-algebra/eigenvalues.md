@@ -17,6 +17,8 @@ requires:
     path: linear-maps.md
   - title: 行列式
     path: matrices-determinant.md
+  - title: 逆行列
+    path: matrices-inverse.md
   - title: 多項式
     path: ../../advanced/algebra/polynomials.md
 ---
