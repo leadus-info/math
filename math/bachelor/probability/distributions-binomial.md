@@ -21,6 +21,8 @@ requires:
 
 ## $B(n, p)$
 
+[二項分布](../../advanced/probability/binomial-distribution.md)では期待値・分散を直感的な理解にとどめましたが、本記事ではベルヌーイ確率変数の和として厳密に導出し直します。
+
 コインを10回投げて表が出る回数のように、$n$ 回の独立な試行で各回成功確率 $p$ のとき、成功回数 $X$ の分布：
 
 $$P(X = k) = \binom{n}{k} p^k (1-p)^{n-k} \quad (k = 0, 1, \ldots, n)$$
