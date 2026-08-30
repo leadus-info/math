@@ -15,6 +15,8 @@ hierarchy:
 requires:
   - title: 軌跡と領域
     path: locus-and-regions.md
+  - title: 三角関数
+    path: ../specific-functions/trigonometric.md
 ---
 
 ## 放物線
