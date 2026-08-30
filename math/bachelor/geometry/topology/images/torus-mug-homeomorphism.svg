@@ -3,7 +3,7 @@
   <ellipse cx="110" cy="150" rx="38" ry="24" fill="none" stroke="currentColor" stroke-width="2"/>
   <text x="110" y="240" font-size="15" text-anchor="middle" fill="currentColor">トーラス(ドーナツ)</text>
 
-  <text x="205" y="160" font-size="26" text-anchor="middle" fill="currentColor">≅</text>
+  <text x="232" y="160" font-size="26" text-anchor="middle" fill="currentColor">≅</text>
 
   <rect x="260" y="100" width="75" height="115" rx="10" ry="10" fill="none" stroke="currentColor" stroke-width="2"/>
   <path d="M335,138 Q395,157 335,190" fill="none" stroke="currentColor" stroke-width="2"/>
