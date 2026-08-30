@@ -59,6 +59,12 @@ $$\left(\begin{array}{cc|cc}2&1&1&0\\1&1&0&1\end{array}\right) \xrightarrow{R_1\
 
 よって $A^{-1}=\begin{pmatrix}1&-1\\-1&2\end{pmatrix}$。$\det(A)=2\times1-1\times1=1$ なので、逆行列の公式 $\dfrac{1}{\det(A)}\begin{pmatrix}1&-1\\-1&2\end{pmatrix}$ と一致することも確認できます。
 
+この $A^{-1}$ を使うと、冒頭で述べた $\boldsymbol{x}=A^{-1}\boldsymbol{b}$ により、実際に連立方程式を解くことができます。例えば $\boldsymbol{b}=\begin{pmatrix}3\\2\end{pmatrix}$ のとき、連立方程式 $2x+y=3,\ x+y=2$ の解は
+
+$$\boldsymbol{x}=A^{-1}\boldsymbol{b}=\begin{pmatrix}1&-1\\-1&2\end{pmatrix}\begin{pmatrix}3\\2\end{pmatrix}=\begin{pmatrix}1\\1\end{pmatrix}$$
+
+となります。実際に $x=1,\ y=1$ を元の連立方程式に代入すると $2\times1+1=3$、$1+1=2$ となり、成り立つことが確認できます。
+
 ---
 
 ## まとめ
