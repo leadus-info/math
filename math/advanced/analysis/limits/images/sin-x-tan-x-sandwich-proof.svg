@@ -1,0 +1,40 @@
+<svg viewBox="0 0 320 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="単位円上に中心角x(0&lt;x&lt;π/2)の扇形をとる。原点O、x軸上の点A(1,0)、円周上の点B(cos x, sin x)を結ぶ。さらに、点Aにおける単位円の接線と半直線OBを延長した直線との交点をT(1, tan x)とする。弦ABをもつ三角形OABは、扇形に内接する三角形(面積(1/2)sin x)に対応する。弧ABを含む扇形OAB自体は、面積(1/2)xの扇形に対応する。辺ATをもつ三角形OATは、扇形を含む直角三角形(面積(1/2)tan x)に対応する">
+  <!-- arc of the unit circle from A to B (sector boundary) -->
+  <path d="M240,230 A170,170 0 0 0 196.34,116.25" fill="none" stroke="currentColor" stroke-width="2"/>
+
+  <!-- OA (shared base of all three shapes) -->
+  <line x1="70" y1="230" x2="240" y2="230" stroke="currentColor" stroke-width="2"/>
+
+  <!-- O through B extended to T -->
+  <line x1="70" y1="230" x2="240" y2="76.93" stroke="currentColor" stroke-width="2"/>
+
+  <!-- chord AB (side of the inscribed triangle, distinct from the arc) -->
+  <line x1="240" y1="230" x2="196.34" y2="116.25" stroke="currentColor" stroke-width="2"/>
+
+  <!-- tangent segment AT -->
+  <line x1="240" y1="230" x2="240" y2="76.93" stroke="currentColor" stroke-width="2"/>
+
+  <!-- dashed height from B down to OA (foot F) -->
+  <line x1="196.34" y1="116.25" x2="196.34" y2="230" stroke="currentColor" stroke-width="1" stroke-dasharray="4 3"/>
+
+  <!-- right angle tick at A between OA and AT -->
+  <path d="M228,230 L228,218 L240,218" fill="none" stroke="currentColor" stroke-width="1"/>
+
+  <!-- angle arc at O -->
+  <path d="M100,230 A30,30 0 0 0 92.29,209.93" fill="none" stroke="currentColor" stroke-width="1"/>
+  <text x="104" y="214" font-size="13" fill="currentColor">x</text>
+
+  <circle cx="70" cy="230" r="3" fill="currentColor"/>
+  <circle cx="240" cy="230" r="3" fill="currentColor"/>
+  <circle cx="196.34" cy="116.25" r="3" fill="currentColor"/>
+  <circle cx="240" cy="76.93" r="3" fill="currentColor"/>
+
+  <text x="52" y="240" font-size="16" fill="currentColor">O</text>
+  <text x="240" y="252" font-size="16" text-anchor="middle" fill="currentColor">A</text>
+  <text x="186" y="104" font-size="16" fill="currentColor">B</text>
+  <text x="248" y="74" font-size="16" fill="currentColor">T</text>
+
+  <text x="155" y="248" font-size="13" text-anchor="middle" fill="currentColor">1</text>
+  <text x="190" y="177" font-size="13" text-anchor="end" fill="currentColor">sin x</text>
+  <text x="246" y="157" font-size="13" fill="currentColor">tan x</text>
+</svg>
