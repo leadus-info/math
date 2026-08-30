@@ -17,6 +17,8 @@ requires:
     path: ../../advanced/analysis/integrals.md
   - title: 微分の厳密な定義
     path: differentiability.md
+  - title: 微分の応用
+    path: ../../advanced/analysis/derivatives-applications.md
 ---
 
 ## 「長方形で近似する」を厳密にする
