@@ -19,13 +19,29 @@ requires:
 
 ## $\mathrm{Exp}(\lambda)$
 
-ポアソン過程での待ち時間の分布：
+単位時間あたり平均$\lambda$回（$\lambda>0$）起きる事象について、次の事象が起きるまでの待ち時間$X$が従う分布を指数分布$\mathrm{Exp}(\lambda)$という。$\lambda$は事象が起きる頻度を表すパラメータであり、生起率と呼ばれる。例えば、平均して1時間に3件の問い合わせが来る窓口では、次の問い合わせまでの待ち時間は$\mathrm{Exp}(3)$（時間単位）に従う。
 
-$$f(x) = \lambda e^{-\lambda x} \quad (x \geq 0), \qquad E[X] = \frac{1}{\lambda}, \quad \mathrm{Var}(X) = \frac{1}{\lambda^2}$$
+**密度関数の導出**：ポアソン分布より、単位時間あたり平均$\lambda$回起きる事象について、時間$x$の間に起きる回数$N_x$は$\mathrm{Po}(\lambda x)$に従う（単位時間あたり平均$\lambda$回の事象が、時間$x$の間には平均$\lambda x$回起きることの自然な拡張）。「次の事象までの待ち時間$X$が$x$を超える」ことは「時間$x$の間に事象が1回も起きない」ことと同値だから、
 
-**期待値の導出**：累積分布関数は $P(X>x)=\int_x^\infty \lambda e^{-\lambda t}\,dt=e^{-\lambda x}$ です。部分積分を使うと、
+$$P(X>x) = P(N_x=0) = \frac{(\lambda x)^0 e^{-\lambda x}}{0!} = e^{-\lambda x} \quad (x \geq 0)$$
 
-$$E[X]=\int_0^\infty x\lambda e^{-\lambda x}\,dx = \Bigl[-xe^{-\lambda x}\Bigr]_0^\infty+\int_0^\infty e^{-\lambda x}\,dx = 0+\left[-\frac{1}{\lambda}e^{-\lambda x}\right]_0^\infty=\frac1\lambda$$
+この$P(X>x)$を生存関数という。累積分布関数は$F(x)=P(X\leq x)=1-e^{-\lambda x}$であり、これを微分すると密度関数
+
+$$f(x) = F'(x) = \lambda e^{-\lambda x} \quad (x \geq 0)$$
+
+が得られる。このとき期待値と分散は
+
+$$E[X] = \frac{1}{\lambda}, \qquad \mathrm{Var}(X) = \frac{1}{\lambda^2}$$
+
+である（導出は後述）。
+
+**期待値の導出**：部分積分を使うと、
+
+$$E[X]=\int_0^\infty x\lambda e^{-\lambda x}\,dx = \Bigl[-xe^{-\lambda x}\Bigr]_0^\infty+\int_0^\infty e^{-\lambda x}\,dx$$
+
+指数関数$e^{-\lambda x}$は$x\to\infty$のとき任意の多項式よりも速く0に収束するため、$xe^{-\lambda x}\to0$である。よって
+
+$$E[X] = \left[-\frac{1}{\lambda}e^{-\lambda x}\right]_0^\infty=\frac1\lambda$$
 
 分散も同様の計算（$E[X^2]$ を部分積分で求めて $E[X^2]-(E[X])^2$ をとる）により $\mathrm{Var}(X)=\dfrac{1}{\lambda^2}$ が得られます。
 
