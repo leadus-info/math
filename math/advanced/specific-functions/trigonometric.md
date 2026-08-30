@@ -144,7 +144,7 @@ $$\sqrt{a^2+b^2}\sin(\theta+\varphi) = \sqrt{a^2+b^2}\cos\varphi\,\sin\theta + \
 
 $$\cos\varphi = \frac{a}{\sqrt{a^2+b^2}}, \qquad \sin\varphi = \frac{b}{\sqrt{a^2+b^2}}$$
 
-この2式の2乗の和は $\cos^2\varphi+\sin^2\varphi=\dfrac{a^2+b^2}{a^2+b^2}=1$ となり、これは「基本性質」で確認した $\sin^2\theta+\cos^2\theta=1$ の関係と一致するため、この2式を満たす角 $\varphi$ が存在します。この $\varphi$ をとれば、次の式が成り立ちます。
+この2式の2乗の和は $\cos^2\varphi+\sin^2\varphi=\dfrac{a^2+b^2}{a^2+b^2}=1$ となり、これは「基本性質」で確認した $\sin^2\theta+\cos^2\theta=1$ の関係と一致します。これは、点 $\left(\dfrac{a}{\sqrt{a^2+b^2}}, \dfrac{b}{\sqrt{a^2+b^2}}\right)$ が単位円上の点であることを意味します。「円の上を動く点」で見たように、$\theta$ を $0$ から $2\pi$ まで動かすと、単位円上のすべての点が $(\cos\theta,\sin\theta)$ の形で表されるので、この点に対応する角 $\varphi$ が存在します。この $\varphi$ をとれば、次の式が成り立ちます。
 
 $$a\sin\theta + b\cos\theta = \sqrt{a^2+b^2}\,\sin(\theta+\varphi)$$
 
