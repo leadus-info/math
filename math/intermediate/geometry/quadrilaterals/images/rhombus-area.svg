@@ -1,0 +1,12 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ひし形とそれをちょうど囲む縦d1・横d2の外接長方形を示し、外接長方形が対角線によって4つの小長方形に分けられ、ひし形の各辺がそれぞれの小長方形を半分に分ける対角線になっていることを示す図">
+  <rect x="40" y="90" width="320" height="240" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="200" y1="90" x2="200" y2="330" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="40" y1="210" x2="360" y2="210" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <polygon points="200,90 360,210 200,330 40,210" fill="none" stroke="currentColor" stroke-width="2"/>
+  <circle cx="200" cy="90" r="3" fill="currentColor"/>
+  <circle cx="360" cy="210" r="3" fill="currentColor"/>
+  <circle cx="200" cy="330" r="3" fill="currentColor"/>
+  <circle cx="40" cy="210" r="3" fill="currentColor"/>
+  <text x="214" y="150" font-size="16" fill="currentColor">d&#8321;</text>
+  <text x="90" y="228" font-size="16" fill="currentColor">d&#8322;</text>
+</svg>

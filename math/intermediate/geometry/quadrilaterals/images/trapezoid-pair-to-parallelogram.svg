@@ -1,0 +1,11 @@
+<svg viewBox="0 70 470 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="台形を2つ、上下逆にして組み合わせると、底辺が上底＋下底、高さが元の台形と同じ平行四辺形になることを示す図">
+  <polygon points="60,200 260,200 210,100 110,100" fill="none" stroke="currentColor" stroke-width="2"/>
+  <line x1="410" y1="100" x2="210" y2="100" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="260" y1="200" x2="360" y2="200" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="360" y1="200" x2="410" y2="100" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="110" y1="100" x2="110" y2="200" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <polyline points="102,200 102,192 110,192" fill="none" stroke="currentColor" stroke-width="1"/>
+  <text x="160" y="222" font-size="16" text-anchor="middle" fill="currentColor">下底</text>
+  <text x="310" y="222" font-size="16" text-anchor="middle" fill="currentColor">上底</text>
+  <text x="125" y="155" font-size="16" fill="currentColor">高さ</text>
+</svg>
