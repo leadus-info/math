@@ -41,9 +41,9 @@ $$\begin{cases} 2x + y = 5 \\ x - y = 1 \end{cases}$$
 
 $m$ 行 $n$ 列の行列は数を $m \times n$ の格子に並べたもので、$(i, j)$ 成分を $a_{ij}$ と書きます。
 
-**加法**（同じサイズ同士）：成分ごとに足します。**例**：$\begin{pmatrix}2&1\\1&-1\end{pmatrix}+\begin{pmatrix}0&3\\-2&1\end{pmatrix}=\begin{pmatrix}2&4\\-1&0\end{pmatrix}$
+**加法**（同じサイズ同士）：成分ごとに足します。$(A+B)_{ij} = a_{ij} + b_{ij}$ **例**：$\begin{pmatrix}2&1\\1&-1\end{pmatrix}+\begin{pmatrix}0&3\\-2&1\end{pmatrix}=\begin{pmatrix}2&4\\-1&0\end{pmatrix}$
 
-**スカラー倍**：すべての成分に定数を掛けます。**例**：$3\begin{pmatrix}2&1\\1&-1\end{pmatrix}=\begin{pmatrix}6&3\\3&-3\end{pmatrix}$
+**スカラー倍**：すべての成分に定数を掛けます。$(cA)_{ij} = c\,a_{ij}$ **例**：$3\begin{pmatrix}2&1\\1&-1\end{pmatrix}=\begin{pmatrix}6&3\\3&-3\end{pmatrix}$
 
 ---
 
