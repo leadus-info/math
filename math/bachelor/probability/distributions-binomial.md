@@ -49,7 +49,25 @@ $$E[X] = \sum_{i=1}^n E[X_i] = np$$
 
 $$\mathrm{Var}(X) = \sum_{i=1}^n \mathrm{Var}(X_i) = np(1-p)$$
 
-が成り立ちます（独立な確率変数の分散は和に分解できる、という性質を使っています）。組合せ論的な和 $\sum_k k\binom{n}{k}p^k(1-p)^{n-k}$ を直接計算するより、この分解の方がはるかに見通しがよいことに注意してください。
+が成り立ちます。ここで使っているのは「独立な確率変数の分散は和に分解できる」という性質で、以下のように証明できます。
+
+**定義**（独立性）：確率変数 $X, Y$ が**独立**であるとは、任意の $x, y$ について $P(X=x, Y=y) = P(X=x)P(Y=y)$ が成り立つことをいいます。
+
+**定理**：$X, Y$ が独立な確率変数のとき、$\mathrm{Var}(X+Y) = \mathrm{Var}(X) + \mathrm{Var}(Y)$ が成り立つ。
+
+**証明**：分散の定義と期待値の線形性から
+
+$$\mathrm{Var}(X+Y) = E[(X+Y)^2] - (E[X+Y])^2 = \{E[X^2]-(E[X])^2\} + \{E[Y^2]-(E[Y])^2\} + 2\{E[XY]-E[X]E[Y]\}$$
+
+$$= \mathrm{Var}(X) + \mathrm{Var}(Y) + 2\{E[XY]-E[X]E[Y]\}$$
+
+が成り立つ。$X, Y$ が独立であることから
+
+$$E[XY] = \sum_x\sum_y xy\,P(X=x,Y=y) = \sum_x\sum_y xy\,P(X=x)P(Y=y) = \Big(\sum_x xP(X=x)\Big)\Big(\sum_y yP(Y=y)\Big) = E[X]E[Y]$$
+
+なので $E[XY]-E[X]E[Y]=0$。したがって $\mathrm{Var}(X+Y)=\mathrm{Var}(X)+\mathrm{Var}(Y)$。$\square$
+
+組合せ論的な和 $\sum_k k\binom{n}{k}p^k(1-p)^{n-k}$ を直接計算するより、この分解の方がはるかに見通しがよいことに注意してください。
 
 ---
 
