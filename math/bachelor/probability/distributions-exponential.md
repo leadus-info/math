@@ -21,7 +21,7 @@ requires:
 
 単位時間あたり平均$\lambda$回（$\lambda>0$）起きる事象について、次の事象が起きるまでの待ち時間$X$が従う分布を指数分布$\mathrm{Exp}(\lambda)$という。$\lambda$は事象が起きる頻度を表すパラメータであり、生起率と呼ばれる。例えば、平均して1時間に3件の問い合わせが来る窓口では、次の問い合わせまでの待ち時間は$\mathrm{Exp}(3)$（時間単位）に従う。
 
-**密度関数の導出**：事象の発生が互いに独立に起こり、単位時間あたりの発生率が常に一定であり、かつ微小時間に2件以上の事象が同時に起こることはないと仮定すると、時間$x$の間の発生回数$N_x$は$\mathrm{Po}(\lambda x)$に従う。「次の事象までの待ち時間$X$が$x$を超える」ことは「時間$x$の間に事象が1回も起きない」ことと同値だから、
+**密度関数の導出**：事象の発生が互いに独立に起こり、単位時間あたりの発生率が常に一定であると仮定すると、時間$x$の間の発生回数$N_x$は$\mathrm{Po}(\lambda x)$に従う。なお、微小時間に2件以上の事象が同時に起こることはないものとする。「次の事象までの待ち時間$X$が$x$を超える」ことは「時間$x$の間に事象が1回も起きない」ことと同値だから、
 
 $$P(X>x) = P(N_x=0) = \frac{(\lambda x)^0 e^{-\lambda x}}{0!} = e^{-\lambda x} \quad (x \geq 0)$$
 
@@ -39,7 +39,7 @@ $$E[X] = \frac{1}{\lambda}, \qquad \mathrm{Var}(X) = \frac{1}{\lambda^2}$$
 
 $$E[X]=\int_0^\infty x\lambda e^{-\lambda x}\,dx = \Bigl[-xe^{-\lambda x}\Bigr]_0^\infty+\int_0^\infty e^{-\lambda x}\,dx$$
 
-指数関数$e^{-\lambda x}$は$x\to\infty$のとき任意の多項式よりも速く0に収束するため、$xe^{-\lambda x}\to0$である。よって
+指数関数$e^{-\lambda x}$は$x\to\infty$のとき任意の多項式よりも速く0に収束するため（ロピタルの定理などから従う既知の事実であり、ここでは証明の対象としない）、$xe^{-\lambda x}\to0$である。よって
 
 $$E[X] = \left[-\frac{1}{\lambda}e^{-\lambda x}\right]_0^\infty=\frac1\lambda$$
 
@@ -51,7 +51,7 @@ $E[X]$の導出と同様の理由により $x^2e^{-\lambda x}\to0$（$x\to\infty
 
 $$E[X^2] = \int_0^\infty 2xe^{-\lambda x}\,dx$$
 
-ここで、$\lambda$で割って掛け直すことで、被積分関数を$E[X]$の積分の形に帰着させる。
+ここで、$\lambda$で割って掛け直すことで、被積分関数を$E[X]$の積分の形（$E[X]=\int_0^\infty x\lambda e^{-\lambda x}\,dx$）に帰着させる。
 
 $$E[X^2] = \frac{2}{\lambda}\int_0^\infty x\lambda e^{-\lambda x}\,dx = \frac{2}{\lambda}E[X] = \frac{2}{\lambda^2}$$
 
