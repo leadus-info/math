@@ -13,8 +13,8 @@ hierarchy:
   - title: 指数分布
     path: distributions-exponential.md
 requires:
-  - title: 正規分布
-    path: distributions-normal.md
+  - title: ポアソン分布
+    path: distributions-poisson.md
 ---
 
 ## $\mathrm{Exp}(\lambda)$
