@@ -79,7 +79,11 @@ $$E[XY] = \sum_x\sum_y xy\,P(X=x,Y=y) = \sum_x\sum_y xy\,P(X=x)P(Y=y)$$
 
 ここで、内側の $y$ についての和の中では $xP(X=x)$ は $y$ に依存しない定数として和の外に出せるので
 
-$$\sum_x\sum_y xy\,P(X=x)P(Y=y) = \sum_x xP(X=x)\Big(\sum_y yP(Y=y)\Big) = \Big(\sum_x xP(X=x)\Big)\Big(\sum_y yP(Y=y)\Big) = E[X]E[Y]$$
+$$\sum_x\sum_y xy\,P(X=x)P(Y=y) = \sum_x xP(X=x)\Big(\sum_y yP(Y=y)\Big)$$
+
+さらに、$\sum_y yP(Y=y)$ は $x$ に依存しない定数($E[Y]$)なので、同様に外側の $x$ についての和の外へ出せます。
+
+$$\sum_x xP(X=x)\Big(\sum_y yP(Y=y)\Big) = \Big(\sum_x xP(X=x)\Big)\Big(\sum_y yP(Y=y)\Big) = E[X]E[Y]$$
 
 なので $E[XY]-E[X]E[Y]=0$。したがって $\mathrm{Var}(X+Y)=\mathrm{Var}(X)+\mathrm{Var}(Y)$。$\square$
 
