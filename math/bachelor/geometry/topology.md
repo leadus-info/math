@@ -17,6 +17,8 @@ requires:
     path: ../../advanced/foundations/sets.md
   - title: 群
     path: ../algebra/abstract-groups.md
+  - title: 実数
+    path: ../numbers/real-numbers.md
 ---
 
 ## 「同じ形」とは何か
@@ -132,4 +134,3 @@ $$\chi(X) = \sum_{n=0}^{\infty} (-1)^n b_n$$
 ## 関連ページ
 
 - [抽象代数](../algebra/abstract.md)
-- [実数](../numbers/real-numbers.md)
