@@ -95,9 +95,15 @@ $$p(\lambda) = (-1)^n(\lambda-\lambda_1)(\lambda-\lambda_2)\cdots(\lambda-\lambd
 
 $$p(\lambda) = (-1)^n\prod_i(\lambda-\lambda_i) \ \text{における} \ \lambda^{n-1} \ \text{の係数} = (-1)^n\times\left(-\sum_i\lambda_i\right) = (-1)^{n+1}\sum_i\lambda_i$$
 
-一方、$\det(A-\lambda I)$ の $\lambda^{n-1}$ の係数は、行列式の定義（余因子展開、$n!$ 個の項の符号付き和）から直接調べます。恒等置換以外のどの置換も、不動点をちょうど $n-1$ 個だけ持つことはできません（$1$ 点だけ動かず残りがすべて動くことはあり得ないため）。したがって、対角成分 $a_{ii}-\lambda$ 以外を $1$ つでも含む余因子展開の項は、$\lambda$ を含む対角因子を高々 $n-2$ 個しか持てず、その項に現れる $\lambda$ の次数は $n-2$ 以下です。よって $\lambda^{n-1}$ の項は対角成分の積 $\prod_i(a_{ii}-\lambda)$ からしか出てきません。この積を左辺と同じ論法（こちらは $a_{ii}$ についての組み合わせ）で展開すると、$\lambda^{n-1}$ の係数は次のようになります。
+一方、$\det(A-\lambda I)$ の $\lambda^{n-1}$ の係数は、多重線形性を使って直接調べます。$A-\lambda I$ の第 $i$ 行は $A$ の第 $i$ 行から $\lambda\boldsymbol{e}_i$（$\boldsymbol{e}_i$ は第 $i$ 成分だけ $1$ で他が $0$ の標準基底の行ベクトル）を引いたものなので、多重線形性（行列式はどの行についても線形）により、各行で「$A$ の行を選ぶ」か「$-\lambda\boldsymbol{e}_i$ を選ぶ」かの $2^n$ 通りの組み合わせの和に展開できます。
 
-$$\prod_i(a_{ii}-\lambda) = (-1)^n\prod_i(\lambda-a_{ii}) \ \text{における} \ \lambda^{n-1} \ \text{の係数} = (-1)^n\times\left(-\sum_i a_{ii}\right) = (-1)^{n+1}\mathrm{tr}(A)$$
+$$\det(A-\lambda I) = \sum_{S\subseteq\{1,\ldots,n\}}(-\lambda)^{|S|}\det(C_S)$$
+
+ここで $C_S$ は、行 $i\in S$ を $\boldsymbol{e}_i$ に、行 $i\notin S$ を $A$ の第 $i$ 行に置き換えた行列です。各項に現れる $\lambda$ の次数はちょうど $|S|$ なので、$\lambda^{n-1}$ の項が出るのは $|S|=n-1$ の場合に限られます（$|S|\le n-2$ の項は次数 $n-2$ 以下にしかなりません）。
+
+$|S|=n-1$ のとき、ある $1$ つの行 $k$ だけが $A$ の第 $k$ 行のまま残り、残り $n-1$ 個の行はすべて $\boldsymbol{e}_i$ です。このとき行 $i$（$i\neq k$）は第 $i$ 列以外すべて $0$ なので、その行に関する余因子展開では $n$ 項のうち $1$ 項しか残らず、これを $n-1$ 個の行について順に繰り返すと $\det(C_S) = a_{kk}$ になります。よって、
+
+$$\lambda^{n-1} \ \text{の係数} = \sum_{k=1}^n (-1)^{n-1}a_{kk} = (-1)^{n-1}\sum_k a_{kk} = (-1)^{n-1}\mathrm{tr}(A) = (-1)^{n+1}\mathrm{tr}(A)$$
 
 両者を比較すると、次が得られます。
 
