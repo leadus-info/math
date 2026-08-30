@@ -35,6 +35,16 @@ $$T(\boldsymbol{u} + \boldsymbol{v}) = T(\boldsymbol{u}) + T(\boldsymbol{v}), \q
 
 ---
 
+## 基本用語の確認
+
+以降の議論では「基底」「次元」「部分空間」という用語を使います。一般のベクトル空間におけるこれらの厳密な定義・性質は前提記事側で今後整備される予定なので、ここでは本記事の議論に必要な範囲に限定して確認します。線形独立の定義は前提記事([ベクトル](vectors.md))を参照してください。
+
+- **部分空間**：和とスカラー倍について閉じている、つまり部分空間内の元同士の和・スカラー倍が再び同じ部分空間に属する部分集合のことです。
+- **基底**：線形独立であり、かつ空間全体を張る(その線形結合ですべての元を表せる)ベクトルの組のことです。
+- **次元**：その基底に含まれるベクトルの個数のことです。
+
+---
+
 ## 表現行列
 
 **定理**：$T: \mathbb{R}^n \to \mathbb{R}^m$ を線形写像、$\boldsymbol{e}_1, \ldots, \boldsymbol{e}_n$ を標準基底とすると、$A = \begin{pmatrix} T(\boldsymbol{e}_1) & \cdots & T(\boldsymbol{e}_n) \end{pmatrix}$（$m\times n$行列）とおくとき、任意の $\boldsymbol{x} \in \mathbb{R}^n$ について $T(\boldsymbol{x}) = A\boldsymbol{x}$ が成り立つ。
