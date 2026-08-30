@@ -6,13 +6,13 @@
   <!-- 棒 -->
   <line x1="80" y1="250" x2="80" y2="220" stroke="currentColor" stroke-width="2"/>
   <line x1="80" y1="250" x2="100" y2="250" stroke="currentColor" stroke-width="2"/>
-  <text x="80" y="210" font-size="14" text-anchor="middle" fill="currentColor">棒</text>
+  <text x="80" y="195" font-size="14" text-anchor="middle" fill="currentColor">棒</text>
   <text x="55" y="238" font-size="14" text-anchor="end" fill="currentColor">1.5m</text>
   <text x="90" y="268" font-size="14" text-anchor="middle" fill="currentColor">1m</text>
   <!-- 木 -->
   <line x1="260" y1="250" x2="260" y2="70" stroke="currentColor" stroke-width="2"/>
   <line x1="260" y1="250" x2="380" y2="250" stroke="currentColor" stroke-width="2"/>
-  <text x="260" y="58" font-size="14" text-anchor="middle" fill="currentColor">木</text>
+  <text x="260" y="35" font-size="14" text-anchor="middle" fill="currentColor">木</text>
   <text x="245" y="160" font-size="14" text-anchor="end" fill="currentColor">?</text>
   <text x="320" y="268" font-size="14" text-anchor="middle" fill="currentColor">6m</text>
 </svg>
