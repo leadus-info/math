@@ -5,7 +5,7 @@
   <line x1="160" y1="280" x2="160" y2="200" stroke="currentColor" stroke-width="2" stroke-dasharray="4 3"/>
   <circle cx="40" cy="280" r="3" fill="currentColor"/>
   <circle cx="160" cy="200" r="3" fill="currentColor"/>
-  <text x="24" y="298" font-size="16" fill="currentColor">O</text>
+  <text x="40" y="300" font-size="14" text-anchor="middle" fill="currentColor">原点</text>
   <text x="100" y="302" font-size="14" text-anchor="middle" fill="currentColor">横に3</text>
   <text x="205" y="245" font-size="14" fill="currentColor">縦に2</text>
   <text x="172" y="192" font-size="16" fill="currentColor">(3, 2)</text>
