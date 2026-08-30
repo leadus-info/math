@@ -93,9 +93,11 @@ $$\vec{a}+\frac23\left(\frac{\vec{b}+\vec{c}}{2}-\vec{a}\right) = \vec{a}+\frac{
 
 このひし形の対角線は、$O$から$A+B$への対角線（ベクトル$\vec a+\vec b$）と、$B$から$A$への対角線（ベクトル$\vec a-\vec b$、逆向きに見れば$A$から$B$への$\vec b-\vec a$）です。これらの内積を計算すると $(\vec a+\vec b)\cdot(\vec a-\vec b)=|\vec a|^2-|\vec b|^2=0$ となり、対角線が垂直に交わることが確かめられます。$\square$
 
-同様に、内積を使うと「三角形の3本の垂線は1点で交わる」ことも示せます。方針として、三角形の外心$O$を原点にとります（外心は各頂点から等距離にあるので $|\vec a|=|\vec b|=|\vec c|$）。三角形の重心$G$・外心$O$・垂心$H$は同一直線（オイラー線）上にあり、$OG:GH=1:2$となることが知られています。$O$を原点にとっているため、これを$O$を始点とする有向線分として見ると $\overrightarrow{OH}=3\overrightarrow{OG}$ を意味します。
+同様に、内積を使うと「三角形の3本の垂線は1点で交わる」ことも示せます。方針として、三角形の外心$O$を原点にとります（外心は各頂点から等距離にあるので $|\vec a|=|\vec b|=|\vec c|$）。三角形の重心$G$・外心$O$・垂心$H$は同一直線（オイラー線、[三角形](triangles.md)）上にあり、$OG:GH=1:2$となることが知られています。これは$G$が線分$OH$を$O$側から$1:2$に内分する点であること、すなわち$O,G,H$がこの順に並ぶことを意味します。$O$を原点にとっているため、これを$O$を始点とする有向線分として見ると $\overrightarrow{OH}=3\overrightarrow{OG}$ となります。
 
-$\overrightarrow{OG}$ は$G$の位置ベクトルそのものであり、これは先に示した通り $\dfrac{\vec a+\vec b+\vec c}{3}$ です。したがって $\overrightarrow{OH}=3\cdot\dfrac{\vec a+\vec b+\vec c}{3}=\vec a+\vec b+\vec c$ となり、垂心$H$の位置ベクトルが$\vec a+\vec b+\vec c$であることが導けます。頂点$A$からこの点$H$へのベクトルは $\overrightarrow{AH}=\vec b+\vec c$、辺$BC$のベクトルは $\overrightarrow{BC}=\vec c-\vec b$ です。内積を計算すると $\overrightarrow{AH}\cdot\overrightarrow{BC}=(\vec b+\vec c)\cdot(\vec c-\vec b)=|\vec c|^2-|\vec b|^2=0$ となり、頂点$A$からの垂線と辺$BC$が直交することがわかります。頂点$B$、$C$についても同様の計算が成り立つので、3本の垂線はいずれも$\vec a+\vec b+\vec c$で交わることが結論づけられます。$\square$
+$\overrightarrow{OG}$ は$G$の位置ベクトルそのものであり、これは先に示した通り $\dfrac{\vec a+\vec b+\vec c}{3}$ です。したがって $\overrightarrow{OH}=3\cdot\dfrac{\vec a+\vec b+\vec c}{3}=\vec a+\vec b+\vec c$ となり、垂心$H$の位置ベクトルが$\vec a+\vec b+\vec c$であることが導けます。
+
+頂点$A$からこの点$H$へのベクトルは $\overrightarrow{AH}=\vec b+\vec c$、辺$BC$のベクトルは $\overrightarrow{BC}=\vec c-\vec b$ です。内積を計算すると $\overrightarrow{AH}\cdot\overrightarrow{BC}=(\vec b+\vec c)\cdot(\vec c-\vec b)=|\vec c|^2-|\vec b|^2=0$ となり、頂点$A$からの垂線と辺$BC$が直交することがわかります。頂点$B$、$C$についても同様の計算が成り立つので、3本の垂線はいずれも$\vec a+\vec b+\vec c$で交わることが結論づけられます。$\square$
 
 ---
 
