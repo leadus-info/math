@@ -15,6 +15,6 @@
   <text x="82.5" y="60.1" font-size="16" text-anchor="middle" fill="currentColor">11</text>
   <text x="120.0" y="50.0" font-size="16" text-anchor="middle" fill="currentColor">12</text>
   <line x1="120" y1="120" x2="65.8" y2="110.4" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
-  <line x1="120" y1="120" x2="193.6" y2="162.5" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+  <line x1="120" y1="120" x2="173.7" y2="151.0" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
   <circle cx="120" cy="120" r="4" fill="currentColor"/>
 </svg>
