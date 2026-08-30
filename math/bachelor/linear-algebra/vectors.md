@@ -51,7 +51,23 @@ $$\boldsymbol{a} \cdot \boldsymbol{b} = a_1 b_1 + \cdots + a_n b_n = \|\boldsymb
 
 （$\theta$ は2ベクトルのなす角）。「どれだけ同じ向きを向いているか」を数値化したもので、$\boldsymbol{a} \cdot \boldsymbol{b} = 0 \iff \boldsymbol{a} \perp \boldsymbol{b}$（直交）です。
 
-**成分での定義と$\|\boldsymbol{a}\|\|\boldsymbol{b}\|\cos\theta$が一致することの確認**：$\boldsymbol{a}$、$\boldsymbol{b}$、$\boldsymbol{a}-\boldsymbol{b}$を3辺とする三角形に余弦定理を適用すると、$\|\boldsymbol{a}-\boldsymbol{b}\|^2=\|\boldsymbol{a}\|^2+\|\boldsymbol{b}\|^2-2\|\boldsymbol{a}\|\|\boldsymbol{b}\|\cos\theta$。左辺を成分で展開すると $\|\boldsymbol{a}-\boldsymbol{b}\|^2=\sum_i(a_i-b_i)^2=\sum_i a_i^2-2\sum_i a_ib_i+\sum_i b_i^2=\|\boldsymbol{a}\|^2-2(a_1b_1+\cdots+a_nb_n)+\|\boldsymbol{b}\|^2$。両者を比較すると $-2(a_1b_1+\cdots+a_nb_n)=-2\|\boldsymbol{a}\|\|\boldsymbol{b}\|\cos\theta$、すなわち $a_1b_1+\cdots+a_nb_n=\|\boldsymbol{a}\|\|\boldsymbol{b}\|\cos\theta$ が確かめられます。
+**成分での定義と$\|\boldsymbol{a}\|\|\boldsymbol{b}\|\cos\theta$が一致することの確認**：$\boldsymbol{a}$、$\boldsymbol{b}$、$\boldsymbol{a}-\boldsymbol{b}$は始点を共有する2ベクトルとその差であり、高々2次元の部分空間（平面）に含まれます。そのため、通常の（平面上の）余弦定理がそのまま適用できます。
+
+まず、$\boldsymbol{a}$、$\boldsymbol{b}$、$\boldsymbol{a}-\boldsymbol{b}$を3辺とする三角形に余弦定理を適用すると、次が成り立ちます。
+
+$$\|\boldsymbol{a}-\boldsymbol{b}\|^2=\|\boldsymbol{a}\|^2+\|\boldsymbol{b}\|^2-2\|\boldsymbol{a}\|\|\boldsymbol{b}\|\cos\theta$$
+
+次に、左辺を成分で展開すると次のようになります。
+
+$$
+\begin{aligned}
+\|\boldsymbol{a}-\boldsymbol{b}\|^2 &= \sum_i(a_i-b_i)^2 \\
+&= \sum_i a_i^2-2\sum_i a_ib_i+\sum_i b_i^2 \\
+&= \|\boldsymbol{a}\|^2-2(a_1b_1+\cdots+a_nb_n)+\|\boldsymbol{b}\|^2
+\end{aligned}
+$$
+
+両者を比較すると $-2(a_1b_1+\cdots+a_nb_n)=-2\|\boldsymbol{a}\|\|\boldsymbol{b}\|\cos\theta$、すなわち $a_1b_1+\cdots+a_nb_n=\|\boldsymbol{a}\|\|\boldsymbol{b}\|\cos\theta$ が確かめられます。
 
 **例**：$\boldsymbol{a} = (1, 2)$、$\boldsymbol{b} = (3, -1)$ のとき $\boldsymbol{a} \cdot \boldsymbol{b} = 3 - 2 = 1$
 
