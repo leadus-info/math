@@ -79,6 +79,10 @@ $P \Rightarrow Q$ と $Q \Rightarrow P$ の両方が成り立つとき、$P$ と
 
 ここまでで「$Q$ が偽で $P$ が真という状況」は実際には存在せず、かつそれが $\neg Q \Rightarrow \neg P$ の主張そのものだと分かったので、$\neg Q \Rightarrow \neg P$（$Q$ が偽ならば $P$ も偽）が成り立ちます。これが対偶です。
 
+同じ議論は逆方向にも成り立ちます。$\neg Q \Rightarrow \neg P$ が成り立つとすると、先ほど確認したように、その定義は「$Q$ が偽で $P$ が真という状況は存在しない」ということです。ここで先ほどの語順の言い換え（「$P$ が真で $Q$ が偽」という状況と「$Q$ が偽で $P$ が真」という状況は同じ状況を指すこと）により、これは「$P$ が真で $Q$ が偽という状況は存在しない」と同じ主張です。これはまさに $P \Rightarrow Q$ の定義そのものなので、$\neg Q \Rightarrow \neg P$ が成り立てば $P \Rightarrow Q$ も成り立ちます。
+
+先に示した「$P \Rightarrow Q$ ならば $\neg Q \Rightarrow \neg P$」と合わせると、$P \Rightarrow Q$ と $\neg Q \Rightarrow \neg P$ は互いに他方を導き合う、すなわち同値であることが分かります。
+
 直接「$P$ ならば $Q$」を示しにくいとき、対偶「$\neg Q$ ならば $\neg P$」を示すことで証明できます。
 
 > [!NOTE]
