@@ -96,7 +96,7 @@ $$\hat\beta_1 = \dfrac{6}{10} = 0.6, \qquad \hat\beta_0 = \bar y - \hat\beta_1 \
 
 続いて決定係数を求めます。$y$ の偏差の2乗和は $\sum(y_i-\bar y)^2 = 4+0+1+0+1 = 6$ なので、
 
-$$r^2 = \dfrac{6^2}{10 \times 6} = 0.6$$
+$$r^2 = \frac{\left(\sum(x_i-\bar x)(y_i-\bar y)\right)^2}{\sum(x_i-\bar x)^2 \cdot \sum(y_i-\bar y)^2} = \frac{6^2}{10 \times 6} = 0.6$$
 
 となり、決定係数も $R^2 = 0.6$ です。つまりこのモデルは、データのばらつきの6割を説明していることになります。
 
