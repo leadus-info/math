@@ -78,7 +78,11 @@ $$\frac{\partial u}{\partial x} = \frac{\partial v}{\partial y}, \qquad \frac{\p
 
 $$\oint_C f(z)\,dz = 0$$
 
-**証明の概略**：$f=u+iv$、$dz=dx+i\,dy$ とすると、線積分は
+**証明の概略**：$f=u+iv$、$dz=dx+i\,dy$ とすると、
+
+$$f\,dz = (u+iv)(dx+i\,dy) = u\,dx + iu\,dy + iv\,dx - v\,dy = (u\,dx - v\,dy) + i(v\,dx + u\,dy)$$
+
+より、線積分は
 
 $$\oint_C f\,dz = \oint_C (u\,dx - v\,dy) + i\oint_C (v\,dx + u\,dy)$$
 
