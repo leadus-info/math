@@ -43,7 +43,7 @@ $$\boldsymbol{a} = (a_1, a_2, \ldots, a_n) \in \mathbb{R}^n$$
 
 $$\|\boldsymbol{a}\| = \sqrt{a_1^2 + \cdots + a_n^2}$$
 
-大きさが1のベクトルを**単位ベクトル**といい、$\hat{\boldsymbol{a}} = \boldsymbol{a}/\|\boldsymbol{a}\|$ で得られます。
+大きさが1のベクトルを**単位ベクトル**といい、$\hat{\boldsymbol{a}} = \boldsymbol{a}/\|\boldsymbol{a}\|$ で得られます（ただし $\boldsymbol{a}=\boldsymbol{0}$ のときは定義されません）。
 
 **内積**：
 
