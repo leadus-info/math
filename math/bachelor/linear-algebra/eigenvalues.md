@@ -39,6 +39,9 @@ $$A\begin{pmatrix}1\\1\end{pmatrix}=\begin{pmatrix}-1\\1\end{pmatrix}$$
 
 正方行列 $A$ に対して $A\boldsymbol{v} = \lambda\boldsymbol{v}$（$\boldsymbol{v} \neq \boldsymbol{0}$）を満たすとき、$\lambda$ を**固有値**、$\boldsymbol{v}$ を固有値 $\lambda$ に対応する**固有ベクトル**といいます。$A\boldsymbol{v}=\lambda\boldsymbol{v}$ は $(A-\lambda I)\boldsymbol{v}=\boldsymbol{0}$ と同値です。
 
+> [!IMPORTANT]
+> $A\boldsymbol{v}=\lambda\boldsymbol{v}$（$\boldsymbol{v}\neq\boldsymbol{0}$）を満たす $\lambda$ を固有値、$\boldsymbol{v}$ を固有ベクトルといいます。行列を掛けても向き（直線）が変わらない特別なベクトルが固有ベクトルで、そのときの倍率が固有値です。
+
 **命題**：$(A - \lambda I)\boldsymbol{v} = \boldsymbol{0}$ が $\boldsymbol{v}\neq\boldsymbol{0}$ なる解を持つことと、$\det(A - \lambda I) = 0$ は同値である。
 
 **証明**：線形写像で証明した「単射 $\iff$ 核が $\{\boldsymbol{0}\}$」を、線形写像 $T(\boldsymbol{x})=(A-\lambda I)\boldsymbol{x}$ に適用します。$(A-\lambda I)\boldsymbol{v}=\boldsymbol{0}$ が非自明解を持つことは $\ker T \neq \{\boldsymbol{0}\}$ と同じ、すなわち $T$ が単射でないことと同じです。
@@ -54,6 +57,9 @@ $$A\begin{pmatrix}1\\1\end{pmatrix}=\begin{pmatrix}-1\\1\end{pmatrix}$$
 ## 固有多項式と固有値・固有ベクトルの求め方
 
 $p(\lambda) = \det(A - \lambda I)$ を**固有多項式**といいます。$n \times n$ 行列の固有多項式は $\lambda$ の $n$ 次多項式です。前節で証明した同値関係「$(A-\lambda I)\boldsymbol{v}=\boldsymbol{0}$ が非自明解を持つ $\iff$ $\det(A-\lambda I)=0$」により、固有値はちょうど固有多項式 $p(\lambda) = 0$ の根です。
+
+> [!IMPORTANT]
+> 固有値は固有多項式 $p(\lambda)=\det(A-\lambda I)$ の根、すなわち $p(\lambda)=0$ を解くことで求められます。
 
 **例**：$A = \begin{pmatrix}3&1\\0&2\end{pmatrix}$ のとき $\det(A - \lambda I) = (3-\lambda)(2-\lambda) = 0$ より $\lambda = 3$ または $\lambda = 2$。
 
@@ -72,6 +78,9 @@ $$AP = (A\boldsymbol{v}_1 \cdots A\boldsymbol{v}_n) = (\lambda_1\boldsymbol{v}_1
 $$P^{-1}AP = \Lambda, \quad \text{すなわち} \quad A = P\Lambda P^{-1}$$
 
 が得られます。このように、固有ベクトルを並べた行列 $P$ を使って $A$ を対角行列 $\Lambda$ に変換できることを**対角化**といい、$n$ 個の線形独立な固有ベクトルが存在してこれが可能な行列を**対角化可能**といいます。
+
+> [!IMPORTANT]
+> $n$ 個の線形独立な固有ベクトルを列に並べた行列 $P$ を使うと、$A=P\Lambda P^{-1}$($\Lambda$ は固有値を対角成分に並べた対角行列)と対角化できます。
 
 先ほどの例（$A=\begin{pmatrix}3&1\\0&2\end{pmatrix}$、固有値 $3,2$、固有ベクトル $\begin{pmatrix}1\\0\end{pmatrix},\begin{pmatrix}1\\-1\end{pmatrix}$）で実際に対角化してみると、$P=\begin{pmatrix}1&1\\0&-1\end{pmatrix}$ に対して $P^{-1}=\begin{pmatrix}1&1\\0&-1\end{pmatrix}$（この $P$ はたまたま $P^{-1}=P$ です）となり、
 
@@ -101,6 +110,9 @@ $$\boldsymbol{0} = c_1(\lambda_1-\lambda_k)\boldsymbol{v}_1+\cdots+c_{k-1}(\lamb
 
 $\boldsymbol{v}_1,\ldots,\boldsymbol{v}_{k-1}$ は線形独立なので、すべての係数が $0$、すなわち $c_i(\lambda_i-\lambda_k)=0$。固有値はすべて相異なる（$\lambda_i \neq \lambda_k$）ので $c_i=0$（$i=1,\ldots,k-1$）となり、$\boldsymbol{v}_k=\boldsymbol{0}$ となって固有ベクトルの定義（$\boldsymbol{v}\neq\boldsymbol{0}$）に矛盾します。よって $\boldsymbol{v}_1,\ldots,\boldsymbol{v}_n$ は線形独立で、$A$ は対角化可能です。$\blacksquare$
 
+> [!IMPORTANT]
+> $n\times n$ 行列 $A$ が $n$ 個の相異なる固有値を持てば、対応する固有ベクトルは線形独立になり、$A$ は対角化可能です。
+
 対角化のメリットは、行列の累乗が簡単になることです。$A^{100}\boldsymbol{v}$ を直接計算するのは大変ですが、$\boldsymbol{v}$ が固有ベクトルなら $A^{100}\boldsymbol{v} = \lambda^{100}\boldsymbol{v}$ で済みます。
 
 **命題**：$A=P\Lambda P^{-1}$ のとき、任意の自然数 $k$ について $A^k = P\Lambda^k P^{-1}$。
@@ -127,6 +139,9 @@ $$p(\lambda) = (-1)^n(\lambda-\lambda_1)(\lambda-\lambda_2)\cdots(\lambda-\lambd
 
 *定数項の比較*：$\lambda=0$ を代入すると $p(0)=\det(A) = (-1)^n(-\lambda_1)(-\lambda_2)\cdots(-\lambda_n) = (-1)^n(-1)^n\prod_i\lambda_i = \prod_i \lambda_i$。
 
+> [!IMPORTANT]
+> $\det(A)=\prod_i\lambda_i$、すなわち行列式は固有値の総積に一致します。
+
 *$\lambda^{n-1}$ の係数の比較*：まず左辺 $\prod_i(\lambda-\lambda_i)$ を展開したときの $\lambda^{n-1}$ の項を考えます。これは $n$ 個の因子のうち $1$ 個だけ $-\lambda_i$ を選び、残り $n-1$ 個は $\lambda$ を選ぶ組み合わせの総和になるので、係数は次数 $n$ の偶奇によらず常に $-\sum_i\lambda_i$ です。
 
 $$p(\lambda) = (-1)^n\prod_i(\lambda-\lambda_i) \ \text{における} \ \lambda^{n-1} \ \text{の係数} = (-1)^n\times\left(-\sum_i\lambda_i\right) = (-1)^{n+1}\sum_i\lambda_i$$
@@ -146,6 +161,9 @@ $$\lambda^{n-1} \ \text{の係数} = \sum_{k=1}^n (-1)^{n-1}a_{kk} = (-1)^{n-1}\
 $$(-1)^{n+1}\sum_i\lambda_i = (-1)^{n+1}\mathrm{tr}(A) \quad\Longrightarrow\quad \mathrm{tr}(A) = \sum_i \lambda_i$$
 
 $\blacksquare$
+
+> [!IMPORTANT]
+> $\mathrm{tr}(A)=\sum_i\lambda_i$、すなわちトレースは固有値の総和に一致します。
 
 ---
 
