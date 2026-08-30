@@ -57,7 +57,7 @@ $$\boldsymbol{a} \cdot \boldsymbol{b} = a_1 b_1 + \cdots + a_n b_n = \|\boldsymb
 
 $$\|\boldsymbol{a}-\boldsymbol{b}\|^2=\|\boldsymbol{a}\|^2+\|\boldsymbol{b}\|^2-2\|\boldsymbol{a}\|\|\boldsymbol{b}\|\cos\theta$$
 
-次に、左辺を成分で展開すると次のようになります。
+次に、$(a_i-b_i)^2$を展開し、和を項ごとに分割すると、左辺は次のようになります。
 
 $$
 \begin{aligned}
