@@ -9,5 +9,5 @@
   <path d="M138.4,55.5 Q150,66 161.6,55.5" fill="none" stroke="currentColor" stroke-width="1.5"/>
   <path d="M61.6,224.5 Q68,234 78,250" fill="none" stroke="currentColor" stroke-width="1.5"/>
   <path d="M238.4,224.5 Q232,234 222,250" fill="none" stroke="currentColor" stroke-width="1.5"/>
-  <text x="150" y="300" font-size="16" text-anchor="middle" fill="currentColor">∠A + ∠B + ∠C = 180°</text>
+  <text x="150" y="300" font-size="16" text-anchor="middle" fill="currentColor">角A + 角B + 角C = 180°</text>
 </svg>
