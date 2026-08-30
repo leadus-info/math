@@ -57,7 +57,7 @@ $$\mathrm{Var}(X) = E[X^2]-(E[X])^2 = \frac{2}{\lambda^2}-\frac{1}{\lambda^2} = 
 
 **無記憶性**：$P(X > s + t \mid X > s) = P(X > t)$（すでに $s$ 待った事実が、追加の待ち時間の分布に影響しない）。
 
-**証明**：条件付き確率の定義より $P(X>s+t \mid X>s) = \dfrac{P(X>s+t\cap X>s)}{P(X>s)}$ である。ここで $t\geq0$ より $\{X>s+t\}\subset\{X>s\}$ が成り立つので、事象$X>s+t\cap X>s$は事象$X>s+t$と同値であり、$P(X>s+t\cap X>s)=P(X>s+t)$ となる。したがって
+**証明**：条件付き確率の定義より $P(X>s+t \mid X>s) = \dfrac{P(X>s+t\cap X>s)}{P(X>s)}$ である。ここで $t\geq0$ より $s+t\geq s$ であり、$X>s+t$ ならば $X>s$ も成り立つ。したがって $\{X>s+t\}\subset\{X>s\}$ が成り立つ。このとき、事象$X>s+t\cap X>s$は事象$X>s+t$と同値であり、$P(X>s+t\cap X>s)=P(X>s+t)$ となる。したがって
 
 $$P(X>s+t \mid X>s) = \frac{P(X>s+t)}{P(X>s)}$$
 
