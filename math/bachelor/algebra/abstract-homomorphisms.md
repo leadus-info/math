@@ -50,7 +50,7 @@ requires:
 
 正規性については、任意の $g \in G$、$k \in \ker\varphi$ に対して $\varphi(gkg^{-1}) = \varphi(g)\varphi(k)\varphi(g)^{-1} = \varphi(g)\varphi(g)^{-1} = e_H$（補題(b)を使用）となるので $gkg^{-1} \in \ker\varphi$、すなわち $g(\ker\varphi)g^{-1} \subseteq \ker\varphi$ が任意の $g$ について成り立ちます。
 
-逆の包含も示します。この包含関係は任意の $g$ について成り立つので、$g$ の代わりに $g^{-1}$ を代入すると $g^{-1}(\ker\varphi)g \subseteq \ker\varphi$ が得られます。この両辺に左から $g$ を、右から $g^{-1}$ を掛けると $g\bigl(g^{-1}(\ker\varphi)g\bigr)g^{-1} \subseteq g(\ker\varphi)g^{-1}$ となり、左辺は $(gg^{-1})(\ker\varphi)(gg^{-1}) = \ker\varphi$ に等しいので、$\ker\varphi \subseteq g(\ker\varphi)g^{-1}$ が得られます。
+逆の包含も示します。この包含関係は任意の $g$ について成り立つので、$g$ の代わりに $g^{-1}$ を代入すると $g^{-1}(\ker\varphi)g \subseteq \ker\varphi$ が得られます。この両辺に左から $g$ を、右から $g^{-1}$ を掛けると $g\bigl(g^{-1}(\ker\varphi)g\bigr)g^{-1} \subseteq g(\ker\varphi)g^{-1}$ となります。ここで左辺は、結合律による組み替えと $gg^{-1}=e$ を用いて $g\bigl(g^{-1}(\ker\varphi)g\bigr)g^{-1} = (gg^{-1})(\ker\varphi)(gg^{-1}) = e(\ker\varphi)e = \ker\varphi$ と簡単になるので、$\ker\varphi \subseteq g(\ker\varphi)g^{-1}$ が得られます。
 
 この両方の包含 $g(\ker\varphi)g^{-1} \subseteq \ker\varphi$ と $\ker\varphi \subseteq g(\ker\varphi)g^{-1}$ から $g(\ker\varphi)g^{-1} = \ker\varphi$ となるので、$\ker\varphi$ は $G$ の正規部分群です。
 
