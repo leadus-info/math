@@ -27,7 +27,13 @@ $$\begin{pmatrix} 2 & 1 \\ 1 & -1 \end{pmatrix}$$
 
 $$\begin{cases} 2x + y = 5 \\ x - y = 1 \end{cases}$$
 
-の係数を取り出すと $\begin{pmatrix} 2 & 1 \\ 1 & -1 \end{pmatrix} \begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 5 \\ 1 \end{pmatrix}$ と書けます。2本でも100本でも同じ形で書けるのが行列の強みです。行列はまた、ベクトルを「変換する操作」とも読め、回転・拡大縮小・反転がすべて行列で統一的に表せます。**例**：平面上のベクトルを反時計回りに90°回転させる変換は $\begin{pmatrix}0&-1\\1&0\end{pmatrix}$ で表され、$\begin{pmatrix}0&-1\\1&0\end{pmatrix}\begin{pmatrix}1\\0\end{pmatrix}=\begin{pmatrix}0\\1\end{pmatrix}$ のように、$x$軸方向のベクトル$(1,0)$を$y$軸方向の$(0,1)$に移します。
+の係数を取り出すと $\begin{pmatrix} 2 & 1 \\ 1 & -1 \end{pmatrix} \begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 5 \\ 1 \end{pmatrix}$ と書けます。掛け算の具体的な計算方法は行列の積で扱うので、ここでは結果だけを先に見せています。
+
+2本でも100本でも同じ形で書けるのが行列の強みです。
+
+同じ行列でも、連立方程式の係数として読めば数の表ですが、ベクトルに掛ける計算として読めば「変換する操作」にもなります。行列はこの見方によって、回転・拡大縮小・反転をすべて統一的に表せます。
+
+**例**：平面上のベクトルを反時計回りに90°回転させる変換は $\begin{pmatrix}0&-1\\1&0\end{pmatrix}$ で表されます。行列の各列は、基本ベクトル$(1,0)$・$(0,1)$がそれぞれ移った先を表しており、1列目の$(0,1)$は$(1,0)$の移動先、2列目の$(-1,0)$は$(0,1)$の移動先です。実際に $\begin{pmatrix}0&-1\\1&0\end{pmatrix}\begin{pmatrix}1\\0\end{pmatrix}=\begin{pmatrix}0\\1\end{pmatrix}$ のように、$x$軸方向のベクトル$(1,0)$を$y$軸方向の$(0,1)$に移します。
 
 ---
 
