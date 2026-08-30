@@ -16,9 +16,6 @@
   <rect x="255" y="70" width="90" height="120" fill="none" stroke="currentColor" stroke-width="2"/>
 
   <!-- 平面図: 円 -->
-  <g fill="none" stroke="currentColor">
-    <circle cx="500" cy="130" r="45" stroke-width="2"/>
-    <line x1="455" y1="130" x2="545" y2="130" stroke-width="1" stroke-dasharray="4 3"/>
-  </g>
+  <circle cx="500" cy="130" r="45" fill="none" stroke="currentColor" stroke-width="2"/>
   <circle cx="500" cy="130" r="3" fill="currentColor"/>
 </svg>
