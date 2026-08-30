@@ -1,0 +1,49 @@
+<svg viewBox="0 0 640 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="円を扇形に分割して交互に並べ替えると、底辺が円周の半分（半径×円周率）、高さが半径にほぼ等しい平行四辺形に近い形になることを示す図">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+    </marker>
+  </defs>
+
+  <!-- 左: 扇形に分割された円 -->
+  <circle cx="110" cy="170" r="90" fill="none" stroke="currentColor" stroke-width="2"/>
+  <line x1="110" y1="170" x2="110.0" y2="80.0" stroke="currentColor" stroke-width="1"/>
+  <line x1="110" y1="170" x2="155.0" y2="92.1" stroke="currentColor" stroke-width="1"/>
+  <line x1="110" y1="170" x2="187.9" y2="125.0" stroke="currentColor" stroke-width="1"/>
+  <line x1="110" y1="170" x2="200.0" y2="170.0" stroke="currentColor" stroke-width="1"/>
+  <line x1="110" y1="170" x2="187.9" y2="215.0" stroke="currentColor" stroke-width="1"/>
+  <line x1="110" y1="170" x2="155.0" y2="247.9" stroke="currentColor" stroke-width="1"/>
+  <line x1="110" y1="170" x2="110.0" y2="260.0" stroke="currentColor" stroke-width="1"/>
+  <line x1="110" y1="170" x2="65.0" y2="247.9" stroke="currentColor" stroke-width="1"/>
+  <line x1="110" y1="170" x2="32.1" y2="215.0" stroke="currentColor" stroke-width="1"/>
+  <line x1="110" y1="170" x2="20.0" y2="170.0" stroke="currentColor" stroke-width="1"/>
+  <line x1="110" y1="170" x2="32.1" y2="125.0" stroke="currentColor" stroke-width="1"/>
+  <line x1="110" y1="170" x2="65.0" y2="92.1" stroke="currentColor" stroke-width="1"/>
+  <circle cx="110" cy="170" r="3" fill="currentColor"/>
+  <text x="118" y="166" font-size="16" fill="currentColor">中心</text>
+  <line x1="110" y1="80" x2="110" y2="60" stroke="currentColor" stroke-width="0.75" stroke-dasharray="2 2"/>
+  <text x="110" y="52" font-size="16" text-anchor="middle" fill="currentColor">半径</text>
+
+  <!-- 中央: 並べ替えの矢印 -->
+  <line x1="222" y1="170" x2="278" y2="170" stroke="currentColor" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text x="250" y="150" font-size="16" text-anchor="middle" fill="currentColor">並べ替える</text>
+
+  <!-- 右: 交互に並べ替えた扇形(平行四辺形に近い、ぎざぎざの辺を持つ形) -->
+  <polyline points="330,260 351.5,254 373,260 394.5,254 416,260 437.5,254 459,260 480.5,254 502,260 523.5,254 545,260 566.5,254 590,260"
+            fill="none" stroke="currentColor" stroke-width="2"/>
+  <polyline points="360,170 381.5,176 403,170 424.5,176 446,170 467.5,176 489,170 510.5,176 532,170 553.5,176 575,170 596.5,176 620,170"
+            fill="none" stroke="currentColor" stroke-width="2"/>
+  <line x1="330" y1="260" x2="360" y2="170" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="590" y1="260" x2="620" y2="170" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
+
+  <!-- 高さの寸法線(平行四辺形の左辺の頂点まで引き出し線でつなぐ) -->
+  <line x1="300" y1="170" x2="360" y2="170" stroke="currentColor" stroke-width="0.75" stroke-dasharray="2 2"/>
+  <line x1="300" y1="260" x2="330" y2="260" stroke="currentColor" stroke-width="0.75" stroke-dasharray="2 2"/>
+  <line x1="300" y1="170" x2="300" y2="260" stroke="currentColor" stroke-width="1" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+  <text x="292" y="220" font-size="16" text-anchor="end" fill="currentColor">高さ≈半径</text>
+
+  <!-- 底辺の寸法線 -->
+  <line x1="330" y1="282" x2="590" y2="282" stroke="currentColor" stroke-width="1" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+  <text x="460" y="304" font-size="16" text-anchor="middle" fill="currentColor">底辺＝円周の半分（半径×円周率）</text>
+</svg>
