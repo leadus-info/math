@@ -29,6 +29,6 @@
   </g>
   <line x1="300" y1="97" x2="300" y2="70" stroke="currentColor" stroke-width="1"/>
   <text x="300" y="63" font-size="16" text-anchor="middle" fill="currentColor">底面</text>
-  <line x1="345" y1="150" x2="365" y2="150" stroke="currentColor" stroke-width="1"/>
-  <text x="369" y="154" font-size="16" fill="currentColor">側面</text>
+  <line x1="345" y1="150" x2="358" y2="150" stroke="currentColor" stroke-width="1"/>
+  <text x="360" y="154" font-size="16" fill="currentColor">側面</text>
 </svg>
