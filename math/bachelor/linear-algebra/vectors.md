@@ -35,7 +35,7 @@ $$\boldsymbol{a} = (a_1, a_2, \ldots, a_n) \in \mathbb{R}^n$$
 
 **スカラー倍**：$c\boldsymbol{a} = (ca_1, \ldots, ca_n)$
 
-幾何学的には、$\boldsymbol{b}$ の始点を $\boldsymbol{a}$ の終点に置き、原点から $\boldsymbol{b}$ の終点までを結んだ矢印が $\boldsymbol{a} + \boldsymbol{b}$ を表します。
+幾何学的には、$\boldsymbol{a}$ の始点を原点に置き、$\boldsymbol{b}$ の始点を $\boldsymbol{a}$ の終点に置くと、原点から $\boldsymbol{b}$ の終点までを結んだ矢印が $\boldsymbol{a} + \boldsymbol{b}$ を表します。
 
 ---
 
