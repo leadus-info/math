@@ -78,11 +78,17 @@ Rudin, W. (1976). *Principles of Mathematical Analysis* (3rd ed.). McGraw-Hill. 
 
 $$\frac{\partial f}{\partial x_i} = \lim_{h\to 0} \frac{f(x + he_i) - f(x)}{h}$$
 
-しかし、すべての偏微分が存在しても $f$ が「なめらか」とは限りません。より強い条件が**全微分可能性**です。
+しかし、すべての偏微分が存在しても $f$ が連続であるとは限りません。例えば、$f(0,0) = 0$、$(x,y) \neq (0,0)$ のとき $f(x,y) = \dfrac{xy}{x^2+y^2}$ で定める関数を考えます。原点での偏微分は
 
-**定義**：線形写像 $A$ が存在して $f(x+h) = f(x) + Ah + o(\|h\|)$（$h \to 0$）が成り立つとき、$f$ は**全微分可能**であるといい、$df = \sum_i \dfrac{\partial f}{\partial x_i}dx_i$ を**全微分**といいます。
+$$\frac{\partial f}{\partial x}(0,0) = \lim_{h\to 0}\frac{f(h,0)-f(0,0)}{h} = \lim_{h\to 0}\frac{0}{h} = 0$$
 
-$f: \mathbb{R}^n \to \mathbb{R}^m$ の微分は、偏微分を並べた**ヤコビ行列** $Jf = \left(\dfrac{\partial f_i}{\partial x_j}\right)$ で表され、連鎖律は行列の積の形になります。
+となり、同様に $\dfrac{\partial f}{\partial y}(0,0) = 0$ も存在します。しかし $y=x$ に沿って原点に近づくと $f(x,x) = \dfrac{x^2}{2x^2} = \dfrac{1}{2}$（$x\neq 0$）となり $f(0,0)=0$ に収束しないため、$f$ は原点で連続ではありません。このように偏微分の存在だけでは不十分であり、より強い条件が**全微分可能性**です。
+
+**定義**：線形写像 $A$ が存在して $f(x+h) = f(x) + Ah + o(\|h\|)$（$h \to 0$）が成り立つとき、$f$ は**全微分可能**であるといいます。ここで $o(\|h\|)$ とは、$h \to 0$ のとき $\|h\|$ で割った極限が0になるような量を表します。
+
+全微分可能ならば、すべての偏微分が存在します。実際、$h = te_i$（$t$ はスカラー）として定義の式に代入すると、$\dfrac{f(x+te_i)-f(x)}{t} = Ae_i + \dfrac{o(|t|)}{t} \to Ae_i$（$t\to 0$）となるので、$\dfrac{\partial f}{\partial x_i} = Ae_i$、すなわち線形写像 $A$ の第 $i$ 成分は $\dfrac{\partial f}{\partial x_i}$ に一致します。したがって $Ah = \sum_i \dfrac{\partial f}{\partial x_i}h_i$ であり、$df = \sum_i \dfrac{\partial f}{\partial x_i}dx_i$ を**全微分**といいます。
+
+各成分 $f_i$ に対して同様の議論を適用すると、$f: \mathbb{R}^n \to \mathbb{R}^m$ の微分は、偏微分を並べた**ヤコビ行列** $Jf = \left(\dfrac{\partial f_i}{\partial x_j}\right)$ で表され、連鎖律は行列の積の形になります。
 
 $$J(g \circ f) = Jg \cdot Jf$$
 
