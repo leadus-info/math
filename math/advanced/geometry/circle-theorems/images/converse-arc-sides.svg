@@ -3,17 +3,17 @@
   <line x1="87.42" y1="135" x2="312.58" y2="135" stroke="currentColor" stroke-width="1.5" stroke-dasharray="5 4"/>
   <line x1="87.42" y1="135" x2="200" y2="330" stroke="currentColor" stroke-width="1.5"/>
   <line x1="312.58" y1="135" x2="200" y2="330" stroke="currentColor" stroke-width="1.5"/>
-  <line x1="87.42" y1="135" x2="283.21" y2="299.88" stroke="currentColor" stroke-width="1.5" stroke-dasharray="5 4"/>
-  <line x1="312.58" y1="135" x2="283.21" y2="299.88" stroke="currentColor" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <line x1="87.42" y1="135" x2="292.81" y2="311.41" stroke="currentColor" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <line x1="312.58" y1="135" x2="292.81" y2="311.41" stroke="currentColor" stroke-width="1.5" stroke-dasharray="5 4"/>
   <circle cx="87.42" cy="135" r="3" fill="currentColor"/>
   <circle cx="200" cy="70" r="3" fill="currentColor"/>
   <circle cx="312.58" cy="135" r="3" fill="currentColor"/>
-  <circle cx="283.21" cy="299.88" r="3" fill="currentColor"/>
+  <circle cx="292.81" cy="311.41" r="3" fill="currentColor"/>
   <circle cx="200" cy="330" r="3" fill="currentColor"/>
   <text x="68" y="122" font-size="16" text-anchor="middle" fill="currentColor">A</text>
   <text x="200" y="50" font-size="16" text-anchor="middle" fill="currentColor">B</text>
   <text x="332" y="122" font-size="16" text-anchor="middle" fill="currentColor">C</text>
-  <text x="305" y="322" font-size="16" text-anchor="middle" fill="currentColor">D</text>
+  <text x="314" y="333" font-size="16" text-anchor="middle" fill="currentColor">D</text>
   <text x="200" y="352" font-size="16" text-anchor="middle" fill="currentColor">E</text>
   <text x="278" y="66" font-size="13" text-anchor="middle" fill="currentColor">弧₁</text>
   <text x="114" y="323" font-size="13" text-anchor="middle" fill="currentColor">弧₂</text>
