@@ -17,6 +17,8 @@ requires:
     path: matrices.md
   - title: ベクトル
     path: vectors.md
+  - title: 逆行列
+    path: matrices-inverse.md
 ---
 
 ## 「構造を保つ」変換
@@ -109,6 +111,9 @@ $\ker T=\{\boldsymbol{0}\}$ は $\dim(\ker T)=0$ と同じなので、次元定�
 - $T$ が単射 $\iff$ $\ker T = \{\boldsymbol{0}\}$ $\iff$ $\mathrm{rank}(A) = n$
 - $T$ が全射 $\iff$ $\mathrm{Im}\, T = \mathbb{R}^m$（定義より）$\iff$ $\mathrm{rank}(A) = m$
 - $n = m$ のとき、次元定理より $\dim(\ker T)=0 \iff \dim(\mathrm{Im}\,T)=n=m$ なので、全射 $\iff$ 単射 $\iff$ $A$ が可逆
+
+> [!NOTE]
+> 階数が $n$ の $n$ 次正方行列は可逆であることが知られています(→[逆行列](matrices-inverse.md))。ここでは証明を割愛し、既知の事実として用います。
 
 ---
 
