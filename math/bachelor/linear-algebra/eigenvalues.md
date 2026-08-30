@@ -75,7 +75,13 @@ $$P^{-1}AP = \Lambda, \quad \text{すなわち} \quad A = P\Lambda P^{-1}$$
 
 先ほどの例（$A=\begin{pmatrix}3&1\\0&2\end{pmatrix}$、固有値 $3,2$、固有ベクトル $\begin{pmatrix}1\\0\end{pmatrix},\begin{pmatrix}1\\-1\end{pmatrix}$）で実際に対角化してみると、$P=\begin{pmatrix}1&1\\0&-1\end{pmatrix}$ に対して $P^{-1}=\begin{pmatrix}1&1\\0&-1\end{pmatrix}$（この $P$ はたまたま $P^{-1}=P$ です）となり、
 
-$$P^{-1}AP = \begin{pmatrix}1&1\\0&-1\end{pmatrix}\begin{pmatrix}3&1\\0&2\end{pmatrix}\begin{pmatrix}1&1\\0&-1\end{pmatrix} = \begin{pmatrix}3&0\\0&2\end{pmatrix}$$
+まず $AP$ を計算し、
+
+$$AP = \begin{pmatrix}3&1\\0&2\end{pmatrix}\begin{pmatrix}1&1\\0&-1\end{pmatrix} = \begin{pmatrix}3&2\\0&-2\end{pmatrix}$$
+
+その結果に左から $P^{-1}$ を掛けると、
+
+$$P^{-1}(AP) = \begin{pmatrix}1&1\\0&-1\end{pmatrix}\begin{pmatrix}3&2\\0&-2\end{pmatrix} = \begin{pmatrix}3&0\\0&2\end{pmatrix}$$
 
 と、対角成分に固有値が並んだ行列が実際に得られます。
 
