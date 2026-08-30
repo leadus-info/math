@@ -57,6 +57,8 @@ $$f'(z_0) = \lim_{t \to 0} \frac{u(x_0+t,y_0) + iv(x_0+t,y_0) - u(x_0,y_0) - iv(
 
 $$f'(z_0) = \lim_{t \to 0} \frac{u(x_0,y_0+t) + iv(x_0,y_0+t) - u(x_0,y_0) - iv(x_0,y_0)}{it} = \frac{1}{i}\frac{\partial u}{\partial y} + \frac{\partial v}{\partial y} = \frac{\partial v}{\partial y} - i\frac{\partial u}{\partial y}$$
 
+ここで $\dfrac{1}{i}=-i$（$i\cdot(-i)=1$ より、あるいは分母分子に $-i$ を掛けて $\dfrac{1}{i}=\dfrac{-i}{i\cdot(-i)}=\dfrac{-i}{1}=-i$ と確認できます）を用いました。
+
 正則性より、この2つは同じ値 $f'(z_0)$ に等しいので、実部どうし・虚部どうしを比較すると、
 
 $$\frac{\partial u}{\partial x} = \frac{\partial v}{\partial y}, \qquad \frac{\partial v}{\partial x} = -\frac{\partial u}{\partial y}$$
