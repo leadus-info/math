@@ -15,13 +15,14 @@
   <line x1="295" y1="50" x2="295" y2="220" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
   <polygon points="230,190 270,190 230,150" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
   <polygon points="360,190 320,190 360,150" fill="none" stroke="currentColor" stroke-width="2"/>
+  <line x1="230" y1="150" x2="360" y2="150" stroke="currentColor" stroke-width="2" marker-end="url(#arrow)"/>
 
   <text x="500" y="30" font-size="16" text-anchor="middle" fill="currentColor">回転移動</text>
   <polygon points="430,190 470,190 430,150" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
   <polygon points="460,80 460,120 500,80" fill="none" stroke="currentColor" stroke-width="2"/>
   <line x1="500" y1="150" x2="430" y2="190" stroke="currentColor" stroke-width="1" stroke-dasharray="4 3"/>
   <line x1="500" y1="150" x2="460" y2="80" stroke="currentColor" stroke-width="1" stroke-dasharray="4 3"/>
-  <path d="M500,125 A25,25 0 0,1 525,150" fill="none" stroke="currentColor" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <path d="M474,165 A30,30 0 0,1 485,124" fill="none" stroke="currentColor" stroke-width="1.5" marker-end="url(#arrow)"/>
   <circle cx="500" cy="150" r="3" fill="currentColor"/>
-  <text x="482" y="172" font-size="14" fill="currentColor">O</text>
+  <text x="505" y="168" font-size="14" fill="currentColor">O</text>
 </svg>
