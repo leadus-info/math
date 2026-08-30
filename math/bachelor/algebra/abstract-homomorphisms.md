@@ -54,13 +54,13 @@ requires:
 
 **準同型定理（第一同型定理）**：$G / \ker \varphi \cong \mathrm{Im}\, \varphi$
 
-**証明**：$K = \ker\varphi$（正規部分群）とし、写像 $\psi: G/K \to \mathrm{Im}\,\varphi$ を $\psi(gK) = \varphi(g)$ で定義します。
+**証明**：$K = \ker\varphi$ とします。上の補題(c)より $K$ は $G$ の正規部分群なので、商群 $G/K$ が矛盾なく定義されます。写像 $\psi: G/K \to \mathrm{Im}\,\varphi$ を $\psi(gK) = \varphi(g)$ で定義します。
 
-*well-defined性*：$gK = g'K$ ならば $g^{-1}g' \in K$、すなわち $\varphi(g^{-1}g') = e_H$。よって $\varphi(g)^{-1}\varphi(g') = e_H$ となり $\varphi(g) = \varphi(g')$。したがって $\psi$ は代表元の取り方によらず定まります。
+*well-defined性*：$gK = g'K$ ならば $g^{-1}g' \in K$、すなわち $\varphi(g^{-1}g') = e_H$。上の補題(b)より $\varphi(g^{-1}) = \varphi(g)^{-1}$ なので $\varphi(g)^{-1}\varphi(g') = e_H$ となり $\varphi(g) = \varphi(g')$。したがって $\psi$ は代表元の取り方によらず定まります。
 
 *準同型であること*：$\psi((gK)(g'K)) = \psi(gg'K) = \varphi(gg') = \varphi(g)\varphi(g') = \psi(gK)\psi(g'K)$。
 
-*単射性*：$\psi(gK) = e_H$ とすると $\varphi(g) = e_H$、すなわち $g \in K$。これは $gK = K$（$G/K$ の単位元）を意味するので、$\psi$ の核は自明、したがって単射です。
+*単射性*：$\psi(gK) = e_H$ とすると $\varphi(g) = e_H$、すなわち $g \in K$。これは $gK = K$（$G/K$ の単位元）を意味するので、$\ker\psi = \{K\}$（$G/K$ の単位元のみ）です。$\psi$ が準同型であることは既に示した通りなので、上の補題(e)を $\psi$ に適用すると $\psi$ は単射です。
 
 *全射性*：$\mathrm{Im}\,\varphi$ の任意の元は、ある $g \in G$ を用いて $\varphi(g)$ と書けるので、$\psi(gK) = \varphi(g)$ よりその元は $\psi$ の像に含まれます。
 
@@ -76,7 +76,7 @@ requires:
 
 **証明**：$G = \langle g \rangle$ とし、写像 $\varphi: \mathbb{Z} \to G$ を $\varphi(k) = g^k$ で定めます。指数法則 $g^{k+l} = g^k g^l$ より $\varphi$ は準同型です。$G$ は $g$ で生成されるので $\varphi$ は全射（$\mathrm{Im}\,\varphi = G$）。
 
-$\ker\varphi = \{k \in \mathbb{Z} \mid g^k = e\}$ は $\mathbb{Z}$ の部分群なので、ある $m \geq 0$ を用いて $m\mathbb{Z}$ の形になります（$\mathbb{Z}$ の部分群がすべてこの形であることは、割り算の原理から従います）。
+$\ker\varphi = \{k \in \mathbb{Z} \mid g^k = e\}$ は（上の補題(c)より）$\mathbb{Z}$ の部分群なので、ある $m \geq 0$ を用いて $m\mathbb{Z}$ の形になります（$\mathbb{Z}$ の部分群がすべてこの形であることは、割り算の原理から従います）。
 
 - $m = 0$（$\ker\varphi = \{0\}$）のとき：上で証明した準同型定理より $\mathbb{Z}/\{0\} \cong G$、すなわち $\mathbb{Z} \cong G$。これは $g$ の位数が無限である場合に対応します。
 - $m = n > 0$ のとき：準同型定理より $\mathbb{Z}/n\mathbb{Z} \cong G$。この $n$ が $g$ の位数（$g^n=e$ となる最小の正の整数）に一致します。
