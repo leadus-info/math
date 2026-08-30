@@ -91,7 +91,19 @@ $$p(\lambda) = (-1)^n(\lambda-\lambda_1)(\lambda-\lambda_2)\cdots(\lambda-\lambd
 
 *定数項の比較*：$\lambda=0$ を代入すると $p(0)=\det(A) = (-1)^n(-\lambda_1)(-\lambda_2)\cdots(-\lambda_n) = (-1)^n(-1)^n\prod_i\lambda_i = \prod_i \lambda_i$。
 
-*$\lambda^{n-1}$ の係数の比較*：$\prod_i(\lambda-\lambda_i)$ を展開すると、$\lambda^{n-1}$ の項は $n$ 個の因子のうち $1$ 個だけ $-\lambda_i$ を選び残りは $\lambda$ を選ぶ組み合わせの和になるので、係数は次数 $n$ の偶奇によらず常に $-\sum_i\lambda_i$ です。よって右辺 $p(\lambda)=(-1)^n\prod_i(\lambda-\lambda_i)$ における $\lambda^{n-1}$ の係数は $(-1)^n\times\left(-\sum_i\lambda_i\right) = (-1)^{n+1}\sum_i\lambda_i$。一方、$\det(A-\lambda I)$ を行列式の定義（余因子展開）から直接調べると、$\lambda^{n-1}$ の項は対角成分の積 $\prod_i(a_{ii}-\lambda)$ からしか出てこず、同様の理由でその係数は $(-1)^{n+1}\mathrm{tr}(A)$ になります。両者を比較すると $(-1)^{n+1}\sum_i\lambda_i = (-1)^{n+1}\mathrm{tr}(A)$ より $\mathrm{tr}(A) = \sum_i \lambda_i$。$\blacksquare$
+*$\lambda^{n-1}$ の係数の比較*：まず左辺 $\prod_i(\lambda-\lambda_i)$ を展開したときの $\lambda^{n-1}$ の項を考えます。これは $n$ 個の因子のうち $1$ 個だけ $-\lambda_i$ を選び、残り $n-1$ 個は $\lambda$ を選ぶ組み合わせの総和になるので、係数は次数 $n$ の偶奇によらず常に $-\sum_i\lambda_i$ です。
+
+$$p(\lambda) = (-1)^n\prod_i(\lambda-\lambda_i) \ \text{における} \ \lambda^{n-1} \ \text{の係数} = (-1)^n\times\left(-\sum_i\lambda_i\right) = (-1)^{n+1}\sum_i\lambda_i$$
+
+一方、$\det(A-\lambda I)$ の $\lambda^{n-1}$ の係数は、行列式の定義（余因子展開、$n!$ 個の項の符号付き和）から直接調べます。恒等置換以外のどの置換も、不動点をちょうど $n-1$ 個だけ持つことはできません（$1$ 点だけ動かず残りがすべて動くことはあり得ないため）。したがって、対角成分 $a_{ii}-\lambda$ 以外を $1$ つでも含む余因子展開の項は、$\lambda$ を含む対角因子を高々 $n-2$ 個しか持てず、その項に現れる $\lambda$ の次数は $n-2$ 以下です。よって $\lambda^{n-1}$ の項は対角成分の積 $\prod_i(a_{ii}-\lambda)$ からしか出てきません。この積を左辺と同じ論法（こちらは $a_{ii}$ についての組み合わせ）で展開すると、$\lambda^{n-1}$ の係数は次のようになります。
+
+$$\prod_i(a_{ii}-\lambda) = (-1)^n\prod_i(\lambda-a_{ii}) \ \text{における} \ \lambda^{n-1} \ \text{の係数} = (-1)^n\times\left(-\sum_i a_{ii}\right) = (-1)^{n+1}\mathrm{tr}(A)$$
+
+両者を比較すると、次が得られます。
+
+$$(-1)^{n+1}\sum_i\lambda_i = (-1)^{n+1}\mathrm{tr}(A) \quad\Longrightarrow\quad \mathrm{tr}(A) = \sum_i \lambda_i$$
+
+$\blacksquare$
 
 ---
 
