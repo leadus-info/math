@@ -15,7 +15,7 @@
   <line x1="295" y1="50" x2="295" y2="220" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
   <polygon points="230,190 270,190 230,150" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
   <polygon points="360,190 320,190 360,150" fill="none" stroke="currentColor" stroke-width="2"/>
-  <line x1="230" y1="150" x2="360" y2="150" stroke="currentColor" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="255" y1="175" x2="335" y2="175" stroke="currentColor" stroke-width="2" marker-end="url(#arrow)"/>
 
   <text x="500" y="30" font-size="16" text-anchor="middle" fill="currentColor">回転移動</text>
   <polygon points="430,190 470,190 430,150" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
