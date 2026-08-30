@@ -13,6 +13,8 @@ hierarchy:
   - title: 準同型・同型
     path: abstract-homomorphisms.md
 requires:
+  - title: 群
+    path: abstract-groups.md
   - title: 環と体
     path: abstract-rings-fields.md
   - title: 多項式
