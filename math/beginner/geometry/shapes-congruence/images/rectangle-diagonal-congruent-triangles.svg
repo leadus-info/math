@@ -1,4 +1,5 @@
-<svg viewBox="0 0 360 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="長方形を対角線で切ると2枚の直角三角形ができ、対角線の中点を中心に180度回転させるとぴったり重なる合同な図形になることを示す図">
+<svg viewBox="0 0 360 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="長方形を対角線ACで切ると2枚の直角三角形(三角形ABCと三角形CDA)ができ、対角線の中点Oを中心に180度回転させると点Aが点Cの位置に、点Bが点Dの位置に移ってぴったり重なる合同な図形になることを、回転の向きを示す矢印とともに表す図">
+  <polygon points="60,60 300,60 300,200" fill="currentColor" fill-opacity="0.08"/>
   <polygon points="60,60 300,60 300,200 60,200" fill="none" stroke="currentColor" stroke-width="2"/>
   <line x1="60" y1="60" x2="300" y2="200" stroke="currentColor" stroke-width="2"/>
   <circle cx="60" cy="60" r="3" fill="currentColor"/>
@@ -9,13 +10,19 @@
   <text x="308" y="52" font-size="16" fill="currentColor">B</text>
   <text x="308" y="216" font-size="16" fill="currentColor">C</text>
   <text x="48" y="216" font-size="16" fill="currentColor">D</text>
-  <!-- AB / CD: 単一の印 -->
+  <!-- AB / DC: 単一の印 -->
   <path d="M175,55 L185,65" stroke="currentColor" stroke-width="1.5"/>
   <path d="M175,195 L185,205" stroke="currentColor" stroke-width="1.5"/>
-  <!-- BC / DA: 二重の印 -->
+  <!-- BC / AD: 二重の印 -->
   <path d="M295,119 L305,129" stroke="currentColor" stroke-width="1.5"/>
   <path d="M295,131 L305,141" stroke="currentColor" stroke-width="1.5"/>
   <path d="M55,119 L65,129" stroke="currentColor" stroke-width="1.5"/>
   <path d="M55,131 L65,141" stroke="currentColor" stroke-width="1.5"/>
+  <!-- 対角線ACの中点O -->
+  <circle cx="180" cy="130" r="3" fill="currentColor"/>
+  <text x="190" y="116" font-size="16" fill="currentColor">O</text>
+  <!-- 中点Oを中心とした180度回転の向きを示す矢印 -->
+  <path d="M180,102 A28,28 0 1 1 153.7,139.6" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <polygon points="153.7,139.6 160.9,147.6 153.4,150.4" fill="currentColor"/>
   <text x="180" y="240" font-size="16" text-anchor="middle" fill="currentColor">△ABC ≡ △CDA</text>
 </svg>
