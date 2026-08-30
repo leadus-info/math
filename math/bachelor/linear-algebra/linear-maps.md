@@ -17,6 +17,8 @@ requires:
     path: matrices.md
   - title: ベクトル
     path: vectors.md
+  - title: 逆行列
+    path: matrices-inverse.md
 ---
 
 ## 「構造を保つ」変換
@@ -32,6 +34,14 @@ $\mathbb{R}^n$ から $\mathbb{R}^m$ への写像 $T$ が**線形写像**であ�
 $$T(\boldsymbol{u} + \boldsymbol{v}) = T(\boldsymbol{u}) + T(\boldsymbol{v}), \qquad T(c\boldsymbol{u}) = cT(\boldsymbol{u})$$
 
 「先に足してから変換」と「先に変換してから足す」が同じ結果になる、という意味です。特に $T(\boldsymbol{0}) = \boldsymbol{0}$ が常に成立します。回転・拡大縮小・射影などは、すべてこの条件を満たします。
+
+---
+
+## 基本用語の確認
+
+以降の議論では「基底」「次元」「部分空間」という用語を使います。「基底」「次元」は前提記事([ベクトル](vectors.md)の「一般のベクトル空間」節)で既に定義済みなので、そちらを参照してください。「部分空間」はここで新たに定義します。
+
+- **部分空間**：零ベクトルを含み、和とスカラー倍について閉じている部分集合 $W$ のことです。$W$は零ベクトルという加法の単位元をあらかじめ含み、和とスカラー倍について閉じているため、逆元(任意の$v \in W$について$-v=(-1)v$もスカラー倍の閉性から$W$に属する)を含め他のベクトル空間の公理は全体の空間から自然に継承されます。したがって、前提記事で参照した基底・次元の定義がそのまま部分空間にも適用できます。
 
 ---
 
@@ -67,7 +77,12 @@ $\dim(\ker T)$ を**退化次数**（nullity）、$\dim(\mathrm{Im}\, T)$ を**�
 
 $$\dim(\ker T) + \dim(\mathrm{Im}\, T) = n$$
 
-**証明**：$\ker T$ の基底を $\boldsymbol{v}_1, \ldots, \boldsymbol{v}_k$（$k = \dim\ker T$）とし、これを $\mathbb{R}^n$ の基底 $\boldsymbol{v}_1, \ldots, \boldsymbol{v}_k, \boldsymbol{v}_{k+1}, \ldots, \boldsymbol{v}_n$ に拡張します（基底の拡張定理）。$\mathrm{Im}\,T = \{T(\boldsymbol{v}_{k+1}), \ldots, T(\boldsymbol{v}_n)\}$ が張る空間であることを示せば、$\dim(\mathrm{Im}\,T) = n-k$ が言えて定理が従います。
+**証明**：$\ker T$ の基底を $\boldsymbol{v}_1, \ldots, \boldsymbol{v}_k$（$k = \dim\ker T$）とし、これを $\mathbb{R}^n$ の基底 $\boldsymbol{v}_1, \ldots, \boldsymbol{v}_k, \boldsymbol{v}_{k+1}, \ldots, \boldsymbol{v}_n$ に拡張します（基底の拡張定理）。
+
+> [!NOTE]
+> 部分空間の基底は、それを含む全体の空間の基底へと拡張できます(基底の拡張定理)。ここでは証明を割愛し、既知の事実として用います。
+
+$\mathrm{Im}\,T = \{T(\boldsymbol{v}_{k+1}), \ldots, T(\boldsymbol{v}_n)\}$ が張る空間であることを示せば、$\dim(\mathrm{Im}\,T) = n-k$ が言えて定理が従います。
 
 *生成すること*：任意の $\boldsymbol{x} \in \mathbb{R}^n$ は基底を使って $\boldsymbol{x} = \sum_{i=1}^n c_i \boldsymbol{v}_i$ と書け、
 
@@ -94,6 +109,9 @@ $\ker T=\{\boldsymbol{0}\}$ は $\dim(\ker T)=0$ と同じなので、次元定�
 - $T$ が単射 $\iff$ $\ker T = \{\boldsymbol{0}\}$ $\iff$ $\mathrm{rank}(A) = n$
 - $T$ が全射 $\iff$ $\mathrm{Im}\, T = \mathbb{R}^m$（定義より）$\iff$ $\mathrm{rank}(A) = m$
 - $n = m$ のとき、次元定理より $\dim(\ker T)=0 \iff \dim(\mathrm{Im}\,T)=n=m$ なので、全射 $\iff$ 単射 $\iff$ $A$ が可逆
+
+> [!NOTE]
+> 階数が $n$ の $n$ 次正方行列は可逆であることが知られています。① 階数が $n$ であることと行列式が $0$ でないことは同値です（証明略）。② 行列式が $0$ でないとき($n$次正方行列が)可逆であることは[逆行列](matrices-inverse.md)の記事で証明した通りです。
 
 ---
 
