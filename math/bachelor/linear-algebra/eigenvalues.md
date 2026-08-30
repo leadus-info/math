@@ -27,7 +27,7 @@ requires:
 
 $$A\begin{pmatrix}1\\0\end{pmatrix}=\begin{pmatrix}-1\\0\end{pmatrix}=-1\begin{pmatrix}1\\0\end{pmatrix}, \qquad A\begin{pmatrix}0\\1\end{pmatrix}=\begin{pmatrix}0\\1\end{pmatrix}=1\begin{pmatrix}0\\1\end{pmatrix}$$
 
-となり、$x$ 軸方向 $(1,0)$ は $-1$倍、$y$ 軸方向 $(0,1)$ は $1$倍になるだけで、どちらも元のベクトルの定数倍のままです。一方、$(1,1)$ のように軸に沿っていない一般のベクトルに $A$ を掛けると
+となり、$x$ 軸方向 $(1,0)$ は $-1$倍、$y$ 軸方向 $(0,1)$ は $1$倍になるだけで、どちらも元のベクトルの定数倍のままです。ここでの「方向が変わらない」とは、ベクトルが原点を通る同じ直線上にとどまるという意味で、倍率が負の場合は向き（符号）が反転することを許します。一方、$(1,1)$ のように軸に沿っていない一般のベクトルに $A$ を掛けると
 
 $$A\begin{pmatrix}1\\1\end{pmatrix}=\begin{pmatrix}-1\\1\end{pmatrix}$$
 
