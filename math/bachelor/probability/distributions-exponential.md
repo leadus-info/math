@@ -43,7 +43,17 @@ $$E[X]=\int_0^\infty x\lambda e^{-\lambda x}\,dx = \Bigl[-xe^{-\lambda x}\Bigr]_
 
 $$E[X] = \left[-\frac{1}{\lambda}e^{-\lambda x}\right]_0^\infty=\frac1\lambda$$
 
-分散も同様の計算（$E[X^2]$ を部分積分で求めて $E[X^2]-(E[X])^2$ をとる）により $\mathrm{Var}(X)=\dfrac{1}{\lambda^2}$ が得られます。
+**分散の導出**：同様に部分積分を用いると、
+
+$$E[X^2]=\int_0^\infty x^2\lambda e^{-\lambda x}\,dx = \Bigl[-x^2e^{-\lambda x}\Bigr]_0^\infty+\int_0^\infty 2xe^{-\lambda x}\,dx$$
+
+$E[X]$の導出と同様の理由により $x^2e^{-\lambda x}\to0$（$x\to\infty$）なので境界項は0であり、
+
+$$E[X^2] = \int_0^\infty 2xe^{-\lambda x}\,dx = \frac{2}{\lambda}\int_0^\infty x\lambda e^{-\lambda x}\,dx = \frac{2}{\lambda}E[X] = \frac{2}{\lambda^2}$$
+
+したがって
+
+$$\mathrm{Var}(X) = E[X^2]-(E[X])^2 = \frac{2}{\lambda^2}-\frac{1}{\lambda^2} = \frac{1}{\lambda^2}$$
 
 **無記憶性**：$P(X > s + t \mid X > s) = P(X > t)$（すでに $s$ 待った事実が、追加の待ち時間の分布に影響しない）。
 
