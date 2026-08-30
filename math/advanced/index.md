@@ -138,6 +138,7 @@ hierarchy:
 入力に対して出力が一意に定まる対応関係。定義域・値域・合成関数・逆関数を扱います。
 
 - [関数とは](analysis/functions.md)
+- [逆関数](analysis/inverse-functions.md)
 
 ### 数列
 自然数を引数にとる離散的な関数。等差・等比・漸化式・無限級数を扱います。
