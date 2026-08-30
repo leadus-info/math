@@ -43,7 +43,7 @@ $$3x^2 \times 4x = 3 \times 4 \times x^2 \times x = 12x^3$$
 
 割り算は分数の形にしてから約分します。同じ文字の累乗どうしを割るときは、指数の差をとります（$x^a \div x^b = x^{a-b}$）。
 
-$$6x^3 \div 2x = \frac{6x^3}{2x} = 3x^2$$
+$$6x^3 \div 2x = \frac{6x^3}{2x} = \frac{6}{2} \times \frac{x^3}{x} = 3x^2$$
 
 ---
 
@@ -57,7 +57,13 @@ $$2x(3x - 4) = 2x \times 3x - 2x \times 4 = 6x^2 - 8x$$
 
 割り算も同様に、各項を単項式で割ってから、指数の規則を使って約分します。
 
-$$(6x^2 - 8x) \div 2x = \frac{6x^2}{2x} - \frac{8x}{2x} = 3x - 4$$
+$$
+\begin{aligned}
+(6x^2 - 8x) \div 2x &= \frac{6x^2}{2x} - \frac{8x}{2x} \\
+&= \left(\frac{6}{2} \times \frac{x^2}{x}\right) - \left(\frac{8}{2} \times \frac{x}{x}\right) \\
+&= 3x - 4
+\end{aligned}
+$$
 
 ---
 
