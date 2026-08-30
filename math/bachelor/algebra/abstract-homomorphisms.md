@@ -87,7 +87,7 @@ requires:
 $\ker\varphi = \{k \in \mathbb{Z} \mid g^k = e\}$ は（上の補題(c)より）$\mathbb{Z}$ の部分群なので、ある $m \geq 0$ を用いて $m\mathbb{Z}$ の形になります（$\mathbb{Z}$ の部分群がすべてこの形であることは、割り算の原理から従います）。
 
 - $m = 0$（$\ker\varphi = \{0\}$）のとき：上で証明した準同型定理より $\mathbb{Z}/\{0\} \cong G$、すなわち $\mathbb{Z} \cong G$。これは $g$ の位数が無限である場合に対応します。
-- $m = n > 0$ のとき：準同型定理より $\mathbb{Z}/n\mathbb{Z} \cong G$。同型な群同士は要素数が等しいので $|G| = |\mathbb{Z}/n\mathbb{Z}| = n$、すなわち $G$ の位数（群の位数）は $n$ です。またこの $n$ は $g^n=e$ となる最小の正の整数、すなわち $g$ の位数（元の位数）にも一致します。
+- $m = n > 0$ のとき：準同型定理より $\mathbb{Z}/n\mathbb{Z} \cong G$。同型な群同士は要素数が等しいので $|G| = |\mathbb{Z}/n\mathbb{Z}| = n$、すなわち $G$ の位数（群の位数）は $n$ です。また、$\ker\varphi = n\mathbb{Z} = \{\ldots, -2n, -n, 0, n, 2n, \ldots\}$ の正の元のうち最小のものは $n$ 自身です。$\ker\varphi = \{k \in \mathbb{Z} \mid g^k = e\}$ であったことを思い出すと、これは「$g^k=e$ となる正の整数 $k$ のうち最小のものが $n$」であること、すなわち $n$ が $g$ の位数（元の位数）に一致することを意味します。
 
 いずれの場合も、準同型定理を使うだけで巡回群の分類が直ちに従います。$\blacksquare$
 
