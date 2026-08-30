@@ -1,4 +1,4 @@
-<svg viewBox="0 0 320 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="単位円上で中心角xの扇形を考え、原点O・x軸上の点A(1,0)・円周上の点B(cos x, sin x)・点Aでの接線上の点T(1, tan x)を結んだ図。三角形OAB(扇形に内接する三角形、面積(1/2)sin x)、扇形OAB自体(面積(1/2)x)、三角形OAT(扇形を含む直角三角形、面積(1/2)tan x)の位置関係を示す">
+<svg viewBox="0 0 320 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="単位円上に中心角x(0&lt;x&lt;π/2)の扇形をとる。原点O、x軸上の点A(1,0)、円周上の点B(cos x, sin x)を結ぶ。さらに、点Aにおける単位円の接線と半直線OBを延長した直線との交点をT(1, tan x)とする。このとき、弦ABをもつ三角形OABが扇形に内接する三角形(面積(1/2)sin x)、弧ABを含む扇形OAB自体(面積(1/2)x)、辺ATをもつ三角形OATが扇形を含む直角三角形(面積(1/2)tan x)にそれぞれ対応する">
   <!-- arc of the unit circle from A to B (sector boundary) -->
   <path d="M240,230 A170,170 0 0 0 196.34,116.25" fill="none" stroke="currentColor" stroke-width="2"/>
 
