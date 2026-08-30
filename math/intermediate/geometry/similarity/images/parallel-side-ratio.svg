@@ -1,20 +1,20 @@
 <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="三角形ABCの辺AB、AC上の点P、QをPQがBCと平行になるようにとると、三角形APQと三角形ABCが相似になることを示す図。∠APQと∠ABCが同じ位置にある同位角であることを弧の印で示している">
   <polygon points="200,60 80,320 320,320" fill="none" stroke="currentColor" stroke-width="2"/>
-  <line x1="140" y1="190" x2="260" y2="190" stroke="currentColor" stroke-width="2"/>
+  <line x1="152" y1="164" x2="248" y2="164" stroke="currentColor" stroke-width="2"/>
   <circle cx="200" cy="60" r="3" fill="currentColor"/>
   <circle cx="80" cy="320" r="3" fill="currentColor"/>
   <circle cx="320" cy="320" r="3" fill="currentColor"/>
-  <circle cx="140" cy="190" r="3" fill="currentColor"/>
-  <circle cx="260" cy="190" r="3" fill="currentColor"/>
+  <circle cx="152" cy="164" r="3" fill="currentColor"/>
+  <circle cx="248" cy="164" r="3" fill="currentColor"/>
   <text x="200" y="45" font-size="16" text-anchor="middle" fill="currentColor">A</text>
   <text x="62" y="335" font-size="16" text-anchor="middle" fill="currentColor">B</text>
   <text x="338" y="335" font-size="16" text-anchor="middle" fill="currentColor">C</text>
-  <text x="120" y="180" font-size="16" text-anchor="middle" fill="currentColor">P</text>
-  <text x="280" y="180" font-size="16" text-anchor="middle" fill="currentColor">Q</text>
+  <text x="132" y="154" font-size="16" text-anchor="middle" fill="currentColor">P</text>
+  <text x="268" y="154" font-size="16" text-anchor="middle" fill="currentColor">Q</text>
 
   <!-- angle APQ (at P, between PA and PQ) -->
-  <path d="M150.06,168.21 Q163.24,175.13 164,190" fill="none" stroke="currentColor" stroke-width="1.5"/>
-  <line x1="157.98" y1="173.75" x2="162.29" y2="180.49" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M162.06,142.21 Q175.24,149.13 176,164" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="169.98" y1="147.75" x2="174.29" y2="154.49" stroke="currentColor" stroke-width="1.5"/>
 
   <!-- angle ABC (at B, between BA and BC) -->
   <path d="M90.06,298.21 Q103.24,305.13 104,320" fill="none" stroke="currentColor" stroke-width="1.5"/>
