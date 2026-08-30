@@ -1,0 +1,24 @@
+<svg viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="円柱を例にした投影図。左は円柱の見取図。中央は正面から見た立面図で、円柱の高さと直径をそのままの比率で表した長方形になる。右は真上から見た平面図で、円柱の底面と同じ大きさの円になる。長方形の横幅と円の直径は等しい">
+  <text x="100" y="30" font-size="16" text-anchor="middle" fill="currentColor">見取図</text>
+  <text x="300" y="30" font-size="16" text-anchor="middle" fill="currentColor">立面図（正面から見た図）</text>
+  <text x="500" y="30" font-size="16" text-anchor="middle" fill="currentColor">平面図（真上から見た図）</text>
+
+  <!-- 見取図: 円柱 -->
+  <g fill="none" stroke="currentColor">
+    <ellipse cx="100" cy="70" rx="45" ry="16" stroke-width="2"/>
+    <line x1="55" y1="70" x2="55" y2="190" stroke-width="2"/>
+    <line x1="145" y1="70" x2="145" y2="190" stroke-width="2"/>
+    <path d="M 55,190 A 45,16 0 0,0 145,190" stroke-width="2"/>
+    <path d="M 55,190 A 45,16 0 0,1 145,190" stroke-width="1.5" stroke-dasharray="4 3"/>
+  </g>
+
+  <!-- 立面図: 長方形 -->
+  <rect x="255" y="70" width="90" height="120" fill="none" stroke="currentColor" stroke-width="2"/>
+
+  <!-- 平面図: 円 -->
+  <g fill="none" stroke="currentColor">
+    <circle cx="500" cy="130" r="45" stroke-width="2"/>
+    <line x1="455" y1="130" x2="545" y2="130" stroke-width="1" stroke-dasharray="4 3"/>
+  </g>
+  <circle cx="500" cy="130" r="3" fill="currentColor"/>
+</svg>
