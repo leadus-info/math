@@ -23,6 +23,8 @@ requires:
 
 **例**：たて3cm、よこ4cmの長方形の面積は何cm²か。たてに3個、よこに4個の1cm²の正方形が並ぶので、全体は $3\times4=12$ 個分。よって面積は $12\text{cm}^2$。
 
+![1cm²の正方形がたて3個・よこ4個の格子状に並び、たて3cm×よこ4cmの長方形（面積12cm²）を敷き詰めている様子を示す図](measurement-area/images/area-unit-squares-grid.svg)
+
 ---
 
 ## かさ（体積・容量）
