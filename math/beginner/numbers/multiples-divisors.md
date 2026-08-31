@@ -59,9 +59,9 @@ $12$ の倍数は $12 \times 1, 12 \times 2, 12 \times 3, \ldots$ と書けま�
 
 $$
 \begin{aligned}
-12 \times 1 &= (4 \times 3) \times 1 = 4 \times 3\\
-12 \times 2 &= (4 \times 3) \times 2 = 4 \times 6\\
-12 \times 3 &= (4 \times 3) \times 3 = 4 \times 9\\
+12 \times 1 &= (4 \times 3) \times 1 = 4 \times (3 \times 1) = 4 \times 3\\
+12 \times 2 &= (4 \times 3) \times 2 = 4 \times (3 \times 2) = 4 \times 6\\
+12 \times 3 &= (4 \times 3) \times 3 = 4 \times (3 \times 3) = 4 \times 9\\
 &\ldots
 \end{aligned}
 $$
