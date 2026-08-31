@@ -83,4 +83,4 @@ $$90\text{分} = 60\text{分} + 30\text{分}$$
 
 ## 関連ページ
 
-- [割合](ratio.md)
+- [単位量あたりの大きさ](ratio-unit-rate.md)
