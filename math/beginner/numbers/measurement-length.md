@@ -23,11 +23,18 @@ requires:
 
 長さには、ミリメートル（mm）、センチメートル（cm）、メートル（m）、キロメートル（km）という単位があります。
 
-$$1\text{cm} = 10\text{mm}, \qquad 1\text{m} = 100\text{cm}, \qquad 1\text{km} = 1000\text{m}$$
+$$
+\begin{aligned}
+1\text{cm} &= 10\text{mm} \\
+1\text{m} &= 100\text{cm} \\
+1\text{km} &= 1000\text{m}
+\end{aligned}
+$$
 
 測る対象の大きさに応じて、次のように単位を選びます。
 
-- 鉛筆の長さのような小さいものは mm や cm
+- 消しゴムの厚さや鉛筆の芯の太さのような、1cm未満の細かい違いを表したいものは mm
+- 鉛筆の長さのようなものは cm
 - 教室の縦の長さのようなものは m
 - 町から町までの距離のような長いものは km
 
