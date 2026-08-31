@@ -15,6 +15,8 @@ hierarchy:
 requires:
   - title: 掛け算
     path: multiplication.md
+  - title: 引き算
+    path: subtraction.md
 ---
 
 ## 掛け算を逆にたどる
