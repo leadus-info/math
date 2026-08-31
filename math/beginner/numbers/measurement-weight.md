@@ -38,7 +38,11 @@ $$1250 \div 1000 = 1 \text{ あまり } 250$$
 > [!NOTE]
 > ここでの商（1）は1000gのまとまりの個数（=1kg）、あまり（250）はまとまりに満たない端数（=250g）を表しています。この考え方は[割り算](division.md)で見た包含除と同じです。
 
-**例**：$2\text{kg}450\text{g}$ は何gか。$1\text{kg} = 1000\text{g}$ なので、$2\text{kg} = 2000\text{g}$。よって $2\text{kg}450\text{g} = 2000\text{g} + 450\text{g} = 2450\text{g}$。
+**例**：$2\text{kg}450\text{g}$ は何gか。$2\text{kg}$は$1\text{kg}$の2倍なので、次の掛け算と足し算を考える。
+
+$$2\text{kg} = 2 \times 1000\text{g} = 2000\text{g}$$
+
+$$2\text{kg}450\text{g} = 2000\text{g} + 450\text{g} = 2450\text{g}$$
 
 ---
 
