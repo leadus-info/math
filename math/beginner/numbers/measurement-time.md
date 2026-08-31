@@ -21,6 +21,8 @@ requires:
     path: subtraction.md
   - title: 掛け算
     path: multiplication.md
+  - title: 割り算
+    path: division.md
 ---
 
 ## 時間の単位
