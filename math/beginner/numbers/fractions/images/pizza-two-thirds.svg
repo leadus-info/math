@@ -1,4 +1,4 @@
-<svg viewBox="0 0 400 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="2枚のピザをそれぞれ3等分し、同じ番号の切れを合わせると3人それぞれの1人分になることを示す図">
+<svg viewBox="0 0 400 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="2枚のピザをそれぞれ3等分し、対応する位置の切れ(同じ番号を便宜的に付けている)同士を合わせると、3人それぞれの1人分になることを示す図">
   <circle cx="100" cy="75" r="55" fill="none" stroke="currentColor" stroke-width="2"/>
   <line x1="100" y1="75" x2="100" y2="20" stroke="currentColor" stroke-width="2"/>
   <line x1="100" y1="75" x2="147.6" y2="102.5" stroke="currentColor" stroke-width="2"/>
