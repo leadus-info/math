@@ -31,6 +31,8 @@ requires:
 
 $$1\text{L} = 10\text{dL} = 1000\text{mL}$$
 
+**例**：$2\text{L}300\text{mL}$ は何mLか。$1\text{L}=1000\text{mL}$ なので、$2\text{L} = 2000\text{mL}$。よって $2\text{L}300\text{mL} = 2000\text{mL} + 300\text{mL} = 2300\text{mL}$。
+
 牛乳パックやペットボトルの容量など、入れ物に入る量を表すときに使います。
 
 ---
