@@ -15,6 +15,8 @@ hierarchy:
 requires:
   - title: 長さ
     path: measurement-length.md
+  - title: 掛け算
+    path: multiplication.md
 ---
 
 ## 広さ（面積）
