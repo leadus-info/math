@@ -1,4 +1,4 @@
-<svg viewBox="0 0 400 110" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="1から始まる数直線上で、3の位置から目盛り2つ分だけ右に進んで5に着くことを、1目盛りごとの矢印で示した図">
+<svg viewBox="0 0 400 110" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="1から始まる数直線上で、3の位置から2だけ右に進んで5に着くことを、1ごとの矢印で示した図">
   <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5"
             markerWidth="5" markerHeight="5" orient="auto-start-reverse">
