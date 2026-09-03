@@ -30,7 +30,7 @@
   <path d="M 106,70 Q 125,40 144,70" fill="none" stroke="currentColor" stroke-width="2" marker-end="url(#arrow)"/>
   <path d="M 144,70 Q 163,40 182,70" fill="none" stroke="currentColor" stroke-width="2" marker-end="url(#arrow)"/>
   <text x="20" y="28" font-size="14" fill="currentColor">3 + 2</text>
-  <text x="144" y="28" font-size="16" text-anchor="middle" fill="currentColor">目盛り2つ分</text>
+  <text x="144" y="28" font-size="16" text-anchor="middle" fill="currentColor">2つ分</text>
   <!-- 2 + 3 2から目盛り3つ分だけ右へ -->
   <line x1="30" y1="200" x2="360" y2="200" stroke="currentColor" stroke-width="2"/>
   <text x="366" y="205" font-size="13" fill="currentColor">…</text>
@@ -57,5 +57,5 @@
   <path d="M 106,200 Q 125,170 144,200" fill="none" stroke="currentColor" stroke-width="2" marker-end="url(#arrow)"/>
   <path d="M 144,200 Q 163,170 182,200" fill="none" stroke="currentColor" stroke-width="2" marker-end="url(#arrow)"/>
   <text x="20" y="158" font-size="14" fill="currentColor">2 + 3</text>
-  <text x="125" y="158" font-size="16" text-anchor="middle" fill="currentColor">目盛り3つ分</text>
+  <text x="125" y="158" font-size="16" text-anchor="middle" fill="currentColor">3つ分</text>
 </svg>

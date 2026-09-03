@@ -1,4 +1,4 @@
-<svg viewBox="0 0 400 110" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="1から始まる数直線上で、3の位置から目盛りを左に進むと2、1と進めるが、1より左には目盛りがなくそれ以上進めないことを、破線の矢印で示した図">
+<svg viewBox="0 0 400 110" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="1から始まる数直線上で、3の位置から左に進むと2、1と進めるが、1より左には数がなくそれ以上進めないことを、破線の矢印で示した図">
   <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5"
             markerWidth="5" markerHeight="5" orient="auto-start-reverse">

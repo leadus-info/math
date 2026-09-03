@@ -1,4 +1,4 @@
-<svg viewBox="0 0 400 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="1から始まる数直線を上下2段に並べ、上段は4の位置から目盛り3つ分だけ右に進んで7に着き、下段は7の位置から目盛り3つ分だけ左に進んで4に着くことを、1目盛りごとの矢印で示した図">
+<svg viewBox="0 0 400 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="1から始まる数直線を上下2段に並べ、上段は4の位置から3だけ右に進んで7に着き、下段は7の位置から3だけ左に進んで4に着くことを示した図">
   <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5"
             markerWidth="5" markerHeight="5" orient="auto-start-reverse">
@@ -31,7 +31,7 @@
   <path d="M 182,70 Q 201,40 220,70" fill="none" stroke="currentColor" stroke-width="2" marker-end="url(#arrow)"/>
   <path d="M 220,70 Q 239,40 258,70" fill="none" stroke="currentColor" stroke-width="2" marker-end="url(#arrow)"/>
   <text x="20" y="28" font-size="14" fill="currentColor">4 + 3</text>
-  <text x="201" y="28" font-size="16" text-anchor="middle" fill="currentColor">目盛り3つ分</text>
+  <text x="201" y="28" font-size="16" text-anchor="middle" fill="currentColor">3つ分</text>
   <!-- 7 - 3 -->
   <line x1="30" y1="200" x2="360" y2="200" stroke="currentColor" stroke-width="2"/>
   <text x="366" y="205" font-size="13" fill="currentColor">…</text>
@@ -58,5 +58,5 @@
   <path d="M 220,200 Q 201,170 182,200" fill="none" stroke="currentColor" stroke-width="2" marker-end="url(#arrow)"/>
   <path d="M 182,200 Q 163,170 144,200" fill="none" stroke="currentColor" stroke-width="2" marker-end="url(#arrow)"/>
   <text x="20" y="158" font-size="14" fill="currentColor">7 - 3</text>
-  <text x="201" y="158" font-size="16" text-anchor="middle" fill="currentColor">目盛り3つ分</text>
+  <text x="201" y="158" font-size="16" text-anchor="middle" fill="currentColor">3つ分</text>
 </svg>
