@@ -5,7 +5,7 @@
       <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
     </marker>
   </defs>
-  <!-- 3 + 2 3から目盛り2つ分だけ右へ -->
+  <!-- 3 + 2 3から2つ分だけ右へ -->
   <line x1="30" y1="70" x2="360" y2="70" stroke="currentColor" stroke-width="2"/>
   <text x="366" y="75" font-size="13" fill="currentColor">…</text>
   <line x1="30" y1="70" x2="30" y2="77" stroke="currentColor" stroke-width="1"/>
@@ -31,7 +31,7 @@
   <path d="M 144,70 Q 163,40 182,70" fill="none" stroke="currentColor" stroke-width="2" marker-end="url(#arrow)"/>
   <text x="20" y="28" font-size="14" fill="currentColor">3 + 2</text>
   <text x="144" y="28" font-size="16" text-anchor="middle" fill="currentColor">2つ分</text>
-  <!-- 2 + 3 2から目盛り3つ分だけ右へ -->
+  <!-- 2 + 3 2から3つ分だけ右へ -->
   <line x1="30" y1="200" x2="360" y2="200" stroke="currentColor" stroke-width="2"/>
   <text x="366" y="205" font-size="13" fill="currentColor">…</text>
   <line x1="30" y1="200" x2="30" y2="207" stroke="currentColor" stroke-width="1"/>

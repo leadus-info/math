@@ -8,7 +8,7 @@
   <!-- 数直線(左端は1、右方向に続く) -->
   <line x1="30" y1="70" x2="360" y2="70" stroke="currentColor" stroke-width="2"/>
   <text x="366" y="75" font-size="13" fill="currentColor">…</text>
-  <!-- 目盛りと数 -->
+  <!-- 位置を示す短い線と数 -->
   <line x1="30" y1="70" x2="30" y2="77" stroke="currentColor" stroke-width="1"/>
   <line x1="68" y1="70" x2="68" y2="77" stroke="currentColor" stroke-width="1"/>
   <line x1="106" y1="70" x2="106" y2="77" stroke="currentColor" stroke-width="1"/>
