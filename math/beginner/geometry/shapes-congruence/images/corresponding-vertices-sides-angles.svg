@@ -1,0 +1,47 @@
+<svg viewBox="0 0 560 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="三角形ABCと三角形DEFは合同である。頂点Aと頂点D、頂点Bと頂点E、頂点Cと頂点Fがそれぞれ対応する頂点である。辺AB・辺BC・辺CAは、それぞれ辺DE・辺EF・辺FDに対応し、同じ数の印(単一・二重・三重)で辺の長さが等しいことを表す。角A・角B・角Cは、それぞれ角D・角E・角Fに対応し、同じ数の弧(単一・二重・三重)で角の大きさが等しいことを表す。">
+  <polygon points="140,70 70,250 230,230" fill="none" stroke="currentColor" stroke-width="2"/>
+  <polygon points="301.5,207.4 490.9,245.0 443.5,90.9" fill="none" stroke="currentColor" stroke-width="2"/>
+  <circle cx="140" cy="70" r="3" fill="currentColor"/>
+  <circle cx="70" cy="250" r="3" fill="currentColor"/>
+  <circle cx="230" cy="230" r="3" fill="currentColor"/>
+  <circle cx="301.5" cy="207.4" r="3" fill="currentColor"/>
+  <circle cx="490.9" cy="245.0" r="3" fill="currentColor"/>
+  <circle cx="443.5" cy="90.9" r="3" fill="currentColor"/>
+  <text x="138.7" y="48.0" font-size="16" text-anchor="middle" fill="currentColor">A</text>
+  <text x="53.4" y="264.4" font-size="16" text-anchor="middle" fill="currentColor">B</text>
+  <text x="249.2" y="240.7" font-size="16" text-anchor="middle" fill="currentColor">C</text>
+  <text x="280.1" y="212.5" font-size="16" text-anchor="middle" fill="currentColor">D</text>
+  <text x="508.0" y="258.9" font-size="16" text-anchor="middle" fill="currentColor">E</text>
+  <text x="450.7" y="70.2" font-size="16" text-anchor="middle" fill="currentColor">F</text>
+  <!-- AB / DE: 単一の印 -->
+  <path d="M110.6,162.2 L99.4,157.8" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M397.4,220.3 L395.1,232.1" stroke="currentColor" stroke-width="1.5"/>
+  <!-- BC / EF: 二重の印 -->
+  <path d="M143.3,234.8 L144.8,246.7" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M155.2,233.3 L156.7,245.2" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M463.2,175.5 L474.7,172.0" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M459.7,164.0 L471.2,160.5" stroke="currentColor" stroke-width="1.5"/>
+  <!-- CA / FD: 三重の印 -->
+  <path d="M185.7,163.4 L196.1,157.5" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M179.8,152.9 L190.2,147.1" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M173.9,142.5 L184.3,136.6" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M385.6,146.2 L378.0,136.9" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M376.3,153.8 L368.7,144.5" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M367.0,161.4 L359.4,152.1" stroke="currentColor" stroke-width="1.5"/>
+  <!-- 角A / 角D: 単一の弧 -->
+  <path d="M132.0,90.5 A22,22 0 0,0 150.8,89.2" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M323.1,211.7 A22,22 0 0,0 318.5,193.4" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <!-- 角B / 角E: 二重の弧 -->
+  <path d="M76.5,233.2 A18,18 0 0,1 87.9,247.8" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M78.7,227.6 A24,24 0 0,1 93.8,247.0" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M473.3,241.5 A18,18 0 0,1 485.6,227.8" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M467.4,240.4 A24,24 0 0,1 483.9,222.1" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <!-- 角C / 角F: 三重の弧 -->
+  <path d="M222.2,216.1 A16,16 0 0,0 214.1,232.0" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M219.2,210.8 A22,22 0 0,0 208.2,232.7" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M216.3,205.6 A28,28 0 0,0 202.2,233.5" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M431.1,101.1 A16,16 0 0,0 448.2,106.2" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M426.4,104.9 A22,22 0 0,0 449.9,112.0" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M421.8,108.7 A28,28 0 0,0 451.7,117.7" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <text x="280" y="325" font-size="16" text-anchor="middle" fill="currentColor">△ABC ≡ △DEF</text>
+</svg>

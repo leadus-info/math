@@ -1,21 +1,29 @@
-<svg viewBox="0 0 360 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="長方形を対角線で切ると2枚の直角三角形ができ、対角線の中点を中心に180度回転させるとぴったり重なる合同な図形になることを示す図">
+<svg viewBox="0 0 360 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="長方形PQRSを対角線PRで切ると、三角形PQRと三角形RSPの2枚の直角三角形ができる。対角線PRとQSの交点である中点Oを中心に180度回転させると、点Pが点Rの位置に、点Qが点Sの位置に移ってぴったり重なり、2枚の三角形が合同であることを示す図である。対角線QSは点線で描かれている。回転の向きは矢印で示されている。">
+  <polygon points="60,60 300,60 300,200" fill="currentColor" fill-opacity="0.08"/>
   <polygon points="60,60 300,60 300,200 60,200" fill="none" stroke="currentColor" stroke-width="2"/>
   <line x1="60" y1="60" x2="300" y2="200" stroke="currentColor" stroke-width="2"/>
+  <line x1="300" y1="60" x2="60" y2="200" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4,3"/>
   <circle cx="60" cy="60" r="3" fill="currentColor"/>
   <circle cx="300" cy="60" r="3" fill="currentColor"/>
   <circle cx="300" cy="200" r="3" fill="currentColor"/>
   <circle cx="60" cy="200" r="3" fill="currentColor"/>
-  <text x="48" y="52" font-size="16" fill="currentColor">A</text>
-  <text x="308" y="52" font-size="16" fill="currentColor">B</text>
-  <text x="308" y="216" font-size="16" fill="currentColor">C</text>
-  <text x="48" y="216" font-size="16" fill="currentColor">D</text>
-  <!-- AB / CD: 単一の印 -->
+  <text x="48" y="52" font-size="16" fill="currentColor">P</text>
+  <text x="308" y="52" font-size="16" fill="currentColor">Q</text>
+  <text x="308" y="216" font-size="16" fill="currentColor">R</text>
+  <text x="48" y="216" font-size="16" fill="currentColor">S</text>
+  <!-- PQ / SR: 単一の印 -->
   <path d="M175,55 L185,65" stroke="currentColor" stroke-width="1.5"/>
   <path d="M175,195 L185,205" stroke="currentColor" stroke-width="1.5"/>
-  <!-- BC / DA: 二重の印 -->
+  <!-- QR / PS: 二重の印 -->
   <path d="M295,119 L305,129" stroke="currentColor" stroke-width="1.5"/>
   <path d="M295,131 L305,141" stroke="currentColor" stroke-width="1.5"/>
   <path d="M55,119 L65,129" stroke="currentColor" stroke-width="1.5"/>
   <path d="M55,131 L65,141" stroke="currentColor" stroke-width="1.5"/>
-  <text x="180" y="240" font-size="16" text-anchor="middle" fill="currentColor">△ABC ≡ △CDA</text>
+  <!-- 対角線PRとQSの交点O -->
+  <circle cx="180" cy="130" r="3" fill="currentColor"/>
+  <text x="145" y="104" font-size="16" fill="currentColor">O</text>
+  <!-- 中点Oを中心とした180度回転の向きを示す矢印 -->
+  <path d="M180,102 A28,28 0 1 1 162.8,152.1" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <polygon points="162.8,152.1 173.1,155.1 168.3,161.4" fill="currentColor"/>
+  <text x="180" y="240" font-size="16" text-anchor="middle" fill="currentColor">△PQR ≡ △RSP</text>
 </svg>
