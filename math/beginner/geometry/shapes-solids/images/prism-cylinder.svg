@@ -1,0 +1,34 @@
+<svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="三角形を底面とする角柱と円柱の見取図。前者は上下の三角形の底面と3つの長方形の側面から、後者は上下の円形の底面と1つの曲面の側面からなることを示す">
+  <!-- 三角柱 -->
+  <g stroke="currentColor" fill="none" stroke-width="2">
+    <!-- 下面(手前の底辺のみ実線、奥の2辺は点線) -->
+    <line x1="30" y1="220" x2="110" y2="220"/>
+    <line x1="110" y1="220" x2="95" y2="190" stroke-width="1.5" stroke-dasharray="4 3"/>
+    <line x1="95" y1="190" x2="30" y2="220" stroke-width="1.5" stroke-dasharray="4 3"/>
+    <!-- 側辺(手前2本は実線、奥1本は点線) -->
+    <line x1="30" y1="220" x2="30" y2="140"/>
+    <line x1="110" y1="220" x2="110" y2="140"/>
+    <line x1="95" y1="190" x2="95" y2="110" stroke-width="1.5" stroke-dasharray="4 3"/>
+    <!-- 上面(全辺実線) -->
+    <line x1="30" y1="140" x2="110" y2="140"/>
+    <line x1="110" y1="140" x2="95" y2="110"/>
+    <line x1="95" y1="110" x2="30" y2="140"/>
+  </g>
+  <line x1="60" y1="125" x2="60" y2="95" stroke="currentColor" stroke-width="1"/>
+  <text x="60" y="88" font-size="16" text-anchor="middle" fill="currentColor">底面</text>
+  <line x1="112" y1="180" x2="150" y2="180" stroke="currentColor" stroke-width="1"/>
+  <text x="156" y="184" font-size="16" fill="currentColor">側面</text>
+
+  <!-- 円柱 -->
+  <g stroke="currentColor" fill="none" stroke-width="2">
+    <ellipse cx="300" cy="110" rx="45" ry="15"/>
+    <line x1="255" y1="110" x2="255" y2="190"/>
+    <line x1="345" y1="110" x2="345" y2="190"/>
+    <path d="M 255,190 A 45,15 0 0 0 345,190" stroke-width="1.5" stroke-dasharray="4 3"/>
+    <path d="M 255,190 A 45,15 0 0 1 345,190"/>
+  </g>
+  <line x1="300" y1="97" x2="300" y2="70" stroke="currentColor" stroke-width="1"/>
+  <text x="300" y="63" font-size="16" text-anchor="middle" fill="currentColor">底面</text>
+  <line x1="345" y1="150" x2="358" y2="150" stroke="currentColor" stroke-width="1"/>
+  <text x="360" y="154" font-size="16" fill="currentColor">側面</text>
+</svg>
