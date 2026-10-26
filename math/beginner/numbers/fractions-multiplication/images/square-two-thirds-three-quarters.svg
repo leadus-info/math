@@ -1,0 +1,31 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="1辺の長さが1の正方形を縦に3等分・横に4等分し、縦の3等分のうち上から2つ分と横の4等分のうち左から3つ分が重なる部分(6個の小さな長方形分)を強調表示した図">
+  <!-- 強調領域: 縦2/3 × 横3/4 が重なる部分(6個の小さな長方形分) -->
+  <rect x="70" y="50" width="210" height="186.7" fill="currentColor" fill-opacity="0.12" stroke="none"/>
+
+  <!-- 正方形の外枠 -->
+  <rect x="70" y="50" width="280" height="280" fill="none" stroke="currentColor" stroke-width="2"/>
+
+  <!-- 縦3等分の区切り線(横線) -->
+  <line x1="70" y1="143.3" x2="350" y2="143.3" stroke="currentColor" stroke-width="1"/>
+  <line x1="70" y1="236.7" x2="350" y2="236.7" stroke="currentColor" stroke-width="1"/>
+
+  <!-- 横4等分の区切り線(縦線) -->
+  <line x1="140" y1="50" x2="140" y2="330" stroke="currentColor" stroke-width="1"/>
+  <line x1="210" y1="50" x2="210" y2="330" stroke="currentColor" stroke-width="1"/>
+  <line x1="280" y1="50" x2="280" y2="330" stroke="currentColor" stroke-width="1"/>
+
+  <!-- 上部: 横4等分のうち左から3つ分(3/4)を示すブラケット -->
+  <line x1="70" y1="35" x2="70" y2="42" stroke="currentColor" stroke-width="1"/>
+  <line x1="280" y1="35" x2="280" y2="42" stroke="currentColor" stroke-width="1"/>
+  <line x1="70" y1="35" x2="280" y2="35" stroke="currentColor" stroke-width="1"/>
+  <text x="175" y="24" font-size="16" text-anchor="middle" fill="currentColor">3/4</text>
+
+  <!-- 左側: 縦3等分のうち上から2つ分(2/3)を示すブラケット -->
+  <line x1="55" y1="50" x2="62" y2="50" stroke="currentColor" stroke-width="1"/>
+  <line x1="55" y1="236.7" x2="62" y2="236.7" stroke="currentColor" stroke-width="1"/>
+  <line x1="55" y1="50" x2="55" y2="236.7" stroke="currentColor" stroke-width="1"/>
+  <text x="45" y="148" font-size="16" text-anchor="end" fill="currentColor">2/3</text>
+
+  <!-- 正方形の1辺の長さ(=1)を示すラベル -->
+  <text x="360" y="194" font-size="16" fill="currentColor">1</text>
+</svg>
