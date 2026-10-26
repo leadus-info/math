@@ -1,0 +1,62 @@
+<svg viewBox="0 0 400 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="1から始まる数直線を上下2段に並べ、上段は4の位置から3だけ右に進んで7に着き、下段は7の位置から3だけ左に進んで4に着くことを示した図">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="currentColor"/>
+    </marker>
+  </defs>
+  <!-- 4 + 3 -->
+  <line x1="30" y1="70" x2="360" y2="70" stroke="currentColor" stroke-width="2"/>
+  <text x="366" y="75" font-size="13" fill="currentColor">…</text>
+  <line x1="30" y1="70" x2="30" y2="77" stroke="currentColor" stroke-width="1"/>
+  <line x1="68" y1="70" x2="68" y2="77" stroke="currentColor" stroke-width="1"/>
+  <line x1="106" y1="70" x2="106" y2="77" stroke="currentColor" stroke-width="1"/>
+  <line x1="144" y1="70" x2="144" y2="77" stroke="currentColor" stroke-width="1"/>
+  <line x1="182" y1="70" x2="182" y2="77" stroke="currentColor" stroke-width="1"/>
+  <line x1="220" y1="70" x2="220" y2="77" stroke="currentColor" stroke-width="1"/>
+  <line x1="258" y1="70" x2="258" y2="77" stroke="currentColor" stroke-width="1"/>
+  <line x1="296" y1="70" x2="296" y2="77" stroke="currentColor" stroke-width="1"/>
+  <line x1="334" y1="70" x2="334" y2="77" stroke="currentColor" stroke-width="1"/>
+  <text x="30" y="92" font-size="13" text-anchor="middle" fill="currentColor">1</text>
+  <text x="68" y="92" font-size="13" text-anchor="middle" fill="currentColor">2</text>
+  <text x="106" y="92" font-size="13" text-anchor="middle" fill="currentColor">3</text>
+  <text x="144" y="92" font-size="13" text-anchor="middle" fill="currentColor">4</text>
+  <text x="182" y="92" font-size="13" text-anchor="middle" fill="currentColor">5</text>
+  <text x="220" y="92" font-size="13" text-anchor="middle" fill="currentColor">6</text>
+  <text x="258" y="92" font-size="13" text-anchor="middle" font-weight="bold" fill="currentColor">7</text>
+  <text x="296" y="92" font-size="13" text-anchor="middle" fill="currentColor">8</text>
+  <text x="334" y="92" font-size="13" text-anchor="middle" fill="currentColor">9</text>
+  <circle cx="144" cy="70" r="3.5" fill="currentColor"/>
+  <path d="M 144,70 Q 163,40 182,70" fill="none" stroke="currentColor" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M 182,70 Q 201,40 220,70" fill="none" stroke="currentColor" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M 220,70 Q 239,40 258,70" fill="none" stroke="currentColor" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="20" y="28" font-size="14" fill="currentColor">4 + 3</text>
+  <text x="201" y="28" font-size="16" text-anchor="middle" fill="currentColor">3つ分</text>
+  <!-- 7 - 3 -->
+  <line x1="30" y1="200" x2="360" y2="200" stroke="currentColor" stroke-width="2"/>
+  <text x="366" y="205" font-size="13" fill="currentColor">…</text>
+  <line x1="30" y1="200" x2="30" y2="207" stroke="currentColor" stroke-width="1"/>
+  <line x1="68" y1="200" x2="68" y2="207" stroke="currentColor" stroke-width="1"/>
+  <line x1="106" y1="200" x2="106" y2="207" stroke="currentColor" stroke-width="1"/>
+  <line x1="144" y1="200" x2="144" y2="207" stroke="currentColor" stroke-width="1"/>
+  <line x1="182" y1="200" x2="182" y2="207" stroke="currentColor" stroke-width="1"/>
+  <line x1="220" y1="200" x2="220" y2="207" stroke="currentColor" stroke-width="1"/>
+  <line x1="258" y1="200" x2="258" y2="207" stroke="currentColor" stroke-width="1"/>
+  <line x1="296" y1="200" x2="296" y2="207" stroke="currentColor" stroke-width="1"/>
+  <line x1="334" y1="200" x2="334" y2="207" stroke="currentColor" stroke-width="1"/>
+  <text x="30" y="222" font-size="13" text-anchor="middle" fill="currentColor">1</text>
+  <text x="68" y="222" font-size="13" text-anchor="middle" fill="currentColor">2</text>
+  <text x="106" y="222" font-size="13" text-anchor="middle" fill="currentColor">3</text>
+  <text x="144" y="222" font-size="13" text-anchor="middle" font-weight="bold" fill="currentColor">4</text>
+  <text x="182" y="222" font-size="13" text-anchor="middle" fill="currentColor">5</text>
+  <text x="220" y="222" font-size="13" text-anchor="middle" fill="currentColor">6</text>
+  <text x="258" y="222" font-size="13" text-anchor="middle" fill="currentColor">7</text>
+  <text x="296" y="222" font-size="13" text-anchor="middle" fill="currentColor">8</text>
+  <text x="334" y="222" font-size="13" text-anchor="middle" fill="currentColor">9</text>
+  <circle cx="258" cy="200" r="3.5" fill="currentColor"/>
+  <path d="M 258,200 Q 239,170 220,200" fill="none" stroke="currentColor" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M 220,200 Q 201,170 182,200" fill="none" stroke="currentColor" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M 182,200 Q 163,170 144,200" fill="none" stroke="currentColor" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="20" y="158" font-size="14" fill="currentColor">7 - 3</text>
+  <text x="201" y="158" font-size="16" text-anchor="middle" fill="currentColor">3つ分</text>
+</svg>
