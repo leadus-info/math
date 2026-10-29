@@ -1,4 +1,4 @@
-<svg viewBox="0 0 360 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="長方形PQRSを対角線PRで切ると、三角形PQRと三角形RSPの2枚の直角三角形ができる。対角線PRとQSの交点である中点Oを中心に180度回転させると、点Pが点Rの位置に、点Qが点Sの位置に移ってぴったり重なり、2枚の三角形が合同であることを示す図である。対角線QSは点線で描かれている。回転の向きは矢印で示されている。">
+<svg viewBox="0 0 360 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="長方形PQRSを対角線PRで切ると、三角形PQRと三角形RSPの2枚の直角三角形ができる。三角形PQRを、対角線PRの真ん中の点(図の点O。点線の対角線QSとの交わる点でもある)を中心に180度回転させると、点Pが点Rの位置に、点Rが点Pの位置に、点Qが点Sの位置に移ってぴったり重なり、2枚の三角形が合同であることを示す図である。向かい合う辺PQとRSには長さが等しいことを示す同じ印が付いている。回転の向きは矢印で示されている。">
   <polygon points="60,60 300,60 300,200" fill="currentColor" fill-opacity="0.08"/>
   <polygon points="60,60 300,60 300,200 60,200" fill="none" stroke="currentColor" stroke-width="2"/>
   <line x1="60" y1="60" x2="300" y2="200" stroke="currentColor" stroke-width="2"/>
