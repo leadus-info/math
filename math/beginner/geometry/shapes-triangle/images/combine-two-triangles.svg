@@ -1,24 +1,28 @@
-<svg viewBox="0 0 260 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="同じ形の三角形を2つ用意し、一方を180度回転させて組み合わせると、向かい合う辺の長さが等しく平行な四角形ができる様子を表す図。四角形の中心を通る点線が引かれており、これによって四角形が回転前の三角形と回転後の三角形の2つに分けて示されている。四角形の向かい合う2組の辺それぞれに、辺の長さが等しいことを示すしるしと、平行であることを示す矢印が付けられており、単線と二重線で2組を区別している">
-  <polygon points="110,40 200,200 150,360 60,200" fill="none" stroke="currentColor" stroke-width="2"/>
-  <line x1="60" y1="200" x2="200" y2="200" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
-  <circle cx="110" cy="40" r="3" fill="currentColor"/>
-  <circle cx="200" cy="200" r="3" fill="currentColor"/>
-  <circle cx="150" cy="360" r="3" fill="currentColor"/>
-  <circle cx="60" cy="200" r="3" fill="currentColor"/>
-  <text x="110" y="26" font-size="16" text-anchor="middle" fill="currentColor">C</text>
-  <text x="218" y="205" font-size="16" text-anchor="middle" fill="currentColor">B</text>
-  <text x="150" y="386" font-size="16" text-anchor="middle" fill="currentColor">D</text>
-  <text x="42" y="205" font-size="16" text-anchor="middle" fill="currentColor">A</text>
-  <path d="M149.8,122.9 L160.2,117.1" stroke="currentColor" stroke-width="1.5"/>
-  <path d="M110.2,277.1 L99.8,282.9" stroke="currentColor" stroke-width="1.5"/>
-  <path d="M77.5,123.9 L88.9,127.5" stroke="currentColor" stroke-width="1.5"/>
-  <path d="M81.1,112.5 L92.5,116.1" stroke="currentColor" stroke-width="1.5"/>
-  <path d="M171.1,272.5 L182.5,276.1" stroke="currentColor" stroke-width="1.5"/>
-  <path d="M167.5,283.9 L178.9,287.5" stroke="currentColor" stroke-width="1.5"/>
-  <path d="M139.9,93.2 L130.6,84.7 M139.9,93.2 L137.6,80.8" stroke="currentColor" stroke-width="1.5"/>
-  <path d="M89.9,253.2 L80.6,244.7 M89.9,253.2 L87.6,240.8" stroke="currentColor" stroke-width="1.5"/>
-  <path d="M183.2,253.7 L183.0,241.1 M183.2,253.7 L190.6,243.5" stroke="currentColor" stroke-width="1.5"/>
-  <path d="M180.2,263.3 L180.0,250.6 M180.2,263.3 L187.6,253.0" stroke="currentColor" stroke-width="1.5"/>
-  <path d="M93.2,93.7 L93.0,81.1 M93.2,93.7 L100.6,83.5" stroke="currentColor" stroke-width="1.5"/>
-  <path d="M90.2,103.3 L90.0,90.6 M90.2,103.3 L97.6,93.0" stroke="currentColor" stroke-width="1.5"/>
+<svg viewBox="0 0 300 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="三角形ABDと、それを辺BDの真ん中の点を中心に180度回転させた三角形CDBを、辺BD(点線)で組み合わせてできた四角形ABCDの図。辺ABと辺DCに長さが等しいことを示す1本線のしるしと平行を示す1つの矢印、辺ADと辺BCに2本線のしるしと2つの矢印が付いている。頂点Dから辺ABに垂直に下ろした線DEが高さとして示されている">
+  <polygon points="60,180 200,180 240,60 100,60" fill="none" stroke="currentColor" stroke-width="2"/>
+  <line x1="200" y1="180" x2="100" y2="60" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="100" y1="60" x2="100" y2="180" stroke="currentColor" stroke-width="1" stroke-dasharray="2 3"/>
+  <path d="M100,168 L112,168 L112,180" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <circle cx="150" cy="120" r="2.5" fill="currentColor"/>
+  <line x1="130" y1="174" x2="130" y2="186" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="170" y1="54" x2="170" y2="66" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M156,175 L164,180 L156,185" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M136,55 L144,60 L136,65" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="73.0" y1="121.9" x2="84.4" y2="125.7" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="75.6" y1="114.3" x2="87.0" y2="118.1" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="213.0" y1="121.9" x2="224.4" y2="125.7" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="215.6" y1="114.3" x2="227.0" y2="118.1" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M72.2,159.2 L70,150 L62.8,156.0 M75.0,150.8 L72.8,141.6 L65.6,147.6" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M212.2,159.2 L210,150 L202.8,156.0 M215.0,150.8 L212.8,141.6 L205.6,147.6" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <circle cx="60" cy="180" r="3" fill="currentColor"/>
+  <circle cx="200" cy="180" r="3" fill="currentColor"/>
+  <circle cx="240" cy="60" r="3" fill="currentColor"/>
+  <circle cx="100" cy="60" r="3" fill="currentColor"/>
+  <text x="60" y="200" font-size="16" text-anchor="middle" fill="currentColor">A</text>
+  <text x="200" y="200" font-size="16" text-anchor="middle" fill="currentColor">B</text>
+  <text x="240" y="46" font-size="16" text-anchor="middle" fill="currentColor">C</text>
+  <text x="100" y="46" font-size="16" text-anchor="middle" fill="currentColor">D</text>
+  <text x="100" y="200" font-size="16" text-anchor="middle" fill="currentColor">E</text>
+  <text x="130" y="224" font-size="14" text-anchor="middle" fill="currentColor">底辺</text>
+  <text x="105" y="140" font-size="14" text-anchor="start" fill="currentColor">高さ</text>
 </svg>
