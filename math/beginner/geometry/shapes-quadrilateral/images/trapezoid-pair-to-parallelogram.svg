@@ -1,4 +1,4 @@
-<svg viewBox="0 70 470 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="台形を2つ、上下逆にして組み合わせると、底辺が上底＋下底、高さが元の台形と同じ平行四辺形になることを示す図">
+<svg viewBox="0 70 470 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="台形をもう1つ用意し、上底・下底でない辺の真ん中の点を中心に180度回転させて組み合わせると、底辺が上底＋下底、高さが元の台形と同じ平行四辺形になることを示す図">
   <polygon points="60,200 260,200 210,100 110,100" fill="none" stroke="currentColor" stroke-width="2"/>
   <line x1="410" y1="100" x2="210" y2="100" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
   <line x1="260" y1="200" x2="360" y2="200" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
