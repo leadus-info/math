@@ -11,24 +11,24 @@
     <text x="150" y="126">0.5</text>
     <text x="75" y="138">みかん</text>
     <text x="75" y="156">0.3</text>
-    <text x="85" y="62">ぶどう</text>
-    <text x="85" y="80">0.2</text>
+    <text x="80" y="62">ぶどう</text>
+    <text x="80" y="80">0.2</text>
   </g>
   <text x="110" y="220" font-size="14" text-anchor="middle" fill="currentColor">円グラフ</text>
 
-  <!-- 帯グラフ: 幅220を 110・66・44 に区切る -->
+  <!-- 帯グラフ: 幅250を 125・75・50 に区切る -->
   <g stroke="currentColor" stroke-width="2" fill="none">
-    <rect x="235" y="85" width="220" height="50"/>
+    <rect x="220" y="85" width="250" height="50"/>
     <line x1="345" y1="85" x2="345" y2="135"/>
-    <line x1="411" y1="85" x2="411" y2="135"/>
+    <line x1="420" y1="85" x2="420" y2="135"/>
   </g>
   <g font-size="15" fill="currentColor" text-anchor="middle">
-    <text x="290" y="106">りんご</text>
-    <text x="290" y="124">0.5</text>
-    <text x="378" y="106">みかん</text>
-    <text x="378" y="124">0.3</text>
-    <text x="433" y="106">ぶどう</text>
-    <text x="433" y="124">0.2</text>
+    <text x="282.5" y="106">りんご</text>
+    <text x="282.5" y="124">0.5</text>
+    <text x="382.5" y="106">みかん</text>
+    <text x="382.5" y="124">0.3</text>
+    <text x="445" y="106">ぶどう</text>
+    <text x="445" y="124">0.2</text>
   </g>
   <text x="345" y="220" font-size="14" text-anchor="middle" fill="currentColor">帯グラフ</text>
 </svg>
