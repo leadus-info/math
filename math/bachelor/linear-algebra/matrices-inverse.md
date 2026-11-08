@@ -29,7 +29,7 @@ $$\begin{pmatrix}a&b\\c&d\end{pmatrix}^{-1} = \frac{1}{ad-bc}\begin{pmatrix}d&-b
 
 ## n次正方行列の逆行列：余因子行列
 
-行列式の余因子 $A_{ij}$ を並べた行列の転置を**余因子行列**（**随伴行列**）といいます。
+行列 $A$ の $(i,j)$ 成分を $(j,i)$ 成分の位置に置いた行列を、$A$ の**転置**といい、$A^\top$ と書きます。行列式の余因子 $A_{ij}$ を並べた行列の転置を**余因子行列**（**随伴行列**）といいます。
 
 $$\mathrm{adj}(A) = \begin{pmatrix}A_{11} & A_{21} & \cdots \\ A_{12} & A_{22} & \cdots \\ \vdots & & \ddots\end{pmatrix}$$
 
@@ -53,7 +53,7 @@ $i \neq k$ のときは、$A$ の第 $k$ 行を第 $i$ 行で置き換えた行�
 
 - 上で示した等式は任意の正方行列について成り立つので、$A^\top$ に当てはめると $A^\top\cdot\mathrm{adj}(A^\top) = \det(A^\top)\,I$ です。行列式の性質 $\det(A^\top)=\det(A)$（行列式の記事）より、右辺は $\det(A)\,I$ です。
 - $A^\top$ の $(i,j)$ 余因子は、$A^\top$ から第 $i$ 行と第 $j$ 列を除いた小行列式から作ります。この小行列は、$A$ から第 $j$ 行と第 $i$ 列を除いた小行列の転置なので、再び $\det(A^\top)=\det(A)$ より、$A^\top$ の $(i,j)$ 余因子は $A$ の $(j,i)$ 余因子 $A_{ji}$ に等しくなります（符号 $(-1)^{i+j}$ も共通です）。したがって $\mathrm{adj}(A^\top)=\mathrm{adj}(A)^\top$ です。
-- これらから $A^\top\cdot\mathrm{adj}(A)^\top = \det(A)\,I$ となります。両辺の転置をとると、$(XY)^\top=Y^\top X^\top$ より $\mathrm{adj}(A)\cdot A = \det(A)\,I$ が得られます。
+- これらから $A^\top\cdot\mathrm{adj}(A)^\top = \det(A)\,I$ となります。両辺の転置をとります。一般に、積の転置は $((XY)^\top)_{ik}=(XY)_{ki}=\sum_j x_{kj}y_{ji}=\sum_j (Y^\top)_{ij}(X^\top)_{jk}$ より $(XY)^\top=Y^\top X^\top$ となるので、$\mathrm{adj}(A)\cdot A = \det(A)\,I$ が得られます。
 
 以上で両側の等式がそろったので、$\det(A)\neq0$ のとき $B=\dfrac{1}{\det(A)}\mathrm{adj}(A)$ は $AB=BA=I$ を満たし、$A^{-1} = \dfrac{1}{\det(A)}\mathrm{adj}(A)$ です。$\blacksquare$
 
