@@ -35,7 +35,7 @@ $$\mathrm{adj}(A) = \begin{pmatrix}A_{11} & A_{21} & \cdots \\ A_{12} & A_{22} &
 
 **定理**：$\det(A) \neq 0$ ならば $A^{-1} = \dfrac{1}{\det(A)}\,\mathrm{adj}(A)$。
 
-**証明**：$A \cdot \mathrm{adj}(A) = \det(A)\, I$ を示せば、両辺を $\det(A)$（$\neq 0$）で割ることで定理が従います。積 $A \cdot \mathrm{adj}(A)$ の $(i,k)$ 成分は、行列の積の定義より
+**証明**：逆行列の定義は $AB=BA=I$ なので、$A \cdot \mathrm{adj}(A) = \det(A)\, I$ と $\mathrm{adj}(A)\cdot A = \det(A)\, I$ の両方を示せば、両辺を $\det(A)$（$\neq 0$）で割ることで定理が従います。まず $A \cdot \mathrm{adj}(A) = \det(A)\, I$ を示します。積 $A \cdot \mathrm{adj}(A)$ の $(i,k)$ 成分は、行列の積の定義より
 
 $$\bigl(A \cdot \mathrm{adj}(A)\bigr)_{ik} = \sum_{j=1}^n a_{ij} A_{kj}$$
 
@@ -47,7 +47,15 @@ $i \neq k$ のときは、$A$ の第 $k$ 行を第 $i$ 行で置き換えた行�
 
 よって、$a'_{kj}=a_{ij}$ と $A'_{kj}=A_{kj}$ を代入すると、$A'$ の第 $k$ 行に関する余因子展開は $\sum_j a'_{kj}A'_{kj} = \sum_j a_{ij}A_{kj}$ となり、これは上で求めた成分の式にちょうど一致します。交代性（行列式の記事）より、同じ行が2つある行列の行列式は $0$ なので、この成分は $0$ になります。
 
-まとめると $\bigl(A\cdot\mathrm{adj}(A)\bigr)_{ik} = \det(A)$（$i=k$）、$0$（$i\neq k$）となり、これはちょうど $\det(A)\,I$ の成分と一致します。よって $A\cdot\mathrm{adj}(A) = \det(A)\,I$、すなわち $A^{-1} = \dfrac{1}{\det(A)}\mathrm{adj}(A)$。$\blacksquare$
+まとめると $\bigl(A\cdot\mathrm{adj}(A)\bigr)_{ik} = \det(A)$（$i=k$）、$0$（$i\neq k$）となり、これはちょうど $\det(A)\,I$ の成分と一致します。よって $A\cdot\mathrm{adj}(A) = \det(A)\,I$ です。
+
+次に、逆向きの積 $\mathrm{adj}(A)\cdot A = \det(A)\,I$ を、転置を使って示します。
+
+- 上で示した等式は任意の正方行列について成り立つので、$A^\top$ に当てはめると $A^\top\cdot\mathrm{adj}(A^\top) = \det(A^\top)\,I$ です。行列式の性質 $\det(A^\top)=\det(A)$（行列式の記事）より、右辺は $\det(A)\,I$ です。
+- $A^\top$ の $(i,j)$ 余因子は、$A^\top$ から第 $i$ 行と第 $j$ 列を除いた小行列式から作ります。この小行列は、$A$ から第 $j$ 行と第 $i$ 列を除いた小行列の転置なので、再び $\det(A^\top)=\det(A)$ より、$A^\top$ の $(i,j)$ 余因子は $A$ の $(j,i)$ 余因子 $A_{ji}$ に等しくなります（符号 $(-1)^{i+j}$ も共通です）。したがって $\mathrm{adj}(A^\top)=\mathrm{adj}(A)^\top$ です。
+- これらから $A^\top\cdot\mathrm{adj}(A)^\top = \det(A)\,I$ となります。両辺の転置をとると、$(XY)^\top=Y^\top X^\top$ より $\mathrm{adj}(A)\cdot A = \det(A)\,I$ が得られます。
+
+以上で両側の等式がそろったので、$\det(A)\neq0$ のとき $B=\dfrac{1}{\det(A)}\mathrm{adj}(A)$ は $AB=BA=I$ を満たし、$A^{-1} = \dfrac{1}{\det(A)}\mathrm{adj}(A)$ です。$\blacksquare$
 
 （$2$ 次の場合、この公式は $\dfrac{1}{ad-bc}\begin{pmatrix}d&-b\\-c&a\end{pmatrix}$ に一致します。）余因子の計算量が $n$ が大きくなると急激に増えるため、実際の計算では次の**掃き出し法**がよく使われます。
 
@@ -69,7 +77,7 @@ $$\boldsymbol{x}=A^{-1}\boldsymbol{b}=\begin{pmatrix}1&-1\\-1&2\end{pmatrix}\beg
 
 ## まとめ
 
-逆行列は、掛けると単位行列になる「変換を打ち消す」行列です。行列式が0でないときにのみ存在し、$A\cdot\mathrm{adj}(A)=\det(A)I$ を余因子展開と交代性から証明することで、余因子行列を使った公式が導けます。実用上は掃き出し法で求めることが多く、連立方程式を解く手段としても使えます。
+逆行列は、掛けると単位行列になる「変換を打ち消す」行列です。行列式が0でないときにのみ存在し、$A\cdot\mathrm{adj}(A)=\mathrm{adj}(A)\cdot A=\det(A)I$ を余因子展開・交代性・転置の性質から証明することで、余因子行列を使った公式が導けます。実用上は掃き出し法で求めることが多く、連立方程式を解く手段としても使えます。
 
 ---
 
