@@ -94,7 +94,7 @@ $$T(\boldsymbol{x}) = \sum_{i=1}^k c_i T(\boldsymbol{v}_i) + \sum_{i=k+1}^n c_i 
 
 以上より $T(\boldsymbol{v}_{k+1}), \ldots, T(\boldsymbol{v}_n)$ は $\mathrm{Im}\,T$ の基底なので $\dim(\mathrm{Im}\,T) = n-k$、すなわち $\dim(\ker T) + \dim(\mathrm{Im}\,T) = k + (n-k) = n$。$\blacksquare$
 
-**例**：$A = \begin{pmatrix}1&2&3\\2&4&6\end{pmatrix}$ のとき $\mathrm{rank}(A) = 1$（行が比例）。次元定理より $\dim(\ker T) = 3 - 1 = 2$。
+**例**：$A = \begin{pmatrix}1&2&3\\2&4&6\end{pmatrix}$ を表現行列とする線形写像 $T: \mathbb{R}^3 \to \mathbb{R}^2$、$T(\boldsymbol{x}) = A\boldsymbol{x}$ を考えます。$\mathrm{Im}\,T$ は $A$ の列 $\begin{pmatrix}1\\2\end{pmatrix}$、$\begin{pmatrix}2\\4\end{pmatrix}$、$\begin{pmatrix}3\\6\end{pmatrix}$ が張る空間です。2列目・3列目はそれぞれ1列目の $2$ 倍・$3$ 倍なので、$\mathrm{Im}\,T$ は $\begin{pmatrix}1\\2\end{pmatrix}$ が張る1次元の空間で、$\mathrm{rank}(A) = \dim(\mathrm{Im}\,T) = 1$ です。次元定理より $\dim(\ker T) = 3 - 1 = 2$。
 
 ---
 
