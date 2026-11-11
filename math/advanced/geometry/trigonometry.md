@@ -51,7 +51,7 @@ $$\sin^2 A + \cos^2 A = 1$$
 
 $$\frac{\sin^2A}{\cos^2A}+1 = \frac{1}{\cos^2A} \implies 1 + \tan^2 A = \frac{1}{\cos^2 A}$$
 
-**例**：$\sin A = \dfrac{3}{5}$ のとき、$\cos^2 A = 1 - \dfrac{9}{25} = \dfrac{16}{25}$ より $\cos A = \dfrac{4}{5}$（$A$ が鋭角なら正）、$\tan A = \dfrac{3/5}{4/5} = \dfrac{3}{4}$。
+**例**：$\sin A = \dfrac{3}{5}$ のとき、$\cos^2 A = 1 - \dfrac{9}{25} = \dfrac{16}{25}$ より $\cos A = \pm\dfrac{4}{5}$ ですが、鋭角の三角比は辺の比なので正の値で、$\cos A = \dfrac{4}{5}$ です（角を鈍角まで広げると負の値も現れることを、次の節で見ます）。$\tan A = \dfrac{3/5}{4/5} = \dfrac{3}{4}$。
 
 ---
 
@@ -70,6 +70,12 @@ $$\frac{\sin^2A}{\cos^2A}+1 = \frac{1}{\cos^2A} \implies 1 + \tan^2 A = \frac{1}
 $$\sin^2\theta+\cos^2\theta=1, \qquad \tan\theta=\frac{\sin\theta}{\cos\theta}, \qquad 1+\tan^2\theta=\frac{1}{\cos^2\theta}$$
 
 1つ目は、点 $P(\cos\theta,\sin\theta)$ が原点からの距離1の位置にあることから成り立ちます。$P$ から $x$ 軸に下ろした垂線を使うと、横 $|\cos\theta|$・縦 $\sin\theta$・斜辺1の直角三角形ができ（$\theta=0°, 90°, 180°$ のときは $P$ が軸上にあり、直接確かめられます）、三平方の定理から $\cos^2\theta+\sin^2\theta=1$ です。2つ目は定義そのもの、3つ目は1つ目の両辺を $\cos^2\theta$ で割って得られます。なお、余角の関係 $\sin A=\cos(90°-A)$ は、直角三角形の2つの鋭角の関係として導いたものなので、ここでは鋭角 $A$ に限って使います。
+
+$0°\leq\theta\leq180°$ では $\sin\theta\geq0$ ですが、$\cos\theta$ は $\theta$ が鋭角なら正、鈍角なら負になります。そのため、$\sin^2\theta+\cos^2\theta=1$ から $\cos\theta$ を求めるときは、$\theta$ が鋭角か鈍角かで符号を決めます。
+
+**例**：$90°<\theta<180°$、$\sin\theta=\dfrac{3}{5}$ のとき、$\cos^2\theta = 1-\dfrac{9}{25} = \dfrac{16}{25}$ です。$\theta$ は鈍角なので $\cos\theta<0$ で、$\cos\theta=-\dfrac{4}{5}$、$\tan\theta=\dfrac{3/5}{-4/5}=-\dfrac{3}{4}$ です。
+
+**例**：$0°\leq\theta\leq180°$、$\tan\theta=-2$ のとき、$1+\tan^2\theta=\dfrac{1}{\cos^2\theta}$ より $\dfrac{1}{\cos^2\theta}=1+4=5$、$\cos^2\theta=\dfrac{1}{5}$ です。$\sin\theta\geq0$ なので、$\tan\theta=\dfrac{\sin\theta}{\cos\theta}<0$ となるのは $\cos\theta<0$（鈍角）のときです。よって $\cos\theta=-\dfrac{1}{\sqrt5}=-\dfrac{\sqrt5}{5}$、$\sin\theta=\tan\theta\cos\theta=(-2)\times\left(-\dfrac{\sqrt5}{5}\right)=\dfrac{2\sqrt5}{5}$ です。このように、$\tan$ の値から $\cos$ を求めるときに $1+\tan^2\theta=\dfrac{1}{\cos^2\theta}$ を使います。
 
 次に、角 $\theta$ と角 $180°-\theta$ の三角比の関係を調べます。$\theta$ と $180°-\theta$ は、$90°$（$y$ 軸の正の向き）からちょうど同じだけ反対側に離れた角です。そのため、半円上で角 $\theta$ に対応する点 $P(\cos\theta, \sin\theta)$ と、角 $180°-\theta$ に対応する点 $P'$ は、$y$ 軸に関して対称な位置にあります。$y$ 軸に関して対称な2点は、$y$ 座標が同じで、$x$ 座標は符号だけが逆になるので、$P'$ の座標は $(-\cos\theta, \sin\theta)$ です。一方、$P'$ の座標は定義により $(\cos(180°-\theta), \sin(180°-\theta))$ なので、座標を比べて次が成り立ちます。
 
