@@ -131,9 +131,9 @@ $$\angle BAC+\angle CDB=180°$$
 
 ### 接線の場合
 
-円と2点で交わる直線を**割線**といいます。$P$ が円の外部にあるとき、$P$ から円への接線の接点を $T$ とし、$P$ を通る割線と円の交点を $A,B$ とすると、$PT^2 = PA\cdot PB$ が成り立ちます。
+円と2点で交わる直線を**割線**といいます。$P$ が円の外部にあるとき、$P$ から円への接線の接点を $T$ とし、$P$ を通る割線と円の交点を $P$ に近い方から $A,B$ とすると（$P$、$A$、$B$ はこの順に一直線上に並びます）、$PT^2 = PA\cdot PB$ が成り立ちます。
 
-**証明**：三角形 $PTA$ と三角形 $PBT$ が相似であることを示します。$\angle TPA$ と $\angle BPT$ は、半直線 $PA$ と半直線 $PB$ が一致するので同じ角です。また、接線上の半直線 $TP$ と弦 $TA$ のなす角 $\angle PTA$ について、$B$ はこの角の内側にない弧の上にあるので、接弦定理より $\angle PTA=\angle TBA$ です。$A$ は $P$ と $B$ の間にあるので $\angle TBA=\angle TBP$ であり、$\angle PTA=\angle PBT$ です。2組の角がそれぞれ等しいので、三角形 $PTA$ と三角形 $PBT$ は相似です（$P\leftrightarrow P$、$T\leftrightarrow B$、$A\leftrightarrow T$）。対応する辺の比から $PT:PB=PA:PT$ となり、$PT^2=PA\cdot PB$ が得られます。$\square$
+**証明**：三角形 $PTA$ と三角形 $PBT$ が相似であることを示します。$\angle TPA$ と $\angle BPT$ は、半直線 $PA$ と半直線 $PB$ が一致するので同じ角です。また、接線上の半直線 $TP$ と弦 $TA$ のなす角 $\angle PTA$ を考えます。弦 $TA$ は円周を2つの弧に分けますが、$\angle PTA$ の内側にある弧は、直線 $TA$ について $P$ と同じ側にあります。一方、$A$ は $P$ と $B$ の間にあって直線 $TA$ 上の点なので、$P$ と $B$ は直線 $TA$ について反対側にあります。したがって $B$ は $\angle PTA$ の内側にない方の弧の上にあり、接弦定理より $\angle PTA=\angle TBA$ です。$A$ は $P$ と $B$ の間にあるので $\angle TBA=\angle TBP$ であり、$\angle PTA=\angle PBT$ です。2組の角がそれぞれ等しいので、三角形 $PTA$ と三角形 $PBT$ は相似です（$P\leftrightarrow P$、$T\leftrightarrow B$、$A\leftrightarrow T$）。対応する辺の比から $PT:PB=PA:PT$ となり、$PT^2=PA\cdot PB$ が得られます。$\square$
 
 > [!NOTE]
 > 直観的には、次のように考えることもできます。$P$ を通る割線を少しずつ回して接線に近づけると、2つの交点 $A,B$ はどちらも接点 $T$ に近づき、$PA$、$PB$ はどちらも $PT$ に近づきます。$PA\cdot PB$ は割線を回しても変わらないので、その値は $PT\cdot PT=PT^2$ に等しくなる、というわけです。これは証明ではなく、結果を思い出すための見方です。
