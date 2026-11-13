@@ -1,0 +1,40 @@
+<svg viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="1組と2組の箱ひげ図を共通の数直線の上に上下に並べた図。1組は最小値30、第1四分位数50、中央値60、第3四分位数70、最大値90。2組は最小値40、第1四分位数60、中央値70、第3四分位数75、最大値85。2組の箱は1組の箱より右にあり、長さは短い">
+  <text x="30" y="45" font-size="14" text-anchor="middle" fill="currentColor">1組</text>
+  <g stroke="currentColor" stroke-width="2" fill="none">
+    <line x1="95.0" y1="40" x2="165.0" y2="40"/>
+    <line x1="235.0" y1="40" x2="305.0" y2="40"/>
+    <line x1="95.0" y1="28" x2="95.0" y2="52"/>
+    <line x1="305.0" y1="28" x2="305.0" y2="52"/>
+    <rect x="165.0" y="22" width="70.0" height="36"/>
+    <line x1="200.0" y1="22" x2="200.0" y2="58"/>
+  </g>
+  <text x="30" y="105" font-size="14" text-anchor="middle" fill="currentColor">2組</text>
+  <g stroke="currentColor" stroke-width="2" fill="none">
+    <line x1="130.0" y1="100" x2="200.0" y2="100"/>
+    <line x1="252.5" y1="100" x2="287.5" y2="100"/>
+    <line x1="130.0" y1="88" x2="130.0" y2="112"/>
+    <line x1="287.5" y1="88" x2="287.5" y2="112"/>
+    <rect x="200.0" y="82" width="52.5" height="36"/>
+    <line x1="235.0" y1="82" x2="235.0" y2="118"/>
+  </g>
+  <line x1="50" y1="150" x2="355" y2="150" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="60.0" y1="145" x2="60.0" y2="155" stroke="currentColor" stroke-width="1.5"/>
+  <text x="60.0" y="172" font-size="13" text-anchor="middle" fill="currentColor">20</text>
+  <line x1="95.0" y1="145" x2="95.0" y2="155" stroke="currentColor" stroke-width="1.5"/>
+  <text x="95.0" y="172" font-size="13" text-anchor="middle" fill="currentColor">30</text>
+  <line x1="130.0" y1="145" x2="130.0" y2="155" stroke="currentColor" stroke-width="1.5"/>
+  <text x="130.0" y="172" font-size="13" text-anchor="middle" fill="currentColor">40</text>
+  <line x1="165.0" y1="145" x2="165.0" y2="155" stroke="currentColor" stroke-width="1.5"/>
+  <text x="165.0" y="172" font-size="13" text-anchor="middle" fill="currentColor">50</text>
+  <line x1="200.0" y1="145" x2="200.0" y2="155" stroke="currentColor" stroke-width="1.5"/>
+  <text x="200.0" y="172" font-size="13" text-anchor="middle" fill="currentColor">60</text>
+  <line x1="235.0" y1="145" x2="235.0" y2="155" stroke="currentColor" stroke-width="1.5"/>
+  <text x="235.0" y="172" font-size="13" text-anchor="middle" fill="currentColor">70</text>
+  <line x1="270.0" y1="145" x2="270.0" y2="155" stroke="currentColor" stroke-width="1.5"/>
+  <text x="270.0" y="172" font-size="13" text-anchor="middle" fill="currentColor">80</text>
+  <line x1="305.0" y1="145" x2="305.0" y2="155" stroke="currentColor" stroke-width="1.5"/>
+  <text x="305.0" y="172" font-size="13" text-anchor="middle" fill="currentColor">90</text>
+  <line x1="340.0" y1="145" x2="340.0" y2="155" stroke="currentColor" stroke-width="1.5"/>
+  <text x="340.0" y="172" font-size="13" text-anchor="middle" fill="currentColor">100</text>
+  <text x="200" y="194" font-size="13" text-anchor="middle" fill="currentColor">点数</text>
+</svg>
