@@ -1,4 +1,4 @@
-<svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="半径1の半円周上の点Pの座標を(cosθ,sinθ)と定義することで、鈍角まで三角比を拡張することを示す図">
+<svg viewBox="0 0 620 205" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="原点Oを中心とする半径1の半円周上の点Pの座標を(cosθ,sinθ)と定義することを示す2つの図。左は鋭角θの場合で、Pからx軸に下ろした垂線の足をQとすると、斜辺OP=1の直角三角形OPQができ、OQがcosθ、QPがsinθになる。右は鈍角θ(120度)の場合で、Pはy軸の左側にあり、Pのx座標cosθは負、y座標sinθは正になる">
   <defs>
     <marker id="arrow-obtuse" viewBox="0 0 10 10" refX="9" refY="5"
             markerWidth="6" markerHeight="6" orient="auto-start-reverse">
@@ -6,28 +6,47 @@
     </marker>
   </defs>
 
-  <!-- x axis -->
-  <line x1="30" y1="250" x2="370" y2="250" stroke="currentColor" stroke-width="1.5" marker-end="url(#arrow-obtuse)"/>
-  <text x="374" y="255" font-size="13" fill="currentColor">x</text>
+  <!-- 左: 鋭角 -->
+  <text x="150" y="28" font-size="14" text-anchor="middle" fill="currentColor">鋭角のとき</text>
+  <line x1="30" y1="170" x2="280" y2="170" stroke="currentColor" stroke-width="1.5" marker-end="url(#arrow-obtuse)"/>
+  <text x="284" y="175" font-size="13" fill="currentColor">x</text>
+  <line x1="150" y1="190" x2="150" y2="45" stroke="currentColor" stroke-width="1.5" marker-end="url(#arrow-obtuse)"/>
+  <text x="156" y="52" font-size="13" fill="currentColor">y</text>
+  <path d="M 50,170 A 100,100 0 0 1 250,170" fill="none" stroke="currentColor" stroke-width="2"/>
+  <line x1="150" y1="170" x2="214.3" y2="93.4" stroke="currentColor" stroke-width="2"/>
+  <line x1="214.3" y1="93.4" x2="214.3" y2="170" stroke="currentColor" stroke-width="2"/>
+  <line x1="150" y1="170" x2="214.3" y2="170" stroke="currentColor" stroke-width="3"/>
+  <polyline points="206.3,170 206.3,162 214.3,162" fill="none" stroke="currentColor" stroke-width="1"/>
+  <path d="M 175,170 A 25,25 0 0 0 166.1,150.8" fill="none" stroke="currentColor" stroke-width="1"/>
+  <text x="178" y="161" font-size="13" fill="currentColor">θ</text>
+  <circle cx="214.3" cy="93.4" r="3" fill="currentColor"/>
+  <text x="220" y="88" font-size="13" fill="currentColor">P</text>
+  <text x="218" y="182" font-size="13" fill="currentColor">Q</text>
+  <text x="140" y="184" font-size="13" text-anchor="middle" fill="currentColor">O</text>
+  <text x="170" y="122" font-size="13" text-anchor="middle" fill="currentColor">1</text>
+  <text x="182" y="196" font-size="13" text-anchor="middle" fill="currentColor">cos θ</text>
+  <text x="209" y="146" font-size="13" text-anchor="end" fill="currentColor">sin θ</text>
+  <text x="50" y="186" font-size="12" text-anchor="middle" fill="currentColor">−1</text>
+  <text x="250" y="186" font-size="12" text-anchor="middle" fill="currentColor">1</text>
 
-  <!-- semicircle radius 1 (r=110 px), center O -->
-  <path d="M 90,250 A 110,110 0 0 1 310,250" fill="none" stroke="currentColor" stroke-width="2"/>
-
-  <!-- radius to P (theta = 120 degrees) -->
-  <line x1="200" y1="250" x2="145" y2="155.7" stroke="currentColor" stroke-width="2" marker-end="url(#arrow-obtuse)"/>
-
-  <!-- angle arc theta -->
-  <path d="M 260,250 A 60,60 0 0 0 224,198" fill="none" stroke="currentColor" stroke-width="1"/>
-  <text x="235" y="215" font-size="13" fill="currentColor">θ</text>
-
-  <!-- perpendicular from P to x-axis -->
-  <line x1="145" y1="155.7" x2="145" y2="250" stroke="currentColor" stroke-width="1" stroke-dasharray="4 3"/>
-
-  <circle cx="200" cy="250" r="3" fill="currentColor"/>
-  <circle cx="145" cy="155.7" r="3" fill="currentColor"/>
-
-  <text x="205" y="268" font-size="13" fill="currentColor">O</text>
-  <text x="110" y="118" font-size="16" fill="currentColor">P(cos θ, sin θ)</text>
-  <text x="130" y="268" font-size="13" fill="currentColor">cos θ</text>
-  <text x="138" y="205" font-size="13" text-anchor="end" fill="currentColor">sin θ</text>
+  <!-- 右: 鈍角 -->
+  <text x="460" y="28" font-size="14" text-anchor="middle" fill="currentColor">鈍角のとき</text>
+  <line x1="340" y1="170" x2="590" y2="170" stroke="currentColor" stroke-width="1.5" marker-end="url(#arrow-obtuse)"/>
+  <text x="594" y="175" font-size="13" fill="currentColor">x</text>
+  <line x1="460" y1="190" x2="460" y2="45" stroke="currentColor" stroke-width="1.5" marker-end="url(#arrow-obtuse)"/>
+  <text x="466" y="52" font-size="13" fill="currentColor">y</text>
+  <path d="M 360,170 A 100,100 0 0 1 560,170" fill="none" stroke="currentColor" stroke-width="2"/>
+  <line x1="460" y1="170" x2="410" y2="83.4" stroke="currentColor" stroke-width="2"/>
+  <line x1="410" y1="83.4" x2="410" y2="170" stroke="currentColor" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="410" y1="83.4" x2="460" y2="83.4" stroke="currentColor" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="410" y1="166" x2="410" y2="174" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M 485,170 A 25,25 0 0 0 447.5,148.35" fill="none" stroke="currentColor" stroke-width="1"/>
+  <text x="476" y="154" font-size="13" fill="currentColor">θ</text>
+  <circle cx="410" cy="83.4" r="3" fill="currentColor"/>
+  <text x="403" y="78" font-size="13" text-anchor="end" fill="currentColor">P(cos θ, sin θ)</text>
+  <text x="470" y="184" font-size="13" text-anchor="middle" fill="currentColor">O</text>
+  <text x="410" y="196" font-size="13" text-anchor="middle" fill="currentColor">cos θ</text>
+  <text x="466" y="101" font-size="13" fill="currentColor">sin θ</text>
+  <text x="360" y="186" font-size="12" text-anchor="middle" fill="currentColor">−1</text>
+  <text x="560" y="186" font-size="12" text-anchor="middle" fill="currentColor">1</text>
 </svg>
