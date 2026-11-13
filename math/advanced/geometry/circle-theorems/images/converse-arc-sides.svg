@@ -1,20 +1,21 @@
-<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="円Γと弦ACによって分けられる弧₁(Bを含む)・弧₂(Bを含まない)、弧₂上の点E、弧₂と直線ACに関して同じ側にある点Dの位置関係を示す図">
-  <circle cx="200" cy="200" r="130" fill="none" stroke="currentColor" stroke-width="2"/>
-  <line x1="87.42" y1="135" x2="312.58" y2="135" stroke="currentColor" stroke-width="1.5" stroke-dasharray="5 4"/>
-  <line x1="87.42" y1="135" x2="200" y2="330" stroke="currentColor" stroke-width="1.5"/>
-  <line x1="312.58" y1="135" x2="200" y2="330" stroke="currentColor" stroke-width="1.5"/>
-  <line x1="87.42" y1="135" x2="305.6" y2="326.8" stroke="currentColor" stroke-width="1.5" stroke-dasharray="5 4"/>
-  <line x1="312.58" y1="135" x2="305.6" y2="326.8" stroke="currentColor" stroke-width="1.5" stroke-dasharray="5 4"/>
-  <circle cx="87.42" cy="135" r="3" fill="currentColor"/>
-  <circle cx="200" cy="70" r="3" fill="currentColor"/>
-  <circle cx="312.58" cy="135" r="3" fill="currentColor"/>
-  <circle cx="305.6" cy="326.8" r="3" fill="currentColor"/>
-  <circle cx="200" cy="330" r="3" fill="currentColor"/>
-  <text x="68" y="122" font-size="16" text-anchor="middle" fill="currentColor">A</text>
-  <text x="200" y="50" font-size="16" text-anchor="middle" fill="currentColor">B</text>
-  <text x="332" y="122" font-size="16" text-anchor="middle" fill="currentColor">C</text>
-  <text x="327" y="349" font-size="16" text-anchor="middle" fill="currentColor">D</text>
-  <text x="200" y="352" font-size="16" text-anchor="middle" fill="currentColor">E</text>
-  <text x="278" y="66" font-size="13" text-anchor="middle" fill="currentColor">弧₁</text>
-  <text x="114" y="323" font-size="13" text-anchor="middle" fill="currentColor">弧₂</text>
+<svg viewBox="0 0 400 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="円Γと、Γを弧₁(Bを含む)と弧₂(Bを含まない)に分ける弦ACを示す図。弧₂上の点Eと点Dは、どちらも直線ACに関してBと反対側にある。Dは、証明の結論としてDが来る位置(弧₂上)に描いている">
+  <circle cx="200" cy="190" r="130" fill="none" stroke="currentColor" stroke-width="2"/>
+  <line x1="87.42" y1="125" x2="312.58" y2="125" stroke="currentColor" stroke-width="2.5"/>
+  <line x1="87.42" y1="125" x2="200" y2="320" stroke="currentColor" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <line x1="312.58" y1="125" x2="200" y2="320" stroke="currentColor" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <line x1="87.42" y1="125" x2="283.56" y2="289.59" stroke="currentColor" stroke-width="1.2" stroke-dasharray="2 3"/>
+  <line x1="312.58" y1="125" x2="283.56" y2="289.59" stroke="currentColor" stroke-width="1.2" stroke-dasharray="2 3"/>
+  <circle cx="87.42" cy="125" r="3" fill="currentColor"/>
+  <circle cx="200" cy="60" r="3" fill="currentColor"/>
+  <circle cx="312.58" cy="125" r="3" fill="currentColor"/>
+  <circle cx="283.56" cy="289.59" r="3" fill="currentColor"/>
+  <circle cx="200" cy="320" r="3" fill="currentColor"/>
+  <text x="68" y="118" font-size="16" text-anchor="middle" fill="currentColor">A</text>
+  <text x="200" y="45" font-size="16" text-anchor="middle" fill="currentColor">B</text>
+  <text x="332" y="118" font-size="16" text-anchor="middle" fill="currentColor">C</text>
+  <text x="300" y="310" font-size="16" text-anchor="middle" fill="currentColor">D</text>
+  <text x="200" y="342" font-size="16" text-anchor="middle" fill="currentColor">E</text>
+  <text x="290" y="62" font-size="13" text-anchor="middle" fill="currentColor">弧₁</text>
+  <text x="100" y="300" font-size="13" text-anchor="middle" fill="currentColor">弧₂</text>
+  <text x="345" y="72" font-size="14" fill="currentColor">Γ</text>
 </svg>

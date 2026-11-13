@@ -1,4 +1,4 @@
-<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="円の接線と接点Tを通る弦TAのなす角θと、弦の反対側の弧上の点Bにおける円周角∠TBAが等しいことを示す図">
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="円の接線と接点Tを通る弦TAのなす角θと、角θの内側にない弧上の点Bにおける円周角∠TBAが等しいことを示す図">
   <circle cx="150" cy="150" r="100" fill="none" stroke="currentColor" stroke-width="2"/>
   <line x1="60" y1="250" x2="240" y2="250" stroke="currentColor" stroke-width="2"/>
   <line x1="150" y1="250" x2="56.03" y2="184.20" stroke="currentColor" stroke-width="2"/>
