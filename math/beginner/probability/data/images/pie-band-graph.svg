@@ -1,0 +1,34 @@
+<svg viewBox="0 0 480 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="好きな果物の割合を表した円グラフと帯グラフ。どちらも全体を、りんご0.5、みかん0.3、ぶどう0.2の大きさに区切っている">
+  <!-- 円グラフ: 真上から時計回りに りんご0.5(180度)・みかん0.3(108度)・ぶどう0.2(72度) -->
+  <g stroke="currentColor" stroke-width="2" fill="none">
+    <circle cx="110" cy="110" r="80"/>
+    <line x1="110" y1="110" x2="110" y2="30"/>
+    <line x1="110" y1="110" x2="110" y2="190"/>
+    <line x1="110" y1="110" x2="33.9" y2="85.3"/>
+  </g>
+  <g font-size="15" fill="currentColor" text-anchor="middle">
+    <text x="150" y="108">りんご</text>
+    <text x="150" y="126">0.5</text>
+    <text x="75" y="138">みかん</text>
+    <text x="75" y="156">0.3</text>
+    <text x="80" y="62">ぶどう</text>
+    <text x="80" y="80">0.2</text>
+  </g>
+  <text x="110" y="220" font-size="14" text-anchor="middle" fill="currentColor">円グラフ</text>
+
+  <!-- 帯グラフ: 幅250を 125・75・50 に区切る -->
+  <g stroke="currentColor" stroke-width="2" fill="none">
+    <rect x="220" y="85" width="250" height="50"/>
+    <line x1="345" y1="85" x2="345" y2="135"/>
+    <line x1="420" y1="85" x2="420" y2="135"/>
+  </g>
+  <g font-size="15" fill="currentColor" text-anchor="middle">
+    <text x="282.5" y="106">りんご</text>
+    <text x="282.5" y="124">0.5</text>
+    <text x="382.5" y="106">みかん</text>
+    <text x="382.5" y="124">0.3</text>
+    <text x="445" y="106">ぶどう</text>
+    <text x="445" y="124">0.2</text>
+  </g>
+  <text x="345" y="220" font-size="14" text-anchor="middle" fill="currentColor">帯グラフ</text>
+</svg>
