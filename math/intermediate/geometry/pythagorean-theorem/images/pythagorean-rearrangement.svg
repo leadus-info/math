@@ -1,0 +1,33 @@
+<svg viewBox="0 0 400 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="1辺がa+bの同じ大きさの正方形2つに、直角をはさむ2辺がa、bの直角三角形を4つずつ並べた図。左では4つの三角形のすき間に1辺cの正方形が1つでき、右では三角形を並べ替えたすき間に1辺aの正方形と1辺bの正方形ができる。どちらも大きな正方形から同じ4つの三角形を除いた残りなので、c²=a²+b²となる">
+  <g fill="currentColor" fill-opacity="0.15" stroke="none">
+    <polygon points="20,20 80,20 20,120"/>
+    <polygon points="80,20 180,20 180,80"/>
+    <polygon points="180,80 180,180 120,180"/>
+    <polygon points="120,180 20,180 20,120"/>
+    <polygon points="280,20 380,20 280,80"/>
+    <polygon points="380,20 380,80 280,80"/>
+    <polygon points="220,80 280,80 220,180"/>
+    <polygon points="280,80 280,180 220,180"/>
+  </g>
+  <g stroke="currentColor" stroke-width="2" fill="none">
+    <rect x="20" y="20" width="160" height="160"/>
+    <polygon points="80,20 180,80 120,180 20,120"/>
+    <rect x="220" y="20" width="160" height="160"/>
+    <line x1="280" y1="20" x2="280" y2="180"/>
+    <line x1="220" y1="80" x2="380" y2="80"/>
+    <line x1="280" y1="80" x2="380" y2="20"/>
+    <line x1="220" y1="180" x2="280" y2="80"/>
+  </g>
+  <text x="50" y="15" font-size="15" text-anchor="middle" fill="currentColor" font-style="italic">a</text>
+  <text x="130" y="15" font-size="15" text-anchor="middle" fill="currentColor" font-style="italic">b</text>
+  <text x="11" y="75" font-size="15" text-anchor="middle" fill="currentColor" font-style="italic">b</text>
+  <text x="11" y="155" font-size="15" text-anchor="middle" fill="currentColor" font-style="italic">a</text>
+  <text x="100" y="106" font-size="18" text-anchor="middle" fill="currentColor" font-style="italic">c²</text>
+  <text x="250" y="15" font-size="15" text-anchor="middle" fill="currentColor" font-style="italic">a</text>
+  <text x="330" y="15" font-size="15" text-anchor="middle" fill="currentColor" font-style="italic">b</text>
+  <text x="250" y="56" font-size="18" text-anchor="middle" fill="currentColor" font-style="italic">a²</text>
+  <text x="330" y="136" font-size="18" text-anchor="middle" fill="currentColor" font-style="italic">b²</text>
+  <text x="124" y="56" font-size="15" text-anchor="middle" fill="currentColor" font-style="italic">c</text>
+  <text x="100" y="208" font-size="13" text-anchor="middle" fill="currentColor">すき間は1辺cの正方形</text>
+  <text x="300" y="208" font-size="13" text-anchor="middle" fill="currentColor">すき間は1辺a・1辺bの正方形</text>
+</svg>
