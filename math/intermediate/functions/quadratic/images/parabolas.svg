@@ -1,64 +1,53 @@
-<svg viewBox="0 0 420 445" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="座標平面に y = x²、y = 2x²、y = −x² の3つの放物線を重ねた図。3つとも原点を通り、y軸について左右対称。y = x² と y = 2x² は原点を最も低い点として上に開き、y = 2x² のほうが y軸に近く、開き方が狭い。y = −x² は原点を最も高い点として下に開く。表の値の点が各曲線上に示されている。">
+<svg viewBox="0 0 420 375" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="座標平面に y = x²、y = 2x²、y = −x² の3つの放物線を重ねた図。3つとも原点を通り、y軸について左右対称。y = x² と y = 2x² は原点を最も低い点として上に開き、y = 2x² のほうが y軸に近く、開き方が狭い。y = −x² は原点を最も高い点として下に開く。表の値の点が各曲線上に示されている。">
   <g stroke="currentColor" stroke-width="0.5" opacity="0.3">
-    <line x1="70" y1="28.6" x2="70" y2="434.6"/>
-    <line x1="130" y1="28.6" x2="130" y2="434.6"/>
-    <line x1="250" y1="28.6" x2="250" y2="434.6"/>
-    <line x1="310" y1="28.6" x2="310" y2="434.6"/>
-    <line x1="46" y1="429" x2="319" y2="429"/>
-    <line x1="46" y1="401" x2="334" y2="401"/>
-    <line x1="46" y1="373" x2="334" y2="373"/>
-    <line x1="46" y1="345" x2="334" y2="345"/>
-    <line x1="46" y1="317" x2="334" y2="317"/>
-    <line x1="46" y1="261" x2="334" y2="261"/>
-    <line x1="46" y1="233" x2="334" y2="233"/>
-    <line x1="46" y1="205" x2="334" y2="205"/>
-    <line x1="46" y1="177" x2="334" y2="177"/>
-    <line x1="46" y1="149" x2="334" y2="149"/>
-    <line x1="46" y1="121" x2="334" y2="121"/>
-    <line x1="46" y1="93" x2="334" y2="93"/>
-    <line x1="46" y1="65" x2="334" y2="65"/>
-    <line x1="46" y1="37" x2="334" y2="37"/>
+    <line x1="70" y1="35.4" x2="70" y2="354.4"/>
+    <line x1="130" y1="35.4" x2="130" y2="354.4"/>
+    <line x1="250" y1="35.4" x2="250" y2="354.4"/>
+    <line x1="310" y1="35.4" x2="310" y2="354.4"/>
+    <line x1="46" y1="328" x2="334" y2="328"/>
+    <line x1="46" y1="284" x2="334" y2="284"/>
+    <line x1="46" y1="196" x2="334" y2="196"/>
+    <line x1="46" y1="152" x2="334" y2="152"/>
+    <line x1="46" y1="108" x2="334" y2="108"/>
+    <line x1="46" y1="64" x2="334" y2="64"/>
   </g>
   <g stroke="currentColor" stroke-width="1.5" fill="currentColor">
-    <line x1="40" y1="289" x2="343" y2="289"/>
-    <polygon points="353,289 343,284 343,294" stroke="none"/>
-    <line x1="190" y1="437.4" x2="190" y2="23"/>
-    <polygon points="190,13 185,23 195,23" stroke="none"/>
+    <line x1="40" y1="240" x2="343" y2="240"/>
+    <polygon points="353,240 343,235 343,245" stroke="none"/>
+    <line x1="190" y1="356.6" x2="190" y2="31"/>
+    <polygon points="190,21 185,31 195,31" stroke="none"/>
   </g>
   <g font-size="13" fill="currentColor">
-    <text x="70" y="305" text-anchor="middle">−2</text>
-    <text x="127" y="305" text-anchor="end">−1</text>
-    <text x="253" y="305" text-anchor="start">1</text>
-    <text x="310" y="305" text-anchor="middle">2</text>
-    <text x="184" y="405.5" text-anchor="end">−4</text>
-    <text x="184" y="321.5" text-anchor="end">−1</text>
-    <text x="184" y="265.5" text-anchor="end">1</text>
-    <text x="184" y="237.5" text-anchor="end">2</text>
-    <text x="184" y="181.5" text-anchor="end">4</text>
-    <text x="184" y="69.5" text-anchor="end">8</text>
+    <text x="70" y="256" text-anchor="middle">−2</text>
+    <text x="127" y="256" text-anchor="end">−1</text>
+    <text x="253" y="256" text-anchor="start">1</text>
+    <text x="310" y="256" text-anchor="middle">2</text>
+    <text x="184" y="332.5" text-anchor="end">−4</text>
+    <text x="184" y="156.5" text-anchor="end">4</text>
+    <text x="184" y="68.5" text-anchor="end">8</text>
   </g>
   <g font-size="16" fill="currentColor" font-style="italic">
-    <text x="349" y="279" text-anchor="end">x</text>
-    <text x="200" y="25">y</text>
+    <text x="349" y="230" text-anchor="end">x</text>
+    <text x="200" y="33">y</text>
   </g>
-  <text x="184" y="305" font-size="14" text-anchor="end" fill="currentColor">O</text>
-  <path d="M 52,140.88 L 56.6,150.59 L 61.2,159.97 L 65.8,169.02 L 70.4,177.75 L 75,186.14 L 79.6,194.2 L 84.2,201.94 L 88.8,209.34 L 93.4,216.42 L 98,223.17 L 102.6,229.59 L 107.2,235.68 L 111.8,241.44 L 116.4,246.87 L 121,251.97 L 125.6,256.74 L 130.2,261.19 L 134.8,265.3 L 139.4,269.09 L 144,272.54 L 148.6,275.67 L 153.2,278.47 L 157.8,280.94 L 162.4,283.08 L 167,284.89 L 171.6,286.37 L 176.2,287.52 L 180.8,288.34 L 185.4,288.84 L 190,289 L 194.6,288.84 L 199.2,288.34 L 203.8,287.52 L 208.4,286.37 L 213,284.89 L 217.6,283.08 L 222.2,280.94 L 226.8,278.47 L 231.4,275.67 L 236,272.54 L 240.6,269.09 L 245.2,265.3 L 249.8,261.19 L 254.4,256.74 L 259,251.97 L 263.6,246.87 L 268.2,241.44 L 272.8,235.68 L 277.4,229.59 L 282,223.17 L 286.6,216.42 L 291.2,209.34 L 295.8,201.94 L 300.4,194.2 L 305,186.14 L 309.6,177.75 L 314.2,169.02 L 318.8,159.97 L 323.4,150.59 L 328,140.88" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
-  <path d="M 64,42.04 L 68.2,58.23 L 72.4,73.87 L 76.6,88.96 L 80.8,103.51 L 85,117.5 L 89.2,130.95 L 93.4,143.84 L 97.6,156.19 L 101.8,167.99 L 106,179.24 L 110.2,189.94 L 114.4,200.09 L 118.6,209.7 L 122.8,218.75 L 127,227.26 L 131.2,235.22 L 135.4,242.63 L 139.6,249.49 L 143.8,255.8 L 148,261.56 L 152.2,266.77 L 156.4,271.44 L 160.6,275.55 L 164.8,279.12 L 169,282.14 L 173.2,284.61 L 177.4,286.53 L 181.6,287.9 L 185.8,288.73 L 190,289 L 194.2,288.73 L 198.4,287.9 L 202.6,286.53 L 206.8,284.61 L 211,282.14 L 215.2,279.12 L 219.4,275.55 L 223.6,271.44 L 227.8,266.77 L 232,261.56 L 236.2,255.8 L 240.4,249.49 L 244.6,242.63 L 248.8,235.22 L 253,227.26 L 257.2,218.75 L 261.4,209.7 L 265.6,200.09 L 269.8,189.94 L 274,179.24 L 278.2,167.99 L 282.4,156.19 L 286.6,143.84 L 290.8,130.95 L 295,117.5 L 299.2,103.51 L 303.4,88.96 L 307.6,73.87 L 311.8,58.23 L 316,42.04" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
-  <path d="M 58,424.52 L 62.4,415.64 L 66.8,407.05 L 71.2,398.77 L 75.6,390.79 L 80,383.11 L 84.4,375.73 L 88.8,368.66 L 93.2,361.88 L 97.6,355.4 L 102,349.23 L 106.4,343.36 L 110.8,337.79 L 115.2,332.52 L 119.6,327.55 L 124,322.88 L 128.4,318.51 L 132.8,314.45 L 137.2,310.68 L 141.6,307.22 L 146,304.06 L 150.4,301.2 L 154.8,298.64 L 159.2,296.38 L 163.6,294.42 L 168,292.76 L 172.4,291.41 L 176.8,290.36 L 181.2,289.6 L 185.6,289.15 L 190,289 L 194.4,289.15 L 198.8,289.6 L 203.2,290.36 L 207.6,291.41 L 212,292.76 L 216.4,294.42 L 220.8,296.38 L 225.2,298.64 L 229.6,301.2 L 234,304.06 L 238.4,307.22 L 242.8,310.68 L 247.2,314.45 L 251.6,318.51 L 256,322.88 L 260.4,327.55 L 264.8,332.52 L 269.2,337.79 L 273.6,343.36 L 278,349.23 L 282.4,355.4 L 286.8,361.88 L 291.2,368.66 L 295.6,375.73 L 300,383.11 L 304.4,390.79 L 308.8,398.77 L 313.2,407.05 L 317.6,415.64 L 322,424.52" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-dasharray="6 4"/>
-  <circle cx="70" cy="401" r="3" fill="currentColor"/>
-  <circle cx="70" cy="177" r="3" fill="currentColor"/>
-  <circle cx="70" cy="65" r="3" fill="currentColor"/>
-  <circle cx="130" cy="317" r="3" fill="currentColor"/>
-  <circle cx="130" cy="261" r="3" fill="currentColor"/>
-  <circle cx="130" cy="233" r="3" fill="currentColor"/>
-  <circle cx="190" cy="289" r="3" fill="currentColor"/>
-  <circle cx="250" cy="317" r="3" fill="currentColor"/>
-  <circle cx="250" cy="261" r="3" fill="currentColor"/>
-  <circle cx="250" cy="233" r="3" fill="currentColor"/>
-  <circle cx="310" cy="401" r="3" fill="currentColor"/>
-  <circle cx="310" cy="177" r="3" fill="currentColor"/>
-  <circle cx="310" cy="65" r="3" fill="currentColor"/>
-  <text x="322" y="48.04" font-size="15" fill="currentColor"><tspan font-style="italic">y</tspan> = 2<tspan font-style="italic">x</tspan>²</text>
-  <text x="334" y="145.88" font-size="15" fill="currentColor"><tspan font-style="italic">y</tspan> = <tspan font-style="italic">x</tspan>²</text>
-  <text x="328" y="429.52" font-size="15" fill="currentColor"><tspan font-style="italic">y</tspan> = −<tspan font-style="italic">x</tspan>²</text>
+  <text x="184" y="256" font-size="14" text-anchor="end" fill="currentColor">O</text>
+  <path d="M 52,123.62 L 56.6,131.25 L 61.2,138.62 L 65.8,145.73 L 70.4,152.59 L 75,159.18 L 79.6,165.52 L 84.2,171.59 L 88.8,177.41 L 93.4,182.97 L 98,188.28 L 102.6,193.32 L 107.2,198.1 L 111.8,202.63 L 116.4,206.9 L 121,210.91 L 125.6,214.66 L 130.2,218.15 L 134.8,221.38 L 139.4,224.35 L 144,227.07 L 148.6,229.53 L 153.2,231.72 L 157.8,233.66 L 162.4,235.34 L 167,236.77 L 171.6,237.93 L 176.2,238.84 L 180.8,239.48 L 185.4,239.87 L 190,240 L 194.6,239.87 L 199.2,239.48 L 203.8,238.84 L 208.4,237.93 L 213,236.77 L 217.6,235.34 L 222.2,233.66 L 226.8,231.72 L 231.4,229.53 L 236,227.07 L 240.6,224.35 L 245.2,221.38 L 249.8,218.15 L 254.4,214.66 L 259,210.91 L 263.6,206.9 L 268.2,202.63 L 272.8,198.1 L 277.4,193.32 L 282,188.28 L 286.6,182.97 L 291.2,177.41 L 295.8,171.59 L 300.4,165.52 L 305,159.18 L 309.6,152.59 L 314.2,145.73 L 318.8,138.62 L 323.4,131.25 L 328,123.62" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M 64,45.96 L 68.2,58.68 L 72.4,70.97 L 76.6,82.83 L 80.8,94.25 L 85,105.25 L 89.2,115.81 L 93.4,125.95 L 97.6,135.65 L 101.8,144.92 L 106,153.76 L 110.2,162.17 L 114.4,170.15 L 118.6,177.69 L 122.8,184.81 L 127,191.49 L 131.2,197.74 L 135.4,203.56 L 139.6,208.95 L 143.8,213.91 L 148,218.44 L 152.2,222.54 L 156.4,226.2 L 160.6,229.44 L 164.8,232.24 L 169,234.61 L 173.2,236.55 L 177.4,238.06 L 181.6,239.14 L 185.8,239.78 L 190,240 L 194.2,239.78 L 198.4,239.14 L 202.6,238.06 L 206.8,236.55 L 211,234.61 L 215.2,232.24 L 219.4,229.44 L 223.6,226.2 L 227.8,222.54 L 232,218.44 L 236.2,213.91 L 240.4,208.95 L 244.6,203.56 L 248.8,197.74 L 253,191.49 L 257.2,184.81 L 261.4,177.69 L 265.6,170.15 L 269.8,162.17 L 274,153.76 L 278.2,144.92 L 282.4,135.65 L 286.6,125.95 L 290.8,115.81 L 295,105.25 L 299.2,94.25 L 303.4,82.83 L 307.6,70.97 L 311.8,58.68 L 316,45.96" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M 58,346.48 L 62.4,339.5 L 66.8,332.76 L 71.2,326.25 L 75.6,319.98 L 80,313.94 L 84.4,308.15 L 88.8,302.59 L 93.2,297.26 L 97.6,292.18 L 102,287.32 L 106.4,282.71 L 110.8,278.33 L 115.2,274.19 L 119.6,270.29 L 124,266.62 L 128.4,263.19 L 132.8,259.99 L 137.2,257.04 L 141.6,254.32 L 146,251.83 L 150.4,249.58 L 154.8,247.57 L 159.2,245.8 L 163.6,244.26 L 168,242.96 L 172.4,241.89 L 176.8,241.06 L 181.2,240.47 L 185.6,240.12 L 190,240 L 194.4,240.12 L 198.8,240.47 L 203.2,241.06 L 207.6,241.89 L 212,242.96 L 216.4,244.26 L 220.8,245.8 L 225.2,247.57 L 229.6,249.58 L 234,251.83 L 238.4,254.32 L 242.8,257.04 L 247.2,259.99 L 251.6,263.19 L 256,266.62 L 260.4,270.29 L 264.8,274.19 L 269.2,278.33 L 273.6,282.71 L 278,287.32 L 282.4,292.18 L 286.8,297.26 L 291.2,302.59 L 295.6,308.15 L 300,313.94 L 304.4,319.98 L 308.8,326.25 L 313.2,332.76 L 317.6,339.5 L 322,346.48" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-dasharray="6 4"/>
+  <circle cx="70" cy="328" r="3" fill="currentColor"/>
+  <circle cx="70" cy="152" r="3" fill="currentColor"/>
+  <circle cx="70" cy="64" r="3" fill="currentColor"/>
+  <circle cx="130" cy="262" r="3" fill="currentColor"/>
+  <circle cx="130" cy="218" r="3" fill="currentColor"/>
+  <circle cx="130" cy="196" r="3" fill="currentColor"/>
+  <circle cx="190" cy="240" r="3" fill="currentColor"/>
+  <circle cx="250" cy="262" r="3" fill="currentColor"/>
+  <circle cx="250" cy="218" r="3" fill="currentColor"/>
+  <circle cx="250" cy="196" r="3" fill="currentColor"/>
+  <circle cx="310" cy="328" r="3" fill="currentColor"/>
+  <circle cx="310" cy="152" r="3" fill="currentColor"/>
+  <circle cx="310" cy="64" r="3" fill="currentColor"/>
+  <text x="322" y="51.96" font-size="15" fill="currentColor"><tspan font-style="italic">y</tspan> = 2<tspan font-style="italic">x</tspan>²</text>
+  <text x="334" y="128.62" font-size="15" fill="currentColor"><tspan font-style="italic">y</tspan> = <tspan font-style="italic">x</tspan>²</text>
+  <text x="328" y="351.48" font-size="15" fill="currentColor"><tspan font-style="italic">y</tspan> = −<tspan font-style="italic">x</tspan>²</text>
 </svg>
