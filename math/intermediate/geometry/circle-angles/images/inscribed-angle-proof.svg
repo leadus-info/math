@@ -1,27 +1,27 @@
-<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="円周角の定理の証明:点Qによって、中心角∠AOBが∠AOQと∠BOQに、円周角∠APBが∠OPAと∠OPBに、それぞれ分割される位置関係を示す図">
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="円周角の定理の証明:中心Oが∠APBの内部にある場合の図。直線POを延長して円周と交わる点をQとし、Qによって中心角∠AOBが∠AOQと∠BOQに、円周角∠APBが∠OPAと∠OPBに分割される。半径OA、OB、OPには同じ印、∠OAPと∠OPAには一重の弧、∠OBPと∠OPBには二重の弧の印が付いている">
   <circle cx="150" cy="150" r="100" fill="none" stroke="currentColor" stroke-width="2"/>
-  <line x1="150" y1="50" x2="150" y2="250" stroke="currentColor" stroke-width="2"/>
+  <line x1="115.8" y1="56.03" x2="184.2" y2="243.97" stroke="currentColor" stroke-width="2"/>
   <line x1="150" y1="150" x2="56.03" y2="184.2" stroke="currentColor" stroke-width="2"/>
   <line x1="150" y1="150" x2="243.97" y2="184.2" stroke="currentColor" stroke-width="2"/>
-  <line x1="150" y1="50" x2="56.03" y2="184.2" stroke="currentColor" stroke-width="2"/>
-  <line x1="150" y1="50" x2="243.97" y2="184.2" stroke="currentColor" stroke-width="2"/>
-  <line x1="101.65" y1="163.34" x2="104.38" y2="170.86" stroke="currentColor" stroke-width="1.5"/>
-  <line x1="195.62" y1="170.86" x2="198.35" y2="163.34" stroke="currentColor" stroke-width="1.5"/>
-  <line x1="146" y1="100" x2="154" y2="100" stroke="currentColor" stroke-width="1.5"/>
-  <path d="M79.52,175.65 Q73.48,170.81 70.37,163.72" fill="none" stroke="currentColor" stroke-width="1.5"/>
-  <path d="M220.48,175.65 Q226.52,170.81 229.63,163.72" fill="none" stroke="currentColor" stroke-width="1.5"/>
-  <path d="M135.66,70.48 Q143.38,70.98 150,75" fill="none" stroke="currentColor" stroke-width="1.5"/>
-  <path d="M150,75 Q156.62,70.98 164.34,70.48" fill="none" stroke="currentColor" stroke-width="1.5"/>
-  <path d="M126.51,158.55 Q137.38,168.02 150,175" fill="none" stroke="currentColor" stroke-width="1.5"/>
-  <path d="M150,175 Q162.62,168.02 173.49,158.55" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="115.8" y1="56.03" x2="56.03" y2="184.2" stroke="currentColor" stroke-width="2"/>
+  <line x1="115.8" y1="56.03" x2="243.97" y2="184.2" stroke="currentColor" stroke-width="2"/>
+  <line x1="104.55" y1="171.33" x2="101.48" y2="162.87" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="198.52" y1="162.87" x2="195.45" y2="171.33" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="128.67" y1="104.55" x2="137.13" y2="101.48" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M74.82,177.36 A20,20 0 0,0 64.48,166.08" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M122.64,74.82 A20,20 0 0,1 107.35,74.16" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M221.42,175.99 A24,24 0 0,1 227,167.23" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M216.72,174.28 A29,29 0 0,1 223.46,163.7" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M124.01,78.58 A24,24 0 0,0 132.77,73" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M125.72,83.28 A29,29 0 0,0 136.3,76.54" fill="none" stroke="currentColor" stroke-width="1.5"/>
   <circle cx="150" cy="150" r="3" fill="currentColor"/>
   <circle cx="56.03" cy="184.2" r="3" fill="currentColor"/>
   <circle cx="243.97" cy="184.2" r="3" fill="currentColor"/>
-  <circle cx="150" cy="50" r="3" fill="currentColor"/>
-  <circle cx="150" cy="250" r="3" fill="currentColor"/>
-  <text x="158" y="146" font-size="16" fill="currentColor">O</text>
-  <text x="40" y="198" font-size="16" text-anchor="middle" fill="currentColor">A</text>
-  <text x="260" y="198" font-size="16" text-anchor="middle" fill="currentColor">B</text>
-  <text x="150" y="38" font-size="16" text-anchor="middle" fill="currentColor">P</text>
-  <text x="150" y="268" font-size="16" text-anchor="middle" fill="currentColor">Q</text>
+  <circle cx="115.8" cy="56.03" r="3" fill="currentColor"/>
+  <circle cx="184.2" cy="243.97" r="3" fill="currentColor"/>
+  <text x="159.96" y="147.64" font-size="16" text-anchor="middle" fill="currentColor">O</text>
+  <text x="40.06" y="196.02" font-size="16" text-anchor="middle" fill="currentColor">A</text>
+  <text x="259.94" y="196.02" font-size="16" text-anchor="middle" fill="currentColor">B</text>
+  <text x="110.33" y="47" font-size="16" text-anchor="middle" fill="currentColor">P</text>
+  <text x="189.67" y="265" font-size="16" text-anchor="middle" fill="currentColor">Q</text>
 </svg>
