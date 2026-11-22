@@ -1,11 +1,12 @@
-<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="円周角の定理:弧ABに対する中心角∠AOBと円周角∠APBの関係を示す図">
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="円周角の定理:円周上の点A、Bと、弧ABではない方の弧の上の点P、中心Oを結んだ図。弧ABの側に開いた中心角∠AOBには二重の弧、円周角∠APBには一重の弧の印が付いていて、2つの角は大きさが異なる">
   <circle cx="150" cy="150" r="100" fill="none" stroke="currentColor" stroke-width="2"/>
   <line x1="150" y1="150" x2="56.03" y2="184.2" stroke="currentColor" stroke-width="2"/>
   <line x1="150" y1="150" x2="243.97" y2="184.2" stroke="currentColor" stroke-width="2"/>
   <line x1="150" y1="50" x2="56.03" y2="184.2" stroke="currentColor" stroke-width="2"/>
   <line x1="150" y1="50" x2="243.97" y2="184.2" stroke="currentColor" stroke-width="2"/>
-  <path d="M126.51,158.55 Q150,172 173.49,158.55" fill="none" stroke="currentColor" stroke-width="1.5"/>
-  <path d="M135.66,70.48 Q150,90 164.34,70.48" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M127.45,158.21 A24,24 0 0,0 172.55,158.21" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M122.75,159.92 A29,29 0 0,0 177.25,159.92" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <path d="M138.53,66.38 A20,20 0 0,0 161.47,66.38" fill="none" stroke="currentColor" stroke-width="1.5"/>
   <circle cx="150" cy="150" r="3" fill="currentColor"/>
   <circle cx="56.03" cy="184.2" r="3" fill="currentColor"/>
   <circle cx="243.97" cy="184.2" r="3" fill="currentColor"/>
