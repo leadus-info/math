@@ -15,10 +15,11 @@
   <circle cx="300" cy="55" r="3" fill="currentColor"/>
   <circle cx="370" cy="190" r="3" fill="currentColor"/>
   <circle cx="230" cy="190" r="3" fill="currentColor"/>
-  <!-- へこんだ頂点の強調 -->
-  <circle cx="300" cy="140" r="7" fill="none" stroke="currentColor" stroke-width="1"/>
   <circle cx="300" cy="140" r="3" fill="currentColor"/>
-  <line x1="300" y1="147" x2="300" y2="203" stroke="currentColor" stroke-width="1"/>
-  <text x="300" y="218" font-size="13" text-anchor="middle" fill="currentColor">凹んだ頂点(内角180°超)</text>
+  <!-- へこんだ頂点の内角: 多角形の内部側(上側)を回る180°超の弧 -->
+  <path d="M314.65,150.46 A18,18 0 1 0 285.35,150.46" fill="none" stroke="currentColor" stroke-width="1.5"/>
+  <line x1="287.3" y1="127.3" x2="266" y2="101" stroke="currentColor" stroke-width="1"/>
+  <text x="262" y="80" font-size="13" text-anchor="end" fill="currentColor">内角は</text>
+  <text x="262" y="96" font-size="13" text-anchor="end" fill="currentColor">180°より大きい</text>
   <text x="300" y="258" font-size="16" text-anchor="middle" fill="currentColor">凹多角形</text>
 </svg>
