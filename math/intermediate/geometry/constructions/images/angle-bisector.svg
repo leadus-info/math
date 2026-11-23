@@ -1,9 +1,9 @@
 <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="頂点Oを中心とする円と辺OX・OYとの交点P・Qを取り、P・Qを中心とする同じ半径の円の交点Rを結ぶと角XOYの二等分線ORが得られることを示す作図の図">
   <line x1="200" y1="340" x2="343.4" y2="135.2" stroke="currentColor" stroke-width="2"/>
   <line x1="200" y1="340" x2="56.6" y2="135.2" stroke="currentColor" stroke-width="2"/>
-  <path d="M96.8,192.5 Q200,160 303.2,192.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
-  <path d="M200,97.9 Q255,192.5 200,287.1" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
-  <path d="M200,97.9 Q145,192.5 200,287.1" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <path d="M303.2,192.5 A180,180 0 0 0 96.8,192.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <path d="M175.82,134.42 A140,140 0 0 1 234.28,70.64" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <path d="M224.18,134.42 A140,140 0 0 0 165.72,70.64" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
   <line x1="200" y1="340" x2="200" y2="80" stroke="currentColor" stroke-width="2"/>
   <circle cx="200" cy="340" r="3" fill="currentColor"/>
   <circle cx="96.8" cy="192.5" r="3" fill="currentColor"/>
@@ -12,7 +12,7 @@
   <text x="200" y="362" font-size="16" text-anchor="middle" fill="currentColor">O</text>
   <text x="78" y="200" font-size="16" text-anchor="middle" fill="currentColor">Q</text>
   <text x="322" y="200" font-size="16" text-anchor="middle" fill="currentColor">P</text>
-  <text x="220" y="92" font-size="16" text-anchor="middle" fill="currentColor">R</text>
+  <text x="224" y="104" font-size="16" text-anchor="middle" fill="currentColor">R</text>
   <text x="358" y="128" font-size="16" text-anchor="middle" fill="currentColor">X</text>
   <text x="42" y="128" font-size="16" text-anchor="middle" fill="currentColor">Y</text>
 </svg>
