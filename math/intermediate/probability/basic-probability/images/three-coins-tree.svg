@@ -1,0 +1,69 @@
+<svg viewBox="0 0 530 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="3枚の硬貨を投げたときの樹形図。左端の1点から1枚目の硬貨の表と裏の2本の枝に分かれ、それぞれの枝の先が2枚目の硬貨の表と裏の2本に、さらにそれぞれの枝の先が3枚目の硬貨の表と裏の2本に分かれる。右端には上から順に(表,表,表)、(表,表,裏)、(表,裏,表)、(表,裏,裏)、(裏,表,表)、(裏,表,裏)、(裏,裏,表)、(裏,裏,裏)の8通りの結果が並び、表がちょうど2枚の(表,表,裏)、(表,裏,表)、(裏,表,表)の3つに○が付いている">
+  <title>3枚の硬貨を投げたときの樹形図。左端の1点から1枚目の硬貨の表と裏の2本の枝に分かれ、それぞれの枝の先が2枚目の硬貨の表と裏の2本に、さらにそれぞれの枝の先が3枚目の硬貨の表と裏の2本に分かれる。右端には上から順に(表,表,表)、(表,表,裏)、(表,裏,表)、(表,裏,裏)、(裏,表,表)、(裏,表,裏)、(裏,裏,表)、(裏,裏,裏)の8通りの結果が並び、表がちょうど2枚の(表,表,裏)、(表,裏,表)、(裏,表,表)の3つに○が付いている</title>
+
+  <!-- 列見出し -->
+  <text x="150" y="32" font-size="16" text-anchor="middle" fill="currentColor">1枚目</text>
+  <text x="260" y="32" font-size="16" text-anchor="middle" fill="currentColor">2枚目</text>
+  <text x="370" y="32" font-size="16" text-anchor="middle" fill="currentColor">3枚目</text>
+  <text x="461" y="32" font-size="16" text-anchor="middle" fill="currentColor">結果</text>
+
+  <!-- 起点 -->
+  <circle cx="40" cy="182" r="3" fill="currentColor"/>
+
+  <!-- 1枚目の枝 -->
+  <line x1="40" y1="182" x2="136" y2="118" stroke="currentColor" stroke-width="2"/>
+  <line x1="40" y1="182" x2="136" y2="246" stroke="currentColor" stroke-width="2"/>
+  <text x="150" y="122" font-size="16" text-anchor="middle" fill="currentColor">表</text>
+  <text x="150" y="250" font-size="16" text-anchor="middle" fill="currentColor">裏</text>
+
+  <!-- 2枚目の枝 -->
+  <line x1="164" y1="118" x2="246" y2="86" stroke="currentColor" stroke-width="2"/>
+  <line x1="164" y1="118" x2="246" y2="150" stroke="currentColor" stroke-width="2"/>
+  <line x1="164" y1="246" x2="246" y2="214" stroke="currentColor" stroke-width="2"/>
+  <line x1="164" y1="246" x2="246" y2="278" stroke="currentColor" stroke-width="2"/>
+  <text x="260" y="90" font-size="16" text-anchor="middle" fill="currentColor">表</text>
+  <text x="260" y="154" font-size="16" text-anchor="middle" fill="currentColor">裏</text>
+  <text x="260" y="218" font-size="16" text-anchor="middle" fill="currentColor">表</text>
+  <text x="260" y="282" font-size="16" text-anchor="middle" fill="currentColor">裏</text>
+
+  <!-- 3枚目の枝 -->
+  <line x1="274" y1="86" x2="356" y2="70" stroke="currentColor" stroke-width="2"/>
+  <line x1="274" y1="86" x2="356" y2="102" stroke="currentColor" stroke-width="2"/>
+  <line x1="274" y1="150" x2="356" y2="134" stroke="currentColor" stroke-width="2"/>
+  <line x1="274" y1="150" x2="356" y2="166" stroke="currentColor" stroke-width="2"/>
+  <line x1="274" y1="214" x2="356" y2="198" stroke="currentColor" stroke-width="2"/>
+  <line x1="274" y1="214" x2="356" y2="230" stroke="currentColor" stroke-width="2"/>
+  <line x1="274" y1="278" x2="356" y2="262" stroke="currentColor" stroke-width="2"/>
+  <line x1="274" y1="278" x2="356" y2="294" stroke="currentColor" stroke-width="2"/>
+  <text x="370" y="74" font-size="16" text-anchor="middle" fill="currentColor">表</text>
+  <text x="370" y="106" font-size="16" text-anchor="middle" fill="currentColor">裏</text>
+  <text x="370" y="138" font-size="16" text-anchor="middle" fill="currentColor">表</text>
+  <text x="370" y="170" font-size="16" text-anchor="middle" fill="currentColor">裏</text>
+  <text x="370" y="202" font-size="16" text-anchor="middle" fill="currentColor">表</text>
+  <text x="370" y="234" font-size="16" text-anchor="middle" fill="currentColor">裏</text>
+  <text x="370" y="266" font-size="16" text-anchor="middle" fill="currentColor">表</text>
+  <text x="370" y="298" font-size="16" text-anchor="middle" fill="currentColor">裏</text>
+
+  <!-- 枝の先と結果の対応 -->
+  <line x1="384" y1="70" x2="418" y2="70" stroke="currentColor" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="384" y1="102" x2="418" y2="102" stroke="currentColor" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="384" y1="134" x2="418" y2="134" stroke="currentColor" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="384" y1="166" x2="418" y2="166" stroke="currentColor" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="384" y1="198" x2="418" y2="198" stroke="currentColor" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="384" y1="230" x2="418" y2="230" stroke="currentColor" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="384" y1="262" x2="418" y2="262" stroke="currentColor" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="384" y1="294" x2="418" y2="294" stroke="currentColor" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="426" y="74" font-size="16" fill="currentColor">(表,表,表)</text>
+  <text x="426" y="106" font-size="16" fill="currentColor">(表,表,裏)</text>
+  <text x="426" y="138" font-size="16" fill="currentColor">(表,裏,表)</text>
+  <text x="426" y="170" font-size="16" fill="currentColor">(表,裏,裏)</text>
+  <text x="426" y="202" font-size="16" fill="currentColor">(裏,表,表)</text>
+  <text x="426" y="234" font-size="16" fill="currentColor">(裏,表,裏)</text>
+  <text x="426" y="266" font-size="16" fill="currentColor">(裏,裏,表)</text>
+  <text x="426" y="298" font-size="16" fill="currentColor">(裏,裏,裏)</text>
+
+  <!-- 表がちょうど2枚の結果に○ -->
+  <text x="506" y="106" font-size="16" text-anchor="middle" fill="currentColor">○</text>
+  <text x="506" y="138" font-size="16" text-anchor="middle" fill="currentColor">○</text>
+  <text x="506" y="202" font-size="16" text-anchor="middle" fill="currentColor">○</text>
+</svg>
