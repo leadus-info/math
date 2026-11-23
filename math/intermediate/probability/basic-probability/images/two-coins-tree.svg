@@ -1,0 +1,37 @@
+<svg viewBox="0 0 400 270" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="2枚の硬貨を投げたときの樹形図。左端の1点から、1枚目の硬貨の表と裏の2本の枝に分かれる。表の枝の先と裏の枝の先は、それぞれ2枚目の硬貨の表と裏の2本の枝にさらに分かれる。右端には上から順に(表,表)、(表,裏)、(裏,表)、(裏,裏)の4通りの結果が並ぶ">
+  <title>2枚の硬貨を投げたときの樹形図。左端の1点から、1枚目の硬貨の表と裏の2本の枝に分かれる。表の枝の先と裏の枝の先は、それぞれ2枚目の硬貨の表と裏の2本の枝にさらに分かれる。右端には上から順に(表,表)、(表,裏)、(裏,表)、(裏,裏)の4通りの結果が並ぶ</title>
+
+  <!-- 列見出し -->
+  <text x="150" y="32" font-size="16" text-anchor="middle" fill="currentColor">1枚目</text>
+  <text x="270" y="32" font-size="16" text-anchor="middle" fill="currentColor">2枚目</text>
+  <text x="351" y="32" font-size="16" text-anchor="middle" fill="currentColor">結果</text>
+
+  <!-- 起点 -->
+  <circle cx="40" cy="160" r="3" fill="currentColor"/>
+
+  <!-- 1枚目の枝 -->
+  <line x1="40" y1="160" x2="136" y2="107" stroke="currentColor" stroke-width="2"/>
+  <line x1="40" y1="160" x2="136" y2="213" stroke="currentColor" stroke-width="2"/>
+  <text x="150" y="111" font-size="16" text-anchor="middle" fill="currentColor">表</text>
+  <text x="150" y="217" font-size="16" text-anchor="middle" fill="currentColor">裏</text>
+
+  <!-- 2枚目の枝 -->
+  <line x1="164" y1="107" x2="256" y2="80" stroke="currentColor" stroke-width="2"/>
+  <line x1="164" y1="107" x2="256" y2="134" stroke="currentColor" stroke-width="2"/>
+  <line x1="164" y1="213" x2="256" y2="186" stroke="currentColor" stroke-width="2"/>
+  <line x1="164" y1="213" x2="256" y2="240" stroke="currentColor" stroke-width="2"/>
+  <text x="270" y="84" font-size="16" text-anchor="middle" fill="currentColor">表</text>
+  <text x="270" y="138" font-size="16" text-anchor="middle" fill="currentColor">裏</text>
+  <text x="270" y="190" font-size="16" text-anchor="middle" fill="currentColor">表</text>
+  <text x="270" y="244" font-size="16" text-anchor="middle" fill="currentColor">裏</text>
+
+  <!-- 枝の先と結果の対応 -->
+  <line x1="284" y1="80" x2="318" y2="80" stroke="currentColor" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="284" y1="134" x2="318" y2="134" stroke="currentColor" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="284" y1="186" x2="318" y2="186" stroke="currentColor" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="284" y1="240" x2="318" y2="240" stroke="currentColor" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="326" y="84" font-size="16" fill="currentColor">(表, 表)</text>
+  <text x="326" y="138" font-size="16" fill="currentColor">(表, 裏)</text>
+  <text x="326" y="190" font-size="16" fill="currentColor">(裏, 表)</text>
+  <text x="326" y="244" font-size="16" fill="currentColor">(裏, 裏)</text>
+</svg>
