@@ -67,6 +67,10 @@ $$180° + 180° = 360°$$
 
 平行四辺形の対辺・対角の性質は、合同を使って確かめられます。平行四辺形 $ABCD$ に対角線 $AC$ を引くと、$AB \parallel DC$ より $\angle BAC = \angle DCA$(錯角)、$AD \parallel BC$ より $\angle BCA = \angle DAC$(錯角)で、$AC$ は共通です。1組の辺とその両端の角がそれぞれ等しいので、三角形 $ABC \equiv$ 三角形 $CDA$ です。したがって $AB = CD$、$BC = DA$(対辺が等しい)、$\angle B = \angle D$ となります。また $\angle A = \angle BAC + \angle DAC = \angle DCA + \angle BCA = \angle C$ なので、対角も等しくなります。
 
+平行四辺形の対角線の性質も、合同を使って確かめられます。対角線 $AC$、$BD$ の交点を $O$ とします。三角形 $ABO$ と三角形 $CDO$ では、$AB = CD$(平行四辺形の対辺は等しい)です。また $AB \parallel DC$ より、$\angle BAO = \angle DCO$、$\angle ABO = \angle CDO$(どちらも錯角)です。$1$ 組の辺とその両端の角がそれぞれ等しいので、この $2$ つの三角形は合同です。したがって $AO = CO$、$BO = DO$ となり、対角線は互いを二等分します。長方形・ひし形・正方形も平行四辺形なので、この性質を持ちます。
+
+長方形 $ABCD$ では、三角形 $ABC$ と三角形 $DCB$ に注目します。$AB = DC$(長方形も平行四辺形なので対辺は等しい)、$BC$ は共通、$\angle ABC = \angle DCB = 90°$ です。$2$ 組の辺とその間の角がそれぞれ等しいので、この $2$ つの三角形は合同です。したがって $AC = DB$ となり、長方形の対角線の長さは等しくなります。正方形は長方形でもあるので、同じ性質を持ちます。
+
 ひし形の「対角線が頂点の角を二等分する」という性質も、合同を使って確かめられます。ひし形 $ABCD$ に対角線 $AC$ を引くと、三角形 $ABC$ と三角形 $ADC$ は、$AB = AD$、$BC = DC$（ひし形の4辺は等しい）、$AC$ は共通なので、3組の辺がそれぞれ等しく合同です。したがって $\angle BAC = \angle DAC$、$\angle BCA = \angle DCA$ となり、対角線 $AC$ は頂点 $A$、$C$ の角を二等分します。対角線 $BD$ についても同様です。
 
 さらに、2本の対角線の交点を $O$ とすると、三角形 $ABO$ と三角形 $ADO$ は、$AB = AD$、$\angle BAO = \angle DAO$(いま示した性質)、$AO$ が共通なので、2組の辺とその間の角がそれぞれ等しく合同です。よって $\angle AOB = \angle AOD$ です。この2つの角は1直線上に並んで合わせて $180°$ なので、どちらも $90°$ です。つまり、ひし形の対角線は垂直に交わります。正方形はひし形でもあるので、同じ性質を持ちます。
@@ -86,18 +90,19 @@ $$180° + 180° = 360°$$
 
 **例題**：四角形 $ABCD$ の対角線 $AC$、$BD$ が点 $O$ で交わり、$AO=CO$、$BO=DO$ であるとき、$ABCD$ が平行四辺形であることを証明する。
 
-![四角形ABCDの対角線ACとBDが点Oで交わり、三角形AOBと三角形COD、対頂角の関係にある角AOBと角COD、辺ACに対する錯角の関係にある角OABと角OCDを示す図](quadrilaterals/images/parallelogram-condition-proof.svg)
+![四角形ABCDの対角線ACとBDが点Oで交わり、三角形AOBと三角形COD、対頂角の関係にある角AOBと角COD、2直線AB・DCに直線ACが交わってできる錯角の関係にある角OABと角OCDを示す図](quadrilaterals/images/parallelogram-condition-proof.svg)
 
 三角形 $AOB$ と三角形 $COD$ に注目する。
 
 - $AO=CO$、$BO=DO$（仮定）、$\angle AOB = \angle COD$（対頂角）より、2組の辺とその間の角がそれぞれ等しい。
 - したがって三角形 $AOB \equiv$ 三角形 $COD$ である。
 - よって $\angle OAB = \angle OCD$ となる。
-- これは辺 $AC$ に対する錯角にあたるので、$AB \parallel DC$ がいえる。
+- $\angle OAB$ と $\angle OCD$ は、$2$ 直線 $AB$、$DC$ に直線 $AC$ が交わってできる錯角である。
+- 錯角が等しいので、$AB \parallel DC$ がいえる。
 
 同様に三角形 $AOD$ と三角形 $COB$ に注目すると、$AD \parallel BC$ もいえる。
 
-![四角形ABCDの対角線ACとBDが点Oで交わり、三角形AODと三角形COB、対頂角の関係にある角AODと角COB、辺ACに対する錯角の関係にある角OADと角OCBを示す図](quadrilaterals/images/parallelogram-condition-proof-2.svg)
+![四角形ABCDの対角線ACとBDが点Oで交わり、三角形AODと三角形COB、対頂角の関係にある角AODと角COB、2直線AD・BCに直線ACが交わってできる錯角の関係にある角OADと角OCBを示す図](quadrilaterals/images/parallelogram-condition-proof-2.svg)
 
 以上より $ABCD$ は平行四辺形である。
 
@@ -109,7 +114,7 @@ $$180° + 180° = 360°$$
 
 **正方形**：一辺 × 一辺です。
 
-**平行四辺形**：頂点から底辺に垂線を下ろし、切り取った三角形を反対側に移動すると、底辺と高さが等しい長方形に組み替えられます。したがって平行四辺形の面積も長方形と同じく、底辺 × 高さです。この組み替えがそのまま使えるのは、垂線が底辺の内側に落ちる場合です。傾きが大きく垂線が底辺の外に出る場合も、細い平行四辺形に分けて考えれば同じく底辺 × 高さになります(詳しくは[四角形(初級編)](../../beginner/geometry/shapes-quadrilateral.md)を参照)。
+**平行四辺形**：頂点から底辺に垂線を下ろし、その垂線で三角形を切り取ります。切り取った三角形を反対側に移動すると、縦が元の高さ、横が元の底辺に等しい長方形に組み替えられます。したがって平行四辺形の面積も長方形と同じく、底辺 × 高さです。この組み替えがそのまま使えるのは、垂線が底辺の内側に落ちる場合です。傾きが大きく垂線が底辺の外に出る場合も、細い平行四辺形に分けて考えれば同じく底辺 × 高さになります(詳しくは[四角形(初級編)](../../beginner/geometry/shapes-quadrilateral.md)を参照)。
 
 ![平行四辺形の端の三角形を切り取り線に沿って切り取り、反対側へ移動させると、たてが高さ、よこが底辺の長方形になることを示す図](quadrilaterals/images/parallelogram-to-rectangle.svg)
 
