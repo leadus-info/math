@@ -37,13 +37,22 @@ requires:
 
 合同条件と同じように、これらは証明の根拠として使えます。
 
+三角形 $ABC$ と三角形 $DEF$ が相似であることを、記号 $\backsim$ を使って $\triangle ABC \backsim \triangle DEF$ と書きます。合同の記号 $\equiv$ と同じく、この記号では対応する頂点を同じ順に並べて書きます。例えば $\triangle ABC \backsim \triangle DEF$ は、$A$ と $D$、$B$ と $E$、$C$ と $F$ がそれぞれ対応する頂点であることを表します。
+
 **例題**：直角三角形 $ABC$（$\angle A = 90°$）の頂点 $A$ から斜辺 $BC$ に垂線を引き、その足を $D$ とするとき、三角形 $ABD$ と三角形 $CBA$ が相似であることを証明する。
 
 ![直角三角形ABC（∠A=90°）の頂点Aから斜辺BCに垂線を引いた足をDとし、三角形ABDの部分を薄く塗って示した図。∠CAB（直角）と∠ADB（直角）、∠ABDと∠CBA（共通の角）の対応関係がわかる](similarity/images/altitude-similarity.svg)
 
-相似な三角形も合同のときと同様に、対応する頂点を同じ順に並べて表記します。ここでは三角形 $ABD$ の頂点 $A$、$B$、$D$ が、それぞれ三角形 $CBA$ の頂点 $C$、$B$、$A$ に対応します（$A \leftrightarrow C$、$B \leftrightarrow B$、$D \leftrightarrow A$）。
+**証明**
 
-三角形 $ABD$ と三角形 $CBA$ に注目すると、$\angle ADB = \angle CAB\,(= \angle A) = 90°$（仮定）、$\angle ABD = \angle CBA$（共通）より、2組の角がそれぞれ等しいので、三角形 $ABD$ と三角形 $CBA$ は相似です。
+三角形 $ABD$ と三角形 $CBA$ において、
+
+- $\angle ADB = \angle CAB = 90°$（仮定）
+- $\angle ABD = \angle CBA$（共通）
+
+よって、$2$ 組の角がそれぞれ等しいので、三角形 $ABD$ と三角形 $CBA$ は相似です。
+
+直角の頂点どうしとして $D$ と $A$、共通の角の頂点どうしとして $B$ と $B$ が対応するので、残りの $A$ と $C$ が対応します。この順に頂点を並べて、$\triangle ABD \backsim \triangle CBA$ と書きます。$\square$
 
 ---
 
@@ -53,7 +62,7 @@ requires:
 
 $$AP:AB = AQ:AC = PQ:BC$$
 
-平行線と線分の比が成り立つのは、三角形 $APQ$ と三角形 $ABC$ が相似だからです。$\angle APQ$ と $\angle ABC$ は、直線 $AB$ が $PQ$、$BC$ と交わってできる同位角です。[平行線と角](angles.md)で見た同位角の性質により、$2$ 直線が平行ならば同位角は等しいので、$PQ \parallel BC$ から $\angle APQ = \angle ABC$ がいえます。さらに $\angle A$ は共通なので、$2$ 組の角がそれぞれ等しく、三角形 $APQ$ と三角形 $ABC$ は相似です。
+平行線と線分の比が成り立つのは、三角形 $APQ$ と三角形 $ABC$ が相似だからです。$\angle APQ$ と $\angle ABC$ は、直線 $AB$ が $PQ$、$BC$ と交わってできる同位角です。[平行線と角](angles.md)で見た同位角の性質により、$2$ 直線が平行ならば同位角は等しいので、$PQ \parallel BC$ から $\angle APQ = \angle ABC$ がいえます。さらに $\angle A$ は共通なので、$2$ 組の角がそれぞれ等しく、$\triangle APQ \backsim \triangle ABC$ です。
 
 ![三角形ABCの辺AB、AC上の点P、QをPQがBCと平行になるようにとると、三角形APQと三角形ABCが相似になることを示す図。∠APQと∠ABCが同じ位置にある同位角であることを弧の印で示している](similarity/images/parallel-side-ratio.svg)
 
@@ -63,13 +72,15 @@ $$AP:AB = AQ:AC = PQ:BC$$
 
 この定理では $PQ \parallel BC$ が仮定ではなく結論なので、平行線と線分の比はそのまま使えません。$P$、$Q$ が中点なので $AP:AB = AQ:AC = 1:2$ であることから出発して、次の $3$ 段階で確かめます。
 
-1. $AP:AB = AQ:AC$ と $\angle A$ が共通であることから、相似条件2（2組の辺の比とその間の角がそれぞれ等しい）より、三角形 $APQ$ と三角形 $ABC$ は相似です。
+1. $AP:AB = AQ:AC$ と $\angle A$ が共通であることから、相似条件2（2組の辺の比とその間の角がそれぞれ等しい）より、$\triangle APQ \backsim \triangle ABC$ です。
 2. 相似より対応する角 $\angle APQ = \angle ABC$ が成り立ちます。この $2$ つの角は、直線 $AB$ が $PQ$、$BC$ と交わってできる同位角です。同位角の性質の逆、すなわち「同位角が等しければ $2$ 直線は平行である」から、$PQ \parallel BC$ が従います。
 3. 相似比が $1:2$ なので、$PQ = \dfrac{1}{2}BC$ も従います。
 
 ---
 
 ## 相似比と面積比・体積比
+
+立体についても、一方を拡大または縮小するともう一方にぴったり重ねられるとき、$2$ つの立体は相似であるといい、対応する線分の長さの比を相似比といいます。例えば相似な $2$ つの円錐では、高さの比も底面の半径の比も、相似比に等しくなります。
 
 相似比が $m:n$ の2つの図形について、対応する長さはすべて $m:n$ の比になりますが、面積・体積はそうなりません。
 
