@@ -1,4 +1,4 @@
-<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="四角形ABCDの対角線ACとBDが点Oで交わり、三角形AODと三角形COB、対頂角の関係にある角AODと角COB、辺ACに対する錯角の関係にある角OADと角OCBを示す図">
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="四角形ABCDの対角線ACとBDが点Oで交わり、三角形AODと三角形COB、対頂角の関係にある角AODと角COB、2直線AD・BCに直線ACが交わってできる錯角の関係にある角OADと角OCBを示す図">
   <polygon points="70,90 340,140 330,290 60,240" fill="none" stroke="currentColor" stroke-width="2"/>
   <line x1="70" y1="90" x2="330" y2="290" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
   <line x1="340" y1="140" x2="60" y2="240" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 3"/>
