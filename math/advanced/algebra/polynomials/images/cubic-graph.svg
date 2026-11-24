@@ -24,10 +24,10 @@
 
   <!-- x-intercepts: x = -sqrt3, 0, sqrt3 -->
   <circle cx="82.54" cy="240" r="3" fill="currentColor"/>
-  <text x="64" y="288" font-size="12" text-anchor="middle" fill="currentColor">-√3</text>
+  <text x="88" y="257" font-size="12" text-anchor="start" fill="currentColor">-√3</text>
   <circle cx="240" cy="240" r="3" fill="currentColor"/>
   <circle cx="397.46" cy="240" r="3" fill="currentColor"/>
-  <text x="416" y="288" font-size="12" text-anchor="middle" fill="currentColor">√3</text>
+  <text x="392" y="232" font-size="12" text-anchor="end" fill="currentColor">√3</text>
 
   <!-- extrema -->
   <circle cx="149.09" cy="80" r="3.5" fill="currentColor"/>
