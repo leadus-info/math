@@ -112,7 +112,11 @@ $$z = r\cos\theta + (r\sin\theta)i = r(\cos\theta + i\sin\theta)$$
 $a=r\cos\theta$、$b=r\sin\theta$ より $\cos\theta=\dfrac{1}{2}$、$\sin\theta=\dfrac{\sqrt3}{2}$ なので、$\theta=\dfrac{\pi}{3}$（$=60°$）。\
 よって $1+\sqrt3\,i=2\left(\cos\dfrac{\pi}{3}+i\sin\dfrac{\pi}{3}\right)$。
 
-極形式では、掛け算の意味が明確になります。
+---
+
+## 極形式での掛け算
+
+極形式を使うと、掛け算の意味が明確になります。
 
 $$r_1(\cos\theta_1 + i\sin\theta_1) \times r_2(\cos\theta_2 + i\sin\theta_2) = r_1 r_2\bigl(\cos(\theta_1+\theta_2) + i\sin(\theta_1+\theta_2)\bigr)$$
 
@@ -121,6 +125,10 @@ $$r_1(\cos\theta_1 + i\sin\theta_1) \times r_2(\cos\theta_2 + i\sin\theta_2) = r
 $$r_1 r_2\bigl[(\cos\theta_1\cos\theta_2 - \sin\theta_1\sin\theta_2) + i(\sin\theta_1\cos\theta_2+\cos\theta_1\sin\theta_2)\bigr]$$
 
 三角関数の加法定理より、これは $r_1 r_2\bigl(\cos(\theta_1+\theta_2)+i\sin(\theta_1+\theta_2)\bigr)$ に等しくなり、右辺と一致します。
+
+$\cos^2\varphi+\sin^2\varphi=1$ なので、$r>0$ のとき $|r(\cos\varphi+i\sin\varphi)|=\sqrt{r^2\cos^2\varphi+r^2\sin^2\varphi}=r$ です。\
+そのため、積 $r_1r_2\bigl(\cos(\theta_1+\theta_2)+i\sin(\theta_1+\theta_2)\bigr)$ の絶対値は $r_1r_2$ です。\
+これより、$0$ でない複素数 $z_1,z_2$ について $|z_1z_2|=|z_1||z_2|$ が成り立ちます。
 
 つまり、複素数の掛け算は「絶対値を掛け合わせ、偏角を足し合わせる」操作です。\
 幾何的には、$r_2(\cos\theta_2 + i\sin\theta_2)$ を掛けることは、原点のまわりに $\theta_2$ だけ回転し、原点からの距離を $r_2$ 倍することにあたります。\
@@ -152,11 +160,24 @@ $$\left(x+\frac{b}{2a}\right)^2=\frac{b^2-4ac}{4a^2}$$
 > 例えば $\sqrt{-1}\times\sqrt{-1}=i\times i=-1$ ですが、$\sqrt{(-1)\times(-1)}=\sqrt1=1$ です。\
 > 負の数の平方根は、先に $i$ を使った形に直してから計算します。
 
-これで、$D<0$ のときも $\sqrt D=\sqrt{-D}\,i$ が決まります。\
-$D\geq0$ のときも $D<0$ のときも、$(\sqrt D)^2=D$ が成り立ちます。\
-複素数も実数と同じ規則（分配法則など）で計算できるので、平方完成の式は次のように因数分解できます。
+これで、$D<0$ のときも $\sqrt D$ が決まります。\
+$D<0$ なら $-D>0$ なので、上の $s$ を $-D$ として $\sqrt D=\sqrt{-D}\,i$ です。\
+$D\geq0$ のときも $D<0$ のときも、$(\sqrt D)^2=D$ が成り立ちます。
 
-$$\left(x+\frac{b}{2a}\right)^2-\left(\frac{\sqrt D}{2a}\right)^2=\left(x-\frac{-b+\sqrt D}{2a}\right)\left(x-\frac{-b-\sqrt D}{2a}\right)=0$$
+複素数も実数と同じ規則（分配法則など）で計算できるので、平方完成の式を次の手順で変形できます。\
+まず、右辺 $\dfrac{D}{4a^2}$ を左辺に移します。\
+次に、$(\sqrt D)^2=D$ より $\dfrac{D}{4a^2}=\left(\dfrac{\sqrt D}{2a}\right)^2$ と書き直します。\
+さらに、和と差の積の公式 $A^2-B^2=(A-B)(A+B)$ を、$A=x+\dfrac{b}{2a}$、$B=\dfrac{\sqrt D}{2a}$ として使います。\
+最後に、各因数を $x-(\text{数})$ の形に整えます。
+
+$$
+\begin{aligned}
+\left(x+\frac{b}{2a}\right)^2-\frac{D}{4a^2}&=0\\
+\left(x+\frac{b}{2a}\right)^2-\left(\frac{\sqrt D}{2a}\right)^2&=0\\
+\left(x+\frac{b}{2a}-\frac{\sqrt D}{2a}\right)\left(x+\frac{b}{2a}+\frac{\sqrt D}{2a}\right)&=0\\
+\left(x-\frac{-b+\sqrt D}{2a}\right)\left(x-\frac{-b-\sqrt D}{2a}\right)&=0
+\end{aligned}
+$$
 
 複素数でも、2つの数の積が $0$ なら、少なくとも一方は $0$ です。\
 一方が $0$ でなければ、その数で両辺を割ると、もう一方が $0$ になるからです。\
@@ -208,7 +229,7 @@ $$(\cos\theta+i\sin\theta)^n = \cos n\theta + i\sin n\theta$$
 
 $n=0$ のときは、両辺とも $1$ となり成り立ちます。
 
-$n$ が負の整数の場合に備えて、まず $\cos\theta+i\sin\theta$ の逆数を求めます。極形式の節で示した掛け算の公式（加法定理）を使うと、
+$n$ が負の整数の場合に備えて、まず $\cos\theta+i\sin\theta$ の逆数を求めます。「極形式での掛け算」の節で示した公式（加法定理）を使うと、
 
 $$(\cos\theta+i\sin\theta)(\cos(-\theta)+i\sin(-\theta)) = \cos(\theta-\theta)+i\sin(\theta-\theta) = \cos 0+i\sin 0 = 1$$
 
@@ -232,25 +253,35 @@ $-m\theta=n\theta$ なので、$n$ が負の整数のときも定理が成り立
 
 $n$ を正の整数とします。$z^n=1$ を満たす複素数 $z$ を、**1の $n$ 乗根**といいます。
 
-まず、両辺の絶対値を取ると $|z|^n=1$ です。
+$0^n=0$ なので、$z^n=1$ を満たす $z$ は $0$ ではありません。\
+「極形式での掛け算」の節で示した $|z_1z_2|=|z_1||z_2|$ を、$z$ を $n$ 個掛けた積に繰り返し使うと、$|z^n|=|z|^n$ です。\
+そこで $z^n=1$ の両辺の絶対値を取ると、$|z|^n=1$ となります。
 
-極形式の節で見たように、複素数の積の絶対値は各々の絶対値の積になります（$r_1(\cos\theta_1+i\sin\theta_1) \times r_2(\cos\theta_2+i\sin\theta_2) = r_1 r_2(\cdots)$ で $r=|z|$ に対応する部分、すなわち $|z_1z_2|=|z_1||z_2|$）。
-
-これを $z$ を $n$ 個掛けた積に繰り返し使うと、$|z^n|=|z|^n$ となるので、先ほどの式が得られます。$|z|$ は0以上の実数なので $|z|=1$ です。よって $z=\cos\theta+i\sin\theta$ とおけます。
+$|z|$ は $0$ 以上の実数です。\
+$0\leq|z|<1$ なら $|z|^n<1$、$|z|>1$ なら $|z|^n>1$ です。\
+したがって $|z|^n=1$ となるのは $|z|=1$ のときだけです。\
+$z\neq0$ なので $z$ は極形式で表せ、$r=|z|=1$ より $z=\cos\theta+i\sin\theta$ とおけます。
 
 これにド・モアブルの定理を使うと、
 
 $$\cos n\theta+i\sin n\theta=1$$
 
-複素平面上で偏角 $n\theta$ の点が $1$（実軸上の点）を指すのは、$n\theta$ が $2\pi$ の整数倍のときに限られるので、
+右辺の $1$ は $1+0i$ なので、複素数の相等より $\cos n\theta=1$ かつ $\sin n\theta=0$ です。\
+単位円上で座標が $(1,0)$ になるのは、角が $2\pi$ の整数倍のときに限られます。\
+したがって、次の式が成り立ちます。
 
 $$n\theta = 2k\pi \quad (k\text{は整数})$$
 
 したがって $\theta=\dfrac{2k\pi}{n}$ です。
 
-$k=0,1,\ldots,n-1$ のとき、$\theta=\dfrac{2k\pi}{n}$ は $0$ 以上 $2\pi$ 未満の範囲で相異なる値を取るため、対応する点もすべて異なります。
+$k=0,1,\ldots,n-1$ のとき、$\theta=\dfrac{2k\pi}{n}$ は $0$ 以上 $2\pi$ 未満の相異なる値です。\
+そのため、対応する $n$ 個の点はすべて異なります。
 
-$k$ を $n$ だけずらすと $\theta$ は $2\pi$ の整数倍だけ変わり、同じ点を指します。以上の2点により、相異なる点を与える $k$ は $0,1,\ldots,n-1$ の $n$ 個に限られます。
+それ以外の整数 $k$ も、この $n$ 個のどれかと同じ点になります。\
+$k$ を $n$ で割った商を $l$、余りを $j$ とすると、$k=nl+j$（$j$ は $0,1,\ldots,n-1$ のいずれか）と書けます。\
+このとき $\dfrac{2k\pi}{n}=\dfrac{2j\pi}{n}+2l\pi$ なので、$k$ の点は偏角が $2\pi$ の整数倍だけ違うだけで、$k=j$ の点と同じです。
+
+以上より、1の $n$ 乗根は次のちょうど $n$ 個です。
 
 $$z_k = \cos\frac{2k\pi}{n}+i\sin\frac{2k\pi}{n} \quad (k=0,1,\ldots,n-1)$$
 
