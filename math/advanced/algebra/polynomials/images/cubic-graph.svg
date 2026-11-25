@@ -1,4 +1,4 @@
-<svg viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="f(x) = x^3 - 3x のグラフ。曲線は3点 x = -√3, 0, √3 でx軸と交わる。x = -1 で山(高さ2)になり、x = 1 で谷(深さ-2)になる。">
+<svg viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="f(x) = x^3 - 3x のグラフ。曲線は3点 x = -√3, 0, √3 でx軸と交わる。x = -1 で山(高さ2)になり、x = 1 で谷(高さ-2)になる。">
   <defs>
     <marker id="arrow-cubic" viewBox="0 0 10 10" refX="9" refY="5"
             markerWidth="6" markerHeight="6" orient="auto-start-reverse">
@@ -24,10 +24,10 @@
 
   <!-- x-intercepts: x = -sqrt3, 0, sqrt3 -->
   <circle cx="82.54" cy="240" r="3" fill="currentColor"/>
-  <text x="64" y="288" font-size="12" text-anchor="middle" fill="currentColor">-√3</text>
+  <text x="88" y="257" font-size="12" text-anchor="start" fill="currentColor">-√3</text>
   <circle cx="240" cy="240" r="3" fill="currentColor"/>
   <circle cx="397.46" cy="240" r="3" fill="currentColor"/>
-  <text x="416" y="288" font-size="12" text-anchor="middle" fill="currentColor">√3</text>
+  <text x="392" y="232" font-size="12" text-anchor="end" fill="currentColor">√3</text>
 
   <!-- extrema -->
   <circle cx="149.09" cy="80" r="3.5" fill="currentColor"/>
